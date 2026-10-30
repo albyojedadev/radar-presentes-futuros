@@ -5,6 +5,18 @@ const ROOT_RADAR = path.resolve(__dirname, '..', '..', '_AUTOMATIZACIONES_E_INFO
 const OUT_DIR = path.resolve(__dirname, '..', 'public', 'data');
 const OUT_FILE = path.join(OUT_DIR, 'dataset.json');
 
+// Si no existe la carpeta local de automatizaciones (por ejemplo, en el entorno de compilación de Vercel),
+// conservamos intacto el dataset.json ya compilado y commiteado en el repositorio.
+if (!fs.existsSync(ROOT_RADAR)) {
+  console.log("ℹ️ Entorno Cloud/Vercel detectado: No existe carpeta local de automatizaciones.");
+  if (fs.existsSync(OUT_FILE)) {
+    console.log("✅ Conservando dataset.json pre-compilado en el repositorio.");
+  } else {
+    console.warn("⚠️ Advertencia: No se encontró dataset.json preexistente.");
+  }
+  process.exit(0);
+}
+
 // 1. Cargar fuentes
 const fuentesPath = path.join(ROOT_RADAR, 'fuentes.json');
 let fuentesConfig = {};

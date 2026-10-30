@@ -1,45 +1,16 @@
 "use client";
 
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { Header } from "@/components/Header";
 import { RadarPresentesView } from "@/components/RadarPresentesView";
 import { HemerotecaView } from "@/components/HemerotecaView";
 import { AnuariosView } from "@/components/AnuariosView";
 import { RadarFuturosView } from "@/components/RadarFuturosView";
-import { Radio } from "lucide-react";
+import datasetStatic from "@/public/data/dataset.json";
 
 export default function Home() {
   const [vistaActiva, setVistaActiva] = useState<"presentes" | "hemeroteca" | "anuarios" | "futuros">("presentes");
-  const [dataset, setDataset] = useState<any>(null);
-  const [cargando, setCargando] = useState<boolean>(true);
-
-  useEffect(() => {
-    fetch("/data/dataset.json")
-      .then((res) => res.json())
-      .then((data) => {
-        setDataset(data);
-        setCargando(false);
-      })
-      .catch((err) => {
-        console.error("Error al cargar dataset:", err);
-        setCargando(false);
-      });
-  }, []);
-
-  if (cargando) {
-    return (
-      <div className="flex min-h-screen items-center justify-center bg-[#090d16]">
-        <div className="flex flex-col items-center gap-3">
-          <div className="flex h-12 w-12 items-center justify-center rounded-2xl border border-sky-500/30 bg-sky-500/10 text-sky-400">
-            <Radio className="h-6 w-6 animate-pulse" />
-          </div>
-          <p className="font-mono text-xs text-slate-400">
-            CARGANDO RADAR GLOBAL // 357 SEMANAS & ANUARIOS...
-          </p>
-        </div>
-      </div>
-    );
-  }
+  const dataset = datasetStatic;
 
   return (
     <div className="min-h-screen bg-[#090d16] text-slate-100 flex flex-col justify-between">
