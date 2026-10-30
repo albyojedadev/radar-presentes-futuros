@@ -75,8 +75,21 @@ if (fs.existsSync(semanasDir)) {
   }
 }
 
-// 5. Catálogo de Hipótesis de Futuro (Radar de Futuros)
-const hipotesisFuturos = [
+// 5. Cargar Hipótesis de Futuro (Las 22 hipótesis reales de futures_radar.db)
+let hipotesisFuturos = [];
+const hipotesisDbPath = path.join(OUT_DIR, 'hipotesis_db.json');
+if (fs.existsSync(hipotesisDbPath)) {
+  try {
+    hipotesisFuturos = JSON.parse(fs.readFileSync(hipotesisDbPath, 'utf8'));
+    console.log(`✅ Cargadas ${hipotesisFuturos.length} hipótesis activas reales desde hipotesis_db.json`);
+  } catch (e) {
+    console.warn("⚠️ Error al leer hipotesis_db.json:", e);
+  }
+}
+
+// Fallback si no existe hipotesis_db.json
+if (!hipotesisFuturos || hipotesisFuturos.length === 0) {
+  hipotesisFuturos = [
   {
     id: "FUT-01",
     titulo: "Bifurcación del Estándar Tecnológico Global (Pila Dual Occidente vs. Oriente)",
@@ -288,6 +301,7 @@ const hipotesisFuturos = [
     ]
   }
 ];
+}
 
 // 6. Escribir el dataset consolidado
 os_dataset = {
