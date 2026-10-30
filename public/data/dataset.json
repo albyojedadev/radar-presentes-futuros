@@ -1,0 +1,3489 @@
+{
+  "fechaGeneracion": "2026-10-30T22:46:25.166Z",
+  "fuentesConfig": {
+    "ES": {
+      "nombre": "España",
+      "bloque": "Europa del Sur",
+      "fuentes": [
+        {
+          "medio": "El País",
+          "url": "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/portada",
+          "perfil": "Centro-Izquierda / Generalista"
+        },
+        {
+          "medio": "El Mundo",
+          "url": "https://e00-elmundo.uecdn.es/elmundo/rss/portada.xml",
+          "perfil": "Centro-Derecha / Generalista"
+        },
+        {
+          "medio": "El Confidencial",
+          "url": "https://rss.elconfidencial.com/espana/",
+          "perfil": "Digital / Investigación y Opinión"
+        },
+        {
+          "medio": "Expansión",
+          "url": "https://e00-expansion.uecdn.es/rss/portada.xml",
+          "perfil": "Económico / Financiero"
+        }
+      ]
+    },
+    "FR": {
+      "nombre": "Francia",
+      "bloque": "Europa Continental",
+      "fuentes": [
+        {
+          "medio": "Le Monde",
+          "url": "https://www.lemonde.fr/rss/une.xml",
+          "perfil": "Centro-Izquierda / Referencia"
+        },
+        {
+          "medio": "Le Figaro",
+          "url": "https://www.lefigaro.fr/rss/figaro_actualites.xml",
+          "perfil": "Conservador / Tradicional"
+        },
+        {
+          "medio": "France 24",
+          "url": "https://www.france24.com/es/rss",
+          "perfil": "Internacional / Geopolítico"
+        }
+      ]
+    },
+    "DE": {
+      "nombre": "Alemania",
+      "bloque": "Europa Central",
+      "fuentes": [
+        {
+          "medio": "Deutsche Welle",
+          "url": "https://rss.dw.com/rdf/rss-sp-all",
+          "perfil": "Internacional / Público"
+        },
+        {
+          "medio": "Der Spiegel",
+          "url": "https://www.spiegel.de/schlagzeilen/index.rss",
+          "perfil": "Investigación / Centro"
+        },
+        {
+          "medio": "Tagesschau",
+          "url": "https://www.tagesschau.de/xml/rss2/",
+          "perfil": "Público / ARD"
+        }
+      ]
+    },
+    "UK": {
+      "nombre": "Reino Unido",
+      "bloque": "Mundo Anglosajón Europeo",
+      "fuentes": [
+        {
+          "medio": "BBC News (World)",
+          "url": "http://feeds.bbci.co.uk/news/world/rss.xml",
+          "perfil": "Público / Global"
+        },
+        {
+          "medio": "The Guardian (World)",
+          "url": "https://www.theguardian.com/world/rss",
+          "perfil": "Progresista / Investigación"
+        },
+        {
+          "medio": "Sky News (World)",
+          "url": "https://feeds.skynews.com/feeds/rss/world.xml",
+          "perfil": "Televisión / Actualidad en Directo"
+        }
+      ]
+    },
+    "EU": {
+      "nombre": "Europa Institucional",
+      "bloque": "Unión Europea",
+      "fuentes": [
+        {
+          "medio": "Euronews",
+          "url": "https://es.euronews.com/rss?format=mrss",
+          "perfil": "Comunitario / Multilingüe"
+        },
+        {
+          "medio": "Politico Europe",
+          "url": "https://www.politico.eu/feed/",
+          "perfil": "Regulatorio / Políticas UE"
+        }
+      ]
+    },
+    "US": {
+      "nombre": "Estados Unidos",
+      "bloque": "Norteamérica",
+      "fuentes": [
+        {
+          "medio": "The New York Times",
+          "url": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+          "perfil": "Liberal / Establishment"
+        },
+        {
+          "medio": "NPR News",
+          "url": "https://feeds.npr.org/1001/rss.xml",
+          "perfil": "Público / Nacional"
+        },
+        {
+          "medio": "Wall Street Journal (World)",
+          "url": "https://feeds.a.dj.com/rss/RSSWorldNews.xml",
+          "perfil": "Financiero / Conservador"
+        }
+      ]
+    },
+    "LATAM": {
+      "nombre": "Latinoamérica",
+      "bloque": "América Latina",
+      "fuentes": [
+        {
+          "medio": "BBC News Mundo",
+          "url": "https://feeds.bbci.co.uk/mundo/rss.xml",
+          "perfil": "Pana-regional / Generalista"
+        },
+        {
+          "medio": "Infobae América",
+          "url": "https://www.infobae.com/arc/outboundfeeds/rss/?outputType=xml",
+          "perfil": "Cobertura continental / Noticias en directo"
+        },
+        {
+          "medio": "Clarín (Argentina)",
+          "url": "https://www.clarin.com/rss/lo-ultimo/",
+          "perfil": "Cono Sur"
+        },
+        {
+          "medio": "Aristegui Noticias (México)",
+          "url": "https://aristeguinoticias.com/feed/",
+          "perfil": "México / Investigación"
+        }
+      ]
+    },
+    "AFRICA": {
+      "nombre": "África",
+      "bloque": "Continente Africano",
+      "fuentes": [
+        {
+          "medio": "The Africa Report",
+          "url": "https://www.theafricareport.com/feed/",
+          "perfil": "Geopolítica / Economía Africana"
+        },
+        {
+          "medio": "Jeune Afrique",
+          "url": "https://www.jeuneafrique.com/feed/",
+          "perfil": "África Francófona / Magreb"
+        },
+        {
+          "medio": "AllAfrica (Headlines)",
+          "url": "https://allafrica.com/tools/headlines/rdf/latest/headlines.rdf",
+          "perfil": "Panafricano / Noticias directas"
+        }
+      ]
+    },
+    "CHINA": {
+      "nombre": "China",
+      "bloque": "Asia-Pacífico / Eje Oriental",
+      "fuentes": [
+        {
+          "medio": "South China Morning Post",
+          "url": "https://www.scmp.com/rss/91/feed",
+          "perfil": "Regional / Negocios e Internacional"
+        },
+        {
+          "medio": "Global Times (English)",
+          "url": "https://www.globaltimes.cn/rss/outbrain.xml",
+          "perfil": "Oficialista / Perspectiva Exterior"
+        },
+        {
+          "medio": "Xinhua News (World)",
+          "url": "http://www.xinhuanet.com/english/rss/worldrss.xml",
+          "perfil": "Agencia Estatal de Noticias"
+        }
+      ]
+    }
+  },
+  "noticiasHoy": {
+    "fecha": "2026-10-30",
+    "timestamp": "2026-10-30 21:42:49",
+    "regiones": {
+      "ES": {
+        "nombre": "España",
+        "bloque": "Europa del Sur",
+        "fuentes": [
+          {
+            "medio": "El País",
+            "perfil": "Centro-Izquierda / Generalista",
+            "noticias": [
+              {
+                "titulo": "Óscar Puente descarta dimitir: “Mi forma de ser responsable es dar la cara”",
+                "url": "https://elpais.com/economia/2026-10-30/oscar-puente-comparece-para-hablar-del-accidente-de-urda-dos-dias-despues-de-la-tragedia.html",
+                "resumen": "El ministro dice que solo dejaría su puesto si viera que su continuidad supone un obstáculo para el proyecto del Gobierno progresista",
+                "fecha": "Fri, 30 Oct 2026 14:57:58 GMT"
+              },
+              {
+                "titulo": "El Gobierno se plantea parar el tráfico en la línea de alta velocidad Madrid-Barcelona durante las obras de remodelación",
+                "url": "https://elpais.com/economia/2026-10-30/puente-valora-parar-la-linea-de-ave-madrid-barcelona-durante-las-obras-de-remodelacion.html",
+                "resumen": "Después de los dos accidentes graves en la reformada Madrid-Sevilla, el ministro de Transportes apunta que se está considerando esta opción “por múltiples razones”. Las actuaciones comenzarán en 2027 en el tramo entre Madrid y Calatayud",
+                "fecha": "Fri, 30 Oct 2026 12:24:12 GMT"
+              },
+              {
+                "titulo": "Los controladores de Atocha ordenaron seguir el protocolo equivocado antes del choque entre el AVE y el Iryo: “Me estaba liando”",
+                "url": "https://elpais.com/espana/2026-10-30/los-controladores-de-atocha-ordenaron-seguir-el-protocolo-equivocado-antes-del-choque-entre-el-ave-y-el-iryo-me-estaba-liando.html",
+                "resumen": "Los supervisores eligieron el LZB 4, que permite optar por la máxima velocidad, mientras que procedía el LZB 3, que la limita para que se pueda frenar ante un obstáculo",
+                "fecha": "Fri, 30 Oct 2026 04:30:01 GMT"
+              },
+              {
+                "titulo": "Los expertos señalan problemas en el sistema que van más allá del error cometido por el operario que daba instrucciones desde Atocha",
+                "url": "https://elpais.com/espana/2026-10-30/preguntas-y-respuestas-sobre-el-accidente-de-urda-lo-que-explican-y-lo-que-no-los-audios-entre-los-maquinistas-y-el-centro-de-control.html",
+                "resumen": "Especialistas del sector analizan de forma pormenorizada los audios del día de la tragedia",
+                "fecha": "Fri, 30 Oct 2026 04:30:01 GMT"
+              }
+            ],
+            "estado": "OK",
+            "total": 4
+          },
+          {
+            "medio": "El Mundo",
+            "perfil": "Centro-Derecha / Generalista",
+            "noticias": [
+              {
+                "titulo": "El sistema de señalización en el tramo Madrid-Sevilla, explicado en gráficos",
+                "url": "https://www.elmundo.es/espana/2026/10/28/6ae236b621efa012638b4600.html",
+                "resumen": "Las causas de la colisión que provocó el descarrilamiento de varios vagones y la interrupción de la circulación entre Madrid y Sevilla sigue bajo investigación. Las medidas de seguridad en la Alta Velocidad están siendo cuestionadas. Leer",
+                "fecha": "Thu, 29 Oct 2026 19:54:30 +0100"
+              },
+              {
+                "titulo": "¿Cómo pueden informarse los familiares? Teléfonos de atención a víctimas y allegados y puntos de ayuda para los afectados por el accidente de tren de Urda (Toledo)",
+                "url": "https://www.elmundo.es/espana/2026/10/28/6ae1d18be85eced9488b458e.html",
+                "resumen": "Renfe e Iryo activan sus protocolos de asistencia a las víctimas Leer",
+                "fecha": "Wed, 28 Oct 2026 13:47:22 +0100"
+              },
+              {
+                "titulo": "El Ministerio de Transportes certificó, 21 días antes de la tragedia de Urda, que la red ferroviaria española estaba \"en niveles aceptables de riesgo\"",
+                "url": "https://www.elmundo.es/economia/empresas/2026/10/28/6ae22636fdddffcd688b45c5.html",
+                "resumen": "La Agencia Estatal de Seguridad Ferroviaria rechazó el 7 de octubre la petición de las víctimas de Adamuz de paralizar el tráfico de trenes Leer",
+                "fecha": "Thu, 29 Oct 2026 10:44:21 +0100"
+              },
+              {
+                "titulo": "Puente puso su cargo a disposición de Sánchez, que respalda su continuidad: \"Si creyera que perjudico al proyecto, habría dado un paso al lado\"",
+                "url": "https://www.elmundo.es/espana/2026/10/30/6ae46f3321efa006478b4596.html",
+                "resumen": "\"Lo fácil sería salir, pero ni va con mi carácter ni el presidente me lo ha pedido\", asegura el ministro de Transportes durante su comparecencia para explicar el choque de trenes que ha dejado 69 fallecidos Leer",
+                "fecha": "Fri, 30 Oct 2026 14:42:06 +0100"
+              }
+            ],
+            "estado": "OK",
+            "total": 4
+          },
+          {
+            "medio": "El Confidencial",
+            "perfil": "Digital / Investigación y Opinión",
+            "noticias": [],
+            "estado": "OK",
+            "total": 0
+          },
+          {
+            "medio": "Expansión",
+            "perfil": "Económico / Financiero",
+            "noticias": [
+              {
+                "titulo": "Anthropic podría no obtener el grado de inversión tras su OPV, según Blackstone",
+                "url": "https://www.expansion.com/economia/financial-times/2026/10/30/anthropic-podria-obtener-calificacion-grado-inversion-opv.html",
+                "resumen": "Blackstone cambia sus previsiones previas e informa a sus inversores de que se espera que el grupo de IA reciba una calificación en el rango alto de bono basura. Leer",
+                "fecha": "Fri, 30 Oct 2026 18:52:32 +0100"
+              },
+              {
+                "titulo": "El Ibex cae hasta los 18.600 puntos tras perder un 4% en octubre, su peor mes desde marzo",
+                "url": "https://www.expansion.com/mercados/2026/10/30/ibex-intenta-resistir-tormenta-tecnologica.html",
+                "resumen": "Las Bolsas europeas han despedido la última sesión del mes con caídas, en una jornada marcada por una nueva oleada bajista en las tecnológicas. El Ibex se ha dejado un 1,09% hasta los 18.652,90 puntos, en mínimos desde junio. El selectivo español ha perdido un 1,77% en la semana.",
+                "fecha": "Fri, 30 Oct 2026 07:56:48 +0100"
+              },
+              {
+                "titulo": "El Nasdaq cae un 5,3% en su peor mes desde marzo de 2025",
+                "url": "https://www.expansion.com/mercados/2026/10/30/intel-amazon-desatan-oleada-bajista-tecnologicas.html",
+                "resumen": "El índice de las empresas tecnológicas despide octubre con una caída del 2,86%. Las compañías de chips se dejan un 7%, con Intel sufriendo la mayor caída de su historia, y Apple supera a Nvidia como empresa más valiosa de Wall Street. Leer",
+                "fecha": "Fri, 30 Oct 2026 08:58:44 +0100"
+              },
+              {
+                "titulo": "Por qué Apple arrasa en Bolsa al resto de los 7 Magníficos",
+                "url": "https://www.expansion.com/mercados/el-foco-del-dia/2026/10/30/apple-arrasa-bolsa-resto-7-magnificos.html",
+                "resumen": "Refugio ante el desplome de Alphabet y Amazon. Leer",
+                "fecha": "Fri, 30 Oct 2026 01:11:18 +0100"
+              }
+            ],
+            "estado": "OK",
+            "total": 4
+          }
+        ]
+      },
+      "FR": {
+        "nombre": "Francia",
+        "bloque": "Europa Continental",
+        "fuentes": [
+          {
+            "medio": "Le Monde",
+            "perfil": "Centro-Izquierda / Referencia",
+            "noticias": [
+              {
+                "titulo": "Manifestation du 31 octobre à Paris : le tribunal administratif suspend l’arrêté de la Préfecture de police interdisant le parcours entre Bastille et Nation, souhaité par l’intersyndicale",
+                "url": "https://www.lemonde.fr/societe/article/2026/10/30/manifestation-du-31-octobre-a-paris-le-tribunal-administratif-suspend-l-arrete-de-la-prefecture-de-police-interdisant-la-manifestation-entre-bastille-et-nation-souhaite-par-l-intersyndicale_6803066_3225.html",
+                "resumen": "La Préfecture de police de Paris privilégiait un autre parcours, unique, entre la porte de Bagnolet et la porte de Charenton, avec un départ de cortège fixé à 14 heures. Le ministre de l’intérieur, Laurent Nuñez, a annoncé que le préfet allait faire appel de la décision.",
+                "fecha": "Fri, 30 Oct 2026 18:38:46 +0100"
+              },
+              {
+                "titulo": "Attentat de Trappes : le récit en vidéo d’une attaque terroriste au mobile raciste",
+                "url": "https://www.lemonde.fr/videos/video/2026/10/30/attentat-de-trappes-le-recit-en-video-d-une-attaque-terroriste-au-mobile-raciste_6803127_1669088.html",
+                "resumen": "Les éléments de l’enquête révélés par le procureur de la République antiterroriste jeudi permettent d’en savoir plus sur le déroulé et les motivations du suspect de l’attentat raciste de Trappes qui a fait un mort et plusieurs blessés vendredi 23 octobre.",
+                "fecha": "Fri, 30 Oct 2026 18:45:40 +0100"
+              },
+              {
+                "titulo": "EN DIRECT, midterms 2026 : Ted Cruz s’inquiète de la mobilisation démocrate et redoute une défaite au Texas",
+                "url": "https://www.lemonde.fr/international/live/2026/10/30/en-direct-midterms-2026-ted-cruz-s-inquiete-de-la-mobilisation-democrate-et-redoute-une-defaite-au-texas_6801590_3210.html",
+                "resumen": "« Nous pourrions perdre toutes les élections à l’échelle de l’Etat » a averti le sénateur républicain, à quelques jours des élections de mi-mandat du 3 novembre.",
+                "fecha": "Fri, 30 Oct 2026 20:13:03 +0100"
+              },
+              {
+                "titulo": "En Pologne, le président du Tribunal constitutionnel écarté, la police déployée à Varsovie",
+                "url": "https://www.lemonde.fr/international/article/2026/10/30/en-pologne-le-president-du-tribunal-constitutionnel-ecarte-la-police-deployee-a-varsovie_6803134_3210.html",
+                "resumen": "Des dizaines de policiers antiémeute barrent l’accès à l’enceinte de la plus haute juridiction aux nombreux militants du parti national conservateur Droit et justice venus soutenir le magistrat.",
+                "fecha": "Fri, 30 Oct 2026 21:12:22 +0100"
+              }
+            ],
+            "estado": "OK",
+            "total": 4
+          },
+          {
+            "medio": "Le Figaro",
+            "perfil": "Conservador / Tradicional",
+            "noticias": [
+              {
+                "titulo": "Pertes colossales, clients criminels, modèles toujours incontrôlables… Ces petits secrets honteux qu’Anthropic révèle dans 335 pages à destination des investisseurs",
+                "url": "https://www.lefigaro.fr/secteur/high-tech/pertes-colossales-clients-criminels-modeles-toujours-incontrolables-ces-petits-secrets-honteux-qu-anthropic-revele-dans-335-pages-a-destination-des-investisseurs-20261030",
+                "resumen": "DÉCRYPTAGE - La firme californienne, qui ne sait pas si elle atteindra un jour la rentabilité, joue la carte de la transparence et liste les nombreux problèmes auxquelles elle fait face, et tous ceux qui vont s’aggraver au fil des mois.",
+                "fecha": "Fri, 30 Oct 2026 22:16:55 +0100"
+              },
+              {
+                "titulo": "« Nous n’avons plus besoin de votre système pourri pour nous exprimer » : quand Jean-Luc Mélenchon déclare la guerre aux médias",
+                "url": "https://www.lefigaro.fr/actualite-france/nous-n-avons-plus-besoin-de-votre-systeme-pourri-pour-nous-exprimer-lfi-et-les-medias-extension-du-domaine-de-la-conflictualisation-20261030",
+                "resumen": "RÉCIT - Les attaques du fondateur de LFI contre les médias se multiplient, s’intensifient et se diversifient, contribuant à alimenter un climat de défiance généralisée.",
+                "fecha": "Fri, 30 Oct 2026 20:15:35 +0100"
+              },
+              {
+                "titulo": "Crise politique en Pologne : le président du tribunal constitutionnel écarté, la police anti-émeutes déployée",
+                "url": "https://www.lefigaro.fr/international/crise-politique-en-pologne-le-president-du-tribunal-constitutionnel-ecarte-la-police-anti-emeutes-deployee-20261030",
+                "resumen": "Des dizaines de policiers anti-émeutes empêchaient l’accès à l’enceinte de la plus haute juridiction polonaise aux nombreux soutiens du parti national-conservateur Droit et Justice (PiS, opposition). La cour dénonce un «coup d’État».",
+                "fecha": "Fri, 30 Oct 2026 21:50:24 +0100"
+              },
+              {
+                "titulo": "« Acte III » des manifestations : un nouveau samedi de tous les dangers pour l’exécutif",
+                "url": "https://www.lefigaro.fr/actualite-france/acte-iii-des-manifestations-un-nouveau-samedi-de-tous-les-dangers-pour-l-executif-20261030",
+                "resumen": "DÉCRYPTAGE - La troisième journée de mobilisation nationale, ce samedi 31 octobre, est considérée « à risque très élevé » par le ministère de l’Intérieur.",
+                "fecha": "Fri, 30 Oct 2026 18:55:11 +0100"
+              }
+            ],
+            "estado": "OK",
+            "total": 4
+          },
+          {
+            "medio": "France 24",
+            "perfil": "Internacional / Geopolítico",
+            "noticias": [
+              {
+                "titulo": "Manifestaciones, milicias de extrema derecha, Halloween… un fin de semana de gran tensión en Francia",
+                "url": "https://www.france24.com/es/europa/20261030-manifestaciones-milicias-de-extrema-derecha-halloween-un-fin-de-semana-de-gran-tensi%C3%B3n-en-francia",
+                "resumen": "Los sindicatos, las organizaciones juveniles y los chalecos amarillos convocaron una tercera jornada de movilización para el sábado 31 de octubre. Ante el riesgo de que se produzcan disturbios, las autoridades anunciaron que movilizarán a 70.000 policías y gendarmes. Los actos vi",
+                "fecha": "Fri, 30 Oct 2026 20:49:52 GMT"
+              },
+              {
+                "titulo": "¿Por qué Perú archiva la investigación de las esterilizaciones forzadas en el Gobierno de Fujimori?",
+                "url": "https://www.france24.com/es/programas/en-contexto/20261030-por-qu%C3%A9-per%C3%BA-archiva-la-investigaci%C3%B3n-de-las-esterilizaciones-forzadas-en-el-gobierno-de-fujimori",
+                "resumen": "En nuestra sección En Contexto analizamos por qué la Fiscalía de Perú decidió archivar una investigación sobre casos de esterilizaciones forzadas durante los Gobiernos del fallecido Alberto Fujimori. La decisión se apoya en una norma que amnistía crímenes de lesa humanidad cometi",
+                "fecha": "Fri, 30 Oct 2026 20:16:51 GMT"
+              },
+              {
+                "titulo": "Informe desde Trappes: homenajes a las víctimas del tiroteo racista",
+                "url": "https://www.france24.com/es/video/20261030-informe-desde-trappes-homenajes-a-las-v%C3%ADctimas-del-tiroteo-racista",
+                "resumen": "Cientos de personas llegaron a Trappes, Francia, para participar en el homenaje a las víctimas del ataque racista del 23 de octubre. Varias figuras de la izquierda y candidatos a la Presidencia participarán en el acto. Informe de nuestra periodista Natalia Ruiz.",
+                "fecha": "Fri, 30 Oct 2026 19:37:51 GMT"
+              },
+              {
+                "titulo": "Binance denuncia hackeo de 6.300 millones de dólares, atribuido a grupo norcoreano",
+                "url": "https://www.france24.com/es/video/20261030-binance-denuncia-hackeo-de-6-300-millones-de-d%C3%B3lares-atribuido-a-grupo-norcoreano",
+                "resumen": "La mayor plataforma de intercambio de criptomonedas del mundo, Binance, denunció un ataque informático que comprometió 6.300 millones de dólares en activos, de los cuales 3.000 millones ya fueron congelados. Firmas de seguridad digital y prevención de delitos financieros señalaro",
+                "fecha": "Fri, 30 Oct 2026 19:37:18 GMT"
+              }
+            ],
+            "estado": "OK",
+            "total": 4
+          }
+        ]
+      },
+      "DE": {
+        "nombre": "Alemania",
+        "bloque": "Europa Central",
+        "fuentes": [
+          {
+            "medio": "Deutsche Welle",
+            "perfil": "Internacional / Público",
+            "noticias": [],
+            "estado": "OK",
+            "total": 0
+          },
+          {
+            "medio": "Der Spiegel",
+            "perfil": "Investigación / Centro",
+            "noticias": [
+              {
+                "titulo": "Nelly soll für Auftritt bei Taylor-Swift-Tour 50.000 Dollar bekommen haben",
+                "url": "https://www.spiegel.de/kultur/musik/nelly-soll-fuer-auftritt-bei-taylor-swift-tour-50-000-dollar-bekommen-haben-a-eca91177-f571-4459-86a0-b944c6b357fd#ref=rss",
+                "resumen": "»Eines Abends rief mich diese Frau völlig unerwartet an«: In einer Radiosendung plaudert Rapper Nelly darüber, wie es einst zu einem Gastauftritt auf der Tour von Popsuperstar Taylor Swift kam.",
+                "fecha": "Fri, 30 Oct 2026 22:13:00 +0100"
+              },
+              {
+                "titulo": "Polen: Polizeieinsatz bei eskalierendem Streit über das Verfassungsgericht",
+                "url": "https://www.spiegel.de/ausland/polen-polizeieinsatz-bei-eskalierendem-streit-ueber-das-verfassungsgericht-a-47bdca85-d4e4-48da-8688-d3c40f2065ad#ref=rss",
+                "resumen": "Polizisten vor dem Gebäude, eine abgebrochene Reise zu einem Staatsbesuch und widersprüchliche Mitteilungen aus dem Gericht: In Warschau spitzt sich ein Machtkampf über das Verfassungsgericht zu.",
+                "fecha": "Fri, 30 Oct 2026 21:51:00 +0100"
+              },
+              {
+                "titulo": "Ukraine-Krieg: USA genehmigen Verkauf von 500 Patriot-Abwehrraketen",
+                "url": "https://www.spiegel.de/ausland/ukraine-krieg-usa-genehmigen-verkauf-von-500-patriot-abwehrraketen-a-2a082d3f-12c3-4c6d-8ef0-a9be89feb674#ref=rss",
+                "resumen": "Das US-Außenministerium hat den Verkauf von 500 Patriot-Raketen an die Ukraine freigegeben. Zuvor hatte es Streit zwischen US-Präsident Trump und dem ukrainischen Präsidenten Selenskyj über verzögerte Lieferungen gegeben.",
+                "fecha": "Fri, 30 Oct 2026 21:40:00 +0100"
+              },
+              {
+                "titulo": "Mexiko: Rekord-Skelettfrau »Catrina« wacht über Mexiko-Stadt",
+                "url": "https://www.spiegel.de/netzwelt/web/mexiko-rekord-skelettfrau-catrina-wacht-ueber-mexiko-stadt-a-d65fd94d-3d9f-412e-a09c-33a85bc90b2b#ref=rss",
+                "resumen": "Hierzulande wird am Wochenende Allerheiligen begangen, in Mexiko zelebriert man den »Tag der Toten«. In der Hauptstadt gibt es noch einen weiteren Grund zu feiern.",
+                "fecha": "Fri, 30 Oct 2026 21:03:00 +0100"
+              }
+            ],
+            "estado": "OK",
+            "total": 4
+          },
+          {
+            "medio": "Tagesschau",
+            "perfil": "Público / ARD",
+            "noticias": [
+              {
+                "titulo": "Binance will alle Verluste nach Hackerangriff ersetzen",
+                "url": "https://www.tagesschau.de/wirtschaft/technologie/usa-binance-hackerangriff-verluste-100.html",
+                "resumen": "Nach einem Hackerangriff mit einem Schaden von 6,3 Milliarden Dollar will Binance alle Verluste ersetzen. Der Fall zeigt, wie verwundbar Kryptowerte sind, und wirft Fragen zur Sicherheit digitaler Anlagen auf.",
+                "fecha": "Fri, 30 Oct 2026 21:21:33 +0100"
+              },
+              {
+                "titulo": "\"Allianz für die Zukunft\": Kanada und Europa gründen Bündnis",
+                "url": "https://www.tagesschau.de/ausland/amerika/kanada-eu-allianz-zukunft-100.html",
+                "resumen": "Die EU und Kanada gründen in Montreal eine \"Allianz für die Zukunft\". Ziel ist mehr Unabhängigkeit und eine engere Zusammenarbeit von KI bis Raumfahrt. Auch die Ukraine spielt eine Rolle.",
+                "fecha": "Fri, 30 Oct 2026 19:59:17 +0100"
+              },
+              {
+                "titulo": "USA: Bereitet Newsom eine Präsidentschaftskandidatur vor?",
+                "url": "https://www.tagesschau.de/ausland/amerika/usa-midterms-newsom-ambitionen-100.html",
+                "resumen": "Der Wahlkampf in den USA ist für Politiker auch eine Gelegenheit, sich zu positionieren - für die Präsidentschaftswahl 2028. Kaliforniens Gouverneur Newsom werden Ambitionen nachgesagt - doch es gibt viele Vorbehalte. Von R. Spiegelhauer.",
+                "fecha": "Fri, 30 Oct 2026 19:46:53 +0100"
+              },
+              {
+                "titulo": "Zelda, WoW und GTA VI: Warum die Games noch immer faszinieren",
+                "url": "https://www.tagesschau.de/kultur/videospiel-klassiker-100.html",
+                "resumen": "Zelda, WoW und GTA: Der November bietet für Gamer gleich drei neu aufgelegte Videospiel-Klassiker. Warum lösen die jahrzehntealten Game-Reihen noch immer solche Begeisterung aus? Von Samira Straub",
+                "fecha": "Fri, 30 Oct 2026 19:27:55 +0100"
+              }
+            ],
+            "estado": "OK",
+            "total": 4
+          }
+        ]
+      },
+      "UK": {
+        "nombre": "Reino Unido",
+        "bloque": "Mundo Anglosajón Europeo",
+        "fuentes": [
+          {
+            "medio": "BBC News (World)",
+            "perfil": "Público / Global",
+            "noticias": [
+              {
+                "titulo": "Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea",
+                "url": "https://www.bbc.co.uk/news/articles/cwe8lp7zy07zo?at_medium=RSS&at_campaign=rss",
+                "resumen": "The cyber-attack, which the company describes as complex, is believed to be the largest ever of its kind.",
+                "fecha": "Fri, 30 Oct 2026 21:13:14 GMT"
+              },
+              {
+                "titulo": "US inmate Christa Pike says she woke up 'confused and in pain' after failed execution",
+                "url": "https://www.bbc.co.uk/news/articles/ck62ydn7dj9eo?at_medium=RSS&at_campaign=rss",
+                "resumen": "It is Pike's first public statement since she survived an execution attempt by lethal injection in September.",
+                "fecha": "Fri, 30 Oct 2026 17:07:19 GMT"
+              },
+              {
+                "titulo": "Hundreds evacuated from Russian-occupied Oleshky during rare Ukraine ceasefire",
+                "url": "https://www.bbc.co.uk/news/articles/c60me298k1yeo?at_medium=RSS&at_campaign=rss",
+                "resumen": "Hundreds of people are also understood to have stayed in the front-line town, despite the dangers.",
+                "fecha": "Fri, 30 Oct 2026 16:26:11 GMT"
+              },
+              {
+                "titulo": "Police deployed during stand-off over control of Poland's top court",
+                "url": "https://www.bbc.co.uk/news/articles/crz9824d5e88o?at_medium=RSS&at_campaign=rss",
+                "resumen": "It comes after the government suspended two senior justices and moved to bring criminal charges against them.",
+                "fecha": "Fri, 30 Oct 2026 20:52:01 GMT"
+              }
+            ],
+            "estado": "OK",
+            "total": 4
+          },
+          {
+            "medio": "The Guardian (World)",
+            "perfil": "Progresista / Investigación",
+            "noticias": [
+              {
+                "titulo": "Sinkholes, scarred land and scapegoats: the scourge of illegal gold mining in Johannesburg",
+                "url": "https://www.theguardian.com/business/2026/oct/30/sinkholes-scarred-land-scapegoats-illegal-gold-mining-johannesburg",
+                "resumen": "There is no end in sight for the drivers of illegal mining, while police action appears ineffective Cora Bailey has been encountering illegal miners ever since she first started treating injured animals in the townships around Roodepoort, west of Johannesburg, in 1991. But as the",
+                "fecha": "Fri, 30 Oct 2026 05:00:45 GMT"
+              },
+              {
+                "titulo": "Sudanese diaspora and human rights groups denounce UAE nominee for UN top job",
+                "url": "https://www.theguardian.com/world/2026/oct/30/sudanese-diaspora-human-rights-groups-denounce-uae-nominee-un-top-job",
+                "resumen": "Critics cite Lana Nusseibeh’s denial of accusations the UAE is fuelling Sudan war by supporting paramilitary RSF Members of the Sudanese diaspora and international human rights monitors have denounced the candidature of an Emirati diplomat for the top job at the UN, citing her de",
+                "fecha": "Fri, 30 Oct 2026 05:00:45 GMT"
+              },
+              {
+                "titulo": "Egypt fines prominent editor Lina Attalah and shuts independent news outlet Mada Masr",
+                "url": "https://www.theguardian.com/world/2026/oct/28/egypt-lina-attalah-mada-masr-press-freedom-clampdown",
+                "resumen": "Warnings of escalating clampdown on press freedom come after Cairo court convicts Attalah of managing an unlicensed website Lina Attalah, a prominent Egyptian journalist and the editor-in-chief of the news outlet Mada Masr, has been released from detention by Egypt’s authorities ",
+                "fecha": "Wed, 28 Oct 2026 14:16:24 GMT"
+              },
+              {
+                "titulo": "Africa’s ‘unprecedented’ Ebola outbreak could reach UK, says top health official",
+                "url": "https://www.theguardian.com/global-development/2026/oct/28/africa-ebola-outbreak-could-reach-uk-says-top-health-official",
+                "resumen": "Jean Kaseya, of the Africa CDC, warns of the illness spreading like Covid unless more funding is secured to increase preparedness and possible treatment The “unprecedented” spread of the Ebola outbreak means it could reach the UK and other countries, according to one of Africa’s ",
+                "fecha": "Wed, 28 Oct 2026 09:37:49 GMT"
+              }
+            ],
+            "estado": "OK",
+            "total": 4
+          },
+          {
+            "medio": "Sky News (World)",
+            "perfil": "Televisión / Actualidad en Directo",
+            "noticias": [
+              {
+                "titulo": "Crypto industry suffers 'largest bank heist in human history'",
+                "url": "https://news.sky.com/story/crypto-worth-billions-frozen-over-potential-security-issue-13605627",
+                "resumen": "Cryptocurrency worth more than $6.3bn (£4.7bn) has been stolen from a major exchange - with one industry insider telling Sky News it is \"the largest bank heist in human history\".",
+                "fecha": "Thu, 29 Oct 2026 23:40:00 +0000"
+              },
+              {
+                "titulo": "G20 photocall axed after Miliband and other ministers refuse to be pictured with top Russian diplomat",
+                "url": "https://news.sky.com/story/g20-photocall-cancelled-after-ed-miliband-and-other-foreign-ministers-refuse-to-be-pictured-with-russias-sergei-lavrov-13605874",
+                "resumen": "A photocall of foreign ministers was cancelled by the US after the UK's Foreign Secretary Ed Miliband and other European counterparts refused to be pictured with Russia's envoy Sergei Lavrov.",
+                "fecha": "Fri, 30 Oct 2026 18:00:00 +0000"
+              },
+              {
+                "titulo": "Bugatti CEO chases down car thief - then offers him lift home",
+                "url": "https://news.sky.com/story/bugattis-ceo-mate-rimac-chases-down-car-thief-then-offers-him-lift-home-13605756",
+                "resumen": "The head of the luxury car-maker Bugatti has promised to stop leaving his keys in his own car after his £2m model was stolen from a company site in Zagreb.",
+                "fecha": "Fri, 30 Oct 2026 14:52:00 +0000"
+              },
+              {
+                "titulo": "AI-powered 'doorbell cameras' tested to alert people to approaching polar bears",
+                "url": "https://news.sky.com/story/ai-powered-doorbell-cameras-tested-to-cut-risk-of-rising-human-encounters-with-polar-bears-13605711",
+                "resumen": "Artificial intelligence-powered \"doorbell cameras\" are being tested by a team of international experts in Canada to warn communities about approaching polar bears as climate change increases the risk of dangerous encounters.",
+                "fecha": "Fri, 30 Oct 2026 11:49:00 +0000"
+              }
+            ],
+            "estado": "OK",
+            "total": 4
+          }
+        ]
+      },
+      "EU": {
+        "nombre": "Europa Institucional",
+        "bloque": "Unión Europea",
+        "fuentes": [
+          {
+            "medio": "Euronews",
+            "perfil": "Comunitario / Multilingüe",
+            "noticias": [
+              {
+                "titulo": "El voto anticipado hispano sube un 80% en Estados Unidos, según la organización Voto Latino",
+                "url": "https://es.euronews.com/2026/10/30/voto-anticipado-hispano-sube-80-por-ciento-eeuu-segun-voto-latino",
+                "resumen": "Más de 5,2 millones de hispanos ya han votado de forma anticipada para las elecciones de medio mandato en EE.UU., un 80% más que en 2022. Desde Voto Latino califican la movilización como un \"tsunami\" en el que los electores acuden a las urnas al ser conscientes de \"lo que está en",
+                "fecha": "Fri, 30 Oct 2026 22:35:39 +0100"
+              },
+              {
+                "titulo": "Estados Unidos cancela la foto del G20 tras el rechazo de diplomáticos europeos a Lavrov",
+                "url": "https://es.euronews.com/2026/10/30/estados-unidos-cancela-la-foto-del-g20-tras-el-rechazo-de-diplomaticos-europeos-a-lavrov",
+                "resumen": "La reunión en Atlanta se celebrará según lo previsto, antes de la cumbre de líderes del G20 que el presidente Donald Trump acogerá en su club de golf de Miami en diciembre.",
+                "fecha": "Fri, 30 Oct 2026 22:19:02 +0100"
+              },
+              {
+                "titulo": "Canadá y la UE cerrarán antes de junio de 2027 la \"membresía asociada\", según Carney",
+                "url": "https://es.euronews.com/2026/10/30/canada-y-la-ue-cerraran-antes-de-junio-de-2027-la-membresia-asociada-segun-carney",
+                "resumen": "Mark Carney ha fijado junio de 2027 como fecha límite para convertir a Canadá en el primer \"miembro asociado\" de la Unión Europea, una categoría sin precedentes ferozmente rechazada por Alemania.",
+                "fecha": "Fri, 30 Oct 2026 22:05:26 +0100"
+              },
+              {
+                "titulo": "Grand Slam de Abu Dabi 2026: Los pesos medios brillan en el segundo día",
+                "url": "https://es.euronews.com/2026/10/30/grand-slam-de-abu-dabi-2026-los-pesos-medios-brillan-en-el-segundo-dia",
+                "resumen": "¡La segunda jornada del Grand Slam de Abu Dabi estuvo llena de emoción! Angelika Szymanska, Hassan Doukkali, Tais Pina y Petru Pelivan conquistaron el oro, con títulos históricos de Grand Slam para Marruecos y Moldavia.",
+                "fecha": "Fri, 30 Oct 2026 21:56:26 +0100"
+              }
+            ],
+            "estado": "OK",
+            "total": 4
+          },
+          {
+            "medio": "Politico Europe",
+            "perfil": "Regulatorio / Políticas UE",
+            "noticias": [
+              {
+                "titulo": "Tusk-Nawrocki battle escalates as chief judge is ousted from Poland’s top court",
+                "url": "https://www.politico.eu/article/tusk-nawrocki-battle-escalates-chief-judge-ousted-from-polands-top-court/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+                "resumen": "A bid to remove the court’s nationalist-linked leadership sparked accusations of a coup and clashes between protesters and police in Warsaw.",
+                "fecha": "Fri, 30 Oct 2026 21:12:50 +0000"
+              },
+              {
+                "titulo": "Mark Carney puts deadline on EU ‘associate membership’ push",
+                "url": "https://www.politico.eu/article/mark-carney-puts-deadline-on-eu-associate-membership-push/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+                "resumen": "Canadian prime minister backs “the deepest possible partnership” with the bloc, but questions over its cost and differences on trade remain.",
+                "fecha": "Fri, 30 Oct 2026 19:11:14 +0000"
+              },
+              {
+                "titulo": "The Rutte way or the Carney method? Scaramucci says Europe’s Trump strategy is off the Mark",
+                "url": "https://www.politico.eu/article/mark-rutte-mark-carney-donald-trump-anthony-scaramucci-white-house-strategy-europe/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+                "resumen": "The former White House comms chief described two models of behavior displayed by the NATO secretary-general and the Canadian prime minister.",
+                "fecha": "Fri, 30 Oct 2026 14:32:19 +0000"
+              },
+              {
+                "titulo": "Russian citizen faces spying charges in Poland after photographing railways",
+                "url": "https://www.politico.eu/article/russian-citizen-detained-in-poland-over-espionage/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+                "resumen": "The suspect was arrested while taking pictures at an unguarded railway crossing.",
+                "fecha": "Fri, 30 Oct 2026 13:35:45 +0000"
+              }
+            ],
+            "estado": "OK",
+            "total": 4
+          }
+        ]
+      },
+      "US": {
+        "nombre": "Estados Unidos",
+        "bloque": "Norteamérica",
+        "fuentes": [
+          {
+            "medio": "The New York Times",
+            "perfil": "Liberal / Establishment",
+            "noticias": [
+              {
+                "titulo": "U.S. to Send Dozens Back to Afghanistan, Despite Risk of Persecution",
+                "url": "https://www.nytimes.com/2026/10/30/world/asia/afghan-refugees-deported-flight-pakistan.html",
+                "resumen": "The Trump administration plans to fly the Afghan immigrants from Louisiana to Pakistan, where they are expected to be expelled over the border to Afghanistan.",
+                "fecha": "Fri, 30 Oct 2026 18:53:37 +0000"
+              },
+              {
+                "titulo": "Traffic Control Errors Caused Spain’s Deadly Train Crash, Official Says",
+                "url": "https://www.nytimes.com/2026/10/30/world/europe/spain-crash-contoller-errors.html",
+                "resumen": "The transport minister said a judge would investigate controllers’ actions, including authorizing a train to proceed at high speed though another was stalled in front of it.",
+                "fecha": "Fri, 30 Oct 2026 18:06:15 +0000"
+              },
+              {
+                "titulo": "Could El Salvador’s Bukele Be Haiti’s Savior?",
+                "url": "https://www.nytimes.com/2026/10/30/world/americas/el-salvador-haiti-soldiers-bukele.html",
+                "resumen": "The Salvadoran government dispatched more than 2,000 troops to Haiti this week in an extraordinary deployment on foreign soil.",
+                "fecha": "Fri, 30 Oct 2026 20:06:07 +0000"
+              },
+              {
+                "titulo": "Israel’s Election Is Unlikely to Change Its Policies and Global Isolation",
+                "url": "https://www.nytimes.com/2026/10/30/world/europe/israel-election-netanyahu-eisenkot.html",
+                "resumen": "The leading contenders, Prime Minister Benjamin Netanyahu and Gadi Eisenkot, aren’t substantially different in their approach to Israel’s security or in their opposition to a Palestinian state.",
+                "fecha": "Fri, 30 Oct 2026 09:03:38 +0000"
+              }
+            ],
+            "estado": "OK",
+            "total": 4
+          },
+          {
+            "medio": "NPR News",
+            "perfil": "Público / Nacional",
+            "noticias": [
+              {
+                "titulo": "ICE activity is surging ahead of midterms. So is voter turnout.",
+                "url": "https://www.npr.org/2026/10/30/nx-s1-6023331/ice-activity-surge-midterms",
+                "resumen": "Across the country, there are reports of heightened ICE activity. Advocates worry about how close it is to midterms, but so far voter turnout is surging.",
+                "fecha": "Fri, 30 Oct 2026 13:45:27 -0400"
+              },
+              {
+                "titulo": "NPR special: 5 takeaways from a year of listening to swing voters",
+                "url": "https://www.npr.org/2026/10/30/nx-s1-6008113/npr-special-swing-voter-focus-groups",
+                "resumen": "Every election, there is a crucial sliver of voters who help determine which candidates win. Here are five takeaways from a year of listening to voters who backed Biden in 2020 and then Trump in 2024.",
+                "fecha": "Fri, 30 Oct 2026 11:00:00 -0400"
+              },
+              {
+                "titulo": "Blockchain intelligence firms link North Korea to $6.3B hack on Binance",
+                "url": "https://www.npr.org/2026/10/30/g-s1-150902/blockchain-intelligence-firms-link-north-korea-to-6-3b-hack-on-binance",
+                "resumen": "The world's biggest cryptocurrency exchange reported Thursday that approximately $6.3 billion was impacted in an apparent hack.",
+                "fecha": "Fri, 30 Oct 2026 09:01:22 -0400"
+              },
+              {
+                "titulo": "Why is the Cheesecake Factory at the center of the latest culture war?",
+                "url": "https://www.npr.org/2026/10/30/nx-s1-6023106/cheesecake-factory-culture-war-affordability-trump-obama",
+                "resumen": "A joke by former President Obama has gone viral and received backlash from the Trump administration as the issue of affordability looms large over next week's midterm elections.",
+                "fecha": "Fri, 30 Oct 2026 08:00:31 -0400"
+              }
+            ],
+            "estado": "OK",
+            "total": 4
+          },
+          {
+            "medio": "Wall Street Journal (World)",
+            "perfil": "Financiero / Conservador",
+            "noticias": [
+              {
+                "titulo": "Palestinians Stream Back to Northern Gaza on Foot",
+                "url": "https://www.wsj.com/articles/palestinians-flock-back-to-northern-gaza-on-foot-after-hostage-release-breakthrough-3f60e2db",
+                "resumen": "Israel allowed displaced Gazans to begin crossing a military zone that bisects the enclave after a deadlock over hostage releases was broken.",
+                "fecha": "Mon, 27 Jan 2025 14:23:00 -0500"
+              },
+              {
+                "titulo": "Leading China Property Developer Reports Huge loss, in Sign of Widening Real-Estate Woes",
+                "url": "https://www.wsj.com/articles/even-chinas-property-stalwart-isnt-immune-from-the-crisis-19799863",
+                "resumen": "Troubles at Vanke raise questions about the continued spread of the property crisis and whether the Chinese state will step in.",
+                "fecha": "Mon, 27 Jan 2025 12:32:00 -0500"
+              },
+              {
+                "titulo": "Freed Israeli Hostages Still Had Shrapnel in Their Bodies From Oct. 7 Attack",
+                "url": "https://www.wsj.com/articles/freed-israeli-hostages-still-had-shrapnel-in-their-bodies-from-oct-7-attack-3de8cd1e",
+                "resumen": "Some of the women were held alone for extended periods and spent eight months in tunnels, an Israeli medical official said.",
+                "fecha": "Mon, 27 Jan 2025 12:12:00 -0500"
+              },
+              {
+                "titulo": "Suspected Sabotage of Deep-Sea Cable Triggers First NATO-Led Response",
+                "url": "https://www.wsj.com/articles/suspected-sabotage-of-deep-sea-cable-triggers-first-nato-led-response-337119ba",
+                "resumen": "The alliance mounted its first coordinated response to a suspected sabotage campaign against critical infrastructure after another cable was severed in the Baltic Sea.",
+                "fecha": "Mon, 27 Jan 2025 11:22:00 -0500"
+              }
+            ],
+            "estado": "OK",
+            "total": 4
+          }
+        ]
+      },
+      "LATAM": {
+        "nombre": "Latinoamérica",
+        "bloque": "América Latina",
+        "fuentes": [
+          {
+            "medio": "BBC News Mundo",
+            "perfil": "Pana-regional / Generalista",
+            "noticias": [
+              {
+                "titulo": "Las claves del ultimátum de Bukele a las poderosas bandas de Haití tras el secuestro de 4 militares salvadoreños",
+                "url": "https://www.bbc.com/mundo/watch/cq9vz31j8xpko?at_medium=RSS&at_campaign=rss",
+                "resumen": "El presidente de El Salvador ha enviado 2.000 militares a Haití para tratar de rescatar a los 4 soldados secuestrados por las pandillas.",
+                "fecha": "Fri, 30 Oct 2026 18:27:04 GMT"
+              },
+              {
+                "titulo": "Un hackeo a la empresa Binance afecta a US$6.300 millones en activos digitales, el mayor robo de criptomonedas conocido",
+                "url": "https://www.bbc.com/mundo/articles/cvze42lk562ko?at_medium=RSS&at_campaign=rss",
+                "resumen": "Dos empresas de análisis atribuyen el incidente a una unidad de piratería informática de Corea del Norte llamada TraderTraitor.",
+                "fecha": "Fri, 30 Oct 2026 15:15:00 GMT"
+              },
+              {
+                "titulo": "\"No ha habido un solo momento desde esa noche en que no sienta dolor\": Christa Pike habla por primera vez desde su fallida ejecución por inyección letal",
+                "url": "https://www.bbc.com/mundo/articles/c674pd105v54o?at_medium=RSS&at_campaign=rss",
+                "resumen": "Esta es la primera declaración pública de Pike desde que sobrevivió a un intento de ejecución mediante inyección letal en septiembre.",
+                "fecha": "Fri, 30 Oct 2026 13:54:17 GMT"
+              },
+              {
+                "titulo": "Elecciones en EE.UU.: cómo influye la dura política migratoria de Trump en el bastión latino republicano del sur de Florida",
+                "url": "https://www.bbc.com/mundo/articles/cm78pl5w7qq9o?at_medium=RSS&at_campaign=rss",
+                "resumen": "De la mano de Donald Trump, los republicanos han ido ganando mayor representación en el sur de Florida durante los últimos 10 años. Sin embargo, la impopularidad de Trump en 2026 arroja dudas sobre la capacidad de los conservadores de mantener estos apoyos.",
+                "fecha": "Fri, 30 Oct 2026 15:02:54 GMT"
+              }
+            ],
+            "estado": "OK",
+            "total": 4
+          },
+          {
+            "medio": "Infobae América",
+            "perfil": "Cobertura continental / Noticias en directo",
+            "noticias": [
+              {
+                "titulo": "El peor día de Intel desde 1974: cayeron sus acciones 28,58%",
+                "url": "https://www.infobae.com/tecno/2026/10/30/el-peor-dia-de-intel-desde-1974-cayeron-sus-acciones-2858/",
+                "resumen": "El fenómeno de Intel alcanzó a otras empresas tecnológicas. Las acciones de Nvidia bajaron 4,22% y las de ASUS retrocedieron 4,63%",
+                "fecha": "Fri, 30 Oct 2026 21:38:39 +0000"
+              },
+              {
+                "titulo": "Capturan a Inés Gómez Mont en Florida: lleva años prófuga de la justicia mexicana",
+                "url": "https://www.infobae.com/mexico/2026/10/30/capturan-a-ines-gomez-mont-en-florida-lleva-anos-profuga-de-la-justicia-mexicana/",
+                "resumen": "La detención de la conductora reabre el expediente por el presunto desvío de cerca de 3 mil millones de pesos junto a su esposo Víctor Manuel Álvarez Puga",
+                "fecha": "Fri, 30 Oct 2026 21:38:18 +0000"
+              },
+              {
+                "titulo": "EN VIVO | Homenaje a Cuauhtémoc Cárdenas: comienza la ceremonia en Palacio de Bellas Artes",
+                "url": "https://www.infobae.com/mexico/2026/10/30/en-vivo-homenaje-a-cuauhtemoc-cardenas-en-el-palacio-de-bellas-artes-sigue-el-minuto-a-minuto/",
+                "resumen": "El político mexicano murió el pasado miércoles 28 de octubre a los 92 años de edad en la Ciudad de México",
+                "fecha": "Fri, 30 Oct 2026 21:37:30 +0000"
+              },
+              {
+                "titulo": "Corte Suprema acusó al excongresista liberal Eduar Luis Benjumea por presunta corrupción en la asignación de recursos para obras en Sucre",
+                "url": "https://www.infobae.com/colombia/2026/10/30/corte-suprema-acuso-al-excongresista-liberal-eduar-luis-benjumea-por-presunta-corrupcion-en-la-asignacion-de-recursos-para-obras-en-sucre/",
+                "resumen": "La investigación está relacionada con un supuesto acuerdo económico de hasta $500 millones que habría sido ofrecido al exrepresentante a la Cámara para intervenir en la consecución de recursos destinados a un contrato de obra pública en el municipio de Galeras",
+                "fecha": "Fri, 30 Oct 2026 21:36:29 +0000"
+              }
+            ],
+            "estado": "OK",
+            "total": 4
+          },
+          {
+            "medio": "Clarín (Argentina)",
+            "perfil": "Cono Sur",
+            "noticias": [
+              {
+                "titulo": "Wall Street cierra con fuerte caída tras desplome en el sector tecnológico",
+                "url": "https://www.clarin.com/estados-unidos/wall-street-cierra-con-fuerte-caida-tras-desplome-en-el-sector-tecnologico_0_mahBuvL6rK.html",
+                "resumen": "El mercado bursátil estadounidense sufrió una caída significativa, arrastrado por el sector tecnológico tras los resultados de Amazon e Intel. La incertidumbre sobre la rentabilidad de la inteligencia artificial influye en las inversiones, mientras el índice Nasdaq cae un 2,86%.",
+                "fecha": "Fri, 30 Oct 2026 21:30:05 +0000"
+              },
+              {
+                "titulo": "Vuelve a su casa: le dieron prisión domiciliaria al bioquímico de Esquel acusado de mantener cautiva a su familia en la vivienda",
+                "url": "https://www.clarin.com/sociedad/vuelve-casa-dieron-prision-domiciliaria-bioquimico-esquel-acusado-mantener-cautiva-familia-vivienda_0_QwIdPq1qi8.html",
+                "resumen": "A Miguel Battista (71) lo imputaron por privación ilegítima de la libertad y abandono de persona por tener en cautiverio a su esposa e hijos. La resolución desestimó el pedido de la Fiscalía de mantener al sospechoso en una cárcel.",
+                "fecha": "Fri, 30 Oct 2026 21:27:10 +0000"
+              },
+              {
+                "titulo": "\"Vayan a leer libro\": El enojo de Emilia Mernes por las críticas a sus canciones",
+                "url": "https://www.clarin.com/fama/vayan-leer-libro-enojo-emilia-mernes-criticas-canciones_0_bYLw0Wq4gx.html",
+                "resumen": "La cantante defendió su trabajo musical ante los cuestionamientos por las letras de sus temas. Ocurrió tras el lanzamiento de su nuevo sencillo, Bodypainting .",
+                "fecha": "Fri, 30 Oct 2026 21:23:00 +0000"
+              },
+              {
+                "titulo": "Quiniela de la Provincia: resultado del sorteo de la Vespertina de hoy, viernes 30 de octubre",
+                "url": "https://www.clarin.com/loterias-y-quinielas/quiniela-provincia-resultado-sorteo-vespertina-hoy-viernes-30-octubre_0_5a3jQvvRAw.html",
+                "resumen": "Conocé qué números salieron hoy a la cabeza y todo lo que necesitás saber. A cruzar los dedos.",
+                "fecha": "Fri, 30 Oct 2026 21:22:25 +0000"
+              }
+            ],
+            "estado": "OK",
+            "total": 4
+          },
+          {
+            "medio": "Aristegui Noticias (México)",
+            "perfil": "México / Investigación",
+            "noticias": [],
+            "estado": "OK",
+            "total": 0
+          }
+        ]
+      },
+      "AFRICA": {
+        "nombre": "África",
+        "bloque": "Continente Africano",
+        "fuentes": [
+          {
+            "medio": "The Africa Report",
+            "perfil": "Geopolítica / Economía Africana",
+            "noticias": [
+              {
+                "titulo": "Cameroon: How Paul Biya locked down the transition to democracy",
+                "url": "https://www.theafricareport.com/435001/cameroon-how-paul-biya-locked-down-the-transition-to-democracy/",
+                "resumen": "In 1991, with ‘ghost town’ strikes paralysing the country, the president refused the sovereign national conference demanded by the opposition and imposed tripartite talks instead, which opened on 30 October. The move helped divide his opponents and paved the way for his disputed ",
+                "fecha": "Fri, 30 Oct 2026 15:00:00 +0000"
+              },
+              {
+                "titulo": "A year after the military coup: Authoritarianism dashes Gen Z aspirations for a new Madagascar",
+                "url": "https://www.theafricareport.com/435004/a-year-after-the-military-coup-authoritarianism-dashes-gen-z-aspirations-for-a-new-madagascar/",
+                "resumen": "In the year since Colonel Michael Randrianirina seized power in a military coup, Madagascar finds itself far from the refoundation that he promised.",
+                "fecha": "Fri, 30 Oct 2026 13:00:00 +0000"
+              },
+              {
+                "titulo": "South Africa elections: Zille, Zuma and the battle for the big cities",
+                "url": "https://www.theafricareport.com/435020/south-africa-elections-zille-zuma-and-the-battle-for-the-big-cities/",
+                "resumen": "The ANC is fighting to hold on, the DA is chasing new territory and MK is shaking up KwaZulu-Natal. South Africa’s local elections could redraw the country’s political map.",
+                "fecha": "Fri, 30 Oct 2026 12:53:17 +0000"
+              },
+              {
+                "titulo": "New US sanctions deepen Congo-Rwanda spat",
+                "url": "https://www.theafricareport.com/434985/new-us-sanctions-deepen-congo-rwanda-spat/",
+                "resumen": "Washington is turning up the pressure on Rwanda over the war in eastern DRC, but is its mediation still impartial? As Kinshasa gains favour and US interest in Congo’s critical minerals grows, questions are mounting over whether peace diplomacy is giving way to commercial interest",
+                "fecha": "Fri, 30 Oct 2026 11:30:00 +0000"
+              }
+            ],
+            "estado": "OK",
+            "total": 4
+          },
+          {
+            "medio": "Jeune Afrique",
+            "perfil": "África Francófona / Magreb",
+            "noticias": [
+              {
+                "titulo": "Burkina Faso : antiterrorisme ou répression, pourquoi Ibrahim Traoré a rétabli la peine de mort",
+                "url": "https://www.jeuneafrique.com/1857569/politique/burkina-faso-antiterrorisme-ou-repression-pourquoi-ibrahim-traore-a-retabli-la-peine-de-mort/",
+                "resumen": "Ibrahim Traoré a fait réintroduire la peine capitale pour des peines allant du terrorisme à la trahison. Alors que les ONG dénoncent une menace directe contre les voix critiques, Ouagadougou s’aligne sur ses alliés de l’Alliance des États du Sahel.",
+                "fecha": "2026-10-30T18:57:12+00:00"
+              },
+              {
+                "titulo": "Côte d’Ivoire : au pôle pénal économique et financier, coulisses d’un vaste coup de filet",
+                "url": "https://www.jeuneafrique.com/1857473/politique/cote-divoire-au-pole-penal-economique-et-financier-coulisses-dun-vaste-coup-de-filet/",
+                "resumen": "Alertés par le FBI, les enquêteurs ont mis au jour un réseau de corruption au sein de la justice financière ivoirienne. Une interpellation a déjà eu lieu.",
+                "fecha": "2026-10-30T17:58:41+00:00"
+              },
+              {
+                "titulo": "Carburants au Cameroun : comment la Sonara a fait affaire avec Aliko Dangote",
+                "url": "https://www.jeuneafrique.com/1857756/economie-entreprises/carburants-au-cameroun-comment-la-sonara-a-fait-affaire-avec-aliko-dangote/",
+                "resumen": "Un accord tripartite entre la Sonara, Dangote et MRS va assurer 50 % des besoins du Cameroun en carburant. Grâce au soutien de la Banque islamique de développement, Yaoundé compte réduire drastiquement sa facture énergétique.",
+                "fecha": "2026-10-30T17:58:38+00:00"
+              },
+              {
+                "titulo": "Prêts à risque : les banques kényanes restent dans le rouge, les marocaines relèvent la tête",
+                "url": "https://www.jeuneafrique.com/1855971/economie-entreprises/prets-a-risque-les-banques-kenyanes-restent-dans-le-rouge-les-marocaines-relevent-la-tete/",
+                "resumen": "Fragilisées par les retards de paiement de l’État kényan, plusieurs banques d’Afrique de l’Est ont accumulé les créances douteuses en 2025. Les banques francophones se placent dans le ventre mou malgré une amélioration notable au Maroc.",
+                "fecha": "2026-10-30T17:17:04+00:00"
+              }
+            ],
+            "estado": "OK",
+            "total": 4
+          },
+          {
+            "medio": "AllAfrica (Headlines)",
+            "perfil": "Panafricano / Noticias directas",
+            "noticias": [
+              {
+                "titulo": "Malawi: Police Confirm Egyptian Deputy Ambassador Beaten in Lilongwe Attack",
+                "url": "https://allafrica.com/stories/202610300523.html",
+                "resumen": "[Nyasa Times] A senior Egyptian diplomat has been hospitalised after being attacked and beaten in Lilongwe, sparking a police investigation into the shocking assault.",
+                "fecha": "Fri, 30 Oct 2026 16:00:45 GMT"
+              },
+              {
+                "titulo": "Africa: From Commonwealth Connections to Economic Opportunity - Expanding Africa-Caribbean Trade Linkages",
+                "url": "https://allafrica.com/stories/202610300354.html",
+                "resumen": "[allAfrica] When Commonwealth leaders gather in Antigua and Barbuda this November, they will confront rising trade tensions, geopolitical shocks and supply chain disruption alongside longstanding challenges, such as high debt, limited affordable finance, climate exposure and poor",
+                "fecha": "Fri, 30 Oct 2026 12:12:04 GMT"
+              },
+              {
+                "titulo": "Nigeria: Gunmen Kill Police Inspector, 11 Others in Kebbi",
+                "url": "https://allafrica.com/stories/202610300338.html",
+                "resumen": "[Daily Trust] Residents of Karwa, Kestu and Waiwayi in Besse/Shanga riverine areas of Kebbi State have fled their communities as suspected members of the Lakurawa and Mamudawa terror groups killed 11 residents and a police inspector in a series of attacks they have launched on th",
+                "fecha": "Fri, 30 Oct 2026 11:10:12 GMT"
+              },
+              {
+                "titulo": "Africa: AFCON Every Two Years Again As CAF Reverses Decision",
+                "url": "https://allafrica.com/stories/202610300309.html",
+                "resumen": "[Vanguard] The Confederation of African Football (CAF) has reversed its decision to stage the Africa Cup of Nations (AFCON) every four years, announcing that the tournament will return to its traditional two-year cycle.",
+                "fecha": "Fri, 30 Oct 2026 10:27:06 GMT"
+              }
+            ],
+            "estado": "OK",
+            "total": 4
+          }
+        ]
+      },
+      "CHINA": {
+        "nombre": "China",
+        "bloque": "Asia-Pacífico / Eje Oriental",
+        "fuentes": [
+          {
+            "medio": "South China Morning Post",
+            "perfil": "Regional / Negocios e Internacional",
+            "noticias": [
+              {
+                "titulo": "The flaw in Australia’s ‘China threat’ thesis",
+                "url": "https://www.scmp.com/opinion/asia-opinion/article/3372519/flaw-australias-china-threat-thesis",
+                "resumen": "Australia’s preparations for a possible conflict with China reflect “a relatively superficial understanding”, argues prominent economist John Edwards. Europe, Canada, Indonesia, Malaysia and India, he notes, are not preparing for such a conflict. Why should Australia? Edwards, a ",
+                "fecha": "Fri, 30 Oct 2026 21:30:08 +0000"
+              },
+              {
+                "titulo": "Russia’s top independent newspaper Novaya Gazeta shuts under Kremlin pressure",
+                "url": "https://www.scmp.com/news/world/russia-central-asia/article/3372798/russias-top-independent-newspaper-novaya-gazeta-shuts-under-kremlin-pressure",
+                "resumen": "Russia’s flagship independent newspaper Novaya Gazeta announced on Friday it was closing, saying it had been “killed” by state pressure after years of repression targeting its journalists whose reporting was critical of the Kremlin and its Ukraine war. The closure of Novaya Gazet",
+                "fecha": "Fri, 30 Oct 2026 21:03:58 +0000"
+              },
+              {
+                "titulo": "Can Connie Chan become San Francisco’s first Asian-American in Congress?",
+                "url": "https://www.scmp.com/news/us/us-elections/article/3372796/can-connie-chan-become-san-franciscos-first-asian-american-congress",
+                "resumen": "On a recent warm Thursday evening, supporters drift into San Francisco’s United Irish Cultural Centre to hear Connie Chan, who is running for California’s 11th congressional district. Born in Hong Kong, Chan attended elementary school in Taiwan before immigrating to the United St",
+                "fecha": "Fri, 30 Oct 2026 19:57:48 +0000"
+              },
+              {
+                "titulo": "Carney eyes June deal on making Canada the EU’s first associate member",
+                "url": "https://www.scmp.com/news/world/united-states-canada/article/3372794/carney-expects-conclude-talks-making-canada-eus-first-associate-member-june",
+                "resumen": "Canadian Prime Minister Mark Carney said on Friday he expects to conclude negotiations with the European Union in June on an unprecedented partnership that would make Canada the bloc’s first “associate member”, even though the designation was left out of a joint declaration launc",
+                "fecha": "Fri, 30 Oct 2026 18:32:16 +0000"
+              }
+            ],
+            "estado": "OK",
+            "total": 4
+          },
+          {
+            "medio": "Global Times (English)",
+            "perfil": "Oficialista / Perspectiva Exterior",
+            "noticias": [
+              {
+                "titulo": "US FCC plan to bar Chinese testing labs could disrupt global electronics supply chains, raise industry costs: analysts",
+                "url": "https://www.globaltimes.cn/page/202610/1371820.shtml",
+                "resumen": "",
+                "fecha": "Fri, 09 Oct 2026 14:14:28 GMT"
+              },
+              {
+                "titulo": "South Africa freedom day memorial gathering reveals its pursuit of dignity and inclusive governance in post apartheid era",
+                "url": "https://www.globaltimes.cn/page/202608/1368830.shtml",
+                "resumen": "",
+                "fecha": "Sun, 23 Aug 2026 00:00:00 GMT"
+              },
+              {
+                "titulo": "China to introduce new train timetable from July 1, including high-speed train service between Beijing and Urumqi",
+                "url": "https://www.globaltimes.cn/page/202606/1363810.shtml",
+                "resumen": "",
+                "fecha": "Thu, 18 Jun 2026 00:00:00 GMT"
+              },
+              {
+                "titulo": "Chinese expert criticizes Filipino FM's claim that Japan-Philippines delimitation 'nothing to do' with China, warns move serves ulterior purposes beyond bilateral talks",
+                "url": "https://www.globaltimes.cn/page/202606/1363326.shtml",
+                "resumen": "",
+                "fecha": "Thu, 11 Jun 2026 00:00:00 GMT"
+              }
+            ],
+            "estado": "OK",
+            "total": 4
+          },
+          {
+            "medio": "Xinhua News (World)",
+            "perfil": "Agencia Estatal de Noticias",
+            "noticias": [
+              {
+                "titulo": "Palestinians clash with Israeli soldiers after protest against Pence visit",
+                "url": "http://www.xinhuanet.com/english/world/2018-01/24/c_136919909.htm",
+                "resumen": "Palestinian protesters hurl stones at Israeli soldiers during clashes after a protest against the visit of U.S. Vice President Mike Pence in Jerusalem, in the West Bank city of Hebron, on Jan. 23, 2018.",
+                "fecha": "2018-01-24"
+              },
+              {
+                "titulo": "U.S. failure to appoint Australian ambassador \"diplomatic insult\": former deputy PM",
+                "url": "http://www.xinhuanet.com/english/2018-01/03/c_136868968.htm",
+                "resumen": "Former Australian Deputy Prime Minister Tim Fischer has accused the U.S. of hitting Australia with a \"diplomatic insult.\"",
+                "fecha": "2018-01-03"
+              },
+              {
+                "titulo": "Speaker of Hungarian Parliament addresses in Budapest",
+                "url": "http://www.xinhuanet.com/english/2017-10/28/c_136711043.htm",
+                "resumen": "Laszlo Kover (1st L), Speaker of the Hungarian Parliament, speaks at a conference of the parliament speakers of the Western Balkans in Budapest, Hungary on Oct. 27, 2017.",
+                "fecha": "2017-10-28"
+              },
+              {
+                "titulo": "Typhoon Lan lashes central Japan, killing 2 and disrupting transport systems",
+                "url": "http://www.xinhuanet.com/english/2017-10/23/c_136699146.htm",
+                "resumen": "Two people were killed and transportation systems and businesses severely disrupted as Typhoon Lan lashed central Japan's Pacific coast after making landfall early Monday.",
+                "fecha": "2017-10-23"
+              }
+            ],
+            "estado": "OK",
+            "total": 4
+          }
+        ]
+      }
+    }
+  },
+  "anuarios": {
+    "2020": {
+      "archivo": "INFORME_ANUAL_2020.md",
+      "year": 2020,
+      "markdown": "# 🏛️ Radar de Presentes — Informe Analítico Anual 2020\r\n## El Shock Sistémico Global y la Fractura de las Cadenas de Suministro\r\n\r\n> **Fecha de Emisión Canónica:** 2021-01-01  \r\n> **Tipo de Documento:** Auditoría Anual Definitiva (Anuario Estratégico de Segundo Orden).  \r\n> **Metodología:** Re-evaluación retrospectiva de la hemeroteca de 52/53 semanas (Separación de Ruido vs. Corrientes Profundas).\r\n\r\n---\r\n\r\n## 🌐 1. Visión Panorámica del Ejercicio\r\nEl año estuvo monopolizado por la irrupción del SARS-CoV-2, los confinamientos domiciliarios masivos, la parálisis del comercio internacional y la respuesta fiscal sin precedentes en Occidente (NextGenerationEU y CARES Act), mientras se formalizaba el Brexit y se consumaba la victoria electoral de Joe Biden.\r\n\r\n---\r\n\r\n## 💨 2. Campañas de Humo y Distracciones Mediáticas (Superficie del Iceberg)\r\nPolémicas y narrativas que acapararon las primeras planas durante semanas pero cuya trascendencia histórica real fue nula o actuaron como maniobras de distracción:\r\n\r\n### • [La polémica del mercado negro y desabastecimiento de mascarillas y geles como culpa individual](https://www.google.com/search?q=La+pol%C3%A9mica+del+mercado+negro+y+desabastecimiento+de+mascarillas+y+geles+como+culpa+individual+2020+noticias+archivo)\r\n> **Evaluación de Segundo Orden:** Ocultó la deslocalización productiva crítica y la absoluta dependencia estratégica de la industria farmacéutica y médica respecto a China e India.\r\n\r\n### • [El debate mediático sobre la reapertura de la hostelería en verano ('Salvar el verano')](https://www.google.com/search?q=El+debate+medi%C3%A1tico+sobre+la+reapertura+de+la+hosteler%C3%ADa+en+verano+%28%27Salvar+el+verano%27%29+2020+noticias+archivo)\r\n> **Evaluación de Segundo Orden:** Desvió la atención del colapso estructural de la atención primaria y la incapacidad de planificar la previsible segunda ola otoñal.\r\n\r\n### • [Las acusaciones de fraude electoral sin pruebas en las elecciones de EEUU](https://www.google.com/search?q=Las+acusaciones+de+fraude+electoral+sin+pruebas+en+las+elecciones+de+EEUU+2020+noticias+archivo)\r\n> **Evaluación de Segundo Orden:** Actuaron como pantalla de polarización mientras se aprobaban paquetes multimillonarios de liquidez corporativa con escaso escrutinio público.\r\n\r\n---\r\n\r\n## 🌊 3. Lo que Pasó Desapercibido (Puntos Ciegos y Reformas Silenciosas)\r\nAcontecimientos estructurales que ocurrieron lejos de los focos de la prensa generalista nacional y que redefinieron el tablero geopolítico o económico:\r\n\r\n### • [La aprobación de la Ley de Seguridad Nacional en Hong Kong (junio 2020)](https://www.google.com/search?q=La+aprobaci%C3%B3n+de+la+Ley+de+Seguridad+Nacional+en+Hong+Kong+%28junio+2020%29+2020+noticias+archivo)\r\n> **Impacto Real Silenciado:** Ocurrió mientras la prensa europea solo cubría cifras de contagios; supuso el fin de la autonomía institucional hongkonesa y el inicio del desacoplamiento financiero con Occidente.\r\n\r\n### • [El estallido de la guerra civil en Tigray (Etiopía) en noviembre](https://www.google.com/search?q=El+estallido+de+la+guerra+civil+en+Tigray+%28Etiop%C3%ADa%29+en+noviembre+2020+noticias+archivo)\r\n> **Impacto Real Silenciado:** Quedó completamente silenciado en los informativos nacionales, a pesar de amenazar la estabilidad de todo el Cuerno de África y el control del Estrecho de Bab el-Mandeb.\r\n\r\n### • [La suspensión de la salida a bolsa de Ant Group (Jack Ma)](https://www.google.com/search?q=La+suspensi%C3%B3n+de+la+salida+a+bolsa+de+Ant+Group+%28Jack+Ma%29+2020+noticias+archivo)\r\n> **Impacto Real Silenciado:** Marcó el giro del Partido Comunista Chino hacia la intervención directa sobre sus gigantes tecnológicos para frenar oligopolios financieros privados.\r\n\r\n---\r\n\r\n## ⚖️ 4. Divergencia de Encuadre Geopolítico (Framing Transnacional)\r\nOccidente trató la pandemia como una crisis de derechos individuales y rescate crediticio; China la enmarcó como una validación de la supremacía de su modelo de disciplina colectiva frente a la debilidad liberal occidental; el Sur Global quedó expuesto a la 'diplomacia de las vacunas' y el estrangulamiento de divisas.\r\n\r\n---\r\n\r\n## 🔮 5. Corrientes Abiertas y Cuentas Pendientes para 2021\r\nLíneas de fuerza no resueltas que se transfieren como vector prioritario de vigilancia para el siguiente ciclo:\r\n\r\n- **El despliegue logístico y geopolítico de las vacunas de ARNm y las desigualdades en su distribución mundial.**\r\n- **La tensión institucional en Washington tras la negativa de Donald Trump a reconocer formalmente la victoria de Biden.**\r\n- **La gestión del gigantesco endeudamiento público acumulado y la reapertura de las economías bajo amenaza inflacionaria.**\r\n\r\n---\r\n\r\n## 📜 6. Metodología y Acceso a la Hemeroteca de Origen\r\nEste anuario consolida la auditoría de todos los informes semanales generados en `informes/semanales/2020/`. Los hipervínculos dirigen a búsquedas contextuales de archivo para contrastar y tirar del hilo sobre las fuentes primarias.\r\n"
+    },
+    "2021": {
+      "archivo": "INFORME_ANUAL_2021.md",
+      "year": 2021,
+      "markdown": "# 🏛️ Radar de Presentes — Informe Analítico Anual 2021\r\n## La Resaca Inflacionaria, el Repliegue Imperial y el Despertar Energético\r\n\r\n> **Fecha de Emisión Canónica:** 2022-01-01  \r\n> **Tipo de Documento:** Auditoría Anual Definitiva (Anuario Estratégico de Segundo Orden).  \r\n> **Metodología:** Re-evaluación retrospectiva de la hemeroteca de 52/53 semanas (Separación de Ruido vs. Corrientes Profundas).\r\n\r\n---\r\n\r\n## 🌐 1. Visión Panorámica del Ejercicio\r\nAño marcado por el asalto al Capitolio de Washington, la campaña masiva de vacunación, el colapso de las cadenas logísticas (evidenciado por el bloqueo del Canal de Suez), la retirada caótica de EEUU de Afganistán y los primeros compases de la crisis energética con la escalada del precio del gas en Europa.\r\n\r\n---\r\n\r\n## 💨 2. Campañas de Humo y Distracciones Mediáticas (Superficie del Iceberg)\r\nPolémicas y narrativas que acapararon las primeras planas durante semanas pero cuya trascendencia histórica real fue nula o actuaron como maniobras de distracción:\r\n\r\n### • [El debate sobre los pasaportes COVID y restricciones de ocio a no vacunados](https://www.google.com/search?q=El+debate+sobre+los+pasaportes+COVID+y+restricciones+de+ocio+a+no+vacunados+2021+noticias+archivo)\r\n> **Evaluación de Segundo Orden:** Monopolizó semanas de tertulias televisivas mientras en el mercado mayorista el gas natural multiplicaba su precio por cinco, preludio de la crisis industrial de 2022.\r\n\r\n### • [El escándalo de las fiestas ilegales en Downing Street ('Partygate')](https://www.google.com/search?q=El+esc%C3%A1ndalo+de+las+fiestas+ilegales+en+Downing+Street+%28%27Partygate%27%29+2021+noticias+archivo)\r\n> **Evaluación de Segundo Orden:** Absorbió el debate británico para eludir el impacto estructural de la escasez de mano de obra en transporte y sanidad provocada por el Brexit.\r\n\r\n### • [La crisis de los submarinos franceses (AUKUS)](https://www.google.com/search?q=La+crisis+de+los+submarinos+franceses+%28AUKUS%29+2021+noticias+archivo)\r\n> **Evaluación de Segundo Orden:** Se escenificó como un duelo de orgullo diplomático entre París y Washington, ocultando el realineamiento definitivo del eje anglosajón hacia la contención naval de China en el Pacífico.\r\n\r\n---\r\n\r\n## 🌊 3. Lo que Pasó Desapercibido (Puntos Ciegos y Reformas Silenciosas)\r\nAcontecimientos estructurales que ocurrieron lejos de los focos de la prensa generalista nacional y que redefinieron el tablero geopolítico o económico:\r\n\r\n### • [La crisis de liquidez y quiebra encubierta de Evergrande en China (septiembre)](https://www.google.com/search?q=La+crisis+de+liquidez+y+quiebra+encubierta+de+Evergrande+en+China+%28septiembre%29+2021+noticias+archivo)\r\n> **Impacto Real Silenciado:** Infravalorada en Europa como un problema local, cuando representaba el cambio del modelo de crecimiento chino basado en el ladrillo hacia manufactura avanzada.\r\n\r\n### • [La acumulación de tropas rusas en la frontera ucraniana desde noviembre](https://www.google.com/search?q=La+acumulaci%C3%B3n+de+tropas+rusas+en+la+frontera+ucraniana+desde+noviembre+2021+noticias+archivo)\r\n> **Impacto Real Silenciado:** Tratada por las cancillerías europeas como una simple maniobra de presión diplomática para forzar la puesta en marcha de Nord Stream 2.\r\n\r\n### • [La oleada de golpes militares en el Sahel (Mali, Guinea, Chad, Sudán)](https://www.google.com/search?q=La+oleada+de+golpes+militares+en+el+Sahel+%28Mali%2C+Guinea%2C+Chad%2C+Sud%C3%A1n%29+2021+noticias+archivo)\r\n> **Impacto Real Silenciado:** Ignorada por la opinión pública hasta que supuso la expulsión de las tropas francesas y la entrada del grupo paramilitar ruso Wagner.\r\n\r\n---\r\n\r\n## ⚖️ 4. Divergencia de Encuadre Geopolítico (Framing Transnacional)\r\nWashington intentó proyectar 'America is Back' con el regreso al multilateralismo, pero la caída de Kabul destruyó su credibilidad disuasoria; los medios rusos y chinos utilizaron la retirada afgana como prueba de la decadencia terminal de la hegemonía estadounidense.\r\n\r\n---\r\n\r\n## 🔮 5. Corrientes Abiertas y Cuentas Pendientes para 2022\r\nLíneas de fuerza no resueltas que se transfieren como vector prioritario de vigilancia para el siguiente ciclo:\r\n\r\n- **La inminente confrontación militar en Ucrania y el desenlace de las exigencias de seguridad de Vladímir Putin a la OTAN.**\r\n- **El rumbo de la inflación global y la respuesta de los bancos centrales con subidas de tipos.**\r\n- **El futuro de la política de cero COVID en China frente a las variantes más contagiosas como Ómicron.**\r\n\r\n---\r\n\r\n## 📜 6. Metodología y Acceso a la Hemeroteca de Origen\r\nEste anuario consolida la auditoría de todos los informes semanales generados en `informes/semanales/2021/`. Los hipervínculos dirigen a búsquedas contextuales de archivo para contrastar y tirar del hilo sobre las fuentes primarias.\r\n"
+    },
+    "2022": {
+      "archivo": "INFORME_ANUAL_2022.md",
+      "year": 2022,
+      "markdown": "# 🏛️ Radar de Presentes — Informe Analítico Anual 2022\r\n## El Fin de la Paz Europea y el Retorno de la Geopolítica Dura\r\n\r\n> **Fecha de Emisión Canónica:** 2023-01-01  \r\n> **Tipo de Documento:** Auditoría Anual Definitiva (Anuario Estratégico de Segundo Orden).  \r\n> **Metodología:** Re-evaluación retrospectiva de la hemeroteca de 52/53 semanas (Separación de Ruido vs. Corrientes Profundas).\r\n\r\n---\r\n\r\n## 🌐 1. Visión Panorámica del Ejercicio\r\nLa invasión rusa de Ucrania el 24 de febrero quebró la arquitectura de seguridad europea de posguerra, disparó la inflación a dobles dígitos, cortó el suministro de gas ruso hacia Europa (sabotaje de Nord Stream) y aceleró la polarización de bloques geopolíticos con la consolidación del eje Moscú-Pekín.\r\n\r\n---\r\n\r\n## 💨 2. Campañas de Humo y Distracciones Mediáticas (Superficie del Iceberg)\r\nPolémicas y narrativas que acapararon las primeras planas durante semanas pero cuya trascendencia histórica real fue nula o actuaron como maniobras de distracción:\r\n\r\n### • [Las medidas de ahorro energético doméstico (apagar escaparates, regular el termostato a 27º y corbatas)](https://www.google.com/search?q=Las+medidas+de+ahorro+energ%C3%A9tico+dom%C3%A9stico+%28apagar+escaparates%2C+regular+el+termostato+a+27%C2%BA+y+corbatas%29+2022+noticias+archivo)\r\n> **Evaluación de Segundo Orden:** Sirvieron como cortina mediática para ocultar la ausencia de una alternativa real inmediata al gas ruso y el retorno masivo a la quema de carbón en Alemania.\r\n\r\n### • [El efímero mandato de Liz Truss y la caída de la libra](https://www.google.com/search?q=El+ef%C3%ADmero+mandato+de+Liz+Truss+y+la+ca%C3%ADda+de+la+libra+2022+noticias+archivo)\r\n> **Evaluación de Segundo Orden:** Se vendió como la incompetencia de una líder particular para no debatir el agotamiento del modelo financiero de la City post-Brexit.\r\n\r\n### • [La visita de Nancy Pelosi a Taiwán en agosto](https://www.google.com/search?q=La+visita+de+Nancy+Pelosi+a+Taiw%C3%A1n+en+agosto+2022+noticias+archivo)\r\n> **Evaluación de Segundo Orden:** Generó una histeria mediática de inminente guerra mundial de 48 horas que desvió la atención del congreso del Partido Demócrata de cara a las Midterms.\r\n\r\n---\r\n\r\n## 🌊 3. Lo que Pasó Desapercibido (Puntos Ciegos y Reformas Silenciosas)\r\nAcontecimientos estructurales que ocurrieron lejos de los focos de la prensa generalista nacional y que redefinieron el tablero geopolítico o económico:\r\n\r\n### • [El boicot mayoritario del Sur Global a las sanciones antirrusas](https://www.google.com/search?q=El+boicot+mayoritario+del+Sur+Global+a+las+sanciones+antirrusas+2022+noticias+archivo)\r\n> **Impacto Real Silenciado:** Mientras la prensa europea celebraba la unanimidad occidental, India, Brasil, Sudáfrica y el Golfo multiplicaron sus compras de energía rusa con descuento, neutralizando el cerco financiero.\r\n\r\n### • [La crisis de fertilizantes y cereales en África y Oriente Medio](https://www.google.com/search?q=La+crisis+de+fertilizantes+y+cereales+en+%C3%81frica+y+Oriente+Medio+2022+noticias+archivo)\r\n> **Impacto Real Silenciado:** Pasó desapercibida hasta que amenazó con hambrunas masivas en Egipto y el Cuerno de África, forzando la mediación turca en el acuerdo del grano del Mar Negro.\r\n\r\n### • [El auge sin precedentes de la inversión militar en Alemania (100.000M€)](https://www.google.com/search?q=El+auge+sin+precedentes+de+la+inversi%C3%B3n+militar+en+Alemania+%28100.000M%E2%82%AC%29+2022+noticias+archivo)\r\n> **Impacto Real Silenciado:** Un giro tectónico ('Zeitenwende') que tardará una década en materializarse pero que altera el equilibrio de poder interno con Francia.\r\n\r\n---\r\n\r\n## ⚖️ 4. Divergencia de Encuadre Geopolítico (Framing Transnacional)\r\nOccidente presentó el conflicto en Ucrania como una batalla binaria existencial entre democracia y autocracia; el bloque euroasiático y gran parte de los no alineados lo denunciaron como una guerra proxy de la OTAN motivada por la expansión hegemónica occidental.\r\n\r\n---\r\n\r\n## 🔮 5. Corrientes Abiertas y Cuentas Pendientes para 2023\r\nLíneas de fuerza no resueltas que se transfieren como vector prioritario de vigilancia para el siguiente ciclo:\r\n\r\n- **La resistencia de la economía europea al primer invierno sin gas ruso y el riesgo de desindustrialización química.**\r\n- **La apertura de China tras el colapso de la política de cero COVID y las protestas de las hojas en blanco.**\r\n- **El impacto de las subidas agresivas de tipos de interés de la Fed y el BCE sobre el sector bancario y el crédito.**\r\n\r\n---\r\n\r\n## 📜 6. Metodología y Acceso a la Hemeroteca de Origen\r\nEste anuario consolida la auditoría de todos los informes semanales generados en `informes/semanales/2022/`. Los hipervínculos dirigen a búsquedas contextuales de archivo para contrastar y tirar del hilo sobre las fuentes primarias.\r\n"
+    },
+    "2023": {
+      "archivo": "INFORME_ANUAL_2023.md",
+      "year": 2023,
+      "markdown": "# 🏛️ Radar de Presentes — Informe Analítico Anual 2023\r\n## La Fractura de Oriente Medio, la Bancarización de la IA y el Pulso por el Sur Global\r\n\r\n> **Fecha de Emisión Canónica:** 2024-01-01  \r\n> **Tipo de Documento:** Auditoría Anual Definitiva (Anuario Estratégico de Segundo Orden).  \r\n> **Metodología:** Re-evaluación retrospectiva de la hemeroteca de 52/53 semanas (Separación de Ruido vs. Corrientes Profundas).\r\n\r\n---\r\n\r\n## 🌐 1. Visión Panorámica del Ejercicio\r\nEl ejercicio estuvo marcado por la reapertura de China, la crisis bancaria regional en EEUU (SVB), la rebelión frustrada de Wagner en Rusia, la ampliación histórica del grupo BRICS y el estallido devastador de la guerra entre Israel y Hamás tras el 7 de octubre, junto a la adopción masiva de la Inteligencia Artificial generativa.\r\n\r\n---\r\n\r\n## 💨 2. Campañas de Humo y Distracciones Mediáticas (Superficie del Iceberg)\r\nPolémicas y narrativas que acapararon las primeras planas durante semanas pero cuya trascendencia histórica real fue nula o actuaron como maniobras de distracción:\r\n\r\n### • [El derribo del supuesto globo espía chino sobre EEUU en febrero](https://www.google.com/search?q=El+derribo+del+supuesto+globo+esp%C3%ADa+chino+sobre+EEUU+en+febrero+2023+noticias+archivo)\r\n> **Evaluación de Segundo Orden:** Acumuló días de cobertura febril en televisión para alimentar la histeria defensiva y tapar la quiebra inminente de bancos regionales como Silicon Valley Bank.\r\n\r\n### • [La polémica sobre la prohibición de la abaya en los colegios franceses](https://www.google.com/search?q=La+pol%C3%A9mica+sobre+la+prohibici%C3%B3n+de+la+abaya+en+los+colegios+franceses+2023+noticias+archivo)\r\n> **Evaluación de Segundo Orden:** Utilizada por el gobierno galo en el inicio del curso para eludir el balance de los brutales disturbios callejeros de junio tras la muerte de Nahel.\r\n\r\n### • [Las declaraciones sobre el riesgo inminente de extinción por la IA de ejecutivos de Silicon Valley](https://www.google.com/search?q=Las+declaraciones+sobre+el+riesgo+inminente+de+extinci%C3%B3n+por+la+IA+de+ejecutivos+de+Silicon+Valley+2023+noticias+archivo)\r\n> **Evaluación de Segundo Orden:** Campaña de relaciones públicas para promover barreras de entrada regulatorias que protegieran a las grandes corporaciones frente al software libre.\r\n\r\n---\r\n\r\n## 🌊 3. Lo que Pasó Desapercibido (Puntos Ciegos y Reformas Silenciosas)\r\nAcontecimientos estructurales que ocurrieron lejos de los focos de la prensa generalista nacional y que redefinieron el tablero geopolítico o económico:\r\n\r\n### • [El acuerdo diplomático entre Irán y Arabia Saudí mediado por Pekín (marzo)](https://www.google.com/search?q=El+acuerdo+diplom%C3%A1tico+entre+Ir%C3%A1n+y+Arabia+Saud%C3%AD+mediado+por+Pek%C3%ADn+%28marzo%29+2023+noticias+archivo)\r\n> **Impacto Real Silenciado:** Un golpe de mano geoestratégico que demostró el fin del monopolio negociador de EEUU en Oriente Medio y preparó el terreno para la ampliación de los BRICS.\r\n\r\n### • [El golpe de estado militar en Níger y la pérdida del uranio para Francia](https://www.google.com/search?q=El+golpe+de+estado+militar+en+N%C3%ADger+y+la+p%C3%A9rdida+del+uranio+para+Francia+2023+noticias+archivo)\r\n> **Impacto Real Silenciado:** Minimizado como una revuelta local más, cuando significó la pérdida del último bastión militar y energético francés en el Sahel Occidental.\r\n\r\n### • [La limpieza étnica en Nagorno Karabaj por Azerbaiyán en septiembre](https://www.google.com/search?q=La+limpieza+%C3%A9tnica+en+Nagorno+Karabaj+por+Azerbaiy%C3%A1n+en+septiembre+2023+noticias+archivo)\r\n> **Impacto Real Silenciado:** Completamente silenciada por los gobiernos europeos debido a los acuerdos de suministro de gas firmados con el régimen de Bakú.\r\n\r\n---\r\n\r\n## ⚖️ 4. Divergencia de Encuadre Geopolítico (Framing Transnacional)\r\nLa cobertura de la guerra en Gaza evidenció el mayor abismo diplomático en décadas: Occidente cerró filas con Israel invocando el derecho a la defensa, mientras el Sur Global acusó a Europa y EEUU de hipocresía y doble rasero respecto a Ucrania.\r\n\r\n---\r\n\r\n## 🔮 5. Corrientes Abiertas y Cuentas Pendientes para 2024\r\nLíneas de fuerza no resueltas que se transfieren como vector prioritario de vigilancia para el siguiente ciclo:\r\n\r\n- **El maratón electoral global de 2024 (EEUU, Parlamento Europeo, India, México, Reino Unido).**\r\n- **El riesgo de regionalización de la guerra en Oriente Medio con el frente libanés (Hezbolá) y el Mar Rojo (hutíes).**\r\n- **La entrada en vigor de las primeras normativas vinculantes de Inteligencia Artificial en la Unión Europea.**\r\n\r\n---\r\n\r\n## 📜 6. Metodología y Acceso a la Hemeroteca de Origen\r\nEste anuario consolida la auditoría de todos los informes semanales generados en `informes/semanales/2023/`. Los hipervínculos dirigen a búsquedas contextuales de archivo para contrastar y tirar del hilo sobre las fuentes primarias.\r\n"
+    },
+    "2024": {
+      "archivo": "INFORME_ANUAL_2024.md",
+      "year": 2024,
+      "markdown": "# 🏛️ Radar de Presentes — Informe Analítico Anual 2024\r\n## El Gran Giro Conservador, la Crisis Institucional y el Regreso de Trump\r\n\r\n> **Fecha de Emisión Canónica:** 2025-01-01  \r\n> **Tipo de Documento:** Auditoría Anual Definitiva (Anuario Estratégico de Segundo Orden).  \r\n> **Metodología:** Re-evaluación retrospectiva de la hemeroteca de 52/53 semanas (Separación de Ruido vs. Corrientes Profundas).\r\n\r\n---\r\n\r\n## 🌐 1. Visión Panorámica del Ejercicio\r\nEl año con mayor concentración de citas electorales de la historia: avance contundente de las derechas soberanistas en Europa, victoria electoral aplastante del Partido Laborista en UK, supervivencia y posterior triunfo electoral de Donald Trump en EEUU tras sufrir un atentado, y la catástrofe de la DANA en Valencia que evidenció la parálisis del estado autonómico español.\r\n\r\n---\r\n\r\n## 💨 2. Campañas de Humo y Distracciones Mediáticas (Superficie del Iceberg)\r\nPolémicas y narrativas que acapararon las primeras planas durante semanas pero cuya trascendencia histórica real fue nula o actuaron como maniobras de distracción:\r\n\r\n### • [La carta de cinco días de reflexión de Pedro Sánchez sobre su dimisión](https://www.google.com/search?q=La+carta+de+cinco+d%C3%ADas+de+reflexi%C3%B3n+de+Pedro+S%C3%A1nchez+sobre+su+dimisi%C3%B3n+2024+noticias+archivo)\r\n> **Evaluación de Segundo Orden:** Paralizó la agenda política nacional española durante una semana para cohesionar a las bases de cara a las elecciones europeas sin abordar reformas estructurales.\r\n\r\n### • [La narrativa de los Juegos Olímpicos de París como símbolo de unidad y resurgimiento nacional](https://www.google.com/search?q=La+narrativa+de+los+Juegos+Ol%C3%ADmpicos+de+Par%C3%ADs+como+s%C3%ADmbolo+de+unidad+y+resurgimiento+nacional+2024+noticias+archivo)\r\n> **Evaluación de Segundo Orden:** Ocultó la parálisis política absoluta de Francia y la inminente crisis presupuestaria que acabaría tumbando al gobierno de Michel Barnier meses después.\r\n\r\n### • [El debate sobre los 'chistes ofensivos' en mítines de campaña de Trump](https://www.google.com/search?q=El+debate+sobre+los+%27chistes+ofensivos%27+en+m%C3%ADtines+de+campa%C3%B1a+de+Trump+2024+noticias+archivo)\r\n> **Evaluación de Segundo Orden:** Absorbió la cobertura de los grandes medios estadounidenses mientras los votantes tomaban decisiones basadas en el coste de vida, la inflación acumulada y la inmigración ilegal.\r\n\r\n---\r\n\r\n## 🌊 3. Lo que Pasó Desapercibido (Puntos Ciegos y Reformas Silenciosas)\r\nAcontecimientos estructurales que ocurrieron lejos de los focos de la prensa generalista nacional y que redefinieron el tablero geopolítico o económico:\r\n\r\n### • [La pérdida de la mayoría absoluta del ANC en Sudáfrica tras tres décadas](https://www.google.com/search?q=La+p%C3%A9rdida+de+la+mayor%C3%ADa+absoluta+del+ANC+en+Sud%C3%A1frica+tras+tres+d%C3%A9cadas+2024+noticias+archivo)\r\n> **Impacto Real Silenciado:** El mayor cambio político en el gigante del continente africano desde el fin del apartheid, forzando un gobierno de coalición con los liberales blancos.\r\n\r\n### • [La crisis de los subsidios chinos a los coches eléctricos y la fragmentación comercial](https://www.google.com/search?q=La+crisis+de+los+subsidios+chinos+a+los+coches+el%C3%A9ctricos+y+la+fragmentaci%C3%B3n+comercial+2024+noticias+archivo)\r\n> **Impacto Real Silenciado:** La Unión Europea impuso aranceles sin unanimidad interna (Alemania votó en contra para proteger su industria), dejando al descubierto la ruptura del mercado único.\r\n\r\n### • [La escalada militar en el Mar Rojo y el colapso del tráfico del Canal de Suez](https://www.google.com/search?q=La+escalada+militar+en+el+Mar+Rojo+y+el+colapso+del+tr%C3%A1fico+del+Canal+de+Suez+2024+noticias+archivo)\r\n> **Impacto Real Silenciado:** Los ataques de los rebeldes hutíes obligaron a redirigir el comercio marítimo por el Cabo de Buena Esperanza, encareciendo fletes sin respuesta decisiva occidental.\r\n\r\n---\r\n\r\n## ⚖️ 4. Divergencia de Encuadre Geopolítico (Framing Transnacional)\r\nLos medios tradicionales occidentales alertaron durante meses sobre el 'peligro existencial para la democracia' que suponía el ascenso de líderes soberanistas; sin embargo, el electorado en EEUU y Europa priorizó de forma abrumadora la pérdida de poder adquisitivo, la seguridad y la desconfianza hacia las élites burocráticas.\r\n\r\n---\r\n\r\n## 🔮 5. Corrientes Abiertas y Cuentas Pendientes para 2025\r\nLíneas de fuerza no resueltas que se transfieren como vector prioritario de vigilancia para el siguiente ciclo:\r\n\r\n- **La implementación de la agenda arancelaria proteccionista del segundo mandato de Trump y su impacto en la UE.**\r\n- **La viabilidad de la coalición gubernamental en Alemania tras la ruptura del semáforo y las elecciones de 2025.**\r\n- **El futuro de la financiación militar y diplomática de la guerra de Ucrania ante las presiones de paz de Washington.**\r\n\r\n---\r\n\r\n## 📜 6. Metodología y Acceso a la Hemeroteca de Origen\r\nEste anuario consolida la auditoría de todos los informes semanales generados en `informes/semanales/2024/`. Los hipervínculos dirigen a búsquedas contextuales de archivo para contrastar y tirar del hilo sobre las fuentes primarias.\r\n"
+    },
+    "2025": {
+      "archivo": "INFORME_ANUAL_2025.md",
+      "year": 2025,
+      "markdown": "# 🏛️ Radar de Presentes — Informe Analítico Anual 2025\r\n## El Choque Arancelario Transatlántico y el Nuevo Realismo Geoeconómico\r\n\r\n> **Fecha de Emisión Canónica:** 2026-01-01  \r\n> **Tipo de Documento:** Auditoría Anual Definitiva (Anuario Estratégico de Segundo Orden).  \r\n> **Metodología:** Re-evaluación retrospectiva de la hemeroteca de 52/53 semanas (Separación de Ruido vs. Corrientes Profundas).\r\n\r\n---\r\n\r\n## 🌐 1. Visión Panorámica del Ejercicio\r\nInicio del segundo mandato de Trump con una política agresiva de aranceles globales y desregulación fósil, renegociación del presupuesto de la OTAN, recesión manufacturera alemana, reestructuración industrial europea y aceleración del comercio intra-asiático liquidado en yuanes y monedas locales.\r\n\r\n---\r\n\r\n## 💨 2. Campañas de Humo y Distracciones Mediáticas (Superficie del Iceberg)\r\nPolémicas y narrativas que acapararon las primeras planas durante semanas pero cuya trascendencia histórica real fue nula o actuaron como maniobras de distracción:\r\n\r\n### • [Los debates sobre los límites al gasto público y la disciplina fiscal en Bruselas](https://www.google.com/search?q=Los+debates+sobre+los+l%C3%ADmites+al+gasto+p%C3%BAblico+y+la+disciplina+fiscal+en+Bruselas+2025+noticias+archivo)\r\n> **Evaluación de Segundo Orden:** Ocultaron que la Unión Europea carece de un plan conjunto para competir con las subvenciones estatales masivas de China y el proteccionismo de EEUU.\r\n\r\n### • [Las controversias en redes sociales sobre las declaraciones ejecutivas de la Casa Blanca](https://www.google.com/search?q=Las+controversias+en+redes+sociales+sobre+las+declaraciones+ejecutivas+de+la+Casa+Blanca+2025+noticias+archivo)\r\n> **Evaluación de Segundo Orden:** Monopolizaron los titulares mientras se aprobaban modificaciones de calado en la fiscalidad corporativa y los permisos de explotación energética.\r\n\r\n### • [El debate sobre la productividad laboral y las jornadas laborales en el sur de Europa](https://www.google.com/search?q=El+debate+sobre+la+productividad+laboral+y+las+jornadas+laborales+en+el+sur+de+Europa+2025+noticias+archivo)\r\n> **Evaluación de Segundo Orden:** Desvió el foco de los cuellos de botella de inversión privada y la asfixia regulatoria sobre las pequeñas y medianas empresas.\r\n\r\n---\r\n\r\n## 🌊 3. Lo que Pasó Desapercibido (Puntos Ciegos y Reformas Silenciosas)\r\nAcontecimientos estructurales que ocurrieron lejos de los focos de la prensa generalista nacional y que redefinieron el tablero geopolítico o económico:\r\n\r\n### • [La consolidación del corredor comercial de minerales raros en el Sahel](https://www.google.com/search?q=La+consolidaci%C3%B3n+del+corredor+comercial+de+minerales+raros+en+el+Sahel+2025+noticias+archivo)\r\n> **Impacto Real Silenciado:** Los nuevos acuerdos entre las juntas militares africanas, empresas chinas y rusas aseguraron el control del litio y coltán fuera de los circuitos occidentales.\r\n\r\n### • [El avance silencioso de la figura de 'miembro asociado' entre Canadá y la UE](https://www.google.com/search?q=El+avance+silencioso+de+la+figura+de+%27miembro+asociado%27+entre+Canad%C3%A1+y+la+UE+2025+noticias+archivo)\r\n> **Impacto Real Silenciado:** Un precedente histórico de integración sin precedentes para blindarse ante las presiones comerciales de Washington.\r\n\r\n### • [La desaceleración de la adopción de vehículos eléctricos en Europa y el retorno del híbrido](https://www.google.com/search?q=La+desaceleraci%C3%B3n+de+la+adopci%C3%B3n+de+veh%C3%ADculos+el%C3%A9ctricos+en+Europa+y+el+retorno+del+h%C3%ADbrido+2025+noticias+archivo)\r\n> **Impacto Real Silenciado:** Obligó a las automotrices alemanas y francesas a revisar sus planes de inversión millonarios para evitar cierres masivos de fábricas.\r\n\r\n---\r\n\r\n## ⚖️ 4. Divergencia de Encuadre Geopolítico (Framing Transnacional)\r\nWashington adoptó una retórica transaccional explícita ('América Primero sin complejos'); Europa osciló entre el pánico a perder el paraguas de seguridad estadounidense y la retórica de una 'autonomía estratégica' que no fue respaldada con presupuesto real.\r\n\r\n---\r\n\r\n## 🔮 5. Corrientes Abiertas y Cuentas Pendientes para 2026\r\nLíneas de fuerza no resueltas que se transfieren como vector prioritario de vigilancia para el siguiente ciclo:\r\n\r\n- **Las elecciones de medio mandato (Midterms) de 2026 en Estados Unidos y el equilibrio legislativo en el Congreso.**\r\n- **La tensión en el sector de semiconductores avanzados y la respuesta de Pekín ante las restricciones tecnológicas.**\r\n- **La gestión del envejecimiento demográfico y la presión sobre los sistemas de pensiones en el continente europeo.**\r\n\r\n---\r\n\r\n## 📜 6. Metodología y Acceso a la Hemeroteca de Origen\r\nEste anuario consolida la auditoría de todos los informes semanales generados en `informes/semanales/2025/`. Los hipervínculos dirigen a búsquedas contextuales de archivo para contrastar y tirar del hilo sobre las fuentes primarias.\r\n"
+    },
+    "2026": {
+      "archivo": "INFORME_ANUAL_2026.md",
+      "year": 2026,
+      "markdown": "# 🏛️ Radar de Presentes — Informe Analítico Anual 2026\r\n## La Fractura Tecnológica de los Microchips y la Tensión Institucional Europea (Balance Preliminar)\r\n\r\n> **Fecha de Emisión Canónica:** 2026-10-30  \r\n> **Tipo de Documento:** Balance Anual Preliminar (Enero - Octubre) (Anuario Estratégico de Segundo Orden).  \r\n> **Metodología:** Re-evaluación retrospectiva de la hemeroteca de 52/53 semanas (Separación de Ruido vs. Corrientes Profundas).\r\n\r\n---\r\n\r\n## 🌐 1. Visión Panorámica del Ejercicio\r\nEjercicio dominado por la carrera tecnológica en IA de frontera, la guerra arancelaria por semiconductores, el robo récord a plataformas cripto (Binance), la crisis ferroviaria y de mantenimiento en España, y la crisis constitucional en Polonia con despliegue policial en Varsovia en vísperas de las elecciones de medio mandato en EEUU.\r\n\r\n---\r\n\r\n## 💨 2. Campañas de Humo y Distracciones Mediáticas (Superficie del Iceberg)\r\nPolémicas y narrativas que acapararon las primeras planas durante semanas pero cuya trascendencia histórica real fue nula o actuaron como maniobras de distracción:\r\n\r\n### • [La controversia sobre si el ministro Óscar Puente debía dimitir por el choque del AVE](https://www.google.com/search?q=La+controversia+sobre+si+el+ministro+%C3%93scar+Puente+deb%C3%ADa+dimitir+por+el+choque+del+AVE+2026+noticias+archivo)\r\n> **Evaluación de Segundo Orden:** Focalizó la culpa en un error individual de un operador en Atocha ('me estaba liando') para eludir el debate sobre la falta de inversión continuada y mantenimiento del sistema LZB/ERTMS.\r\n\r\n### • [La atención morbosa sobre la ejecución fallida de reclusos en EEUU o polémicas de conciertos](https://www.google.com/search?q=La+atenci%C3%B3n+morbosa+sobre+la+ejecuci%C3%B3n+fallida+de+reclusos+en+EEUU+o+pol%C3%A9micas+de+conciertos+2026+noticias+archivo)\r\n> **Evaluación de Segundo Orden:** Ocupó primeras planas en la prensa británica y alemana en semanas donde se cerraban ventas masivas de misiles Patriot hacia Ucrania.\r\n\r\n### • [Las acusaciones mutuas de golpe de estado entre Tusk y la judicatura polaca](https://www.google.com/search?q=Las+acusaciones+mutuas+de+golpe+de+estado+entre+Tusk+y+la+judicatura+polaca+2026+noticias+archivo)\r\n> **Evaluación de Segundo Orden:** Canalizadas como un debate judicial puro, cuando en realidad es la batalla por el control del aparato del estado de cara a la presidencia polaca.\r\n\r\n---\r\n\r\n## 🌊 3. Lo que Pasó Desapercibido (Puntos Ciegos y Reformas Silenciosas)\r\nAcontecimientos estructurales que ocurrieron lejos de los focos de la prensa generalista nacional y que redefinieron el tablero geopolítico o económico:\r\n\r\n### • [La crisis de minería ilegal y colapso del terreno en Johannesburgo (Sudáfrica)](https://www.google.com/search?q=La+crisis+de+miner%C3%ADa+ilegal+y+colapso+del+terreno+en+Johannesburgo+%28Sud%C3%A1frica%29+2026+noticias+archivo)\r\n> **Impacto Real Silenciado:** Ignorada por la prensa occidental a pesar de poner en riesgo los mayores yacimientos de oro y platino del planeta.\r\n\r\n### • [El despliegue de más de 2.000 soldados salvadoreños de Bukele en suelo haitiano](https://www.google.com/search?q=El+despliegue+de+m%C3%A1s+de+2.000+soldados+salvadore%C3%B1os+de+Bukele+en+suelo+haitiano+2026+noticias+archivo)\r\n> **Impacto Real Silenciado:** Un hito militar y geopolítico sin precedentes en Centroamérica que sienta una nueva doctrina de intervención regional sin mediación de Washington.\r\n\r\n### • [Las revelaciones de pérdidas de 335 páginas en Anthropic para inversores](https://www.google.com/search?q=Las+revelaciones+de+p%C3%A9rdidas+de+335+p%C3%A1ginas+en+Anthropic+para+inversores+2026+noticias+archivo)\r\n> **Impacto Real Silenciado:** Silenciadas frente a la euforia tecnológica, evidenciando las dudas reales sobre la rentabilidad financiera del modelo LLM de gran escala.\r\n\r\n---\r\n\r\n## ⚖️ 4. Divergencia de Encuadre Geopolítico (Framing Transnacional)\r\nMientras los medios españoles y occidentales estuvieron saturados por tragedias locales y polarización partidista previa a las elecciones, el eje oriental (China) y el Sur Global mantuvieron el foco en el control de materiales estratégicos y la consolidación de redes de comercio desdolarizadas.\r\n\r\n---\r\n\r\n## 🔮 5. Corrientes Abiertas y Cuentas Pendientes para 2027\r\nLíneas de fuerza no resueltas que se transfieren como vector prioritario de vigilancia para el siguiente ciclo:\r\n\r\n- **El resultado definitivo y las consecuencias de las elecciones de medio mandato en Estados Unidos.**\r\n- **El desenlace del pulso por el Tribunal Constitucional en Polonia y su impacto en la estabilidad de la UE.**\r\n- **La evolución de las investigaciones periciales sobre las infraestructuras de alta velocidad en España.**\r\n\r\n---\r\n\r\n## 📜 6. Metodología y Acceso a la Hemeroteca de Origen\r\nEste anuario consolida la auditoría de todos los informes semanales generados en `informes/semanales/2026/`. Los hipervínculos dirigen a búsquedas contextuales de archivo para contrastar y tirar del hilo sobre las fuentes primarias.\r\n"
+    }
+  },
+  "semanasPorAno": {
+    "2020": [
+      {
+        "archivo": "INFORME_SEMANA_2020-W01.md",
+        "codigo": "2020-W01",
+        "year": 2020,
+        "rutaRelativa": "2020/INFORME_SEMANA_2020-W01.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2020-W02.md",
+        "codigo": "2020-W02",
+        "year": 2020,
+        "rutaRelativa": "2020/INFORME_SEMANA_2020-W02.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2020-W03.md",
+        "codigo": "2020-W03",
+        "year": 2020,
+        "rutaRelativa": "2020/INFORME_SEMANA_2020-W03.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2020-W04.md",
+        "codigo": "2020-W04",
+        "year": 2020,
+        "rutaRelativa": "2020/INFORME_SEMANA_2020-W04.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2020-W05.md",
+        "codigo": "2020-W05",
+        "year": 2020,
+        "rutaRelativa": "2020/INFORME_SEMANA_2020-W05.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2020-W06.md",
+        "codigo": "2020-W06",
+        "year": 2020,
+        "rutaRelativa": "2020/INFORME_SEMANA_2020-W06.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2020-W07.md",
+        "codigo": "2020-W07",
+        "year": 2020,
+        "rutaRelativa": "2020/INFORME_SEMANA_2020-W07.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2020-W08.md",
+        "codigo": "2020-W08",
+        "year": 2020,
+        "rutaRelativa": "2020/INFORME_SEMANA_2020-W08.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2020-W09.md",
+        "codigo": "2020-W09",
+        "year": 2020,
+        "rutaRelativa": "2020/INFORME_SEMANA_2020-W09.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2020-W10.md",
+        "codigo": "2020-W10",
+        "year": 2020,
+        "rutaRelativa": "2020/INFORME_SEMANA_2020-W10.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2020-W11.md",
+        "codigo": "2020-W11",
+        "year": 2020,
+        "rutaRelativa": "2020/INFORME_SEMANA_2020-W11.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2020-W12.md",
+        "codigo": "2020-W12",
+        "year": 2020,
+        "rutaRelativa": "2020/INFORME_SEMANA_2020-W12.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2020-W13.md",
+        "codigo": "2020-W13",
+        "year": 2020,
+        "rutaRelativa": "2020/INFORME_SEMANA_2020-W13.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2020-W14.md",
+        "codigo": "2020-W14",
+        "year": 2020,
+        "rutaRelativa": "2020/INFORME_SEMANA_2020-W14.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2020-W15.md",
+        "codigo": "2020-W15",
+        "year": 2020,
+        "rutaRelativa": "2020/INFORME_SEMANA_2020-W15.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2020-W16.md",
+        "codigo": "2020-W16",
+        "year": 2020,
+        "rutaRelativa": "2020/INFORME_SEMANA_2020-W16.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2020-W17.md",
+        "codigo": "2020-W17",
+        "year": 2020,
+        "rutaRelativa": "2020/INFORME_SEMANA_2020-W17.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2020-W18.md",
+        "codigo": "2020-W18",
+        "year": 2020,
+        "rutaRelativa": "2020/INFORME_SEMANA_2020-W18.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2020-W19.md",
+        "codigo": "2020-W19",
+        "year": 2020,
+        "rutaRelativa": "2020/INFORME_SEMANA_2020-W19.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2020-W20.md",
+        "codigo": "2020-W20",
+        "year": 2020,
+        "rutaRelativa": "2020/INFORME_SEMANA_2020-W20.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2020-W21.md",
+        "codigo": "2020-W21",
+        "year": 2020,
+        "rutaRelativa": "2020/INFORME_SEMANA_2020-W21.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2020-W22.md",
+        "codigo": "2020-W22",
+        "year": 2020,
+        "rutaRelativa": "2020/INFORME_SEMANA_2020-W22.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2020-W23.md",
+        "codigo": "2020-W23",
+        "year": 2020,
+        "rutaRelativa": "2020/INFORME_SEMANA_2020-W23.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2020-W24.md",
+        "codigo": "2020-W24",
+        "year": 2020,
+        "rutaRelativa": "2020/INFORME_SEMANA_2020-W24.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2020-W25.md",
+        "codigo": "2020-W25",
+        "year": 2020,
+        "rutaRelativa": "2020/INFORME_SEMANA_2020-W25.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2020-W26.md",
+        "codigo": "2020-W26",
+        "year": 2020,
+        "rutaRelativa": "2020/INFORME_SEMANA_2020-W26.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2020-W27.md",
+        "codigo": "2020-W27",
+        "year": 2020,
+        "rutaRelativa": "2020/INFORME_SEMANA_2020-W27.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2020-W28.md",
+        "codigo": "2020-W28",
+        "year": 2020,
+        "rutaRelativa": "2020/INFORME_SEMANA_2020-W28.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2020-W29.md",
+        "codigo": "2020-W29",
+        "year": 2020,
+        "rutaRelativa": "2020/INFORME_SEMANA_2020-W29.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2020-W30.md",
+        "codigo": "2020-W30",
+        "year": 2020,
+        "rutaRelativa": "2020/INFORME_SEMANA_2020-W30.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2020-W31.md",
+        "codigo": "2020-W31",
+        "year": 2020,
+        "rutaRelativa": "2020/INFORME_SEMANA_2020-W31.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2020-W32.md",
+        "codigo": "2020-W32",
+        "year": 2020,
+        "rutaRelativa": "2020/INFORME_SEMANA_2020-W32.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2020-W33.md",
+        "codigo": "2020-W33",
+        "year": 2020,
+        "rutaRelativa": "2020/INFORME_SEMANA_2020-W33.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2020-W34.md",
+        "codigo": "2020-W34",
+        "year": 2020,
+        "rutaRelativa": "2020/INFORME_SEMANA_2020-W34.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2020-W35.md",
+        "codigo": "2020-W35",
+        "year": 2020,
+        "rutaRelativa": "2020/INFORME_SEMANA_2020-W35.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2020-W36.md",
+        "codigo": "2020-W36",
+        "year": 2020,
+        "rutaRelativa": "2020/INFORME_SEMANA_2020-W36.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2020-W37.md",
+        "codigo": "2020-W37",
+        "year": 2020,
+        "rutaRelativa": "2020/INFORME_SEMANA_2020-W37.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2020-W38.md",
+        "codigo": "2020-W38",
+        "year": 2020,
+        "rutaRelativa": "2020/INFORME_SEMANA_2020-W38.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2020-W39.md",
+        "codigo": "2020-W39",
+        "year": 2020,
+        "rutaRelativa": "2020/INFORME_SEMANA_2020-W39.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2020-W40.md",
+        "codigo": "2020-W40",
+        "year": 2020,
+        "rutaRelativa": "2020/INFORME_SEMANA_2020-W40.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2020-W41.md",
+        "codigo": "2020-W41",
+        "year": 2020,
+        "rutaRelativa": "2020/INFORME_SEMANA_2020-W41.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2020-W42.md",
+        "codigo": "2020-W42",
+        "year": 2020,
+        "rutaRelativa": "2020/INFORME_SEMANA_2020-W42.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2020-W43.md",
+        "codigo": "2020-W43",
+        "year": 2020,
+        "rutaRelativa": "2020/INFORME_SEMANA_2020-W43.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2020-W44.md",
+        "codigo": "2020-W44",
+        "year": 2020,
+        "rutaRelativa": "2020/INFORME_SEMANA_2020-W44.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2020-W45.md",
+        "codigo": "2020-W45",
+        "year": 2020,
+        "rutaRelativa": "2020/INFORME_SEMANA_2020-W45.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2020-W46.md",
+        "codigo": "2020-W46",
+        "year": 2020,
+        "rutaRelativa": "2020/INFORME_SEMANA_2020-W46.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2020-W47.md",
+        "codigo": "2020-W47",
+        "year": 2020,
+        "rutaRelativa": "2020/INFORME_SEMANA_2020-W47.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2020-W48.md",
+        "codigo": "2020-W48",
+        "year": 2020,
+        "rutaRelativa": "2020/INFORME_SEMANA_2020-W48.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2020-W49.md",
+        "codigo": "2020-W49",
+        "year": 2020,
+        "rutaRelativa": "2020/INFORME_SEMANA_2020-W49.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2020-W50.md",
+        "codigo": "2020-W50",
+        "year": 2020,
+        "rutaRelativa": "2020/INFORME_SEMANA_2020-W50.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2020-W51.md",
+        "codigo": "2020-W51",
+        "year": 2020,
+        "rutaRelativa": "2020/INFORME_SEMANA_2020-W51.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2020-W52.md",
+        "codigo": "2020-W52",
+        "year": 2020,
+        "rutaRelativa": "2020/INFORME_SEMANA_2020-W52.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2020-W53.md",
+        "codigo": "2020-W53",
+        "year": 2020,
+        "rutaRelativa": "2020/INFORME_SEMANA_2020-W53.md"
+      }
+    ],
+    "2021": [
+      {
+        "archivo": "INFORME_SEMANA_2021-W01.md",
+        "codigo": "2021-W01",
+        "year": 2021,
+        "rutaRelativa": "2021/INFORME_SEMANA_2021-W01.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2021-W02.md",
+        "codigo": "2021-W02",
+        "year": 2021,
+        "rutaRelativa": "2021/INFORME_SEMANA_2021-W02.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2021-W03.md",
+        "codigo": "2021-W03",
+        "year": 2021,
+        "rutaRelativa": "2021/INFORME_SEMANA_2021-W03.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2021-W04.md",
+        "codigo": "2021-W04",
+        "year": 2021,
+        "rutaRelativa": "2021/INFORME_SEMANA_2021-W04.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2021-W05.md",
+        "codigo": "2021-W05",
+        "year": 2021,
+        "rutaRelativa": "2021/INFORME_SEMANA_2021-W05.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2021-W06.md",
+        "codigo": "2021-W06",
+        "year": 2021,
+        "rutaRelativa": "2021/INFORME_SEMANA_2021-W06.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2021-W07.md",
+        "codigo": "2021-W07",
+        "year": 2021,
+        "rutaRelativa": "2021/INFORME_SEMANA_2021-W07.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2021-W08.md",
+        "codigo": "2021-W08",
+        "year": 2021,
+        "rutaRelativa": "2021/INFORME_SEMANA_2021-W08.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2021-W09.md",
+        "codigo": "2021-W09",
+        "year": 2021,
+        "rutaRelativa": "2021/INFORME_SEMANA_2021-W09.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2021-W10.md",
+        "codigo": "2021-W10",
+        "year": 2021,
+        "rutaRelativa": "2021/INFORME_SEMANA_2021-W10.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2021-W11.md",
+        "codigo": "2021-W11",
+        "year": 2021,
+        "rutaRelativa": "2021/INFORME_SEMANA_2021-W11.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2021-W12.md",
+        "codigo": "2021-W12",
+        "year": 2021,
+        "rutaRelativa": "2021/INFORME_SEMANA_2021-W12.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2021-W13.md",
+        "codigo": "2021-W13",
+        "year": 2021,
+        "rutaRelativa": "2021/INFORME_SEMANA_2021-W13.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2021-W14.md",
+        "codigo": "2021-W14",
+        "year": 2021,
+        "rutaRelativa": "2021/INFORME_SEMANA_2021-W14.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2021-W15.md",
+        "codigo": "2021-W15",
+        "year": 2021,
+        "rutaRelativa": "2021/INFORME_SEMANA_2021-W15.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2021-W16.md",
+        "codigo": "2021-W16",
+        "year": 2021,
+        "rutaRelativa": "2021/INFORME_SEMANA_2021-W16.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2021-W17.md",
+        "codigo": "2021-W17",
+        "year": 2021,
+        "rutaRelativa": "2021/INFORME_SEMANA_2021-W17.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2021-W18.md",
+        "codigo": "2021-W18",
+        "year": 2021,
+        "rutaRelativa": "2021/INFORME_SEMANA_2021-W18.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2021-W19.md",
+        "codigo": "2021-W19",
+        "year": 2021,
+        "rutaRelativa": "2021/INFORME_SEMANA_2021-W19.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2021-W20.md",
+        "codigo": "2021-W20",
+        "year": 2021,
+        "rutaRelativa": "2021/INFORME_SEMANA_2021-W20.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2021-W21.md",
+        "codigo": "2021-W21",
+        "year": 2021,
+        "rutaRelativa": "2021/INFORME_SEMANA_2021-W21.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2021-W22.md",
+        "codigo": "2021-W22",
+        "year": 2021,
+        "rutaRelativa": "2021/INFORME_SEMANA_2021-W22.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2021-W23.md",
+        "codigo": "2021-W23",
+        "year": 2021,
+        "rutaRelativa": "2021/INFORME_SEMANA_2021-W23.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2021-W24.md",
+        "codigo": "2021-W24",
+        "year": 2021,
+        "rutaRelativa": "2021/INFORME_SEMANA_2021-W24.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2021-W25.md",
+        "codigo": "2021-W25",
+        "year": 2021,
+        "rutaRelativa": "2021/INFORME_SEMANA_2021-W25.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2021-W26.md",
+        "codigo": "2021-W26",
+        "year": 2021,
+        "rutaRelativa": "2021/INFORME_SEMANA_2021-W26.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2021-W27.md",
+        "codigo": "2021-W27",
+        "year": 2021,
+        "rutaRelativa": "2021/INFORME_SEMANA_2021-W27.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2021-W28.md",
+        "codigo": "2021-W28",
+        "year": 2021,
+        "rutaRelativa": "2021/INFORME_SEMANA_2021-W28.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2021-W29.md",
+        "codigo": "2021-W29",
+        "year": 2021,
+        "rutaRelativa": "2021/INFORME_SEMANA_2021-W29.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2021-W30.md",
+        "codigo": "2021-W30",
+        "year": 2021,
+        "rutaRelativa": "2021/INFORME_SEMANA_2021-W30.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2021-W31.md",
+        "codigo": "2021-W31",
+        "year": 2021,
+        "rutaRelativa": "2021/INFORME_SEMANA_2021-W31.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2021-W32.md",
+        "codigo": "2021-W32",
+        "year": 2021,
+        "rutaRelativa": "2021/INFORME_SEMANA_2021-W32.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2021-W33.md",
+        "codigo": "2021-W33",
+        "year": 2021,
+        "rutaRelativa": "2021/INFORME_SEMANA_2021-W33.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2021-W34.md",
+        "codigo": "2021-W34",
+        "year": 2021,
+        "rutaRelativa": "2021/INFORME_SEMANA_2021-W34.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2021-W35.md",
+        "codigo": "2021-W35",
+        "year": 2021,
+        "rutaRelativa": "2021/INFORME_SEMANA_2021-W35.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2021-W36.md",
+        "codigo": "2021-W36",
+        "year": 2021,
+        "rutaRelativa": "2021/INFORME_SEMANA_2021-W36.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2021-W37.md",
+        "codigo": "2021-W37",
+        "year": 2021,
+        "rutaRelativa": "2021/INFORME_SEMANA_2021-W37.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2021-W38.md",
+        "codigo": "2021-W38",
+        "year": 2021,
+        "rutaRelativa": "2021/INFORME_SEMANA_2021-W38.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2021-W39.md",
+        "codigo": "2021-W39",
+        "year": 2021,
+        "rutaRelativa": "2021/INFORME_SEMANA_2021-W39.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2021-W40.md",
+        "codigo": "2021-W40",
+        "year": 2021,
+        "rutaRelativa": "2021/INFORME_SEMANA_2021-W40.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2021-W41.md",
+        "codigo": "2021-W41",
+        "year": 2021,
+        "rutaRelativa": "2021/INFORME_SEMANA_2021-W41.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2021-W42.md",
+        "codigo": "2021-W42",
+        "year": 2021,
+        "rutaRelativa": "2021/INFORME_SEMANA_2021-W42.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2021-W43.md",
+        "codigo": "2021-W43",
+        "year": 2021,
+        "rutaRelativa": "2021/INFORME_SEMANA_2021-W43.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2021-W44.md",
+        "codigo": "2021-W44",
+        "year": 2021,
+        "rutaRelativa": "2021/INFORME_SEMANA_2021-W44.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2021-W45.md",
+        "codigo": "2021-W45",
+        "year": 2021,
+        "rutaRelativa": "2021/INFORME_SEMANA_2021-W45.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2021-W46.md",
+        "codigo": "2021-W46",
+        "year": 2021,
+        "rutaRelativa": "2021/INFORME_SEMANA_2021-W46.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2021-W47.md",
+        "codigo": "2021-W47",
+        "year": 2021,
+        "rutaRelativa": "2021/INFORME_SEMANA_2021-W47.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2021-W48.md",
+        "codigo": "2021-W48",
+        "year": 2021,
+        "rutaRelativa": "2021/INFORME_SEMANA_2021-W48.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2021-W49.md",
+        "codigo": "2021-W49",
+        "year": 2021,
+        "rutaRelativa": "2021/INFORME_SEMANA_2021-W49.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2021-W50.md",
+        "codigo": "2021-W50",
+        "year": 2021,
+        "rutaRelativa": "2021/INFORME_SEMANA_2021-W50.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2021-W51.md",
+        "codigo": "2021-W51",
+        "year": 2021,
+        "rutaRelativa": "2021/INFORME_SEMANA_2021-W51.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2021-W52.md",
+        "codigo": "2021-W52",
+        "year": 2021,
+        "rutaRelativa": "2021/INFORME_SEMANA_2021-W52.md"
+      }
+    ],
+    "2022": [
+      {
+        "archivo": "INFORME_SEMANA_2022-W01.md",
+        "codigo": "2022-W01",
+        "year": 2022,
+        "rutaRelativa": "2022/INFORME_SEMANA_2022-W01.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2022-W02.md",
+        "codigo": "2022-W02",
+        "year": 2022,
+        "rutaRelativa": "2022/INFORME_SEMANA_2022-W02.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2022-W03.md",
+        "codigo": "2022-W03",
+        "year": 2022,
+        "rutaRelativa": "2022/INFORME_SEMANA_2022-W03.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2022-W04.md",
+        "codigo": "2022-W04",
+        "year": 2022,
+        "rutaRelativa": "2022/INFORME_SEMANA_2022-W04.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2022-W05.md",
+        "codigo": "2022-W05",
+        "year": 2022,
+        "rutaRelativa": "2022/INFORME_SEMANA_2022-W05.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2022-W06.md",
+        "codigo": "2022-W06",
+        "year": 2022,
+        "rutaRelativa": "2022/INFORME_SEMANA_2022-W06.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2022-W07.md",
+        "codigo": "2022-W07",
+        "year": 2022,
+        "rutaRelativa": "2022/INFORME_SEMANA_2022-W07.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2022-W08.md",
+        "codigo": "2022-W08",
+        "year": 2022,
+        "rutaRelativa": "2022/INFORME_SEMANA_2022-W08.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2022-W09.md",
+        "codigo": "2022-W09",
+        "year": 2022,
+        "rutaRelativa": "2022/INFORME_SEMANA_2022-W09.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2022-W10.md",
+        "codigo": "2022-W10",
+        "year": 2022,
+        "rutaRelativa": "2022/INFORME_SEMANA_2022-W10.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2022-W11.md",
+        "codigo": "2022-W11",
+        "year": 2022,
+        "rutaRelativa": "2022/INFORME_SEMANA_2022-W11.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2022-W12.md",
+        "codigo": "2022-W12",
+        "year": 2022,
+        "rutaRelativa": "2022/INFORME_SEMANA_2022-W12.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2022-W13.md",
+        "codigo": "2022-W13",
+        "year": 2022,
+        "rutaRelativa": "2022/INFORME_SEMANA_2022-W13.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2022-W14.md",
+        "codigo": "2022-W14",
+        "year": 2022,
+        "rutaRelativa": "2022/INFORME_SEMANA_2022-W14.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2022-W15.md",
+        "codigo": "2022-W15",
+        "year": 2022,
+        "rutaRelativa": "2022/INFORME_SEMANA_2022-W15.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2022-W16.md",
+        "codigo": "2022-W16",
+        "year": 2022,
+        "rutaRelativa": "2022/INFORME_SEMANA_2022-W16.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2022-W17.md",
+        "codigo": "2022-W17",
+        "year": 2022,
+        "rutaRelativa": "2022/INFORME_SEMANA_2022-W17.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2022-W18.md",
+        "codigo": "2022-W18",
+        "year": 2022,
+        "rutaRelativa": "2022/INFORME_SEMANA_2022-W18.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2022-W19.md",
+        "codigo": "2022-W19",
+        "year": 2022,
+        "rutaRelativa": "2022/INFORME_SEMANA_2022-W19.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2022-W20.md",
+        "codigo": "2022-W20",
+        "year": 2022,
+        "rutaRelativa": "2022/INFORME_SEMANA_2022-W20.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2022-W21.md",
+        "codigo": "2022-W21",
+        "year": 2022,
+        "rutaRelativa": "2022/INFORME_SEMANA_2022-W21.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2022-W22.md",
+        "codigo": "2022-W22",
+        "year": 2022,
+        "rutaRelativa": "2022/INFORME_SEMANA_2022-W22.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2022-W23.md",
+        "codigo": "2022-W23",
+        "year": 2022,
+        "rutaRelativa": "2022/INFORME_SEMANA_2022-W23.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2022-W24.md",
+        "codigo": "2022-W24",
+        "year": 2022,
+        "rutaRelativa": "2022/INFORME_SEMANA_2022-W24.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2022-W25.md",
+        "codigo": "2022-W25",
+        "year": 2022,
+        "rutaRelativa": "2022/INFORME_SEMANA_2022-W25.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2022-W26.md",
+        "codigo": "2022-W26",
+        "year": 2022,
+        "rutaRelativa": "2022/INFORME_SEMANA_2022-W26.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2022-W27.md",
+        "codigo": "2022-W27",
+        "year": 2022,
+        "rutaRelativa": "2022/INFORME_SEMANA_2022-W27.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2022-W28.md",
+        "codigo": "2022-W28",
+        "year": 2022,
+        "rutaRelativa": "2022/INFORME_SEMANA_2022-W28.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2022-W29.md",
+        "codigo": "2022-W29",
+        "year": 2022,
+        "rutaRelativa": "2022/INFORME_SEMANA_2022-W29.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2022-W30.md",
+        "codigo": "2022-W30",
+        "year": 2022,
+        "rutaRelativa": "2022/INFORME_SEMANA_2022-W30.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2022-W31.md",
+        "codigo": "2022-W31",
+        "year": 2022,
+        "rutaRelativa": "2022/INFORME_SEMANA_2022-W31.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2022-W32.md",
+        "codigo": "2022-W32",
+        "year": 2022,
+        "rutaRelativa": "2022/INFORME_SEMANA_2022-W32.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2022-W33.md",
+        "codigo": "2022-W33",
+        "year": 2022,
+        "rutaRelativa": "2022/INFORME_SEMANA_2022-W33.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2022-W34.md",
+        "codigo": "2022-W34",
+        "year": 2022,
+        "rutaRelativa": "2022/INFORME_SEMANA_2022-W34.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2022-W35.md",
+        "codigo": "2022-W35",
+        "year": 2022,
+        "rutaRelativa": "2022/INFORME_SEMANA_2022-W35.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2022-W36.md",
+        "codigo": "2022-W36",
+        "year": 2022,
+        "rutaRelativa": "2022/INFORME_SEMANA_2022-W36.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2022-W37.md",
+        "codigo": "2022-W37",
+        "year": 2022,
+        "rutaRelativa": "2022/INFORME_SEMANA_2022-W37.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2022-W38.md",
+        "codigo": "2022-W38",
+        "year": 2022,
+        "rutaRelativa": "2022/INFORME_SEMANA_2022-W38.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2022-W39.md",
+        "codigo": "2022-W39",
+        "year": 2022,
+        "rutaRelativa": "2022/INFORME_SEMANA_2022-W39.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2022-W40.md",
+        "codigo": "2022-W40",
+        "year": 2022,
+        "rutaRelativa": "2022/INFORME_SEMANA_2022-W40.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2022-W41.md",
+        "codigo": "2022-W41",
+        "year": 2022,
+        "rutaRelativa": "2022/INFORME_SEMANA_2022-W41.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2022-W42.md",
+        "codigo": "2022-W42",
+        "year": 2022,
+        "rutaRelativa": "2022/INFORME_SEMANA_2022-W42.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2022-W43.md",
+        "codigo": "2022-W43",
+        "year": 2022,
+        "rutaRelativa": "2022/INFORME_SEMANA_2022-W43.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2022-W44.md",
+        "codigo": "2022-W44",
+        "year": 2022,
+        "rutaRelativa": "2022/INFORME_SEMANA_2022-W44.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2022-W45.md",
+        "codigo": "2022-W45",
+        "year": 2022,
+        "rutaRelativa": "2022/INFORME_SEMANA_2022-W45.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2022-W46.md",
+        "codigo": "2022-W46",
+        "year": 2022,
+        "rutaRelativa": "2022/INFORME_SEMANA_2022-W46.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2022-W47.md",
+        "codigo": "2022-W47",
+        "year": 2022,
+        "rutaRelativa": "2022/INFORME_SEMANA_2022-W47.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2022-W48.md",
+        "codigo": "2022-W48",
+        "year": 2022,
+        "rutaRelativa": "2022/INFORME_SEMANA_2022-W48.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2022-W49.md",
+        "codigo": "2022-W49",
+        "year": 2022,
+        "rutaRelativa": "2022/INFORME_SEMANA_2022-W49.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2022-W50.md",
+        "codigo": "2022-W50",
+        "year": 2022,
+        "rutaRelativa": "2022/INFORME_SEMANA_2022-W50.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2022-W51.md",
+        "codigo": "2022-W51",
+        "year": 2022,
+        "rutaRelativa": "2022/INFORME_SEMANA_2022-W51.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2022-W52.md",
+        "codigo": "2022-W52",
+        "year": 2022,
+        "rutaRelativa": "2022/INFORME_SEMANA_2022-W52.md"
+      }
+    ],
+    "2023": [
+      {
+        "archivo": "INFORME_SEMANA_2023-W01.md",
+        "codigo": "2023-W01",
+        "year": 2023,
+        "rutaRelativa": "2023/INFORME_SEMANA_2023-W01.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2023-W02.md",
+        "codigo": "2023-W02",
+        "year": 2023,
+        "rutaRelativa": "2023/INFORME_SEMANA_2023-W02.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2023-W03.md",
+        "codigo": "2023-W03",
+        "year": 2023,
+        "rutaRelativa": "2023/INFORME_SEMANA_2023-W03.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2023-W04.md",
+        "codigo": "2023-W04",
+        "year": 2023,
+        "rutaRelativa": "2023/INFORME_SEMANA_2023-W04.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2023-W05.md",
+        "codigo": "2023-W05",
+        "year": 2023,
+        "rutaRelativa": "2023/INFORME_SEMANA_2023-W05.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2023-W06.md",
+        "codigo": "2023-W06",
+        "year": 2023,
+        "rutaRelativa": "2023/INFORME_SEMANA_2023-W06.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2023-W07.md",
+        "codigo": "2023-W07",
+        "year": 2023,
+        "rutaRelativa": "2023/INFORME_SEMANA_2023-W07.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2023-W08.md",
+        "codigo": "2023-W08",
+        "year": 2023,
+        "rutaRelativa": "2023/INFORME_SEMANA_2023-W08.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2023-W09.md",
+        "codigo": "2023-W09",
+        "year": 2023,
+        "rutaRelativa": "2023/INFORME_SEMANA_2023-W09.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2023-W10.md",
+        "codigo": "2023-W10",
+        "year": 2023,
+        "rutaRelativa": "2023/INFORME_SEMANA_2023-W10.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2023-W11.md",
+        "codigo": "2023-W11",
+        "year": 2023,
+        "rutaRelativa": "2023/INFORME_SEMANA_2023-W11.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2023-W12.md",
+        "codigo": "2023-W12",
+        "year": 2023,
+        "rutaRelativa": "2023/INFORME_SEMANA_2023-W12.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2023-W13.md",
+        "codigo": "2023-W13",
+        "year": 2023,
+        "rutaRelativa": "2023/INFORME_SEMANA_2023-W13.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2023-W14.md",
+        "codigo": "2023-W14",
+        "year": 2023,
+        "rutaRelativa": "2023/INFORME_SEMANA_2023-W14.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2023-W15.md",
+        "codigo": "2023-W15",
+        "year": 2023,
+        "rutaRelativa": "2023/INFORME_SEMANA_2023-W15.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2023-W16.md",
+        "codigo": "2023-W16",
+        "year": 2023,
+        "rutaRelativa": "2023/INFORME_SEMANA_2023-W16.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2023-W17.md",
+        "codigo": "2023-W17",
+        "year": 2023,
+        "rutaRelativa": "2023/INFORME_SEMANA_2023-W17.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2023-W18.md",
+        "codigo": "2023-W18",
+        "year": 2023,
+        "rutaRelativa": "2023/INFORME_SEMANA_2023-W18.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2023-W19.md",
+        "codigo": "2023-W19",
+        "year": 2023,
+        "rutaRelativa": "2023/INFORME_SEMANA_2023-W19.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2023-W20.md",
+        "codigo": "2023-W20",
+        "year": 2023,
+        "rutaRelativa": "2023/INFORME_SEMANA_2023-W20.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2023-W21.md",
+        "codigo": "2023-W21",
+        "year": 2023,
+        "rutaRelativa": "2023/INFORME_SEMANA_2023-W21.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2023-W22.md",
+        "codigo": "2023-W22",
+        "year": 2023,
+        "rutaRelativa": "2023/INFORME_SEMANA_2023-W22.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2023-W23.md",
+        "codigo": "2023-W23",
+        "year": 2023,
+        "rutaRelativa": "2023/INFORME_SEMANA_2023-W23.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2023-W24.md",
+        "codigo": "2023-W24",
+        "year": 2023,
+        "rutaRelativa": "2023/INFORME_SEMANA_2023-W24.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2023-W25.md",
+        "codigo": "2023-W25",
+        "year": 2023,
+        "rutaRelativa": "2023/INFORME_SEMANA_2023-W25.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2023-W26.md",
+        "codigo": "2023-W26",
+        "year": 2023,
+        "rutaRelativa": "2023/INFORME_SEMANA_2023-W26.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2023-W27.md",
+        "codigo": "2023-W27",
+        "year": 2023,
+        "rutaRelativa": "2023/INFORME_SEMANA_2023-W27.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2023-W28.md",
+        "codigo": "2023-W28",
+        "year": 2023,
+        "rutaRelativa": "2023/INFORME_SEMANA_2023-W28.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2023-W29.md",
+        "codigo": "2023-W29",
+        "year": 2023,
+        "rutaRelativa": "2023/INFORME_SEMANA_2023-W29.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2023-W30.md",
+        "codigo": "2023-W30",
+        "year": 2023,
+        "rutaRelativa": "2023/INFORME_SEMANA_2023-W30.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2023-W31.md",
+        "codigo": "2023-W31",
+        "year": 2023,
+        "rutaRelativa": "2023/INFORME_SEMANA_2023-W31.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2023-W32.md",
+        "codigo": "2023-W32",
+        "year": 2023,
+        "rutaRelativa": "2023/INFORME_SEMANA_2023-W32.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2023-W33.md",
+        "codigo": "2023-W33",
+        "year": 2023,
+        "rutaRelativa": "2023/INFORME_SEMANA_2023-W33.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2023-W34.md",
+        "codigo": "2023-W34",
+        "year": 2023,
+        "rutaRelativa": "2023/INFORME_SEMANA_2023-W34.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2023-W35.md",
+        "codigo": "2023-W35",
+        "year": 2023,
+        "rutaRelativa": "2023/INFORME_SEMANA_2023-W35.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2023-W36.md",
+        "codigo": "2023-W36",
+        "year": 2023,
+        "rutaRelativa": "2023/INFORME_SEMANA_2023-W36.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2023-W37.md",
+        "codigo": "2023-W37",
+        "year": 2023,
+        "rutaRelativa": "2023/INFORME_SEMANA_2023-W37.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2023-W38.md",
+        "codigo": "2023-W38",
+        "year": 2023,
+        "rutaRelativa": "2023/INFORME_SEMANA_2023-W38.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2023-W39.md",
+        "codigo": "2023-W39",
+        "year": 2023,
+        "rutaRelativa": "2023/INFORME_SEMANA_2023-W39.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2023-W40.md",
+        "codigo": "2023-W40",
+        "year": 2023,
+        "rutaRelativa": "2023/INFORME_SEMANA_2023-W40.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2023-W41.md",
+        "codigo": "2023-W41",
+        "year": 2023,
+        "rutaRelativa": "2023/INFORME_SEMANA_2023-W41.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2023-W42.md",
+        "codigo": "2023-W42",
+        "year": 2023,
+        "rutaRelativa": "2023/INFORME_SEMANA_2023-W42.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2023-W43.md",
+        "codigo": "2023-W43",
+        "year": 2023,
+        "rutaRelativa": "2023/INFORME_SEMANA_2023-W43.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2023-W44.md",
+        "codigo": "2023-W44",
+        "year": 2023,
+        "rutaRelativa": "2023/INFORME_SEMANA_2023-W44.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2023-W45.md",
+        "codigo": "2023-W45",
+        "year": 2023,
+        "rutaRelativa": "2023/INFORME_SEMANA_2023-W45.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2023-W46.md",
+        "codigo": "2023-W46",
+        "year": 2023,
+        "rutaRelativa": "2023/INFORME_SEMANA_2023-W46.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2023-W47.md",
+        "codigo": "2023-W47",
+        "year": 2023,
+        "rutaRelativa": "2023/INFORME_SEMANA_2023-W47.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2023-W48.md",
+        "codigo": "2023-W48",
+        "year": 2023,
+        "rutaRelativa": "2023/INFORME_SEMANA_2023-W48.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2023-W49.md",
+        "codigo": "2023-W49",
+        "year": 2023,
+        "rutaRelativa": "2023/INFORME_SEMANA_2023-W49.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2023-W50.md",
+        "codigo": "2023-W50",
+        "year": 2023,
+        "rutaRelativa": "2023/INFORME_SEMANA_2023-W50.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2023-W51.md",
+        "codigo": "2023-W51",
+        "year": 2023,
+        "rutaRelativa": "2023/INFORME_SEMANA_2023-W51.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2023-W52.md",
+        "codigo": "2023-W52",
+        "year": 2023,
+        "rutaRelativa": "2023/INFORME_SEMANA_2023-W52.md"
+      }
+    ],
+    "2024": [
+      {
+        "archivo": "INFORME_SEMANA_2024-W01.md",
+        "codigo": "2024-W01",
+        "year": 2024,
+        "rutaRelativa": "2024/INFORME_SEMANA_2024-W01.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2024-W02.md",
+        "codigo": "2024-W02",
+        "year": 2024,
+        "rutaRelativa": "2024/INFORME_SEMANA_2024-W02.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2024-W03.md",
+        "codigo": "2024-W03",
+        "year": 2024,
+        "rutaRelativa": "2024/INFORME_SEMANA_2024-W03.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2024-W04.md",
+        "codigo": "2024-W04",
+        "year": 2024,
+        "rutaRelativa": "2024/INFORME_SEMANA_2024-W04.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2024-W05.md",
+        "codigo": "2024-W05",
+        "year": 2024,
+        "rutaRelativa": "2024/INFORME_SEMANA_2024-W05.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2024-W06.md",
+        "codigo": "2024-W06",
+        "year": 2024,
+        "rutaRelativa": "2024/INFORME_SEMANA_2024-W06.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2024-W07.md",
+        "codigo": "2024-W07",
+        "year": 2024,
+        "rutaRelativa": "2024/INFORME_SEMANA_2024-W07.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2024-W08.md",
+        "codigo": "2024-W08",
+        "year": 2024,
+        "rutaRelativa": "2024/INFORME_SEMANA_2024-W08.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2024-W09.md",
+        "codigo": "2024-W09",
+        "year": 2024,
+        "rutaRelativa": "2024/INFORME_SEMANA_2024-W09.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2024-W10.md",
+        "codigo": "2024-W10",
+        "year": 2024,
+        "rutaRelativa": "2024/INFORME_SEMANA_2024-W10.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2024-W11.md",
+        "codigo": "2024-W11",
+        "year": 2024,
+        "rutaRelativa": "2024/INFORME_SEMANA_2024-W11.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2024-W12.md",
+        "codigo": "2024-W12",
+        "year": 2024,
+        "rutaRelativa": "2024/INFORME_SEMANA_2024-W12.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2024-W13.md",
+        "codigo": "2024-W13",
+        "year": 2024,
+        "rutaRelativa": "2024/INFORME_SEMANA_2024-W13.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2024-W14.md",
+        "codigo": "2024-W14",
+        "year": 2024,
+        "rutaRelativa": "2024/INFORME_SEMANA_2024-W14.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2024-W15.md",
+        "codigo": "2024-W15",
+        "year": 2024,
+        "rutaRelativa": "2024/INFORME_SEMANA_2024-W15.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2024-W16.md",
+        "codigo": "2024-W16",
+        "year": 2024,
+        "rutaRelativa": "2024/INFORME_SEMANA_2024-W16.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2024-W17.md",
+        "codigo": "2024-W17",
+        "year": 2024,
+        "rutaRelativa": "2024/INFORME_SEMANA_2024-W17.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2024-W18.md",
+        "codigo": "2024-W18",
+        "year": 2024,
+        "rutaRelativa": "2024/INFORME_SEMANA_2024-W18.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2024-W19.md",
+        "codigo": "2024-W19",
+        "year": 2024,
+        "rutaRelativa": "2024/INFORME_SEMANA_2024-W19.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2024-W20.md",
+        "codigo": "2024-W20",
+        "year": 2024,
+        "rutaRelativa": "2024/INFORME_SEMANA_2024-W20.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2024-W21.md",
+        "codigo": "2024-W21",
+        "year": 2024,
+        "rutaRelativa": "2024/INFORME_SEMANA_2024-W21.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2024-W22.md",
+        "codigo": "2024-W22",
+        "year": 2024,
+        "rutaRelativa": "2024/INFORME_SEMANA_2024-W22.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2024-W23.md",
+        "codigo": "2024-W23",
+        "year": 2024,
+        "rutaRelativa": "2024/INFORME_SEMANA_2024-W23.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2024-W24.md",
+        "codigo": "2024-W24",
+        "year": 2024,
+        "rutaRelativa": "2024/INFORME_SEMANA_2024-W24.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2024-W25.md",
+        "codigo": "2024-W25",
+        "year": 2024,
+        "rutaRelativa": "2024/INFORME_SEMANA_2024-W25.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2024-W26.md",
+        "codigo": "2024-W26",
+        "year": 2024,
+        "rutaRelativa": "2024/INFORME_SEMANA_2024-W26.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2024-W27.md",
+        "codigo": "2024-W27",
+        "year": 2024,
+        "rutaRelativa": "2024/INFORME_SEMANA_2024-W27.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2024-W28.md",
+        "codigo": "2024-W28",
+        "year": 2024,
+        "rutaRelativa": "2024/INFORME_SEMANA_2024-W28.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2024-W29.md",
+        "codigo": "2024-W29",
+        "year": 2024,
+        "rutaRelativa": "2024/INFORME_SEMANA_2024-W29.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2024-W30.md",
+        "codigo": "2024-W30",
+        "year": 2024,
+        "rutaRelativa": "2024/INFORME_SEMANA_2024-W30.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2024-W31.md",
+        "codigo": "2024-W31",
+        "year": 2024,
+        "rutaRelativa": "2024/INFORME_SEMANA_2024-W31.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2024-W32.md",
+        "codigo": "2024-W32",
+        "year": 2024,
+        "rutaRelativa": "2024/INFORME_SEMANA_2024-W32.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2024-W33.md",
+        "codigo": "2024-W33",
+        "year": 2024,
+        "rutaRelativa": "2024/INFORME_SEMANA_2024-W33.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2024-W34.md",
+        "codigo": "2024-W34",
+        "year": 2024,
+        "rutaRelativa": "2024/INFORME_SEMANA_2024-W34.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2024-W35.md",
+        "codigo": "2024-W35",
+        "year": 2024,
+        "rutaRelativa": "2024/INFORME_SEMANA_2024-W35.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2024-W36.md",
+        "codigo": "2024-W36",
+        "year": 2024,
+        "rutaRelativa": "2024/INFORME_SEMANA_2024-W36.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2024-W37.md",
+        "codigo": "2024-W37",
+        "year": 2024,
+        "rutaRelativa": "2024/INFORME_SEMANA_2024-W37.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2024-W38.md",
+        "codigo": "2024-W38",
+        "year": 2024,
+        "rutaRelativa": "2024/INFORME_SEMANA_2024-W38.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2024-W39.md",
+        "codigo": "2024-W39",
+        "year": 2024,
+        "rutaRelativa": "2024/INFORME_SEMANA_2024-W39.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2024-W40.md",
+        "codigo": "2024-W40",
+        "year": 2024,
+        "rutaRelativa": "2024/INFORME_SEMANA_2024-W40.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2024-W41.md",
+        "codigo": "2024-W41",
+        "year": 2024,
+        "rutaRelativa": "2024/INFORME_SEMANA_2024-W41.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2024-W42.md",
+        "codigo": "2024-W42",
+        "year": 2024,
+        "rutaRelativa": "2024/INFORME_SEMANA_2024-W42.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2024-W43.md",
+        "codigo": "2024-W43",
+        "year": 2024,
+        "rutaRelativa": "2024/INFORME_SEMANA_2024-W43.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2024-W44.md",
+        "codigo": "2024-W44",
+        "year": 2024,
+        "rutaRelativa": "2024/INFORME_SEMANA_2024-W44.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2024-W45.md",
+        "codigo": "2024-W45",
+        "year": 2024,
+        "rutaRelativa": "2024/INFORME_SEMANA_2024-W45.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2024-W46.md",
+        "codigo": "2024-W46",
+        "year": 2024,
+        "rutaRelativa": "2024/INFORME_SEMANA_2024-W46.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2024-W47.md",
+        "codigo": "2024-W47",
+        "year": 2024,
+        "rutaRelativa": "2024/INFORME_SEMANA_2024-W47.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2024-W48.md",
+        "codigo": "2024-W48",
+        "year": 2024,
+        "rutaRelativa": "2024/INFORME_SEMANA_2024-W48.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2024-W49.md",
+        "codigo": "2024-W49",
+        "year": 2024,
+        "rutaRelativa": "2024/INFORME_SEMANA_2024-W49.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2024-W50.md",
+        "codigo": "2024-W50",
+        "year": 2024,
+        "rutaRelativa": "2024/INFORME_SEMANA_2024-W50.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2024-W51.md",
+        "codigo": "2024-W51",
+        "year": 2024,
+        "rutaRelativa": "2024/INFORME_SEMANA_2024-W51.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2024-W52.md",
+        "codigo": "2024-W52",
+        "year": 2024,
+        "rutaRelativa": "2024/INFORME_SEMANA_2024-W52.md"
+      }
+    ],
+    "2025": [
+      {
+        "archivo": "INFORME_SEMANA_2025-W01.md",
+        "codigo": "2025-W01",
+        "year": 2025,
+        "rutaRelativa": "2025/INFORME_SEMANA_2025-W01.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2025-W02.md",
+        "codigo": "2025-W02",
+        "year": 2025,
+        "rutaRelativa": "2025/INFORME_SEMANA_2025-W02.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2025-W03.md",
+        "codigo": "2025-W03",
+        "year": 2025,
+        "rutaRelativa": "2025/INFORME_SEMANA_2025-W03.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2025-W04.md",
+        "codigo": "2025-W04",
+        "year": 2025,
+        "rutaRelativa": "2025/INFORME_SEMANA_2025-W04.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2025-W05.md",
+        "codigo": "2025-W05",
+        "year": 2025,
+        "rutaRelativa": "2025/INFORME_SEMANA_2025-W05.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2025-W06.md",
+        "codigo": "2025-W06",
+        "year": 2025,
+        "rutaRelativa": "2025/INFORME_SEMANA_2025-W06.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2025-W07.md",
+        "codigo": "2025-W07",
+        "year": 2025,
+        "rutaRelativa": "2025/INFORME_SEMANA_2025-W07.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2025-W08.md",
+        "codigo": "2025-W08",
+        "year": 2025,
+        "rutaRelativa": "2025/INFORME_SEMANA_2025-W08.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2025-W09.md",
+        "codigo": "2025-W09",
+        "year": 2025,
+        "rutaRelativa": "2025/INFORME_SEMANA_2025-W09.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2025-W10.md",
+        "codigo": "2025-W10",
+        "year": 2025,
+        "rutaRelativa": "2025/INFORME_SEMANA_2025-W10.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2025-W11.md",
+        "codigo": "2025-W11",
+        "year": 2025,
+        "rutaRelativa": "2025/INFORME_SEMANA_2025-W11.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2025-W12.md",
+        "codigo": "2025-W12",
+        "year": 2025,
+        "rutaRelativa": "2025/INFORME_SEMANA_2025-W12.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2025-W13.md",
+        "codigo": "2025-W13",
+        "year": 2025,
+        "rutaRelativa": "2025/INFORME_SEMANA_2025-W13.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2025-W14.md",
+        "codigo": "2025-W14",
+        "year": 2025,
+        "rutaRelativa": "2025/INFORME_SEMANA_2025-W14.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2025-W15.md",
+        "codigo": "2025-W15",
+        "year": 2025,
+        "rutaRelativa": "2025/INFORME_SEMANA_2025-W15.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2025-W16.md",
+        "codigo": "2025-W16",
+        "year": 2025,
+        "rutaRelativa": "2025/INFORME_SEMANA_2025-W16.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2025-W17.md",
+        "codigo": "2025-W17",
+        "year": 2025,
+        "rutaRelativa": "2025/INFORME_SEMANA_2025-W17.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2025-W18.md",
+        "codigo": "2025-W18",
+        "year": 2025,
+        "rutaRelativa": "2025/INFORME_SEMANA_2025-W18.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2025-W19.md",
+        "codigo": "2025-W19",
+        "year": 2025,
+        "rutaRelativa": "2025/INFORME_SEMANA_2025-W19.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2025-W20.md",
+        "codigo": "2025-W20",
+        "year": 2025,
+        "rutaRelativa": "2025/INFORME_SEMANA_2025-W20.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2025-W21.md",
+        "codigo": "2025-W21",
+        "year": 2025,
+        "rutaRelativa": "2025/INFORME_SEMANA_2025-W21.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2025-W22.md",
+        "codigo": "2025-W22",
+        "year": 2025,
+        "rutaRelativa": "2025/INFORME_SEMANA_2025-W22.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2025-W23.md",
+        "codigo": "2025-W23",
+        "year": 2025,
+        "rutaRelativa": "2025/INFORME_SEMANA_2025-W23.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2025-W24.md",
+        "codigo": "2025-W24",
+        "year": 2025,
+        "rutaRelativa": "2025/INFORME_SEMANA_2025-W24.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2025-W25.md",
+        "codigo": "2025-W25",
+        "year": 2025,
+        "rutaRelativa": "2025/INFORME_SEMANA_2025-W25.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2025-W26.md",
+        "codigo": "2025-W26",
+        "year": 2025,
+        "rutaRelativa": "2025/INFORME_SEMANA_2025-W26.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2025-W27.md",
+        "codigo": "2025-W27",
+        "year": 2025,
+        "rutaRelativa": "2025/INFORME_SEMANA_2025-W27.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2025-W28.md",
+        "codigo": "2025-W28",
+        "year": 2025,
+        "rutaRelativa": "2025/INFORME_SEMANA_2025-W28.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2025-W29.md",
+        "codigo": "2025-W29",
+        "year": 2025,
+        "rutaRelativa": "2025/INFORME_SEMANA_2025-W29.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2025-W30.md",
+        "codigo": "2025-W30",
+        "year": 2025,
+        "rutaRelativa": "2025/INFORME_SEMANA_2025-W30.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2025-W31.md",
+        "codigo": "2025-W31",
+        "year": 2025,
+        "rutaRelativa": "2025/INFORME_SEMANA_2025-W31.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2025-W32.md",
+        "codigo": "2025-W32",
+        "year": 2025,
+        "rutaRelativa": "2025/INFORME_SEMANA_2025-W32.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2025-W33.md",
+        "codigo": "2025-W33",
+        "year": 2025,
+        "rutaRelativa": "2025/INFORME_SEMANA_2025-W33.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2025-W34.md",
+        "codigo": "2025-W34",
+        "year": 2025,
+        "rutaRelativa": "2025/INFORME_SEMANA_2025-W34.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2025-W35.md",
+        "codigo": "2025-W35",
+        "year": 2025,
+        "rutaRelativa": "2025/INFORME_SEMANA_2025-W35.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2025-W36.md",
+        "codigo": "2025-W36",
+        "year": 2025,
+        "rutaRelativa": "2025/INFORME_SEMANA_2025-W36.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2025-W37.md",
+        "codigo": "2025-W37",
+        "year": 2025,
+        "rutaRelativa": "2025/INFORME_SEMANA_2025-W37.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2025-W38.md",
+        "codigo": "2025-W38",
+        "year": 2025,
+        "rutaRelativa": "2025/INFORME_SEMANA_2025-W38.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2025-W39.md",
+        "codigo": "2025-W39",
+        "year": 2025,
+        "rutaRelativa": "2025/INFORME_SEMANA_2025-W39.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2025-W40.md",
+        "codigo": "2025-W40",
+        "year": 2025,
+        "rutaRelativa": "2025/INFORME_SEMANA_2025-W40.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2025-W41.md",
+        "codigo": "2025-W41",
+        "year": 2025,
+        "rutaRelativa": "2025/INFORME_SEMANA_2025-W41.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2025-W42.md",
+        "codigo": "2025-W42",
+        "year": 2025,
+        "rutaRelativa": "2025/INFORME_SEMANA_2025-W42.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2025-W43.md",
+        "codigo": "2025-W43",
+        "year": 2025,
+        "rutaRelativa": "2025/INFORME_SEMANA_2025-W43.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2025-W44.md",
+        "codigo": "2025-W44",
+        "year": 2025,
+        "rutaRelativa": "2025/INFORME_SEMANA_2025-W44.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2025-W45.md",
+        "codigo": "2025-W45",
+        "year": 2025,
+        "rutaRelativa": "2025/INFORME_SEMANA_2025-W45.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2025-W46.md",
+        "codigo": "2025-W46",
+        "year": 2025,
+        "rutaRelativa": "2025/INFORME_SEMANA_2025-W46.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2025-W47.md",
+        "codigo": "2025-W47",
+        "year": 2025,
+        "rutaRelativa": "2025/INFORME_SEMANA_2025-W47.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2025-W48.md",
+        "codigo": "2025-W48",
+        "year": 2025,
+        "rutaRelativa": "2025/INFORME_SEMANA_2025-W48.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2025-W49.md",
+        "codigo": "2025-W49",
+        "year": 2025,
+        "rutaRelativa": "2025/INFORME_SEMANA_2025-W49.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2025-W50.md",
+        "codigo": "2025-W50",
+        "year": 2025,
+        "rutaRelativa": "2025/INFORME_SEMANA_2025-W50.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2025-W51.md",
+        "codigo": "2025-W51",
+        "year": 2025,
+        "rutaRelativa": "2025/INFORME_SEMANA_2025-W51.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2025-W52.md",
+        "codigo": "2025-W52",
+        "year": 2025,
+        "rutaRelativa": "2025/INFORME_SEMANA_2025-W52.md"
+      }
+    ],
+    "2026": [
+      {
+        "archivo": "INFORME_SEMANA_2026-W01.md",
+        "codigo": "2026-W01",
+        "year": 2026,
+        "rutaRelativa": "2026/INFORME_SEMANA_2026-W01.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2026-W02.md",
+        "codigo": "2026-W02",
+        "year": 2026,
+        "rutaRelativa": "2026/INFORME_SEMANA_2026-W02.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2026-W03.md",
+        "codigo": "2026-W03",
+        "year": 2026,
+        "rutaRelativa": "2026/INFORME_SEMANA_2026-W03.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2026-W04.md",
+        "codigo": "2026-W04",
+        "year": 2026,
+        "rutaRelativa": "2026/INFORME_SEMANA_2026-W04.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2026-W05.md",
+        "codigo": "2026-W05",
+        "year": 2026,
+        "rutaRelativa": "2026/INFORME_SEMANA_2026-W05.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2026-W06.md",
+        "codigo": "2026-W06",
+        "year": 2026,
+        "rutaRelativa": "2026/INFORME_SEMANA_2026-W06.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2026-W07.md",
+        "codigo": "2026-W07",
+        "year": 2026,
+        "rutaRelativa": "2026/INFORME_SEMANA_2026-W07.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2026-W08.md",
+        "codigo": "2026-W08",
+        "year": 2026,
+        "rutaRelativa": "2026/INFORME_SEMANA_2026-W08.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2026-W09.md",
+        "codigo": "2026-W09",
+        "year": 2026,
+        "rutaRelativa": "2026/INFORME_SEMANA_2026-W09.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2026-W10.md",
+        "codigo": "2026-W10",
+        "year": 2026,
+        "rutaRelativa": "2026/INFORME_SEMANA_2026-W10.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2026-W11.md",
+        "codigo": "2026-W11",
+        "year": 2026,
+        "rutaRelativa": "2026/INFORME_SEMANA_2026-W11.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2026-W12.md",
+        "codigo": "2026-W12",
+        "year": 2026,
+        "rutaRelativa": "2026/INFORME_SEMANA_2026-W12.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2026-W13.md",
+        "codigo": "2026-W13",
+        "year": 2026,
+        "rutaRelativa": "2026/INFORME_SEMANA_2026-W13.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2026-W14.md",
+        "codigo": "2026-W14",
+        "year": 2026,
+        "rutaRelativa": "2026/INFORME_SEMANA_2026-W14.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2026-W15.md",
+        "codigo": "2026-W15",
+        "year": 2026,
+        "rutaRelativa": "2026/INFORME_SEMANA_2026-W15.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2026-W16.md",
+        "codigo": "2026-W16",
+        "year": 2026,
+        "rutaRelativa": "2026/INFORME_SEMANA_2026-W16.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2026-W17.md",
+        "codigo": "2026-W17",
+        "year": 2026,
+        "rutaRelativa": "2026/INFORME_SEMANA_2026-W17.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2026-W18.md",
+        "codigo": "2026-W18",
+        "year": 2026,
+        "rutaRelativa": "2026/INFORME_SEMANA_2026-W18.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2026-W19.md",
+        "codigo": "2026-W19",
+        "year": 2026,
+        "rutaRelativa": "2026/INFORME_SEMANA_2026-W19.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2026-W20.md",
+        "codigo": "2026-W20",
+        "year": 2026,
+        "rutaRelativa": "2026/INFORME_SEMANA_2026-W20.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2026-W21.md",
+        "codigo": "2026-W21",
+        "year": 2026,
+        "rutaRelativa": "2026/INFORME_SEMANA_2026-W21.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2026-W22.md",
+        "codigo": "2026-W22",
+        "year": 2026,
+        "rutaRelativa": "2026/INFORME_SEMANA_2026-W22.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2026-W23.md",
+        "codigo": "2026-W23",
+        "year": 2026,
+        "rutaRelativa": "2026/INFORME_SEMANA_2026-W23.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2026-W24.md",
+        "codigo": "2026-W24",
+        "year": 2026,
+        "rutaRelativa": "2026/INFORME_SEMANA_2026-W24.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2026-W25.md",
+        "codigo": "2026-W25",
+        "year": 2026,
+        "rutaRelativa": "2026/INFORME_SEMANA_2026-W25.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2026-W26.md",
+        "codigo": "2026-W26",
+        "year": 2026,
+        "rutaRelativa": "2026/INFORME_SEMANA_2026-W26.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2026-W27.md",
+        "codigo": "2026-W27",
+        "year": 2026,
+        "rutaRelativa": "2026/INFORME_SEMANA_2026-W27.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2026-W28.md",
+        "codigo": "2026-W28",
+        "year": 2026,
+        "rutaRelativa": "2026/INFORME_SEMANA_2026-W28.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2026-W29.md",
+        "codigo": "2026-W29",
+        "year": 2026,
+        "rutaRelativa": "2026/INFORME_SEMANA_2026-W29.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2026-W30.md",
+        "codigo": "2026-W30",
+        "year": 2026,
+        "rutaRelativa": "2026/INFORME_SEMANA_2026-W30.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2026-W31.md",
+        "codigo": "2026-W31",
+        "year": 2026,
+        "rutaRelativa": "2026/INFORME_SEMANA_2026-W31.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2026-W32.md",
+        "codigo": "2026-W32",
+        "year": 2026,
+        "rutaRelativa": "2026/INFORME_SEMANA_2026-W32.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2026-W33.md",
+        "codigo": "2026-W33",
+        "year": 2026,
+        "rutaRelativa": "2026/INFORME_SEMANA_2026-W33.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2026-W34.md",
+        "codigo": "2026-W34",
+        "year": 2026,
+        "rutaRelativa": "2026/INFORME_SEMANA_2026-W34.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2026-W35.md",
+        "codigo": "2026-W35",
+        "year": 2026,
+        "rutaRelativa": "2026/INFORME_SEMANA_2026-W35.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2026-W36.md",
+        "codigo": "2026-W36",
+        "year": 2026,
+        "rutaRelativa": "2026/INFORME_SEMANA_2026-W36.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2026-W37.md",
+        "codigo": "2026-W37",
+        "year": 2026,
+        "rutaRelativa": "2026/INFORME_SEMANA_2026-W37.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2026-W38.md",
+        "codigo": "2026-W38",
+        "year": 2026,
+        "rutaRelativa": "2026/INFORME_SEMANA_2026-W38.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2026-W39.md",
+        "codigo": "2026-W39",
+        "year": 2026,
+        "rutaRelativa": "2026/INFORME_SEMANA_2026-W39.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2026-W40.md",
+        "codigo": "2026-W40",
+        "year": 2026,
+        "rutaRelativa": "2026/INFORME_SEMANA_2026-W40.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2026-W41.md",
+        "codigo": "2026-W41",
+        "year": 2026,
+        "rutaRelativa": "2026/INFORME_SEMANA_2026-W41.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2026-W42.md",
+        "codigo": "2026-W42",
+        "year": 2026,
+        "rutaRelativa": "2026/INFORME_SEMANA_2026-W42.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2026-W43.md",
+        "codigo": "2026-W43",
+        "year": 2026,
+        "rutaRelativa": "2026/INFORME_SEMANA_2026-W43.md"
+      },
+      {
+        "archivo": "INFORME_SEMANA_2026-W44.md",
+        "codigo": "2026-W44",
+        "year": 2026,
+        "rutaRelativa": "2026/INFORME_SEMANA_2026-W44.md"
+      }
+    ]
+  },
+  "hipotesisFuturos": [
+    {
+      "id": "FUT-01",
+      "titulo": "Bifurcación del Estándar Tecnológico Global (Pila Dual Occidente vs. Oriente)",
+      "horizonte": "H2 (2026 - 2030)",
+      "categoria": "Geopolítica Tecnológica",
+      "traccionScore": 78,
+      "tesis": "Las restricciones a semiconductores avanzados y exportaciones de software fuerzan al eje euroasiático (China/Rusia) a estandarizar una arquitectura informática paralela basada en litografía doméstica, RISC-V y sistemas operativos propios, fracturando la interoperabilidad de internet hacia 2030.",
+      "senalesPro": [
+        {
+          "titular": "Pekín intensifica directrices de autosuficiencia en chips y restricciones a materiales críticos (galio y germanio)",
+          "fuente": "Global Times (2026)",
+          "url": "https://www.google.com/search?q=China+autosuficiencia+chips+galio+germanio+Global+Times+2026",
+          "impacto": "Acelera el desacoplamiento de componentes de hardware occidental."
+        },
+        {
+          "titular": "Presentación del procesador avanzado de Huawei desafiando las sanciones comerciales de Washington",
+          "fuente": "SCMP (2023)",
+          "url": "https://www.google.com/search?q=Huawei+Mate+60+Pro+chip+avanzado+SCMP+2023",
+          "impacto": "Demuestra capacidad de ingeniería inversa y producción sin maquinaria estadounidense."
+        },
+        {
+          "titular": "Nuevas restricciones de Países Bajos y ASML para el mantenimiento de máquinas de litografía en territorio chino",
+          "fuente": "The Wall Street Journal (2024)",
+          "url": "https://www.google.com/search?q=ASML+restricciones+litografia+China+WSJ+2024",
+          "impacto": "Cierra el acceso al soporte técnico oficial forzando el reemplazo integral."
+        }
+      ],
+      "senalesContra": [
+        {
+          "titular": "Contrabando y canales paralelos de distribución de procesadores Nvidia H100 a través del Sudeste Asiático",
+          "fuente": "Financial Times (2024)",
+          "url": "https://www.google.com/search?q=Nvidia+chips+mercado+negro+Asia+FT+2024",
+          "impacto": "Indica que las tecnológicas chinas siguen dependiendo críticamente del silicio estadounidense."
+        },
+        {
+          "titular": "La complejidad extrema de la litografía EUV por debajo de 3nm frena la producción a gran escala sin patentes occidentales",
+          "fuente": "Nikkei Asia (2025)",
+          "url": "https://www.google.com/search?q=EUV+lithography+China+bottlenecks+Nikkei+2025",
+          "impacto": "Mantiene una brecha temporal de 4 a 6 años en rendimiento y eficiencia energética."
+        }
+      ]
+    },
+    {
+      "id": "FUT-02",
+      "titulo": "Desdolarización Energética y Fragmentación del Sistema SWIFT",
+      "horizonte": "H2 (2025 - 2032)",
+      "categoria": "Macroeconomía & Soberanía Financiera",
+      "traccionScore": 65,
+      "tesis": "La congelación de reservas soberanas en Occidente acelera la liquidación de contratos bilaterales de petróleo y gas en yuanes, dirhams y monedas locales entre el bloque BRICS+, reduciendo la cuota del petrodólar y fragmentando los sistemas de compensación interbancaria.",
+      "senalesPro": [
+        {
+          "titular": "Ampliación histórica del bloque BRICS en Johannesburgo incorporando a Emiratos Árabes Unidos e Irán",
+          "fuente": "Jeune Afrique (2023)",
+          "url": "https://www.google.com/search?q=Ampliacion+BRICS+Johannesburgo+Emiratos+Iran+2023",
+          "impacto": "El bloque controla ahora más del 42% de la producción mundial de crudo."
+        },
+        {
+          "titular": "India utiliza dirhams emiratíes para adquirir petróleo ruso con descuento sorteando el tope de precios del G7",
+          "fuente": "Reuters (2023)",
+          "url": "https://www.google.com/search?q=India+compra+petroleo+ruso+dirhams+emiraties+Reuters+2023",
+          "impacto": "Crea precedentes de pago fuera de la jurisdicción bancaria del dólar."
+        },
+        {
+          "titular": "Acuerdos comerciales bilaterales de suministro energético liquidados íntegramente en yuanes en el Golfo Pérsico",
+          "fuente": "SCMP (2026)",
+          "url": "https://www.google.com/search?q=Acuerdos+suministro+energetico+yuanes+Golfo+SCMP+2026",
+          "impacto": "Debilita el monopolio del petrodólar en los mercados de futuros de energía."
+        }
+      ],
+      "senalesContra": [
+        {
+          "titular": "El dólar estadounidense mantiene más del 84% de las transacciones globales de divisas según el Banco de Pagos Internacionales",
+          "fuente": "BIS Triennial Survey (2024)",
+          "url": "https://www.google.com/search?q=BIS+survey+US+dollar+dominance+forex+2024",
+          "impacto": "La liquidez y profundidad de los mercados de deuda estadounidenses no tienen sustituto cercano."
+        },
+        {
+          "titular": "Discrepancias geopolíticas estructurales entre China e India bloquean la creación de una moneda común BRICS",
+          "fuente": "The Times of India (2024)",
+          "url": "https://www.google.com/search?q=India+rejects+BRICS+common+currency+Times+of+India+2024",
+          "impacto": "Frena la transición hacia una divisa de reserva multinacional cohesionada."
+        }
+      ]
+    },
+    {
+      "id": "FUT-03",
+      "titulo": "Desindustrialización Estructural Europea por Brecha Energética y Regulatoria",
+      "horizonte": "H1 (2024 - 2028)",
+      "categoria": "Industria & Competitividad",
+      "traccionScore": 82,
+      "tesis": "La pérdida permanente del gas barato por gasoducto y la asfixia normativa europea frente a los subsidios de EEUU (IRA) y la sobrecapacidad industrial china provocan la relocalización de plantas químicas, de automoción y acero hacia Norteamérica y Asia.",
+      "senalesPro": [
+        {
+          "titular": "El informe Mario Draghi advierte de una lenta agonía económica en Europa sin una inversión común de 800.000M€ al año",
+          "fuente": "Politico Europe (2024)",
+          "url": "https://www.google.com/search?q=Informe+Mario+Draghi+competitividad+europea+Politico+2024",
+          "impacto": "Diagnóstico oficial al más alto nivel comunitario sobre la pérdida de modelo productivo."
+        },
+        {
+          "titular": "Volkswagen y BASF anuncian planes de ajuste y relocalización de inversiones fuera de Alemania",
+          "fuente": "Der Spiegel / FAZ (2024)",
+          "url": "https://www.google.com/search?q=Volkswagen+BASF+ajustes+inversiones+Alemania+Der+Spiegel+2024",
+          "impacto": "Afecta al núcleo vertebrador del empleo industrial de Europa Central."
+        },
+        {
+          "titular": "El precio del gas natural industrial en Europa triplica de forma sostenida las tarifas vigentes en el mercado de EEUU",
+          "fuente": "Expansión (2025)",
+          "url": "https://www.google.com/search?q=Brecha+precios+gas+industrial+Europa+EEUU+Expansion+2025",
+          "impacto": "Destruye los márgenes operativos de la industria de síntesis química y fertilizantes."
+        }
+      ],
+      "senalesContra": [
+        {
+          "titular": "Récord histórico de generación eléctrica renovable (solar y eólica) en España y el sur de Europa con precios marginales cero",
+          "fuente": "El País (2025)",
+          "url": "https://www.google.com/search?q=Record+generacion+renovable+precios+cero+Espana+El+Pais+2025",
+          "impacto": "Genera una ventaja competitiva para la electrificación limpia en la periferia europea."
+        },
+        {
+          "titular": "Entrada en vigor del Fondo Europeo para Chips y ayudas estatales a grandes fábricas en Dresde y Grenoble",
+          "fuente": "Euronews (2024)",
+          "url": "https://www.google.com/search?q=European+Chips+Act+fabricas+semiconductores+Euronews+2024",
+          "impacto": "Intento de retención de industria de alto valor añadido con respaldo fiscal."
+        }
+      ]
+    },
+    {
+      "id": "FUT-04",
+      "titulo": "Giro Poscolonial del Sahel y Monopolio de Recursos Críticos",
+      "horizonte": "H1 (2023 - 2030)",
+      "categoria": "Seguridad & Recursos Estratégicos",
+      "traccionScore": 88,
+      "tesis": "La expulsión de tropas occidentales de Mali, Níger y Burkina Faso crea un bloque militar soberano (AES) que renegocia o cancela contratos de uranio, litio y oro, desplazando a las multinacionales europeas en favor de operadores estatales chinos y rusos.",
+      "senalesPro": [
+        {
+          "titular": "Mali, Níger y Burkina Faso anuncian su salida irrevocable de la CEDEAO y consolidan la Alianza del Sahel",
+          "fuente": "The Africa Report (2024)",
+          "url": "https://www.google.com/search?q=Salida+CEDEAO+Alianza+Sahel+The+Africa+Report+2024",
+          "impacto": "Ruptura definitiva de la arquitectura institucional de tutela occidental en África Occidental."
+        },
+        {
+          "titular": "La junta de Níger retira la licencia de explotación de la gigantesca mina de uranio de Imouraren a la francesa Orano",
+          "fuente": "Jeune Afrique (2024)",
+          "url": "https://www.google.com/search?q=Niger+retira+licencia+uranio+Orano+Imouraren+Jeune+Afrique+2024",
+          "impacto": "Pone en riesgo el aprovisionamiento de combustible para los reactores nucleares franceses."
+        },
+        {
+          "titular": "Firma de nuevos acuerdos mineros y de seguridad con empresas estatales rusas y consorcios de Pekín",
+          "fuente": "AllAfrica (2025)",
+          "url": "https://www.google.com/search?q=Sahel+acuerdos+mineros+Rusia+China+AllAfrica+2025",
+          "impacto": "Monopoliza la salida de tierras raras y minerales para baterías fuera del control occidental."
+        }
+      ],
+      "senalesContra": [
+        {
+          "titular": "Recrudecimiento violento de atentados yihadistas de JNIM e ISGS en las fronteras de Mali y Burkina Faso",
+          "fuente": "Le Monde (2025)",
+          "url": "https://www.google.com/search?q=Atentados+yihadistas+Sahel+JNIM+Le+Monde+2025",
+          "impacto": "Demuestra la incapacidad militar de las juntas para asegurar los corredores de transporte sin logística internacional."
+        },
+        {
+          "titular": "Dificultades financieras extremas y aislamiento comercial por falta de acceso directo a puertos marítimos de la costa",
+          "fuente": "The Africa Report (2025)",
+          "url": "https://www.google.com/search?q=Crisis+financiera+aislamiento+Sahel+Africa+Report+2025",
+          "impacto": "Obliga a negociaciones de compromiso pragmático con vecinos como Togo o Costa de Marfil."
+        }
+      ]
+    },
+    {
+      "id": "FUT-05",
+      "titulo": "Automatización Agéntica de Servicios Profesionales y Reemplazo de Backoffice",
+      "horizonte": "H1 (2024 - 2028)",
+      "categoria": "Inteligencia Artificial & Economía del Trabajo",
+      "traccionScore": 74,
+      "tesis": "La evolución de LLMs conversacionales hacia enjambres agénticos autónomos con capacidad de ejecución de herramientas sustituye de forma masiva tareas de programación junior, auditoría documental, análisis financiero y soporte al cliente.",
+      "senalesPro": [
+        {
+          "titular": "Las grandes consultoras y entidades de Wall Street anuncian recortes drásticos en la contratación de analistas junior",
+          "fuente": "The Wall Street Journal (2025)",
+          "url": "https://www.google.com/search?q=Wall+Street+reducir+contratacion+analistas+junior+IA+WSJ+2025",
+          "impacto": "Primer síntoma visible de desintermediación de mano de obra cualificada en sectores de alta remuneración."
+        },
+        {
+          "titular": "Despliegue operativo de sistemas agénticos de desarrollo de software autónomo capaces de completar proyectos de código de punta a punta",
+          "fuente": "Ars Technica (2026)",
+          "url": "https://www.google.com/search?q=Autonomous+coding+agents+software+development+2026",
+          "impacto": "Reduce el ciclo de desarrollo de software en órdenes de magnitud a costes cercanos a cero."
+        },
+        {
+          "titular": "Anthropic advierte en sus documentos de inversores de la inminente sustitución de procesos corporativos enteros por agentes",
+          "fuente": "Le Figaro (2026)",
+          "url": "https://www.google.com/search?q=Anthropic+documento+inversores+automatizacion+Le+Figaro+2026",
+          "impacto": "Los propios laboratorios pioneros fijan la fecha del impacto antes de 2028."
+        }
+      ],
+      "senalesContra": [
+        {
+          "titular": "La barrera de fiabilidad en entornos fuertemente regulados (sanidad, banca y tribunales) exige supervisión humana obligatoria",
+          "fuente": "Financial Times (2025)",
+          "url": "https://www.google.com/search?q=AI+reliability+hallucinations+regulated+industries+FT+2025",
+          "impacto": "El coste legal y de cumplimiento de un error alucinado frena el reemplazo completo del profesional."
+        },
+        {
+          "titular": "Cuellos de botella de energía eléctrica y refrigeración en centros de datos frenan el ritmo de escalado masivo de inferencia",
+          "fuente": "Bloomberg (2025)",
+          "url": "https://www.google.com/search?q=Data+centers+power+grid+bottlenecks+AI+Bloomberg+2025",
+          "impacto": "Pone límites físicos al coste por consulta de los modelos más potentes."
+        }
+      ]
+    }
+  ],
+  "totalSemanas": 357,
+  "totalAnuarios": 7
+}
