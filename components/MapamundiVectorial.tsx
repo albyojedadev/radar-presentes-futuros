@@ -13,171 +13,223 @@ export function MapamundiVectorial({
   onSelectRegion,
   regionesData,
 }: MapamundiVectorialProps) {
-  const bloques = [
-    { id: "US", nombre: "EEUU", cx: 210, cy: 160, r: 28, label: "EEUU" },
-    { id: "LATAM", nombre: "Latinoamérica", cx: 290, cy: 330, r: 34, label: "LATAM" },
-    { id: "UK", nombre: "Reino Unido", cx: 460, cy: 120, r: 16, label: "UK" },
-    { id: "ES", nombre: "España", cx: 450, cy: 175, r: 18, label: "ES" },
-    { id: "FR", nombre: "Francia", cx: 480, cy: 150, r: 16, label: "FR" },
-    { id: "DE", nombre: "Alemania", cx: 510, cy: 130, r: 16, label: "DE" },
-    { id: "EU", nombre: "Unión Europea", cx: 525, cy: 165, r: 20, label: "EU" },
-    { id: "AFRICA", nombre: "África", cx: 520, cy: 280, r: 38, label: "ÁFRICA" },
-    { id: "CHINA", nombre: "China", cx: 740, cy: 180, r: 36, label: "CHINA" },
+  // Puntos de los 9 bloques sobre una proyección cartográfica equi-rectangular de 1000x500
+  const marcadores = [
+    { id: "US", nombre: "EEUU", x: 230, y: 165, label: "EEUU", cod: "US" },
+    { id: "LATAM", nombre: "Latinoamérica", x: 320, y: 320, label: "LATAM", cod: "LATAM" },
+    { id: "UK", nombre: "Reino Unido", x: 485, y: 125, label: "UK", cod: "UK" },
+    { id: "ES", nombre: "España", x: 480, y: 175, label: "ESPAÑA", cod: "ES" },
+    { id: "FR", nombre: "Francia", x: 502, y: 150, label: "FRANCIA", cod: "FR" },
+    { id: "DE", nombre: "Alemania", x: 525, y: 135, label: "ALEMANIA", cod: "DE" },
+    { id: "EU", nombre: "Unión Europea", x: 535, y: 165, label: "UE (BRUSELAS)", cod: "EU" },
+    { id: "AFRICA", nombre: "África", x: 540, y: 275, label: "ÁFRICA", cod: "AFRICA" },
+    { id: "CHINA", nombre: "China", x: 770, y: 185, label: "CHINA", cod: "CHINA" },
   ];
 
   return (
-    <div className="relative overflow-hidden rounded-2xl border border-slate-800 bg-[#0c121e]/80 p-4 shadow-xl">
-      <div className="mb-2 flex items-center justify-between">
-        <div>
-          <span className="text-[10px] font-mono tracking-widest text-sky-400 uppercase">
-            // MAPAMUNDI TÁCTICO //
+    <div className="relative overflow-hidden rounded-2xl border border-cardBorder bg-card p-5 shadow-2xl">
+      <div className="mb-3 flex flex-wrap items-center justify-between gap-2">
+        <div className="flex items-center gap-2">
+          <span className="flex h-2 w-2 rounded-full bg-alby-green animate-ping" />
+          <span className="text-[11px] font-mono tracking-widest text-alby-green uppercase font-semibold">
+            // MAPAMUNDI GEOPOLÍTICO GLOBAL //
           </span>
-          <h3 className="text-sm font-semibold text-slate-200">
-            Los 9 Bloques Geopolíticos
-          </h3>
+          <span className="text-sm font-bold text-alby-light ml-2">
+            9 Bloques Territoriales Monitorizados
+          </span>
         </div>
-        <span className="text-[11px] font-mono text-slate-500">
-          Haz clic en cualquier nodo para filtrar
+        <span className="text-xs font-mono text-alby-muted">
+          Haz clic en cualquier punto del mapa para filtrar el panel lateral
         </span>
       </div>
 
-      <div className="relative aspect-[16/8] w-full max-h-[380px]">
+      <div className="relative aspect-[2/1] w-full rounded-xl border border-cardBorder/60 bg-[#0a0907] p-1 overflow-hidden shadow-inner">
         <svg
-          viewBox="0 0 960 480"
+          viewBox="0 0 1000 500"
           className="h-full w-full select-none"
           xmlns="http://www.w3.org/2000/svg"
         >
           <defs>
-            <radialGradient id="worldGlow" cx="50%" cy="50%" r="50%">
-              <stop offset="0%" stopColor="#38bdf8" stopOpacity="0.08" />
-              <stop offset="100%" stopColor="#38bdf8" stopOpacity="0" />
-            </radialGradient>
-            <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
-              <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#1e293b" strokeWidth="0.5" strokeOpacity="0.4" />
+            {/* Cuadrícula cartográfica de meridianos y paralelos */}
+            <pattern id="cartoGrid" width="50" height="50" patternUnits="userSpaceOnUse">
+              <path d="M 50 0 L 0 0 0 50" fill="none" stroke="#241f19" strokeWidth="0.6" strokeDasharray="1 3" />
             </pattern>
+            <radialGradient id="mapGlow" cx="50%" cy="50%" r="60%">
+              <stop offset="0%" stopColor="#7a9a5c" stopOpacity="0.06" />
+              <stop offset="100%" stopColor="#7a9a5c" stopOpacity="0" />
+            </radialGradient>
           </defs>
 
-          {/* Grid background */}
-          <rect width="960" height="480" fill="url(#grid)" />
-          <circle cx="480" cy="240" r="320" fill="url(#worldGlow)" />
+          {/* Océano y retícula */}
+          <rect width="1000" height="500" fill="#0c0b09" />
+          <rect width="1000" height="500" fill="url(#cartoGrid)" />
+          <circle cx="500" cy="250" r="450" fill="url(#mapGlow)" />
 
-          {/* Siluetas esquemáticas de continentes en tono neutro oscuro */}
-          <g fill="#172235" opacity="0.6">
-            {/* Norteamérica */}
-            <path d="M 120 80 Q 230 60 270 120 T 260 210 Q 180 250 140 180 Z" />
-            {/* Sudamérica */}
-            <path d="M 250 250 Q 320 270 320 340 T 280 430 Q 240 370 250 250 Z" />
-            {/* Europa */}
-            <path d="M 440 90 Q 560 80 560 180 T 450 210 Q 420 140 440 90 Z" />
-            {/* África */}
-            <path d="M 450 210 Q 570 220 580 300 T 520 420 Q 440 350 450 210 Z" />
-            {/* Asia */}
-            <path d="M 570 80 Q 820 60 840 200 T 700 300 Q 600 230 570 80 Z" />
-            {/* Oceanía */}
-            <path d="M 760 330 Q 850 340 840 400 T 760 410 Z" />
+          {/* Línea del Ecuador y Trópicos */}
+          <line x1="0" y1="250" x2="1000" y2="250" stroke="#332a20" strokeWidth="0.8" strokeDasharray="4 4" />
+          <line x1="0" y1="165" x2="1000" y2="165" stroke="#262019" strokeWidth="0.5" strokeDasharray="2 4" />
+          <line x1="0" y1="335" x2="1000" y2="335" stroke="#262019" strokeWidth="0.5" strokeDasharray="2 4" />
+
+          {/* ========================================================
+              TRAZADO CARTOGRÁFICO REALISTA DE CONTINENTES (ESCALA MUNDIAL)
+             ======================================================== */}
+          <g fill="#1a1612" stroke="#3d3429" strokeWidth="1" strokeLinejoin="round">
+            {/* NORTEAMÉRICA & GROENLANDIA */}
+            <path d="M 120 70 L 160 55 L 210 65 L 240 50 L 300 70 L 290 110 L 270 120 L 290 145 L 305 180 L 285 205 L 240 220 L 225 240 L 205 230 L 175 190 L 150 170 L 115 130 L 95 100 Z" />
+            <path d="M 330 40 L 390 35 L 410 75 L 370 100 L 335 70 Z" /> {/* Groenlandia */}
+            
+            {/* CENTROAMÉRICA & CARIBE */}
+            <path d="M 225 240 L 250 260 L 280 270 L 275 285 L 250 275 L 225 250 Z" />
+
+            {/* SUDAMÉRICA */}
+            <path d="M 275 285 L 330 280 L 380 310 L 390 350 L 360 410 L 320 460 L 295 440 L 290 380 L 265 320 L 275 285 Z" />
+
+            {/* EUROPA */}
+            <path d="M 470 120 L 510 90 L 550 85 L 565 110 L 545 135 L 560 160 L 525 180 L 490 190 L 465 175 L 470 145 Z" />
+            <path d="M 460 110 L 485 105 L 480 135 L 460 130 Z" /> {/* Islas Británicas */}
+            <path d="M 495 65 L 530 55 L 540 85 L 515 95 Z" /> {/* Escandinavia */}
+
+            {/* ÁFRICA */}
+            <path d="M 475 195 L 550 190 L 590 230 L 610 260 L 560 360 L 530 400 L 485 350 L 460 260 L 450 220 Z" />
+            <path d="M 605 330 L 620 340 L 610 375 L 595 365 Z" /> {/* Madagascar */}
+
+            {/* ASIA */}
+            <path d="M 565 110 L 650 80 L 760 70 L 870 95 L 890 140 L 850 180 L 800 210 L 760 270 L 710 260 L 685 210 L 620 200 L 590 170 L 565 140 Z" />
+            <path d="M 660 220 L 710 230 L 720 290 L 680 290 Z" /> {/* Subcontinente Indio */}
+            <path d="M 830 140 L 860 150 L 845 200 L 825 190 Z" /> {/* Japón */}
+            <path d="M 750 280 L 820 290 L 830 340 L 770 330 Z" /> {/* Sudeste Asiático / Malasia */}
+
+            {/* OCEANÍA / AUSTRALIA */}
+            <path d="M 790 350 L 880 340 L 900 410 L 840 440 L 780 400 Z" />
           </g>
 
-          {/* Líneas de conexión diplomática sutiles */}
-          <g stroke="#38bdf8" strokeWidth="0.8" strokeDasharray="3 4" opacity="0.25">
-            <line x1="210" y1="160" x2="480" y2="150" />
-            <line x1="480" y1="150" x2="740" y2="180" />
-            <line x1="520" y1="280" x2="740" y2="180" />
-            <line x1="290" y1="330" x2="450" y2="175" />
+          {/* Rutas de interconexión geopolítica */}
+          <g stroke="#7a9a5c" strokeWidth="0.8" strokeDasharray="4 6" opacity="0.3">
+            <line x1="230" y1="165" x2="502" y2="150" />
+            <line x1="502" y1="150" x2="770" y2="185" />
+            <line x1="540" y1="275" x2="770" y2="185" />
+            <line x1="320" y1="320" x2="480" y2="175" />
+            <line x1="230" y1="165" x2="770" y2="185" stroke="#c97755" strokeDasharray="3 7" opacity="0.4" />
           </g>
 
-          {/* Bloques / Nodos interactivos */}
-          {bloques.map((b) => {
-            const isSelected = regionSeleccionada === b.id;
-            const dataReg = regionesData[b.id];
-            const count = dataReg ? dataReg.totalNoticias : 0;
+          {/* ========================================================
+              MARCADORES DE ALTA PRECISIÓN PARA LOS 9 BLOQUES
+             ======================================================== */}
+          {marcadores.map((m) => {
+            const isSelected = regionSeleccionada === m.id;
+            const regInfo = regionesData[m.id];
+            const count = regInfo ? regInfo.totalNoticias : 0;
 
             return (
               <g
-                key={b.id}
-                onClick={() => onSelectRegion(isSelected ? "ALL" : b.id)}
-                className="cursor-pointer transition-transform duration-200"
-                style={{ transformOrigin: `${b.cx}px ${b.cy}px` }}
+                key={m.id}
+                onClick={() => onSelectRegion(isSelected ? "ALL" : m.id)}
+                className="cursor-pointer group"
               >
-                {/* Aura de pulso si está seleccionado */}
-                {isSelected && (
+                {/* Ping de radar exterior animado */}
+                {isSelected ? (
+                  <>
+                    <circle cx={m.x} cy={m.y} r="22" fill="#7a9a5c" opacity="0.25" className="animate-ping" />
+                    <circle cx={m.x} cy={m.y} r="18" fill="none" stroke="#7a9a5c" strokeWidth="1.5" />
+                  </>
+                ) : (
                   <circle
-                    cx={b.cx}
-                    cy={b.cy}
-                    r={b.r + 10}
-                    fill="#38bdf8"
-                    opacity="0.2"
-                    className="animate-ping"
+                    cx={m.x}
+                    cy={m.y}
+                    r="12"
+                    fill="none"
+                    stroke="#c97755"
+                    strokeWidth="0.8"
+                    strokeDasharray="2 2"
+                    opacity="0.6"
+                    className="group-hover:opacity-100 group-hover:stroke-alby-green"
                   />
                 )}
 
-                {/* Base del nodo */}
+                {/* Núcleo del marcador */}
                 <circle
-                  cx={b.cx}
-                  cy={b.cy}
-                  r={b.r}
-                  fill={isSelected ? "#38bdf8" : "#0f172a"}
-                  stroke={isSelected ? "#bae6fd" : "#334155"}
-                  strokeWidth={isSelected ? "2.5" : "1.5"}
-                  className="transition-colors hover:stroke-sky-400"
+                  cx={m.x}
+                  cy={m.y}
+                  r={isSelected ? "9" : "7"}
+                  fill={isSelected ? "#7a9a5c" : "#c97755"}
+                  stroke="#f8f6f0"
+                  strokeWidth="1.5"
+                  className="transition-all duration-200 group-hover:scale-125"
                 />
 
-                {/* Texto del bloque */}
+                {/* Etiqueta flotante con código de país */}
+                <rect
+                  x={m.x - 22}
+                  y={m.y - 25}
+                  width="44"
+                  height="16"
+                  rx="4"
+                  fill="#0f0e0c"
+                  stroke={isSelected ? "#7a9a5c" : "#2e2820"}
+                  strokeWidth="1"
+                />
                 <text
-                  x={b.cx}
-                  y={b.cy - 2}
+                  x={m.x}
+                  y={m.y - 14}
                   textAnchor="middle"
                   dominantBaseline="middle"
-                  fill={isSelected ? "#090d16" : "#f1f5f9"}
-                  fontSize="10"
+                  fill={isSelected ? "#7a9a5c" : "#f8f6f0"}
+                  fontSize="9"
                   fontWeight="bold"
-                  fontFamily="monospace"
+                  fontFamily="JetBrains Mono, monospace"
                 >
-                  {b.label}
+                  {m.id}
                 </text>
 
-                {/* Contador de noticias */}
-                <text
-                  x={b.cx}
-                  y={b.cy + 10}
-                  textAnchor="middle"
-                  dominantBaseline="middle"
-                  fill={isSelected ? "#090d16" : "#38bdf8"}
-                  fontSize="9"
-                  fontFamily="monospace"
-                >
-                  {count > 0 ? `${count} tit` : ""}
-                </text>
+                {/* Badge inferior con el recuento de titulares */}
+                {count > 0 && (
+                  <text
+                    x={m.x}
+                    y={m.y + 18}
+                    textAnchor="middle"
+                    dominantBaseline="middle"
+                    fill={isSelected ? "#7a9a5c" : "#c5bfb1"}
+                    fontSize="9"
+                    fontWeight="500"
+                    fontFamily="JetBrains Mono, monospace"
+                  >
+                    {count} tit
+                  </text>
+                )}
               </g>
             );
           })}
         </svg>
       </div>
 
-      {/* Barra de filtrado rápido */}
-      <div className="mt-3 flex flex-wrap items-center gap-1.5 border-t border-slate-800/80 pt-3">
+      {/* Botonera de Filtrado Limpia y Alineada */}
+      <div className="mt-4 flex flex-wrap items-center gap-2 border-t border-cardBorder pt-3">
         <button
           onClick={() => onSelectRegion("ALL")}
-          className={`rounded-lg px-2.5 py-1 text-xs font-mono font-medium transition-all ${
+          className={`rounded-lg px-3 py-1.5 text-xs font-mono font-bold transition-all ${
             regionSeleccionada === "ALL"
-              ? "bg-slate-100 text-slate-900"
-              : "border border-slate-800 bg-slate-900/40 text-slate-400 hover:text-slate-200"
+              ? "bg-alby-light text-ink shadow-sm"
+              : "border border-cardBorder bg-dark text-alby-cream hover:border-alby-green hover:text-alby-light"
           }`}
         >
-          GLOBAL (TODOS)
+          TODOS LOS BLOQUES
         </button>
-        {bloques.map((b) => (
-          <button
-            key={b.id}
-            onClick={() => onSelectRegion(b.id)}
-            className={`rounded-lg px-2 py-1 text-xs font-mono transition-all ${
-              regionSeleccionada === b.id
-                ? "bg-sky-500 font-bold text-slate-950 shadow-sm"
-                : "border border-slate-800/60 bg-slate-900/30 text-slate-400 hover:border-slate-700 hover:text-slate-300"
-            }`}
-          >
-            {b.id} ({b.nombre})
-          </button>
-        ))}
+        {marcadores.map((b) => {
+          const isSelected = regionSeleccionada === b.id;
+          return (
+            <button
+              key={b.id}
+              onClick={() => onSelectRegion(b.id)}
+              className={`rounded-lg px-2.5 py-1.5 text-xs font-mono transition-all ${
+                isSelected
+                  ? "bg-alby-green font-bold text-ink shadow-md"
+                  : "border border-cardBorder bg-dark/60 text-alby-cream hover:border-alby-green/60 hover:text-alby-light"
+              }`}
+            >
+              {b.id} · {b.nombre}
+            </button>
+          );
+        })}
       </div>
     </div>
   );

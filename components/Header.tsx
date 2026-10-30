@@ -14,29 +14,34 @@ export function Header({ vistaActiva, setVistaActiva, totalSemanas }: HeaderProp
     { id: "presentes", label: "Radar de Presentes", icon: Globe, badge: "EN VIVO" },
     { id: "hemeroteca", label: "Hemeroteca Semanal", icon: Calendar, badge: `${totalSemanas} sem` },
     { id: "anuarios", label: "Anuarios Estratégicos", icon: FileText, badge: "7 años" },
-    { id: "futuros", label: "Radar de Futuros", icon: Compass, badge: "Hipótesis" },
+    { id: "futuros", label: "Radar de Futuros", icon: Compass, badge: "22 tesis" },
   ] as const;
 
   return (
-    <header className="sticky top-0 z-50 border-b border-slate-800 bg-[#090d16]/90 backdrop-blur-md">
-      <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 sm:px-6">
-        {/* Brand / Title */}
+    <header className="sticky top-0 z-50 border-b border-cardBorder bg-ink/95 backdrop-blur-md">
+      <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3.5 sm:px-6">
+        {/* Brand Alby Ojeda Style */}
         <div className="flex items-center gap-3">
-          <div className="flex h-9 w-9 items-center justify-center rounded-lg border border-sky-500/30 bg-sky-500/10 text-sky-400">
+          <div className="flex h-10 w-10 items-center justify-center rounded-xl border border-alby-terr/40 bg-alby-terr/10 text-alby-terr shadow-sm">
             <Radio className="h-5 w-5 animate-pulse" />
           </div>
           <div>
-            <h1 className="text-sm font-semibold tracking-wider text-slate-100 sm:text-base">
-              RADAR GLOBAL <span className="text-sky-400 font-mono text-xs">// PRESENTES & FUTUROS</span>
-            </h1>
-            <p className="text-[11px] text-slate-400">
+            <div className="flex items-center gap-2">
+              <h1 className="text-base font-bold tracking-tight text-alby-light sm:text-lg">
+                RADAR GLOBAL
+              </h1>
+              <span className="rounded bg-alby-terr/20 px-1.5 py-0.5 text-[10px] font-mono font-semibold text-alby-terr border border-alby-terr/30">
+                PRESENTES & FUTUROS
+              </span>
+            </div>
+            <p className="text-xs text-alby-pale">
               Vigilancia de portadas de 9 bloques & contraste de hipótesis prospectivas
             </p>
           </div>
         </div>
 
         {/* Navigation Tabs */}
-        <nav className="flex items-center gap-1.5 overflow-x-auto rounded-xl border border-slate-800 bg-slate-900/60 p-1">
+        <nav className="flex items-center gap-1.5 overflow-x-auto rounded-xl border border-cardBorder bg-dark/80 p-1.5 shadow-inner">
           {tabs.map((t) => {
             const Icon = t.icon;
             const activo = vistaActiva === t.id;
@@ -46,18 +51,18 @@ export function Header({ vistaActiva, setVistaActiva, totalSemanas }: HeaderProp
                 onClick={() => setVistaActiva(t.id)}
                 className={`flex items-center gap-2 rounded-lg px-3 py-1.5 text-xs font-medium transition-all ${
                   activo
-                    ? "bg-sky-500 text-slate-950 shadow-md font-semibold"
-                    : "text-slate-400 hover:bg-slate-800/60 hover:text-slate-200"
+                    ? "bg-alby-green text-ink shadow-md font-bold"
+                    : "text-alby-cream hover:bg-cardHover hover:text-alby-light"
                 }`}
               >
-                <Icon className={`h-3.5 w-3.5 ${activo ? "text-slate-950" : "text-slate-400"}`} />
-                <span className="hidden md:inline">{t.label}</span>
-                <span className="md:hidden">{t.label.split(" ")[0]}</span>
+                <Icon className={`h-3.5 w-3.5 ${activo ? "text-ink" : "text-alby-green"}`} />
+                <span className="hidden md:inline font-sans">{t.label}</span>
+                <span className="md:hidden font-sans">{t.label.split(" ")[0]}</span>
                 <span
-                  className={`rounded px-1.5 py-0.5 text-[10px] font-mono ${
+                  className={`rounded px-1.5 py-0.5 text-[10px] font-mono font-semibold ${
                     activo
-                      ? "bg-slate-950/20 text-slate-950"
-                      : "bg-slate-800 text-slate-400"
+                      ? "bg-ink/25 text-ink"
+                      : "bg-card text-alby-muted"
                   }`}
                 >
                   {t.badge}
