@@ -7,6 +7,15 @@ interface Semanainfo {
   archivo: string;
   codigo: string;
   year: number;
+  periodo?: string;
+  analisis?: {
+    fase: string;
+    ejeDominante: string;
+    puntoCiego: string;
+    evaluacion: string;
+    divergencia: string;
+    tesis: string;
+  };
   titulares?: Record<string, Array<{ titulo: string; medio: string; url: string }>>;
 }
 
@@ -140,128 +149,199 @@ export function HemerotecaView({ semanasPorAno }: HemerotecaViewProps) {
         </div>
       </div>
 
-      {/* Contenedor del Informe Semanal: Tarjetas por Bloque con Titulares Reales */}
+      {/* Contenedor del Informe Semanal */}
       <div className="rounded-2xl border border-borderSubtle bg-panel p-6 shadow-sm space-y-6">
-        <div className="border-b border-borderSubtle pb-4">
-          <div className="flex items-center gap-2 mb-1">
-            <span className="text-[10px] font-mono tracking-widest text-alby-green uppercase font-bold">
-              // INFORME SEMANAL ARCHIVADO //
-            </span>
+        {/* Cabecera del Informe */}
+        <div className="border-b border-borderSubtle pb-4 flex flex-wrap items-start justify-between gap-4">
+          <div>
+            <div className="flex items-center gap-2 mb-1">
+              <span className="text-[10px] font-mono tracking-widest text-alby-green uppercase font-bold">
+                // INFORME SEMANAL ARCHIVADO //
+              </span>
+              {semanaObj?.periodo && (
+                <span className="text-[10px] font-mono text-muted bg-subtle px-2 py-0.5 rounded border border-borderSubtle">
+                  {semanaObj.periodo}
+                </span>
+              )}
+            </div>
+            <h2 className="text-xl font-bold text-title">
+              Auditoría de Portadas y Agenda Global ({semanaSeleccionada})
+            </h2>
+            <p className="text-xs text-muted mt-1 leading-relaxed">
+              Filtro de &apos;La Oruga&apos;: contraste entre superficie mediática de los 9 bloques y corrientes subterráneas.
+            </p>
           </div>
-          <h2 className="text-xl font-bold text-title">
-            Auditoría de Portadas y Agenda Global ({semanaSeleccionada})
-          </h2>
-          <p className="text-xs text-muted mt-1 leading-relaxed">
-            Filtro de 'La Oruga': contraste entre superficie mediática de los 9 bloques y corrientes subterráneas. Titulares reales indexados con enlace canónico a fuentes de archivo.
-          </p>
+
+          {semanaObj?.analisis?.fase && (
+            <div className="flex items-center gap-1.5 self-start rounded-lg border border-alby-greenBorder bg-alby-green/10 px-3 py-1 font-mono text-xs font-bold text-alby-green">
+              <span>Fase:</span>
+              <span>{semanaObj.analisis.fase}</span>
+            </div>
+          )}
         </div>
 
-        {/* 9 Bloques Geopolíticos con Titulares */}
-        <div className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
-          {regionesMeta.map((reg) => {
-            const listaTitulares = titularesSemana[reg.cod] || [];
-            const filtrados = filtroTexto
-              ? listaTitulares.filter((t) =>
-                  t.titulo.toLowerCase().includes(filtroTexto.toLowerCase()) ||
-                  t.medio.toLowerCase().includes(filtroTexto.toLowerCase())
-                )
-              : listaTitulares;
+        {/* ====================================================================
+            1. SÍNTESIS DE SEGUNDO ORDEN (ANÁLISIS ESTRATÉGICO SUPERIOR)
+            ==================================================================== */}
+        {(() => {
+          const analisis = semanaObj?.analisis || {
+            fase: "Consolidación de agenda",
+            ejeDominante: "Cobertura centrada en la superficie informativa y controversias de corto plazo.",
+            puntoCiego: "Durante esta semana, el debate doméstico eclipsó por completo los avances normativos y las transformaciones de fondo.",
+            evaluacion: "La atención pública quedó absorbida por el ciclo político inmediato.",
+            divergencia: "Mientras las cabeceras occidentales priorizaron controversias electorales, el eje oriental centró su cobertura en cadenas de valor y soberanía tecnológica.",
+            tesis: "La divergencia de encuadres evidencia la desconexión entre la esfera mediática y las corrientes estructurales."
+          };
 
-            return (
-              <div
-                key={reg.cod}
-                className="flex flex-col justify-between rounded-xl border border-borderSubtle bg-subtle/40 p-4 transition-all hover:border-alby-green hover:bg-subtle/80 hover:shadow-sm"
-              >
-                <div>
-                  <div className="flex items-center justify-between border-b border-borderSubtle pb-2 mb-3">
-                    <div className="flex items-center gap-2">
-                      <span className="rounded bg-alby-green/15 text-alby-green border border-alby-greenBorder px-2 py-0.5 font-mono text-[10px] font-bold">
-                        {reg.cod}
-                      </span>
-                      <h4 className="text-xs font-bold text-title">
-                        {reg.nombre}
-                      </h4>
-                    </div>
-                    <span className="text-[10px] font-mono text-muted">
-                      {reg.bloque}
+          return (
+            <div className="rounded-xl border border-borderSubtle bg-subtle p-5 space-y-4">
+              <div className="flex flex-wrap items-center justify-between gap-2 border-b border-borderSubtle pb-2.5">
+                <div className="flex items-center gap-2">
+                  <Compass className="h-4 w-4 text-alby-green" />
+                  <h3 className="text-sm font-bold text-title">
+                    Síntesis de Segundo Orden ({semanaSeleccionada})
+                  </h3>
+                </div>
+                {analisis.ejeDominante && (
+                  <span className="text-[11px] font-mono text-muted">
+                    Eje dominante: <span className="text-body font-medium">{analisis.ejeDominante}</span>
+                  </span>
+                )}
+              </div>
+
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+                {/* Bloque Punto Ciego */}
+                <div className="rounded-lg border border-borderSubtle bg-panel/70 p-4 space-y-2">
+                  <div className="flex items-center gap-1.5">
+                    <span className="flex h-2 w-2 rounded-full bg-alby-terr" />
+                    <span className="font-mono text-xs text-alby-terr font-bold uppercase tracking-wide">
+                      Punto Ciego en la Prensa Española
                     </span>
                   </div>
-
-                  {filtrados.length > 0 ? (
-                    <div className="space-y-3">
-                      {filtrados.slice(0, 4).map((t, idx) => (
-                        <div key={idx} className="space-y-1">
-                          <a
-                            href={t.url}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="block text-xs font-bold text-title leading-snug hover:text-alby-green transition-colors line-clamp-2"
-                          >
-                            • {t.titulo}
-                          </a>
-                          {t.medio && (
-                            <span className="font-mono text-[10px] text-muted block">
-                              Cabecera: <strong className="text-body">{t.medio}</strong>
-                            </span>
-                          )}
-                        </div>
-                      ))}
-                    </div>
-                  ) : (
-                    <div className="py-4 text-center text-xs font-mono text-muted">
-                      {filtroTexto ? "Sin coincidencias de búsqueda." : "Vigilancia de archivo completada."}
-                    </div>
+                  <p className="text-xs font-semibold text-title leading-relaxed">
+                    {analisis.puntoCiego}
+                  </p>
+                  {analisis.evaluacion && (
+                    <p className="text-[11px] text-muted leading-relaxed pt-1 border-t border-borderSubtle/60">
+                      <strong className="text-body font-mono">Evaluación:</strong> {analisis.evaluacion}
+                    </p>
                   )}
                 </div>
 
-                <div className="mt-4 border-t border-borderSubtle pt-2.5 flex items-center justify-between text-[11px] font-mono">
-                  <span className="text-muted">
-                    {listaTitulares.length} titulares archivados
-                  </span>
-                  <a
-                    href={`https://www.google.com/search?q=${encodeURIComponent(
-                      `${reg.nombre} noticias hemeroteca ${semanaSeleccionada}`
-                    )}`}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center gap-1 text-alby-green hover:underline font-semibold"
-                  >
-                    <span>Tirar del hilo</span>
-                    <ExternalLink className="h-3 w-3" />
-                  </a>
+                {/* Bloque Divergencia de Encuadre */}
+                <div className="rounded-lg border border-borderSubtle bg-panel/70 p-4 space-y-2">
+                  <div className="flex items-center gap-1.5">
+                    <span className="flex h-2 w-2 rounded-full bg-alby-green" />
+                    <span className="font-mono text-xs text-alby-green font-bold uppercase tracking-wide">
+                      Divergencia de Encuadre (Framing Geopolítico)
+                    </span>
+                  </div>
+                  <p className="text-xs font-semibold text-title leading-relaxed">
+                    {analisis.divergencia}
+                  </p>
+                  {analisis.tesis && (
+                    <p className="text-[11px] text-muted leading-relaxed pt-1 border-t border-borderSubtle/60">
+                      <strong className="text-body font-mono">Tesis Emergente:</strong> {analisis.tesis}
+                    </p>
+                  )}
                 </div>
               </div>
-            );
-          })}
-        </div>
+            </div>
+          );
+        })()}
 
-        {/* Bloque de Síntesis de Segundo Orden */}
-        <div className="rounded-xl border border-borderSubtle bg-subtle p-5 space-y-4">
-          <div className="flex items-center gap-2 border-b border-borderSubtle pb-2.5">
-            <Compass className="h-4 w-4 text-alby-green" />
-            <h3 className="text-sm font-bold text-title">
-              Síntesis de Segundo Orden ({semanaSeleccionada})
-            </h3>
+        {/* ====================================================================
+            2. EVIDENCIA DOCUMENTAL: 9 BLOQUES GEOPOLÍTICOS CON TITULARES REALES
+            ==================================================================== */}
+        <div className="space-y-4 pt-2">
+          <div className="flex flex-wrap items-center justify-between gap-2 border-b border-borderSubtle pb-2">
+            <div className="flex items-center gap-2">
+              <Newspaper className="h-4 w-4 text-alby-green" />
+              <h3 className="text-xs font-mono font-bold uppercase tracking-widest text-muted">
+                // EVIDENCIA DOCUMENTAL: PORTADAS Y TITULARES DE LOS 9 BLOQUES //
+              </h3>
+            </div>
+            <span className="text-[11px] font-mono text-muted">
+              Haz clic en cualquier titular para auditar la cobertura original
+            </span>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <div className="space-y-1 text-xs">
-              <span className="font-mono text-[11px] text-alby-terr font-bold block">
-                Punto Ciego en la Prensa Española
-              </span>
-              <p className="text-body leading-relaxed">
-                Durante esta semana, el debate doméstico en España eclipsó por completo los avances normativos en Pekín y las transformaciones mineras en el continente africano.
-              </p>
-            </div>
+          <div className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
+            {regionesMeta.map((reg) => {
+              const listaTitulares = titularesSemana[reg.cod] || [];
+              const filtrados = filtroTexto
+                ? listaTitulares.filter((t) =>
+                    t.titulo.toLowerCase().includes(filtroTexto.toLowerCase()) ||
+                    t.medio.toLowerCase().includes(filtroTexto.toLowerCase())
+                  )
+                : listaTitulares;
 
-            <div className="space-y-1 text-xs">
-              <span className="font-mono text-[11px] text-alby-green font-bold block">
-                Divergencia de Encuadre (Framing)
-              </span>
-              <p className="text-body leading-relaxed">
-                Mientras las cabeceras occidentales priorizaron controversias electorales inmediatas, el eje oriental centró su cobertura en la seguridad física de cadenas de valor y soberanía de chips.
-              </p>
-            </div>
+              return (
+                <div
+                  key={reg.cod}
+                  className="flex flex-col justify-between rounded-xl border border-borderSubtle bg-subtle/40 p-4 transition-all hover:border-alby-green hover:bg-subtle/80 hover:shadow-sm"
+                >
+                  <div>
+                    <div className="flex items-center justify-between border-b border-borderSubtle pb-2 mb-3">
+                      <div className="flex items-center gap-2">
+                        <span className="rounded bg-alby-green/15 text-alby-green border border-alby-greenBorder px-2 py-0.5 font-mono text-[10px] font-bold">
+                          {reg.cod}
+                        </span>
+                        <h4 className="text-xs font-bold text-title">
+                          {reg.nombre}
+                        </h4>
+                      </div>
+                      <span className="text-[10px] font-mono text-muted">
+                        {reg.bloque}
+                      </span>
+                    </div>
+
+                    {filtrados.length > 0 ? (
+                      <div className="space-y-3">
+                        {filtrados.slice(0, 4).map((t, idx) => (
+                          <div key={idx} className="space-y-1">
+                            <a
+                              href={t.url}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="block text-xs font-bold text-title leading-snug hover:text-alby-green transition-colors line-clamp-2"
+                            >
+                              • {t.titulo}
+                            </a>
+                            {t.medio && (
+                              <span className="font-mono text-[10px] text-muted block">
+                                Cabecera: <strong className="text-body">{t.medio}</strong>
+                              </span>
+                            )}
+                          </div>
+                        ))}
+                      </div>
+                    ) : (
+                      <div className="py-4 text-center text-xs font-mono text-muted">
+                        {filtroTexto ? "Sin coincidencias de búsqueda." : "Vigilancia de archivo completada."}
+                      </div>
+                    )}
+                  </div>
+
+                  <div className="mt-4 border-t border-borderSubtle pt-2.5 flex items-center justify-between text-[11px] font-mono">
+                    <span className="text-muted">
+                      {listaTitulares.length} titulares archivados
+                    </span>
+                    <a
+                      href={`https://www.google.com/search?q=${encodeURIComponent(
+                        `${reg.nombre} noticias hemeroteca ${semanaSeleccionada}`
+                      )}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center gap-1 text-alby-green hover:underline font-semibold"
+                    >
+                      <span>Tirar del hilo</span>
+                      <ExternalLink className="h-3 w-3" />
+                    </a>
+                  </div>
+                </div>
+              );
+            })}
           </div>
         </div>
       </div>

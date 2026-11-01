@@ -225,8 +225,8 @@ export function RadarPresentesView({ noticiasHoy }: RadarPresentesViewProps) {
         };
 
         return (
-          <div className="rounded-2xl border border-amber-200/90 dark:border-amber-900/50 bg-[#fffdf9] dark:bg-[#181411] p-5 shadow-sm space-y-4">
-            <div className="flex flex-wrap items-center justify-between gap-2 border-b border-amber-200/60 dark:border-amber-900/30 pb-3">
+          <div className="rounded-2xl border border-[#d8cfbe] dark:border-[#3d3429] bg-[#f4efe6] dark:bg-[#1a1713] p-5 shadow-sm space-y-4">
+            <div className="flex flex-wrap items-center justify-between gap-2 border-b border-[#d8cfbe]/80 dark:border-[#3d3429] pb-3">
               <div className="flex items-center gap-2">
                 <span className="flex h-2.5 w-2.5 rounded-full bg-alby-terr animate-pulse" />
                 <h3 className="text-sm font-bold text-title">
@@ -234,7 +234,7 @@ export function RadarPresentesView({ noticiasHoy }: RadarPresentesViewProps) {
                 </h3>
               </div>
               <div className="flex items-center gap-2">
-                <span className="rounded-md bg-amber-100/70 dark:bg-amber-950/60 px-2.5 py-0.5 text-xs font-mono font-bold text-alby-terr border border-amber-200 dark:border-amber-800">
+                <span className="rounded-md bg-[#e8ded0] dark:bg-[#2b241d] px-2.5 py-0.5 text-xs font-mono font-bold text-alby-terr border border-[#cfc4b2] dark:border-[#42382c]">
                   {analisisEspana.porcentaje_domestico || "72% Ruido Doméstico"}
                 </span>
                 <button
@@ -248,7 +248,7 @@ export function RadarPresentesView({ noticiasHoy }: RadarPresentesViewProps) {
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
               {/* Foco 1: Monotema */}
-              <div className="rounded-xl border border-amber-200/60 dark:border-amber-900/30 bg-panel p-4 space-y-1.5 shadow-2xs">
+              <div className="rounded-xl border border-[#d8cfbe]/70 dark:border-[#3d3429] bg-panel p-4 space-y-1.5 shadow-2xs">
                 <span className="text-[10px] font-mono text-alby-terr uppercase font-bold tracking-wider">
                   01 // Monotema Dominante
                 </span>
@@ -261,7 +261,7 @@ export function RadarPresentesView({ noticiasHoy }: RadarPresentesViewProps) {
               </div>
 
               {/* Foco 2: Polarización */}
-              <div className="rounded-xl border border-amber-200/60 dark:border-amber-900/30 bg-panel p-4 space-y-1.5 shadow-2xs">
+              <div className="rounded-xl border border-[#d8cfbe]/70 dark:border-[#3d3429] bg-panel p-4 space-y-1.5 shadow-2xs">
                 <span className="text-[10px] font-mono text-alby-terr uppercase font-bold tracking-wider">
                   02 // Encuadre & Polarización
                 </span>
@@ -274,7 +274,7 @@ export function RadarPresentesView({ noticiasHoy }: RadarPresentesViewProps) {
               </div>
 
               {/* Foco 3: Contraste con el Exterior */}
-              <div className="rounded-xl border border-amber-200/60 dark:border-amber-900/30 bg-panel p-4 space-y-1.5 shadow-2xs">
+              <div className="rounded-xl border border-[#d8cfbe]/70 dark:border-[#3d3429] bg-panel p-4 space-y-1.5 shadow-2xs">
                 <span className="text-[10px] font-mono text-alby-terr uppercase font-bold tracking-wider">
                   03 // Contraste Geopolítico
                 </span>
