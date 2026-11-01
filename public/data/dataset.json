@@ -1,5 +1,5 @@
 {
-  "fechaGeneracion": "2026-11-01T11:48:52.068Z",
+  "fechaGeneracion": "2026-11-01T11:50:49.497Z",
   "fuentesConfig": {
     "ES": {
       "nombre": "España",
@@ -208,7 +208,7 @@
   },
   "noticiasHoy": {
     "fecha": "2026-11-01",
-    "timestamp": "2026-11-01 11:47:20",
+    "timestamp": "2026-11-01 11:49:42",
     "puntosCiegos": [
       {
         "id": "PC-01",
@@ -413,14 +413,10 @@
                 "resumen": "Golpe al Mundial. Victoria de Marc Márquez que tendrá bola de partido la próxima semana en Qatar. Será muy complicado si Jorge Martín se recupera, pero así lo dicen las matemáticas. Ambos están separados por 44 puntos y solo quedan 111 en juego. El catalán será campeón si en Lusa",
                 "fecha": "Sun, 01 Nov 2026 12:26:16 +0100",
                 "titulo_original": "Apabullante victoria de Marc Márquez, que ya roza su décimo Mundial",
-                "tags": [
-                  "#DeepTech",
-                  "#InteligenciaArtificial",
-                  "#Innovación"
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "Tecnología Disruptiva, IA y Biotecnología",
-                "coincidencias_count": 20
+                "tags": [],
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
               },
               {
                 "titulo": "Apagón en Tenerife: más de 160.000 viviendas se quedan sin suministro",
@@ -429,13 +425,12 @@
                 "fecha": "Sun, 01 Nov 2026 12:22:02 +0100",
                 "titulo_original": "Apagón en Tenerife: más de 160.000 viviendas se quedan sin suministro",
                 "tags": [
-                  "#DeepTech",
-                  "#InteligenciaArtificial",
-                  "#Innovación"
+                  "#Clima",
+                  "#Emergencias"
                 ],
                 "tema_repetido": true,
-                "cluster_tema": "Tecnología Disruptiva, IA y Biotecnología",
-                "coincidencias_count": 20
+                "cluster_tema": "Emergencia Climática y Fenómenos Extremos",
+                "coincidencias_count": 3
               },
               {
                 "titulo": "Audiencias TV: El fútbol y las entrevistas políticas de 'La Revuelta' le dan el liderazgo a La 1 en octubre",
@@ -443,14 +438,10 @@
                 "resumen": "Hay dos cosas que revolucionan la televisión cuando hablamos de audiencias: el deporte y la política. Así que, cuando se juntan en el mismo cóctel, pasa lo que pasa. La 1 se hace con el liderazgo de octubre gracias al fútbol, con la emisión de dos partidos de la UEFA, ambas con c",
                 "fecha": "Sun, 01 Nov 2026 12:13:46 +0100",
                 "titulo_original": "Audiencias TV: El fútbol y las entrevistas políticas de 'La Revuelta' le dan el liderazgo a La 1 en octubre",
-                "tags": [
-                  "#DeepTech",
-                  "#InteligenciaArtificial",
-                  "#Innovación"
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "Tecnología Disruptiva, IA y Biotecnología",
-                "coincidencias_count": 20
+                "tags": [],
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
               }
             ],
             "estado": "OK",
@@ -549,14 +540,10 @@
                 "resumen": "Las redes sociales son uno de los canales más empleados por la ciudadanía actual para dedicar nuestros mejores deseos a nuestros allegados en festividades como esta",
                 "fecha": "2026-11-01T11:22:00+01:00",
                 "titulo_original": "¡Feliz Día de Todos los Santos! 30 frases para enviar por WhatsApp a amigos y familiares y recordar a los que ya no están",
-                "tags": [
-                  "#DeepTech",
-                  "#InteligenciaArtificial",
-                  "#Innovación"
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "Tecnología Disruptiva, IA y Biotecnología",
-                "coincidencias_count": 20
+                "tags": [],
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
               },
               {
                 "titulo": "La Policía Nacional detiene a 22 personas durante el dispositivo especial de la noche de Halloween",
@@ -564,14 +551,10 @@
                 "resumen": "En nueve horas, los agentes identificaron a 431 personas y levantaron 119 actas por drogas, armas y otros motivos en las zonas más concurridas",
                 "fecha": "2026-11-01T11:17:00+01:00",
                 "titulo_original": "La Policía Nacional detiene a 22 personas durante el dispositivo especial de la noche de Halloween",
-                "tags": [
-                  "#DeepTech",
-                  "#InteligenciaArtificial",
-                  "#Innovación"
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "Tecnología Disruptiva, IA y Biotecnología",
-                "coincidencias_count": 20
+                "tags": [],
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
               },
               {
                 "titulo": "El detenido en el centro de Valencia por su relación con Blocus tiene 16 años",
@@ -579,14 +562,10 @@
                 "resumen": "El operativo desplegado en el centro valenciano identificó a 440 personas e intervino pasamontañas, caretas y espráis, además de levantar actas por armas y drogas",
                 "fecha": "2026-11-01T10:53:00+01:00",
                 "titulo_original": "El detenido en el centro de Valencia por su relación con Blocus tiene 16 años",
-                "tags": [
-                  "#DeepTech",
-                  "#InteligenciaArtificial",
-                  "#Innovación"
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "Tecnología Disruptiva, IA y Biotecnología",
-                "coincidencias_count": 20
+                "tags": [],
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
               }
             ],
             "estado": "OK",
@@ -604,13 +583,12 @@
                 "titulo_original": "Vivienda: Qué falla en el inmobiliario y cómo solucionarlo",
                 "tags": [
                   "#Inmobiliario",
-                  "#DeepTech",
-                  "#InteligenciaArtificial",
-                  "#Innovación"
+                  "#Vivienda",
+                  "#Economía"
                 ],
                 "tema_repetido": true,
-                "cluster_tema": "Tecnología Disruptiva, IA y Biotecnología",
-                "coincidencias_count": 20
+                "cluster_tema": "Crisis de Vivienda e Inmobiliario",
+                "coincidencias_count": 2
               },
               {
                 "titulo": "Iberia, Air Europa, Ryanair, Volotea y Vueling refuerzan sus rutas con Andalucía tras Urda",
@@ -640,9 +618,9 @@
                   "#Divisas",
                   "#Finanzas"
                 ],
-                "tema_repetido": true,
-                "cluster_tema": "Mercados de Divisas y Finanzas",
-                "coincidencias_count": 2
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
               },
               {
                 "titulo": "Veinte valores fuertes que suben a contracorriente en octubre",
@@ -654,11 +632,11 @@
                   "#Ahorro",
                   "#Mercados",
                   "#CarmenRosique",
-                  "#Geopolítica"
+                  "#Divisas"
                 ],
-                "tema_repetido": true,
-                "cluster_tema": "Guerra Ucrania / Rusia / Frente Oriental",
-                "coincidencias_count": 5
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
               }
             ],
             "estado": "OK",
@@ -706,14 +684,10 @@
                 "resumen": "Messages, photos, notes… Nos smartphones conservent des années de vie privée susceptibles de tomber entre les mains de nos proches après notre mort. Pour éviter les découvertes embarrassantes, certains font du tri dans leurs traces numériques.",
                 "fecha": "Sun, 01 Nov 2026 05:00:09 +0100",
                 "titulo_original": "« Je ne voudrais pas qu’ils tombent là-dessus » : en préparation du jour où ils vont disparaître, ils font le ménage dans leur téléphone",
-                "tags": [
-                  "#DeepTech",
-                  "#InteligenciaArtificial",
-                  "#Innovación"
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "Tecnología Disruptiva, IA y Biotecnología",
-                "coincidencias_count": 20
+                "tags": [],
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
               },
               {
                 "titulo": "En Rafah, único paso fronterizo con Egipto, la “trampa de retorno” para los palestinos en Gaza",
@@ -922,13 +896,13 @@
                 "titulo_original": "Atommüll-Endlager gesucht: Deutschlands schwierige Mission",
                 "tags": [
                   "#Ambiente",
-                  "#DeepTech",
-                  "#InteligenciaArtificial",
-                  "#Innovación"
+                  "#Minería",
+                  "#Energía",
+                  "#Recursos"
                 ],
                 "tema_repetido": true,
-                "cluster_tema": "Tecnología Disruptiva, IA y Biotecnología",
-                "coincidencias_count": 20
+                "cluster_tema": "Soberanía de Recursos, Minería y Energía",
+                "coincidencias_count": 2
               },
               {
                 "titulo": "Los izquierdistas de Berlín están cada vez más cerca de hacerse cargo del gobierno",
@@ -937,14 +911,11 @@
                 "fecha": "Sat, 31 Oct 2026 17:55:00 GMT",
                 "titulo_original": "Linke in Berlin kommen der Regierungsübernahme näher",
                 "tags": [
-                  "#Alemania",
-                  "#Minería",
-                  "#Energía",
-                  "#Recursos"
+                  "#Alemania"
                 ],
-                "tema_repetido": true,
-                "cluster_tema": "Minería",
-                "coincidencias_count": 2
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
               }
             ],
             "estado": "OK",
@@ -1121,7 +1092,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Guerra Ucrania / Rusia / Frente Oriental",
-                "coincidencias_count": 5
+                "coincidencias_count": 4
               },
               {
                 "titulo": "Los evacuados ucranianos se reúnen con sus familias después de años atrapados en una ciudad ocupada por Rusia",
@@ -1136,7 +1107,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Guerra Ucrania / Rusia / Frente Oriental",
-                "coincidencias_count": 5
+                "coincidencias_count": 4
               },
               {
                 "titulo": "Juez desestima la demanda de Trump contra el Wall Street Journal por el libro del cumpleaños de Epstein",
@@ -1174,8 +1145,8 @@
                   "#África"
                 ],
                 "tema_repetido": true,
-                "cluster_tema": "Tecnología Disruptiva, IA y Biotecnología",
-                "coincidencias_count": 20
+                "cluster_tema": "Soberanía de Recursos, Minería y Energía",
+                "coincidencias_count": 2
               },
               {
                 "titulo": "La diáspora sudanesa y grupos de derechos humanos denuncian al candidato de los Emiratos Árabes Unidos para el puesto más alto de la ONU",
@@ -1190,8 +1161,8 @@
                   "#África"
                 ],
                 "tema_repetido": true,
-                "cluster_tema": "Tecnología Disruptiva, IA y Biotecnología",
-                "coincidencias_count": 20
+                "cluster_tema": "África",
+                "coincidencias_count": 2
               },
               {
                 "titulo": "Egipto multa a la destacada editora Lina Attalah y cierra el medio de noticias independiente Mada Masr",
@@ -1206,8 +1177,8 @@
                   "#Mundiales"
                 ],
                 "tema_repetido": true,
-                "cluster_tema": "Tecnología Disruptiva, IA y Biotecnología",
-                "coincidencias_count": 20
+                "cluster_tema": "Egipto",
+                "coincidencias_count": 2
               },
               {
                 "titulo": "El brote de ébola \"sin precedentes\" en África podría llegar al Reino Unido, dice un alto funcionario de salud",
@@ -1222,8 +1193,8 @@
                   "#África"
                 ],
                 "tema_repetido": true,
-                "cluster_tema": "África",
-                "coincidencias_count": 2
+                "cluster_tema": "Emergencia Climática y Fenómenos Extremos",
+                "coincidencias_count": 3
               }
             ],
             "estado": "OK",
@@ -1239,14 +1210,10 @@
                 "resumen": "Former European 1,500m champion Ciara Mageean has died at the age of 34.",
                 "fecha": "Sun, 01 Nov 2026 08:15:00 +0000",
                 "titulo_original": "Former Ireland European 1,500m champion dies at age of 34",
-                "tags": [
-                  "#DeepTech",
-                  "#InteligenciaArtificial",
-                  "#Innovación"
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "Tecnología Disruptiva, IA y Biotecnología",
-                "coincidencias_count": 20
+                "tags": [],
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
               },
               {
                 "titulo": "El Rey hablará sobre la esclavitud con \"honestidad inquebrantable\"",
@@ -1276,14 +1243,10 @@
                 "resumen": "A Yemeni staff member of the UN Human Rights Office has died in Houthi custody after being arbitrarily held for more ​than two years, the UN human rights chief has said.",
                 "fecha": "Sun, 01 Nov 2026 01:17:00 +0000",
                 "titulo_original": "UN demands investigation into death of staff member in Houthi custody",
-                "tags": [
-                  "#DeepTech",
-                  "#InteligenciaArtificial",
-                  "#Innovación"
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "Tecnología Disruptiva, IA y Biotecnología",
-                "coincidencias_count": 20
+                "tags": [],
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
               }
             ],
             "estado": "OK",
@@ -1300,26 +1263,22 @@
             "perfil": "Comunitario / Multilingüe",
             "noticias": [
               {
-                "titulo": "Japón realiza su primer trasplante de células madre al cerebro para tratar el Párkinson",
-                "url": "https://es.euronews.com/2026/11/01/japon-trasplante-celulas-madre-cerebro-tratamiento-parkinson",
-                "resumen": "El Párkinson es una enfermedad neurológica crónica que provoca la pérdida progresiva de neuronas productoras de dopamina, esenciales para controlar el movimiento. Entre sus principales síntomas figuran los temblores, la rigidez muscular, la lentitud de movimientos y los problemas",
-                "fecha": "Sun, 01 Nov 2026 11:55:19 +0100",
-                "titulo_original": "Japón realiza su primer trasplante de células madre al cerebro para tratar el Párkinson",
-                "tags": [
-                  "#DeepTech",
-                  "#InteligenciaArtificial",
-                  "#Innovación"
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "Tecnología Disruptiva, IA y Biotecnología",
-                "coincidencias_count": 20
+                "titulo": "El CEO de Kärcher alerta de una \"tormenta perfecta\" para la economía europea",
+                "url": "https://es.euronews.com/2026/11/01/ceo-karcher-tormenta-perfecta-economia-europa-desindustrializacion",
+                "resumen": "El consejero delegado de Kärcher, Hartmut Jenner, advierte del riesgo de desindustrialización en Alemania y Europa y reclama menos burocracia, incentivos para trabajar más horas y una política comercial europea más firme frente a la competencia de China y Estados Unidos.",
+                "fecha": "Sun, 01 Nov 2026 12:46:26 +0100",
+                "titulo_original": "El CEO de Kärcher alerta de una \"tormenta perfecta\" para la economía europea",
+                "tags": [],
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
               },
               {
-                "titulo": "Cerca de 100 heridos y 13 detenidos en las protestas por la vivienda en Lisboa y Oporto",
-                "url": "https://es.euronews.com/2026/11/01/portugal-cargas-policiales-protestas-vivienda-lisboa-oporto-heridos",
-                "resumen": "Tras varias advertencias, la Policía volvió a intervenir de madrugada para desalojar las acampadas de protesta por la vivienda en Lisboa y Oporto. Las cargas habrían dejado cerca de 100 heridos, entre ellos 13 agentes.",
-                "fecha": "Sun, 01 Nov 2026 11:34:47 +0100",
-                "titulo_original": "Cerca de 100 heridos y 13 detenidos en las protestas por la vivienda en Lisboa y Oporto",
+                "titulo": "La Policía frena los disturbios de 'Blocus' en Halloween: 3 detenidos en Barcelona y 22 en Valencia",
+                "url": "https://es.euronews.com/2026/11/01/blocus-halloween-espana-despliegue-policial-detenidos-barcelona-valencia",
+                "resumen": "Un amplio despliegue policial en Madrid, Barcelona y Valencia evitó que las convocatorias de 'Blocus' durante Halloween desencadenaran nuevos saqueos y disturbios graves. En Barcelona hubo tres detenidos y 2.264 personas identificadas.",
+                "fecha": "Sun, 01 Nov 2026 12:28:43 +0100",
+                "titulo_original": "La Policía frena los disturbios de 'Blocus' en Halloween: 3 detenidos en Barcelona y 22 en Valencia",
                 "tags": [
                   "#Sociedad",
                   "#Manifestaciones",
@@ -1330,34 +1289,26 @@
                 "coincidencias_count": 12
               },
               {
-                "titulo": "Bolivia declara la emergencia nacional por El Niño: más de 78.000 familias afectadas por la sequía",
-                "url": "https://es.euronews.com/2026/11/01/bolivia-emergencia-nacional-fenomeno-el-nino-sequias-inundaciones",
-                "resumen": "El presidente Rodrigo Paz ha decretado la emergencia nacional ante los efectos del fenómeno de El Niño. La sequía ya afecta a más de 78.000 familias en siete departamentos del país.",
-                "fecha": "Sun, 01 Nov 2026 11:22:32 +0100",
-                "titulo_original": "Bolivia declara la emergencia nacional por El Niño: más de 78.000 familias afectadas por la sequía",
-                "tags": [
-                  "#DeepTech",
-                  "#InteligenciaArtificial",
-                  "#Innovación"
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "Tecnología Disruptiva, IA y Biotecnología",
-                "coincidencias_count": 20
+                "titulo": "Últimas noticias | 01 noviembre 2026 - Mediodía",
+                "url": "https://es.euronews.com/video/2026/11/01/ultimas-noticias-01-noviembre-2026-mediodia",
+                "resumen": "Ponte al día con las noticias más importantes de Europa y el mundo este 01 noviembre 2026: noticias de última hora, internacional, negocios, entretenimiento, política, cultura, viajes.",
+                "fecha": "Sun, 01 Nov 2026 12:00:28 +0100",
+                "titulo_original": "Últimas noticias | 01 noviembre 2026 - Mediodía",
+                "tags": [],
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
               },
               {
-                "titulo": "Desarticulan en Grecia una red que desviaba donaciones para niños con cáncer y amañaba partidos",
-                "url": "https://es.euronews.com/2026/11/01/grecia-red-donaciones-ninos-cancer-amano-partidos-futbol",
-                "resumen": "La organización utilizaba públicamente las donaciones de artistas, deportistas y empresarios conocidos para dar credibilidad a la ONG y atraer nuevas aportaciones destinadas, supuestamente, a ayudar a niños con enfermedades graves.",
-                "fecha": "Sun, 01 Nov 2026 10:59:36 +0100",
-                "titulo_original": "Desarticulan en Grecia una red que desviaba donaciones para niños con cáncer y amañaba partidos",
-                "tags": [
-                  "#DeepTech",
-                  "#InteligenciaArtificial",
-                  "#Innovación"
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "Tecnología Disruptiva, IA y Biotecnología",
-                "coincidencias_count": 20
+                "titulo": "Japón realiza su primer trasplante de células madre al cerebro para tratar el Párkinson",
+                "url": "https://es.euronews.com/2026/11/01/japon-trasplante-celulas-madre-cerebro-tratamiento-parkinson",
+                "resumen": "El Párkinson es una enfermedad neurológica crónica que provoca la pérdida progresiva de neuronas productoras de dopamina, esenciales para controlar el movimiento. Entre sus principales síntomas figuran los temblores, la rigidez muscular, la lentitud de movimientos y los problemas",
+                "fecha": "Sun, 01 Nov 2026 11:55:19 +0100",
+                "titulo_original": "Japón realiza su primer trasplante de células madre al cerebro para tratar el Párkinson",
+                "tags": [],
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
               }
             ],
             "estado": "OK",
@@ -1393,9 +1344,9 @@
                   "#Asia",
                   "#Fronteras"
                 ],
-                "tema_repetido": true,
-                "cluster_tema": "Tecnología Disruptiva, IA y Biotecnología",
-                "coincidencias_count": 20
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
               },
               {
                 "titulo": "Domingo de seguridad: ¿Cuán real es la amenaza de guerra? – con el general Alexander Sollfrank",
@@ -1473,7 +1424,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Guerra Ucrania / Rusia / Frente Oriental",
-                "coincidencias_count": 5
+                "coincidencias_count": 4
               },
               {
                 "titulo": "El intento de Netanyahu de permanecer en el poder pondrá a prueba su astucia política",
@@ -1505,7 +1456,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Guerra Ucrania / Rusia / Frente Oriental",
-                "coincidencias_count": 5
+                "coincidencias_count": 4
               }
             ],
             "estado": "OK",
@@ -1599,13 +1550,12 @@
                 "titulo_original": "Leading China Property Developer Reports Huge loss, in Sign of Widening Real-Estate Woes",
                 "tags": [
                   "#Pagado",
-                  "#DeepTech",
-                  "#InteligenciaArtificial",
-                  "#Innovación"
+                  "#Vivienda",
+                  "#Economía"
                 ],
                 "tema_repetido": true,
-                "cluster_tema": "Tecnología Disruptiva, IA y Biotecnología",
-                "coincidencias_count": 20
+                "cluster_tema": "Crisis de Vivienda e Inmobiliario",
+                "coincidencias_count": 2
               },
               {
                 "titulo": "Los rehenes israelíes liberados todavía tenían metralla en el cuerpo del ataque del 7 de octubre",
@@ -1614,14 +1564,11 @@
                 "fecha": "Mon, 27 Jan 2025 12:12:00 -0500",
                 "titulo_original": "Freed Israeli Hostages Still Had Shrapnel in Their Bodies From Oct. 7 Attack",
                 "tags": [
-                  "#Pagado",
-                  "#OrienteMedio",
-                  "#Geopolítica",
-                  "#Seguridad"
+                  "#Pagado"
                 ],
-                "tema_repetido": true,
-                "cluster_tema": "Conflicto Oriente Medio (Gaza / Líbano)",
-                "coincidencias_count": 4
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
               },
               {
                 "titulo": "El presunto sabotaje de un cable de aguas profundas desencadena la primera respuesta liderada por la OTAN",
@@ -1637,7 +1584,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Guerra Ucrania / Rusia / Frente Oriental",
-                "coincidencias_count": 5
+                "coincidencias_count": 4
               }
             ],
             "estado": "OK",
@@ -1659,14 +1606,10 @@
                 "resumen": "¡Hamilton logra la pole del GP de México con Ferrari! Aristegui Noticias",
                 "fecha": "Sat, 31 Oct 2026 22:40:00 GMT",
                 "titulo_original": "¡Hamilton logra la pole del GP de México con Ferrari! - Aristegui Noticias",
-                "tags": [
-                  "#DeepTech",
-                  "#InteligenciaArtificial",
-                  "#Innovación"
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "Tecnología Disruptiva, IA y Biotecnología",
-                "coincidencias_count": 20
+                "tags": [],
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
               },
               {
                 "titulo": "Tamaulipas investiga muerte de niña por presunto disparo policial - Aristegui Noticias",
@@ -1674,14 +1617,10 @@
                 "resumen": "Tamaulipas investiga muerte de niña por presunto disparo policial Aristegui Noticias",
                 "fecha": "Sat, 31 Oct 2026 22:23:00 GMT",
                 "titulo_original": "Tamaulipas investiga muerte de niña por presunto disparo policial - Aristegui Noticias",
-                "tags": [
-                  "#DeepTech",
-                  "#InteligenciaArtificial",
-                  "#Innovación"
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "Tecnología Disruptiva, IA y Biotecnología",
-                "coincidencias_count": 20
+                "tags": [],
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
               },
               {
                 "titulo": "ASF investiga irregularidades en contratos del INE y OPLES - Aristegui Noticias",
@@ -1689,14 +1628,10 @@
                 "resumen": "ASF investiga irregularidades en contratos del INE y OPLES Aristegui Noticias",
                 "fecha": "Sat, 31 Oct 2026 20:48:00 GMT",
                 "titulo_original": "ASF investiga irregularidades en contratos del INE y OPLES - Aristegui Noticias",
-                "tags": [
-                  "#DeepTech",
-                  "#InteligenciaArtificial",
-                  "#Innovación"
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "Tecnología Disruptiva, IA y Biotecnología",
-                "coincidencias_count": 20
+                "tags": [],
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
               },
               {
                 "titulo": "El 0.1% de multimillonarios contamina más que 44% de la población mundial en pobreza: Oxfam - Aristegui Noticias",
@@ -1704,14 +1639,10 @@
                 "resumen": "El 0.1% de multimillonarios contamina más que 44% de la población mundial en pobreza: Oxfam Aristegui Noticias",
                 "fecha": "Wed, 28 Oct 2026 15:44:00 GMT",
                 "titulo_original": "El 0.1% de multimillonarios contamina más que 44% de la población mundial en pobreza: Oxfam - Aristegui Noticias",
-                "tags": [
-                  "#DeepTech",
-                  "#InteligenciaArtificial",
-                  "#Innovación"
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "Tecnología Disruptiva, IA y Biotecnología",
-                "coincidencias_count": 20
+                "tags": [],
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
               }
             ],
             "estado": "OK",
@@ -1728,13 +1659,12 @@
                 "fecha": "Sun, 01 Nov 2026 11:45:08 +0000",
                 "titulo_original": "La Policía de la Ciudad detuvo a un colombiano cuando intentaba robar un auto: tenía una alerta roja de Interpol",
                 "tags": [
-                  "#DeepTech",
-                  "#InteligenciaArtificial",
-                  "#Innovación"
+                  "#Clima",
+                  "#Emergencias"
                 ],
                 "tema_repetido": true,
-                "cluster_tema": "Tecnología Disruptiva, IA y Biotecnología",
-                "coincidencias_count": 20
+                "cluster_tema": "Emergencia Climática y Fenómenos Extremos",
+                "coincidencias_count": 3
               },
               {
                 "titulo": "Ir con la verdad y tener un plan B: el oficio comercial en la logística internacional",
@@ -1742,14 +1672,10 @@
                 "resumen": "Micaela Costilla, ejecutiva de ventas en un freight forwarder y docente universitaria, repasa el impacto de la escasez de contenedores, los pasos cerrados y la vía Chile en la operación diaria",
                 "fecha": "Sun, 01 Nov 2026 11:45:00 +0000",
                 "titulo_original": "Ir con la verdad y tener un plan B: el oficio comercial en la logística internacional",
-                "tags": [
-                  "#DeepTech",
-                  "#InteligenciaArtificial",
-                  "#Innovación"
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "Tecnología Disruptiva, IA y Biotecnología",
-                "coincidencias_count": 20
+                "tags": [],
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
               },
               {
                 "titulo": "El Chapo Isidro, líder del Cártel de Guasave, estaba con Chuy González cuando fue abatido pero logró escapar: especialista",
@@ -1757,14 +1683,10 @@
                 "resumen": "De acuerdo con el periodista Jesús Lemus, el líder del Cártel de Guasave se encontraba con Jesús González Peñuelas en una reunión cuando fue abatido",
                 "fecha": "Sun, 01 Nov 2026 11:45:00 +0000",
                 "titulo_original": "El Chapo Isidro, líder del Cártel de Guasave, estaba con Chuy González cuando fue abatido pero logró escapar: especialista",
-                "tags": [
-                  "#DeepTech",
-                  "#InteligenciaArtificial",
-                  "#Innovación"
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "Tecnología Disruptiva, IA y Biotecnología",
-                "coincidencias_count": 20
+                "tags": [],
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
               },
               {
                 "titulo": "David Alonso conquistó el Gran Premio de Malasia en el Moto2: así fue la victoria del colombiano",
@@ -1772,14 +1694,10 @@
                 "resumen": "Después de su triunfo, el piloto colombiano admitió que este tipo de competencia no le resulta habitual, aunque afirmó que logró sostener la presión en el tramo final y pudo quedarse con el triunfo",
                 "fecha": "Sun, 01 Nov 2026 11:42:32 +0000",
                 "titulo_original": "David Alonso conquistó el Gran Premio de Malasia en el Moto2: así fue la victoria del colombiano",
-                "tags": [
-                  "#DeepTech",
-                  "#InteligenciaArtificial",
-                  "#Innovación"
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "Tecnología Disruptiva, IA y Biotecnología",
-                "coincidencias_count": 20
+                "tags": [],
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
               }
             ],
             "estado": "OK",
@@ -1817,7 +1735,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Guerra Ucrania / Rusia / Frente Oriental",
-                "coincidencias_count": 5
+                "coincidencias_count": 4
               },
               {
                 "titulo": "Irán advierte que una nueva guerra con EEUU podría ser más larga que la anterior",
@@ -1840,14 +1758,10 @@
                 "resumen": "La escritora canadiense publicó Nirliit, una novela inspirada en su experiencia en Salluit, una comunidad inuit del Ártico. En diálogo con Clarín, denuncia las consecuencias del colonialismo, el abandono estatal y las desigualdades que atraviesan a estas poblaciones.",
                 "fecha": "Sun, 01 Nov 2026 10:45:41 +0000",
                 "titulo_original": "Juliana Léveillé-Trudel, escritora canadiense: “Hay un verdadero giro hacia el fascismo”",
-                "tags": [
-                  "#DeepTech",
-                  "#InteligenciaArtificial",
-                  "#Innovación"
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "Tecnología Disruptiva, IA y Biotecnología",
-                "coincidencias_count": 20
+                "tags": [],
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
               }
             ],
             "estado": "OK",
@@ -1863,14 +1777,10 @@
                 "resumen": "Autoridades de Estados Unidos detuvieron ayer en Miami a Inés Gómez Mont, prófuga desde 2021 y acusada en México de delincuencia organizada, defraudación fiscal y lavado de dinero por una red de empresas fantasmas que habría movido unos 3 mil millones de pesos en contratos del si",
                 "fecha": "Sat, 31 Oct 2026 09:27:54 GMT",
                 "titulo_original": "Editorial: EU: facilitador de impunidad",
-                "tags": [
-                  "#DeepTech",
-                  "#InteligenciaArtificial",
-                  "#Innovación"
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "Tecnología Disruptiva, IA y Biotecnología",
-                "coincidencias_count": 20
+                "tags": [],
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
               },
               {
                 "titulo": "Jack Nicholson está “bien, pero desapareció”, dice Michael Douglas",
@@ -1889,14 +1799,10 @@
                 "resumen": "Como cualquier piloto latinoamericano, Sergio Pérez, hoy en Cadillac, tuvo que remontar desventajas en la Fórmula 1. Las condiciones estructurales y geográficas representan un obstáculo que muy pocos superan. Se trata de una élite poblada por europeos en su mayoría. Esa condición",
                 "fecha": "Sat, 31 Oct 2026 09:27:54 GMT",
                 "titulo_original": "Checo se gana su lugar en la elitista F1: Osmar Olvera",
-                "tags": [
-                  "#Mercados",
-                  "#Divisas",
-                  "#Finanzas"
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "Mercados de Divisas y Finanzas",
-                "coincidencias_count": 2
+                "tags": [],
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
               },
               {
                 "titulo": "Carlos Fernández-Vega: México SA",
@@ -1904,14 +1810,10 @@
                 "resumen": "Lo de Guadalupe Taddei y su pandilla es una vergüenza, pero no la única, de acuerdo con las revelaciones que, ante comisiones de la Cámara de Diputados, han hecho la Auditoría Superior de la Federación (ASF), a cargo de Aureliano Hernández Palacios, y el propio titular –hasta aho",
                 "fecha": "Sat, 31 Oct 2026 09:27:54 GMT",
                 "titulo_original": "Carlos Fernández-Vega: México SA",
-                "tags": [
-                  "#DeepTech",
-                  "#InteligenciaArtificial",
-                  "#Innovación"
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "Tecnología Disruptiva, IA y Biotecnología",
-                "coincidencias_count": 20
+                "tags": [],
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
               }
             ],
             "estado": "OK",
@@ -1934,14 +1836,11 @@
                 "fecha": "Sun, 01 Nov 2026 09:34:20 +0000",
                 "titulo_original": "Civic turnarounds to the banking C-suite: Inside Kenny Fihla’s pan-African power network",
                 "tags": [
-                  "#Negocio",
-                  "#DeepTech",
-                  "#InteligenciaArtificial",
-                  "#Innovación"
+                  "#Negocio"
                 ],
                 "tema_repetido": true,
-                "cluster_tema": "Tecnología Disruptiva, IA y Biotecnología",
-                "coincidencias_count": 20
+                "cluster_tema": "Negocio",
+                "coincidencias_count": 2
               },
               {
                 "titulo": "Camerún: Cómo Paul Biya aseguró la transición a la democracia",
@@ -1950,14 +1849,11 @@
                 "fecha": "Fri, 30 Oct 2026 15:00:00 +0000",
                 "titulo_original": "Cameroon: How Paul Biya locked down the transition to democracy",
                 "tags": [
-                  "#Política",
-                  "#DeepTech",
-                  "#InteligenciaArtificial",
-                  "#Innovación"
+                  "#Política"
                 ],
                 "tema_repetido": true,
-                "cluster_tema": "Tecnología Disruptiva, IA y Biotecnología",
-                "coincidencias_count": 20
+                "cluster_tema": "Política",
+                "coincidencias_count": 8
               },
               {
                 "titulo": "Un año después del golpe militar: el autoritarismo frustra las aspiraciones de la Generación Z de un nuevo Madagascar",
@@ -2002,14 +1898,10 @@
                 "resumen": "Interlocutrice privilégiée des politiques et des financiers, la directrice régionale de Wave incarne la nouvelle élite numérique du continent. Plongée dans le réseau familial, professionnel et spirituel qui a façonné l’ascension de la dirigeante la plus influente de la fintech ou",
                 "fecha": "2026-11-01T12:28:00+00:00",
                 "titulo_original": "Banquiers, politiques, prélats, féministes… La galaxie éclectique de Coura Sène",
-                "tags": [
-                  "#DeepTech",
-                  "#InteligenciaArtificial",
-                  "#Innovación"
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "Tecnología Disruptiva, IA y Biotecnología",
-                "coincidencias_count": 20
+                "tags": [],
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
               },
               {
                 "titulo": "L’intervention au Niger, un test de crédibilité grandeur nature pour l’armée algérienne",
@@ -2028,14 +1920,10 @@
                 "resumen": "D’Ormuz à Bab el-Mandeb, les guerres qui déchirent la planète ont souvent une dimension maritime qui touche l’Afrique, ne serait-ce qu’en désorganisant les routes commerciales. Dans ce contexte, comment se situe le continent en matière de forces navales, et qui y consacre le plus",
                 "fecha": "2026-10-31T18:04:20+00:00",
                 "titulo_original": "Égypte, Maroc, Algérie, Nigeria : qui possède les principales marines de guerre en Afrique ?",
-                "tags": [
-                  "#DeepTech",
-                  "#InteligenciaArtificial",
-                  "#Innovación"
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "Tecnología Disruptiva, IA y Biotecnología",
-                "coincidencias_count": 20
+                "tags": [],
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
               },
               {
                 "titulo": "Nkrumah, Rawlings, Akufo-Addo… En Ghana, las hijas del presidente, entre la herencia y los negocios",
@@ -2043,14 +1931,10 @@
                 "resumen": "Des postes ministériels aux missions de maintien de la paix de l’ONU, en passant par les entreprises et les fondations familiales, les filles des anciens dirigeants du Ghana tracent leur propre voie tout en composant avec les privilèges et les fardeaux que représentent des noms d",
                 "fecha": "2026-10-31T17:54:35+00:00",
                 "titulo_original": "Nkrumah, Rawlings, Akufo-Addo… Au Ghana, les filles de président, entre héritage et affaires",
-                "tags": [
-                  "#DeepTech",
-                  "#InteligenciaArtificial",
-                  "#Innovación"
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "Tecnología Disruptiva, IA y Biotecnología",
-                "coincidencias_count": 20
+                "tags": [],
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
               }
             ],
             "estado": "OK",
@@ -2073,8 +1957,8 @@
                   "#África"
                 ],
                 "tema_repetido": true,
-                "cluster_tema": "Tecnología Disruptiva, IA y Biotecnología",
-                "coincidencias_count": 20
+                "cluster_tema": "Egipto",
+                "coincidencias_count": 2
               },
               {
                 "titulo": "África: de las conexiones de la Commonwealth a las oportunidades económicas - Ampliación de los vínculos comerciales entre África y el Caribe",
@@ -2089,8 +1973,8 @@
                   "#RelacionesExternas"
                 ],
                 "tema_repetido": true,
-                "cluster_tema": "Tecnología Disruptiva, IA y Biotecnología",
-                "coincidencias_count": 20
+                "cluster_tema": "África",
+                "coincidencias_count": 2
               },
               {
                 "titulo": "Sudáfrica: Se confirma la peste equina africana en Cederberg, Cabo Occidental",
@@ -2144,14 +2028,10 @@
                 "resumen": "The UAE is hoping for a breakthrough in negotiations between Iran and the United States while being prepared for the worst, a senior official said on Sunday, following threats of a resumption of the Middle East war. “We’re hoping that there is a diplomatic breakthrough,” diplomat",
                 "fecha": "Sun, 01 Nov 2026 11:35:47 +0000",
                 "titulo_original": "US-Iran talks: UAE ‘braced for the worst’, hoping for diplomacy",
-                "tags": [
-                  "#DeepTech",
-                  "#InteligenciaArtificial",
-                  "#Innovación"
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "Tecnología Disruptiva, IA y Biotecnología",
-                "coincidencias_count": 20
+                "tags": [],
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
               },
               {
                 "titulo": "¿Cómo podría una única inyección de edición genética tratar enfermedades oculares hereditarias?",
@@ -2166,7 +2046,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Tecnología Disruptiva, IA y Biotecnología",
-                "coincidencias_count": 20
+                "coincidencias_count": 2
               },
               {
                 "titulo": "La oposición india se une para exigir la dimisión del jefe electoral de Modi",
@@ -2174,14 +2054,10 @@
                 "resumen": "Thousands protested in Delhi on Sunday to demand the resignation of India’s election chief over a revision of voter lists, the latest in more than a month of ‌opposition demonstrations challenging Prime Minister Narendra Modi. Led by Congress party chief Rahul Gandhi, Sunday’s pr",
                 "fecha": "Sun, 01 Nov 2026 10:13:07 +0000",
                 "titulo_original": "Indian opposition unites to demand Modi electoral chief’s resignation",
-                "tags": [
-                  "#DeepTech",
-                  "#InteligenciaArtificial",
-                  "#Innovación"
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "Tecnología Disruptiva, IA y Biotecnología",
-                "coincidencias_count": 20
+                "tags": [],
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
               },
               {
                 "titulo": "DeepSeek presenta un 'superagente' de IA en la carrera de codificación con OpenAI y Anthropic",
@@ -2196,7 +2072,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Tecnología Disruptiva, IA y Biotecnología",
-                "coincidencias_count": 20
+                "coincidencias_count": 2
               }
             ],
             "estado": "OK",
@@ -2219,7 +2095,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Tecnología Disruptiva, IA y Biotecnología",
-                "coincidencias_count": 20
+                "coincidencias_count": 2
               },
               {
                 "titulo": "La reunión conmemorativa del Día de la Libertad de Sudáfrica revela su búsqueda de dignidad y gobernanza inclusiva en la era posterior al apartheid",
@@ -2290,14 +2166,11 @@
                 "fecha": "2018-01-03",
                 "titulo_original": "U.S. failure to appoint Australian ambassador \"diplomatic insult\": former deputy PM",
                 "tags": [
-                  "#Xinhuanet",
-                  "#DeepTech",
-                  "#InteligenciaArtificial",
-                  "#Innovación"
+                  "#Xinhuanet"
                 ],
-                "tema_repetido": true,
-                "cluster_tema": "Tecnología Disruptiva, IA y Biotecnología",
-                "coincidencias_count": 20
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
               },
               {
                 "titulo": "El presidente del Parlamento húngaro se dirige a Budapest",
@@ -2306,14 +2179,11 @@
                 "fecha": "2017-10-28",
                 "titulo_original": "Speaker of Hungarian Parliament addresses in Budapest",
                 "tags": [
-                  "#Xinhuanet",
-                  "#DeepTech",
-                  "#InteligenciaArtificial",
-                  "#Innovación"
+                  "#Xinhuanet"
                 ],
-                "tema_repetido": true,
-                "cluster_tema": "Tecnología Disruptiva, IA y Biotecnología",
-                "coincidencias_count": 20
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
               },
               {
                 "titulo": "El tifón Lan azota el centro de Japón, matando a dos personas e interrumpiendo los sistemas de transporte",

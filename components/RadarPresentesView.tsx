@@ -323,12 +323,28 @@ export function RadarPresentesView({ noticiasHoy }: RadarPresentesViewProps) {
                               </a>
                             </div>
 
+                            {/* Tags de la Noticia (RSS Categories + Taxonomía) */}
+                            {n.tags && n.tags.length > 0 && (
+                              <div className="flex flex-wrap items-center gap-1 pt-1">
+                                {n.tags.map((tag: string, tIdx: number) => (
+                                  <span
+                                    key={tIdx}
+                                    className="rounded bg-panel px-1.5 py-0.5 text-[9px] font-mono text-muted border border-borderSubtle hover:border-alby-green/60 transition-colors"
+                                  >
+                                    {tag}
+                                  </span>
+                                ))}
+                              </div>
+                            )}
+
                             {/* Badge de Sincronización de Agenda si el tema está repetido */}
                             {n.tema_repetido && (
                               <div className="pt-0.5">
-                                <span className="inline-flex items-center gap-1 rounded bg-amber-50 dark:bg-amber-950/40 text-amber-800 dark:text-amber-300 px-1.5 py-0.2 text-[9.5px] font-mono font-bold border border-amber-200 dark:border-amber-800">
-                                  <Repeat className="h-2.5 w-2.5" />
-                                  Tema Sincronizado: {n.cluster_tema} ({n.coincidencias_count} medios)
+                                <span className="inline-flex items-center gap-1 rounded bg-amber-50 dark:bg-amber-950/40 text-amber-800 dark:text-amber-300 px-2 py-0.5 text-[10px] font-mono font-bold border border-amber-200 dark:border-amber-800 shadow-2xs">
+                                  <Repeat className="h-3 w-3" />
+                                  <span>Agenda Sincronizada:</span>
+                                  <span className="underline decoration-amber-400">{n.cluster_tema}</span>
+                                  <span className="opacity-80">({n.coincidencias_count} medios)</span>
                                 </span>
                               </div>
                             )}
