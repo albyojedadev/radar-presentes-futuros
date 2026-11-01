@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import { FileText, Flame, Eye, Compass, ExternalLink, ArrowRight, CheckCircle2 } from "lucide-react";
+import { FileText, Flame, Eye, Compass, ExternalLink, ArrowRight, CheckCircle2, Calendar, Sparkles } from "lucide-react";
 
 interface AnuariosViewProps {
   anuarios: Record<string, { archivo: string; year: number; markdown: string }>;
@@ -19,12 +19,19 @@ interface ItemCiego {
   impacto: string;
 }
 
+interface EstacionAnual {
+  estacion: string;
+  meses: string;
+  relato: string;
+}
+
 interface AnuarioEstructurado {
   titulo: string;
   subtitulo: string;
   fechaEmision: string;
   tipoDocumento: string;
   panoramica: string;
+  estaciones: EstacionAnual[];
   campanasHumo: ItemHumo[];
   puntosCiegos: ItemCiego[];
   framing: string;
@@ -34,6 +41,7 @@ interface AnuarioEstructurado {
 export function AnuariosView({ anuarios }: AnuariosViewProps) {
   const anosDisponibles = Object.keys(anuarios).sort().reverse();
   const [anoSeleccionado, setAnoSeleccionado] = useState<string>("2026");
+  const [estacionActivaIdx, setEstacionActivaIdx] = useState<number>(0);
 
   const anuarioActivo = anuarios[anoSeleccionado];
 
@@ -46,6 +54,7 @@ export function AnuariosView({ anuarios }: AnuariosViewProps) {
         fechaEmision: "",
         tipoDocumento: "Anuario Estratégico de Segundo Orden",
         panoramica: "",
+        estaciones: [],
         campanasHumo: [],
         puntosCiegos: [],
         framing: "",
@@ -74,12 +83,14 @@ export function AnuariosView({ anuarios }: AnuariosViewProps) {
 
     let seccionActual = "";
     let panoramica = "";
+    const estaciones: EstacionAnual[] = [];
     const campanasHumo: ItemHumo[] = [];
     const puntosCiegos: ItemCiego[] = [];
     let framing = "";
     const cuentasPendientes: string[] = [];
 
     let currentItem: { titulo: string; url: string; detalle: string } | null = null;
+    let currentEstacion: { estacion: string; meses: string; relato: string } | null = null;
 
     for (let i = 0; i < lineas.length; i++) {
       const l = lineas[i].trim();
@@ -87,27 +98,34 @@ export function AnuariosView({ anuarios }: AnuariosViewProps) {
       if (l.includes("1. Visión Panorámica") || l.includes("1. Visi")) {
         seccionActual = "panoramica";
         continue;
-      } else if (l.includes("2. Campañas de Humo") || l.includes("2. Campa")) {
+      } else if (l.includes("2. Crónica del Año") || l.includes("2. Cr")) {
+        seccionActual = "estaciones";
+        continue;
+      } else if (l.includes("Campañas de Humo") || l.includes("Campa")) {
+        if (currentEstacion) {
+          estaciones.push(currentEstacion);
+          currentEstacion = null;
+        }
         seccionActual = "humo";
         continue;
-      } else if (l.includes("3. Lo que Pasó Desapercibido") || l.includes("3. Lo que Pas")) {
+      } else if (l.includes("Lo que Pasó Desapercibido") || l.includes("Lo que Pas")) {
         if (currentItem && seccionActual === "humo") {
           campanasHumo.push({ titulo: currentItem.titulo, url: currentItem.url, evaluacion: currentItem.detalle });
           currentItem = null;
         }
         seccionActual = "ciegos";
         continue;
-      } else if (l.includes("4. Divergencia de Encuadre") || l.includes("4. Divergencia")) {
+      } else if (l.includes("Divergencia") || l.includes("Tablero Global")) {
         if (currentItem && seccionActual === "ciegos") {
           puntosCiegos.push({ titulo: currentItem.titulo, url: currentItem.url, impacto: currentItem.detalle });
           currentItem = null;
         }
         seccionActual = "framing";
         continue;
-      } else if (l.includes("5. Corrientes Abiertas") || l.includes("5. Cuentas Pendientes")) {
+      } else if (l.includes("Lecciones") || l.includes("Corrientes Abiertas") || l.includes("Cuentas Pendientes")) {
         seccionActual = "pendientes";
         continue;
-      } else if (l.includes("6. Metodología") || l.includes("6. Metodolog")) {
+      } else if (l.includes("Metodología") || l.includes("Metodolog")) {
         seccionActual = "metodologia";
         continue;
       }
@@ -115,6 +133,19 @@ export function AnuariosView({ anuarios }: AnuariosViewProps) {
       if (seccionActual === "panoramica") {
         if (l && !l.startsWith("---") && !l.startsWith("#")) {
           panoramica += (panoramica ? " " : "") + l;
+        }
+      } else if (seccionActual === "estaciones") {
+        if (l.startsWith("### ")) {
+          if (currentEstacion) {
+            estaciones.push(currentEstacion);
+          }
+          const raw = l.replace(/^###\s+/, "").replace(/^[^\w\s]+/, "").trim();
+          const matchMeses = raw.match(/\((.*?)\)/);
+          const meses = matchMeses ? matchMeses[1] : "";
+          const nombreEstacion = raw.replace(/\(.*?\)/, "").trim();
+          currentEstacion = { estacion: nombreEstacion, meses, relato: "" };
+        } else if (currentEstacion && l && !l.startsWith("---") && !l.startsWith("#")) {
+          currentEstacion.relato += (currentEstacion.relato ? " " : "") + l;
         }
       } else if (seccionActual === "humo") {
         if (l.startsWith("### ")) {
@@ -127,8 +158,8 @@ export function AnuariosView({ anuarios }: AnuariosViewProps) {
           } else {
             currentItem = { titulo: l.replace(/^###\s+/, "").replace(/^[^\w\s]+/, "").trim(), url: "", detalle: "" };
           }
-        } else if (currentItem && (l.startsWith(">") || l.includes("Evaluación") || l.includes("Evaluaci"))) {
-          const texto = l.replace(/^>\s*/, "").replace(/\*\*Evaluaci.*?:\*\*/i, "").trim();
+        } else if (currentItem && (l.startsWith(">") || l.includes("Evaluación") || l.includes("Evaluaci") || l.includes("Realidad"))) {
+          const texto = l.replace(/^>\s*/, "").replace(/\*\*.*?\*\*:\s*/i, "").trim();
           currentItem.detalle += (currentItem.detalle ? " " : "") + texto;
         }
       } else if (seccionActual === "ciegos") {
@@ -142,8 +173,8 @@ export function AnuariosView({ anuarios }: AnuariosViewProps) {
           } else {
             currentItem = { titulo: l.replace(/^###\s+/, "").replace(/^[^\w\s]+/, "").trim(), url: "", detalle: "" };
           }
-        } else if (currentItem && (l.startsWith(">") || l.includes("Impacto") || l.includes("Silenciado"))) {
-          const texto = l.replace(/^>\s*/, "").replace(/\*\*Impacto.*?:\*\*/i, "").trim();
+        } else if (currentItem && (l.startsWith(">") || l.includes("Impacto") || l.includes("Silenciado") || l.includes("Fondo"))) {
+          const texto = l.replace(/^>\s*/, "").replace(/\*\*.*?\*\*:\s*/i, "").trim();
           currentItem.detalle += (currentItem.detalle ? " " : "") + texto;
         }
       } else if (seccionActual === "framing") {
@@ -158,6 +189,10 @@ export function AnuariosView({ anuarios }: AnuariosViewProps) {
       }
     }
 
+    if (currentEstacion) {
+      estaciones.push(currentEstacion);
+    }
+
     if (currentItem) {
       if (seccionActual === "humo") {
         campanasHumo.push({ titulo: currentItem.titulo, url: currentItem.url, evaluacion: currentItem.detalle });
@@ -168,10 +203,11 @@ export function AnuariosView({ anuarios }: AnuariosViewProps) {
 
     return {
       titulo,
-      subtitulo: subtitulo || `Balance y Evaluación Retrospectiva ${anoSeleccionado}`,
+      subtitulo: subtitulo || `Balance y Crónica Retrospectiva ${anoSeleccionado}`,
       fechaEmision: fechaEmision || `${anoSeleccionado}-12-31`,
       tipoDocumento,
       panoramica,
+      estaciones,
       campanasHumo,
       puntosCiegos,
       framing,
@@ -246,21 +282,86 @@ export function AnuariosView({ anuarios }: AnuariosViewProps) {
 
             {/* 1. Visión Panorámica */}
             {parsed.panoramica && (
-              <div className="rounded-xl border border-borderSubtle bg-subtle p-4 text-xs leading-relaxed space-y-2">
+              <div className="rounded-xl border border-borderSubtle bg-subtle p-5 text-xs leading-relaxed space-y-2.5">
                 <div className="flex items-center gap-2 text-alby-green font-mono text-xs font-bold uppercase tracking-wider">
                   <Compass className="h-4 w-4" />
                   <span>1. Visión Panorámica del Ejercicio</span>
                 </div>
-                <p className="text-body text-[13px] leading-relaxed">
+                <p className="text-body text-sm leading-relaxed font-normal">
                   {parsed.panoramica}
                 </p>
               </div>
             )}
           </div>
 
+          {/* ====================================================================
+              2. CRÓNICA DEL AÑO EN CUATRO ESTACIONES (LA HISTORIA COMPLETA)
+              ==================================================================== */}
+          {parsed.estaciones.length > 0 && (
+            <div className="rounded-2xl border border-borderSubtle bg-panel p-6 shadow-sm space-y-4">
+              <div className="flex flex-wrap items-center justify-between gap-3 border-b border-borderSubtle pb-3">
+                <div className="flex items-center gap-2">
+                  <div className="rounded-lg bg-alby-greenBg p-1.5 text-alby-green border border-alby-greenBorder">
+                    <Calendar className="h-4 w-4" />
+                  </div>
+                  <div>
+                    <h3 className="text-sm font-bold text-title">
+                      2. Crónica del Año en Cuatro Estaciones
+                    </h3>
+                    <span className="text-[10px] font-mono text-muted uppercase">
+                      El relato continuo y accesible de los acontecimientos que marcaron el ejercicio
+                    </span>
+                  </div>
+                </div>
+
+                {/* Selector de Estaciones */}
+                <div className="flex items-center gap-1.5 overflow-x-auto">
+                  {parsed.estaciones.map((est, idx) => {
+                    const isActiva = (estacionActivaIdx || 0) === idx;
+                    return (
+                      <button
+                        key={idx}
+                        onClick={() => setEstacionActivaIdx(idx)}
+                        className={`rounded-lg px-3 py-1.5 text-xs font-mono font-bold transition-all ${
+                          isActiva
+                            ? "bg-alby-green text-[#fbfaf7] shadow-xs"
+                            : "border border-borderSubtle bg-subtle text-muted hover:text-title hover:border-alby-green"
+                        }`}
+                      >
+                        {est.estacion.split(":")[0] || `Fase ${idx + 1}`}
+                      </button>
+                    );
+                  })}
+                </div>
+              </div>
+
+              {/* Contenido de la Estación Activa */}
+              {(() => {
+                const est = parsed.estaciones[estacionActivaIdx || 0] || parsed.estaciones[0];
+                return (
+                  <div className="rounded-xl border border-borderSubtle bg-subtle/50 p-5 space-y-2.5">
+                    <div className="flex flex-wrap items-center justify-between gap-2">
+                      <h4 className="text-sm font-bold text-title">
+                        {est.estacion}
+                      </h4>
+                      {est.meses && (
+                        <span className="rounded-md bg-panel border border-borderSubtle px-2.5 py-0.5 text-xs font-mono text-muted font-medium">
+                          {est.meses}
+                        </span>
+                      )}
+                    </div>
+                    <p className="text-body text-sm leading-relaxed pt-1">
+                      {est.relato}
+                    </p>
+                  </div>
+                );
+              })()}
+            </div>
+          )}
+
           {/* Bloque Doble: Campañas de Humo vs Puntos Ciegos */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-            {/* 2. Campañas de Humo (Terracota) */}
+            {/* 3. Campañas de Humo (Terracota) */}
             <div className="rounded-2xl border border-alby-terrBorder bg-alby-terrBg/40 p-5 shadow-sm space-y-4">
               <div className="flex items-center justify-between border-b border-borderSubtle pb-3">
                 <div className="flex items-center gap-2">
@@ -269,15 +370,15 @@ export function AnuariosView({ anuarios }: AnuariosViewProps) {
                   </div>
                   <div>
                     <h3 className="text-sm font-bold text-title">
-                      2. Campañas de Humo y Distracciones
+                      3. Campañas de Humo y Distracciones
                     </h3>
                     <span className="text-[10px] font-mono text-alby-terr uppercase font-semibold">
-                      Superficie del Iceberg // Trascendencia nula
+                      Superficie del Iceberg // Ruido Mediático
                     </span>
                   </div>
                 </div>
                 <span className="rounded bg-panel px-2 py-0.5 text-xs font-mono font-bold text-alby-terr border border-alby-terrBorder">
-                  {parsed.campanasHumo.length} detectadas
+                  {parsed.campanasHumo.length} analizadas
                 </span>
               </div>
 
@@ -308,9 +409,9 @@ export function AnuariosView({ anuarios }: AnuariosViewProps) {
                     {item.evaluacion && (
                       <div className="rounded-lg bg-subtle border-l-2 border-alby-terr p-2.5 text-xs text-body space-y-1">
                         <span className="font-mono text-[10px] uppercase text-alby-terr font-bold block">
-                          Evaluación de Segundo Orden:
+                          La Realidad de Fondo:
                         </span>
-                        <p className="text-[11px] leading-relaxed text-muted">
+                        <p className="text-xs leading-relaxed text-muted">
                           {item.evaluacion}
                         </p>
                       </div>
@@ -320,7 +421,7 @@ export function AnuariosView({ anuarios }: AnuariosViewProps) {
               </div>
             </div>
 
-            {/* 3. Puntos Ciegos y Reformas Silenciosas (Verde Alby) */}
+            {/* 4. Puntos Ciegos y Transformaciones Silenciosas (Verde Alby) */}
             <div className="rounded-2xl border border-alby-greenBorder bg-alby-greenBg/40 p-5 shadow-sm space-y-4">
               <div className="flex items-center justify-between border-b border-borderSubtle pb-3">
                 <div className="flex items-center gap-2">
@@ -329,10 +430,10 @@ export function AnuariosView({ anuarios }: AnuariosViewProps) {
                   </div>
                   <div>
                     <h3 className="text-sm font-bold text-title">
-                      3. Lo que Pasó Desapercibido
+                      4. Lo que Pasó Desapercibido
                     </h3>
                     <span className="text-[10px] font-mono text-alby-green uppercase font-semibold">
-                      Fondo del Iceberg // Puntos Ciegos Sistémicos
+                      Fondo del Iceberg // Transformaciones Reales
                     </span>
                   </div>
                 </div>
@@ -368,9 +469,9 @@ export function AnuariosView({ anuarios }: AnuariosViewProps) {
                     {item.impacto && (
                       <div className="rounded-lg bg-subtle border-l-2 border-alby-green p-2.5 text-xs text-body space-y-1">
                         <span className="font-mono text-[10px] uppercase text-alby-green font-bold block">
-                          Impacto Real Silenciado:
+                          El Fondo del Asunto:
                         </span>
-                        <p className="text-[11px] leading-relaxed text-muted">
+                        <p className="text-xs leading-relaxed text-muted">
                           {item.impacto}
                         </p>
                       </div>
@@ -381,15 +482,15 @@ export function AnuariosView({ anuarios }: AnuariosViewProps) {
             </div>
           </div>
 
-          {/* Bloque Inferior: Framing Transnacional & Cuentas Pendientes */}
+          {/* Bloque Inferior: Framing Transnacional & Conclusiones */}
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
-            {/* 4. Divergencia de Framing */}
+            {/* 5. Divergencia de Framing */}
             {parsed.framing && (
               <div className="rounded-2xl border border-borderSubtle bg-panel p-5 shadow-sm lg:col-span-7 space-y-3">
                 <div className="flex items-center gap-2 border-b border-borderSubtle pb-3">
                   <FileText className="h-4 w-4 text-alby-green" />
                   <h3 className="text-sm font-bold text-title">
-                    4. Divergencia de Encuadre (Framing Transnacional)
+                    5. El Tablero Global: Divergencia de Miradas
                   </h3>
                 </div>
                 <p className="text-xs leading-relaxed text-body">
@@ -398,13 +499,13 @@ export function AnuariosView({ anuarios }: AnuariosViewProps) {
               </div>
             )}
 
-            {/* 5. Cuentas Pendientes */}
+            {/* 6. Lecciones y Cuentas Pendientes */}
             {parsed.cuentasPendientes.length > 0 && (
               <div className="rounded-2xl border border-borderSubtle bg-panel p-5 shadow-sm lg:col-span-5 space-y-3">
                 <div className="flex items-center gap-2 border-b border-borderSubtle pb-3">
                   <ArrowRight className="h-4 w-4 text-alby-terr" />
                   <h3 className="text-sm font-bold text-title">
-                    5. Corrientes Abiertas para {parseInt(anoSeleccionado) + 1}
+                    6. Lecciones y Corrientes para {parseInt(anoSeleccionado) + 1}
                   </h3>
                 </div>
                 <div className="space-y-2">
