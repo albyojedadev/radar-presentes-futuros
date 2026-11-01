@@ -102,33 +102,51 @@ export function HemerotecaView({ semanasPorAno }: HemerotecaViewProps) {
         </div>
       </div>
 
-      {/* Navegador de Semanas */}
-      <div className="flex flex-wrap items-center justify-between gap-3 rounded-2xl border border-borderSubtle bg-panel px-5 py-3 shadow-sm">
-        <div className="flex items-center gap-2">
-          <button
-            onClick={irSemanaAnterior}
-            disabled={semanaIdx <= 0}
-            className="flex h-8 w-8 items-center justify-center rounded-lg border border-borderSubtle bg-subtle text-muted disabled:opacity-40 hover:text-title"
-          >
-            <ChevronLeft className="h-4 w-4" />
-          </button>
-          <span className="font-mono text-sm font-bold text-title">
-            {semanaSeleccionada}
-          </span>
-          <button
-            onClick={irSemanaSiguiente}
-            disabled={semanaIdx >= semanasDelAno.length - 1}
-            className="flex h-8 w-8 items-center justify-center rounded-lg border border-borderSubtle bg-subtle text-muted disabled:opacity-40 hover:text-title"
-          >
-            <ChevronRight className="h-4 w-4" />
-          </button>
-          <span className="text-xs text-muted font-mono ml-2">
-            ({semanaIdx + 1} de {semanasDelAno.length} semanas registradas en {anoSeleccionado})
+      {/* Navegador de Semanas Mejorado */}
+      <div className="flex flex-wrap items-center justify-between gap-4 rounded-2xl border border-borderSubtle bg-panel px-5 py-3.5 shadow-sm">
+        {/* Controles de Navegación Rápida */}
+        <div className="flex flex-wrap items-center gap-3">
+          <div className="flex items-center gap-1.5">
+            <button
+              onClick={irSemanaAnterior}
+              disabled={semanaIdx <= 0}
+              title="Semana anterior"
+              className="flex h-8 w-8 items-center justify-center rounded-lg border border-borderSubtle bg-subtle text-muted disabled:opacity-30 hover:text-title hover:border-alby-green transition-all"
+            >
+              <ChevronLeft className="h-4 w-4" />
+            </button>
+            <button
+              onClick={irSemanaSiguiente}
+              disabled={semanaIdx >= semanasDelAno.length - 1}
+              title="Semana siguiente"
+              className="flex h-8 w-8 items-center justify-center rounded-lg border border-borderSubtle bg-subtle text-muted disabled:opacity-30 hover:text-title hover:border-alby-green transition-all"
+            >
+              <ChevronRight className="h-4 w-4" />
+            </button>
+          </div>
+
+          {/* Desplegable Directo de Semanas con Título de Hito */}
+          <div className="relative">
+            <select
+              value={semanaSeleccionada}
+              onChange={(e) => setSemanaSeleccionada(e.target.value)}
+              className="rounded-xl border border-borderSubtle bg-subtle py-1.5 pl-3 pr-8 text-xs font-mono font-bold text-title focus:border-alby-green focus:outline-hidden cursor-pointer"
+            >
+              {semanasDelAno.map((s) => (
+                <option key={s.codigo} value={s.codigo}>
+                  {s.codigo} {s.analisis?.fase ? `• ${s.analisis.fase}` : s.periodo ? `• ${s.periodo}` : ""}
+                </option>
+              ))}
+            </select>
+          </div>
+
+          <span className="text-xs text-muted font-mono hidden sm:inline">
+            ({semanaIdx + 1} de {semanasDelAno.length} semanas en {anoSeleccionado})
           </span>
         </div>
 
-        {/* Barra de píldoras de semanas con scroll horizontal */}
-        <div className="flex items-center gap-1 overflow-x-auto max-w-full sm:max-w-md py-1">
+        {/* Barra de píldoras de semanas completa con scroll fluido */}
+        <div className="flex items-center gap-1 overflow-x-auto max-w-full lg:max-w-xl py-1 px-1 scrollbar-thin">
           {semanasDelAno.map((s) => {
             const isActiva = s.codigo === semanaSeleccionada;
             const num = s.codigo.split("-W")[1];
@@ -136,10 +154,11 @@ export function HemerotecaView({ semanasPorAno }: HemerotecaViewProps) {
               <button
                 key={s.codigo}
                 onClick={() => setSemanaSeleccionada(s.codigo)}
-                className={`rounded px-2 py-0.5 text-[10px] font-mono font-medium transition-all ${
+                title={`${s.codigo}: ${s.analisis?.fase || ''}`}
+                className={`rounded px-2 py-1 text-[10px] font-mono font-bold transition-all shrink-0 ${
                   isActiva
-                    ? "bg-alby-green text-[#fbfaf7] font-bold"
-                    : "bg-subtle text-muted hover:text-title"
+                    ? "bg-alby-green text-[#fbfaf7] shadow-xs scale-105"
+                    : "bg-subtle text-muted hover:text-title hover:bg-borderSubtle/60"
                 }`}
               >
                 W{num}
