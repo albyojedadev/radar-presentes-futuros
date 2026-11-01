@@ -32,35 +32,32 @@ export function MapamundiVectorial({
   const [zoomLevel, setZoomLevel] = useState<number>(1);
   const svgRef = useRef<SVGSVGElement | null>(null);
 
-  // Coordenadas tácticas sobre los centros de los 9 bloques
-  const marcadores = [
-    { id: "ES", nombre: "España", x: 494, y: 153, label: "ESPAÑA", cod: "ES" },
-    { id: "FR", nombre: "Francia", x: 508, y: 135, label: "FRANCIA", cod: "FR" },
-    { id: "DE", nombre: "Alemania", x: 530, y: 119, label: "ALEMANIA", cod: "DE" },
-    { id: "UK", nombre: "Reino Unido", x: 494, y: 106, label: "UK", cod: "UK" },
-    { id: "EU", nombre: "Unión Europea", x: 516, y: 125, label: "UE (BRUSELAS)", cod: "EU" },
-    { id: "US", nombre: "EEUU", x: 240, y: 155, label: "EEUU", cod: "US" },
-    { id: "LATAM", nombre: "Latinoamérica", x: 310, y: 325, label: "LATAM", cod: "LATAM" },
-    { id: "AFRICA", nombre: "África", x: 555, y: 285, label: "ÁFRICA", cod: "AFRICA" },
-    { id: "CHINA", nombre: "China", x: 790, y: 175, label: "CHINA", cod: "CHINA" },
+  // Coordenadas tácticas en modo VISTA GLOBAL (para los 9 bloques)
+  const marcadoresGlobales = [
+    { id: "ES", nombre: "España", x: 494, y: 153, cod: "ES" },
+    { id: "FR", nombre: "Francia", x: 508, y: 135, cod: "FR" },
+    { id: "DE", nombre: "Alemania", x: 530, y: 119, cod: "DE" },
+    { id: "UK", nombre: "Reino Unido", x: 494, y: 106, cod: "UK" },
+    { id: "EU", nombre: "Unión Europea", x: 516, y: 125, cod: "EU" },
+    { id: "US", nombre: "EEUU", x: 240, y: 155, cod: "US" },
+    { id: "LATAM", nombre: "Latinoamérica", x: 310, y: 325, cod: "LATAM" },
+    { id: "AFRICA", nombre: "África", x: 555, y: 285, cod: "AFRICA" },
+    { id: "CHINA", nombre: "China", x: 790, y: 175, cod: "CHINA" },
   ];
 
-  // Etiquetas tácticas de alta definición para lectura cómoda en zoom de Europa
-  const etiquetasEuropa = [
-    { nombre: "ESPAÑA", cod: "ES", x: 488, y: 155 },
-    { nombre: "PORTUGAL", cod: null, x: 466, y: 153 },
-    { nombre: "FRANCIA", cod: "FR", x: 508, y: 136 },
-    { nombre: "REINO UNIDO", cod: "UK", x: 492, y: 104 },
-    { nombre: "IRLANDA", cod: null, x: 476, y: 104 },
-    { nombre: "ALEMANIA", cod: "DE", x: 530, y: 117 },
-    { nombre: "BÉLGICA / UE", cod: "EU", x: 514, y: 123 },
-    { nombre: "PAÍSES BAJOS", cod: null, x: 518, y: 113 },
-    { nombre: "SUIZA", cod: null, x: 520, y: 133 },
-    { nombre: "ITALIA", cod: null, x: 534, y: 146 },
-    { nombre: "POLONIA", cod: null, x: 554, y: 113 },
-    { nombre: "AUSTRIA", cod: null, x: 536, y: 129 },
-    { nombre: "UCRANIA", cod: null, x: 588, y: 120 },
-    { nombre: "ESCANDINAVIA", cod: null, x: 534, y: 84 },
+  // Micro-Pines Tácticos en MODO ZOOM EUROPA (distribución calculada anti-solapamiento)
+  // Se desacoplan las posiciones con márgenes de seguridad para que nunca colisionen
+  const microPinesEuropa = [
+    { cod: "ES", nombre: "ESPAÑA", x: 486, y: 159, isActivo: true },
+    { cod: "FR", nombre: "FRANCIA", x: 504, y: 137, isActivo: true },
+    { cod: "UK", nombre: "UK", x: 490, y: 98, isActivo: true },
+    { cod: "EU", nombre: "UE", x: 515, y: 124, isActivo: true },
+    { cod: "DE", nombre: "ALEMANIA", x: 535, y: 116, isActivo: true },
+    { cod: null, nombre: "PORTUGAL", x: 464, y: 153, isActivo: false },
+    { cod: null, nombre: "ITALIA", x: 536, y: 148, isActivo: false },
+    { cod: null, nombre: "POLONIA", x: 558, y: 113, isActivo: false },
+    { cod: null, nombre: "UCRANIA", x: 590, y: 120, isActivo: false },
+    { cod: null, nombre: "ESCANDINAVIA", x: 534, y: 82, isActivo: false },
   ];
 
   // Presets de Zoom
@@ -70,7 +67,7 @@ export function MapamundiVectorial({
   };
 
   const zoomEuropa = () => {
-    // Encuadre optimizado sobre Europa Occidental y Central (España, Francia, Alemania, UK, Bruselas, Polonia, Italia)
+    // Encuadre optimizado sobre Europa (Península Ibérica, Francia, Alemania, UK, Bruselas, Italia y Polonia)
     setViewBox({ x: 415, y: 65, w: 215, h: 110 });
     setZoomLevel(4.6);
   };
@@ -89,7 +86,7 @@ export function MapamundiVectorial({
     });
   };
 
-  // Drag & Pan para navegar libremente por el mapa
+  // Drag & Pan para mover el mapa cuando está ampliado
   const handleMouseDown = (e: React.MouseEvent<SVGSVGElement>) => {
     if (zoomLevel > 1.05) {
       setIsPanning(true);
@@ -145,11 +142,11 @@ export function MapamundiVectorial({
     return "#c2b8a3";
   };
 
-  const isEuropaZoom = zoomLevel >= 2.5;
+  const isEuropaZoom = zoomLevel >= 2.2;
 
   return (
     <div className="relative overflow-hidden rounded-2xl border border-borderSubtle bg-panel p-5 shadow-sm space-y-4">
-      {/* Cabecera del Mapa con Indicador y Estado */}
+      {/* Cabecera del Mapa */}
       <div className="flex flex-wrap items-center justify-between gap-2 border-b border-borderSubtle pb-3">
         <div className="flex items-center gap-2">
           <span className="flex h-2.5 w-2.5 rounded-full bg-alby-green animate-pulse" />
@@ -166,7 +163,7 @@ export function MapamundiVectorial({
               {hoveredPais.name} {hoveredPais.bloque ? `[${hoveredPais.bloque}]` : "(Sin monitorizar)"}
             </span>
           ) : (
-            <span>Usa el zoom o arrastra para explorar la distribución</span>
+            <span>Explora el mapa con zoom o haz clic en cualquier país</span>
           )}
         </div>
       </div>
@@ -174,7 +171,7 @@ export function MapamundiVectorial({
       {/* Visor SVG Cartográfico con Zoom y Pan Dinámico */}
       <div className="relative aspect-[1000/510] w-full rounded-xl border border-borderSubtle bg-[#eef3f7] dark:bg-[#0c0b09] overflow-hidden shadow-inner group">
         
-        {/* Barra Flotante de Herramientas de Zoom y Perspectiva */}
+        {/* Barra Flotante de Controles de Zoom */}
         <div className="absolute top-3 right-3 z-10 flex items-center gap-1.5 rounded-xl border border-borderSubtle bg-panel/95 p-1.5 backdrop-blur-md shadow-md">
           <button
             onClick={zoomEuropa}
@@ -306,103 +303,137 @@ export function MapamundiVectorial({
             <path d="M 240 155 Q 260 250 310 325" />
           </g>
 
-          {/* Etiquetas Toponímicas Detalladas de Europa (visibles en modo zoom) */}
-          {isEuropaZoom && (
-            <g id="europa_toponimia" className="pointer-events-none select-none">
-              {etiquetasEuropa.map((et, i) => {
-                const isBloque = Boolean(et.cod);
+          {/* ============================================================
+              MODO ZOOM EUROPA: MICRO-PINES TÁCTICOS ANTI-SOLAPAMIENTO
+              Elimina los badges gigantes globales y muestra micro-etiquetas nítidas
+              ============================================================ */}
+          {isEuropaZoom ? (
+            <g id="europa_micro_pines">
+              {microPinesEuropa.map((pin) => {
+                const isSelected = pin.cod ? regionSeleccionada === pin.cod : false;
+                const titCount = pin.cod ? regionesData[pin.cod]?.totalNoticias || 0 : 0;
+                const labelText = pin.cod ? `${pin.nombre} • ${titCount}` : pin.nombre;
+                const badgeWidth = pin.cod ? 22 : 16;
+
                 return (
-                  <g key={`et-${i}`} transform={`translate(${et.x}, ${et.y})`}>
-                    <rect
-                      x="-14"
-                      y="-4.5"
-                      width="28"
-                      height="7.5"
-                      rx="1.5"
-                      fill={isBloque ? "#110f0d" : "#fbfaf7"}
-                      fillOpacity={isBloque ? "0.85" : "0.75"}
-                      stroke={isBloque ? "#4d6b35" : "#c2b8a3"}
-                      strokeWidth="0.3"
+                  <g
+                    key={pin.nombre}
+                    transform={`translate(${pin.x}, ${pin.y})`}
+                    onClick={(e) => {
+                      if (pin.cod) {
+                        e.stopPropagation();
+                        onSelectRegion(pin.cod);
+                      }
+                    }}
+                    className={pin.cod ? "cursor-pointer group" : "pointer-events-none"}
+                  >
+                    {/* Punto focal sutil */}
+                    {pin.cod && (
+                      <circle
+                        r={isSelected ? 2.5 : 1.5}
+                        fill={isSelected ? "#4d6b35" : "#110f0d"}
+                        stroke="#ffffff"
+                        strokeWidth="0.5"
+                      />
+                    )}
+
+                    {/* Micro-etiqueta no colisionante */}
+                    <g transform={`translate(0, ${pin.cod ? 4.5 : 0})`}>
+                      <rect
+                        x={-badgeWidth / 2}
+                        y="-3"
+                        width={badgeWidth}
+                        height="6"
+                        rx="1.2"
+                        fill={isSelected ? "#110f0d" : (pin.isActivo ? "#ffffff" : "#fbfaf7")}
+                        fillOpacity={pin.isActivo ? 0.95 : 0.75}
+                        stroke={isSelected ? "#4d6b35" : (pin.isActivo ? "#c2b8a3" : "#d8d0c2")}
+                        strokeWidth="0.4"
+                        className="shadow-2xs"
+                      />
+                      <text
+                        x="0"
+                        y="1.1"
+                        textAnchor="middle"
+                        fill={isSelected ? "#fbfaf7" : (pin.isActivo ? "#110f0d" : "#5a5247")}
+                        fontSize="3.2"
+                        fontFamily="JetBrains Mono, monospace"
+                        fontWeight={pin.isActivo ? "bold" : "normal"}
+                      >
+                        {labelText}
+                      </text>
+                    </g>
+                  </g>
+                );
+              })}
+            </g>
+          ) : (
+            /* ============================================================
+               MODO GLOBAL: HUD COMPLETO DE LOS 9 BLOQUES GEOPOLÍTICOS
+               ============================================================ */
+            <g id="global_hud_marcadores">
+              {marcadoresGlobales.map((m) => {
+                const isSelected = regionSeleccionada === m.cod;
+                const dataReg = regionesData[m.cod];
+                const titCount = dataReg ? dataReg.totalNoticias : 0;
+
+                return (
+                  <g
+                    key={m.id}
+                    transform={`translate(${m.x}, ${m.y})`}
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      onSelectRegion(m.cod);
+                    }}
+                    className="cursor-pointer group"
+                  >
+                    {/* Halo pulsante */}
+                    <circle
+                      r={isSelected ? 16 : 10}
+                      fill={isSelected ? "#4d6b35" : "#b3512e"}
+                      fillOpacity={isSelected ? "0.25" : "0.15"}
+                      className="animate-ping"
                     />
-                    <text
-                      x="0"
-                      y="1"
-                      textAnchor="middle"
-                      fill={isBloque ? "#fbfaf7" : "#2d2822"}
-                      fontSize="3.8"
-                      fontFamily="JetBrains Mono, monospace"
-                      fontWeight="bold"
-                    >
-                      {et.nombre}
-                    </text>
+
+                    {/* Círculo central */}
+                    <circle
+                      r={isSelected ? 7 : 5}
+                      fill={isSelected ? "#4d6b35" : "#110f0d"}
+                      stroke="#ffffff"
+                      strokeWidth="1.5"
+                      className="shadow-md"
+                    />
+
+                    {/* Etiqueta del bloque */}
+                    <g transform="translate(0, 16)">
+                      <rect
+                        x="-32"
+                        y="-10"
+                        width="64"
+                        height="18"
+                        rx="4"
+                        fill={isSelected ? "#110f0d" : "#ffffff"}
+                        stroke={isSelected ? "#4d6b35" : "#d0c8b8"}
+                        strokeWidth="1"
+                        className="shadow-sm"
+                      />
+                      <text
+                        x="0"
+                        y="2"
+                        textAnchor="middle"
+                        fill={isSelected ? "#fbfaf7" : "#110f0d"}
+                        fontSize="8.5"
+                        fontFamily="JetBrains Mono, monospace"
+                        fontWeight="bold"
+                      >
+                        {m.cod} • {titCount}
+                      </text>
+                    </g>
                   </g>
                 );
               })}
             </g>
           )}
-
-          {/* Marcadores HUD Tácticos sobre los 9 bloques */}
-          {marcadores.map((m) => {
-            const isSelected = regionSeleccionada === m.cod;
-            const dataReg = regionesData[m.cod];
-            const titCount = dataReg ? dataReg.totalNoticias : 0;
-            const scaleFactor = isEuropaZoom ? 0.6 : 1;
-
-            return (
-              <g
-                key={m.id}
-                transform={`translate(${m.x}, ${m.y}) scale(${scaleFactor})`}
-                onClick={(e) => {
-                  e.stopPropagation();
-                  onSelectRegion(m.cod);
-                }}
-                className="cursor-pointer group"
-              >
-                {/* Halo pulsante */}
-                <circle
-                  r={isSelected ? 16 : 10}
-                  fill={isSelected ? "#4d6b35" : "#b3512e"}
-                  fillOpacity={isSelected ? "0.25" : "0.15"}
-                  className="animate-ping"
-                />
-
-                {/* Círculo central */}
-                <circle
-                  r={isSelected ? 7 : 5}
-                  fill={isSelected ? "#4d6b35" : "#110f0d"}
-                  stroke="#ffffff"
-                  strokeWidth="1.5"
-                  className="shadow-md"
-                />
-
-                {/* Etiqueta del bloque */}
-                <g transform="translate(0, 16)">
-                  <rect
-                    x="-32"
-                    y="-10"
-                    width="64"
-                    height="18"
-                    rx="4"
-                    fill={isSelected ? "#110f0d" : "#ffffff"}
-                    stroke={isSelected ? "#4d6b35" : "#d0c8b8"}
-                    strokeWidth="1"
-                    className="shadow-sm"
-                  />
-                  <text
-                    x="0"
-                    y="2"
-                    textAnchor="middle"
-                    fill={isSelected ? "#fbfaf7" : "#110f0d"}
-                    fontSize="8.5"
-                    fontFamily="JetBrains Mono, monospace"
-                    fontWeight="bold"
-                  >
-                    {m.cod} • {titCount}
-                  </text>
-                </g>
-              </g>
-            );
-          })}
         </svg>
       </div>
 
@@ -419,7 +450,7 @@ export function MapamundiVectorial({
           GLOBAL (TODOS)
         </button>
 
-        {marcadores.map((m) => {
+        {marcadoresGlobales.map((m) => {
           const isSelected = regionSeleccionada === m.cod;
           const count = regionesData[m.cod]?.totalNoticias || 0;
 

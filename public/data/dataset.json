@@ -1,5 +1,5 @@
 {
-  "fechaGeneracion": "2026-11-01T11:50:49.497Z",
+  "fechaGeneracion": "2026-11-01T12:04:10.921Z",
   "fuentesConfig": {
     "ES": {
       "nombre": "España",
@@ -142,9 +142,9 @@
       "bloque": "América Latina",
       "fuentes": [
         {
-          "medio": "Aristegui Noticias (México)",
-          "url": "https://news.google.com/rss/search?q=site:aristeguinoticias.com&hl=es-419&gl=MX&ceid=MX:es-419",
-          "perfil": "México / Investigación"
+          "medio": "El País América",
+          "url": "https://news.google.com/rss/search?q=site:elpais.com/america/&hl=es-419&gl=US&ceid=US:es-419",
+          "perfil": "Cobertura continental / Análisis pan-regional"
         },
         {
           "medio": "Infobae América",
@@ -152,14 +152,14 @@
           "perfil": "Cobertura continental / Noticias en directo"
         },
         {
-          "medio": "Clarín (Argentina)",
-          "url": "https://www.clarin.com/rss/lo-ultimo/",
-          "perfil": "Cono Sur"
+          "medio": "CNN en Español",
+          "url": "https://news.google.com/rss/search?q=site:cnnespanol.cnn.com&hl=es-419&gl=US&ceid=US:es-419",
+          "perfil": "Cobertura continental / Televisión Panamericana"
         },
         {
-          "medio": "La Jornada (México)",
-          "url": "https://www.jornada.com.mx/rss/edicion.xml",
-          "perfil": "México / Generalista y Opinión"
+          "medio": "Clarín (Argentina)",
+          "url": "https://www.clarin.com/rss/lo-ultimo/",
+          "perfil": "Cono Sur / Regional"
         }
       ]
     },
@@ -208,7 +208,7 @@
   },
   "noticiasHoy": {
     "fecha": "2026-11-01",
-    "timestamp": "2026-11-01 11:49:42",
+    "timestamp": "2026-11-01 12:02:31",
     "puntosCiegos": [
       {
         "id": "PC-01",
@@ -266,7 +266,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Accidente Ferroviario / Red de Transporte",
-                "coincidencias_count": 7
+                "coincidencias_count": 9
               },
               {
                 "titulo": "¿Qué causó el accidente? La secuencia paso a paso de una cadena de fallos que el sistema no detuvo",
@@ -282,7 +282,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Accidente Ferroviario / Red de Transporte",
-                "coincidencias_count": 7
+                "coincidencias_count": 9
               },
               {
                 "titulo": "No fue solo un fallo humano: las debilidades del sistema que evidencian los accidentes de Urda y Adamuz",
@@ -298,7 +298,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Accidente Ferroviario / Red de Transporte",
-                "coincidencias_count": 7
+                "coincidencias_count": 9
               },
               {
                 "titulo": "El maquinista de Angrois al operador de Atocha: “Que se aísle de la tele y la prensa: le pueden hacer mucho daño”",
@@ -314,7 +314,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Accidente Ferroviario / Red de Transporte",
-                "coincidencias_count": 7
+                "coincidencias_count": 9
               }
             ],
             "estado": "OK",
@@ -338,7 +338,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Accidente Ferroviario / Red de Transporte",
-                "coincidencias_count": 7
+                "coincidencias_count": 9
               },
               {
                 "titulo": "¿Cómo pueden informarse los familiares? Teléfonos de atención a víctimas y allegados y puntos de ayuda para los afectados por el accidente de tren de Urda (Toledo)",
@@ -354,7 +354,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Accidente Ferroviario / Red de Transporte",
-                "coincidencias_count": 7
+                "coincidencias_count": 9
               },
               {
                 "titulo": "El Ministerio de Transportes certificó, 21 días antes de la tragedia de Urda, que la red ferroviaria española estaba \"en niveles aceptables de riesgo\"",
@@ -370,7 +370,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Accidente Ferroviario / Red de Transporte",
-                "coincidencias_count": 7
+                "coincidencias_count": 9
               },
               {
                 "titulo": "Crónica de los 22 minutos a ciegas que desembocaron en la tragedia de Urda: \"Cualquier día va a haber otro accidente\"",
@@ -386,7 +386,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Accidente Ferroviario / Red de Transporte",
-                "coincidencias_count": 7
+                "coincidencias_count": 9
               }
             ],
             "estado": "OK",
@@ -396,6 +396,38 @@
             "medio": "ABC",
             "perfil": "Conservador / Tradicional",
             "noticias": [
+              {
+                "titulo": "Juan del Val: «Feijóo sacará mayoría absoluta, pero la proporción es importante, según las sondeos»",
+                "url": "https://www.abc.es/play/television/noticias/juan-val-segun-encuestas-elecciones-feijoo-sacara-20261101093000-nt.html",
+                "resumen": "Queda menos de un mes para las elecciones generales y el panorama político se intensifica, sobre todo después de la tragedia ferroviaria de Urda, que ha dejado decenas de muertos.El próximo domingo 29 de noviembre , los españoles acudirán a las urnas para decidir el futuro del pa",
+                "fecha": "Sun, 01 Nov 2026 12:56:25 +0100",
+                "titulo_original": "Juan del Val: «Feijóo sacará mayoría absoluta, pero la proporción es importante, según las sondeos»",
+                "tags": [
+                  "#Transporte",
+                  "#Ferrocarril",
+                  "#Accidente",
+                  "#Infraestructuras"
+                ],
+                "tema_repetido": true,
+                "cluster_tema": "Accidente Ferroviario / Red de Transporte",
+                "coincidencias_count": 9
+              },
+              {
+                "titulo": "Una madre que viajaba a la boda de su hija, un nazareno, una brillante científica... Las vidas que se perdieron en Urda",
+                "url": "https://www.abc.es/sociedad/antonio-jose-manuel-ana-historias-detras-tragedia-20261029012927-nt.html",
+                "resumen": "La tragedia de Urda deja por el momento 69 fallecidos. Pero muchas familias continúan esperando a recibir noticias de sus familiares, pues hasta ahora solo se ha confirmado el nombre de seis personas que murieron en el accidente. El resto aún están por identificar y se consideran",
+                "fecha": "Sun, 01 Nov 2026 12:53:55 +0100",
+                "titulo_original": "Una madre que viajaba a la boda de su hija, un nazareno, una brillante científica... Las vidas que se perdieron en Urda",
+                "tags": [
+                  "#Transporte",
+                  "#Ferrocarril",
+                  "#Accidente",
+                  "#Infraestructuras"
+                ],
+                "tema_repetido": true,
+                "cluster_tema": "Accidente Ferroviario / Red de Transporte",
+                "coincidencias_count": 9
+              },
               {
                 "titulo": "Nueva oportunidad del Madrid para prolongar su imbatibilidad",
                 "url": "https://www.abc.es/deportes/baloncesto/real-madrid-san-pablo-burgos-directo-partido-20261101123000-di.html",
@@ -413,31 +445,6 @@
                 "resumen": "Golpe al Mundial. Victoria de Marc Márquez que tendrá bola de partido la próxima semana en Qatar. Será muy complicado si Jorge Martín se recupera, pero así lo dicen las matemáticas. Ambos están separados por 44 puntos y solo quedan 111 en juego. El catalán será campeón si en Lusa",
                 "fecha": "Sun, 01 Nov 2026 12:26:16 +0100",
                 "titulo_original": "Apabullante victoria de Marc Márquez, que ya roza su décimo Mundial",
-                "tags": [],
-                "tema_repetido": false,
-                "cluster_tema": "",
-                "coincidencias_count": 0
-              },
-              {
-                "titulo": "Apagón en Tenerife: más de 160.000 viviendas se quedan sin suministro",
-                "url": "https://www.abc.es/espana/canarias/apagon-tenerife-160000-viviendas-quedan-suministro-20261101122201-nt.html",
-                "resumen": "Una avería ha provocado la caída del suministro eléctrico en más de 160.000 en Tenerife a primera hora de hoy, domingo 1 de noviembre. La incidencia, que según los primeros indicios se ha debido a las intensas lluvias, se ha resuelto tras varios minutos en cero energético. El apa",
-                "fecha": "Sun, 01 Nov 2026 12:22:02 +0100",
-                "titulo_original": "Apagón en Tenerife: más de 160.000 viviendas se quedan sin suministro",
-                "tags": [
-                  "#Clima",
-                  "#Emergencias"
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "Emergencia Climática y Fenómenos Extremos",
-                "coincidencias_count": 3
-              },
-              {
-                "titulo": "Audiencias TV: El fútbol y las entrevistas políticas de 'La Revuelta' le dan el liderazgo a La 1 en octubre",
-                "url": "https://www.abc.es/play/television/noticias/audiencias-futbol-politica-dan-liderazgo-octubre-20261101111111-nt.html",
-                "resumen": "Hay dos cosas que revolucionan la televisión cuando hablamos de audiencias: el deporte y la política. Así que, cuando se juntan en el mismo cóctel, pasa lo que pasa. La 1 se hace con el liderazgo de octubre gracias al fútbol, con la emisión de dos partidos de la UEFA, ambas con c",
-                "fecha": "Sun, 01 Nov 2026 12:13:46 +0100",
-                "titulo_original": "Audiencias TV: El fútbol y las entrevistas políticas de 'La Revuelta' le dan el liderazgo a La 1 en octubre",
                 "tags": [],
                 "tema_repetido": false,
                 "cluster_tema": "",
@@ -465,7 +472,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Accidente Ferroviario / Red de Transporte",
-                "coincidencias_count": 7
+                "coincidencias_count": 9
               },
               {
                 "titulo": "Accidente en Urda: las cinco incógnitas sin resolver tras un choque mortal y evitable",
@@ -481,7 +488,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Accidente Ferroviario / Red de Transporte",
-                "coincidencias_count": 7
+                "coincidencias_count": 9
               },
               {
                 "titulo": "Renfe dará consignas a los maquinistas para reanudar la marcha a 40 km/hora si cae el sistema de seguridad LZB",
@@ -497,7 +504,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Accidente Ferroviario / Red de Transporte",
-                "coincidencias_count": 7
+                "coincidencias_count": 9
               },
               {
                 "titulo": "El Gobierno aprobará el martes las ayudas económicas para las víctimas del accidente de Urda",
@@ -513,7 +520,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Accidente Ferroviario / Red de Transporte",
-                "coincidencias_count": 7
+                "coincidencias_count": 9
               }
             ],
             "estado": "OK",
@@ -523,6 +530,17 @@
             "medio": "El Confidencial",
             "perfil": "Digital / Investigación",
             "noticias": [
+              {
+                "titulo": "Mar Gómez, física: \"Hace tanto calor a estas alturas del otoño porque sobre España se ha instalado una potente dorsal anticiclónica\"",
+                "url": "https://www.elconfidencial.com/espana/2026-11-01/mar-gomez-fisica-tanta-calor-otono-espana-dorsal-1qrt_4455739/",
+                "resumen": "A pocos días de noviembre, las tardes cálidas contrastan con la llegada del frío que suele asociarse al avance del otoño",
+                "fecha": "2026-11-01T13:00:00+01:00",
+                "titulo_original": "Mar Gómez, física: \"Hace tanto calor a estas alturas del otoño porque sobre España se ha instalado una potente dorsal anticiclónica\"",
+                "tags": [],
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
+              },
               {
                 "titulo": "¿Te ha tocado mesa electoral el 29-N? Cómo consultarlo y saber si eres presidente, vocal o suplente",
                 "url": "https://www.elconfidencial.com/espana/2026-11-01/tocado-mesa-electoral-como-consultarlo-saber-presidente-vocal-suplente_4457127/",
@@ -551,17 +569,6 @@
                 "resumen": "En nueve horas, los agentes identificaron a 431 personas y levantaron 119 actas por drogas, armas y otros motivos en las zonas más concurridas",
                 "fecha": "2026-11-01T11:17:00+01:00",
                 "titulo_original": "La Policía Nacional detiene a 22 personas durante el dispositivo especial de la noche de Halloween",
-                "tags": [],
-                "tema_repetido": false,
-                "cluster_tema": "",
-                "coincidencias_count": 0
-              },
-              {
-                "titulo": "El detenido en el centro de Valencia por su relación con Blocus tiene 16 años",
-                "url": "https://www.elconfidencial.com/espana/2026-11-01/detencion-menor-blocus-valencia-1tna-1tps_4457092/",
-                "resumen": "El operativo desplegado en el centro valenciano identificó a 440 personas e intervino pasamontañas, caretas y espráis, además de levantar actas por armas y drogas",
-                "fecha": "2026-11-01T10:53:00+01:00",
-                "titulo_original": "El detenido en el centro de Valencia por su relación con Blocus tiene 16 años",
                 "tags": [],
                 "tema_repetido": false,
                 "cluster_tema": "",
@@ -604,7 +611,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Accidente Ferroviario / Red de Transporte",
-                "coincidencias_count": 7
+                "coincidencias_count": 9
               },
               {
                 "titulo": "Así es la fórmula de éxito de las cuentas de inversión en Europa",
@@ -653,9 +660,9 @@
             "perfil": "Centro-Izquierda / Referencia",
             "noticias": [
               {
-                "titulo": "« Je crois que je vais donner procuration à mes enfants et les laisser voter pour moi » : à moins de six mois de la présidentielle 2027, plongée dans la France indécise",
+                "titulo": "“Creo que voy a darles un poder a mis hijos y dejar que voten por mí”: a menos de seis meses de las elecciones presidenciales de 2027, inmersos en una Francia indecisa",
                 "url": "https://www.lemonde.fr/politique/article/2026/11/01/je-crois-que-je-vais-donner-procuration-a-mes-enfants-et-les-laisser-voter-pour-moi-a-moins-de-six-mois-de-la-presidentielle-2027-plongee-dans-la-france-indecise_6803970_823448.html",
-                "resumen": "Multiplication des candidatures, rejet du macronisme, peur de l’arrivée du Rassemblement national… Intéressés par la politique mais largement désabusés, une grande partie des électeurs ne savent pas encore quel bulletin ils glisseront dans l’urne.",
+                "resumen": "Multiplicación de candidaturas, rechazo al macronismo, miedo a la llegada de la Agrupación Nacional... Interesados ​​en la política pero en gran medida desilusionados, una gran parte de los electores aún no saben qué papeleta pondrán en las urnas.",
                 "fecha": "Sun, 01 Nov 2026 05:00:16 +0100",
                 "titulo_original": "« Je crois que je vais donner procuration à mes enfants et les laisser voter pour moi » : à moins de six mois de la présidentielle 2027, plongée dans la France indécise",
                 "tags": [],
@@ -664,9 +671,9 @@
                 "coincidencias_count": 0
               },
               {
-                "titulo": "« Je manifeste pour qu’on puisse manifester » : la mobilisation du 31 octobre, des cortèges festifs et déterminés corsetés par les dispositifs de sécurité",
+                "titulo": "“Me manifiesto para que podamos manifestarnos”: la movilización del 31 de octubre, procesiones festivas y decididas encorsetadas por dispositivos de seguridad",
                 "url": "https://www.lemonde.fr/societe/article/2026/11/01/je-manifeste-pour-qu-on-puisse-manifester-la-mobilisation-du-31-octobre-des-corteges-festifs-et-determines-corsetes-par-les-dispositifs-de-securite_6804015_3224.html",
-                "resumen": "Environ 500 000 personnes ont défilé samedi, selon les organisateurs (320 000 selon les autorités), dans toute la France. Les revendications initiales restent d’actualité, semaine après semaine, mais les manifestants sont de plus en plus préoccupés par les entraves et les intimid",
+                "resumen": "Unas 500.000 personas marcharon el sábado, según los organizadores (320.000 según las autoridades), en toda Francia. Las exigencias iniciales siguen siendo pertinentes semana tras semana, pero los manifestantes están cada vez más preocupados por la obstrucción y la intimidación.",
                 "fecha": "Sun, 01 Nov 2026 05:37:03 +0100",
                 "titulo_original": "« Je manifeste pour qu’on puisse manifester » : la mobilisation du 31 octobre, des cortèges festifs et déterminés corsetés par les dispositifs de sécurité",
                 "tags": [
@@ -676,12 +683,12 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Manifestaciones y Protestas Sociales",
-                "coincidencias_count": 12
+                "coincidencias_count": 9
               },
               {
                 "titulo": "“No me gustaría que se encontraran con esto”: en preparación para el día de su desaparición, limpian sus teléfonos",
                 "url": "https://www.lemonde.fr/pixels/article/2026/11/01/je-ne-voudrais-pas-qu-ils-tombent-la-dessus-en-preparation-du-jour-ou-ils-vont-disparaitre-ils-font-le-menage-dans-leur-telephone_6803967_4408996.html",
-                "resumen": "Messages, photos, notes… Nos smartphones conservent des années de vie privée susceptibles de tomber entre les mains de nos proches après notre mort. Pour éviter les découvertes embarrassantes, certains font du tri dans leurs traces numériques.",
+                "resumen": "Mensajes, fotos, notas… Nuestros smartphones conservan años de privacidad que pueden caer en manos de nuestros seres queridos tras nuestra muerte. Para evitar descubrimientos embarazosos, algunas personas revisan sus rastros digitales.",
                 "fecha": "Sun, 01 Nov 2026 05:00:09 +0100",
                 "titulo_original": "« Je ne voudrais pas qu’ils tombent là-dessus » : en préparation du jour où ils vont disparaître, ils font le ménage dans leur téléphone",
                 "tags": [],
@@ -690,11 +697,11 @@
                 "coincidencias_count": 0
               },
               {
-                "titulo": "En Rafah, único paso fronterizo con Egipto, la “trampa de retorno” para los palestinos en Gaza",
-                "url": "https://www.lemonde.fr/international/article/2026/11/01/a-rafah-seul-point-de-passage-avec-l-egypte-le-piege-du-retour-pour-les-palestiniens-de-gaza_6804022_3210.html",
-                "resumen": "En plus des humiliations et des violences physiques subies par les voyageurs palestiniens transitant par le terminal de Rafah, une dizaine de Gazaouis ont été arrêtés depuis mars au poste-frontière par les forces israéliennes, sans aucune explication.",
-                "fecha": "Sun, 01 Nov 2026 05:50:09 +0100",
-                "titulo_original": "A Rafah, seul point de passage avec l’Egypte, le « piège du retour » pour les Palestiniens de Gaza",
+                "titulo": "En Gaza, los ataques israelíes matan a ocho personas, entre ellas un niño, según la defensa civil y los hospitales",
+                "url": "https://www.lemonde.fr/international/article/2026/11/01/a-gaza-des-frappes-israeliennes-tuent-huit-personnes-dont-un-enfant-selon-la-defense-civile-et-les-hopitaux_6804236_3210.html",
+                "resumen": "Nuevos ataques golpearon la Franja de Gaza el domingo y mataron a ocho personas. Más de 1.500 palestinos han muerto desde el alto el fuego establecido hace un año, que Israel y Hamás se acusan mutuamente de violar.",
+                "fecha": "Sun, 01 Nov 2026 12:48:02 +0100",
+                "titulo_original": "A Gaza, des frappes israéliennes tuent huit personnes dont un enfant, selon la défense civile et les hôpitaux",
                 "tags": [
                   "#OrienteMedio",
                   "#Geopolítica",
@@ -702,7 +709,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Conflicto Oriente Medio (Gaza / Líbano)",
-                "coincidencias_count": 4
+                "coincidencias_count": 5
               }
             ],
             "estado": "OK",
@@ -713,65 +720,56 @@
             "perfil": "Conservador / Tradicional",
             "noticias": [
               {
-                "titulo": "EN DIRECT - Mobilisation du 31 octobre : enquête ouverte pour «tentative d’homicide» après le jet d’un cocktail Molotov sur des gendarmes à Paris",
-                "url": "https://www.lefigaro.fr/actualite-france/en-direct-colere-sociale-plusieurs-centaines-de-milliers-de-manifestants-samedi-dans-l-hexagone-avant-la-journee-de-greve-du-5-novembre-20261101",
-                "resumen": "En début de soirée, Laurent Nuñez avait qualifié de «tentative de meurtre» le lancement d’un cocktail molotov contre un gendarme mobile à Paris, en dénonçant «la violence inouïe » de groupes de casseurs.",
-                "fecha": "Sun, 01 Nov 2026 12:18:56 +0100",
-                "titulo_original": "EN DIRECT - Mobilisation du 31 octobre : enquête ouverte pour «tentative d’homicide» après le jet d’un cocktail Molotov sur des gendarmes à Paris",
+                "titulo": "EN VIVO - Ruta del Ron: los barcos están en su lugar, condiciones climáticas excepcionales... Siga el inicio de la 13.ª edición en Saint-Malo",
+                "url": "https://www.lefigaro.fr/sports/voile/route-du-rhum/route-du-rhum-suivez-le-depart-de-la-13e-edition-depuis-saint-malo-20261101",
+                "resumen": "La salida de la más prestigiosa de las regatas transatlánticas se dará a las 13.02 horas. con condiciones climáticas excepcionales.",
+                "fecha": "Sun, 01 Nov 2026 13:00:03 +0100",
+                "titulo_original": "EN DIRECT - Route du Rhum : les bateaux sont en place, des conditions météo exceptionnelles…Suivez le départ de la 13e édition à Saint-Malo",
                 "tags": [
-                  "#Compañía"
+                  "#RutaRon"
                 ],
                 "tema_repetido": false,
                 "cluster_tema": "",
                 "coincidencias_count": 0
               },
               {
-                "titulo": "Manifestaciones del 31 de octubre: 20 comercios dañados el sábado",
-                "url": "https://www.lefigaro.fr/conjoncture/manifestations-du-31-octobre-20-commerces-degrades-samedi-20261101",
-                "resumen": "Le nombre de dégradations de commerces en marge des manifestations de samedi en France a été sensiblement moins élevé que lors des précédents week-ends, avec 20 établissements touchés selon CCI France.",
-                "fecha": "Sun, 01 Nov 2026 11:55:13 +0100",
-                "titulo_original": "Manifestations du 31 octobre : 20 commerces dégradés samedi",
+                "titulo": "Suspense, fervor popular y “un entorno excepcional”: el mundo de la navegación a punto para la gran emoción de la Ruta del Ron",
+                "url": "https://www.lefigaro.fr/sports/voile/route-du-rhum/suspense-ferveur-populaire-et-cadre-exceptionnel-le-monde-de-la-voile-pret-pour-le-grand-frisson-de-la-route-du-rhum-20261031",
+                "resumen": "HISTORIA - La salida de la carrera transatlántica más famosa se dará este domingo, a las 13:02 horas, con unas condiciones meteorológicas excepcionales en Saint-Malo.",
+                "fecha": "Sat, 31 Oct 2026 12:00:00 +0100",
+                "titulo_original": "Suspense, ferveur populaire et «cadre exceptionnel» : le monde de la voile prêt pour le grand frisson de la Route du Rhum",
                 "tags": [
-                  "#SituaciónEconómica",
-                  "#Sociedad",
-                  "#Manifestaciones",
-                  "#Protestas"
+                  "#RutaRon"
                 ],
-                "tema_repetido": true,
-                "cluster_tema": "Manifestaciones y Protestas Sociales",
-                "coincidencias_count": 12
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
               },
               {
-                "titulo": "Manifestaciones del 31 de octubre en Marsella: cinco detenciones tras el robo de un Foot Locker",
-                "url": "https://www.lefigaro.fr/marseille/cinq-interpellations-a-marseille-apres-le-pillage-d-un-magasin-foot-locker-20261031",
-                "resumen": "INFO LE FIGARO - Le magasin a été attaqué en tout début de soirée dans le centre-ville de la cité phocéenne.",
-                "fecha": "Sat, 31 Oct 2026 21:55:45 +0100",
-                "titulo_original": "Manifestations du 31 octobre à Marseille : cinq interpellations après le cambriolage d’un Foot Locker",
+                "titulo": "Route du Rhum: Fabrice Amedeo lanzará balizas para controlar mejor las corrientes y la deriva de los microplásticos",
+                "url": "https://www.lefigaro.fr/sciences/route-du-rhum-fabrice-amedeo-va-lacher-des-balises-pour-mieux-surveiller-les-courants-et-la-derive-des-microplastiques-20261031",
+                "resumen": "ANÁLISIS - El navegante, ex periodista de Le Figaro, permitirá estudiar la zona donde se concentran los plásticos que flotan en el Océano Atlántico.",
+                "fecha": "Sun, 01 Nov 2026 12:42:10 +0100",
+                "titulo_original": "Route du Rhum : Fabrice Amedeo va lâcher des balises pour mieux surveiller les courants et la dérive des microplastiques",
                 "tags": [
-                  "#Marsella",
-                  "#Sociedad",
-                  "#Manifestaciones",
-                  "#Protestas"
+                  "#CienciaMedioAmbiente"
                 ],
-                "tema_repetido": true,
-                "cluster_tema": "Manifestaciones y Protestas Sociales",
-                "coincidencias_count": 12
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
               },
               {
-                "titulo": "Manifestations du 31 octobre : de 320.000 à près de 500.000 manifestants en France, 511 interpellations recensées",
-                "url": "https://www.lefigaro.fr/actualite-france/manifestations-du-31-octobre-de-320-000-a-pres-de-500-000-manifestants-en-france-296-interpellations-recensees-20261031",
-                "resumen": "Les organisations lycéennes et étudiantes revendiquent, elles, 500.000 participants. Elles appellent déjà à bloquer facs et lycées dès mardi, avant la grève du 5 novembre.",
-                "fecha": "Sat, 31 Oct 2026 21:19:55 +0100",
-                "titulo_original": "Manifestations du 31 octobre : de 320.000 à près de 500.000 manifestants en France, 511 interpellations recensées",
+                "titulo": "Route du Rhum: “No tenemos margen de error”, Le Figaro estuvo en Sodebo con los vigilantes, “los ángeles guardianes” de Ultim antes de la salida",
+                "url": "https://www.lefigaro.fr/sports/voile/route-du-rhum/route-du-rhum-on-a-zero-droit-a-l-erreur-le-figaro-etait-sur-sodebo-avec-les-veilleurs-les-anges-gardiens-de-l-ultim-avant-le-depart-20261101",
+                "resumen": "INFORME - Seguimos una rotación con el equipo Ultim de Thomas Coville responsable de garantizar la protección y todos los controles de un barco increíblemente complejo.",
+                "fecha": "Sun, 01 Nov 2026 12:14:05 +0100",
+                "titulo_original": "Route du Rhum : «On a zéro droit à l’erreur», Le Figaro était sur Sodebo avec les veilleurs, «les anges gardiens» de l’Ultim avant le départ",
                 "tags": [
-                  "#Compañía",
-                  "#Sociedad",
-                  "#Manifestaciones",
-                  "#Protestas"
+                  "#RutaRon"
                 ],
-                "tema_repetido": true,
-                "cluster_tema": "Manifestaciones y Protestas Sociales",
-                "coincidencias_count": 12
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
               }
             ],
             "estado": "OK",
@@ -795,7 +793,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Elecciones y Pugna Institucional EE.UU.",
-                "coincidencias_count": 6
+                "coincidencias_count": 8
               },
               {
                 "titulo": "¿Cambio de estrategia en la recta final de las midterms? Aparece Obama y Trump se repliega",
@@ -810,7 +808,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Elecciones y Pugna Institucional EE.UU.",
-                "coincidencias_count": 6
+                "coincidencias_count": 8
               },
               {
                 "titulo": "¿Cambio de estrategia en la recta final de las midterms? Aparece Obama y Trump se repliega",
@@ -826,12 +824,12 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Elecciones y Pugna Institucional EE.UU.",
-                "coincidencias_count": 6
+                "coincidencias_count": 8
               },
               {
                 "titulo": "Directo midterms y jueza frena amenazas del Departamento de Justicia a funcionarios electorales",
                 "url": "https://www.france24.com/es/video/20261101-directo-midterms-y-jueza-frena-amenazas-del-departamento-de-justicia-a-funcionarios-electorales",
-                "resumen": "A pocos días de las elecciones de medio mandato en Estados Unidos, una jueza federal ordenó al Departamento de Justicia dejar de amenazar con procesamientos penales a funcionarios electorales estatales y locales por su gestión de disputas sobre los requisitos para votar. Además, ",
+                "resumen": "A pocos días de las elecciones de medio mandato en Estados Unidos, una jueza federal ordenó al Departamento de Justicia dejar de amenazar con procesamientos penales a funcionarios electorales estatales y locales por su gestión de disputas sobre los requisitos para votar. Además,",
                 "fecha": "Sun, 01 Nov 2026 01:14:17 GMT",
                 "titulo_original": "Directo midterms y jueza frena amenazas del Departamento de Justicia a funcionarios electorales",
                 "tags": [
@@ -841,7 +839,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Elecciones y Pugna Institucional EE.UU.",
-                "coincidencias_count": 6
+                "coincidencias_count": 8
               }
             ],
             "estado": "OK",
@@ -871,12 +869,12 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Elecciones y Pugna Institucional EE.UU.",
-                "coincidencias_count": 6
+                "coincidencias_count": 8
               },
               {
                 "titulo": "Después de las manifestaciones de la “Generación Z”: “Conmocionados” por la violencia excesiva en Frankfurt",
                 "url": "https://www.dw.com/de/nach-gen-z-demos-schockiert-über-gewaltexzesse-in-frankfurt/a-79820787?maca=de-rss-de-all-1119-xml-mrss",
-                "resumen": "Erst demonstrierten bundesweit Zehntausende junge Menschen friedlich. Später kam es vor allem in Frankfurt am Main zu schlimmen Szenen. Die Politik will daraus Konsequenzen ziehen.",
+                "resumen": "Primero, decenas de miles de jóvenes se manifestaron pacíficamente en todo el país. Más tarde hubo malas escenas, especialmente en Frankfurt am Main. Los políticos quieren sacar conclusiones de esto.",
                 "fecha": "Sun, 1 Nov 2026 09:14:00 GMT",
                 "titulo_original": "Nach \"Gen Z\"-Demos: \"Schockiert\" über Gewaltexzesse in Frankfurt",
                 "tags": [
@@ -886,12 +884,12 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Manifestaciones y Protestas Sociales",
-                "coincidencias_count": 12
+                "coincidencias_count": 9
               },
               {
                 "titulo": "Se busca un depósito de residuos nucleares: la difícil misión de Alemania",
                 "url": "https://www.dw.com/de/atommüll-endlager-gesucht-deutschlands-schwierige-mission/a-79798572?maca=de-rss-de-all-1119-xml-mrss",
-                "resumen": "Finnland ist weltweit das erste Land mit einem Endlager für Atommüll. Deutschland sucht nach einem solchen Ort, andere Länder haben noch gar nicht damit angefangen. Experten erwarten Kosten von vielen Milliarden Euro.",
+                "resumen": "Finlandia es el primer país del mundo que cuenta con una instalación de almacenamiento final de residuos nucleares. Alemania está buscando un lugar así, otros países ni siquiera han empezado todavía. Los expertos esperan unos costes de muchos miles de millones de euros.",
                 "fecha": "Sun, 1 Nov 2026 08:52:00 GMT",
                 "titulo_original": "Atommüll-Endlager gesucht: Deutschlands schwierige Mission",
                 "tags": [
@@ -907,7 +905,7 @@
               {
                 "titulo": "Los izquierdistas de Berlín están cada vez más cerca de hacerse cargo del gobierno",
                 "url": "https://www.dw.com/de/linke-in-berlin-kommen-der-regierungsübernahme-näher/a-79817713?maca=de-rss-de-all-1119-xml-mrss",
-                "resumen": "Auf einem Parteitag ebnet die Linke im Stadtstaat Berlin den Weg zu Koalitionsverhandlungen mit Grünen und SPD. Für Unruhe sorgt weiter ein umstrittener Medienbericht über die potenzielle Regierungschefin Elif Eralp.",
+                "resumen": "En una conferencia del partido, la izquierda en la ciudad-estado de Berlín allana el camino para negociaciones de coalición con los Verdes y el SPD. Un controvertido informe periodístico sobre la potencial jefa de gobierno, Elif Eralp, sigue causando malestar.",
                 "fecha": "Sat, 31 Oct 2026 17:55:00 GMT",
                 "titulo_original": "Linke in Berlin kommen der Regierungsübernahme näher",
                 "tags": [
@@ -926,9 +924,35 @@
             "perfil": "Investigación / Centro",
             "noticias": [
               {
+                "titulo": "Keira Knightley, Luke Thompson, Steven Dillane en »La vida de los demás« en Londres: Im Visier der Stasi",
+                "url": "https://www.spiegel.de/kultur/keira-knightley-luke-thompson-steven-dillane-in-the-lives-of-others-in-london-im-visier-der-stasi-a-795cadf3-8a31-445f-877a-4c28f4c7c46b#ref=rss",
+                "resumen": "Hace casi 20 años, “La vida de los otros” ganó un Oscar. Ahora el largometraje sobre la Stasi ha sido adaptado al teatro en Londres. Un evento teatral técnicamente brillante con actores famosos, incluso entre el público.",
+                "fecha": "Sun, 1 Nov 2026 12:59:00 +0100",
+                "titulo_original": "Keira Knightley, Luke Thompson, Steven Dillane in »The Lives of Others« in London: Im Visier der Stasi",
+                "tags": [
+                  "#Cultura"
+                ],
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
+              },
+              {
+                "titulo": "Fórmula 1 en México: Hamilton piensa en Schumacher tras la pole, Ocon fuera de carrera tras una disputa",
+                "url": "https://www.spiegel.de/sport/formel1/formel-1-in-mexiko-hamilton-denkt-nach-pole-an-schumacher-ocon-nach-streit-aus-rennen-genommen-a-b9786502-58a3-4b7e-af54-1ac15f82693c#ref=rss",
+                "resumen": "Kimi Antonelli puede convertirse esta tarde en el campeón mundial de Fórmula 1 más joven de la historia. Sin embargo, a la cabeza está Lewis Hamilton, que consiguió su primera pole con Ferrari. Esteban Ocon fue retirado de la carrera tras un altercado.",
+                "fecha": "Sun, 1 Nov 2026 12:56:00 +0100",
+                "titulo_original": "Formel 1 in Mexiko: Hamilton denkt nach Pole an Schumacher, Ocon nach Streit aus Rennen genommen",
+                "tags": [
+                  "#Deporte"
+                ],
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
+              },
+              {
                 "titulo": "Dibujos animados de la semana de Thomas Plaßmann y Klaus Stuttmann",
                 "url": "https://www.spiegel.de/kultur/literatur/cartoons-der-woche-von-thomas-plassmann-und-klaus-stuttmann-a-3b5a3e04-70af-4128-b1ad-b16154236f8a#ref=rss",
-                "resumen": "Die Suche nach einem Bundespräsidenten oder einer Bundespräsidentin, Audi-Chef Döllner bei US-Präsident Trump – und die Staatsverschuldung. Sehen Sie hier gesammelt die Cartoons der Woche.",
+                "resumen": "La búsqueda de un presidente federal, el jefe de Audi, Döllner, con el presidente estadounidense, Trump, y la deuda nacional. Vea las caricaturas de la semana recopiladas aquí.",
                 "fecha": "Sun, 1 Nov 2026 12:37:00 +0100",
                 "titulo_original": "Cartoons der Woche von Thomas Plaßmann und Klaus Stuttmann",
                 "tags": [
@@ -939,12 +963,12 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Elecciones y Pugna Institucional EE.UU.",
-                "coincidencias_count": 6
+                "coincidencias_count": 8
               },
               {
                 "titulo": "Audi: la aparición de Gernot Döllner con Donald Trump puede asustar a los compradores estadounidenses",
                 "url": "https://www.spiegel.de/wirtschaft/audi-gernot-doellners-auftritt-mit-donald-trump-schreckt-womoeglich-amerikanische-kaeufer-ab-a-a7d5a0cc-e192-4bca-b657-909509183087#ref=rss",
-                "resumen": "Audi-Boss Gernot Döllner steht wegen seines Wahlkampfauftritts mit US-Präsident Trump in der Kritik. Nun legt eine Marktforschungsstudie nahe: US-Kunden könnten sich deshalb abwenden.",
+                "resumen": "El jefe de Audi, Gernot Döllner, está siendo criticado por su aparición en la campaña con el presidente estadounidense Trump. Ahora, un estudio de investigación de mercado sugiere que, como resultado, los clientes estadounidenses podrían alejarse.",
                 "fecha": "Sun, 1 Nov 2026 12:19:00 +0100",
                 "titulo_original": "Audi: Gernot Döllners Auftritt mit Donald Trump schreckt womöglich amerikanische Käufer ab",
                 "tags": [
@@ -955,36 +979,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Elecciones y Pugna Institucional EE.UU.",
-                "coincidencias_count": 6
-              },
-              {
-                "titulo": "Prueba del día en SPIEGEL: 7 preguntas de conocimientos generales por día",
-                "url": "https://www.spiegel.de/games/taegliches-quiz-beim-spiegel-7-fragen-zum-allgemeinwissen-pro-tag-a-8a9692b2-4462-4192-942c-fd7809c7519c#ref=rss",
-                "resumen": "Jeden Tag gibt es sieben Fragen zu den wichtigsten Themengebieten des politisch-gesellschaftlichen Geschehens. Testen Sie hier Ihr Wissen!",
-                "fecha": "Sun, 1 Nov 2026 12:01:00 +0100",
-                "titulo_original": "Quiz des Tages beim SPIEGEL: 7 Fragen zum Allgemeinwissen pro Tag",
-                "tags": [
-                  "#Juegos",
-                  "#Sociedad",
-                  "#Manifestaciones",
-                  "#Protestas"
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "Manifestaciones y Protestas Sociales",
-                "coincidencias_count": 12
-              },
-              {
-                "titulo": "Harry Styles simplemente se disfraza de Harry Styles para Halloween",
-                "url": "https://www.spiegel.de/kultur/musik/harry-styles-verkleidet-sich-an-halloween-einfach-als-harry-styles-a-b7d925a4-9150-46b4-8ff8-c8748adf0158#ref=rss",
-                "resumen": "Bei Harry Styles heißt Halloween »Harryween« und der Name ist Programm. Bei seinem Konzert in New York ging er als jüngere Version seiner selbst auf die Bühne. Noch mehr Harrys verkörperte seine Band.",
-                "fecha": "Sun, 1 Nov 2026 11:59:00 +0100",
-                "titulo_original": "Harry Styles verkleidet sich an Halloween einfach als Harry Styles",
-                "tags": [
-                  "#Cultura"
-                ],
-                "tema_repetido": false,
-                "cluster_tema": "",
-                "coincidencias_count": 0
+                "coincidencias_count": 8
               }
             ],
             "estado": "OK",
@@ -997,8 +992,8 @@
               {
                 "titulo": "Preguntas frecuentes: ¿Cómo fue la protesta de las “Reglas de la Generación Z”? ¿Qué sigue?",
                 "url": "https://www.tagesschau.de/inland/gesellschaft/demonstration-protest-genz-100.html",
-                "resumen": "Mehr als 180.000 Menschen hatten sich zum bundesweiten \"Gen Z regelt\"-Protesttag angemeldet. Es kamen deutlich weniger. Woran könnte es gelegen haben? Wie reagiert die Politik und welche neuen Aktionen sind geplant?",
-                "fecha": "Sun, 01 Nov 2026 12:30:26 +0100",
+                "resumen": "Más de 180.000 personas se registraron para el día de protesta a nivel nacional de las “Reglas de la Generación Z”. Vinieron muchos menos. ¿De qué pudo tratarse? ¿Cómo está reaccionando la política y qué nuevas acciones se planean?",
+                "fecha": "Sun, 01 Nov 2026 12:59:09 +0100",
                 "titulo_original": "FAQ: Wie lief der \"Gen Z regelt\"-Protest? Wie geht es weiter?",
                 "tags": [
                   "#Sociedad",
@@ -1007,12 +1002,12 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Manifestaciones y Protestas Sociales",
-                "coincidencias_count": 12
+                "coincidencias_count": 9
               },
               {
                 "titulo": "Israel: Demostraciones por la integración de los partidos árabes",
                 "url": "https://www.tagesschau.de/ausland/asien/israel-demo-arabische-parteien-100.html",
-                "resumen": "Sie demonstrierten für Veränderung - und die Ablösung von Premier Netanjahu: In Israel haben Hunderte die Opposition dazu aufgerufen, die arabischen Parteien an der Regierungsbildung zu beteiligen.",
+                "resumen": "Se manifestaron pidiendo un cambio y el reemplazo del primer ministro Netanyahu: en Israel, cientos de personas han pedido a la oposición que involucre a los partidos árabes en la formación de un gobierno.",
                 "fecha": "Sun, 01 Nov 2026 12:24:19 +0100",
                 "titulo_original": "Israel: Demos für Einbindung der arabischen Parteien",
                 "tags": [
@@ -1022,12 +1017,12 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Conflicto Oriente Medio (Gaza / Líbano)",
-                "coincidencias_count": 4
+                "coincidencias_count": 5
               },
               {
                 "titulo": "Hace 40 años: cuando una nube química pasó sobre Basilea",
                 "url": "https://www.tagesschau.de/ausland/europa/schweiz-40-jahre-chemieunfall-sandoz-100.html",
-                "resumen": "Vor 40 Jahren brannte bei Basel eine Lagerhalle, in der große Mengen gefährlicher Chemikalien gelagert waren. Ein Giftwolke zog über die Stadt, verseuchtes Löschwasser floss in den Rhein. Was hat sich durch die Katastrophe verändert? Von S. Biegger.",
+                "resumen": "Hace 40 años se quemó cerca de Basilea un almacén en el que se almacenaban grandes cantidades de productos químicos peligrosos. Una nube tóxica pasó sobre la ciudad y agua de extinción contaminada fluyó al Rin. ¿Qué cambió como resultado del desastre? Por S. Biegger.",
                 "fecha": "Sun, 01 Nov 2026 12:06:56 +0100",
                 "titulo_original": "Vor 40 Jahren: Als eine Chemiewolke über Basel zog",
                 "tags": [],
@@ -1038,7 +1033,7 @@
               {
                 "titulo": "Manifestaciones contra la escasez de viviendas en Portugal: campos de protesta desalojados",
                 "url": "https://www.tagesschau.de/ausland/portugal-protest-100.html",
-                "resumen": "In vielen europäischen Ländern gehen momentan junge Menschen auf die Straße - auch in Portugal. Dort richten sich die Demonstrationen vor allem gegen die Wohnungsnot. Die Polizei ging hart gegen ein Protestcamp in Lissabon vor.",
+                "resumen": "Actualmente, los jóvenes salen a las calles en muchos países europeos, incluido Portugal. Las manifestaciones allí están dirigidas principalmente contra la escasez de viviendas. La policía tomó duras medidas contra un campamento de protesta en Lisboa.",
                 "fecha": "Sun, 01 Nov 2026 10:46:44 +0100",
                 "titulo_original": "Demos gegen Wohnungsnot in Portugal - Protestcamps geräumt",
                 "tags": [
@@ -1048,7 +1043,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Manifestaciones y Protestas Sociales",
-                "coincidencias_count": 12
+                "coincidencias_count": 9
               }
             ],
             "estado": "OK",
@@ -1067,8 +1062,8 @@
               {
                 "titulo": "Tiendas saqueadas mientras las protestas por el costo de vida en Alemania se vuelven violentas",
                 "url": "https://www.bbc.co.uk/news/articles/cqj34gnd3n30o?at_medium=RSS&at_campaign=rss",
-                "resumen": "The protests in cities across Germany - including Berlin, Hamburg and Frankfurt - came on the same day hundreds of thousands also protested in France.",
-                "fecha": "Sun, 01 Nov 2026 11:03:36 GMT",
+                "resumen": "Las protestas en ciudades de toda Alemania -incluidas Berlín, Hamburgo y Frankfurt- se produjeron el mismo día en que cientos de miles de personas protestaron también en Francia.",
+                "fecha": "Sun, 01 Nov 2026 11:57:48 GMT",
                 "titulo_original": "Shops looted as German cost of living protests turn violent",
                 "tags": [
                   "#Sociedad",
@@ -1077,12 +1072,12 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Manifestaciones y Protestas Sociales",
-                "coincidencias_count": 12
+                "coincidencias_count": 9
               },
               {
                 "titulo": "\"Regresamos del infierno\", dicen los ucranianos después de años en la ciudad de primera línea ocupada por Rusia",
                 "url": "https://www.bbc.co.uk/news/articles/cqglw3k7djp1o?at_medium=RSS&at_campaign=rss",
-                "resumen": "One evacuated couple says they crossed minefields in Oleshky in search of food.",
+                "resumen": "Una pareja evacuada dice que cruzó campos minados en Oleshky en busca de comida.",
                 "fecha": "Sat, 31 Oct 2026 19:22:26 GMT",
                 "titulo_original": "'We came back from hell', say Ukrainians after years in Russia-occupied front-line city",
                 "tags": [
@@ -1092,12 +1087,12 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Guerra Ucrania / Rusia / Frente Oriental",
-                "coincidencias_count": 4
+                "coincidencias_count": 3
               },
               {
                 "titulo": "Los evacuados ucranianos se reúnen con sus familias después de años atrapados en una ciudad ocupada por Rusia",
                 "url": "https://www.bbc.co.uk/news/articles/cqx2818elrnzo?at_medium=RSS&at_campaign=rss",
-                "resumen": "Oleshky residents had been without food, water and electricity, with many resorting to cooking garden weeds to survive.",
+                "resumen": "Los residentes de Oleshky se habían quedado sin comida, agua y electricidad, y muchos recurrieron a cocinar las malas hierbas del jardín para sobrevivir.",
                 "fecha": "Sat, 31 Oct 2026 17:53:35 GMT",
                 "titulo_original": "Ukrainian evacuees reunite with family after years trapped in Russia-occupied city",
                 "tags": [
@@ -1107,12 +1102,12 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Guerra Ucrania / Rusia / Frente Oriental",
-                "coincidencias_count": 4
+                "coincidencias_count": 3
               },
               {
                 "titulo": "Juez desestima la demanda de Trump contra el Wall Street Journal por el libro del cumpleaños de Epstein",
                 "url": "https://www.bbc.co.uk/news/articles/cwr5yj2lj9myo?at_medium=RSS&at_campaign=rss",
-                "resumen": "Trump had sued the media outlet after it published a letter to Epstein purportedly written and signed by the president as part of a birthday book.",
+                "resumen": "Trump había demandado al medio de comunicación luego de que éste publicara una carta a Epstein supuestamente escrita y firmada por el presidente como parte de un libro de cumpleaños.",
                 "fecha": "Sun, 01 Nov 2026 00:41:24 GMT",
                 "titulo_original": "Judge dismisses Trump's lawsuit against Wall Street Journal over Epstein birthday book",
                 "tags": [
@@ -1122,7 +1117,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Elecciones y Pugna Institucional EE.UU.",
-                "coincidencias_count": 6
+                "coincidencias_count": 8
               }
             ],
             "estado": "OK",
@@ -1135,7 +1130,7 @@
               {
                 "titulo": "Sumideros, tierras marcadas y chivos expiatorios: el flagelo de la minería ilegal de oro en Johannesburgo",
                 "url": "https://www.theguardian.com/business/2026/oct/30/sinkholes-scarred-land-scapegoats-illegal-gold-mining-johannesburg",
-                "resumen": "There is no end in sight for the drivers of illegal mining, while police action appears ineffective Cora Bailey has been encountering illegal miners ever since she first started treating injured animals in the townships around Roodepoort, west of Johannesburg, in 1991. But as the",
+                "resumen": "No se vislumbra un final para los impulsores de la minería ilegal, mientras que la acción policial parece ineficaz. Cora Bailey se ha encontrado con mineros ilegales desde que comenzó a tratar animales heridos en los municipios alrededor de Roodepoort, al oeste de Johannesburgo, en 1991. Pero como",
                 "fecha": "Fri, 30 Oct 2026 05:00:45 GMT",
                 "titulo_original": "Sinkholes, scarred land and scapegoats: the scourge of illegal gold mining in Johannesburg",
                 "tags": [
@@ -1151,7 +1146,7 @@
               {
                 "titulo": "La diáspora sudanesa y grupos de derechos humanos denuncian al candidato de los Emiratos Árabes Unidos para el puesto más alto de la ONU",
                 "url": "https://www.theguardian.com/world/2026/oct/30/sudanese-diaspora-human-rights-groups-denounce-uae-nominee-un-top-job",
-                "resumen": "Critics cite Lana Nusseibeh’s denial of accusations the UAE is fuelling Sudan war by supporting paramilitary RSF Members of the Sudanese diaspora and international human rights monitors have denounced the candidature of an Emirati diplomat for the top job at the UN, citing her de",
+                "resumen": "Los críticos citan la negación de Lana Nusseibeh de las acusaciones de que los Emiratos Árabes Unidos están alimentando la guerra en Sudán al apoyar a los paramilitares RSF. Miembros de la diáspora sudanesa y observadores internacionales de derechos humanos han denunciado la candidatura de un diplomático emiratí para el puesto más alto en la ONU, citando su de",
                 "fecha": "Fri, 30 Oct 2026 05:00:45 GMT",
                 "titulo_original": "Sudanese diaspora and human rights groups denounce UAE nominee for UN top job",
                 "tags": [
@@ -1167,7 +1162,7 @@
               {
                 "titulo": "Egipto multa a la destacada editora Lina Attalah y cierra el medio de noticias independiente Mada Masr",
                 "url": "https://www.theguardian.com/world/2026/oct/28/egypt-lina-attalah-mada-masr-press-freedom-clampdown",
-                "resumen": "Warnings of escalating clampdown on press freedom come after Cairo court convicts Attalah of managing an unlicensed website Lina Attalah, a prominent Egyptian journalist and the editor-in-chief of the news outlet Mada Masr, has been released from detention by Egypt’s authorities ",
+                "resumen": "Las advertencias de una creciente represión contra la libertad de prensa se producen después de que un tribunal de El Cairo condenara a Attalah por administrar un sitio web sin licencia. Lina Attalah, una destacada periodista egipcia y editora en jefe del medio de noticias Mada Masr, fue liberada de su detención por las autoridades egipcias.",
                 "fecha": "Wed, 28 Oct 2026 14:16:24 GMT",
                 "titulo_original": "Egypt fines prominent editor Lina Attalah and shuts independent news outlet Mada Masr",
                 "tags": [
@@ -1183,7 +1178,7 @@
               {
                 "titulo": "El brote de ébola \"sin precedentes\" en África podría llegar al Reino Unido, dice un alto funcionario de salud",
                 "url": "https://www.theguardian.com/global-development/2026/oct/28/africa-ebola-outbreak-could-reach-uk-says-top-health-official",
-                "resumen": "Jean Kaseya, of the Africa CDC, warns of the illness spreading like Covid unless more funding is secured to increase preparedness and possible treatment The “unprecedented” spread of the Ebola outbreak means it could reach the UK and other countries, according to one of Africa’s ",
+                "resumen": "Jean Kaseya, del CDC de África, advierte que la enfermedad se propagará como el Covid a menos que se obtengan más fondos para aumentar la preparación y el posible tratamiento. La propagación \"sin precedentes\" del brote de Ébola significa que podría llegar al Reino Unido y otros países, según uno de los expertos de África.",
                 "fecha": "Wed, 28 Oct 2026 09:37:49 GMT",
                 "titulo_original": "Africa’s ‘unprecedented’ Ebola outbreak could reach UK, says top health official",
                 "tags": [
@@ -1193,8 +1188,8 @@
                   "#África"
                 ],
                 "tema_repetido": true,
-                "cluster_tema": "Emergencia Climática y Fenómenos Extremos",
-                "coincidencias_count": 3
+                "cluster_tema": "África",
+                "coincidencias_count": 2
               }
             ],
             "estado": "OK",
@@ -1207,7 +1202,7 @@
               {
                 "titulo": "Muere el ex campeón europeo irlandés de 1.500 metros a los 34 años",
                 "url": "https://news.sky.com/story/ciara-mageean-former-european-1500m-champion-dies-at-age-of-34-13606579",
-                "resumen": "Former European 1,500m champion Ciara Mageean has died at the age of 34.",
+                "resumen": "La ex campeona europea de 1.500 metros Ciara Mageean falleció a la edad de 34 años.",
                 "fecha": "Sun, 01 Nov 2026 08:15:00 +0000",
                 "titulo_original": "Former Ireland European 1,500m champion dies at age of 34",
                 "tags": [],
@@ -1218,7 +1213,7 @@
               {
                 "titulo": "El Rey hablará sobre la esclavitud con \"honestidad inquebrantable\"",
                 "url": "https://news.sky.com/story/the-king-to-speak-about-slavery-with-unflinching-honesty-13606556",
-                "resumen": "The King will speak about slavery with \"unflinching honesty\" and \"sincere sorrow\" in a speech to Commonwealth leaders amid increasing pressure for Britain to offer an apology over its role in the transatlantic slave trade.",
+                "resumen": "El Rey hablará sobre la esclavitud con \"honestidad inquebrantable\" y \"sincero dolor\" en un discurso ante los líderes de la Commonwealth en medio de una creciente presión para que Gran Bretaña ofrezca una disculpa por su papel en la trata transatlántica de esclavos.",
                 "fecha": "Sun, 01 Nov 2026 03:07:00 +0000",
                 "titulo_original": "The King to speak about slavery with 'unflinching honesty'",
                 "tags": [],
@@ -1229,7 +1224,7 @@
               {
                 "titulo": "Muere un hombre y otro resulta herido tras ataque a centro de inmigrantes",
                 "url": "https://news.sky.com/story/man-dies-and-another-injured-after-attack-at-centre-housing-migrants-in-ireland-13606071",
-                "resumen": "A man has died following an attack at a centre housing migrants in Ireland.",
+                "resumen": "Un hombre ha muerto tras un ataque en un centro que acoge a inmigrantes en Irlanda.",
                 "fecha": "Sat, 31 Oct 2026 12:05:00 +0000",
                 "titulo_original": "Man dies and another injured after attack at centre housing migrants",
                 "tags": [],
@@ -1240,7 +1235,7 @@
               {
                 "titulo": "La ONU exige una investigación sobre la muerte de un miembro del personal bajo custodia hutí",
                 "url": "https://news.sky.com/story/un-demands-investigation-into-death-of-staff-member-in-houthi-custody-13606554",
-                "resumen": "A Yemeni staff member of the UN Human Rights Office has died in Houthi custody after being arbitrarily held for more ​than two years, the UN human rights chief has said.",
+                "resumen": "Un miembro del personal yemení de la Oficina de Derechos Humanos de la ONU murió bajo custodia hutí después de haber estado detenido arbitrariamente durante más de dos años, dijo el jefe de derechos humanos de la ONU.",
                 "fecha": "Sun, 01 Nov 2026 01:17:00 +0000",
                 "titulo_original": "UN demands investigation into death of staff member in Houthi custody",
                 "tags": [],
@@ -1286,7 +1281,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Manifestaciones y Protestas Sociales",
-                "coincidencias_count": 12
+                "coincidencias_count": 9
               },
               {
                 "titulo": "Últimas noticias | 01 noviembre 2026 - Mediodía",
@@ -1319,9 +1314,25 @@
             "perfil": "Regulatorio / Políticas UE",
             "noticias": [
               {
+                "titulo": "La Comisión respalda a Tusk, que promete no llegar a ningún compromiso en el enfrentamiento judicial",
+                "url": "https://www.politico.eu/article/european-commission-backs-donald-tusk-over-poland-constitutional-court-judges/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+                "resumen": "\"El nombramiento de nuevos jueces es competencia del Sejm\", dijo a POLITICO el comisionado Michael McGrath.",
+                "fecha": "Sun, 01 Nov 2026 11:52:15 +0000",
+                "titulo_original": "Commission backs Tusk as he vows no compromise in court showdown",
+                "tags": [
+                  "#AbortoProvocado",
+                  "#Tribunales",
+                  "#PolíticaPolaca",
+                  "#EstadoDerecho"
+                ],
+                "tema_repetido": true,
+                "cluster_tema": "Crisis Institucional y Poder Judicial",
+                "coincidencias_count": 2
+              },
+              {
                 "titulo": "El futuro del Reino Unido está en la UE, dice Rachel Reeves",
                 "url": "https://www.politico.eu/article/uk-future-eu-says-rachel-reeves/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-                "resumen": "The intervention by the former British chancellor comes ahead of a UK-EU summit later this month.",
+                "resumen": "La intervención del ex canciller británico se produce antes de una cumbre entre el Reino Unido y la UE a finales de este mes.",
                 "fecha": "Sun, 01 Nov 2026 10:45:36 +0000",
                 "titulo_original": "UK’s future lies in EU, says Rachel Reeves",
                 "tags": [
@@ -1330,12 +1341,12 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Política",
-                "coincidencias_count": 8
+                "coincidencias_count": 10
               },
               {
                 "titulo": "Cómo el viaje de cinco días de Merz a Asia terminó siendo principalmente sobre Europa",
                 "url": "https://www.politico.eu/article/friedrich-merz-asia-trip-europe-security-cooperation/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-                "resumen": "Security concerns are following the German Chancellor to Singapore, Japan and Korea. And his proposal for a new trade alliance is already facing hurdles.",
+                "resumen": "Las preocupaciones de seguridad siguen a la Canciller alemana en Singapur, Japón y Corea. Y su propuesta de una nueva alianza comercial ya enfrenta obstáculos.",
                 "fecha": "Sun, 01 Nov 2026 09:07:45 +0000",
                 "titulo_original": "How Merz’s five-day Asia trip ended up being mostly about Europe",
                 "tags": [
@@ -1351,7 +1362,7 @@
               {
                 "titulo": "Domingo de seguridad: ¿Cuán real es la amenaza de guerra? – con el general Alexander Sollfrank",
                 "url": "https://www.politico.eu/podcast/berlin-playbook-podcast/security-sunday-wie-real-ist-die-kriegsgefahr-mit-general-alexander-sollfrank/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-                "resumen": "Präsentiert von YouTube.",
+                "resumen": "Desarrollado por YouTube.",
                 "fecha": "Sun, 01 Nov 2026 05:00:00 +0000",
                 "titulo_original": "Security Sunday: Wie real ist die Kriegsgefahr? – mit General Alexander Sollfrank",
                 "tags": [
@@ -1362,23 +1373,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Defensa",
-                "coincidencias_count": 4
-              },
-              {
-                "titulo": "Cientos de miles de manifestantes marchan por Francia por tercera semana consecutiva",
-                "url": "https://www.politico.eu/article/france-youth-protests-cost-of-living-spread-europe/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-                "resumen": "Cities across Europe faced wave of protests against rising cost of living.",
-                "fecha": "Sat, 31 Oct 2026 17:33:31 +0000",
-                "titulo_original": "Hundreds of thousands of protesters march across France for third week in a row",
-                "tags": [
-                  "#CosteVida",
-                  "#Juventud",
-                  "#Política",
-                  "#Sociedad"
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "Manifestaciones y Protestas Sociales",
-                "coincidencias_count": 12
+                "coincidencias_count": 3
               }
             ],
             "estado": "OK",
@@ -1397,7 +1392,7 @@
               {
                 "titulo": "El Partido del Congreso de la India realiza una protesta masiva en Nueva Delhi",
                 "url": "https://www.nytimes.com/2026/10/31/world/asia/congress-cjp-protest-delhi-india-modi.html",
-                "resumen": "Many more are still streaming into the city for what organizers hope will be one of the biggest demonstrations yet in a string of recent rallies.",
+                "resumen": "Muchos más todavía están llegando a la ciudad para lo que los organizadores esperan que sea una de las manifestaciones más grandes hasta el momento en una serie de manifestaciones recientes.",
                 "fecha": "Sun, 01 Nov 2026 09:14:18 +0000",
                 "titulo_original": "India’s Congress Party Holds Mass Protest in New Delhi",
                 "tags": [
@@ -1408,12 +1403,12 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Manifestaciones y Protestas Sociales",
-                "coincidencias_count": 12
+                "coincidencias_count": 9
               },
               {
                 "titulo": "Putin rompe su aislamiento con gran ayuda de Trump",
                 "url": "https://www.nytimes.com/2026/11/01/world/europe/putin-isolation-breakdown-trump.html",
-                "resumen": "Notching wins from Washington, the Russian leader is talking with foreign leaders and could return to diplomatic center stage with possible summit meetings.",
+                "resumen": "Tras obtener victorias en Washington, el líder ruso está hablando con líderes extranjeros y podría regresar al centro del escenario diplomático con posibles reuniones cumbre.",
                 "fecha": "Sun, 01 Nov 2026 10:04:00 +0000",
                 "titulo_original": "Putin Breaks Down His Isolation, With a Big Assist From Trump",
                 "tags": [
@@ -1424,12 +1419,12 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Guerra Ucrania / Rusia / Frente Oriental",
-                "coincidencias_count": 4
+                "coincidencias_count": 3
               },
               {
                 "titulo": "El intento de Netanyahu de permanecer en el poder pondrá a prueba su astucia política",
                 "url": "https://www.nytimes.com/2026/11/01/world/middleeast/netanyahu-coalition-building-tests-political-skills.html",
-                "resumen": "After losing ground in Israel’s election, Prime Minister Benjamin Netanyahu must draw on decades of political capital and reckon with old foes if he is to build a governing coalition.",
+                "resumen": "Después de perder terreno en las elecciones de Israel, el Primer Ministro Benjamín Netanyahu debe aprovechar décadas de capital político y contar con viejos enemigos si quiere construir una coalición de gobierno.",
                 "fecha": "Sun, 01 Nov 2026 10:20:20 +0000",
                 "titulo_original": "Netanyahu’s Bid to Stay in Power Will Test His Political Savvy",
                 "tags": [
@@ -1440,12 +1435,12 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Conflicto Oriente Medio (Gaza / Líbano)",
-                "coincidencias_count": 4
+                "coincidencias_count": 5
               },
               {
                 "titulo": "Los evacuados ucranianos de Oleshky cuentan historias de supervivencia",
                 "url": "https://www.nytimes.com/2026/10/31/world/europe/ukraine-evacuees-oleshky.html",
-                "resumen": "Safely out of Oleshky after enduring years in the combat zone and a harrowing 24-hour journey, weary civilians reunited with family and friends.",
+                "resumen": "Saliendo sanos y salvos de Oleshky después de soportar años en la zona de combate y un angustioso viaje de 24 horas, los civiles cansados ​​se reunieron con familiares y amigos.",
                 "fecha": "Sat, 31 Oct 2026 21:43:34 +0000",
                 "titulo_original": "Ukrainian Evacuees From Oleshky Tell Survival Stories",
                 "tags": [
@@ -1456,7 +1451,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Guerra Ucrania / Rusia / Frente Oriental",
-                "coincidencias_count": 4
+                "coincidencias_count": 3
               }
             ],
             "estado": "OK",
@@ -1469,7 +1464,7 @@
               {
                 "titulo": "Cómo piensan los republicanos de la Generación Z que se postulan para el Congreso sobre el futuro del partido",
                 "url": "https://www.npr.org/2026/11/01/nx-s1-5946869/midterm-elections-gen-z-republicans",
-                "resumen": "On the eve of what may prove to be a tough election for the GOP, young conservatives vying to be part of the first class of Gen Z Republicans in Congress want a role shaping the party's next chapter.",
+                "resumen": "En vísperas de lo que podría resultar una elección difícil para el Partido Republicano, los jóvenes conservadores que compiten por ser parte de la primera clase de republicanos de la Generación Z en el Congreso quieren desempeñar un papel en la configuración del próximo capítulo del partido.",
                 "fecha": "Sun, 01 Nov 2026 06:00:00 -0500",
                 "titulo_original": "How Gen Z Republicans running for Congress are thinking about the future of the party",
                 "tags": [
@@ -1479,23 +1474,12 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Manifestaciones y Protestas Sociales",
-                "coincidencias_count": 12
-              },
-              {
-                "titulo": "Aquí se explica cómo ver la noche de las elecciones mientras se cierran las urnas, hora tras hora",
-                "url": "https://www.npr.org/2026/11/01/g-s1-149978/midterms-election-night",
-                "resumen": "As polls close on election night, here's a look at what to expect each hour and which midterm races are key to deciding control of Congress.",
-                "fecha": "Sun, 01 Nov 2026 05:00:00 -0400",
-                "titulo_original": "Here's how to watch election night as the polls close, hour-by-hour",
-                "tags": [],
-                "tema_repetido": false,
-                "cluster_tema": "",
-                "coincidencias_count": 0
+                "coincidencias_count": 9
               },
               {
                 "titulo": "¿Cómo es postularse para el Congreso cuando las probabilidades están muy en su contra?",
                 "url": "https://www.npr.org/2026/11/01/nx-s1-5995461/midterm-elections-noncompetitive-districts",
-                "resumen": "The majority of congressional races this cycle are rated either solid Democrat or solid Republican. They're the opposite of tossups, where candidates from the minority party face near impossible odds.",
+                "resumen": "La mayoría de las elecciones al Congreso de este ciclo están calificadas como demócratas sólidas o republicanas sólidas. Son lo opuesto a los sorteos, donde los candidatos del partido minoritario enfrentan probabilidades casi imposibles.",
                 "fecha": "Sun, 01 Nov 2026 05:00:00 -0400",
                 "titulo_original": "What's it like to run for Congress when the odds are stacked heavily against you?",
                 "tags": [
@@ -1505,18 +1489,33 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Elecciones y Pugna Institucional EE.UU.",
-                "coincidencias_count": 6
+                "coincidencias_count": 8
               },
               {
-                "titulo": "La Corte Suprema escucha un caso de libertad religiosa centrado en el programa universal de prekínder",
-                "url": "https://www.npr.org/2026/11/01/nx-s1-6000367/supreme-court-colorado-catholic-preschool-religious-freedom-lgbtq",
-                "resumen": "The Archdiocese of Denver wants to be able to turn away LGBTQ families from Catholic preschools that receive state funding.",
+                "titulo": "Cómo una familia dio un impulso decisivo a la investigación en terapia génica",
+                "url": "https://www.npr.org/2026/11/01/nx-s1-6014739/sanfilippo-gene-therapy-fayuvi",
+                "resumen": "Una familia afectada por el síndrome de Sanfilippo recaudó millones de dólares para la investigación. La Administración de Alimentos y Medicamentos acaba de aprobar una terapia genética que el apoyo ayudó a hacer posible.",
                 "fecha": "Sun, 01 Nov 2026 05:00:00 -0400",
-                "titulo_original": "Supreme Court hears religious freedom case centered on universal pre-K program",
+                "titulo_original": "How one family gave a critical boost to gene therapy research",
                 "tags": [],
                 "tema_repetido": false,
                 "cluster_tema": "",
                 "coincidencias_count": 0
+              },
+              {
+                "titulo": "Trump agradece a sus seguidores por los recuerdos en las últimas paradas de campaña para las elecciones intermedias de 2026",
+                "url": "https://www.npr.org/2026/11/01/nx-s1-6022128/trump-rally-2026-midterms-republicans",
+                "resumen": "El presidente Trump ha mantenido un calendario de manifestaciones casi diarias a medida que se acerca el día de las elecciones, interpretando sus mayores éxitos para multitudes leales en los estados rojos en lo que es una especie de adiós a la campaña.",
+                "fecha": "Sun, 01 Nov 2026 05:00:00 -0400",
+                "titulo_original": "Trump thanks supporters for the memories in final campaign stops for 2026 midterms",
+                "tags": [
+                  "#Sociedad",
+                  "#Manifestaciones",
+                  "#Protestas"
+                ],
+                "tema_repetido": true,
+                "cluster_tema": "Manifestaciones y Protestas Sociales",
+                "coincidencias_count": 9
               }
             ],
             "estado": "OK",
@@ -1529,7 +1528,7 @@
               {
                 "titulo": "Los palestinos regresan a pie al norte de Gaza",
                 "url": "https://www.wsj.com/articles/palestinians-flock-back-to-northern-gaza-on-foot-after-hostage-release-breakthrough-3f60e2db",
-                "resumen": "Israel allowed displaced Gazans to begin crossing a military zone that bisects the enclave after a deadlock over hostage releases was broken.",
+                "resumen": "Israel permitió que los habitantes de Gaza desplazados comenzaran a cruzar una zona militar que divide el enclave en dos después de que se rompiera el estancamiento sobre la liberación de rehenes.",
                 "fecha": "Mon, 27 Jan 2025 14:23:00 -0500",
                 "titulo_original": "Palestinians Stream Back to Northern Gaza on Foot",
                 "tags": [
@@ -1540,12 +1539,12 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Conflicto Oriente Medio (Gaza / Líbano)",
-                "coincidencias_count": 4
+                "coincidencias_count": 5
               },
               {
                 "titulo": "El principal promotor inmobiliario de China informa enormes pérdidas, en señal de crecientes problemas inmobiliarios",
                 "url": "https://www.wsj.com/articles/even-chinas-property-stalwart-isnt-immune-from-the-crisis-19799863",
-                "resumen": "Troubles at Vanke raise questions about the continued spread of the property crisis and whether the Chinese state will step in.",
+                "resumen": "Los problemas en Vanke plantean dudas sobre la continua propagación de la crisis inmobiliaria y si el Estado chino intervendrá.",
                 "fecha": "Mon, 27 Jan 2025 12:32:00 -0500",
                 "titulo_original": "Leading China Property Developer Reports Huge loss, in Sign of Widening Real-Estate Woes",
                 "tags": [
@@ -1560,7 +1559,7 @@
               {
                 "titulo": "Los rehenes israelíes liberados todavía tenían metralla en el cuerpo del ataque del 7 de octubre",
                 "url": "https://www.wsj.com/articles/freed-israeli-hostages-still-had-shrapnel-in-their-bodies-from-oct-7-attack-3de8cd1e",
-                "resumen": "Some of the women were held alone for extended periods and spent eight months in tunnels, an Israeli medical official said.",
+                "resumen": "Algunas de las mujeres fueron retenidas solas durante largos períodos y pasaron ocho meses en túneles, dijo un funcionario médico israelí.",
                 "fecha": "Mon, 27 Jan 2025 12:12:00 -0500",
                 "titulo_original": "Freed Israeli Hostages Still Had Shrapnel in Their Bodies From Oct. 7 Attack",
                 "tags": [
@@ -1573,7 +1572,7 @@
               {
                 "titulo": "El presunto sabotaje de un cable de aguas profundas desencadena la primera respuesta liderada por la OTAN",
                 "url": "https://www.wsj.com/articles/suspected-sabotage-of-deep-sea-cable-triggers-first-nato-led-response-337119ba",
-                "resumen": "The alliance mounted its first coordinated response to a suspected sabotage campaign against critical infrastructure after another cable was severed in the Baltic Sea.",
+                "resumen": "La alianza organizó su primera respuesta coordinada a una supuesta campaña de sabotaje contra infraestructura crítica después de que se cortara otro cable en el Mar Báltico.",
                 "fecha": "Mon, 27 Jan 2025 11:22:00 -0500",
                 "titulo_original": "Suspected Sabotage of Deep-Sea Cable Triggers First NATO-Led Response",
                 "tags": [
@@ -1584,7 +1583,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Guerra Ucrania / Rusia / Frente Oriental",
-                "coincidencias_count": 4
+                "coincidencias_count": 3
               }
             ],
             "estado": "OK",
@@ -1597,48 +1596,48 @@
         "bloque": "América Latina",
         "fuentes": [
           {
-            "medio": "Aristegui Noticias (México)",
-            "perfil": "México / Investigación",
+            "medio": "El País América",
+            "perfil": "Cobertura continental / Análisis pan-regional",
             "noticias": [
               {
-                "titulo": "¡Hamilton logra la pole del GP de México con Ferrari! - Aristegui Noticias",
-                "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQRUkxV1Q1VW9MMDdWMHpFRzF4SHlIajBuTlZvbjF1akRtTGV4WjcyeVlDRWxHMmJXY3RhMVRSYVpTRXgxdFJNOFlqNlE2NFhjMWNGX0ZuenJZNnE0Q1VheTJKTF9qYzZubEN5WFBOWGwtLXhUV3lMd1NYUnpsZzhiNkZBU25QRXNDekFNemZNWXZMRmpnRUdIQi1lWTQ?oc=5",
-                "resumen": "¡Hamilton logra la pole del GP de México con Ferrari! Aristegui Noticias",
-                "fecha": "Sat, 31 Oct 2026 22:40:00 GMT",
-                "titulo_original": "¡Hamilton logra la pole del GP de México con Ferrari! - Aristegui Noticias",
+                "titulo": "Flávio Bolsonaro asegura desde Estados Unidos que volverá a ser candidato a la Presidencia de Brasil - EL PAÍS",
+                "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNdDRoZHVMNHpaS3o3WXRXMmo3X2xtQkVXQXFaNTRIUEVCNGZtMU1TVTBrN3pQWjNtakFFV2VnOVBTU3I0LUhqbURnQktxX0ZSUXpaM3YtTVJtUkEtekFVZGRpUkJOXzkzRlJmeWhxY1ZqZC1KV1VtQ0lTQkhLQXQ3b3k0V0pqendmclUtdzhLV3YzcHdQcjIxZFZSSlN3NllvSTRYQ2laUktyRUdBbFNyM1pzekNmLTlFdUJmTDdpc0RaNXpDdzdwYV83RUVRdFY1cG5nVEQ2S2ZOQWPSAe8BQVVfeXFMTVNLMXdTQ0NjYURKZUU4YzNjQ1pYMEtaZDAzQUl6N3dFdjcwcjZNWDlhS1hrdVhkQWo4dkNEV1dsU2gyWXAwOUJwcEtBSk9XYXg0RUp1bGVPUkVTZ004SzctOUIwLTdqbWtkcEhhR21iLUZhcmFoMTFOM1k0TWtFYW1RclhUdDNnMjE5YWtfdVFkT0loWV84LUVEYU9LWHRIOVdhU1ZGc1NDWnN0SGlJSDlnNXdZODlWZHNHMVg0SXhPenh3RmxPRWdRM2lXVjI2RUFrN1JkVkNaVzRQajJ3R2hjcVIwWUdpVHg0Wl96X2c?oc=5",
+                "resumen": "Flávio Bolsonaro asegura desde Estados Unidos que volverá a ser candidato a la Presidencia de Brasil EL PAÍS",
+                "fecha": "Sat, 31 Oct 2026 16:12:55 GMT",
+                "titulo_original": "Flávio Bolsonaro asegura desde Estados Unidos que volverá a ser candidato a la Presidencia de Brasil - EL PAÍS",
                 "tags": [],
                 "tema_repetido": false,
                 "cluster_tema": "",
                 "coincidencias_count": 0
               },
               {
-                "titulo": "Tamaulipas investiga muerte de niña por presunto disparo policial - Aristegui Noticias",
-                "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQSHB4cFFGLTVfNGtCeUVlRlFacG1tX3VHcE9tWVlXN1R6N2s2OEY1aVdoNFBvc2dseDZpamZKSlpQd2Z2NFNuY1hKTTdZUFNNdUpST0RoWEpqSFhvVDIwWk85ak5EVTlHVmtyUnVNbUpxNVpKQzc2NFFoZ0N6OEFFcE9EZVhFZFpPZ1FtSFRaQUpYRVZDdVBQckJoTGFlU21LX0E5Vy1hb0l3MnF1?oc=5",
-                "resumen": "Tamaulipas investiga muerte de niña por presunto disparo policial Aristegui Noticias",
-                "fecha": "Sat, 31 Oct 2026 22:23:00 GMT",
-                "titulo_original": "Tamaulipas investiga muerte de niña por presunto disparo policial - Aristegui Noticias",
+                "titulo": "Venezuela, 10 meses después, parece que empezó la transición - EL PAÍS",
+                "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQQ1Btdmxrd1FscTM0b3JQdkpmQW5iRDBxdDdYWjRRdFpVdDF4Mk9NN245d21rNjFqOHZoc3lMZjhFM2hwTFBVdms1bDZkUThQRkxSY0tXR2h5VlB4UGpMUFV3VDY5UWtlN3ZXR3p4SGlLTkpPVlh0S3lJZFA4WDVKdXN5VFJ0ZExmZXUxdjhDdkRmNVJ5eTFyNjhrR1Z3UjJxc1pV0gG3AUFVX3lxTE00WWhEVWxSR0JsUXhQN3U1ZVBWUDRzMFc4M05MODZrOFFEQ3p6N1huRWsyLU9nSld6UGVPekY3XzRKMU1HYXBjQ1F6R3duZ0VjM0RUOVBPYnBXZGNOSTBhdVBWalEyZllqSUlxOUYyWTlvZDEyem90bjlvajd5dFRRc095WU95OTZiOHdKQ0tIWEg5WWdVdTkzbmRDaEF4MHdpWnpWTHBHZ25xY0s1VTFuSVhjRE5Obw?oc=5",
+                "resumen": "Venezuela, 10 meses después, parece que empezó la transición EL PAÍS",
+                "fecha": "Sat, 31 Oct 2026 09:30:00 GMT",
+                "titulo_original": "Venezuela, 10 meses después, parece que empezó la transición - EL PAÍS",
                 "tags": [],
                 "tema_repetido": false,
                 "cluster_tema": "",
                 "coincidencias_count": 0
               },
               {
-                "titulo": "ASF investiga irregularidades en contratos del INE y OPLES - Aristegui Noticias",
-                "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQNzBHd1FSZ1BzNGhuMEF6bkMxN0VJNnRWa3k4QlgyREJNZ2NIR0lyY0ZiMEFuaEdlbUgxb2lQMDRZZ1hQTmNxSXFBSTZzaXYxY1pYNndaell1WHhTSFlYUzlIQTdvbUoxZFRPa2dKZkROdkhoTHVVakJYam1vTTB0MGxRemNvZWJkQU5HSnNLYnlNZ2REX1k2Mk81a1NDOVlRNXE0?oc=5",
-                "resumen": "ASF investiga irregularidades en contratos del INE y OPLES Aristegui Noticias",
-                "fecha": "Sat, 31 Oct 2026 20:48:00 GMT",
-                "titulo_original": "ASF investiga irregularidades en contratos del INE y OPLES - Aristegui Noticias",
+                "titulo": "El milagro de los nueve dedos - EL PAÍS",
+                "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9fUHR2cUFIYVBjenVBSDFQMzdGcXIydTgwQjVBSjRlcVJGWFg4dW1QeDFoeDFpb3VvTHU3NmVXdGhWaEVtSzloM2NrdV8zaDhsVDZTdkY4eG5uTXpaeXo0b2VBcVFKdUhFRDhqRjJtVG5GUnJSQy1XQXVnb0_SAZABQVVfeXFMTzdqelBIWklmN3pkZExxRjN5S1BaZ1BjU0dNQzVlN0psNVh5M1FvRWRUSVBLR0x2bDZjMnB5Tl9CRHczV2pVbm9RbXd3QzFEZTBsa0RPcWhoRzZYb1dSNnloSmhJMExTSDBVWFUxX1dpUXRNQmlXcEJFWjF5Y0h4a0pBc1duaVJZSkx1ZldFd0VK?oc=5",
+                "resumen": "El milagro de los nueve dedos EL PAÍS",
+                "fecha": "Mon, 26 Oct 2026 15:10:48 GMT",
+                "titulo_original": "El milagro de los nueve dedos - EL PAÍS",
                 "tags": [],
                 "tema_repetido": false,
                 "cluster_tema": "",
                 "coincidencias_count": 0
               },
               {
-                "titulo": "El 0.1% de multimillonarios contamina más que 44% de la población mundial en pobreza: Oxfam - Aristegui Noticias",
-                "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNcTBNNjExcU9kR2h3cWl6YUZTaXNNZk9KRmVFemJSaXNPeUtINzR1TlI1T21maXN6b1ZpZWsxSkMzSUY1NzVDSEpPN0xRQXo5Z3U4UG1jWGJrRDd4N1RxNmt0dEdlTWFUM3VrNm43U083Q2M0SU5WWjJnMXRBVDZ6c3lsUkhYeFU4aVVYaGM3TXBDc0pvSWJVb3BBcUFLUXlnNXRHWnJGNHRZODJZd2lla0dReldJSEJDUjBwR1REdDBIbkJKWVdiSnNORXp0YVFw?oc=5",
-                "resumen": "El 0.1% de multimillonarios contamina más que 44% de la población mundial en pobreza: Oxfam Aristegui Noticias",
-                "fecha": "Wed, 28 Oct 2026 15:44:00 GMT",
-                "titulo_original": "El 0.1% de multimillonarios contamina más que 44% de la población mundial en pobreza: Oxfam - Aristegui Noticias",
+                "titulo": "Colombia vive un auge de clubes de lectura - EL PAÍS",
+                "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNXzZZQXVVZlRxSzdpazZKbURPWEt6YkpvbWF4S18wbUhOS2ZuU3NBRDlTV1BTblRHTmx5X0FKMEs5Y1ExQWR5S0QzQ2dJakdWVEZpYmh5cEt2XzI2cG9XQzZOZGRQcEdzNnd1SUo5b2dBQ0VReE1Hb0tSdUl1b2JHbVNYZ2hmQnZIWHBnYTFZT09HZHpWWldNX0NR0gGuAUFVX3lxTE9tVU8zaDhwaFhVaXJqdThwbjJEYXMyRjNURXNJNlBfRmkxdHpYd1l1MjRZSnFOeXV6VTNwRlpweGFzMWFKcFRiLU5NYW1LQ3pCUlJwcVlZeXRfb19PSFpaUjNSczJIdXNjOXBZYWpPLUREVEptbVNmU2UtQUtFb1Z1VWhPZHllZHVINEdvUjN4ZWZ2SWdMVmZZSXBQNlk4NW5TUDdoSWhrUGdpekJ0dw?oc=5",
+                "resumen": "Colombia vive un auge de clubes de lectura EL PAÍS",
+                "fecha": "Sat, 31 Oct 2026 09:30:00 GMT",
+                "titulo_original": "Colombia vive un auge de clubes de lectura - EL PAÍS",
                 "tags": [],
                 "tema_repetido": false,
                 "cluster_tema": "",
@@ -1653,47 +1652,48 @@
             "perfil": "Cobertura continental / Noticias en directo",
             "noticias": [
               {
-                "titulo": "La Policía de la Ciudad detuvo a un colombiano cuando intentaba robar un auto: tenía una alerta roja de Interpol",
-                "url": "https://www.infobae.com/sociedad/policiales/2026/11/01/la-policia-de-la-ciudad-detuvo-a-un-colombiano-cuando-intentaba-robar-un-auto-tenia-una-alerta-roja-de-interpol/",
-                "resumen": "El hombre, que usaba una identidad falsa, fue identificado tras un operativo por el robo de objetos de vehículos y tenía un pedido de búsqueda por homicidio en su país",
-                "fecha": "Sun, 01 Nov 2026 11:45:08 +0000",
-                "titulo_original": "La Policía de la Ciudad detuvo a un colombiano cuando intentaba robar un auto: tenía una alerta roja de Interpol",
+                "titulo": "El Gobierno de Ceuta estima en 45,3 millones de euros los gastos extra de la crisis",
+                "url": "https://www.infobae.com/espana/agencias/2026/11/01/el-gobierno-de-ceuta-estima-en-453-millones-de-euros-los-gastos-extra-de-la-crisis/",
+                "resumen": "",
+                "fecha": "Sun, 01 Nov 2026 12:01:56 +0000",
+                "titulo_original": "El Gobierno de Ceuta estima en 45,3 millones de euros los gastos extra de la crisis",
+                "tags": [],
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
+              },
+              {
+                "titulo": "Nogueras (Junts) responde a Feijóo revindicando haber forzado al PSOE a hacer lo que no querían",
+                "url": "https://www.infobae.com/espana/agencias/2026/11/01/nogueras-junts-responde-a-feijoo-revindicando-haber-forzado-al-psoe-a-hacer-lo-que-no-querian/",
+                "resumen": "",
+                "fecha": "Sun, 01 Nov 2026 12:01:50 +0000",
+                "titulo_original": "Nogueras (Junts) responde a Feijóo revindicando haber forzado al PSOE a hacer lo que no querían",
+                "tags": [],
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
+              },
+              {
+                "titulo": "La Fiscalía de Menores deja en libertad al detenido en el centro de València por Blocus",
+                "url": "https://www.infobae.com/espana/agencias/2026/11/01/la-fiscalia-de-menores-deja-en-libertad-al-detenido-en-el-centro-de-valencia-por-blocus/",
+                "resumen": "",
+                "fecha": "Sun, 01 Nov 2026 12:01:40 +0000",
+                "titulo_original": "La Fiscalía de Menores deja en libertad al detenido en el centro de València por Blocus",
                 "tags": [
-                  "#Clima",
-                  "#Emergencias"
+                  "#Justicia",
+                  "#Instituciones",
+                  "#Polonia"
                 ],
                 "tema_repetido": true,
-                "cluster_tema": "Emergencia Climática y Fenómenos Extremos",
-                "coincidencias_count": 3
+                "cluster_tema": "Crisis Institucional y Poder Judicial",
+                "coincidencias_count": 2
               },
               {
-                "titulo": "Ir con la verdad y tener un plan B: el oficio comercial en la logística internacional",
-                "url": "https://www.infobae.com/movant/2026/11/01/ir-con-la-verdad-y-tener-un-plan-b-el-oficio-comercial-en-la-logistica-internacional/",
-                "resumen": "Micaela Costilla, ejecutiva de ventas en un freight forwarder y docente universitaria, repasa el impacto de la escasez de contenedores, los pasos cerrados y la vía Chile en la operación diaria",
-                "fecha": "Sun, 01 Nov 2026 11:45:00 +0000",
-                "titulo_original": "Ir con la verdad y tener un plan B: el oficio comercial en la logística internacional",
-                "tags": [],
-                "tema_repetido": false,
-                "cluster_tema": "",
-                "coincidencias_count": 0
-              },
-              {
-                "titulo": "El Chapo Isidro, líder del Cártel de Guasave, estaba con Chuy González cuando fue abatido pero logró escapar: especialista",
-                "url": "https://www.infobae.com/mexico/2026/10/31/el-chapo-isidro-lider-del-cartel-de-guasave-estaba-con-chuy-gonzalez-cuando-fue-abatido-pero-logro-escapar-especialista/",
-                "resumen": "De acuerdo con el periodista Jesús Lemus, el líder del Cártel de Guasave se encontraba con Jesús González Peñuelas en una reunión cuando fue abatido",
-                "fecha": "Sun, 01 Nov 2026 11:45:00 +0000",
-                "titulo_original": "El Chapo Isidro, líder del Cártel de Guasave, estaba con Chuy González cuando fue abatido pero logró escapar: especialista",
-                "tags": [],
-                "tema_repetido": false,
-                "cluster_tema": "",
-                "coincidencias_count": 0
-              },
-              {
-                "titulo": "David Alonso conquistó el Gran Premio de Malasia en el Moto2: así fue la victoria del colombiano",
-                "url": "https://www.infobae.com/colombia/deportes/2026/11/01/david-alonso-conquisto-el-gran-premio-de-malasia-en-el-moto2-asi-fue-la-victoria-del-colombiano/",
-                "resumen": "Después de su triunfo, el piloto colombiano admitió que este tipo de competencia no le resulta habitual, aunque afirmó que logró sostener la presión en el tramo final y pudo quedarse con el triunfo",
-                "fecha": "Sun, 01 Nov 2026 11:42:32 +0000",
-                "titulo_original": "David Alonso conquistó el Gran Premio de Malasia en el Moto2: así fue la victoria del colombiano",
+                "titulo": "Un padre y su hijo, campeones de España y Andalucía en elaboración artesana de café en la modalidad aeropress",
+                "url": "https://www.infobae.com/america/agencias/2026/11/01/un-padre-y-su-hijo-campeones-de-espana-y-andalucia-en-elaboracion-artesana-de-cafe-en-la-modalidad-aeropress/",
+                "resumen": "",
+                "fecha": "Sun, 01 Nov 2026 12:01:32 +0000",
+                "titulo_original": "Un padre y su hijo, campeones de España y Andalucía en elaboración artesana de café en la modalidad aeropress",
                 "tags": [],
                 "tema_repetido": false,
                 "cluster_tema": "",
@@ -1704,9 +1704,103 @@
             "total": 4
           },
           {
-            "medio": "Clarín (Argentina)",
-            "perfil": "Cono Sur",
+            "medio": "CNN en Español",
+            "perfil": "Cobertura continental / Televisión Panamericana",
             "noticias": [
+              {
+                "titulo": "En Medio Oriente temen que se reanude la guerra con Irán tras las elecciones intermedias de EE.UU. - CNN en Español",
+                "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNdUVOelY5ZExIci1BT2R4VXhWMVhHQ2RmYTdoMnJOU0ZuUW9jdjA0bkNEdnRtZFJrXzBtUUoycGVQRUJKMEhMNzVhSHNGeDF5V3d3WVBzam9VNWhwbzhXQXdTc19wN2hLU01nWHpYVDl6Y1dLalRWcXctSU1YdnRnOGJjOXVGdVhDMjU0ZjJKRXJBZ25YR0NJS3JIckZ2Zw?oc=5",
+                "resumen": "En Medio Oriente temen que se reanude la guerra con Irán tras las elecciones intermedias de EE.UU. CNN en Español",
+                "fecha": "Sat, 31 Oct 2026 20:20:00 GMT",
+                "titulo_original": "En Medio Oriente temen que se reanude la guerra con Irán tras las elecciones intermedias de EE.UU. - CNN en Español",
+                "tags": [],
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
+              },
+              {
+                "titulo": "Rubio dice que EE.UU. “no estuvo involucrado directamente” en la salida de Flávio Bolsonaro de Brasil tras las elecciones - CNN en Español",
+                "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOSlBzTDZGUjZpQTl0aU1HejYyRFJoWkRnZHBkdEtHR3V1MWJJMGJRZk5TNUFMT1prZ0o1QWlXUkNON1ByYjdYY29ZbEFxM2hzRWZTazVfQ3pEQ1dzUVVUcWVnWTUwSEU2Q1RXWmF2SWlrWDRhbmNEVzBFRVlGQ19jSFU0TnFlQVYwbTg3cmJEZ29aTmJ0Tl96NzU2anVocC1DNDlfWEthWUVTX1BPeWs4?oc=5",
+                "resumen": "Rubio dice que EE.UU. “no estuvo involucrado directamente” en la salida de Flávio Bolsonaro de Brasil tras las elecciones CNN en Español",
+                "fecha": "Sat, 31 Oct 2026 19:29:00 GMT",
+                "titulo_original": "Rubio dice que EE.UU. “no estuvo involucrado directamente” en la salida de Flávio Bolsonaro de Brasil tras las elecciones - CNN en Español",
+                "tags": [],
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
+              },
+              {
+                "titulo": "Delcy Rodríguez pone fin a un pilar del chavismo. ¿Le alcanzará para ser una opción de poder en las elecciones? - CNN en Español",
+                "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPVUViUVQyanlnN2VkTDhoRGN3cnBrOG1XSFkySDJMS0JlSmhZZGRzUnZYOFhqcmRlbUprcjJJbTBpNElnOThhUW15ZUdaZUZqTV9WLTZYV0xnSTZBeHg4WnRmRGtxdnA0N1owd0Ficm9GamRaMHAyWEEyYjlxVHBVNkhmMENnMUhTWEFHZ0wtSEJFTF82SDZ6YkVvdHpfV3NQNjNZejJB?oc=5",
+                "resumen": "Delcy Rodríguez pone fin a un pilar del chavismo. ¿Le alcanzará para ser una opción de poder en las elecciones? CNN en Español",
+                "fecha": "Fri, 30 Oct 2026 16:40:00 GMT",
+                "titulo_original": "Delcy Rodríguez pone fin a un pilar del chavismo. ¿Le alcanzará para ser una opción de poder en las elecciones? - CNN en Español",
+                "tags": [],
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
+              },
+              {
+                "titulo": "Trump está preparando el terreno para impugnar las elecciones intermedias. Esto está haciendo - CNN en Español",
+                "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOei1aa3RhQ2JxWmtFSXJTZTI5NGNHRTlMMGlLWkNjaVJ2bDdMdGphZ1dwOWJ1czVKRUdsUHJsV1g2Zk1fM1FqblFMblpGMTZURGhTLWFYZWVRZm1jUy1XMUlFcVU2eEI5TU9yUTkzdWVlalFRTExndk1MY0NMQ1ZsZWp3eEgtWDNVT3J3Zll3?oc=5",
+                "resumen": "Trump está preparando el terreno para impugnar las elecciones intermedias. Esto está haciendo CNN en Español",
+                "fecha": "Sat, 31 Oct 2026 13:02:00 GMT",
+                "titulo_original": "Trump está preparando el terreno para impugnar las elecciones intermedias. Esto está haciendo - CNN en Español",
+                "tags": [
+                  "#EEUU",
+                  "#Elecciones",
+                  "#Política"
+                ],
+                "tema_repetido": true,
+                "cluster_tema": "Elecciones y Pugna Institucional EE.UU.",
+                "coincidencias_count": 8
+              }
+            ],
+            "estado": "OK",
+            "total": 4
+          },
+          {
+            "medio": "Clarín (Argentina)",
+            "perfil": "Cono Sur / Regional",
+            "noticias": [
+              {
+                "titulo": "MotoGP: Yamaha no correrá el Gran Premio de Qatar por la guerra en Medio Oriente y desató un conflicto con los organizadores",
+                "url": "https://www.clarin.com/deportes/motogp-yamaha-correra-gran-premio-qatar-guerra-medio-oriente-desato-conflicto-organizadores_0_L1tbLz7q52.html",
+                "resumen": "La escudería japonesa anunció que no viajará a Lusail por motivos de seguridad, pese a que la carrera sigue programada para el próximo fin de semana. MotoGP cuestionó la decisión, aseguró que existen garantías para competir y advirtió sobre posibles sanciones deportivas y consecu",
+                "fecha": "Sun, 01 Nov 2026 11:52:12 +0000",
+                "titulo_original": "MotoGP: Yamaha no correrá el Gran Premio de Qatar por la guerra en Medio Oriente y desató un conflicto con los organizadores",
+                "tags": [],
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
+              },
+              {
+                "titulo": "Belgrano Córdoba vs Barracas Central por el Torneo Clausura 2026, EN VIVO: a qué hora juegan, formaciones y cómo ver el partido",
+                "url": "https://www.clarin.com/deportes/belgrano-cordoba-vs-barracas-central-torneo-clausura-2026-vivo-hora-juegan-formaciones-ver-partido_0_MqVKBNnrD4.html",
+                "resumen": "",
+                "fecha": "Sun, 01 Nov 2026 11:40:10 +0000",
+                "titulo_original": "Belgrano Córdoba vs Barracas Central por el Torneo Clausura 2026, EN VIVO: a qué hora juegan, formaciones y cómo ver el partido",
+                "tags": [],
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
+              },
+              {
+                "titulo": "Boca y River juegan el Superclásico por el honor y por puntos que valen oro: a ninguno le sirve el empate",
+                "url": "https://www.clarin.com/deportes/boca-river-juegan-superclasico-honor-puntos-valen-oro-sirve-empate_0_rXt64AwbVc.html",
+                "resumen": "Se enfrentan en la Bombonera desde las 15 con arbitraje de Nicolás Ramírez. Los de Arruabarrena no quiere perder el tren de Central en la tabla anual. Los de Ponzio arriesgan más porque corren desde atrás y no tienen nada asegurado.",
+                "fecha": "Sun, 01 Nov 2026 11:28:51 +0000",
+                "titulo_original": "Boca y River juegan el Superclásico por el honor y por puntos que valen oro: a ninguno le sirve el empate",
+                "tags": [
+                  "#Transporte",
+                  "#Ferrocarril",
+                  "#Accidente",
+                  "#Infraestructuras"
+                ],
+                "tema_repetido": true,
+                "cluster_tema": "Accidente Ferroviario / Red de Transporte",
+                "coincidencias_count": 9
+              },
               {
                 "titulo": "Emiratos espera un avance diplomático, pero se prepara para \"lo peor\" en la guerra entre Irán y EEUU",
                 "url": "https://www.clarin.com/estados-unidos/emiratos-espera-un-avance-diplomatico-pero-se-prepara-para-lo-peor-en-la-guerra-entre-iran-y-eeuu_0_TwjZEB0iu3.html",
@@ -1720,100 +1814,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Elecciones y Pugna Institucional EE.UU.",
-                "coincidencias_count": 6
-              },
-              {
-                "titulo": "Putin vuelve a colarse en unas elecciones en Estados Unidos",
-                "url": "https://www.clarin.com/estados-unidos/putin-vuelve-a-colarse-en-unas-elecciones-en-estados-unidos_0_SWhAZWjoOj.html",
-                "resumen": "Putin interviene en política estadounidense con un pacto de diésel, buscando influir en la inflación, clave para los votantes. Trump presenta esto como un apoyo ruso en tiempos de alta inflación. El acuerdo de diésel ruso genera división política en EE.UU., recordando la ayuda ru",
-                "fecha": "Sun, 01 Nov 2026 11:10:11 +0000",
-                "titulo_original": "Putin vuelve a colarse en unas elecciones en Estados Unidos",
-                "tags": [
-                  "#Geopolítica",
-                  "#GuerraUcrania",
-                  "#Defensa"
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "Guerra Ucrania / Rusia / Frente Oriental",
-                "coincidencias_count": 4
-              },
-              {
-                "titulo": "Irán advierte que una nueva guerra con EEUU podría ser más larga que la anterior",
-                "url": "https://www.clarin.com/estados-unidos/iran-advierte-que-una-nueva-guerra-con-eeuu-podria-ser-mas-larga-que-la-anterior_0_oqPyuLnWEM.html",
-                "resumen": "Irán advierte sobre la posibilidad de un conflicto prolongado con Estados Unidos, señalando que Washington no controlaría su duración. El ejército iraní y grupos aliados intensifican sus acciones en la región, mientras Trump asegura haber debilitado capacidades militares clave.",
-                "fecha": "Sun, 01 Nov 2026 10:50:07 +0000",
-                "titulo_original": "Irán advierte que una nueva guerra con EEUU podría ser más larga que la anterior",
-                "tags": [
-                  "#EEUU",
-                  "#Elecciones",
-                  "#Política"
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "Elecciones y Pugna Institucional EE.UU.",
-                "coincidencias_count": 6
-              },
-              {
-                "titulo": "Juliana Léveillé-Trudel, escritora canadiense: “Hay un verdadero giro hacia el fascismo”",
-                "url": "https://www.clarin.com/cultura/juliana-leveille-trudel-escritora-canadiense-verdadero-giro-fascismo_0_gt4GFbnuXe.html",
-                "resumen": "La escritora canadiense publicó Nirliit, una novela inspirada en su experiencia en Salluit, una comunidad inuit del Ártico. En diálogo con Clarín, denuncia las consecuencias del colonialismo, el abandono estatal y las desigualdades que atraviesan a estas poblaciones.",
-                "fecha": "Sun, 01 Nov 2026 10:45:41 +0000",
-                "titulo_original": "Juliana Léveillé-Trudel, escritora canadiense: “Hay un verdadero giro hacia el fascismo”",
-                "tags": [],
-                "tema_repetido": false,
-                "cluster_tema": "",
-                "coincidencias_count": 0
-              }
-            ],
-            "estado": "OK",
-            "total": 4
-          },
-          {
-            "medio": "La Jornada (México)",
-            "perfil": "México / Generalista y Opinión",
-            "noticias": [
-              {
-                "titulo": "Editorial: EU: facilitador de impunidad",
-                "url": "https://www.jornada.com.mx/2026/10/31/opinion/002a1edi?partner=rss",
-                "resumen": "Autoridades de Estados Unidos detuvieron ayer en Miami a Inés Gómez Mont, prófuga desde 2021 y acusada en México de delincuencia organizada, defraudación fiscal y lavado de dinero por una red de empresas fantasmas que habría movido unos 3 mil millones de pesos en contratos del si",
-                "fecha": "Sat, 31 Oct 2026 09:27:54 GMT",
-                "titulo_original": "Editorial: EU: facilitador de impunidad",
-                "tags": [],
-                "tema_repetido": false,
-                "cluster_tema": "",
-                "coincidencias_count": 0
-              },
-              {
-                "titulo": "Jack Nicholson está “bien, pero desapareció”, dice Michael Douglas",
-                "url": "https://www.jornada.com.mx/2026/10/31/espectaculos/a07n2esp?partner=rss",
-                "resumen": "Michael Douglas ofreció una inusual actualización sobre Jack Nicholson, quien se retiró de la vida pública en los recientes años.",
-                "fecha": "Sat, 31 Oct 2026 09:27:54 GMT",
-                "titulo_original": "Jack Nicholson está “bien, pero desapareció”, dice Michael Douglas",
-                "tags": [],
-                "tema_repetido": false,
-                "cluster_tema": "",
-                "coincidencias_count": 0
-              },
-              {
-                "titulo": "Checo se gana su lugar en la elitista F1: Osmar Olvera",
-                "url": "https://www.jornada.com.mx/2026/10/31/deportes/a09n2dep?partner=rss",
-                "resumen": "Como cualquier piloto latinoamericano, Sergio Pérez, hoy en Cadillac, tuvo que remontar desventajas en la Fórmula 1. Las condiciones estructurales y geográficas representan un obstáculo que muy pocos superan. Se trata de una élite poblada por europeos en su mayoría. Esa condición",
-                "fecha": "Sat, 31 Oct 2026 09:27:54 GMT",
-                "titulo_original": "Checo se gana su lugar en la elitista F1: Osmar Olvera",
-                "tags": [],
-                "tema_repetido": false,
-                "cluster_tema": "",
-                "coincidencias_count": 0
-              },
-              {
-                "titulo": "Carlos Fernández-Vega: México SA",
-                "url": "https://www.jornada.com.mx/2026/10/31/opinion/016o1eco?partner=rss",
-                "resumen": "Lo de Guadalupe Taddei y su pandilla es una vergüenza, pero no la única, de acuerdo con las revelaciones que, ante comisiones de la Cámara de Diputados, han hecho la Auditoría Superior de la Federación (ASF), a cargo de Aureliano Hernández Palacios, y el propio titular –hasta aho",
-                "fecha": "Sat, 31 Oct 2026 09:27:54 GMT",
-                "titulo_original": "Carlos Fernández-Vega: México SA",
-                "tags": [],
-                "tema_repetido": false,
-                "cluster_tema": "",
-                "coincidencias_count": 0
+                "coincidencias_count": 8
               }
             ],
             "estado": "OK",
@@ -1832,7 +1833,7 @@
               {
                 "titulo": "Cambios cívicos en la alta dirección bancaria: dentro de la red eléctrica panafricana de Kenny Fihla",
                 "url": "https://www.theafricareport.com/434787/from-civic-turnarounds-to-the-banking-c-suite-inside-kenny-fihlas-pan-african-power-network/",
-                "resumen": "From trade union activism and municipal turnarounds to the top of South African banking, Kenny Fihla is leveraging three decades of political, civic and financial alliances to wake Absa’s sleeping giant across 14 African markets.",
+                "resumen": "Desde el activismo sindical y los cambios municipales hasta la cima de la banca sudafricana, Kenny Fihla está aprovechando tres décadas de alianzas políticas, cívicas y financieras para despertar al gigante dormido de Absa en 14 mercados africanos.",
                 "fecha": "Sun, 01 Nov 2026 09:34:20 +0000",
                 "titulo_original": "Civic turnarounds to the banking C-suite: Inside Kenny Fihla’s pan-African power network",
                 "tags": [
@@ -1845,7 +1846,7 @@
               {
                 "titulo": "Camerún: Cómo Paul Biya aseguró la transición a la democracia",
                 "url": "https://www.theafricareport.com/435001/cameroon-how-paul-biya-locked-down-the-transition-to-democracy/",
-                "resumen": "In 1991, with ‘ghost town’ strikes paralysing the country, the president refused the sovereign national conference demanded by the opposition and imposed tripartite talks instead, which opened on 30 October. The move helped divide his opponents and paved the way for his disputed ",
+                "resumen": "En 1991, cuando las huelgas de las “ciudades fantasma” paralizaban el país, el presidente rechazó la conferencia nacional soberana exigida por la oposición e impuso en su lugar conversaciones tripartitas, que se iniciaron el 30 de octubre. La medida ayudó a dividir a sus oponentes y allanó el camino para su disputada",
                 "fecha": "Fri, 30 Oct 2026 15:00:00 +0000",
                 "titulo_original": "Cameroon: How Paul Biya locked down the transition to democracy",
                 "tags": [
@@ -1853,12 +1854,12 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Política",
-                "coincidencias_count": 8
+                "coincidencias_count": 10
               },
               {
                 "titulo": "Un año después del golpe militar: el autoritarismo frustra las aspiraciones de la Generación Z de un nuevo Madagascar",
                 "url": "https://www.theafricareport.com/435004/a-year-after-the-military-coup-authoritarianism-dashes-gen-z-aspirations-for-a-new-madagascar/",
-                "resumen": "In the year since Colonel Michael Randrianirina seized power in a military coup, Madagascar finds itself far from the refoundation that he promised.",
+                "resumen": "En el año transcurrido desde que el coronel Michael Randrianirina tomó el poder mediante un golpe militar, Madagascar se encuentra lejos de la refundación que prometió.",
                 "fecha": "Fri, 30 Oct 2026 13:00:00 +0000",
                 "titulo_original": "A year after the military coup: Authoritarianism dashes Gen Z aspirations for a new Madagascar",
                 "tags": [
@@ -1869,12 +1870,12 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Manifestaciones y Protestas Sociales",
-                "coincidencias_count": 12
+                "coincidencias_count": 9
               },
               {
                 "titulo": "Elecciones en Sudáfrica: Zille, Zuma y la batalla por las grandes ciudades",
                 "url": "https://www.theafricareport.com/435020/south-africa-elections-zille-zuma-and-the-battle-for-the-big-cities/",
-                "resumen": "The ANC is fighting to hold on, the DA is chasing new territory and MK is shaking up KwaZulu-Natal. South Africa’s local elections could redraw the country’s political map.",
+                "resumen": "El ANC está luchando por resistir, el DA está persiguiendo nuevos territorios y el MK está sacudiendo KwaZulu-Natal. Las elecciones locales de Sudáfrica podrían rediseñar el mapa político del país.",
                 "fecha": "Fri, 30 Oct 2026 12:53:17 +0000",
                 "titulo_original": "South Africa elections: Zille, Zuma and the battle for the big cities",
                 "tags": [
@@ -1882,7 +1883,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Política",
-                "coincidencias_count": 8
+                "coincidencias_count": 10
               }
             ],
             "estado": "OK",
@@ -1893,9 +1894,9 @@
             "perfil": "África Francófona / Magreb",
             "noticias": [
               {
-                "titulo": "Banquiers, politiques, prélats, féministes… La galaxie éclectique de Coura Sène",
+                "titulo": "Banqueros, políticos, prelados, feministas… La galaxia ecléctica de Coura Sène",
                 "url": "https://www.jeuneafrique.com/1772702/economie-entreprises/banquiers-politiques-prelats-feministes-la-galaxie-eclectique-de-coura-sene/",
-                "resumen": "Interlocutrice privilégiée des politiques et des financiers, la directrice régionale de Wave incarne la nouvelle élite numérique du continent. Plongée dans le réseau familial, professionnel et spirituel qui a façonné l’ascension de la dirigeante la plus influente de la fintech ou",
+                "resumen": "Interlocutor privilegiado de políticos y financieros, el director regional de Wave encarna la nueva élite digital del continente. Sumérgete en la red familiar, profesional y espiritual que dio forma al ascenso del líder más influyente en fintech o",
                 "fecha": "2026-11-01T12:28:00+00:00",
                 "titulo_original": "Banquiers, politiques, prélats, féministes… La galaxie éclectique de Coura Sène",
                 "tags": [],
@@ -1904,9 +1905,9 @@
                 "coincidencias_count": 0
               },
               {
-                "titulo": "L’intervention au Niger, un test de crédibilité grandeur nature pour l’armée algérienne",
+                "titulo": "La intervención en Níger, una prueba de credibilidad en toda regla para el ejército argelino",
                 "url": "https://www.jeuneafrique.com/1857411/politique/lintervention-au-niger-un-test-de-credibilite-grandeur-nature-pour-larmee-algerienne/",
-                "resumen": "En déployant ses soldats au Niger, Alger rompt avec sa doctrine de non-ingérence et envoie une Armée nationale populaire peu aguerrie aux opérations extérieures opérer au cœur du chaudron sahélien. En a-t-elle les capacités ?",
+                "resumen": "Al desplegar sus soldados en Níger, Argel rompe con su doctrina de no injerencia y envía un Ejército Nacional Popular poco experimentado en operaciones exteriores para operar en el corazón del caldero saheliano. ¿Tiene ella las capacidades?",
                 "fecha": "2026-11-01T10:17:55+00:00",
                 "titulo_original": "L’intervention au Niger, un test de crédibilité grandeur nature pour l’armée algérienne",
                 "tags": [],
@@ -1915,9 +1916,9 @@
                 "coincidencias_count": 0
               },
               {
-                "titulo": "Égypte, Maroc, Algérie, Nigeria : qui possède les principales marines de guerre en Afrique ?",
+                "titulo": "Egipto, Marruecos, Argelia, Nigeria: ¿a quién pertenecen las principales armadas de África?",
                 "url": "https://www.jeuneafrique.com/1856461/politique/egypte-maroc-algerie-nigeria-qui-possede-les-principales-marines-de-guerre-en-afrique/",
-                "resumen": "D’Ormuz à Bab el-Mandeb, les guerres qui déchirent la planète ont souvent une dimension maritime qui touche l’Afrique, ne serait-ce qu’en désorganisant les routes commerciales. Dans ce contexte, comment se situe le continent en matière de forces navales, et qui y consacre le plus",
+                "resumen": "Desde Ormuz hasta Bab el-Mandeb, las guerras que desgarran el planeta a menudo tienen una dimensión marítima que afecta a África, aunque sólo sea al alterar las rutas comerciales. En este contexto, ¿cómo se encuentra el continente en términos de fuerzas navales y quién les dedica más?",
                 "fecha": "2026-10-31T18:04:20+00:00",
                 "titulo_original": "Égypte, Maroc, Algérie, Nigeria : qui possède les principales marines de guerre en Afrique ?",
                 "tags": [],
@@ -1928,7 +1929,7 @@
               {
                 "titulo": "Nkrumah, Rawlings, Akufo-Addo… En Ghana, las hijas del presidente, entre la herencia y los negocios",
                 "url": "https://www.jeuneafrique.com/1856948/politique/nkrumah-rawlings-akufo-addo-au-ghana-les-filles-de-president-entre-heritage-et-affaires/",
-                "resumen": "Des postes ministériels aux missions de maintien de la paix de l’ONU, en passant par les entreprises et les fondations familiales, les filles des anciens dirigeants du Ghana tracent leur propre voie tout en composant avec les privilèges et les fardeaux que représentent des noms d",
+                "resumen": "Desde puestos ministeriales hasta misiones de paz de la ONU, pasando por empresas y fundaciones familiares, las hijas de los ex líderes de Ghana están trazando sus propios caminos mientras navegan por los privilegios y cargas de nombres conocidos.",
                 "fecha": "2026-10-31T17:54:35+00:00",
                 "titulo_original": "Nkrumah, Rawlings, Akufo-Addo… Au Ghana, les filles de président, entre héritage et affaires",
                 "tags": [],
@@ -1947,7 +1948,7 @@
               {
                 "titulo": "Malawi: la policía confirma que el embajador adjunto de Egipto fue golpeado en el ataque de Lilongwe",
                 "url": "https://allafrica.com/stories/202610300523.html",
-                "resumen": "[Nyasa Times] A senior Egyptian diplomat has been hospitalised after being attacked and beaten in Lilongwe, sparking a police investigation into the shocking assault.",
+                "resumen": "[Nyasa Times] Un alto diplomático egipcio ha sido hospitalizado después de haber sido atacado y golpeado en Lilongwe, lo que provocó una investigación policial sobre el impactante asalto.",
                 "fecha": "Fri, 30 Oct 2026 16:00:45 GMT",
                 "titulo_original": "Malawi: Police Confirm Egyptian Deputy Ambassador Beaten in Lilongwe Attack",
                 "tags": [
@@ -1963,7 +1964,7 @@
               {
                 "titulo": "África: de las conexiones de la Commonwealth a las oportunidades económicas - Ampliación de los vínculos comerciales entre África y el Caribe",
                 "url": "https://allafrica.com/stories/202610300354.html",
-                "resumen": "[allAfrica] When Commonwealth leaders gather in Antigua and Barbuda this November, they will confront rising trade tensions, geopolitical shocks and supply chain disruption alongside longstanding challenges, such as high debt, limited affordable finance, climate exposure and poor",
+                "resumen": "[allAfrica] Cuando los líderes de la Commonwealth se reúnan en Antigua y Barbuda en noviembre, enfrentarán crecientes tensiones comerciales, shocks geopolíticos y perturbaciones de la cadena de suministro junto con desafíos de larga data, como una elevada deuda, una financiación asequible limitada, la exposición al clima y la pobreza.",
                 "fecha": "Fri, 30 Oct 2026 12:12:04 GMT",
                 "titulo_original": "Africa: From Commonwealth Connections to Economic Opportunity - Expanding Africa-Caribbean Trade Linkages",
                 "tags": [
@@ -1979,7 +1980,7 @@
               {
                 "titulo": "Sudáfrica: Se confirma la peste equina africana en Cederberg, Cabo Occidental",
                 "url": "https://allafrica.com/stories/202610300543.html",
-                "resumen": "[SAnews.gov.za] The Department of Agriculture has confirmed a case of African horse sickness (AHS) in a single horse on a property in the Cederberg Local Municipality in the Western Cape, prompting movement restrictions and intensified surveillance to contain the disease.",
+                "resumen": "[SAnews.gov.za] El Departamento de Agricultura ha confirmado un caso de peste equina africana (PHE) en un solo caballo en una propiedad en el municipio local de Cederberg en el Cabo Occidental, lo que provocó restricciones de movimiento e intensificación de la vigilancia para contener la enfermedad.",
                 "fecha": "Fri, 30 Oct 2026 16:13:47 GMT",
                 "titulo_original": "South Africa: African Horse Sickness Confirmed in Western Cape's Cederberg",
                 "tags": [
@@ -1995,7 +1996,7 @@
               {
                 "titulo": "Kenia: No, el pastor keniano Victor Kanyari no murió en un accidente de tráfico",
                 "url": "https://allafrica.com/stories/202610300539.html",
-                "resumen": "[Africa Check] No, Kenyan pastor Victor Kanyari was not killed in a road accident",
+                "resumen": "[Africa Check] No, el pastor keniano Victor Kanyari no murió en un accidente de tráfico",
                 "fecha": "Fri, 30 Oct 2026 16:12:02 GMT",
                 "titulo_original": "Kenya: No, Kenyan Pastor Victor Kanyari Was Not Killed in a Road Accident",
                 "tags": [
@@ -2006,7 +2007,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Accidente Ferroviario / Red de Transporte",
-                "coincidencias_count": 7
+                "coincidencias_count": 9
               }
             ],
             "estado": "OK",
@@ -2023,56 +2024,60 @@
             "perfil": "Regional / Negocios e Internacional",
             "noticias": [
               {
+                "titulo": "Es poco probable que la primera dama estadounidense Melania Trump viaje a la cumbre de Apec en China",
+                "url": "https://www.scmp.com/news/china/diplomacy/article/3372888/us-first-lady-melania-trump-unlikely-travel-apec-summit-china",
+                "resumen": "Es poco probable que la primera dama estadounidense Melania Trump viaje a China con el presidente para la cumbre de Cooperación Económica Asia-Pacífico en Shenzhen este mes. \"La primera dama Melania Trump no está programada para asistir a los eventos en persona\", dijo su oficina en respuesta a una pregunta sobre su viaje.",
+                "fecha": "Sun, 01 Nov 2026 12:00:23 +0000",
+                "titulo_original": "US first lady Melania Trump unlikely to travel to Apec summit in China",
+                "tags": [
+                  "#EEUU",
+                  "#Elecciones",
+                  "#Política"
+                ],
+                "tema_repetido": true,
+                "cluster_tema": "Elecciones y Pugna Institucional EE.UU.",
+                "coincidencias_count": 8
+              },
+              {
+                "titulo": "La IA de mejora personal es el paso clave hacia la AGI, pero la seguridad es clave: fundador de Z.ai",
+                "url": "https://www.scmp.com/tech/tech-trends/article/3372834/self-improving-ai-key-step-towards-agi-safety-key-zai-founder",
+                "resumen": "El uso de inteligencia artificial para construir sistemas aún más inteligentes hará que la inteligencia artificial general (AGI) sea más alcanzable, aunque tendría que hacerse de manera segura, dijo el destacado científico informático chino Tang Jie en un evento en Shanghai el sábado. Los comentarios subrayan cómo la IA",
+                "fecha": "Sun, 01 Nov 2026 12:00:19 +0000",
+                "titulo_original": "Self-improving AI the key step towards AGI but safety is key: Z.ai founder",
+                "tags": [
+                  "#DeepTech",
+                  "#InteligenciaArtificial",
+                  "#Innovación"
+                ],
+                "tema_repetido": true,
+                "cluster_tema": "Tecnología Disruptiva, IA y Biotecnología",
+                "coincidencias_count": 2
+              },
+              {
+                "titulo": "¿Gran Manzana vs Perla de Oriente? Cómo los impuestos más altos en Nueva York pueden abrir la puerta a Hong Kong",
+                "url": "https://www.scmp.com/business/money/wealth/article/3372833/big-apple-vs-pearl-orient-how-higher-taxes-new-york-may-open-door-hong-kong",
+                "resumen": "El 4 de noviembre del año pasado, Zohran Mamdani ganó las elecciones a la alcaldía de Nueva York con la promesa de hacer la ciudad más asequible, con programas sociales ampliados financiados en parte mediante el aumento de impuestos a los residentes más ricos y a las corporaciones más rentables de la ciudad. Casi un año desde su ascenso.",
+                "fecha": "Sun, 01 Nov 2026 12:00:12 +0000",
+                "titulo_original": "Big Apple vs Pearl of the Orient? How higher taxes in New York may open door for Hong Kong",
+                "tags": [],
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
+              },
+              {
                 "titulo": "Conversaciones entre Estados Unidos e Irán: los Emiratos Árabes Unidos “se preparan para lo peor” y esperan la diplomacia",
                 "url": "https://www.scmp.com/news/world/middle-east/article/3372891/us-iran-talks-uae-braced-worst-hoping-diplomacy",
-                "resumen": "The UAE is hoping for a breakthrough in negotiations between Iran and the United States while being prepared for the worst, a senior official said on Sunday, following threats of a resumption of the Middle East war. “We’re hoping that there is a diplomatic breakthrough,” diplomat",
+                "resumen": "Los Emiratos Árabes Unidos esperan un gran avance en las negociaciones entre Irán y Estados Unidos mientras se preparan para lo peor, dijo el domingo un alto funcionario, tras las amenazas de una reanudación de la guerra en Oriente Medio. \"Esperamos que haya un avance diplomático\", afirmó el diplomático.",
                 "fecha": "Sun, 01 Nov 2026 11:35:47 +0000",
                 "titulo_original": "US-Iran talks: UAE ‘braced for the worst’, hoping for diplomacy",
-                "tags": [],
-                "tema_repetido": false,
-                "cluster_tema": "",
-                "coincidencias_count": 0
-              },
-              {
-                "titulo": "¿Cómo podría una única inyección de edición genética tratar enfermedades oculares hereditarias?",
-                "url": "https://www.scmp.com/news/hong-kong/health-environment/article/3372867/how-could-single-gene-editing-injection-treat-inherited-eye-diseases",
-                "resumen": "In the third of a four-part Health Matters wellness series on frontier medicine in Hong Kong, Fiona Sun examines how a local start-up is testing a gene-editing therapy that could tackle a group of inherited eye diseases at their genetic source and what it will take to turn it int",
-                "fecha": "Sun, 01 Nov 2026 11:00:10 +0000",
-                "titulo_original": "How could a single gene-editing injection treat inherited eye diseases?",
                 "tags": [
-                  "#DeepTech",
-                  "#InteligenciaArtificial",
-                  "#Innovación"
+                  "#OrienteMedio",
+                  "#Geopolítica",
+                  "#Seguridad"
                 ],
                 "tema_repetido": true,
-                "cluster_tema": "Tecnología Disruptiva, IA y Biotecnología",
-                "coincidencias_count": 2
-              },
-              {
-                "titulo": "La oposición india se une para exigir la dimisión del jefe electoral de Modi",
-                "url": "https://www.scmp.com/news/asia/south-asia/article/3372886/indian-opposition-unites-demand-modi-electoral-chiefs-resignation",
-                "resumen": "Thousands protested in Delhi on Sunday to demand the resignation of India’s election chief over a revision of voter lists, the latest in more than a month of ‌opposition demonstrations challenging Prime Minister Narendra Modi. Led by Congress party chief Rahul Gandhi, Sunday’s pr",
-                "fecha": "Sun, 01 Nov 2026 10:13:07 +0000",
-                "titulo_original": "Indian opposition unites to demand Modi electoral chief’s resignation",
-                "tags": [],
-                "tema_repetido": false,
-                "cluster_tema": "",
-                "coincidencias_count": 0
-              },
-              {
-                "titulo": "DeepSeek presenta un 'superagente' de IA en la carrera de codificación con OpenAI y Anthropic",
-                "url": "https://www.scmp.com/tech/article/3372884/deepseek-unveils-ai-super-agent-coding-race-openai-anthropic",
-                "resumen": "Chinese artificial intelligence start-up DeepSeek has previewed a plan for a more autonomous AI agent that can handle multiple tasks with minimal human intervention, as it steps up competition with US rivals OpenAI and Anthropic in developing coding assistants. The proposed syste",
-                "fecha": "Sun, 01 Nov 2026 10:00:26 +0000",
-                "titulo_original": "DeepSeek unveils AI ‘super agent’ in coding race with OpenAI, Anthropic",
-                "tags": [
-                  "#DeepTech",
-                  "#InteligenciaArtificial",
-                  "#Innovación"
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "Tecnología Disruptiva, IA y Biotecnología",
-                "coincidencias_count": 2
+                "cluster_tema": "Conflicto Oriente Medio (Gaza / Líbano)",
+                "coincidencias_count": 5
               }
             ],
             "estado": "OK",
@@ -2122,7 +2127,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Accidente Ferroviario / Red de Transporte",
-                "coincidencias_count": 7
+                "coincidencias_count": 9
               },
               {
                 "titulo": "Experto chino critica la afirmación del canciller filipino de que la delimitación entre Japón y Filipinas \"no tiene nada que ver\" con China y advierte que la medida sirve para propósitos ulteriores más allá de las conversaciones bilaterales.",
@@ -2146,7 +2151,7 @@
               {
                 "titulo": "Palestinos chocan con soldados israelíes tras protesta contra la visita de Pence",
                 "url": "http://www.xinhuanet.com/english/world/2018-01/24/c_136919909.htm",
-                "resumen": "Palestinian protesters hurl stones at Israeli soldiers during clashes after a protest against the visit of U.S. Vice President Mike Pence in Jerusalem, in the West Bank city of Hebron, on Jan. 23, 2018.",
+                "resumen": "Manifestantes palestinos arrojan piedras a soldados israelíes durante enfrentamientos después de una protesta contra la visita del vicepresidente estadounidense Mike Pence a Jerusalén, en la ciudad cisjordana de Hebrón, el 23 de enero de 2018.",
                 "fecha": "2018-01-24",
                 "titulo_original": "Palestinians clash with Israeli soldiers after protest against Pence visit",
                 "tags": [
@@ -2157,12 +2162,12 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Manifestaciones y Protestas Sociales",
-                "coincidencias_count": 12
+                "coincidencias_count": 9
               },
               {
                 "titulo": "El fracaso de Estados Unidos en nombrar embajador australiano es un \"insulto diplomático\": ex viceprimer ministro",
                 "url": "http://www.xinhuanet.com/english/2018-01/03/c_136868968.htm",
-                "resumen": "Former Australian Deputy Prime Minister Tim Fischer has accused the U.S. of hitting Australia with a \"diplomatic insult.\"",
+                "resumen": "El ex viceprimer ministro australiano Tim Fischer acusó a Estados Unidos de golpear a Australia con un \"insulto diplomático\".",
                 "fecha": "2018-01-03",
                 "titulo_original": "U.S. failure to appoint Australian ambassador \"diplomatic insult\": former deputy PM",
                 "tags": [
@@ -2175,7 +2180,7 @@
               {
                 "titulo": "El presidente del Parlamento húngaro se dirige a Budapest",
                 "url": "http://www.xinhuanet.com/english/2017-10/28/c_136711043.htm",
-                "resumen": "Laszlo Kover (1st L), Speaker of the Hungarian Parliament, speaks at a conference of the parliament speakers of the Western Balkans in Budapest, Hungary on Oct. 27, 2017.",
+                "resumen": "Laszlo Kover (primero por la izquierda), presidente del Parlamento húngaro, habla en una conferencia de presidentes del parlamento de los Balcanes Occidentales en Budapest, Hungría, el 27 de octubre de 2017.",
                 "fecha": "2017-10-28",
                 "titulo_original": "Speaker of Hungarian Parliament addresses in Budapest",
                 "tags": [
@@ -2188,7 +2193,7 @@
               {
                 "titulo": "El tifón Lan azota el centro de Japón, matando a dos personas e interrumpiendo los sistemas de transporte",
                 "url": "http://www.xinhuanet.com/english/2017-10/23/c_136699146.htm",
-                "resumen": "Two people were killed and transportation systems and businesses severely disrupted as Typhoon Lan lashed central Japan's Pacific coast after making landfall early Monday.",
+                "resumen": "Dos personas murieron y los sistemas de transporte y negocios quedaron gravemente afectados cuando el tifón Lan azotó la costa central del Pacífico de Japón después de tocar tierra el lunes por la mañana.",
                 "fecha": "2017-10-23",
                 "titulo_original": "Typhoon Lan lashes central Japan, killing 2 and disrupting transport systems",
                 "tags": [
@@ -2199,7 +2204,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Accidente Ferroviario / Red de Transporte",
-                "coincidencias_count": 7
+                "coincidencias_count": 9
               }
             ],
             "estado": "OK",

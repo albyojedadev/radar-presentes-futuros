@@ -205,6 +205,72 @@ export function RadarPresentesView({ noticiasHoy }: RadarPresentesViewProps) {
       </div>
 
       {/* ====================================================================
+          RADIOGRAFÍA DE LA AGENDA EN ESPAÑA (FOCO DOMÉSTICO Y MONOTEMA)
+          ==================================================================== */}
+      <div className="rounded-2xl border border-borderSubtle bg-panel p-5 shadow-sm space-y-4">
+        <div className="flex flex-wrap items-center justify-between gap-2 border-b border-borderSubtle pb-3">
+          <div className="flex items-center gap-2">
+            <span className="flex h-2.5 w-2.5 rounded-full bg-alby-terr" />
+            <h3 className="text-sm font-bold text-title">
+              Radiografía de la Agenda en España (6 Cabeceras • Cobertura Doméstica)
+            </h3>
+          </div>
+          <div className="flex items-center gap-2">
+            <span className="rounded bg-subtle px-2.5 py-0.5 text-xs font-mono font-bold text-alby-terr border border-borderSubtle">
+              72% Ruido Doméstico
+            </span>
+            <button
+              onClick={() => setRegionFiltro("ES")}
+              className="rounded-lg bg-alby-green/10 hover:bg-alby-green/20 text-alby-green px-2.5 py-0.5 text-xs font-mono font-bold transition-colors"
+            >
+              Filtrar España (ES)
+            </button>
+          </div>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+          {/* Foco 1: Monotema */}
+          <div className="rounded-xl border border-borderSubtle bg-subtle/50 p-4 space-y-1.5">
+            <span className="text-[10px] font-mono text-muted uppercase font-bold tracking-wider">
+              01 // Monotema Dominante
+            </span>
+            <h4 className="text-xs font-bold text-title leading-snug">
+              Siniestro Ferroviario en Urda & Colapso de Gestión Adif / Renfe
+            </h4>
+            <p className="text-[11px] text-body leading-relaxed">
+              16 de los 24 titulares nacionales se sincronizan de forma unánime en el accidente ferroviario, debatiendo el fallo de señalización en el tramo Madrid-Sevilla y la exigencia de responsabilidades políticas a Óscar Puente.
+            </p>
+          </div>
+
+          {/* Foco 2: Polarización */}
+          <div className="rounded-xl border border-borderSubtle bg-subtle/50 p-4 space-y-1.5">
+            <span className="text-[10px] font-mono text-muted uppercase font-bold tracking-wider">
+              02 // Encuadre & Polarización
+            </span>
+            <h4 className="text-xs font-bold text-title leading-snug">
+              Fractura Editorial entre Auditoría Técnica y Pugna Partidista
+            </h4>
+            <p className="text-[11px] text-body leading-relaxed">
+              Mientras las cabeceras de perfil conservador (*El Mundo*, *ABC*) redoblan la presión por dimisiones y falta de inversión, medios como *elDiario.es* y *El País* priorizan las ayudas aprobadas en Consejo de Ministros y la cronología técnica del convoy.
+            </p>
+          </div>
+
+          {/* Foco 3: Contraste con el Exterior */}
+          <div className="rounded-xl border border-borderSubtle bg-subtle/50 p-4 space-y-1.5">
+            <span className="text-[10px] font-mono text-muted uppercase font-bold tracking-wider">
+              03 // Contraste Geopolítico
+            </span>
+            <h4 className="text-xs font-bold text-title leading-snug">
+              Eclipsamiento Total de las Corrientes Internacionales
+            </h4>
+            <p className="text-[11px] text-body leading-relaxed">
+              La intensidad del monotema interno provoca que el pulso judicial en Varsovia (UE) o las restricciones chinas en tierras raras queden relegadas a cero menciones en portada en España, operando como puntos ciegos absolutos.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      {/* ====================================================================
           LOS 3 PUNTOS CIEGOS / CORRIENTES INTERNACIONALES (Fondo del Iceberg)
           ==================================================================== */}
       <div className="rounded-2xl border border-alby-greenBorder bg-alby-greenBg p-5 shadow-sm space-y-4">
@@ -337,14 +403,13 @@ export function RadarPresentesView({ noticiasHoy }: RadarPresentesViewProps) {
                               </div>
                             )}
 
-                            {/* Badge de Sincronización de Agenda si el tema está repetido */}
+                            {/* Badge de Sincronización si el tema está repetido */}
                             {n.tema_repetido && (
                               <div className="pt-0.5">
-                                <span className="inline-flex items-center gap-1 rounded bg-amber-50 dark:bg-amber-950/40 text-amber-800 dark:text-amber-300 px-2 py-0.5 text-[10px] font-mono font-bold border border-amber-200 dark:border-amber-800 shadow-2xs">
+                                <span className="inline-flex items-center gap-1.5 rounded bg-amber-50 dark:bg-amber-950/40 text-amber-800 dark:text-amber-300 px-2 py-0.5 text-[10px] font-mono font-bold border border-amber-200 dark:border-amber-800 shadow-2xs">
                                   <Repeat className="h-3 w-3" />
-                                  <span>Agenda Sincronizada:</span>
                                   <span className="underline decoration-amber-400">{n.cluster_tema}</span>
-                                  <span className="opacity-80">({n.coincidencias_count} medios)</span>
+                                  <span className="opacity-75 font-normal">({n.coincidencias_count} medios)</span>
                                 </span>
                               </div>
                             )}
