@@ -56,202 +56,210 @@ export function HemerotecaView({ semanasPorAno }: HemerotecaViewProps) {
   return (
     <div className="space-y-6">
       {/* Barra de Controles: Selector de Año y Buscador */}
-      <div className="flex flex-wrap items-center justify-between gap-4 rounded-2xl border border-cardBorder bg-card p-4 shadow-md">
+      <div className="flex flex-wrap items-center justify-between gap-4 rounded-2xl border border-borderSubtle bg-panel p-4 shadow-sm">
         {/* Selector de Años */}
         <div className="flex items-center gap-1.5 overflow-x-auto">
-          <span className="text-xs font-mono text-alby-muted mr-1 uppercase font-bold">Año:</span>
-          {anosDisponibles.map((a) => (
+          {anosDisponibles.map((ano) => (
             <button
-              key={a}
+              key={ano}
               onClick={() => {
-                setAnoSeleccionado(a);
-                const sAno = semanasPorAno[a] || [];
-                if (sAno.length > 0) {
-                  setSemanaSeleccionada(sAno[sAno.length - 1].codigo);
+                setAnoSeleccionado(ano);
+                const semanas = semanasPorAno[ano] || [];
+                if (semanas.length > 0) {
+                  setSemanaSeleccionada(semanas[semanas.length - 1].codigo);
                 }
               }}
               className={`rounded-lg px-3 py-1.5 text-xs font-mono font-bold transition-all ${
-                anoSeleccionado === a
-                  ? "bg-alby-green text-ink shadow-md"
-                  : "border border-cardBorder bg-dark text-alby-cream hover:text-alby-light hover:border-alby-green/60"
+                anoSeleccionado === ano
+                  ? "bg-alby-green text-[#fbfaf7] shadow-sm"
+                  : "border border-borderSubtle bg-subtle text-muted hover:text-title"
               }`}
             >
-              {a}
+              {ano}
             </button>
           ))}
         </div>
 
-        {/* Buscador */}
+        {/* Buscador Contextual */}
         <div className="relative min-w-[240px]">
-          <Search className="absolute left-3 top-2.5 h-3.5 w-3.5 text-alby-muted" />
+          <Search className="absolute left-3 top-2.5 h-3.5 w-3.5 text-muted" />
           <input
             type="text"
-            placeholder="Buscar por término clave..."
             value={filtroTexto}
             onChange={(e) => setFiltroTexto(e.target.value)}
-            className="w-full rounded-lg border border-cardBorder bg-dark pl-9 pr-3 py-1.5 text-xs text-alby-light placeholder-alby-muted focus:border-alby-green focus:outline-none"
+            placeholder="Buscar titular o país..."
+            className="w-full rounded-xl border border-borderSubtle bg-subtle py-1.5 pl-9 pr-3 text-xs text-title placeholder-muted focus:border-alby-green focus:outline-hidden"
           />
         </div>
       </div>
 
       {/* Navegador de Semanas */}
-      <div className="flex flex-wrap items-center justify-between gap-3 rounded-xl border border-cardBorder bg-dark/80 px-4 py-2.5 shadow-sm">
+      <div className="flex flex-wrap items-center justify-between gap-3 rounded-2xl border border-borderSubtle bg-panel px-5 py-3 shadow-sm">
         <div className="flex items-center gap-2">
           <button
             onClick={irSemanaAnterior}
             disabled={semanaIdx <= 0}
-            className="rounded p-1 text-alby-cream hover:bg-card hover:text-alby-light disabled:opacity-30"
+            className="flex h-8 w-8 items-center justify-center rounded-lg border border-borderSubtle bg-subtle text-muted disabled:opacity-40 hover:text-title"
           >
-            <ChevronLeft className="h-5 w-5" />
+            <ChevronLeft className="h-4 w-4" />
           </button>
-          <span className="font-mono text-sm font-bold text-alby-light tracking-wide">
-            SEMANA {semanaSeleccionada}
+          <span className="font-mono text-sm font-bold text-title">
+            {semanaSeleccionada}
           </span>
           <button
             onClick={irSemanaSiguiente}
             disabled={semanaIdx >= semanasDelAno.length - 1}
-            className="rounded p-1 text-alby-cream hover:bg-card hover:text-alby-light disabled:opacity-30"
+            className="flex h-8 w-8 items-center justify-center rounded-lg border border-borderSubtle bg-subtle text-muted disabled:opacity-40 hover:text-title"
           >
-            <ChevronRight className="h-5 w-5" />
+            <ChevronRight className="h-4 w-4" />
           </button>
+          <span className="text-xs text-muted font-mono ml-2">
+            ({semanaIdx + 1} de {semanasDelAno.length} semanas registradas en {anoSeleccionado})
+          </span>
         </div>
 
-        {/* Selector Desplegable de Semanas */}
-        <div className="flex items-center gap-2 overflow-x-auto py-1">
-          <span className="text-xs font-mono text-alby-muted">Ir a:</span>
-          <select
-            value={semanaSeleccionada}
-            onChange={(e) => setSemanaSeleccionada(e.target.value)}
-            className="rounded-lg border border-cardBorder bg-card px-3 py-1 text-xs font-mono text-alby-light focus:border-alby-green focus:outline-none"
-          >
-            {semanasDelAno.map((s) => (
-              <option key={s.codigo} value={s.codigo}>
-                {s.codigo}
-              </option>
-            ))}
-          </select>
-          <span className="text-xs font-mono text-alby-muted">
-            ({semanasDelAno.length} semanas registradas)
-          </span>
+        {/* Barra de píldoras de semanas con scroll horizontal */}
+        <div className="flex items-center gap-1 overflow-x-auto max-w-full sm:max-w-md py-1">
+          {semanasDelAno.map((s) => {
+            const isActiva = s.codigo === semanaSeleccionada;
+            const num = s.codigo.split("-W")[1];
+            return (
+              <button
+                key={s.codigo}
+                onClick={() => setSemanaSeleccionada(s.codigo)}
+                className={`rounded px-2 py-0.5 text-[10px] font-mono font-medium transition-all ${
+                  isActiva
+                    ? "bg-alby-green text-[#fbfaf7] font-bold"
+                    : "bg-subtle text-muted hover:text-title"
+                }`}
+              >
+                W{num}
+              </button>
+            );
+          })}
         </div>
       </div>
 
-      {/* Contenido Completo de la Semana */}
-      <div className="rounded-2xl border border-cardBorder bg-card p-6 shadow-xl space-y-6">
-        <div className="border-b border-cardBorder pb-4 flex flex-wrap items-center justify-between gap-2">
-          <div>
-            <span className="text-xs font-mono text-alby-terr font-bold uppercase tracking-widest">
-              // HEMEROTECA DOCUMENTAL //
+      {/* Contenedor del Informe Semanal: Tarjetas por Bloque con Titulares Reales */}
+      <div className="rounded-2xl border border-borderSubtle bg-panel p-6 shadow-sm space-y-6">
+        <div className="border-b border-borderSubtle pb-4">
+          <div className="flex items-center gap-2 mb-1">
+            <span className="text-[10px] font-mono tracking-widest text-alby-green uppercase font-bold">
+              // INFORME SEMANAL ARCHIVADO //
             </span>
-            <h2 className="text-xl font-bold text-alby-light mt-1">
-              Titulares de Portadas y Agenda Global ({semanaSeleccionada})
-            </h2>
-            <p className="text-xs text-alby-cream mt-1">
-              Mostrando los acontecimientos dominantes en cada uno de los 9 bloques territoriales.
-            </p>
           </div>
-          <span className="rounded bg-alby-green/15 text-alby-green border border-alby-green/30 px-3 py-1 text-xs font-mono font-bold">
-            9 Bloques con Titulares
-          </span>
+          <h2 className="text-xl font-bold text-title">
+            Auditoría de Portadas y Agenda Global ({semanaSeleccionada})
+          </h2>
+          <p className="text-xs text-muted mt-1 leading-relaxed">
+            Filtro de 'La Oruga': contraste entre superficie mediática de los 9 bloques y corrientes subterráneas. Titulares reales indexados con enlace canónico a fuentes de archivo.
+          </p>
         </div>
 
-        {/* Cuadrícula de las 9 Regiones con sus Titulares Reales */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-          {regionesMeta.map((rm) => {
-            let tits = titularesSemana[rm.cod] || [];
-
-            // Filtrar por término de búsqueda si está activo
-            if (filtroTexto.trim()) {
-              tits = tits.filter((t) =>
-                t.titulo.toLowerCase().includes(filtroTexto.toLowerCase())
-              );
-            }
+        {/* 9 Bloques Geopolíticos con Titulares */}
+        <div className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
+          {regionesMeta.map((reg) => {
+            const listaTitulares = titularesSemana[reg.cod] || [];
+            const filtrados = filtroTexto
+              ? listaTitulares.filter((t) =>
+                  t.titulo.toLowerCase().includes(filtroTexto.toLowerCase()) ||
+                  t.medio.toLowerCase().includes(filtroTexto.toLowerCase())
+                )
+              : listaTitulares;
 
             return (
               <div
-                key={rm.cod}
-                className="rounded-xl border border-cardBorder bg-dark/80 p-4 flex flex-col justify-between transition-all hover:border-alby-green/50 hover:bg-cardHover"
+                key={reg.cod}
+                className="flex flex-col justify-between rounded-xl border border-borderSubtle bg-subtle/40 p-4 transition-all hover:border-alby-green hover:bg-subtle/80 hover:shadow-sm"
               >
                 <div>
-                  {/* Encabezado del Bloque */}
-                  <div className="flex items-center justify-between mb-3 border-b border-cardBorder/60 pb-2">
+                  <div className="flex items-center justify-between border-b border-borderSubtle pb-2 mb-3">
                     <div className="flex items-center gap-2">
-                      <span className="rounded bg-alby-terr/20 text-alby-terr border border-alby-terr/30 px-2 py-0.5 text-xs font-mono font-bold">
-                        {rm.cod}
+                      <span className="rounded bg-alby-green/15 text-alby-green border border-alby-greenBorder px-2 py-0.5 font-mono text-[10px] font-bold">
+                        {reg.cod}
                       </span>
-                      <h3 className="text-sm font-bold text-alby-light">
-                        {rm.nombre}
-                      </h3>
+                      <h4 className="text-xs font-bold text-title">
+                        {reg.nombre}
+                      </h4>
                     </div>
-                    <span className="text-[10px] font-mono text-alby-muted">
-                      {rm.bloque}
+                    <span className="text-[10px] font-mono text-muted">
+                      {reg.bloque}
                     </span>
                   </div>
 
-                  {/* Lista de Titulares Reales */}
-                  {tits.length > 0 ? (
+                  {filtrados.length > 0 ? (
                     <div className="space-y-3">
-                      {tits.map((item, idx) => (
-                        <div key={idx} className="group">
-                          <p className="text-xs font-medium text-alby-light leading-snug group-hover:text-alby-green transition-colors">
-                            • {item.titulo}
-                          </p>
-                          <div className="mt-1 flex items-center justify-between text-[11px] font-mono text-alby-muted">
-                            <span className="text-alby-cream font-medium">[{item.medio}]</span>
-                            {item.url && (
-                              <a
-                                href={item.url}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="inline-flex items-center gap-1 text-alby-green hover:underline font-semibold"
-                              >
-                                <span>Tirar del hilo</span>
-                                <ExternalLink className="h-3 w-3" />
-                              </a>
-                            )}
-                          </div>
+                      {filtrados.slice(0, 4).map((t, idx) => (
+                        <div key={idx} className="space-y-1">
+                          <a
+                            href={t.url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="block text-xs font-bold text-title leading-snug hover:text-alby-green transition-colors line-clamp-2"
+                          >
+                            • {t.titulo}
+                          </a>
+                          {t.medio && (
+                            <span className="font-mono text-[10px] text-muted block">
+                              Cabecera: <strong className="text-body">{t.medio}</strong>
+                            </span>
+                          )}
                         </div>
                       ))}
                     </div>
                   ) : (
-                    <p className="text-xs text-alby-muted italic py-3">
-                      {filtroTexto.trim()
-                        ? "Sin coincidencias para la búsqueda."
-                        : "Sin titulares específicos en este archivo."}
-                    </p>
+                    <div className="py-4 text-center text-xs font-mono text-muted">
+                      {filtroTexto ? "Sin coincidencias de búsqueda." : "Vigilancia de archivo completada."}
+                    </div>
                   )}
                 </div>
 
-                <div className="mt-4 pt-2 border-t border-cardBorder/40 flex items-center justify-between text-[10px] font-mono text-alby-muted">
-                  <span>{tits.length} noticias registradas</span>
-                  <span className="text-alby-green font-medium">Verificado</span>
+                <div className="mt-4 border-t border-borderSubtle pt-2.5 flex items-center justify-between text-[11px] font-mono">
+                  <span className="text-muted">
+                    {listaTitulares.length} titulares archivados
+                  </span>
+                  <a
+                    href={`https://www.google.com/search?q=${encodeURIComponent(
+                      `${reg.nombre} noticias hemeroteca ${semanaSeleccionada}`
+                    )}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-1 text-alby-green hover:underline font-semibold"
+                  >
+                    <span>Tirar del hilo</span>
+                    <ExternalLink className="h-3 w-3" />
+                  </a>
                 </div>
               </div>
             );
           })}
         </div>
 
-        {/* Sección de Segundo Orden: Puntos Ciegos y Framing */}
-        <div className="rounded-xl border border-cardBorder bg-dark/95 p-5 space-y-4">
-          <h4 className="text-xs font-mono font-bold text-alby-light uppercase tracking-wider flex items-center gap-2">
+        {/* Bloque de Síntesis de Segundo Orden */}
+        <div className="rounded-xl border border-borderSubtle bg-subtle p-5 space-y-4">
+          <div className="flex items-center gap-2 border-b border-borderSubtle pb-2.5">
             <Compass className="h-4 w-4 text-alby-green" />
-            // ANÁLISIS DE SEGUNDO ORDEN ({semanaSeleccionada}) //
-          </h4>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-5 text-xs">
-            <div className="rounded-lg border border-alby-terr/30 bg-alby-terr/5 p-4 border-l-4 border-l-alby-terr">
-              <strong className="text-alby-terr block mb-1 text-sm font-bold">
+            <h3 className="text-sm font-bold text-title">
+              Síntesis de Segundo Orden ({semanaSeleccionada})
+            </h3>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div className="space-y-1 text-xs">
+              <span className="font-mono text-[11px] text-alby-terr font-bold block">
                 Punto Ciego en la Prensa Española
-              </strong>
-              <p className="text-alby-cream leading-relaxed">
-                Durante esta semana, la atención en España estuvo absorbida por la dinámica política interna y los debates parlamentarios, dejando en segundo plano las transformaciones mineras en África y las decisiones regulatorias de Pekín.
+              </span>
+              <p className="text-body leading-relaxed">
+                Durante esta semana, el debate doméstico en España eclipsó por completo los avances normativos en Pekín y las transformaciones mineras en el continente africano.
               </p>
             </div>
-            <div className="rounded-lg border border-alby-green/30 bg-alby-green/5 p-4 border-l-4 border-l-alby-green">
-              <strong className="text-alby-green block mb-1 text-sm font-bold">
-                Divergencia de Encuadre (Framing Geopolítico)
-              </strong>
-              <p className="text-alby-cream leading-relaxed">
-                Mientras las cabeceras occidentales priorizaron controversias electorales inmediatas, el eje oriental centró su cobertura en la seguridad física de cadenas de valor y acuerdos bilaterales de suministro.
+
+            <div className="space-y-1 text-xs">
+              <span className="font-mono text-[11px] text-alby-green font-bold block">
+                Divergencia de Encuadre (Framing)
+              </span>
+              <p className="text-body leading-relaxed">
+                Mientras las cabeceras occidentales priorizaron controversias electorales inmediatas, el eje oriental centró su cobertura en la seguridad física de cadenas de valor y soberanía de chips.
               </p>
             </div>
           </div>

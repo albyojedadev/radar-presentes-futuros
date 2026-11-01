@@ -13,7 +13,7 @@ export default function Home() {
   const dataset = datasetStatic;
 
   return (
-    <div className="min-h-screen bg-[#0f0e0c] text-[#f8f6f0] flex flex-col justify-between">
+    <div className="min-h-screen bg-page text-body flex flex-col justify-between transition-colors duration-200">
       <div>
         <Header
           vistaActiva={vistaActiva}
@@ -40,8 +40,8 @@ export default function Home() {
         </main>
       </div>
 
-      <footer className="border-t border-[#2e2820] bg-[#14120f] py-4 text-center text-[11px] font-mono text-[#c5bfb1]">
-        RADAR DE PRESENTES & FUTUROS // 9 BLOQUES GEOPOLÍTICOS • ACTUALIZACIÓN DIARIA CONTINUA • ALBY OJEDA
+      <footer className="border-t border-borderSubtle bg-panel py-4 text-center text-[11px] font-mono text-muted">
+        RADAR DE PRESENTES & FUTUROS // 9 BLOQUES GEOPOLÍTICOS • ACTUALIZACIÓN DIARIA CONTINUA (LUNES A DOMINGO) • ALBY OJEDA
       </footer>
     </div>
   );

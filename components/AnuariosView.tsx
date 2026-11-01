@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import { FileText, Flame, Eye, Compass, ExternalLink, ShieldAlert, ArrowRight, CheckCircle2 } from "lucide-react";
+import { FileText, Flame, Eye, Compass, ExternalLink, ArrowRight, CheckCircle2 } from "lucide-react";
 
 interface AnuariosViewProps {
   anuarios: Record<string, { archivo: string; year: number; markdown: string }>;
@@ -59,7 +59,6 @@ export function AnuariosView({ anuarios }: AnuariosViewProps) {
     let fechaEmision = "";
     let tipoDocumento = "Anuario Estratégico de Segundo Orden";
 
-    // Extraer títulos
     for (let i = 0; i < Math.min(10, lineas.length); i++) {
       const l = lineas[i].trim();
       if (l.startsWith("# ") && !titulo.includes("—")) {
@@ -73,7 +72,6 @@ export function AnuariosView({ anuarios }: AnuariosViewProps) {
       }
     }
 
-    // Extraer secciones por bloques
     let seccionActual = "";
     let panoramica = "";
     const campanasHumo: ItemHumo[] = [];
@@ -185,16 +183,16 @@ export function AnuariosView({ anuarios }: AnuariosViewProps) {
 
   return (
     <div className="space-y-6">
-      {/* Selector de Anuario — Paleta Alby Ojeda */}
-      <div className="flex flex-wrap items-center justify-between gap-4 rounded-2xl border border-[#2e2820] bg-[#181512] p-5 shadow-xl">
+      {/* Selector de Anuario — Paleta Diurna Oficial */}
+      <div className="flex flex-wrap items-center justify-between gap-4 rounded-2xl border border-borderSubtle bg-panel p-5 shadow-sm">
         <div>
-          <span className="text-[10px] font-mono tracking-widest text-[#c97755] uppercase font-bold">
+          <span className="text-[10px] font-mono tracking-widest text-alby-terr uppercase font-bold">
             // AUDITORÍAS DE SEGUNDO ORDEN //
           </span>
-          <h2 className="text-base font-bold text-[#f8f6f0]">
+          <h2 className="text-base font-bold text-title">
             Anuarios Estratégicos (Emitidos cada 1 de Enero)
           </h2>
-          <p className="text-xs text-[#c5bfb1] mt-0.5">
+          <p className="text-xs text-muted mt-0.5">
             Separación retrospectiva de la espuma mediática efímera frente a las transformaciones geopolíticas reales.
           </p>
         </div>
@@ -208,8 +206,8 @@ export function AnuariosView({ anuarios }: AnuariosViewProps) {
                 onClick={() => setAnoSeleccionado(a)}
                 className={`rounded-xl px-3.5 py-2 text-xs font-mono font-bold transition-all ${
                   isActive
-                    ? "bg-[#7a9a5c] text-[#0f0e0c] shadow-lg shadow-[#7a9a5c]/20"
-                    : "border border-[#2e2820] bg-[#14120f] text-[#c5bfb1] hover:text-[#f8f6f0] hover:border-[#3d362a]"
+                    ? "bg-alby-green text-[#fbfaf7] shadow-sm"
+                    : "border border-borderSubtle bg-subtle text-muted hover:text-title"
                 }`}
               >
                 Anuario {a}
@@ -222,38 +220,38 @@ export function AnuariosView({ anuarios }: AnuariosViewProps) {
       {parsed ? (
         <div className="space-y-6">
           {/* Tarjeta Hero: Encabezado Editorial */}
-          <div className="rounded-2xl border border-[#2e2820] bg-[#181512] p-6 shadow-xl space-y-4">
-            <div className="flex flex-wrap items-center justify-between gap-2 border-b border-[#2e2820] pb-4">
+          <div className="rounded-2xl border border-borderSubtle bg-panel p-6 shadow-sm space-y-4">
+            <div className="flex flex-wrap items-center justify-between gap-2 border-b border-borderSubtle pb-4">
               <div className="flex items-center gap-2">
-                <span className="rounded-md bg-[#7a9a5c]/15 text-[#7a9a5c] border border-[#7a9a5c]/30 px-2.5 py-1 text-xs font-mono font-bold">
+                <span className="rounded-md bg-alby-greenBg text-alby-green border border-alby-greenBorder px-2.5 py-1 text-xs font-mono font-bold">
                   EJERCICIO {anoSeleccionado}
                 </span>
-                <span className="text-xs font-mono text-[#c5bfb1]">
+                <span className="text-xs font-mono text-muted">
                   Auditado sobre 52/53 semanas de hemeroteca
                 </span>
               </div>
-              <div className="text-[11px] font-mono text-[#c5bfb1]">
-                Emisión Canónica: <strong className="text-[#f8f6f0]">{parsed.fechaEmision}</strong>
+              <div className="text-[11px] font-mono text-muted">
+                Emisión Canónica: <strong className="text-title">{parsed.fechaEmision}</strong>
               </div>
             </div>
 
             <div>
-              <h1 className="text-xl sm:text-2xl font-bold text-[#f8f6f0] leading-snug">
+              <h1 className="text-xl sm:text-2xl font-bold text-title leading-snug">
                 {parsed.subtitulo}
               </h1>
-              <p className="text-xs font-mono text-[#c97755] mt-1">
+              <p className="text-xs font-mono text-alby-terr font-medium mt-1">
                 {parsed.tipoDocumento}
               </p>
             </div>
 
             {/* 1. Visión Panorámica */}
             {parsed.panoramica && (
-              <div className="rounded-xl border border-[#2e2820] bg-[#14120f] p-4 text-xs leading-relaxed space-y-2">
-                <div className="flex items-center gap-2 text-[#7a9a5c] font-mono text-xs font-bold uppercase tracking-wider">
+              <div className="rounded-xl border border-borderSubtle bg-subtle p-4 text-xs leading-relaxed space-y-2">
+                <div className="flex items-center gap-2 text-alby-green font-mono text-xs font-bold uppercase tracking-wider">
                   <Compass className="h-4 w-4" />
                   <span>1. Visión Panorámica del Ejercicio</span>
                 </div>
-                <p className="text-[#f8f6f0] text-[13px] leading-relaxed">
+                <p className="text-body text-[13px] leading-relaxed">
                   {parsed.panoramica}
                 </p>
               </div>
@@ -263,22 +261,22 @@ export function AnuariosView({ anuarios }: AnuariosViewProps) {
           {/* Bloque Doble: Campañas de Humo vs Puntos Ciegos */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
             {/* 2. Campañas de Humo (Terracota) */}
-            <div className="rounded-2xl border border-[#c97755]/30 bg-[#181512] p-5 shadow-xl space-y-4">
-              <div className="flex items-center justify-between border-b border-[#2e2820] pb-3">
+            <div className="rounded-2xl border border-alby-terrBorder bg-alby-terrBg/40 p-5 shadow-sm space-y-4">
+              <div className="flex items-center justify-between border-b border-borderSubtle pb-3">
                 <div className="flex items-center gap-2">
-                  <div className="rounded-lg bg-[#c97755]/20 p-1.5 text-[#c97755]">
+                  <div className="rounded-lg bg-alby-terrBg p-1.5 text-alby-terr border border-alby-terrBorder">
                     <Flame className="h-4 w-4" />
                   </div>
                   <div>
-                    <h3 className="text-sm font-bold text-[#f8f6f0]">
+                    <h3 className="text-sm font-bold text-title">
                       2. Campañas de Humo y Distracciones
                     </h3>
-                    <span className="text-[10px] font-mono text-[#c97755] uppercase">
+                    <span className="text-[10px] font-mono text-alby-terr uppercase font-semibold">
                       Superficie del Iceberg // Trascendencia nula
                     </span>
                   </div>
                 </div>
-                <span className="rounded bg-[#c97755]/15 px-2 py-0.5 text-xs font-mono font-bold text-[#c97755]">
+                <span className="rounded bg-panel px-2 py-0.5 text-xs font-mono font-bold text-alby-terr border border-alby-terrBorder">
                   {parsed.campanasHumo.length} detectadas
                 </span>
               </div>
@@ -287,10 +285,10 @@ export function AnuariosView({ anuarios }: AnuariosViewProps) {
                 {parsed.campanasHumo.map((item, idx) => (
                   <div
                     key={idx}
-                    className="rounded-xl border border-[#2e2820] bg-[#14120f] p-4 space-y-2.5 transition-all hover:border-[#c97755]/40"
+                    className="rounded-xl border border-borderSubtle bg-panel p-4 space-y-2.5 transition-all hover:border-alby-terr"
                   >
                     <div className="flex items-start justify-between gap-3">
-                      <h4 className="text-xs font-semibold text-[#f8f6f0] leading-snug">
+                      <h4 className="text-xs font-bold text-title leading-snug">
                         {item.titulo}
                       </h4>
                       {item.url && (
@@ -298,7 +296,7 @@ export function AnuariosView({ anuarios }: AnuariosViewProps) {
                           href={item.url}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="shrink-0 inline-flex items-center gap-1 rounded bg-[#1c1814] px-2 py-1 text-[10px] font-mono text-[#c97755] hover:text-[#f8f6f0] border border-[#2e2820]"
+                          className="shrink-0 inline-flex items-center gap-1 rounded bg-subtle px-2 py-1 text-[10px] font-mono text-alby-terr hover:text-title border border-borderSubtle"
                           title="Tirar del hilo sobre la hemeroteca original"
                         >
                           <span>Tirar del hilo</span>
@@ -308,11 +306,11 @@ export function AnuariosView({ anuarios }: AnuariosViewProps) {
                     </div>
 
                     {item.evaluacion && (
-                      <div className="rounded-lg bg-[#1c1814] border-l-2 border-[#c97755] p-2.5 text-xs text-[#e8e2d2] space-y-1">
-                        <span className="font-mono text-[10px] uppercase text-[#c97755] font-bold block">
+                      <div className="rounded-lg bg-subtle border-l-2 border-alby-terr p-2.5 text-xs text-body space-y-1">
+                        <span className="font-mono text-[10px] uppercase text-alby-terr font-bold block">
                           Evaluación de Segundo Orden:
                         </span>
-                        <p className="text-[11px] leading-relaxed text-[#c5bfb1]">
+                        <p className="text-[11px] leading-relaxed text-muted">
                           {item.evaluacion}
                         </p>
                       </div>
@@ -323,22 +321,22 @@ export function AnuariosView({ anuarios }: AnuariosViewProps) {
             </div>
 
             {/* 3. Puntos Ciegos y Reformas Silenciosas (Verde Alby) */}
-            <div className="rounded-2xl border border-[#7a9a5c]/30 bg-[#181512] p-5 shadow-xl space-y-4">
-              <div className="flex items-center justify-between border-b border-[#2e2820] pb-3">
+            <div className="rounded-2xl border border-alby-greenBorder bg-alby-greenBg/40 p-5 shadow-sm space-y-4">
+              <div className="flex items-center justify-between border-b border-borderSubtle pb-3">
                 <div className="flex items-center gap-2">
-                  <div className="rounded-lg bg-[#7a9a5c]/20 p-1.5 text-[#7a9a5c]">
+                  <div className="rounded-lg bg-alby-greenBg p-1.5 text-alby-green border border-alby-greenBorder">
                     <Eye className="h-4 w-4" />
                   </div>
                   <div>
-                    <h3 className="text-sm font-bold text-[#f8f6f0]">
+                    <h3 className="text-sm font-bold text-title">
                       3. Lo que Pasó Desapercibido
                     </h3>
-                    <span className="text-[10px] font-mono text-[#7a9a5c] uppercase">
+                    <span className="text-[10px] font-mono text-alby-green uppercase font-semibold">
                       Fondo del Iceberg // Puntos Ciegos Sistémicos
                     </span>
                   </div>
                 </div>
-                <span className="rounded bg-[#7a9a5c]/15 px-2 py-0.5 text-xs font-mono font-bold text-[#7a9a5c]">
+                <span className="rounded bg-panel px-2 py-0.5 text-xs font-mono font-bold text-alby-green border border-alby-greenBorder">
                   {parsed.puntosCiegos.length} analizados
                 </span>
               </div>
@@ -347,10 +345,10 @@ export function AnuariosView({ anuarios }: AnuariosViewProps) {
                 {parsed.puntosCiegos.map((item, idx) => (
                   <div
                     key={idx}
-                    className="rounded-xl border border-[#2e2820] bg-[#14120f] p-4 space-y-2.5 transition-all hover:border-[#7a9a5c]/40"
+                    className="rounded-xl border border-borderSubtle bg-panel p-4 space-y-2.5 transition-all hover:border-alby-green"
                   >
                     <div className="flex items-start justify-between gap-3">
-                      <h4 className="text-xs font-semibold text-[#f8f6f0] leading-snug">
+                      <h4 className="text-xs font-bold text-title leading-snug">
                         {item.titulo}
                       </h4>
                       {item.url && (
@@ -358,7 +356,7 @@ export function AnuariosView({ anuarios }: AnuariosViewProps) {
                           href={item.url}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="shrink-0 inline-flex items-center gap-1 rounded bg-[#131711] px-2 py-1 text-[10px] font-mono text-[#7a9a5c] hover:text-[#f8f6f0] border border-[#2e2820]"
+                          className="shrink-0 inline-flex items-center gap-1 rounded bg-subtle px-2 py-1 text-[10px] font-mono text-alby-green hover:text-title border border-borderSubtle"
                           title="Tirar del hilo sobre la hemeroteca original"
                         >
                           <span>Tirar del hilo</span>
@@ -368,11 +366,11 @@ export function AnuariosView({ anuarios }: AnuariosViewProps) {
                     </div>
 
                     {item.impacto && (
-                      <div className="rounded-lg bg-[#131711] border-l-2 border-[#7a9a5c] p-2.5 text-xs text-[#e8e2d2] space-y-1">
-                        <span className="font-mono text-[10px] uppercase text-[#7a9a5c] font-bold block">
+                      <div className="rounded-lg bg-subtle border-l-2 border-alby-green p-2.5 text-xs text-body space-y-1">
+                        <span className="font-mono text-[10px] uppercase text-alby-green font-bold block">
                           Impacto Real Silenciado:
                         </span>
-                        <p className="text-[11px] leading-relaxed text-[#c5bfb1]">
+                        <p className="text-[11px] leading-relaxed text-muted">
                           {item.impacto}
                         </p>
                       </div>
@@ -385,27 +383,27 @@ export function AnuariosView({ anuarios }: AnuariosViewProps) {
 
           {/* Bloque Inferior: Framing Transnacional & Cuentas Pendientes */}
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
-            {/* 4. Divergencia de Framing (7 cols) */}
+            {/* 4. Divergencia de Framing */}
             {parsed.framing && (
-              <div className="rounded-2xl border border-[#2e2820] bg-[#181512] p-5 shadow-xl lg:col-span-7 space-y-3">
-                <div className="flex items-center gap-2 border-b border-[#2e2820] pb-3">
-                  <FileText className="h-4 w-4 text-[#7a9a5c]" />
-                  <h3 className="text-sm font-bold text-[#f8f6f0]">
+              <div className="rounded-2xl border border-borderSubtle bg-panel p-5 shadow-sm lg:col-span-7 space-y-3">
+                <div className="flex items-center gap-2 border-b border-borderSubtle pb-3">
+                  <FileText className="h-4 w-4 text-alby-green" />
+                  <h3 className="text-sm font-bold text-title">
                     4. Divergencia de Encuadre (Framing Transnacional)
                   </h3>
                 </div>
-                <p className="text-xs leading-relaxed text-[#e8e2d2]">
+                <p className="text-xs leading-relaxed text-body">
                   {parsed.framing}
                 </p>
               </div>
             )}
 
-            {/* 5. Cuentas Pendientes (5 cols) */}
+            {/* 5. Cuentas Pendientes */}
             {parsed.cuentasPendientes.length > 0 && (
-              <div className="rounded-2xl border border-[#2e2820] bg-[#181512] p-5 shadow-xl lg:col-span-5 space-y-3">
-                <div className="flex items-center gap-2 border-b border-[#2e2820] pb-3">
-                  <ArrowRight className="h-4 w-4 text-[#c97755]" />
-                  <h3 className="text-sm font-bold text-[#f8f6f0]">
+              <div className="rounded-2xl border border-borderSubtle bg-panel p-5 shadow-sm lg:col-span-5 space-y-3">
+                <div className="flex items-center gap-2 border-b border-borderSubtle pb-3">
+                  <ArrowRight className="h-4 w-4 text-alby-terr" />
+                  <h3 className="text-sm font-bold text-title">
                     5. Corrientes Abiertas para {parseInt(anoSeleccionado) + 1}
                   </h3>
                 </div>
@@ -413,10 +411,10 @@ export function AnuariosView({ anuarios }: AnuariosViewProps) {
                   {parsed.cuentasPendientes.map((cuenta, idx) => (
                     <div
                       key={idx}
-                      className="flex items-start gap-2 text-xs text-[#c5bfb1] bg-[#14120f] p-2.5 rounded-lg border border-[#2e2820]"
+                      className="flex items-start gap-2 text-xs text-muted bg-subtle p-2.5 rounded-lg border border-borderSubtle"
                     >
-                      <CheckCircle2 className="h-3.5 w-3.5 text-[#7a9a5c] shrink-0 mt-0.5" />
-                      <span className="leading-snug text-[#f8f6f0]">{cuenta}</span>
+                      <CheckCircle2 className="h-3.5 w-3.5 text-alby-green shrink-0 mt-0.5" />
+                      <span className="leading-snug text-title font-medium">{cuenta}</span>
                     </div>
                   ))}
                 </div>
@@ -425,7 +423,7 @@ export function AnuariosView({ anuarios }: AnuariosViewProps) {
           </div>
         </div>
       ) : (
-        <div className="rounded-2xl border border-[#2e2820] bg-[#181512] p-8 text-center text-[#c5bfb1]">
+        <div className="rounded-2xl border border-borderSubtle bg-panel p-8 text-center text-muted">
           No hay informe anual archivado para el ejercicio seleccionado.
         </div>
       )}

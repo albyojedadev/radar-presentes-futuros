@@ -72,7 +72,6 @@ export function RadarFuturosView({ hipotesisList }: RadarFuturosViewProps) {
     hipotesisList.length > 0 ? hipotesisList[0].id : ""
   );
 
-  // Filtrado por Macro-Categoría
   const filtradas = useMemo(() => {
     if (macroFiltro === "ALL") return hipotesisList;
     const def = MACRO_CATEGORIAS.find((m) => m.key === macroFiltro);
@@ -80,14 +79,12 @@ export function RadarFuturosView({ hipotesisList }: RadarFuturosViewProps) {
     return hipotesisList.filter((h) => def.hipotesisIds.includes(h.id));
   }, [macroFiltro, hipotesisList]);
 
-  // Selección actual o fallback a la primera filtrada
   const seleccionada = useMemo(() => {
     const encontrada = filtradas.find((h) => h.id === hipotesisActiva);
     if (encontrada) return encontrada;
     return filtradas.length > 0 ? filtradas[0] : hipotesisList[0];
   }, [filtradas, hipotesisActiva, hipotesisList]);
 
-  // Obtener nombre de la macro categoría para la hipótesis
   const getMacroCatName = (hipId: string) => {
     const cat = MACRO_CATEGORIAS.find((m) => m.key !== "ALL" && m.hipotesisIds.includes(hipId));
     return cat ? cat.label : "Prospectiva General";
@@ -95,31 +92,31 @@ export function RadarFuturosView({ hipotesisList }: RadarFuturosViewProps) {
 
   return (
     <div className="space-y-6">
-      {/* Cabecera del Módulo de Futuros — Paleta Alby Ojeda */}
-      <div className="rounded-2xl border border-[#2e2820] bg-[#181512] p-5 shadow-xl space-y-4">
+      {/* Cabecera del Módulo de Futuros — Paleta Diurna Oficial */}
+      <div className="rounded-2xl border border-borderSubtle bg-panel p-5 shadow-sm space-y-4">
         <div className="flex flex-wrap items-center justify-between gap-3">
           <div>
-            <span className="text-[10px] font-mono tracking-widest text-[#7a9a5c] uppercase font-bold">
+            <span className="text-[10px] font-mono tracking-widest text-alby-green uppercase font-bold">
               // PROSPECTIVA ESTRATÉGICA //
             </span>
-            <h2 className="text-base font-bold text-[#f8f6f0] flex items-center gap-2">
-              <Compass className="h-5 w-5 text-[#7a9a5c]" />
+            <h2 className="text-base font-bold text-title flex items-center gap-2">
+              <Compass className="h-5 w-5 text-alby-green" />
               Radar de Diseño de Futuros — Hipótesis & Señales
             </h2>
-            <p className="text-xs text-[#c5bfb1] mt-0.5">
+            <p className="text-xs text-muted mt-0.5">
               22 tesis falsables a 3, 5 y 10 años conectadas con señales empíricas de la hemeroteca para contrastar tracción real vs. fricción.
             </p>
           </div>
 
           <div className="flex items-center gap-2">
-            <span className="rounded-md bg-[#7a9a5c]/15 text-[#7a9a5c] border border-[#7a9a5c]/30 px-2.5 py-1 text-xs font-mono font-bold">
+            <span className="rounded-md bg-alby-greenBg text-alby-green border border-alby-greenBorder px-2.5 py-1 text-xs font-mono font-bold">
               {hipotesisList.length} HIPÓTESIS ACTIVAS
             </span>
           </div>
         </div>
 
-        {/* Macro-Categorías Agrupadas (Sustituye la ristra de 12 botones) */}
-        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-2 pt-2 border-t border-[#2e2820]">
+        {/* Macro-Categorías Agrupadas */}
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-2 pt-2 border-t border-borderSubtle">
           {MACRO_CATEGORIAS.map((cat) => {
             const Icon = cat.icon;
             const isActive = macroFiltro === cat.key;
@@ -137,15 +134,15 @@ export function RadarFuturosView({ hipotesisList }: RadarFuturosViewProps) {
                 }}
                 className={`flex flex-col items-start gap-1 rounded-xl p-2.5 text-left transition-all border ${
                   isActive
-                    ? "bg-[#7a9a5c] text-[#0f0e0c] border-[#7a9a5c] shadow-lg shadow-[#7a9a5c]/20"
-                    : "bg-[#14120f] border-[#2e2820] text-[#c5bfb1] hover:text-[#f8f6f0] hover:border-[#3d362a]"
+                    ? "bg-alby-green text-[#fbfaf7] border-alby-green shadow-sm"
+                    : "bg-subtle border-borderSubtle text-body hover:text-title hover:border-alby-green"
                 }`}
               >
                 <div className="flex items-center justify-between w-full">
-                  <Icon className={`h-3.5 w-3.5 ${isActive ? "text-[#0f0e0c]" : "text-[#7a9a5c]"}`} />
+                  <Icon className={`h-3.5 w-3.5 ${isActive ? "text-[#fbfaf7]" : "text-alby-green"}`} />
                   <span
                     className={`font-mono text-[10px] font-bold rounded px-1.5 py-0.2 ${
-                      isActive ? "bg-[#0f0e0c]/20 text-[#0f0e0c]" : "bg-[#2e2820] text-[#f8f6f0]"
+                      isActive ? "bg-black/20 text-[#fbfaf7]" : "bg-panel text-muted border border-borderSubtle"
                     }`}
                   >
                     {count}
@@ -165,11 +162,11 @@ export function RadarFuturosView({ hipotesisList }: RadarFuturosViewProps) {
         {/* Selector de Hipótesis (5 columnas) */}
         <div className="space-y-3 lg:col-span-5">
           <div className="flex items-center justify-between px-1">
-            <h4 className="text-xs font-mono font-semibold text-[#c5bfb1] uppercase tracking-wider">
+            <h4 className="text-xs font-mono font-semibold text-muted uppercase tracking-wider">
               Tesis en Observación ({filtradas.length})
             </h4>
-            <span className="text-[10px] font-mono text-[#7a9a5c]">
-              Filtro: {MACRO_CATEGORIAS.find((m) => m.key === macroFiltro)?.label}
+            <span className="text-[10px] font-mono text-alby-green font-bold">
+              {MACRO_CATEGORIAS.find((m) => m.key === macroFiltro)?.label}
             </span>
           </div>
 
@@ -183,39 +180,39 @@ export function RadarFuturosView({ hipotesisList }: RadarFuturosViewProps) {
                   onClick={() => setHipotesisActiva(h.id)}
                   className={`cursor-pointer rounded-xl border p-4 transition-all ${
                     isSelected
-                      ? "border-[#7a9a5c] bg-[#1a2117] shadow-lg shadow-[#7a9a5c]/10"
-                      : "border-[#2e2820] bg-[#181512] hover:border-[#3d362a] hover:bg-[#1a1714]"
+                      ? "border-alby-green bg-alby-greenBg shadow-sm"
+                      : "border-borderSubtle bg-panel hover:border-alby-green hover:bg-subtle"
                   }`}
                 >
                   <div className="flex items-center justify-between mb-2">
                     <span
                       className={`font-mono text-[10px] font-bold px-2 py-0.5 rounded border ${
                         isSelected
-                          ? "bg-[#7a9a5c]/20 text-[#7a9a5c] border-[#7a9a5c]/40"
-                          : "bg-[#14120f] text-[#c5bfb1] border-[#2e2820]"
+                          ? "bg-alby-green text-[#fbfaf7] border-alby-green"
+                          : "bg-subtle text-muted border-borderSubtle"
                       }`}
                     >
                       {h.id} • {h.horizonte}
                     </span>
                     <div className="flex items-center gap-1.5 text-xs font-mono">
-                      <TrendingUp className="h-3.5 w-3.5 text-[#7a9a5c]" />
-                      <span className="font-bold text-[#7a9a5c]">
+                      <TrendingUp className="h-3.5 w-3.5 text-alby-green" />
+                      <span className="font-bold text-alby-green">
                         {h.traccionScore}%
                       </span>
                     </div>
                   </div>
 
-                  <h3 className="text-xs font-semibold text-[#f8f6f0] line-clamp-2 leading-snug">
+                  <h3 className="text-xs font-bold text-title line-clamp-2 leading-snug">
                     {h.titulo}
                   </h3>
-                  <p className="mt-1.5 text-[10px] text-[#c97755] font-mono font-medium">
+                  <p className="mt-1.5 text-[10px] text-alby-terr font-mono font-semibold">
                     {getMacroCatName(h.id)} // {h.categoria}
                   </p>
 
                   {/* Barra de progreso de tracción */}
-                  <div className="mt-3 h-1.5 w-full overflow-hidden rounded-full bg-[#14120f] border border-[#2e2820]">
+                  <div className="mt-3 h-1.5 w-full overflow-hidden rounded-full bg-subtle border border-borderSubtle">
                     <div
-                      className="h-full rounded-full bg-gradient-to-r from-[#7a9a5c] to-[#92b370]"
+                      className="h-full rounded-full bg-alby-green"
                       style={{ width: `${h.traccionScore}%` }}
                     />
                   </div>
@@ -227,50 +224,50 @@ export function RadarFuturosView({ hipotesisList }: RadarFuturosViewProps) {
 
         {/* Ficha Detallada: Señales A Favor (🟢) vs En Contra (🔴) (7 columnas) */}
         {seleccionada && (
-          <div className="rounded-2xl border border-[#2e2820] bg-[#181512] p-6 shadow-xl lg:col-span-7 space-y-6">
+          <div className="rounded-2xl border border-borderSubtle bg-panel p-6 shadow-sm lg:col-span-7 space-y-6">
             {/* Cabecera de la Hipótesis */}
-            <div className="border-b border-[#2e2820] pb-4">
+            <div className="border-b border-borderSubtle pb-4">
               <div className="flex flex-wrap items-center justify-between gap-2 mb-2">
-                <span className="rounded-md bg-[#7a9a5c]/15 text-[#7a9a5c] border border-[#7a9a5c]/30 px-2.5 py-1 text-xs font-mono font-bold">
+                <span className="rounded-md bg-alby-greenBg text-alby-green border border-alby-greenBorder px-2.5 py-1 text-xs font-mono font-bold">
                   {seleccionada.id} // {seleccionada.horizonte}
                 </span>
-                <span className="text-xs font-mono text-[#c5bfb1]">
-                  Dominio: <strong className="text-[#f8f6f0]">{getMacroCatName(seleccionada.id)}</strong>
+                <span className="text-xs font-mono text-muted">
+                  Dominio: <strong className="text-title">{getMacroCatName(seleccionada.id)}</strong>
                 </span>
               </div>
-              <h2 className="text-lg font-bold text-[#f8f6f0] leading-snug">
+              <h2 className="text-lg font-bold text-title leading-snug">
                 {seleccionada.titulo}
               </h2>
             </div>
 
             {/* Declaración de la Tesis Falsable */}
-            <div className="rounded-xl border border-[#2e2820] bg-[#14120f] p-4 space-y-2">
+            <div className="rounded-xl border border-borderSubtle bg-subtle p-4 space-y-2">
               <div className="flex items-center gap-2">
-                <Lightbulb className="h-4 w-4 text-[#c97755]" />
-                <h4 className="text-xs font-mono font-bold text-[#c97755] uppercase tracking-wider">
+                <Lightbulb className="h-4 w-4 text-alby-terr" />
+                <h4 className="text-xs font-mono font-bold text-alby-terr uppercase tracking-wider">
                   Declaración de la Hipótesis (Tesis Falsable)
                 </h4>
               </div>
-              <p className="text-xs text-[#f8f6f0] leading-relaxed">
+              <p className="text-xs text-body leading-relaxed font-medium">
                 {seleccionada.tesis}
               </p>
             </div>
 
             {/* Gráfica de Tracción y Balance de Señales */}
-            <div className="rounded-xl border border-[#2e2820] bg-[#14120f] p-4 space-y-2">
+            <div className="rounded-xl border border-borderSubtle bg-subtle p-4 space-y-2">
               <div className="flex items-center justify-between text-xs font-mono">
-                <span className="text-[#c5bfb1]">Puntaje de Tracción / Probabilidad:</span>
-                <span className="font-bold text-[#7a9a5c] text-sm">
+                <span className="text-muted">Puntaje de Tracción / Probabilidad:</span>
+                <span className="font-bold text-alby-green text-sm">
                   {seleccionada.traccionScore}% — VALIDÁNDOSE
                 </span>
               </div>
-              <div className="h-2.5 w-full rounded-full bg-[#181512] border border-[#2e2820] overflow-hidden">
+              <div className="h-2.5 w-full rounded-full bg-panel border border-borderSubtle overflow-hidden">
                 <div
-                  className="h-full bg-gradient-to-r from-[#c97755] via-[#a39455] to-[#7a9a5c]"
+                  className="h-full bg-gradient-to-r from-alby-terr via-amber-400 to-alby-green"
                   style={{ width: `${seleccionada.traccionScore}%` }}
                 />
               </div>
-              <div className="flex justify-between text-[10px] font-mono text-[#c5bfb1]">
+              <div className="flex justify-between text-[10px] font-mono text-muted">
                 <span>0% Falsada</span>
                 <span>50% Ambigua</span>
                 <span>100% Consolidada</span>
@@ -280,15 +277,15 @@ export function RadarFuturosView({ hipotesisList }: RadarFuturosViewProps) {
             {/* Doble Columna de Señales: Tracción (Verde) vs Fricción (Terracota) */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {/* Columna Verde: Señales A Favor (🟢 Pro) */}
-              <div className="rounded-xl border border-[#7a9a5c]/30 bg-[#131711] p-4 space-y-3">
-                <div className="flex items-center justify-between border-b border-[#2e2820] pb-2">
+              <div className="rounded-xl border border-alby-greenBorder bg-alby-greenBg/40 p-4 space-y-3">
+                <div className="flex items-center justify-between border-b border-borderSubtle pb-2">
                   <div className="flex items-center gap-1.5">
-                    <CheckCircle2 className="h-4 w-4 text-[#7a9a5c]" />
-                    <h4 className="text-xs font-bold text-[#7a9a5c] font-mono uppercase">
+                    <CheckCircle2 className="h-4 w-4 text-alby-green" />
+                    <h4 className="text-xs font-bold text-alby-green font-mono uppercase">
                       Señales de Tracción (A Favor)
                     </h4>
                   </div>
-                  <span className="text-[10px] font-mono text-[#7a9a5c] font-bold">
+                  <span className="text-[10px] font-mono text-alby-green font-bold">
                     {seleccionada.senalesPro.length}
                   </span>
                 </div>
@@ -297,25 +294,25 @@ export function RadarFuturosView({ hipotesisList }: RadarFuturosViewProps) {
                   {seleccionada.senalesPro.map((s, idx) => (
                     <div
                       key={idx}
-                      className="rounded-lg border border-[#2e2820] bg-[#181512] p-3 text-xs space-y-2"
+                      className="rounded-lg border border-borderSubtle bg-panel p-3 text-xs space-y-2 shadow-2xs"
                     >
-                      <p className="text-[#f8f6f0] font-medium leading-snug">
+                      <p className="text-title font-semibold leading-snug">
                         {s.titular}
                       </p>
-                      <div className="flex items-center justify-between text-[11px] pt-1 border-t border-[#2e2820]">
-                        <span className="font-mono text-[#7a9a5c]">{s.fuente}</span>
+                      <div className="flex items-center justify-between text-[11px] pt-1 border-t border-borderSubtle">
+                        <span className="font-mono text-alby-green font-semibold">{s.fuente}</span>
                         <a
                           href={s.url}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="flex items-center gap-1 text-[#f8f6f0] hover:text-[#7a9a5c] font-mono text-[10px]"
+                          className="flex items-center gap-1 text-muted hover:text-alby-green font-mono text-[10px]"
                         >
                           <span>Ver</span>
                           <ExternalLink className="h-2.5 w-2.5" />
                         </a>
                       </div>
-                      <p className="text-[11px] text-[#c5bfb1] leading-relaxed">
-                        <strong className="text-[#e8e2d2]">Impacto:</strong> {s.impacto}
+                      <p className="text-[11px] text-muted leading-relaxed">
+                        <strong className="text-body font-semibold">Impacto:</strong> {s.impacto}
                       </p>
                     </div>
                   ))}
@@ -323,15 +320,15 @@ export function RadarFuturosView({ hipotesisList }: RadarFuturosViewProps) {
               </div>
 
               {/* Columna Terracota: Señales En Contra (🔴 Fricción) */}
-              <div className="rounded-xl border border-[#c97755]/30 bg-[#1c1814] p-4 space-y-3">
-                <div className="flex items-center justify-between border-b border-[#2e2820] pb-2">
+              <div className="rounded-xl border border-alby-terrBorder bg-alby-terrBg/40 p-4 space-y-3">
+                <div className="flex items-center justify-between border-b border-borderSubtle pb-2">
                   <div className="flex items-center gap-1.5">
-                    <XCircle className="h-4 w-4 text-[#c97755]" />
-                    <h4 className="text-xs font-bold text-[#c97755] font-mono uppercase">
+                    <XCircle className="h-4 w-4 text-alby-terr" />
+                    <h4 className="text-xs font-bold text-alby-terr font-mono uppercase">
                       Señales de Fricción (En Contra)
                     </h4>
                   </div>
-                  <span className="text-[10px] font-mono text-[#c97755] font-bold">
+                  <span className="text-[10px] font-mono text-alby-terr font-bold">
                     {seleccionada.senalesContra.length}
                   </span>
                 </div>
@@ -340,25 +337,25 @@ export function RadarFuturosView({ hipotesisList }: RadarFuturosViewProps) {
                   {seleccionada.senalesContra.map((s, idx) => (
                     <div
                       key={idx}
-                      className="rounded-lg border border-[#2e2820] bg-[#181512] p-3 text-xs space-y-2"
+                      className="rounded-lg border border-borderSubtle bg-panel p-3 text-xs space-y-2 shadow-2xs"
                     >
-                      <p className="text-[#f8f6f0] font-medium leading-snug">
+                      <p className="text-title font-semibold leading-snug">
                         {s.titular}
                       </p>
-                      <div className="flex items-center justify-between text-[11px] pt-1 border-t border-[#2e2820]">
-                        <span className="font-mono text-[#c97755]">{s.fuente}</span>
+                      <div className="flex items-center justify-between text-[11px] pt-1 border-t border-borderSubtle">
+                        <span className="font-mono text-alby-terr font-semibold">{s.fuente}</span>
                         <a
                           href={s.url}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="flex items-center gap-1 text-[#f8f6f0] hover:text-[#c97755] font-mono text-[10px]"
+                          className="flex items-center gap-1 text-muted hover:text-alby-terr font-mono text-[10px]"
                         >
                           <span>Ver</span>
                           <ExternalLink className="h-2.5 w-2.5" />
                         </a>
                       </div>
-                      <p className="text-[11px] text-[#c5bfb1] leading-relaxed">
-                        <strong className="text-[#e8e2d2]">Fricción:</strong> {s.impacto}
+                      <p className="text-[11px] text-muted leading-relaxed">
+                        <strong className="text-body font-semibold">Fricción:</strong> {s.impacto}
                       </p>
                     </div>
                   ))}

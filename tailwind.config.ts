@@ -9,21 +9,23 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        ink: "#0f0e0c",
-        dark: "#1a1815",
-        card: "#181512",
-        cardBorder: "#2e2820",
-        cardHover: "#241f19",
+        page: "var(--bg-page)",
+        panel: "var(--bg-panel)",
+        subtle: "var(--bg-subtle)",
+        subtleHover: "var(--bg-hover)",
+        borderSubtle: "var(--border-subtle)",
+        borderStrong: "var(--border-strong)",
+        title: "var(--text-title)",
+        body: "var(--text-body)",
+        muted: "var(--text-muted)",
+        subtext: "var(--text-light)",
         alby: {
-          green: "#7a9a5c",
-          forest: "#4a6f4a",
-          terr: "#c97755",
-          terrdark: "#a0654a",
-          olive: "#828c5a",
-          light: "#f8f6f0",
-          cream: "#e8e2d2",
-          pale: "#c5bfb1",
-          muted: "#9a9489"
+          green: "var(--alby-green)",
+          greenBg: "var(--alby-green-bg)",
+          greenBorder: "var(--alby-green-border)",
+          terr: "var(--alby-terr)",
+          terrBg: "var(--alby-terr-bg)",
+          terrBorder: "var(--alby-terr-border)",
         }
       },
       fontFamily: {
