@@ -1,5 +1,5 @@
 {
-  "fechaGeneracion": "2026-11-01T11:14:32.370Z",
+  "fechaGeneracion": "2026-11-01T11:16:15.986Z",
   "fuentesConfig": {
     "ES": {
       "nombre": "España",
@@ -208,7 +208,7 @@
   },
   "noticiasHoy": {
     "fecha": "2026-11-01",
-    "timestamp": "2026-11-01 11:14:00",
+    "timestamp": "2026-11-01 11:15:49",
     "puntosCiegos": [
       {
         "id": "PC-01",
@@ -260,7 +260,7 @@
                 "titulo_original": "Las vidas truncadas en el tren: “Gracias por quererme, por entenderme, por ser el mejor padre del mundo”",
                 "tema_repetido": true,
                 "cluster_tema": "Tren",
-                "coincidencias_count": 3
+                "coincidencias_count": 2
               },
               {
                 "titulo": "¿Qué causó el accidente? La secuencia paso a paso de una cadena de fallos que el sistema no detuvo",
@@ -270,7 +270,7 @@
                 "titulo_original": "¿Qué causó el accidente? La secuencia paso a paso de una cadena de fallos que el sistema no detuvo",
                 "tema_repetido": true,
                 "cluster_tema": "Accidente",
-                "coincidencias_count": 5
+                "coincidencias_count": 4
               },
               {
                 "titulo": "No fue solo un fallo humano: las debilidades del sistema que evidencian los accidentes de Urda y Adamuz",
@@ -280,7 +280,7 @@
                 "titulo_original": "No fue solo un fallo humano: las debilidades del sistema que evidencian los accidentes de Urda y Adamuz",
                 "tema_repetido": true,
                 "cluster_tema": "Urda",
-                "coincidencias_count": 10
+                "coincidencias_count": 9
               },
               {
                 "titulo": "El maquinista de Angrois al operador de Atocha: “Que se aísle de la tele y la prensa: le pueden hacer mucho daño”",
@@ -308,7 +308,7 @@
                 "titulo_original": "El sistema de señalización en el tramo Madrid-Sevilla, explicado en gráficos",
                 "tema_repetido": true,
                 "cluster_tema": "Sistema",
-                "coincidencias_count": 3
+                "coincidencias_count": 4
               },
               {
                 "titulo": "¿Cómo pueden informarse los familiares? Teléfonos de atención a víctimas y allegados y puntos de ayuda para los afectados por el accidente de tren de Urda (Toledo)",
@@ -318,7 +318,7 @@
                 "titulo_original": "¿Cómo pueden informarse los familiares? Teléfonos de atención a víctimas y allegados y puntos de ayuda para los afectados por el accidente de tren de Urda (Toledo)",
                 "tema_repetido": true,
                 "cluster_tema": "Urda",
-                "coincidencias_count": 10
+                "coincidencias_count": 9
               },
               {
                 "titulo": "El Ministerio de Transportes certificó, 21 días antes de la tragedia de Urda, que la red ferroviaria española estaba \"en niveles aceptables de riesgo\"",
@@ -328,7 +328,7 @@
                 "titulo_original": "El Ministerio de Transportes certificó, 21 días antes de la tragedia de Urda, que la red ferroviaria española estaba \"en niveles aceptables de riesgo\"",
                 "tema_repetido": true,
                 "cluster_tema": "Urda",
-                "coincidencias_count": 10
+                "coincidencias_count": 9
               },
               {
                 "titulo": "Crónica de los 22 minutos a ciegas que desembocaron en la tragedia de Urda: \"Cualquier día va a haber otro accidente\"",
@@ -338,7 +338,7 @@
                 "titulo_original": "Crónica de los 22 minutos a ciegas que desembocaron en la tragedia de Urda: \"Cualquier día va a haber otro accidente\"",
                 "tema_repetido": true,
                 "cluster_tema": "Urda",
-                "coincidencias_count": 10
+                "coincidencias_count": 9
               }
             ],
             "estado": "OK",
@@ -376,7 +376,7 @@
                 "titulo_original": "Una madre que viajaba a la boda de su hija, un nazareno, una brillante científica... Las vidas que se perdieron en Urda",
                 "tema_repetido": true,
                 "cluster_tema": "Urda",
-                "coincidencias_count": 10
+                "coincidencias_count": 9
               },
               {
                 "titulo": "Ya está disponible en Netflix la nueva película de Luis Zahera y es un éxito: un thriller de Daniel Sánchez Arévalo",
@@ -404,7 +404,7 @@
                 "titulo_original": "Sánchez sostiene a Puente para que no dimita por ahora y le ayude a gestionar la gran crisis de Urda",
                 "tema_repetido": true,
                 "cluster_tema": "Urda",
-                "coincidencias_count": 10
+                "coincidencias_count": 9
               },
               {
                 "titulo": "Accidente en Urda: las cinco incógnitas sin resolver tras un choque mortal y evitable",
@@ -414,7 +414,17 @@
                 "titulo_original": "Accidente en Urda: las cinco incógnitas sin resolver tras un choque mortal y evitable",
                 "tema_repetido": true,
                 "cluster_tema": "Urda",
-                "coincidencias_count": 10
+                "coincidencias_count": 9
+              },
+              {
+                "titulo": "Renfe dará consignas a los maquinistas para reanudar la marcha a 40 km/hora si cae el sistema de seguridad LZB",
+                "url": "https://www.eldiario.es/castilla-la-mancha/social/renfe-dara-consignas-maquinistas-reanudar-marcha-40-km-h-si-cae-sistema-lzb_1_13630359.html",
+                "resumen": "La operadora ferroviaria trabaja en un documento de instrucciones en el que incluirá nuevas medidas destinadas a reforzar la protección tras el accidente de Urda Sigue en directo las últimas noticias sobre el accidente de Urda Renfe trabaja en un documento de instrucciones para s",
+                "fecha": "Sun, 01 Nov 2026 11:05:50 +0000",
+                "titulo_original": "Renfe dará consignas a los maquinistas para reanudar la marcha a 40 km/hora si cae el sistema de seguridad LZB",
+                "tema_repetido": true,
+                "cluster_tema": "Sistema",
+                "coincidencias_count": 4
               },
               {
                 "titulo": "La intrahistoria de las primeras 24 horas de Page al frente de la tragedia de Urda: “Esto es muy grave, hay que contarlo ya”",
@@ -424,17 +434,7 @@
                 "titulo_original": "La intrahistoria de las primeras 24 horas de Page al frente de la tragedia de Urda: “Esto es muy grave, hay que contarlo ya”",
                 "tema_repetido": true,
                 "cluster_tema": "Urda",
-                "coincidencias_count": 10
-              },
-              {
-                "titulo": "Accidente de tren en Urda, última hora en directo: el número de hospitalizados desciende a 41, 16 en la UCI",
-                "url": "https://www.eldiario.es/castilla-la-mancha/accidente-tren-urda-ultima-hora-directo_133_13630033.html",
-                "resumen": "Cuatro días después de la tragedia, las labores para la identificación de las víctimas del accidente de Urda (Toledo) continúan avanzando y han permitido identificar ya a 56 de los 69 muertos . Además, los restos de 36 fallecidos están ya a disposición de sus familiares. Con resp",
-                "fecha": "Sun, 01 Nov 2026 07:30:36 +0000",
-                "titulo_original": "Accidente de tren en Urda, última hora en directo: el número de hospitalizados desciende a 41, 16 en la UCI",
-                "tema_repetido": true,
-                "cluster_tema": "Urda",
-                "coincidencias_count": 10
+                "coincidencias_count": 9
               }
             ],
             "estado": "OK",
@@ -443,9 +443,50 @@
           {
             "medio": "El Confidencial",
             "perfil": "Digital / Investigación",
-            "noticias": [],
+            "noticias": [
+              {
+                "titulo": "¡Feliz Día de Todos los Santos! 30 frases para enviar por WhatsApp a amigos y familiares y recordar a los que ya no están",
+                "url": "https://www.elconfidencial.com/espana/2026-11-01/feliz-dia-todos-santos-frases-enviar-whatsapp-amiigos-familiares_4457081/",
+                "resumen": "Las redes sociales son uno de los canales más empleados por la ciudadanía actual para dedicar nuestros mejores deseos a nuestros allegados en festividades como esta",
+                "fecha": "2026-11-01T11:22:00+01:00",
+                "titulo_original": "¡Feliz Día de Todos los Santos! 30 frases para enviar por WhatsApp a amigos y familiares y recordar a los que ya no están",
+                "tema_repetido": true,
+                "cluster_tema": "Familiares",
+                "coincidencias_count": 2
+              },
+              {
+                "titulo": "La Policía Nacional detiene a 22 personas durante el dispositivo especial de la noche de Halloween",
+                "url": "https://www.elconfidencial.com/espana/2026-11-01/detenidos-operativo-halloween-valencia-1tps_4457107/",
+                "resumen": "En nueve horas, los agentes identificaron a 431 personas y levantaron 119 actas por drogas, armas y otros motivos en las zonas más concurridas",
+                "fecha": "2026-11-01T11:17:00+01:00",
+                "titulo_original": "La Policía Nacional detiene a 22 personas durante el dispositivo especial de la noche de Halloween",
+                "tema_repetido": true,
+                "cluster_tema": "Personas",
+                "coincidencias_count": 2
+              },
+              {
+                "titulo": "El detenido en el centro de Valencia por su relación con Blocus tiene 16 años",
+                "url": "https://www.elconfidencial.com/espana/2026-11-01/detencion-menor-blocus-valencia-1tna-1tps_4457092/",
+                "resumen": "El operativo desplegado en el centro valenciano identificó a 440 personas e intervino pasamontañas, caretas y espráis, además de levantar actas por armas y drogas",
+                "fecha": "2026-11-01T10:53:00+01:00",
+                "titulo_original": "El detenido en el centro de Valencia por su relación con Blocus tiene 16 años",
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
+              },
+              {
+                "titulo": "Salvamento Marítimo rescata más de 363 personas migrantes en las últimas horas en Canarias",
+                "url": "https://www.elconfidencial.com/espana/2026-11-01/rescate-migrantes-cayucos-canarias-1tna-1tps_4457090/",
+                "resumen": "La embarcación, localizada a diez millas de El Hierro, es conducida hacia el puerto mientras aún se desconoce cuántas personas viajan a bordo",
+                "fecha": "2026-11-01T10:52:00+01:00",
+                "titulo_original": "Salvamento Marítimo rescata más de 363 personas migrantes en las últimas horas en Canarias",
+                "tema_repetido": true,
+                "cluster_tema": "Horas",
+                "coincidencias_count": 2
+              }
+            ],
             "estado": "OK",
-            "total": 0
+            "total": 4
           },
           {
             "medio": "Expansión",
@@ -469,7 +510,7 @@
                 "titulo_original": "Iberia, Air Europa, Ryanair, Volotea y Vueling refuerzan sus rutas con Andalucía tras Urda",
                 "tema_repetido": true,
                 "cluster_tema": "Urda",
-                "coincidencias_count": 10
+                "coincidencias_count": 9
               },
               {
                 "titulo": "Así es la fórmula de éxito de las cuentas de inversión en Europa",
@@ -478,7 +519,7 @@
                 "fecha": "Sat, 31 Oct 2026 20:14:31 +0100",
                 "titulo_original": "Así es la fórmula de éxito de las cuentas de inversión en Europa",
                 "tema_repetido": true,
-                "cluster_tema": "Europa",
+                "cluster_tema": "Éxito",
                 "coincidencias_count": 2
               },
               {
@@ -557,7 +598,7 @@
                 "titulo": "EN VIVO - Ira social: ¡la organización Les Lycéens! Pide bloqueo de establecimientos “a partir del lunes”",
                 "url": "https://www.lefigaro.fr/actualite-france/en-direct-colere-sociale-plusieurs-centaines-de-milliers-de-manifestants-samedi-dans-l-hexagone-avant-la-journee-de-greve-du-5-novembre-20261101",
                 "resumen": "Quelques jours plus tôt, les ministres de l’Éducation nationale et de l’Enseignement supérieur avaient annoncé plusieurs mesures pour répondre à la crise lycéenne et étudiante qui dure depuis maintenant six semaines, dont le remplacement progressif du système d’admission post-bac",
-                "fecha": "Sun, 01 Nov 2026 11:47:02 +0100",
+                "fecha": "Sun, 01 Nov 2026 12:15:03 +0100",
                 "titulo_original": "EN DIRECT - Colère sociale : l’organisation Les Lycéens! appelle au blocus des établissements «dès lundi»",
                 "tema_repetido": false,
                 "cluster_tema": "",
@@ -570,7 +611,7 @@
                 "fecha": "Sun, 01 Nov 2026 11:55:13 +0100",
                 "titulo_original": "Manifestations du 31 octobre : 20 commerces dégradés samedi",
                 "tema_repetido": true,
-                "cluster_tema": "Manifestaciones",
+                "cluster_tema": "Octubre",
                 "coincidencias_count": 2
               },
               {
@@ -580,7 +621,7 @@
                 "fecha": "Sat, 31 Oct 2026 21:55:45 +0100",
                 "titulo_original": "Manifestations du 31 octobre à Marseille : cinq interpellations après le cambriolage d’un Foot Locker",
                 "tema_repetido": true,
-                "cluster_tema": "Manifestaciones",
+                "cluster_tema": "Octubre",
                 "coincidencias_count": 2
               },
               {
@@ -768,7 +809,7 @@
                 "fecha": "Sun, 01 Nov 2026 10:46:44 +0100",
                 "titulo_original": "Demos gegen Wohnungsnot in Portugal - Protestcamps geräumt",
                 "tema_repetido": true,
-                "cluster_tema": "Manifestaciones",
+                "cluster_tema": "Contra",
                 "coincidencias_count": 2
               },
               {
@@ -1224,7 +1265,7 @@
                 "fecha": "Sat, 31 Oct 2026 22:23:00 GMT",
                 "titulo_original": "Tamaulipas investiga muerte de niña por presunto disparo policial - Aristegui Noticias",
                 "tema_repetido": true,
-                "cluster_tema": "Noticias",
+                "cluster_tema": "Aristegui",
                 "coincidencias_count": 4
               },
               {
@@ -1234,7 +1275,7 @@
                 "fecha": "Sat, 31 Oct 2026 20:48:00 GMT",
                 "titulo_original": "ASF investiga irregularidades en contratos del INE y OPLES - Aristegui Noticias",
                 "tema_repetido": true,
-                "cluster_tema": "Noticias",
+                "cluster_tema": "Aristegui",
                 "coincidencias_count": 4
               },
               {
@@ -1244,7 +1285,7 @@
                 "fecha": "Wed, 28 Oct 2026 15:44:00 GMT",
                 "titulo_original": "El 0.1% de multimillonarios contamina más que 44% de la población mundial en pobreza: Oxfam - Aristegui Noticias",
                 "tema_repetido": true,
-                "cluster_tema": "Noticias",
+                "cluster_tema": "Aristegui",
                 "coincidencias_count": 4
               }
             ],
@@ -1310,7 +1351,7 @@
                 "fecha": "Sun, 01 Nov 2026 10:45:06 +0000",
                 "titulo_original": "Euro hoy en República Dominicana: precio y cotización de la divisa este domingo 1 de noviembre de 2026",
                 "tema_repetido": true,
-                "cluster_tema": "Precio",
+                "cluster_tema": "Cotización",
                 "coincidencias_count": 4
               },
               {
@@ -1320,7 +1361,7 @@
                 "fecha": "Sun, 01 Nov 2026 10:45:05 +0000",
                 "titulo_original": "Euro hoy en Colombia: precio y cotización de la divisa este domingo 1 de noviembre de 2026",
                 "tema_repetido": true,
-                "cluster_tema": "Precio",
+                "cluster_tema": "Cotización",
                 "coincidencias_count": 4
               },
               {
@@ -1330,7 +1371,7 @@
                 "fecha": "Sun, 01 Nov 2026 10:45:05 +0000",
                 "titulo_original": "Euro hoy en Costa Rica: precio y cotización de la divisa este domingo 1 de noviembre de 2026",
                 "tema_repetido": true,
-                "cluster_tema": "Precio",
+                "cluster_tema": "Cotización",
                 "coincidencias_count": 4
               },
               {
@@ -1340,7 +1381,7 @@
                 "fecha": "Sun, 01 Nov 2026 10:45:04 +0000",
                 "titulo_original": "Euro hoy en Chile: precio y cotización de la divisa este domingo 1 de noviembre de 2026",
                 "tema_repetido": true,
-                "cluster_tema": "Precio",
+                "cluster_tema": "Cotización",
                 "coincidencias_count": 4
               }
             ],
@@ -1528,7 +1569,7 @@
                 "fecha": "Fri, 30 Oct 2026 16:13:47 GMT",
                 "titulo_original": "South Africa: African Horse Sickness Confirmed in Western Cape's Cederberg",
                 "tema_repetido": true,
-                "cluster_tema": "Sudáfrica",
+                "cluster_tema": "Confirma",
                 "coincidencias_count": 2
               },
               {
