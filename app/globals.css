@@ -63,6 +63,15 @@ body {
   font-family: "JetBrains Mono", monospace;
 }
 
+/* Scrollbar invisible pero interactiva para navegación móvil */
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-none {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
 /* Custom scrollbars estilizados */
 ::-webkit-scrollbar {
   width: 6px;

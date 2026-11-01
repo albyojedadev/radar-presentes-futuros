@@ -54,16 +54,16 @@ export function NubeTagsGeografica({
   const conteoIndividual = tags.filter((t) => t.alcance === "individual").length;
 
   return (
-    <div className="rounded-2xl border border-borderSubtle bg-panel p-5 shadow-sm space-y-4">
+    <div className="rounded-2xl border border-borderSubtle bg-panel p-4 sm:p-5 shadow-sm space-y-4">
       {/* Cabecera y Selector de Alcance */}
-      <div className="flex flex-wrap items-center justify-between gap-3 border-b border-borderSubtle pb-3">
+      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-borderSubtle pb-3">
         <div>
           <div className="flex items-center gap-2">
-            <div className="rounded-lg bg-alby-greenBg p-1 text-alby-green border border-alby-greenBorder">
+            <div className="rounded-lg bg-alby-greenBg p-1 text-alby-green border border-alby-greenBorder shrink-0">
               <TagIcon className="h-4 w-4" />
             </div>
             <div>
-              <h3 className="text-sm font-bold text-title flex items-center gap-2">
+              <h3 className="text-xs sm:text-sm font-bold text-title flex flex-wrap items-center gap-2">
                 <span>{titulo}</span>
                 {contexto && (
                   <span className="text-[10px] font-mono text-muted bg-subtle px-2 py-0.5 rounded border border-borderSubtle">
@@ -71,7 +71,7 @@ export function NubeTagsGeografica({
                   </span>
                 )}
               </h3>
-              <p className="text-xs text-muted mt-0.5">
+              <p className="text-[11px] sm:text-xs text-muted mt-0.5">
                 {subtitulo}
               </p>
             </div>
@@ -79,10 +79,10 @@ export function NubeTagsGeografica({
         </div>
 
         {/* Botones de Filtro por Alcance */}
-        <div className="flex items-center gap-1.5 overflow-x-auto">
+        <div className="flex items-center gap-1 sm:gap-1.5 overflow-x-auto scrollbar-none pb-1 w-full sm:w-auto">
           <button
             onClick={() => setFiltroAlcance("todos")}
-            className={`rounded-lg px-2.5 py-1 text-xs font-mono font-bold transition-all ${
+            className={`shrink-0 rounded-lg px-2 sm:px-2.5 py-1 text-[11px] sm:text-xs font-mono font-bold transition-all ${
               filtroAlcance === "todos"
                 ? "bg-alby-green text-[#fbfaf7] shadow-xs"
                 : "border border-borderSubtle bg-subtle text-muted hover:text-title"
@@ -93,19 +93,19 @@ export function NubeTagsGeografica({
 
           <button
             onClick={() => setFiltroAlcance("global")}
-            className={`inline-flex items-center gap-1 rounded-lg px-2.5 py-1 text-xs font-mono font-bold transition-all ${
+            className={`shrink-0 inline-flex items-center gap-1 rounded-lg px-2 sm:px-2.5 py-1 text-[11px] sm:text-xs font-mono font-bold transition-all ${
               filtroAlcance === "global"
                 ? "bg-blue-600 text-[#fbfaf7] shadow-xs"
                 : "border border-borderSubtle bg-subtle text-muted hover:text-title hover:border-blue-400"
             }`}
           >
             <Globe className="h-3 w-3" />
-            <span>Comunes / Globales ({conteoGlobal})</span>
+            <span><span className="hidden sm:inline">Comunes / </span>Globales ({conteoGlobal})</span>
           </button>
 
           <button
             onClick={() => setFiltroAlcance("regional")}
-            className={`inline-flex items-center gap-1 rounded-lg px-2.5 py-1 text-xs font-mono font-bold transition-all ${
+            className={`shrink-0 inline-flex items-center gap-1 rounded-lg px-2 sm:px-2.5 py-1 text-[11px] sm:text-xs font-mono font-bold transition-all ${
               filtroAlcance === "regional"
                 ? "bg-amber-600 text-[#fbfaf7] shadow-xs"
                 : "border border-borderSubtle bg-subtle text-muted hover:text-title hover:border-amber-400"
@@ -117,20 +117,20 @@ export function NubeTagsGeografica({
 
           <button
             onClick={() => setFiltroAlcance("individual")}
-            className={`inline-flex items-center gap-1 rounded-lg px-2.5 py-1 text-xs font-mono font-bold transition-all ${
+            className={`shrink-0 inline-flex items-center gap-1 rounded-lg px-2 sm:px-2.5 py-1 text-[11px] sm:text-xs font-mono font-bold transition-all ${
               filtroAlcance === "individual"
                 ? "bg-stone-700 text-[#fbfaf7] shadow-xs"
                 : "border border-borderSubtle bg-subtle text-muted hover:text-title hover:border-stone-400"
             }`}
           >
             <MapPin className="h-3 w-3" />
-            <span>Individuales ({conteoIndividual})</span>
+            <span><span className="hidden sm:inline">Domésticos / </span>Individuales ({conteoIndividual})</span>
           </button>
         </div>
       </div>
 
       {/* Nube de Píldoras / Fichas de Tags */}
-      <div className="flex flex-wrap gap-2.5 pt-1">
+      <div className="flex flex-wrap gap-2 sm:gap-2.5 pt-1">
         {tagsFiltrados.map((item, idx) => {
           const isGlobal = item.alcance === "global";
           const isRegional = item.alcance === "regional";
@@ -139,7 +139,7 @@ export function NubeTagsGeografica({
           return (
             <div
               key={idx}
-              className={`group flex flex-col justify-between rounded-xl border p-3 transition-all hover:shadow-sm ${
+              className={`group flex flex-col justify-between rounded-xl border p-3 transition-all hover:shadow-sm w-full sm:w-auto flex-1 min-w-[260px] sm:min-w-[280px] max-w-full ${
                 isGlobal
                   ? "border-blue-200 bg-blue-50/50 hover:border-blue-400"
                   : isRegional

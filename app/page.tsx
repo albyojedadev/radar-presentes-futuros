@@ -21,7 +21,7 @@ export default function Home() {
           totalSemanas={dataset?.totalSemanas || 357}
         />
 
-        <main className="mx-auto max-w-7xl px-4 py-6 sm:px-6">
+        <main className="mx-auto max-w-7xl px-3 py-4 sm:px-6 sm:py-6">
           {vistaActiva === "presentes" && (
             <RadarPresentesView noticiasHoy={dataset?.noticiasHoy} />
           )}
@@ -40,7 +40,7 @@ export default function Home() {
         </main>
       </div>
 
-      <footer className="border-t border-borderSubtle bg-panel py-4 text-center text-[11px] font-mono text-muted">
+      <footer className="border-t border-borderSubtle bg-panel px-4 py-4 text-center text-[10px] sm:text-[11px] font-mono text-muted leading-relaxed">
         RADAR DE PRESENTES & FUTUROS // 9 BLOQUES GEOPOLÍTICOS • ACTUALIZACIÓN DIARIA CONTINUA (LUNES A DOMINGO) • ALBY OJEDA
       </footer>
     </div>

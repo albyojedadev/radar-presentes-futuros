@@ -104,9 +104,9 @@ export function HemerotecaView({ semanasPorAno }: HemerotecaViewProps) {
   return (
     <div className="space-y-6">
       {/* Barra de Controles: Selector de Año y Buscador */}
-      <div className="flex flex-wrap items-center justify-between gap-4 rounded-2xl border border-borderSubtle bg-panel p-4 shadow-sm">
+      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 rounded-2xl border border-borderSubtle bg-panel p-3.5 sm:p-4 shadow-sm">
         {/* Selector de Años */}
-        <div className="flex items-center gap-1.5 overflow-x-auto">
+        <div className="flex items-center gap-1.5 overflow-x-auto scrollbar-none pb-1 sm:pb-0">
           {anosDisponibles.map((ano) => (
             <button
               key={ano}
@@ -117,7 +117,7 @@ export function HemerotecaView({ semanasPorAno }: HemerotecaViewProps) {
                   setSemanaSeleccionada(semanas[semanas.length - 1].codigo);
                 }
               }}
-              className={`rounded-lg px-3 py-1.5 text-xs font-mono font-bold transition-all ${
+              className={`shrink-0 rounded-lg px-2.5 sm:px-3 py-1 sm:py-1.5 text-xs font-mono font-bold transition-all ${
                 anoSeleccionado === ano
                   ? "bg-alby-green text-[#fbfaf7] shadow-sm"
                   : "border border-borderSubtle bg-subtle text-muted hover:text-title"
@@ -129,7 +129,7 @@ export function HemerotecaView({ semanasPorAno }: HemerotecaViewProps) {
         </div>
 
         {/* Buscador Contextual */}
-        <div className="relative min-w-[240px]">
+        <div className="relative w-full sm:w-auto sm:min-w-[240px]">
           <Search className="absolute left-3 top-2.5 h-3.5 w-3.5 text-muted" />
           <input
             type="text"
@@ -142,19 +142,19 @@ export function HemerotecaView({ semanasPorAno }: HemerotecaViewProps) {
       </div>
 
       {/* Navegador de Semanas: Selector de Meses Arriba + Desplegable y Navegación Abajo */}
-      <div className="rounded-2xl border border-borderSubtle bg-panel p-4 shadow-sm space-y-3.5">
+      <div className="rounded-2xl border border-borderSubtle bg-panel p-3.5 sm:p-4 shadow-sm space-y-3.5">
         {/* 1. FILA SUPERIOR: Selector de Meses */}
         <div>
           <div className="flex items-center justify-between mb-2">
             <span className="text-[10px] font-mono uppercase tracking-widest text-muted font-bold">
               // FILTRO POR MES ({anoSeleccionado}) //
             </span>
-            <span className="text-[10px] font-mono text-muted">
+            <span className="text-[10px] font-mono text-muted hidden sm:inline">
               Haz clic en cualquier mes para saltar a sus semanas
             </span>
           </div>
 
-          <div className="grid grid-cols-6 sm:grid-cols-12 gap-1.5">
+          <div className="grid grid-cols-4 sm:grid-cols-6 md:grid-cols-12 gap-1 sm:gap-1.5">
             {MESES.map((m) => {
               const tieneSemanas = semanasDelAno.some((s) => obtenerMesDeSemana(s) === m.num);
               const isMesActivo = mesActivo === m.num;
@@ -164,7 +164,7 @@ export function HemerotecaView({ semanasPorAno }: HemerotecaViewProps) {
                   key={m.num}
                   disabled={!tieneSemanas}
                   onClick={() => seleccionarMes(m.num)}
-                  className={`rounded-lg py-1.5 px-2 text-center text-xs font-mono transition-all ${
+                  className={`rounded-lg py-1 sm:py-1.5 px-1.5 sm:px-2 text-center text-xs font-mono transition-all ${
                     isMesActivo
                       ? "bg-alby-green text-[#fbfaf7] font-bold shadow-sm"
                       : tieneSemanas
@@ -172,8 +172,8 @@ export function HemerotecaView({ semanasPorAno }: HemerotecaViewProps) {
                       : "border border-borderSubtle/40 bg-subtle/30 text-muted/40 cursor-not-allowed"
                   }`}
                 >
-                  <span className="sm:hidden">{m.abrev}</span>
-                  <span className="hidden sm:inline font-semibold">{m.nombre}</span>
+                  <span className="md:hidden">{m.abrev}</span>
+                  <span className="hidden md:inline font-semibold">{m.nombre}</span>
                 </button>
               );
             })}
@@ -181,8 +181,8 @@ export function HemerotecaView({ semanasPorAno }: HemerotecaViewProps) {
         </div>
 
         {/* 2. FILA INFERIOR: Pestaña Desplegable y Controles de Navegación */}
-        <div className="pt-3 border-t border-borderSubtle flex flex-wrap items-center justify-between gap-3">
-          <div className="flex flex-wrap items-center gap-3">
+        <div className="pt-3 border-t border-borderSubtle flex flex-col md:flex-row md:items-center justify-between gap-3">
+          <div className="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-3 w-full md:w-auto">
             <div className="flex items-center gap-1.5">
               <button
                 onClick={irSemanaAnterior}
@@ -203,7 +203,7 @@ export function HemerotecaView({ semanasPorAno }: HemerotecaViewProps) {
             </div>
 
             {/* Desplegable Directo de Semanas con Título de Hito */}
-            <div className="relative min-w-[260px] max-w-md">
+            <div className="relative w-full sm:min-w-[260px] sm:max-w-md">
               <select
                 value={semanaSeleccionada}
                 onChange={(e) => setSemanaSeleccionada(e.target.value)}
@@ -223,8 +223,8 @@ export function HemerotecaView({ semanasPorAno }: HemerotecaViewProps) {
           </div>
 
           {/* Semanas del Mes Activo */}
-          <div className="flex items-center gap-1.5 overflow-x-auto py-1">
-            <span className="text-[10px] font-mono text-muted mr-1 hidden sm:inline">
+          <div className="flex items-center gap-1.5 overflow-x-auto scrollbar-none py-1 w-full md:w-auto">
+            <span className="text-[10px] font-mono text-muted mr-1 shrink-0 hidden sm:inline">
               Semanas de {MESES.find((m) => m.num === mesActivo)?.nombre}:
             </span>
             {semanasDelMesActivo.map((s) => {
@@ -235,7 +235,7 @@ export function HemerotecaView({ semanasPorAno }: HemerotecaViewProps) {
                   key={s.codigo}
                   onClick={() => setSemanaSeleccionada(s.codigo)}
                   title={`${s.codigo}: ${s.analisis?.fase || ''}`}
-                  className={`rounded-md px-2.5 py-1 text-[11px] font-mono font-bold transition-all ${
+                  className={`shrink-0 rounded-md px-2.5 py-1 text-[11px] font-mono font-bold transition-all ${
                     isActiva
                       ? "bg-alby-green text-[#fbfaf7] shadow-xs"
                       : "border border-borderSubtle bg-subtle text-muted hover:text-title hover:border-alby-green"
@@ -250,9 +250,9 @@ export function HemerotecaView({ semanasPorAno }: HemerotecaViewProps) {
       </div>
 
       {/* Contenedor del Informe Semanal */}
-      <div className="rounded-2xl border border-borderSubtle bg-panel p-6 shadow-sm space-y-6">
+      <div className="rounded-2xl border border-borderSubtle bg-panel p-4 sm:p-6 shadow-sm space-y-5 sm:space-y-6">
         {/* Cabecera del Informe */}
-        <div className="border-b border-borderSubtle pb-4 flex flex-wrap items-start justify-between gap-4">
+        <div className="border-b border-borderSubtle pb-4 flex flex-col sm:flex-row sm:items-start justify-between gap-3 sm:gap-4">
           <div>
             <div className="flex items-center gap-2 mb-1">
               <span className="text-[10px] font-mono tracking-widest text-alby-green uppercase font-bold">
@@ -264,7 +264,7 @@ export function HemerotecaView({ semanasPorAno }: HemerotecaViewProps) {
                 </span>
               )}
             </div>
-            <h2 className="text-xl font-bold text-title">
+            <h2 className="text-lg sm:text-xl font-bold text-title leading-snug">
               Auditoría de Portadas y Agenda Global ({semanaSeleccionada})
             </h2>
             <p className="text-xs text-muted mt-1 leading-relaxed">
@@ -273,7 +273,7 @@ export function HemerotecaView({ semanasPorAno }: HemerotecaViewProps) {
           </div>
 
           {semanaObj?.analisis?.fase && (
-            <div className="flex items-center gap-1.5 self-start rounded-lg border border-alby-greenBorder bg-alby-green/10 px-3 py-1 font-mono text-xs font-bold text-alby-green">
+            <div className="flex items-center gap-1.5 self-start rounded-lg border border-alby-greenBorder bg-alby-green/10 px-2.5 py-1 font-mono text-xs font-bold text-alby-green shrink-0">
               <span>Fase:</span>
               <span>{semanaObj.analisis.fase}</span>
             </div>
@@ -294,7 +294,7 @@ export function HemerotecaView({ semanasPorAno }: HemerotecaViewProps) {
           };
 
           return (
-            <div className="rounded-xl border border-borderSubtle bg-subtle p-5 space-y-4">
+            <div className="rounded-xl border border-borderSubtle bg-subtle p-3.5 sm:p-5 space-y-4">
               <div className="flex flex-wrap items-center justify-between gap-2 border-b border-borderSubtle pb-2.5">
                 <div className="flex items-center gap-2">
                   <Compass className="h-4 w-4 text-alby-green" />

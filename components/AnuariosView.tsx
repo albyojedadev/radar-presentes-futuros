@@ -255,12 +255,12 @@ export function AnuariosView({ anuarios }: AnuariosViewProps) {
   return (
     <div className="space-y-6">
       {/* Selector de Anuario — Paleta Diurna Oficial */}
-      <div className="flex flex-wrap items-center justify-between gap-4 rounded-2xl border border-borderSubtle bg-panel p-5 shadow-sm">
+      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 rounded-2xl border border-borderSubtle bg-panel p-4 sm:p-5 shadow-sm">
         <div>
           <span className="text-[10px] font-mono tracking-widest text-alby-terr uppercase font-bold">
             // AUDITORÍAS DE SEGUNDO ORDEN //
           </span>
-          <h2 className="text-base font-bold text-title">
+          <h2 className="text-sm sm:text-base font-bold text-title">
             Anuarios Estratégicos (Emitidos cada 1 de Enero)
           </h2>
           <p className="text-xs text-muted mt-0.5">
@@ -268,14 +268,14 @@ export function AnuariosView({ anuarios }: AnuariosViewProps) {
           </p>
         </div>
 
-        <div className="flex items-center gap-1.5 overflow-x-auto">
+        <div className="flex items-center gap-1.5 overflow-x-auto scrollbar-none pb-1 sm:pb-0 w-full sm:w-auto">
           {anosDisponibles.map((a) => {
             const isActive = anoSeleccionado === a;
             return (
               <button
                 key={a}
                 onClick={() => setAnoSeleccionado(a)}
-                className={`rounded-xl px-3.5 py-2 text-xs font-mono font-bold transition-all ${
+                className={`shrink-0 rounded-xl px-2.5 sm:px-3.5 py-1.5 sm:py-2 text-xs font-mono font-bold transition-all ${
                   isActive
                     ? "bg-alby-green text-[#fbfaf7] shadow-sm"
                     : "border border-borderSubtle bg-subtle text-muted hover:text-title"
@@ -291,14 +291,14 @@ export function AnuariosView({ anuarios }: AnuariosViewProps) {
       {parsed ? (
         <div className="space-y-6">
           {/* Tarjeta Hero: Encabezado Editorial */}
-          <div className="rounded-2xl border border-borderSubtle bg-panel p-6 shadow-sm space-y-4">
-            <div className="flex flex-wrap items-center justify-between gap-2 border-b border-borderSubtle pb-4">
+          <div className="rounded-2xl border border-borderSubtle bg-panel p-4 sm:p-6 shadow-sm space-y-4">
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-borderSubtle pb-4">
               <div className="flex items-center gap-2">
                 <span className="rounded-md bg-alby-greenBg text-alby-green border border-alby-greenBorder px-2.5 py-1 text-xs font-mono font-bold">
                   EJERCICIO {anoSeleccionado}
                 </span>
                 <span className="text-xs font-mono text-muted">
-                  Auditado sobre 52/53 semanas de hemeroteca
+                  52/53 semanas de hemeroteca
                 </span>
               </div>
               <div className="text-[11px] font-mono text-muted">
@@ -307,7 +307,7 @@ export function AnuariosView({ anuarios }: AnuariosViewProps) {
             </div>
 
             <div>
-              <h1 className="text-xl sm:text-2xl font-bold text-title leading-snug">
+              <h1 className="text-lg sm:text-2xl font-bold text-title leading-snug">
                 {parsed.subtitulo}
               </h1>
               <p className="text-xs font-mono text-alby-terr font-medium mt-1">
@@ -350,14 +350,14 @@ export function AnuariosView({ anuarios }: AnuariosViewProps) {
                 </div>
 
                 {/* Selector de Estaciones */}
-                <div className="flex items-center gap-1.5 overflow-x-auto">
+                <div className="flex items-center gap-1.5 overflow-x-auto scrollbar-none pb-1 sm:pb-0">
                   {parsed.estaciones.map((est, idx) => {
                     const isActiva = (estacionActivaIdx || 0) === idx;
                     return (
                       <button
                         key={idx}
                         onClick={() => setEstacionActivaIdx(idx)}
-                        className={`rounded-lg px-3 py-1.5 text-xs font-mono font-bold transition-all ${
+                        className={`shrink-0 rounded-lg px-2.5 sm:px-3 py-1 sm:py-1.5 text-xs font-mono font-bold transition-all ${
                           isActiva
                             ? "bg-alby-green text-[#fbfaf7] shadow-xs"
                             : "border border-borderSubtle bg-subtle text-muted hover:text-title hover:border-alby-green"
@@ -374,7 +374,7 @@ export function AnuariosView({ anuarios }: AnuariosViewProps) {
               {(() => {
                 const est = parsed.estaciones[estacionActivaIdx || 0] || parsed.estaciones[0];
                 return (
-                  <div className="rounded-xl border border-borderSubtle bg-subtle/50 p-5 space-y-2.5">
+                  <div className="rounded-xl border border-borderSubtle bg-subtle/50 p-4 sm:p-5 space-y-2.5">
                     <div className="flex flex-wrap items-center justify-between gap-2">
                       <h4 className="text-sm font-bold text-title">
                         {est.estacion}
@@ -385,7 +385,7 @@ export function AnuariosView({ anuarios }: AnuariosViewProps) {
                         </span>
                       )}
                     </div>
-                    <p className="text-body text-sm leading-relaxed pt-1">
+                    <p className="text-body text-xs sm:text-sm leading-relaxed pt-1">
                       {est.relato}
                     </p>
                   </div>
@@ -405,9 +405,9 @@ export function AnuariosView({ anuarios }: AnuariosViewProps) {
           )}
 
           {/* Bloque Doble: Campañas de Humo vs Puntos Ciegos */}
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 sm:gap-6">
             {/* 3. Campañas de Humo (Terracota) */}
-            <div className="rounded-2xl border border-alby-terrBorder bg-alby-terrBg/40 p-5 shadow-sm space-y-4">
+            <div className="rounded-2xl border border-alby-terrBorder bg-alby-terrBg/40 p-4 sm:p-5 shadow-sm space-y-4">
               <div className="flex items-center justify-between border-b border-borderSubtle pb-3">
                 <div className="flex items-center gap-2">
                   <div className="rounded-lg bg-alby-terrBg p-1.5 text-alby-terr border border-alby-terrBorder">

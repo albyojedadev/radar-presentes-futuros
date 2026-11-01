@@ -91,17 +91,17 @@ export function RadarPresentesView({ noticiasHoy }: RadarPresentesViewProps) {
   return (
     <div className="space-y-6">
       {/* Barra de cabecera en vivo — Paleta Diurna Oficial */}
-      <div className="flex flex-wrap items-center justify-between gap-3 rounded-2xl border border-borderSubtle bg-panel px-5 py-3.5 shadow-sm">
-        <div className="flex items-center gap-3">
-          <span className="flex h-2.5 w-2.5 rounded-full bg-alby-green animate-pulse" />
-          <span className="text-xs font-mono font-bold tracking-wider text-title">
-            SNAPSHOT EN VIVO // INGESTA DE PORTADAS GLOBALES (LUNES A DOMINGO)
+      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 rounded-2xl border border-borderSubtle bg-panel p-4 sm:px-5 sm:py-3.5 shadow-sm">
+        <div className="flex items-center gap-2.5 sm:gap-3">
+          <span className="flex h-2.5 w-2.5 rounded-full bg-alby-green animate-pulse shrink-0" />
+          <span className="text-[11px] sm:text-xs font-mono font-bold tracking-wider text-title">
+            SNAPSHOT EN VIVO // INGESTA DE PORTADAS (LUNES A DOMINGO)
           </span>
         </div>
-        <div className="flex flex-wrap items-center gap-4 text-xs font-mono text-muted">
+        <div className="flex flex-wrap items-center gap-2 sm:gap-4 text-[11px] sm:text-xs font-mono text-muted">
           <span>Fecha: <strong className="text-alby-green font-bold">{noticiasHoy.fecha}</strong></span>
           <span>Captura: <strong className="text-body">{noticiasHoy.timestamp}</strong></span>
-          <span className="rounded bg-alby-greenBg px-2.5 py-0.5 text-alby-green border border-alby-greenBorder font-semibold">
+          <span className="rounded bg-alby-greenBg px-2 py-0.5 text-alby-green border border-alby-greenBorder font-semibold">
             9 Bloques • 100% Traducido
           </span>
         </div>
@@ -117,21 +117,21 @@ export function RadarPresentesView({ noticiasHoy }: RadarPresentesViewProps) {
       {/* ====================================================================
           DASHBOARD ANALÍTICO DE ASIMETRÍA Y SINCRONIZACIÓN GEOPOLÍTICA
           ==================================================================== */}
-      <div className="rounded-2xl border border-borderSubtle bg-panel p-5 shadow-sm space-y-4">
-        <div className="flex flex-wrap items-center justify-between gap-2 border-b border-borderSubtle pb-3">
+      <div className="rounded-2xl border border-borderSubtle bg-panel p-4 sm:p-5 shadow-sm space-y-4">
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-borderSubtle pb-3">
           <div className="flex items-center gap-2">
-            <Compass className="h-4 w-4 text-alby-green" />
-            <h3 className="text-sm font-bold text-title">
+            <Compass className="h-4 w-4 text-alby-green shrink-0" />
+            <h3 className="text-xs sm:text-sm font-bold text-title">
               Dashboard de Inteligencia y Sincronización Transnacional
             </h3>
           </div>
-          <span className="text-xs font-mono text-muted">
+          <span className="text-[11px] sm:text-xs font-mono text-muted">
             Métricas cruzadas entre las 120 noticias monitorizadas hoy
           </span>
         </div>
 
         {/* 3 Widgets Analíticos Clave */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-3 sm:gap-4">
           {/* Métrica 1: Índice de Sincronización de Agenda */}
           <div className="rounded-xl border border-borderSubtle bg-subtle p-4 space-y-2">
             <div className="flex items-center justify-between">
@@ -225,28 +225,28 @@ export function RadarPresentesView({ noticiasHoy }: RadarPresentesViewProps) {
         };
 
         return (
-          <div className="rounded-2xl border border-[#d8cfbe] dark:border-[#3d3429] bg-[#f4efe6] dark:bg-[#1a1713] p-5 shadow-sm space-y-4">
-            <div className="flex flex-wrap items-center justify-between gap-2 border-b border-[#d8cfbe]/80 dark:border-[#3d3429] pb-3">
+          <div className="rounded-2xl border border-[#d8cfbe] dark:border-[#3d3429] bg-[#f4efe6] dark:bg-[#1a1713] p-4 sm:p-5 shadow-sm space-y-4">
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2.5 border-b border-[#d8cfbe]/80 dark:border-[#3d3429] pb-3">
               <div className="flex items-center gap-2">
-                <span className="flex h-2.5 w-2.5 rounded-full bg-alby-terr animate-pulse" />
-                <h3 className="text-sm font-bold text-title">
-                  Radiografía de la Agenda en España (6 Cabeceras • Cobertura Doméstica en Vivo)
+                <span className="flex h-2.5 w-2.5 rounded-full bg-alby-terr animate-pulse shrink-0" />
+                <h3 className="text-xs sm:text-sm font-bold text-title">
+                  Radiografía de la Agenda en España (6 Cabeceras • Cobertura Doméstica)
                 </h3>
               </div>
               <div className="flex items-center gap-2">
-                <span className="rounded-md bg-[#e8ded0] dark:bg-[#2b241d] px-2.5 py-0.5 text-xs font-mono font-bold text-alby-terr border border-[#cfc4b2] dark:border-[#42382c]">
+                <span className="rounded-md bg-[#e8ded0] dark:bg-[#2b241d] px-2 py-0.5 sm:px-2.5 text-[11px] sm:text-xs font-mono font-bold text-alby-terr border border-[#cfc4b2] dark:border-[#42382c]">
                   {analisisEspana.porcentaje_domestico || "72% Ruido Doméstico"}
                 </span>
                 <button
                   onClick={() => setRegionFiltro("ES")}
-                  className="rounded-lg bg-alby-green/10 hover:bg-alby-green/20 text-alby-green px-2.5 py-0.5 text-xs font-mono font-bold transition-colors"
+                  className="rounded-lg bg-alby-green/10 hover:bg-alby-green/20 text-alby-green px-2 py-0.5 sm:px-2.5 text-[11px] sm:text-xs font-mono font-bold transition-colors"
                 >
                   Filtrar España (ES)
                 </button>
               </div>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-3 sm:gap-4">
               {/* Foco 1: Monotema */}
               <div className="rounded-xl border border-[#d8cfbe]/70 dark:border-[#3d3429] bg-panel p-4 space-y-1.5 shadow-2xs">
                 <span className="text-[10px] font-mono text-alby-terr uppercase font-bold tracking-wider">
@@ -293,20 +293,20 @@ export function RadarPresentesView({ noticiasHoy }: RadarPresentesViewProps) {
       {/* ====================================================================
           LOS 3 PUNTOS CIEGOS / CORRIENTES INTERNACIONALES (Fondo del Iceberg)
           ==================================================================== */}
-      <div className="rounded-2xl border border-alby-greenBorder bg-alby-greenBg p-5 shadow-sm space-y-4">
-        <div className="flex flex-wrap items-center justify-between gap-2 border-b border-alby-greenBorder/40 pb-3">
+      <div className="rounded-2xl border border-alby-greenBorder bg-alby-greenBg p-4 sm:p-5 shadow-sm space-y-4">
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2.5 border-b border-alby-greenBorder/40 pb-3">
           <div className="flex items-center gap-2">
-            <Eye className="h-4 w-4 text-alby-green" />
-            <h3 className="text-sm font-bold text-title">
+            <Eye className="h-4 w-4 text-alby-green shrink-0" />
+            <h3 className="text-xs sm:text-sm font-bold text-title">
               Puntos Ciegos & Corrientes Subterráneas (3 Hechos Críticos Silenciados)
             </h3>
           </div>
-          <span className="rounded bg-panel px-2.5 py-0.5 text-xs font-mono font-bold text-alby-green border border-alby-greenBorder shadow-2xs">
+          <span className="rounded bg-panel px-2 py-0.5 sm:px-2.5 text-[11px] sm:text-xs font-mono font-bold text-alby-green border border-alby-greenBorder shadow-2xs self-start sm:self-auto">
             3 Puntos Ciegos Auditados
           </span>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-3 sm:gap-4">
           {puntosCiegos.map((pc: any, idx: number) => (
             <div
               key={idx}
@@ -315,7 +315,7 @@ export function RadarPresentesView({ noticiasHoy }: RadarPresentesViewProps) {
               <div>
                 <div className="flex items-center justify-between text-[10px] font-mono mb-1.5">
                   <span className="font-bold text-alby-terr uppercase">{pc.id}</span>
-                  <div className="flex gap-1">
+                  <div className="flex gap-1 flex-wrap">
                     {(pc.bloques_afectados || []).map((b: string) => (
                       <span key={b} className="rounded bg-subtle px-1.5 py-0.2 font-semibold text-muted border border-borderSubtle">
                         {b}
@@ -323,10 +323,10 @@ export function RadarPresentesView({ noticiasHoy }: RadarPresentesViewProps) {
                     ))}
                   </div>
                 </div>
-                <h4 className="text-xs font-bold text-title leading-snug">
+                <h4 className="text-xs font-bold text-title leading-snug break-words">
                   {pc.titulo}
                 </h4>
-                <p className="mt-1 text-[11px] font-medium text-alby-green">
+                <p className="mt-1 text-[11px] font-medium text-alby-green break-words">
                   "{pc.titular_noticia}"
                 </p>
               </div>
@@ -335,7 +335,7 @@ export function RadarPresentesView({ noticiasHoy }: RadarPresentesViewProps) {
                 <span className="block font-mono text-[9px] uppercase text-muted font-bold mb-0.5">
                   Evaluación de Segundo Orden:
                 </span>
-                <p className="text-[11px] text-body leading-relaxed">
+                <p className="text-[11px] text-body leading-relaxed break-words">
                   {pc.impacto}
                 </p>
               </div>
@@ -355,28 +355,28 @@ export function RadarPresentesView({ noticiasHoy }: RadarPresentesViewProps) {
           return (
             <div
               key={cod}
-              className="rounded-2xl border border-borderSubtle bg-panel p-6 shadow-sm space-y-5"
+              className="rounded-2xl border border-borderSubtle bg-panel p-4 sm:p-6 shadow-sm space-y-4 sm:space-y-5"
             >
               {/* Encabezado del Bloque */}
-              <div className="flex flex-wrap items-center justify-between gap-2 border-b border-borderSubtle pb-4">
-                <div className="flex items-center gap-3">
-                  <span className="rounded-xl bg-alby-green px-3 py-1 font-mono text-xs font-bold text-[#fbfaf7] shadow-2xs">
+              <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2.5 border-b border-borderSubtle pb-4">
+                <div className="flex items-center gap-2.5 sm:gap-3">
+                  <span className="rounded-xl bg-alby-green px-2.5 sm:px-3 py-1 font-mono text-xs font-bold text-[#fbfaf7] shadow-2xs shrink-0">
                     {cod}
                   </span>
                   <div>
-                    <h3 className="text-lg font-bold text-title leading-tight">
+                    <h3 className="text-base sm:text-lg font-bold text-title leading-tight">
                       {reg.nombre}
                     </h3>
-                    <p className="text-xs text-muted font-mono">{reg.bloque}</p>
+                    <p className="text-[11px] sm:text-xs text-muted font-mono">{reg.bloque}</p>
                   </div>
                 </div>
-                <span className="rounded-md bg-subtle px-2.5 py-1 text-xs font-mono text-muted border border-borderSubtle">
+                <span className="rounded-md bg-subtle px-2 sm:px-2.5 py-0.5 sm:py-1 text-[11px] sm:text-xs font-mono text-muted border border-borderSubtle self-start sm:self-auto">
                   {reg.fuentes?.length || 0} cabeceras monitorizadas
                 </span>
               </div>
 
               {/* Fuentes del bloque en tarjetas con jerarquía de lectura destacada */}
-              <div className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
+              <div className="grid grid-cols-1 gap-4 sm:gap-5 md:grid-cols-2 lg:grid-cols-3">
                 {(reg.fuentes || []).map((f: any, fIdx: number) => (
                   <div
                     key={fIdx}

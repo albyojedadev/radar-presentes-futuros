@@ -72,6 +72,16 @@ export function RadarFuturosView({ hipotesisList }: RadarFuturosViewProps) {
     hipotesisList.length > 0 ? hipotesisList[0].id : ""
   );
 
+  const handleSelectHipotesis = (id: string) => {
+    setHipotesisActiva(id);
+    if (typeof window !== "undefined" && window.innerWidth < 1024) {
+      const el = document.getElementById("detalle-hipotesis");
+      if (el) {
+        el.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+    }
+  };
+
   const filtradas = useMemo(() => {
     if (macroFiltro === "ALL") return hipotesisList;
     const def = MACRO_CATEGORIAS.find((m) => m.key === macroFiltro);
@@ -170,15 +180,15 @@ export function RadarFuturosView({ hipotesisList }: RadarFuturosViewProps) {
             </span>
           </div>
 
-          <div className="space-y-2.5 max-h-[750px] overflow-y-auto pr-1">
+          <div className="space-y-2.5 max-h-[500px] lg:max-h-[750px] overflow-y-auto pr-1">
             {filtradas.map((h) => {
               const isSelected = seleccionada?.id === h.id;
 
               return (
                 <div
                   key={h.id}
-                  onClick={() => setHipotesisActiva(h.id)}
-                  className={`cursor-pointer rounded-xl border p-4 transition-all ${
+                  onClick={() => handleSelectHipotesis(h.id)}
+                  className={`cursor-pointer rounded-xl border p-3.5 sm:p-4 transition-all ${
                     isSelected
                       ? "border-alby-green bg-alby-greenBg shadow-sm"
                       : "border-borderSubtle bg-panel hover:border-alby-green hover:bg-subtle"
@@ -224,18 +234,18 @@ export function RadarFuturosView({ hipotesisList }: RadarFuturosViewProps) {
 
         {/* Ficha Detallada: Señales A Favor (🟢) vs En Contra (🔴) (7 columnas) */}
         {seleccionada && (
-          <div className="rounded-2xl border border-borderSubtle bg-panel p-6 shadow-sm lg:col-span-7 space-y-6">
+          <div id="detalle-hipotesis" className="rounded-2xl border border-borderSubtle bg-panel p-4 sm:p-6 shadow-sm lg:col-span-7 space-y-5 sm:space-y-6 scroll-mt-20">
             {/* Cabecera de la Hipótesis */}
             <div className="border-b border-borderSubtle pb-4">
-              <div className="flex flex-wrap items-center justify-between gap-2 mb-2">
-                <span className="rounded-md bg-alby-greenBg text-alby-green border border-alby-greenBorder px-2.5 py-1 text-xs font-mono font-bold">
+              <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-2">
+                <span className="rounded-md bg-alby-greenBg text-alby-green border border-alby-greenBorder px-2.5 py-1 text-xs font-mono font-bold self-start">
                   {seleccionada.id} // {seleccionada.horizonte}
                 </span>
                 <span className="text-xs font-mono text-muted">
                   Dominio: <strong className="text-title">{getMacroCatName(seleccionada.id)}</strong>
                 </span>
               </div>
-              <h2 className="text-lg font-bold text-title leading-snug">
+              <h2 className="text-base sm:text-lg font-bold text-title leading-snug">
                 {seleccionada.titulo}
               </h2>
             </div>
