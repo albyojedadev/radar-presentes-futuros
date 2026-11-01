@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const { extraerTagsDeTitulares } = require('./tag_extractor');
 
 const ROOT_RADAR = path.resolve(__dirname, '..', '..', '_AUTOMATIZACIONES_E_INFORMES_', 'RADAR_DE_PRESENTES');
 const OUT_DIR = path.resolve(__dirname, '..', 'public', 'data');
@@ -161,6 +162,7 @@ if (fs.existsSync(semanasDir)) {
       const codigo = semMatch ? semMatch[1] : sf;
       const fullPath = path.join(dirAno, sf);
       const infoSemana = parsearInformeSemana(fullPath);
+      const tagsSemana = extraerTagsDeTitulares(infoSemana.titulares);
 
       semanasPorAno[ano].push({
         archivo: sf,
@@ -169,10 +171,28 @@ if (fs.existsSync(semanasDir)) {
         rutaRelativa: `${ano}/${sf}`,
         periodo: infoSemana.periodo,
         analisis: infoSemana.analisis,
-        titulares: infoSemana.titulares
+        titulares: infoSemana.titulares,
+        tags: tagsSemana
       });
     }
   }
+}
+
+// 4.1 Enriquecer Anuarios con Tags Consolidados Anuales
+for (const year of Object.keys(anuarios)) {
+  const bloquesAgregados = { ES: [], FR: [], DE: [], UK: [], EU: [], US: [], LATAM: [], AFRICA: [], CHINA: [] };
+  if (semanasPorAno[year]) {
+    for (const sem of semanasPorAno[year]) {
+      if (sem.titulares) {
+        for (const reg of Object.keys(sem.titulares)) {
+          if (bloquesAgregados[reg] && Array.isArray(sem.titulares[reg])) {
+            bloquesAgregados[reg].push(...sem.titulares[reg]);
+          }
+        }
+      }
+    }
+  }
+  anuarios[year].tags = extraerTagsDeTitulares(bloquesAgregados);
 }
 
 // 5. Cargar Hipótesis de Futuro (Las 22 hipótesis de futures_radar.db)

@@ -2,9 +2,17 @@
 
 import React, { useState } from "react";
 import { FileText, Flame, Eye, Compass, ExternalLink, ArrowRight, CheckCircle2, Calendar, Sparkles } from "lucide-react";
+import { NubeTagsGeografica, TagSemana } from "./NubeTagsGeografica";
+
+interface AnuarioData {
+  archivo: string;
+  year: number;
+  markdown: string;
+  tags?: TagSemana[];
+}
 
 interface AnuariosViewProps {
-  anuarios: Record<string, { archivo: string; year: number; markdown: string }>;
+  anuarios: Record<string, AnuarioData>;
 }
 
 interface ItemHumo {
@@ -36,6 +44,37 @@ interface AnuarioEstructurado {
   puntosCiegos: ItemCiego[];
   framing: string;
   cuentasPendientes: string[];
+}
+
+function extraerTituloYUrl(linea: string): { titulo: string; url: string } {
+  let clean = linea.replace(/^###\s*/, "").trim();
+  clean = clean.replace(/^[^\w\[]+/, "").trim();
+
+  const startBracket = clean.indexOf("[");
+  const endBracket = clean.indexOf("](");
+  const lastParen = clean.lastIndexOf(")");
+
+  if (startBracket !== -1 && endBracket !== -1 && lastParen !== -1 && endBracket > startBracket && lastParen > endBracket) {
+    const titulo = clean.substring(startBracket + 1, endBracket).trim();
+    const url = clean.substring(endBracket + 2, lastParen).trim();
+    return { titulo, url };
+  }
+
+  return {
+    titulo: clean.replace(/^\[/, "").replace(/\]$/, "").replace(/[*_`]/g, "").trim(),
+    url: ""
+  };
+}
+
+function limpiarDetalleMarkdown(linea: string): string {
+  let texto = linea.trim();
+  texto = texto.replace(/^>\s*/, "");
+  // Quitar etiquetas tipo **Evaluación de Segundo Orden (La Realidad de Fondo):**
+  texto = texto.replace(/^\*\*.*?\*\*:?\s*/, "");
+  texto = texto.replace(/^\*\*.*?:?\*\*\s*/, "");
+  // Quitar cualquier asterisco suelto restante
+  texto = texto.replace(/\*\*/g, "").replace(/\*/g, "").trim();
+  return texto;
 }
 
 export function AnuariosView({ anuarios }: AnuariosViewProps) {
@@ -152,30 +191,26 @@ export function AnuariosView({ anuarios }: AnuariosViewProps) {
           if (currentItem) {
             campanasHumo.push({ titulo: currentItem.titulo, url: currentItem.url, evaluacion: currentItem.detalle });
           }
-          const matchLink = l.match(/\[(.*?)\]\((.*?)\)/);
-          if (matchLink) {
-            currentItem = { titulo: matchLink[1], url: matchLink[2], detalle: "" };
-          } else {
-            currentItem = { titulo: l.replace(/^###\s+/, "").replace(/^[^\w\s]+/, "").trim(), url: "", detalle: "" };
+          const { titulo, url } = extraerTituloYUrl(l);
+          currentItem = { titulo, url, detalle: "" };
+        } else if (currentItem && !l.startsWith("---") && !l.startsWith("#")) {
+          const texto = limpiarDetalleMarkdown(l);
+          if (texto) {
+            currentItem.detalle += (currentItem.detalle ? " " : "") + texto;
           }
-        } else if (currentItem && (l.startsWith(">") || l.includes("Evaluación") || l.includes("Evaluaci") || l.includes("Realidad"))) {
-          const texto = l.replace(/^>\s*/, "").replace(/\*\*.*?\*\*:\s*/i, "").trim();
-          currentItem.detalle += (currentItem.detalle ? " " : "") + texto;
         }
       } else if (seccionActual === "ciegos") {
         if (l.startsWith("### ")) {
           if (currentItem) {
             puntosCiegos.push({ titulo: currentItem.titulo, url: currentItem.url, impacto: currentItem.detalle });
           }
-          const matchLink = l.match(/\[(.*?)\]\((.*?)\)/);
-          if (matchLink) {
-            currentItem = { titulo: matchLink[1], url: matchLink[2], detalle: "" };
-          } else {
-            currentItem = { titulo: l.replace(/^###\s+/, "").replace(/^[^\w\s]+/, "").trim(), url: "", detalle: "" };
+          const { titulo, url } = extraerTituloYUrl(l);
+          currentItem = { titulo, url, detalle: "" };
+        } else if (currentItem && !l.startsWith("---") && !l.startsWith("#")) {
+          const texto = limpiarDetalleMarkdown(l);
+          if (texto) {
+            currentItem.detalle += (currentItem.detalle ? " " : "") + texto;
           }
-        } else if (currentItem && (l.startsWith(">") || l.includes("Impacto") || l.includes("Silenciado") || l.includes("Fondo"))) {
-          const texto = l.replace(/^>\s*/, "").replace(/\*\*.*?\*\*:\s*/i, "").trim();
-          currentItem.detalle += (currentItem.detalle ? " " : "") + texto;
         }
       } else if (seccionActual === "framing") {
         if (l && !l.startsWith("---") && !l.startsWith("#")) {
@@ -357,6 +392,16 @@ export function AnuariosView({ anuarios }: AnuariosViewProps) {
                 );
               })()}
             </div>
+          )}
+
+          {/* Nube de Macrotemas Anuales: Del Consenso Transnacional a la Parroquia Doméstica */}
+          {anuarioActivo?.tags && anuarioActivo.tags.length > 0 && (
+            <NubeTagsGeografica
+              tags={anuarioActivo.tags}
+              titulo={`Nube de Macrotemas Anuales (${anoSeleccionado})`}
+              subtitulo="Consolidación de las 52 semanas: de los consensos transversales globales a los debates puramente locales."
+              contexto={`Año ${anoSeleccionado}`}
+            />
           )}
 
           {/* Bloque Doble: Campañas de Humo vs Puntos Ciegos */}

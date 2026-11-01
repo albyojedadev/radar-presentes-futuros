@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import { Search, ExternalLink, ChevronLeft, ChevronRight, Newspaper, Compass } from "lucide-react";
+import { NubeTagsGeografica, TagSemana } from "./NubeTagsGeografica";
 
 interface Semanainfo {
   archivo: string;
@@ -17,6 +18,7 @@ interface Semanainfo {
     tesis: string;
   };
   titulares?: Record<string, Array<{ titulo: string; medio: string; url: string }>>;
+  tags?: TagSemana[];
 }
 
 interface HemerotecaViewProps {
@@ -349,7 +351,19 @@ export function HemerotecaView({ semanasPorAno }: HemerotecaViewProps) {
         })()}
 
         {/* ====================================================================
-            2. EVIDENCIA DOCUMENTAL: 9 BLOQUES GEOPOLÍTICOS CON TITULARES REALES
+            2. NUBE DE TAGS SEMANAL: SINCRONIZACIÓN GEOGRÁFICA (DE COMÚN A INDIVIDUAL)
+            ==================================================================== */}
+        {semanaObj?.tags && semanaObj.tags.length > 0 && (
+          <NubeTagsGeografica
+            tags={semanaObj.tags}
+            titulo="Nube de Tags & Sincronización Geográfica"
+            subtitulo="Ordenados de mayor consenso transnacional (temas comunes en varios bloques) a particularismos domésticos."
+            contexto={`Semana ${semanaSeleccionada}`}
+          />
+        )}
+
+        {/* ====================================================================
+            3. EVIDENCIA DOCUMENTAL: 9 BLOQUES GEOPOLÍTICOS CON TITULARES REALES
             ==================================================================== */}
         <div className="space-y-4 pt-2">
           <div className="flex flex-wrap items-center justify-between gap-2 border-b border-borderSubtle pb-2">
