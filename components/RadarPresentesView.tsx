@@ -205,70 +205,90 @@ export function RadarPresentesView({ noticiasHoy }: RadarPresentesViewProps) {
       </div>
 
       {/* ====================================================================
-          RADIOGRAFÍA DE LA AGENDA EN ESPAÑA (FOCO DOMÉSTICO Y MONOTEMA)
+          RADIOGRAFÍA DINÁMICA DE LA AGENDA EN ESPAÑA (FOCO DOMÉSTICO EN VIVO)
           ==================================================================== */}
-      <div className="rounded-2xl border border-borderSubtle bg-panel p-5 shadow-sm space-y-4">
-        <div className="flex flex-wrap items-center justify-between gap-2 border-b border-borderSubtle pb-3">
-          <div className="flex items-center gap-2">
-            <span className="flex h-2.5 w-2.5 rounded-full bg-alby-terr" />
-            <h3 className="text-sm font-bold text-title">
-              Radiografía de la Agenda en España (6 Cabeceras • Cobertura Doméstica)
-            </h3>
-          </div>
-          <div className="flex items-center gap-2">
-            <span className="rounded bg-subtle px-2.5 py-0.5 text-xs font-mono font-bold text-alby-terr border border-borderSubtle">
-              72% Ruido Doméstico
-            </span>
-            <button
-              onClick={() => setRegionFiltro("ES")}
-              className="rounded-lg bg-alby-green/10 hover:bg-alby-green/20 text-alby-green px-2.5 py-0.5 text-xs font-mono font-bold transition-colors"
-            >
-              Filtrar España (ES)
-            </button>
-          </div>
-        </div>
+      {(() => {
+        const analisisEspana = noticiasHoy.analisisEspana || {
+          porcentaje_domestico: "72% Ruido Doméstico",
+          monotema: {
+            titulo: "Siniestro Ferroviario & Colapso de Gestión Adif / Renfe",
+            descripcion: "16 de los 24 titulares nacionales se sincronizan de forma unánime en el accidente ferroviario, debatiendo el fallo de señalización en el tramo Madrid-Sevilla y la exigencia de responsabilidades políticas a Óscar Puente."
+          },
+          polarizacion: {
+            titulo: "Fractura de Encuadre entre Cabeceras Conservadoras y Progresistas",
+            descripcion: "Mientras las cabeceras de perfil conservador (El Mundo, ABC) redoblan la presión por dimisiones y falta de inversión, medios como elDiario.es y El País priorizan las ayudas aprobadas en Consejo de Ministros y la cronología técnica del convoy."
+          },
+          contraste: {
+            titulo: "Eclipsamiento Geopolítico: Cobertura Doméstica Monopolizada",
+            descripcion: "La intensidad del monotema interno provoca que el pulso judicial en Varsovia (UE) o las restricciones chinas en tierras raras queden relegadas a cero menciones en portada en España, operando como puntos ciegos absolutos."
+          }
+        };
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-          {/* Foco 1: Monotema */}
-          <div className="rounded-xl border border-borderSubtle bg-subtle/50 p-4 space-y-1.5">
-            <span className="text-[10px] font-mono text-muted uppercase font-bold tracking-wider">
-              01 // Monotema Dominante
-            </span>
-            <h4 className="text-xs font-bold text-title leading-snug">
-              Siniestro Ferroviario en Urda & Colapso de Gestión Adif / Renfe
-            </h4>
-            <p className="text-[11px] text-body leading-relaxed">
-              16 de los 24 titulares nacionales se sincronizan de forma unánime en el accidente ferroviario, debatiendo el fallo de señalización en el tramo Madrid-Sevilla y la exigencia de responsabilidades políticas a Óscar Puente.
-            </p>
-          </div>
+        return (
+          <div className="rounded-2xl border border-amber-200/90 dark:border-amber-900/50 bg-[#fffdf9] dark:bg-[#181411] p-5 shadow-sm space-y-4">
+            <div className="flex flex-wrap items-center justify-between gap-2 border-b border-amber-200/60 dark:border-amber-900/30 pb-3">
+              <div className="flex items-center gap-2">
+                <span className="flex h-2.5 w-2.5 rounded-full bg-alby-terr animate-pulse" />
+                <h3 className="text-sm font-bold text-title">
+                  Radiografía de la Agenda en España (6 Cabeceras • Cobertura Doméstica en Vivo)
+                </h3>
+              </div>
+              <div className="flex items-center gap-2">
+                <span className="rounded-md bg-amber-100/70 dark:bg-amber-950/60 px-2.5 py-0.5 text-xs font-mono font-bold text-alby-terr border border-amber-200 dark:border-amber-800">
+                  {analisisEspana.porcentaje_domestico || "72% Ruido Doméstico"}
+                </span>
+                <button
+                  onClick={() => setRegionFiltro("ES")}
+                  className="rounded-lg bg-alby-green/10 hover:bg-alby-green/20 text-alby-green px-2.5 py-0.5 text-xs font-mono font-bold transition-colors"
+                >
+                  Filtrar España (ES)
+                </button>
+              </div>
+            </div>
 
-          {/* Foco 2: Polarización */}
-          <div className="rounded-xl border border-borderSubtle bg-subtle/50 p-4 space-y-1.5">
-            <span className="text-[10px] font-mono text-muted uppercase font-bold tracking-wider">
-              02 // Encuadre & Polarización
-            </span>
-            <h4 className="text-xs font-bold text-title leading-snug">
-              Fractura Editorial entre Auditoría Técnica y Pugna Partidista
-            </h4>
-            <p className="text-[11px] text-body leading-relaxed">
-              Mientras las cabeceras de perfil conservador (*El Mundo*, *ABC*) redoblan la presión por dimisiones y falta de inversión, medios como *elDiario.es* y *El País* priorizan las ayudas aprobadas en Consejo de Ministros y la cronología técnica del convoy.
-            </p>
-          </div>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+              {/* Foco 1: Monotema */}
+              <div className="rounded-xl border border-amber-200/60 dark:border-amber-900/30 bg-panel p-4 space-y-1.5 shadow-2xs">
+                <span className="text-[10px] font-mono text-alby-terr uppercase font-bold tracking-wider">
+                  01 // Monotema Dominante
+                </span>
+                <h4 className="text-xs font-bold text-title leading-snug">
+                  {analisisEspana.monotema?.titulo}
+                </h4>
+                <p className="text-[11px] text-body leading-relaxed">
+                  {analisisEspana.monotema?.descripcion}
+                </p>
+              </div>
 
-          {/* Foco 3: Contraste con el Exterior */}
-          <div className="rounded-xl border border-borderSubtle bg-subtle/50 p-4 space-y-1.5">
-            <span className="text-[10px] font-mono text-muted uppercase font-bold tracking-wider">
-              03 // Contraste Geopolítico
-            </span>
-            <h4 className="text-xs font-bold text-title leading-snug">
-              Eclipsamiento Total de las Corrientes Internacionales
-            </h4>
-            <p className="text-[11px] text-body leading-relaxed">
-              La intensidad del monotema interno provoca que el pulso judicial en Varsovia (UE) o las restricciones chinas en tierras raras queden relegadas a cero menciones en portada en España, operando como puntos ciegos absolutos.
-            </p>
+              {/* Foco 2: Polarización */}
+              <div className="rounded-xl border border-amber-200/60 dark:border-amber-900/30 bg-panel p-4 space-y-1.5 shadow-2xs">
+                <span className="text-[10px] font-mono text-alby-terr uppercase font-bold tracking-wider">
+                  02 // Encuadre & Polarización
+                </span>
+                <h4 className="text-xs font-bold text-title leading-snug">
+                  {analisisEspana.polarizacion?.titulo}
+                </h4>
+                <p className="text-[11px] text-body leading-relaxed">
+                  {analisisEspana.polarizacion?.descripcion}
+                </p>
+              </div>
+
+              {/* Foco 3: Contraste con el Exterior */}
+              <div className="rounded-xl border border-amber-200/60 dark:border-amber-900/30 bg-panel p-4 space-y-1.5 shadow-2xs">
+                <span className="text-[10px] font-mono text-alby-terr uppercase font-bold tracking-wider">
+                  03 // Contraste Geopolítico
+                </span>
+                <h4 className="text-xs font-bold text-title leading-snug">
+                  {analisisEspana.contraste?.titulo}
+                </h4>
+                <p className="text-[11px] text-body leading-relaxed">
+                  {analisisEspana.contraste?.descripcion}
+                </p>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
+        );
+      })()}
 
       {/* ====================================================================
           LOS 3 PUNTOS CIEGOS / CORRIENTES INTERNACIONALES (Fondo del Iceberg)

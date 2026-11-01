@@ -1,5 +1,5 @@
 {
-  "fechaGeneracion": "2026-11-01T12:04:10.921Z",
+  "fechaGeneracion": "2026-11-01T12:16:50.649Z",
   "fuentesConfig": {
     "ES": {
       "nombre": "España",
@@ -113,6 +113,11 @@
           "medio": "Politico Europe",
           "url": "https://www.politico.eu/feed/",
           "perfil": "Regulatorio / Políticas UE"
+        },
+        {
+          "medio": "Euractiv",
+          "url": "https://www.euractiv.com/feed/",
+          "perfil": "Políticas Comunitarias / Institucional Bruselas"
         }
       ]
     },
@@ -155,11 +160,6 @@
           "medio": "CNN en Español",
           "url": "https://news.google.com/rss/search?q=site:cnnespanol.cnn.com&hl=es-419&gl=US&ceid=US:es-419",
           "perfil": "Cobertura continental / Televisión Panamericana"
-        },
-        {
-          "medio": "Clarín (Argentina)",
-          "url": "https://www.clarin.com/rss/lo-ultimo/",
-          "perfil": "Cono Sur / Regional"
         }
       ]
     },
@@ -208,38 +208,61 @@
   },
   "noticiasHoy": {
     "fecha": "2026-11-01",
-    "timestamp": "2026-11-01 12:02:31",
+    "timestamp": "2026-11-01 12:15:16",
+    "analisisEspana": {
+      "porcentaje_domestico": "77% Ruido Doméstico",
+      "monotema": {
+        "titulo": "Accidente Ferroviario / Red de Transporte (15 titulares sincronizados)",
+        "descripcion": "La agenda española queda monopolizada por accidente ferroviario / red de transporte, concentrando a la inmensa mayoría de las 6 cabeceras bajo una cobertura monotemática continua."
+      },
+      "polarizacion": {
+        "titulo": "Fractura de Encuadre entre Cabeceras Conservadoras y Progresistas",
+        "descripcion": "Contraste editorial visible: mientras cabeceras conservadoras presionan con titulares como 'El sistema de señalización en el tramo Madrid-Sevilla, ...', los medios progresistas replantean la cobertura con 'Las vidas truncadas en el tren: “Gracias por quererme, ...'."
+      },
+      "contraste": {
+        "titulo": "Eclipsamiento Geopolítico: 77% de Cobertura Doméstica",
+        "descripcion": "La concentración en la controversia interna deja en punto ciego las corrientes internacionales que dominan el resto del mundo, como Elecciones y Pugna Institucional EE.UU. y Manifestaciones y Protestas Sociales."
+      }
+    },
     "puntosCiegos": [
       {
         "id": "PC-01",
-        "titulo": "Crisis de Infraestructura y Mantenimiento Ferroviario / Servicios Esenciales",
-        "titular_noticia": "Tensión institucional por averías en la red de alta velocidad y colapso de cercanías",
-        "impacto": "La prensa generalista polariza sobre la dimisión de cargos individuales mientras se elude la auditoría del déficit inversor en los sistemas de señalización LZB/ERTMS frente a las exigencias comunitarias.",
+        "titulo": "Elecciones y Pugna Institucional EE.UU.",
+        "titular_noticia": "¿Qué pasa con la batería legal de Trump de cara a las midterms? Los casos de Alaska y California se desinflan",
+        "impacto": "Asimetría crítica: Mientras 12 cabeceras internacionales en CHINA, DE, FR, LATAM, UK, US priorizan este acontecimiento, la prensa nacional en España le dedica cero menciones en portada.",
         "bloques_afectados": [
-          "ES",
-          "EU"
+          "CHINA",
+          "DE",
+          "FR",
+          "LATAM",
+          "UK",
+          "US"
         ]
       },
       {
         "id": "PC-02",
-        "titulo": "Soberanía de Minerales Críticos y Redes de Suministro en el Eje Oriental",
-        "titular_noticia": "Pekín intensifica el control de tierras raras y acuerdos bilaterales de litio y cobalto en África",
-        "impacto": "Mientras Occidente centra su cobertura en controversias electorales inmediatas, el Eje Oriental y el Sur Global consolidan el control físico de la cadena de valor de baterías y semiconductores.",
+        "titulo": "Manifestaciones y Protestas Sociales",
+        "titular_noticia": "“Me manifiesto para que podamos manifestarnos”: la movilización del 31 de octubre, procesiones festivas y decididas encorsetadas por dispositivos de seguridad",
+        "impacto": "Asimetría crítica: Mientras 10 cabeceras internacionales en AFRICA, CHINA, DE, EU, FR, UK, US priorizan este acontecimiento, la prensa nacional en España le dedica cero menciones en portada.",
         "bloques_afectados": [
-          "CHINA",
           "AFRICA",
+          "CHINA",
+          "DE",
+          "EU",
+          "FR",
+          "UK",
           "US"
         ]
       },
       {
         "id": "PC-03",
-        "titulo": "Fractura Institucional y Pulso Constitucional en Europa del Este",
-        "titular_noticia": "Bloqueo policial en la sede del Tribunal Constitucional en Varsovia y pugna gubernamental",
-        "impacto": "Desapercibido en las portadas españolas, el enfrentamiento entre el gobierno de Tusk y la judicatura polaca pone a prueba los mecanismos de condicionalidad del estado de derecho de la Unión Europea.",
+        "titulo": "Guerra Ucrania / Rusia / Frente Oriental",
+        "titular_noticia": "\"Regresamos del infierno\", dicen los ucranianos después de años en la ciudad de primera línea ocupada por Rusia",
+        "impacto": "Asimetría crítica: Mientras 6 cabeceras internacionales en EU, UK, US priorizan este acontecimiento, la prensa nacional en España le dedica cero menciones en portada.",
         "bloques_afectados": [
           "EU",
-          "DE",
-          "FR"
+          "UK",
+          "US"
         ]
       }
     ],
@@ -266,7 +289,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Accidente Ferroviario / Red de Transporte",
-                "coincidencias_count": 9
+                "coincidencias_count": 10
               },
               {
                 "titulo": "¿Qué causó el accidente? La secuencia paso a paso de una cadena de fallos que el sistema no detuvo",
@@ -282,7 +305,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Accidente Ferroviario / Red de Transporte",
-                "coincidencias_count": 9
+                "coincidencias_count": 10
               },
               {
                 "titulo": "No fue solo un fallo humano: las debilidades del sistema que evidencian los accidentes de Urda y Adamuz",
@@ -298,7 +321,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Accidente Ferroviario / Red de Transporte",
-                "coincidencias_count": 9
+                "coincidencias_count": 10
               },
               {
                 "titulo": "El maquinista de Angrois al operador de Atocha: “Que se aísle de la tele y la prensa: le pueden hacer mucho daño”",
@@ -314,7 +337,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Accidente Ferroviario / Red de Transporte",
-                "coincidencias_count": 9
+                "coincidencias_count": 10
               }
             ],
             "estado": "OK",
@@ -338,7 +361,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Accidente Ferroviario / Red de Transporte",
-                "coincidencias_count": 9
+                "coincidencias_count": 10
               },
               {
                 "titulo": "¿Cómo pueden informarse los familiares? Teléfonos de atención a víctimas y allegados y puntos de ayuda para los afectados por el accidente de tren de Urda (Toledo)",
@@ -354,7 +377,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Accidente Ferroviario / Red de Transporte",
-                "coincidencias_count": 9
+                "coincidencias_count": 10
               },
               {
                 "titulo": "El Ministerio de Transportes certificó, 21 días antes de la tragedia de Urda, que la red ferroviaria española estaba \"en niveles aceptables de riesgo\"",
@@ -370,7 +393,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Accidente Ferroviario / Red de Transporte",
-                "coincidencias_count": 9
+                "coincidencias_count": 10
               },
               {
                 "titulo": "Crónica de los 22 minutos a ciegas que desembocaron en la tragedia de Urda: \"Cualquier día va a haber otro accidente\"",
@@ -386,7 +409,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Accidente Ferroviario / Red de Transporte",
-                "coincidencias_count": 9
+                "coincidencias_count": 10
               }
             ],
             "estado": "OK",
@@ -410,7 +433,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Accidente Ferroviario / Red de Transporte",
-                "coincidencias_count": 9
+                "coincidencias_count": 10
               },
               {
                 "titulo": "Una madre que viajaba a la boda de su hija, un nazareno, una brillante científica... Las vidas que se perdieron en Urda",
@@ -426,7 +449,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Accidente Ferroviario / Red de Transporte",
-                "coincidencias_count": 9
+                "coincidencias_count": 10
               },
               {
                 "titulo": "Nueva oportunidad del Madrid para prolongar su imbatibilidad",
@@ -472,7 +495,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Accidente Ferroviario / Red de Transporte",
-                "coincidencias_count": 9
+                "coincidencias_count": 10
               },
               {
                 "titulo": "Accidente en Urda: las cinco incógnitas sin resolver tras un choque mortal y evitable",
@@ -488,7 +511,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Accidente Ferroviario / Red de Transporte",
-                "coincidencias_count": 9
+                "coincidencias_count": 10
               },
               {
                 "titulo": "Renfe dará consignas a los maquinistas para reanudar la marcha a 40 km/hora si cae el sistema de seguridad LZB",
@@ -504,7 +527,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Accidente Ferroviario / Red de Transporte",
-                "coincidencias_count": 9
+                "coincidencias_count": 10
               },
               {
                 "titulo": "El Gobierno aprobará el martes las ayudas económicas para las víctimas del accidente de Urda",
@@ -520,7 +543,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Accidente Ferroviario / Red de Transporte",
-                "coincidencias_count": 9
+                "coincidencias_count": 10
               }
             ],
             "estado": "OK",
@@ -611,7 +634,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Accidente Ferroviario / Red de Transporte",
-                "coincidencias_count": 9
+                "coincidencias_count": 10
               },
               {
                 "titulo": "Así es la fórmula de éxito de las cuentas de inversión en Europa",
@@ -700,7 +723,7 @@
                 "titulo": "En Gaza, los ataques israelíes matan a ocho personas, entre ellas un niño, según la defensa civil y los hospitales",
                 "url": "https://www.lemonde.fr/international/article/2026/11/01/a-gaza-des-frappes-israeliennes-tuent-huit-personnes-dont-un-enfant-selon-la-defense-civile-et-les-hopitaux_6804236_3210.html",
                 "resumen": "Nuevos ataques golpearon la Franja de Gaza el domingo y mataron a ocho personas. Más de 1.500 palestinos han muerto desde el alto el fuego establecido hace un año, que Israel y Hamás se acusan mutuamente de violar.",
-                "fecha": "Sun, 01 Nov 2026 12:48:02 +0100",
+                "fecha": "Sun, 01 Nov 2026 12:48:01 +0100",
                 "titulo_original": "A Gaza, des frappes israéliennes tuent huit personnes dont un enfant, selon la défense civile et les hôpitaux",
                 "tags": [
                   "#OrienteMedio",
@@ -709,7 +732,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Conflicto Oriente Medio (Gaza / Líbano)",
-                "coincidencias_count": 5
+                "coincidencias_count": 4
               }
             ],
             "estado": "OK",
@@ -720,11 +743,11 @@
             "perfil": "Conservador / Tradicional",
             "noticias": [
               {
-                "titulo": "EN VIVO - Ruta del Ron: los barcos están en su lugar, condiciones climáticas excepcionales... Siga el inicio de la 13.ª edición en Saint-Malo",
+                "titulo": "EN VIVO - Ruta del Ron: la salida de la 13ª edición se dio en condiciones excepcionales",
                 "url": "https://www.lefigaro.fr/sports/voile/route-du-rhum/route-du-rhum-suivez-le-depart-de-la-13e-edition-depuis-saint-malo-20261101",
-                "resumen": "La salida de la más prestigiosa de las regatas transatlánticas se dará a las 13.02 horas. con condiciones climáticas excepcionales.",
-                "fecha": "Sun, 01 Nov 2026 13:00:03 +0100",
-                "titulo_original": "EN DIRECT - Route du Rhum : les bateaux sont en place, des conditions météo exceptionnelles…Suivez le départ de la 13e édition à Saint-Malo",
+                "resumen": "Los 151 regatistas en solitario partieron este domingo a las 13.02 horas para atacar la más prestigiosa de las regatas transatlánticas.",
+                "fecha": "Sun, 01 Nov 2026 13:13:03 +0100",
+                "titulo_original": "EN DIRECT - Route du Rhum : le départ de la 13e édition a été donné dans des conditions exceptionnelles",
                 "tags": [
                   "#RutaRon"
                 ],
@@ -793,7 +816,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Elecciones y Pugna Institucional EE.UU.",
-                "coincidencias_count": 8
+                "coincidencias_count": 7
               },
               {
                 "titulo": "¿Cambio de estrategia en la recta final de las midterms? Aparece Obama y Trump se repliega",
@@ -808,7 +831,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Elecciones y Pugna Institucional EE.UU.",
-                "coincidencias_count": 8
+                "coincidencias_count": 7
               },
               {
                 "titulo": "¿Cambio de estrategia en la recta final de las midterms? Aparece Obama y Trump se repliega",
@@ -824,7 +847,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Elecciones y Pugna Institucional EE.UU.",
-                "coincidencias_count": 8
+                "coincidencias_count": 7
               },
               {
                 "titulo": "Directo midterms y jueza frena amenazas del Departamento de Justicia a funcionarios electorales",
@@ -839,7 +862,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Elecciones y Pugna Institucional EE.UU.",
-                "coincidencias_count": 8
+                "coincidencias_count": 7
               }
             ],
             "estado": "OK",
@@ -858,7 +881,7 @@
               {
                 "titulo": "Trump: Bolsonaro puede quedarse en Estados Unidos",
                 "url": "https://www.dw.com/de/trump-bolsonaro-kann-in-den-usa-bleiben/a-79821509?maca=de-rss-de-all-1119-xml-mrss",
-                "resumen": "Nach seiner Wahlniederlage hat Flávio Bolsonaro Brasilien fluchtartig in Richtung USA verlassen - trotz eines gerichtlichen Ausreiseverbots. Wenn es nach US-Präsident Trump geht, kann er so lange bleiben, wie er will.",
+                "resumen": "Después de su derrota electoral, Flávio Bolsonaro huyó de Brasil a Estados Unidos, a pesar de la prohibición judicial de salir del país. Si el presidente estadounidense Trump se sale con la suya, puede quedarse todo el tiempo que quiera.",
                 "fecha": "Sun, 1 Nov 2026 11:25:00 GMT",
                 "titulo_original": "Trump: Bolsonaro kann in den USA bleiben",
                 "tags": [
@@ -869,7 +892,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Elecciones y Pugna Institucional EE.UU.",
-                "coincidencias_count": 8
+                "coincidencias_count": 7
               },
               {
                 "titulo": "Después de las manifestaciones de la “Generación Z”: “Conmocionados” por la violencia excesiva en Frankfurt",
@@ -963,7 +986,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Elecciones y Pugna Institucional EE.UU.",
-                "coincidencias_count": 8
+                "coincidencias_count": 7
               },
               {
                 "titulo": "Audi: la aparición de Gernot Döllner con Donald Trump puede asustar a los compradores estadounidenses",
@@ -979,7 +1002,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Elecciones y Pugna Institucional EE.UU.",
-                "coincidencias_count": 8
+                "coincidencias_count": 7
               }
             ],
             "estado": "OK",
@@ -1017,7 +1040,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Conflicto Oriente Medio (Gaza / Líbano)",
-                "coincidencias_count": 5
+                "coincidencias_count": 4
               },
               {
                 "titulo": "Hace 40 años: cuando una nube química pasó sobre Basilea",
@@ -1087,7 +1110,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Guerra Ucrania / Rusia / Frente Oriental",
-                "coincidencias_count": 3
+                "coincidencias_count": 4
               },
               {
                 "titulo": "Los evacuados ucranianos se reúnen con sus familias después de años atrapados en una ciudad ocupada por Rusia",
@@ -1102,7 +1125,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Guerra Ucrania / Rusia / Frente Oriental",
-                "coincidencias_count": 3
+                "coincidencias_count": 4
               },
               {
                 "titulo": "Juez desestima la demanda de Trump contra el Wall Street Journal por el libro del cumpleaños de Epstein",
@@ -1117,7 +1140,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Elecciones y Pugna Institucional EE.UU.",
-                "coincidencias_count": 8
+                "coincidencias_count": 7
               }
             ],
             "estado": "OK",
@@ -1188,7 +1211,7 @@
                   "#África"
                 ],
                 "tema_repetido": true,
-                "cluster_tema": "África",
+                "cluster_tema": "Emergencia Climática y Fenómenos Extremos",
                 "coincidencias_count": 2
               }
             ],
@@ -1341,7 +1364,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Política",
-                "coincidencias_count": 10
+                "coincidencias_count": 9
               },
               {
                 "titulo": "Cómo el viaje de cinco días de Merz a Asia terminó siendo principalmente sobre Europa",
@@ -1374,6 +1397,78 @@
                 "tema_repetido": true,
                 "cluster_tema": "Defensa",
                 "coincidencias_count": 3
+              }
+            ],
+            "estado": "OK",
+            "total": 4
+          },
+          {
+            "medio": "Euractiv",
+            "perfil": "Políticas Comunitarias / Institucional Bruselas",
+            "noticias": [
+              {
+                "titulo": "Bulgaria dividida vota en tensa segunda vuelta presidencial",
+                "url": "https://www.rapporteur.com/news/divided-bulgaria-votes-in-tense-presidential-runoff/",
+                "resumen": "La primera vuelta en los estados miembros de la Unión Europea y la OTAN estuvo marcada por una participación récord",
+                "fecha": "Sun, 01 Nov 2026 08:02:02 +0000",
+                "titulo_original": "Divided Bulgaria votes in tense presidential runoff",
+                "tags": [
+                  "#AndreyGyurov",
+                  "#Bulgaria",
+                  "#IlianaIotova",
+                  "#Geopolítica"
+                ],
+                "tema_repetido": true,
+                "cluster_tema": "Guerra Ucrania / Rusia / Frente Oriental",
+                "coincidencias_count": 4
+              },
+              {
+                "titulo": "La cumbre de la ONU sobre biodiversidad finaliza sin grandes avances",
+                "url": "https://www.rapporteur.com/news/un-biodiversity-summit-ends-without-major-breakthrough/",
+                "resumen": "Los gobiernos siguen estancados por la financiación y los subsidios que dañan la naturaleza",
+                "fecha": "Sat, 31 Oct 2026 12:21:08 +0000",
+                "titulo_original": "UN biodiversity summit ends without major breakthrough",
+                "tags": [
+                  "#Armenia",
+                  "#Biodiversidad",
+                  "#Ambiente",
+                  "#NacionesUnidas(onu)"
+                ],
+                "tema_repetido": true,
+                "cluster_tema": "Ambiente",
+                "coincidencias_count": 2
+              },
+              {
+                "titulo": "Los eurodiputados piden más dinero de la UE en medio de los ataques en el Mar Negro",
+                "url": "https://www.rapporteur.com/news/meps-push-for-more-eu-cash-amid-black-sea-attacks/",
+                "resumen": "Bulgaria busca 2.000 millones de euros adicionales a medida que aumentan las amenazas al transporte marítimo en el Mar Negro",
+                "fecha": "Sat, 31 Oct 2026 12:19:54 +0000",
+                "titulo_original": "MEPs push for more EU cash amid Black Sea attacks",
+                "tags": [
+                  "#TodaEuropa",
+                  "#MarNegro",
+                  "#Bulgaria",
+                  "#Polonia"
+                ],
+                "tema_repetido": true,
+                "cluster_tema": "Accidente Ferroviario / Red de Transporte",
+                "coincidencias_count": 10
+              },
+              {
+                "titulo": "El presidente polaco convoca conversaciones de crisis tras un enfrentamiento judicial",
+                "url": "https://www.rapporteur.com/news/polish-president-calls-crisis-talks-after-court-standoff/",
+                "resumen": "Karol Nawrocki acortó un viaje a Senegal y regresó a Varsovia",
+                "fecha": "Sat, 31 Oct 2026 09:32:45 +0000",
+                "titulo_original": "Polish president calls crisis talks after court standoff",
+                "tags": [
+                  "#TodaEuropa",
+                  "#DonaldTusk",
+                  "#KarolNawrocki",
+                  "#Polonia"
+                ],
+                "tema_repetido": true,
+                "cluster_tema": "Crisis Institucional y Poder Judicial",
+                "coincidencias_count": 2
               }
             ],
             "estado": "OK",
@@ -1419,7 +1514,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Guerra Ucrania / Rusia / Frente Oriental",
-                "coincidencias_count": 3
+                "coincidencias_count": 4
               },
               {
                 "titulo": "El intento de Netanyahu de permanecer en el poder pondrá a prueba su astucia política",
@@ -1435,7 +1530,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Conflicto Oriente Medio (Gaza / Líbano)",
-                "coincidencias_count": 5
+                "coincidencias_count": 4
               },
               {
                 "titulo": "Los evacuados ucranianos de Oleshky cuentan historias de supervivencia",
@@ -1451,7 +1546,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Guerra Ucrania / Rusia / Frente Oriental",
-                "coincidencias_count": 3
+                "coincidencias_count": 4
               }
             ],
             "estado": "OK",
@@ -1461,6 +1556,17 @@
             "medio": "NPR News",
             "perfil": "Público / Nacional",
             "noticias": [
+              {
+                "titulo": "Es el momento de inscripción abierta de ACA. Estos son los cambios para los compradores de seguros médicos",
+                "url": "https://www.npr.org/2026/11/01/nx-s1-6023423/aca-open-enrollment-health-insurance",
+                "resumen": "Los mercados de seguros médicos de la ACA (encuentre el suyo en HealthCare.gov) abren el 1 de noviembre para cobertura en 2027. Comenzar temprano puede ser especialmente importante este año.",
+                "fecha": "Sun, 01 Nov 2026 07:00:00 -0500",
+                "titulo_original": "It's ACA open enrollment time. Here are the changes for health insurance shoppers",
+                "tags": [],
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
+              },
               {
                 "titulo": "Cómo piensan los republicanos de la Generación Z que se postulan para el Congreso sobre el futuro del partido",
                 "url": "https://www.npr.org/2026/11/01/nx-s1-5946869/midterm-elections-gen-z-republicans",
@@ -1477,6 +1583,21 @@
                 "coincidencias_count": 9
               },
               {
+                "titulo": "Aquí se explica cómo ver la noche de las elecciones mientras se cierran las urnas, hora tras hora",
+                "url": "https://www.npr.org/2026/11/01/g-s1-149978/midterms-election-night",
+                "resumen": "A medida que las urnas cierran la noche de las elecciones, he aquí un vistazo a qué esperar cada hora y qué elecciones de mitad de mandato son clave para decidir el control del Congreso.",
+                "fecha": "Sun, 01 Nov 2026 05:00:00 -0400",
+                "titulo_original": "Here's how to watch election night as the polls close, hour-by-hour",
+                "tags": [
+                  "#EEUU",
+                  "#Elecciones",
+                  "#Política"
+                ],
+                "tema_repetido": true,
+                "cluster_tema": "Elecciones y Pugna Institucional EE.UU.",
+                "coincidencias_count": 7
+              },
+              {
                 "titulo": "¿Cómo es postularse para el Congreso cuando las probabilidades están muy en su contra?",
                 "url": "https://www.npr.org/2026/11/01/nx-s1-5995461/midterm-elections-noncompetitive-districts",
                 "resumen": "La mayoría de las elecciones al Congreso de este ciclo están calificadas como demócratas sólidas o republicanas sólidas. Son lo opuesto a los sorteos, donde los candidatos del partido minoritario enfrentan probabilidades casi imposibles.",
@@ -1489,33 +1610,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Elecciones y Pugna Institucional EE.UU.",
-                "coincidencias_count": 8
-              },
-              {
-                "titulo": "Cómo una familia dio un impulso decisivo a la investigación en terapia génica",
-                "url": "https://www.npr.org/2026/11/01/nx-s1-6014739/sanfilippo-gene-therapy-fayuvi",
-                "resumen": "Una familia afectada por el síndrome de Sanfilippo recaudó millones de dólares para la investigación. La Administración de Alimentos y Medicamentos acaba de aprobar una terapia genética que el apoyo ayudó a hacer posible.",
-                "fecha": "Sun, 01 Nov 2026 05:00:00 -0400",
-                "titulo_original": "How one family gave a critical boost to gene therapy research",
-                "tags": [],
-                "tema_repetido": false,
-                "cluster_tema": "",
-                "coincidencias_count": 0
-              },
-              {
-                "titulo": "Trump agradece a sus seguidores por los recuerdos en las últimas paradas de campaña para las elecciones intermedias de 2026",
-                "url": "https://www.npr.org/2026/11/01/nx-s1-6022128/trump-rally-2026-midterms-republicans",
-                "resumen": "El presidente Trump ha mantenido un calendario de manifestaciones casi diarias a medida que se acerca el día de las elecciones, interpretando sus mayores éxitos para multitudes leales en los estados rojos en lo que es una especie de adiós a la campaña.",
-                "fecha": "Sun, 01 Nov 2026 05:00:00 -0400",
-                "titulo_original": "Trump thanks supporters for the memories in final campaign stops for 2026 midterms",
-                "tags": [
-                  "#Sociedad",
-                  "#Manifestaciones",
-                  "#Protestas"
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "Manifestaciones y Protestas Sociales",
-                "coincidencias_count": 9
+                "coincidencias_count": 7
               }
             ],
             "estado": "OK",
@@ -1539,7 +1634,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Conflicto Oriente Medio (Gaza / Líbano)",
-                "coincidencias_count": 5
+                "coincidencias_count": 4
               },
               {
                 "titulo": "El principal promotor inmobiliario de China informa enormes pérdidas, en señal de crecientes problemas inmobiliarios",
@@ -1583,7 +1678,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Guerra Ucrania / Rusia / Frente Oriental",
-                "coincidencias_count": 3
+                "coincidencias_count": 4
               }
             ],
             "estado": "OK",
@@ -1652,48 +1747,49 @@
             "perfil": "Cobertura continental / Noticias en directo",
             "noticias": [
               {
-                "titulo": "El Gobierno de Ceuta estima en 45,3 millones de euros los gastos extra de la crisis",
-                "url": "https://www.infobae.com/espana/agencias/2026/11/01/el-gobierno-de-ceuta-estima-en-453-millones-de-euros-los-gastos-extra-de-la-crisis/",
-                "resumen": "",
-                "fecha": "Sun, 01 Nov 2026 12:01:56 +0000",
-                "titulo_original": "El Gobierno de Ceuta estima en 45,3 millones de euros los gastos extra de la crisis",
+                "titulo": "David Alonso conquistó el Gran Premio de Malasia en el Moto2: así fue la victoria del colombiano",
+                "url": "https://www.infobae.com/colombia/deportes/2026/11/01/david-alonso-conquisto-el-gran-premio-de-malasia-en-el-moto2-asi-fue-la-victoria-del-colombiano/",
+                "resumen": "Después de su triunfo, el piloto colombiano admitió que este tipo de competencia no le resulta habitual, aunque afirmó que logró sostener la presión en el tramo final y pudo quedarse con el triunfo",
+                "fecha": "Sun, 01 Nov 2026 12:13:28 +0000",
+                "titulo_original": "David Alonso conquistó el Gran Premio de Malasia en el Moto2: así fue la victoria del colombiano",
                 "tags": [],
                 "tema_repetido": false,
                 "cluster_tema": "",
                 "coincidencias_count": 0
               },
               {
-                "titulo": "Nogueras (Junts) responde a Feijóo revindicando haber forzado al PSOE a hacer lo que no querían",
-                "url": "https://www.infobae.com/espana/agencias/2026/11/01/nogueras-junts-responde-a-feijoo-revindicando-haber-forzado-al-psoe-a-hacer-lo-que-no-querian/",
-                "resumen": "",
-                "fecha": "Sun, 01 Nov 2026 12:01:50 +0000",
-                "titulo_original": "Nogueras (Junts) responde a Feijóo revindicando haber forzado al PSOE a hacer lo que no querían",
-                "tags": [],
-                "tema_repetido": false,
-                "cluster_tema": "",
-                "coincidencias_count": 0
-              },
-              {
-                "titulo": "La Fiscalía de Menores deja en libertad al detenido en el centro de València por Blocus",
-                "url": "https://www.infobae.com/espana/agencias/2026/11/01/la-fiscalia-de-menores-deja-en-libertad-al-detenido-en-el-centro-de-valencia-por-blocus/",
-                "resumen": "",
-                "fecha": "Sun, 01 Nov 2026 12:01:40 +0000",
-                "titulo_original": "La Fiscalía de Menores deja en libertad al detenido en el centro de València por Blocus",
+                "titulo": "Mujer murió tras un accidente en EE.UU. y su familia recauda fondos para cumplir su deseo de volver a El Salvador",
+                "url": "https://www.infobae.com/el-salvador/2026/11/01/mujer-murio-tras-un-accidente-en-eeuu-y-su-familia-recauda-fondos-para-cumplir-su-deseo-de-volver-a-el-salvador/",
+                "resumen": "La familia de Guadalupe Álvarez, una salvadoreña de 54 años que murió junto a su esposo en un accidente vial en Manassas, Virginia, mantiene una campaña para trasladar sus restos a San Miguel",
+                "fecha": "Sun, 01 Nov 2026 12:13:28 +0000",
+                "titulo_original": "Mujer murió tras un accidente en EE.UU. y su familia recauda fondos para cumplir su deseo de volver a El Salvador",
                 "tags": [
-                  "#Justicia",
-                  "#Instituciones",
-                  "#Polonia"
+                  "#Transporte",
+                  "#Ferrocarril",
+                  "#Accidente",
+                  "#Infraestructuras"
                 ],
                 "tema_repetido": true,
-                "cluster_tema": "Crisis Institucional y Poder Judicial",
-                "coincidencias_count": 2
+                "cluster_tema": "Accidente Ferroviario / Red de Transporte",
+                "coincidencias_count": 10
               },
               {
-                "titulo": "Un padre y su hijo, campeones de España y Andalucía en elaboración artesana de café en la modalidad aeropress",
-                "url": "https://www.infobae.com/america/agencias/2026/11/01/un-padre-y-su-hijo-campeones-de-espana-y-andalucia-en-elaboracion-artesana-de-cafe-en-la-modalidad-aeropress/",
-                "resumen": "",
-                "fecha": "Sun, 01 Nov 2026 12:01:32 +0000",
-                "titulo_original": "Un padre y su hijo, campeones de España y Andalucía en elaboración artesana de café en la modalidad aeropress",
+                "titulo": "Policía Nacional Civil de Guatemala rescata a un piloto retenido y recupera una cisterna en Masagua, Escuintla",
+                "url": "https://www.infobae.com/guatemala/2026/11/01/policia-nacional-civil-de-guatemala-rescata-a-un-piloto-retenido-y-recupera-una-cisterna-en-masagua-escuintla/",
+                "resumen": "El detenido es señalado de trasegar combustible robado durante el operativo en Escuintla. La policía capturó a Arnoldo Florencio Marroquín Sipac, de 49 años, quien quedó a disposición judicial por robo agravado y plagio o secuestro, mientras otros sospechosos huyeron al advertir ",
+                "fecha": "Sun, 01 Nov 2026 12:11:59 +0000",
+                "titulo_original": "Policía Nacional Civil de Guatemala rescata a un piloto retenido y recupera una cisterna en Masagua, Escuintla",
+                "tags": [],
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
+              },
+              {
+                "titulo": "Usuarios de Tesla que activaron la conducción autónoma con dispositivos piratas enfrentan penas de dos años de cárcel",
+                "url": "https://www.infobae.com/tecno/2026/11/01/usuarios-de-tesla-que-activaron-la-conduccion-autonoma-con-dispositivos-piratas-enfrentan-penas-de-dos-anos-de-carcel/",
+                "resumen": "Las autoridades surcoreanas investigan a decenas de conductores que modificaron el software del fabricante estadounidense. Los infractores podrían ser sancionados con multas millonarias",
+                "fecha": "Sun, 01 Nov 2026 12:11:22 +0000",
+                "titulo_original": "Usuarios de Tesla que activaron la conducción autónoma con dispositivos piratas enfrentan penas de dos años de cárcel",
                 "tags": [],
                 "tema_repetido": false,
                 "cluster_tema": "",
@@ -1730,17 +1826,6 @@
                 "coincidencias_count": 0
               },
               {
-                "titulo": "Delcy Rodríguez pone fin a un pilar del chavismo. ¿Le alcanzará para ser una opción de poder en las elecciones? - CNN en Español",
-                "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPVUViUVQyanlnN2VkTDhoRGN3cnBrOG1XSFkySDJMS0JlSmhZZGRzUnZYOFhqcmRlbUprcjJJbTBpNElnOThhUW15ZUdaZUZqTV9WLTZYV0xnSTZBeHg4WnRmRGtxdnA0N1owd0Ficm9GamRaMHAyWEEyYjlxVHBVNkhmMENnMUhTWEFHZ0wtSEJFTF82SDZ6YkVvdHpfV3NQNjNZejJB?oc=5",
-                "resumen": "Delcy Rodríguez pone fin a un pilar del chavismo. ¿Le alcanzará para ser una opción de poder en las elecciones? CNN en Español",
-                "fecha": "Fri, 30 Oct 2026 16:40:00 GMT",
-                "titulo_original": "Delcy Rodríguez pone fin a un pilar del chavismo. ¿Le alcanzará para ser una opción de poder en las elecciones? - CNN en Español",
-                "tags": [],
-                "tema_repetido": false,
-                "cluster_tema": "",
-                "coincidencias_count": 0
-              },
-              {
                 "titulo": "Trump está preparando el terreno para impugnar las elecciones intermedias. Esto está haciendo - CNN en Español",
                 "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOei1aa3RhQ2JxWmtFSXJTZTI5NGNHRTlMMGlLWkNjaVJ2bDdMdGphZ1dwOWJ1czVKRUdsUHJsV1g2Zk1fM1FqblFMblpGMTZURGhTLWFYZWVRZm1jUy1XMUlFcVU2eEI5TU9yUTkzdWVlalFRTExndk1MY0NMQ1ZsZWp3eEgtWDNVT3J3Zll3?oc=5",
                 "resumen": "Trump está preparando el terreno para impugnar las elecciones intermedias. Esto está haciendo CNN en Español",
@@ -1753,68 +1838,18 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Elecciones y Pugna Institucional EE.UU.",
-                "coincidencias_count": 8
-              }
-            ],
-            "estado": "OK",
-            "total": 4
-          },
-          {
-            "medio": "Clarín (Argentina)",
-            "perfil": "Cono Sur / Regional",
-            "noticias": [
+                "coincidencias_count": 7
+              },
               {
-                "titulo": "MotoGP: Yamaha no correrá el Gran Premio de Qatar por la guerra en Medio Oriente y desató un conflicto con los organizadores",
-                "url": "https://www.clarin.com/deportes/motogp-yamaha-correra-gran-premio-qatar-guerra-medio-oriente-desato-conflicto-organizadores_0_L1tbLz7q52.html",
-                "resumen": "La escudería japonesa anunció que no viajará a Lusail por motivos de seguridad, pese a que la carrera sigue programada para el próximo fin de semana. MotoGP cuestionó la decisión, aseguró que existen garantías para competir y advirtió sobre posibles sanciones deportivas y consecu",
-                "fecha": "Sun, 01 Nov 2026 11:52:12 +0000",
-                "titulo_original": "MotoGP: Yamaha no correrá el Gran Premio de Qatar por la guerra en Medio Oriente y desató un conflicto con los organizadores",
+                "titulo": "Delcy Rodríguez pone fin a un pilar del chavismo. ¿Le alcanzará para ser una opción de poder en las elecciones? - CNN en Español",
+                "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPVUViUVQyanlnN2VkTDhoRGN3cnBrOG1XSFkySDJMS0JlSmhZZGRzUnZYOFhqcmRlbUprcjJJbTBpNElnOThhUW15ZUdaZUZqTV9WLTZYV0xnSTZBeHg4WnRmRGtxdnA0N1owd0Ficm9GamRaMHAyWEEyYjlxVHBVNkhmMENnMUhTWEFHZ0wtSEJFTF82SDZ6YkVvdHpfV3NQNjNZejJB?oc=5",
+                "resumen": "Delcy Rodríguez pone fin a un pilar del chavismo. ¿Le alcanzará para ser una opción de poder en las elecciones? CNN en Español",
+                "fecha": "Fri, 30 Oct 2026 16:40:00 GMT",
+                "titulo_original": "Delcy Rodríguez pone fin a un pilar del chavismo. ¿Le alcanzará para ser una opción de poder en las elecciones? - CNN en Español",
                 "tags": [],
                 "tema_repetido": false,
                 "cluster_tema": "",
                 "coincidencias_count": 0
-              },
-              {
-                "titulo": "Belgrano Córdoba vs Barracas Central por el Torneo Clausura 2026, EN VIVO: a qué hora juegan, formaciones y cómo ver el partido",
-                "url": "https://www.clarin.com/deportes/belgrano-cordoba-vs-barracas-central-torneo-clausura-2026-vivo-hora-juegan-formaciones-ver-partido_0_MqVKBNnrD4.html",
-                "resumen": "",
-                "fecha": "Sun, 01 Nov 2026 11:40:10 +0000",
-                "titulo_original": "Belgrano Córdoba vs Barracas Central por el Torneo Clausura 2026, EN VIVO: a qué hora juegan, formaciones y cómo ver el partido",
-                "tags": [],
-                "tema_repetido": false,
-                "cluster_tema": "",
-                "coincidencias_count": 0
-              },
-              {
-                "titulo": "Boca y River juegan el Superclásico por el honor y por puntos que valen oro: a ninguno le sirve el empate",
-                "url": "https://www.clarin.com/deportes/boca-river-juegan-superclasico-honor-puntos-valen-oro-sirve-empate_0_rXt64AwbVc.html",
-                "resumen": "Se enfrentan en la Bombonera desde las 15 con arbitraje de Nicolás Ramírez. Los de Arruabarrena no quiere perder el tren de Central en la tabla anual. Los de Ponzio arriesgan más porque corren desde atrás y no tienen nada asegurado.",
-                "fecha": "Sun, 01 Nov 2026 11:28:51 +0000",
-                "titulo_original": "Boca y River juegan el Superclásico por el honor y por puntos que valen oro: a ninguno le sirve el empate",
-                "tags": [
-                  "#Transporte",
-                  "#Ferrocarril",
-                  "#Accidente",
-                  "#Infraestructuras"
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "Accidente Ferroviario / Red de Transporte",
-                "coincidencias_count": 9
-              },
-              {
-                "titulo": "Emiratos espera un avance diplomático, pero se prepara para \"lo peor\" en la guerra entre Irán y EEUU",
-                "url": "https://www.clarin.com/estados-unidos/emiratos-espera-un-avance-diplomatico-pero-se-prepara-para-lo-peor-en-la-guerra-entre-iran-y-eeuu_0_TwjZEB0iu3.html",
-                "resumen": "Emiratos Árabes Unidos busca un avance diplomático en las negociaciones entre Irán y EE.UU., pero se preparan para el peor escenario posible. EE.UU. mantiene abiertas las vías diplomáticas, aunque Trump advierte sobre posibles acciones contra Irán en medio de tensiones regionales",
-                "fecha": "Sun, 01 Nov 2026 11:20:08 +0000",
-                "titulo_original": "Emiratos espera un avance diplomático, pero se prepara para \"lo peor\" en la guerra entre Irán y EEUU",
-                "tags": [
-                  "#EEUU",
-                  "#Elecciones",
-                  "#Política"
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "Elecciones y Pugna Institucional EE.UU.",
-                "coincidencias_count": 8
               }
             ],
             "estado": "OK",
@@ -1854,7 +1889,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Política",
-                "coincidencias_count": 10
+                "coincidencias_count": 9
               },
               {
                 "titulo": "Un año después del golpe militar: el autoritarismo frustra las aspiraciones de la Generación Z de un nuevo Madagascar",
@@ -1883,7 +1918,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Política",
-                "coincidencias_count": 10
+                "coincidencias_count": 9
               }
             ],
             "estado": "OK",
@@ -1962,22 +1997,6 @@
                 "coincidencias_count": 2
               },
               {
-                "titulo": "África: de las conexiones de la Commonwealth a las oportunidades económicas - Ampliación de los vínculos comerciales entre África y el Caribe",
-                "url": "https://allafrica.com/stories/202610300354.html",
-                "resumen": "[allAfrica] Cuando los líderes de la Commonwealth se reúnan en Antigua y Barbuda en noviembre, enfrentarán crecientes tensiones comerciales, shocks geopolíticos y perturbaciones de la cadena de suministro junto con desafíos de larga data, como una elevada deuda, una financiación asequible limitada, la exposición al clima y la pobreza.",
-                "fecha": "Fri, 30 Oct 2026 12:12:04 GMT",
-                "titulo_original": "Africa: From Commonwealth Connections to Economic Opportunity - Expanding Africa-Caribbean Trade Linkages",
-                "tags": [
-                  "#África",
-                  "#Economía",
-                  "#NegociosFinanzas",
-                  "#RelacionesExternas"
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "África",
-                "coincidencias_count": 2
-              },
-              {
                 "titulo": "Sudáfrica: Se confirma la peste equina africana en Cederberg, Cabo Occidental",
                 "url": "https://allafrica.com/stories/202610300543.html",
                 "resumen": "[SAnews.gov.za] El Departamento de Agricultura ha confirmado un caso de peste equina africana (PHE) en un solo caballo en una propiedad en el municipio local de Cederberg en el Cabo Occidental, lo que provocó restricciones de movimiento e intensificación de la vigilancia para contener la enfermedad.",
@@ -2007,7 +2026,23 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Accidente Ferroviario / Red de Transporte",
-                "coincidencias_count": 9
+                "coincidencias_count": 10
+              },
+              {
+                "titulo": "Kenia: 46 contactos con ébola serán dados de alta de la cuarentena el 3 de noviembre",
+                "url": "https://allafrica.com/stories/202610300530.html",
+                "resumen": "[Capital FM] Nairobi -- La Secretaria Principal de Salud Pública, May Muthoni, dice que se espera que 46 contactos bajo cuarentena sean dados de alta el 3 de noviembre después de completar el período de monitoreo requerido.",
+                "fecha": "Fri, 30 Oct 2026 16:04:38 GMT",
+                "titulo_original": "Kenya: 46 Ebola Contacts Set for Discharge From Quarantine On November 3",
+                "tags": [
+                  "#ÁfricaOriental",
+                  "#Ébola",
+                  "#SaludMedicina",
+                  "#Kenia"
+                ],
+                "tema_repetido": true,
+                "cluster_tema": "Emergencia Climática y Fenómenos Extremos",
+                "coincidencias_count": 2
               }
             ],
             "estado": "OK",
@@ -2024,6 +2059,17 @@
             "perfil": "Regional / Negocios e Internacional",
             "noticias": [
               {
+                "titulo": "El plan de reurbanización del Tribunal Superior “no es viable”, advierte el Colegio de Abogados de Hong Kong",
+                "url": "https://www.scmp.com/news/hong-kong/society/article/3372893/high-court-redevelopment-plan-not-workable-hong-kong-bar-association-warns",
+                "resumen": "El Colegio de Abogados de Hong Kong ha advertido que una propuesta de remodelación gradual del Tribunal Superior, que podría durar más de una década, “no es viable” y corre el riesgo de disuadir a los profesionales del derecho de unirse al tribunal. La asociación, el organismo profesional de abogados, instó a la",
+                "fecha": "Sun, 01 Nov 2026 12:05:39 +0000",
+                "titulo_original": "High Court redevelopment plan ‘not workable’, Hong Kong Bar Association warns",
+                "tags": [],
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
+              },
+              {
                 "titulo": "Es poco probable que la primera dama estadounidense Melania Trump viaje a la cumbre de Apec en China",
                 "url": "https://www.scmp.com/news/china/diplomacy/article/3372888/us-first-lady-melania-trump-unlikely-travel-apec-summit-china",
                 "resumen": "Es poco probable que la primera dama estadounidense Melania Trump viaje a China con el presidente para la cumbre de Cooperación Económica Asia-Pacífico en Shenzhen este mes. \"La primera dama Melania Trump no está programada para asistir a los eventos en persona\", dijo su oficina en respuesta a una pregunta sobre su viaje.",
@@ -2036,7 +2082,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Elecciones y Pugna Institucional EE.UU.",
-                "coincidencias_count": 8
+                "coincidencias_count": 7
               },
               {
                 "titulo": "La IA de mejora personal es el paso clave hacia la AGI, pero la seguridad es clave: fundador de Z.ai",
@@ -2063,21 +2109,6 @@
                 "tema_repetido": false,
                 "cluster_tema": "",
                 "coincidencias_count": 0
-              },
-              {
-                "titulo": "Conversaciones entre Estados Unidos e Irán: los Emiratos Árabes Unidos “se preparan para lo peor” y esperan la diplomacia",
-                "url": "https://www.scmp.com/news/world/middle-east/article/3372891/us-iran-talks-uae-braced-worst-hoping-diplomacy",
-                "resumen": "Los Emiratos Árabes Unidos esperan un gran avance en las negociaciones entre Irán y Estados Unidos mientras se preparan para lo peor, dijo el domingo un alto funcionario, tras las amenazas de una reanudación de la guerra en Oriente Medio. \"Esperamos que haya un avance diplomático\", afirmó el diplomático.",
-                "fecha": "Sun, 01 Nov 2026 11:35:47 +0000",
-                "titulo_original": "US-Iran talks: UAE ‘braced for the worst’, hoping for diplomacy",
-                "tags": [
-                  "#OrienteMedio",
-                  "#Geopolítica",
-                  "#Seguridad"
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "Conflicto Oriente Medio (Gaza / Líbano)",
-                "coincidencias_count": 5
               }
             ],
             "estado": "OK",
@@ -2127,7 +2158,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Accidente Ferroviario / Red de Transporte",
-                "coincidencias_count": 9
+                "coincidencias_count": 10
               },
               {
                 "titulo": "Experto chino critica la afirmación del canciller filipino de que la delimitación entre Japón y Filipinas \"no tiene nada que ver\" con China y advierte que la medida sirve para propósitos ulteriores más allá de las conversaciones bilaterales.",
@@ -2204,7 +2235,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Accidente Ferroviario / Red de Transporte",
-                "coincidencias_count": 9
+                "coincidencias_count": 10
               }
             ],
             "estado": "OK",
