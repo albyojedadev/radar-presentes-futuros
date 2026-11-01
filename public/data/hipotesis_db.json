@@ -16,6 +16,12 @@
         "impacto": "Evidencia confirmatoria del 2026-10-30 para HIP-01: Inviabilidad de Detectar la IA y Sello Positivo de Humanidad (Quijote Digital)"
       },
       {
+        "titular": "El sector editorial español fija su posición ante la IA: auditorías de autoría, derechos de remuneración y defensa del catálogo en castellano",
+        "fuente": "RTVE.es / Radar Festivales y Mercados Audiovisuales (2026-10-30)",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxONk9jOGt0c2Y2S3R2VHZQTVBpTkE2eHZEb3U5a3VCMng1UkRCbkY3azdPWG1wd0oxRGlkZFNWWFVvQTlxX1ZPNFhpNDdmaER4cmxXMk5hUW5Ca0RuWTZmcFlodzVlcUZzdVd6ai10aUVOMUxwTldubF9pWmdYSlI3dHJNMEFSM1VZTjhLRkRUNzY3QzIwZmlaV2xkMmhFd2VaT1dsbThKeUFSOXlCREZ4b1NDcW5Yd043aTJ4bjlNa2p1ZTk3Zm1BVHE2cUNfRWlOWFNQRg?oc=5",
+        "impacto": "Evidencia empírica directa observada en El sector editorial español fija su posición ante la IA: aud..."
+      },
+      {
         "titular": "'Escáner, mal. Trituradora, OK': la justicia avala la compra y destrucción de millones de libros físicos por Anthropic para eludir demandas de copyright",
         "fuente": "SafeCreative Noticias (Propiedad Intelectual e IA) (2026-10-29)",
         "url": "https://www.safecreative.org/tips/es/escaner-mal-trituradora-ok/",
@@ -32,12 +38,6 @@
         "fuente": "SafeCreative Noticias (Propiedad Intelectual e IA) (2026-10-28)",
         "url": "https://www.safecreative.org/tips/es/google-acuerda-usar-los-contenidos-de-cnn-financial-times-y-mas-de-400-medios/",
         "impacto": "Evidencia confirmatoria para HIP-01: Inviabilidad de Detectar la IA y Sello Positivo de Humanidad (Quijote Digital)"
-      },
-      {
-        "titular": "Midjourney implementa su 'Thinking Mode' alfa y carpetas colaborativas para erradicar fallos de render, texto y anatomía",
-        "fuente": "Midjourney Alpha Platform News (2026-10-28)",
-        "url": "https://alpha.midjourney.com/updates/thinking-mode-collab-folders-oct2026",
-        "impacto": "Evidencia confirmatoria del 2026-10-29 para HIP-01: Inviabilidad de Detectar la IA y Sello Positivo de Humanidad (Quijote Digital)"
       }
     ],
     "senalesContra": [
@@ -66,6 +66,18 @@
         "impacto": "Coincidencia temática directa (studio, vfx) con la hipótesis HIP-02."
       },
       {
+        "titular": "Zeppelin Studio lanza 'Zeppelin AI': primera productora y plataforma de series y películas generadas con IA en América Latina",
+        "fuente": "PRODU (Líder B2B de Televisión, Series, OTT y Tecnología LatAm) (2026-10-30)",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNaWhiN0RmNEFOMG5aYVk3VGNGNGF6M2pNTDVFTDI0OEprQkpMUkhVQ2FLVHludTRWMVYwcV9OcGZHdmlBVk5IZGd0ZFhLYnRjcXZxWU1ZZzl0V1EzQlowbjVPQ1BZMks2TnpLR3BBNUdzeDBqLUIxWXhDWHVmd2tPODhXaEhfUVUtZmRjUzNOVjFySUl3ZWxhM3J1WlkxQ2NoMHZVM1RqejNwZVBhMUdWYWthRE1rM2FjWFV4V1NGNTExZUVLOUxQUUlqVWJiRG5tRGZv?oc=5",
+        "impacto": "Evidencia empírica directa observada en Zeppelin Studio lanza 'Zeppelin AI': primera productora y pl..."
+      },
+      {
+        "titular": "La Electronic Frontier Foundation (EFF) advierte: reformar la ley de copyright para frenar la IA dañará a los creadores independientes y favorecerá a las Big Tech",
+        "fuente": "EFF Deeplinks (Derechos Digitales, Privacidad y Criptografía) (2026-10-30)",
+        "url": "https://www.eff.org/deeplinks/2026/10/rewriting-copyright-law-generative-ai-would-hurt-everyone",
+        "impacto": "Evidencia empírica directa observada en La Electronic Frontier Foundation (EFF) advierte: reformar l..."
+      },
+      {
         "titular": "SAG-AFTRA intensifica la presión en el Senado de EE.UU. para la aprobación federal de la 'NO FAKES Act' contra la clonación y réplicas digitales de IA",
         "fuente": "Sindicatos Artísticos EE.UU. (SAG-AFTRA, WGA, DGA - Secciones IA) (2026-10-29)",
         "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPLW5GU1pPWkthRGVFY04xMlhVVjBBTHM2YnBUZ1dqYjdENlJDUENEQ3B4WXRkZ29yemV6czRXT1EzOGNQRGpkQmJjemdCUXVYTndkZERWbXpvYjFVY2lmOXdPUzhXbUgyeU1qcWxMaUxhTHI0Vjh3ekl4cXJQWE1PeF9TemxPemZWVzhTRE1ZN0d4UQ?oc=5",
@@ -76,18 +88,6 @@
         "fuente": "Rubik Audiovisual (Cine Español, Festivales, Guion y Políticas) (2026-10-28)",
         "url": "https://rubik-audiovisual.com/enrique-cerezo-el-productor-es-quien-tiene-que-creer-en-una-pelicula-antes-de-que-exista/?utm_source=rss&utm_medium=rss&utm_campaign=enrique-cerezo-el-productor-es-quien-tiene-que-creer-en-una-pelicula-antes-de-que-exista",
         "impacto": "Evidencia confirmatoria del 2026-10-29 para HIP-02: Asimetría Indie vs. Grandes Productoras (Efecto Meliés)"
-      },
-      {
-        "titular": "Runway lanza 'App Studio' y abre 'Runway Ads' a nivel global para empaquetar flujos creativos y automatizar campañas de vídeo",
-        "fuente": "Runway AI Official / Creative Platforms (2026-10-28)",
-        "url": "https://runwayml.com/news/runway-ads-and-app-studio-ga-2026/",
-        "impacto": "Evidencia confirmatoria del 2026-10-29 para HIP-02: Asimetría Indie vs. Grandes Productoras (Efecto Meliés)"
-      },
-      {
-        "titular": "'Biblia negra', largometraje de terror independiente dirigido por Rubén Arnaiz, llega a las salas de cine apostando por la autoría física e indie",
-        "fuente": "Audiovisual451 (Industria Española y Europea) (2026-10-27)",
-        "url": "https://www.audiovisual451.com/biblia-negra-estreno-en-cines-9-de-octubre/",
-        "impacto": "Evidencia empírica directa: 'Biblia negra', largometraje de terror independiente dirigid"
       }
     ],
     "senalesContra": [
@@ -165,22 +165,22 @@
         "impacto": "Coincidencia temática directa (doblaje) con la hipótesis HIP-04."
       },
       {
+        "titular": "El sector editorial español fija su posición ante la IA: auditorías de autoría, derechos de remuneración y defensa del catálogo en castellano",
+        "fuente": "RTVE.es / Radar Festivales y Mercados Audiovisuales (2026-10-30)",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxONk9jOGt0c2Y2S3R2VHZQTVBpTkE2eHZEb3U5a3VCMng1UkRCbkY3azdPWG1wd0oxRGlkZFNWWFVvQTlxX1ZPNFhpNDdmaER4cmxXMk5hUW5Ca0RuWTZmcFlodzVlcUZzdVd6ai10aUVOMUxwTldubF9pWmdYSlI3dHJNMEFSM1VZTjhLRkRUNzY3QzIwZmlaV2xkMmhFd2VaT1dsbThKeUFSOXlCREZ4b1NDcW5Yd043aTJ4bjlNa2p1ZTk3Zm1BVHE2cUNfRWlOWFNQRg?oc=5",
+        "impacto": "Evidencia empírica directa observada en El sector editorial español fija su posición ante la IA: aud..."
+      },
+      {
+        "titular": "La Electronic Frontier Foundation (EFF) advierte: reformar la ley de copyright para frenar la IA dañará a los creadores independientes y favorecerá a las Big Tech",
+        "fuente": "EFF Deeplinks (Derechos Digitales, Privacidad y Criptografía) (2026-10-30)",
+        "url": "https://www.eff.org/deeplinks/2026/10/rewriting-copyright-law-generative-ai-would-hurt-everyone",
+        "impacto": "Evidencia empírica directa observada en La Electronic Frontier Foundation (EFF) advierte: reformar l..."
+      },
+      {
         "titular": "'Escáner, mal. Trituradora, OK': la justicia avala la compra y destrucción de millones de libros físicos por Anthropic para eludir demandas de copyright",
         "fuente": "SafeCreative Noticias (Propiedad Intelectual e IA) (2026-10-29)",
         "url": "https://www.safecreative.org/tips/es/escaner-mal-trituradora-ok/",
         "impacto": "Evidencia confirmatoria del 2026-10-30 para HIP-04: Transición Sindical hacia el Canon de Entrenamiento y Licencias Colectivas"
-      },
-      {
-        "titular": "SAG-AFTRA intensifica la presión en el Senado de EE.UU. para la aprobación federal de la 'NO FAKES Act' contra la clonación y réplicas digitales de IA",
-        "fuente": "Sindicatos Artísticos EE.UU. (SAG-AFTRA, WGA, DGA - Secciones IA) (2026-10-29)",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPLW5GU1pPWkthRGVFY04xMlhVVjBBTHM2YnBUZ1dqYjdENlJDUENEQ3B4WXRkZ29yemV6czRXT1EzOGNQRGpkQmJjemdCUXVYTndkZERWbXpvYjFVY2lmOXdPUzhXbUgyeU1qcWxMaUxhTHI0Vjh3ekl4cXJQWE1PeF9TemxPemZWVzhTRE1ZN0d4UQ?oc=5",
-        "impacto": "Evidencia confirmatoria del 2026-10-30 para HIP-04: Transición Sindical hacia el Canon de Entrenamiento y Licencias Colectivas"
-      },
-      {
-        "titular": "Google sella acuerdos de licencia con CNN, Financial Times y más de 400 medios para alimentar y entrenar sus modelos de IA",
-        "fuente": "SafeCreative Noticias (Propiedad Intelectual e IA) (2026-10-28)",
-        "url": "https://www.safecreative.org/tips/es/google-acuerda-usar-los-contenidos-de-cnn-financial-times-y-mas-de-400-medios/",
-        "impacto": "Evidencia confirmatoria para HIP-04: Transición Sindical hacia el Canon de Entrenamiento y Licencias Colectivas"
       }
     ],
     "senalesContra": [
@@ -202,6 +202,12 @@
     "traccionScore": 98,
     "totalSenales": 5,
     "senalesPro": [
+      {
+        "titular": "La factura de la luz y los subsidios a centros de datos de IA irrumpen en el debate político y electoral de Estados Unidos",
+        "fuente": "Radar Centros de Datos España / Iberoeconomía (2026-10-31)",
+        "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPUS1ZU2R3QnVTdDA0RVFJMGZ2MmpTcF94NGZNd1ZrVnpWMzBRTjJuZU42U1dEekxJRmtMbkFXVDRkRlJlR01Wbm14Y3EzY3c1d0RLU1htalpab2tWYi1zcUpVZ1A4QUlRaWtHZDBVd0EwNFdMbG9Cd0lpckdpc0RyR1BZbmxRUGdyM2xVM1JrX3cydk9lWmVYTXdUSVBEd1FjRHVhWmh5Qkl3TFdWMXB1VjJ5a1BTaXRuRkg0bWstVU04NTFiNTVYT19PdDdZZnFvdmFBcjluRUZlLUxZZ1JMSWZBdC1wdjJBWWNtaXRMekhwaDY5?oc=5",
+        "impacto": "Evidencia empírica directa observada en La factura de la luz y los subsidios a centros de datos de I..."
+      },
       {
         "titular": "La crisis hídrica de los centros de datos en Colorado y el oeste de EE.UU. desata rebeliones vecinales ante el colapso de acuíferos",
         "fuente": "Radar Centros de Datos España / The Sopris Sun (El Sol del Valle) (2026-10-30)",
@@ -225,12 +231,6 @@
         "fuente": "Radar Centros de Datos España / Infobae (2026-10-29)",
         "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQVGtkaUhXNTY4WWRsUE9OTjRuTDRBY0ZyQ2xwMEVua3JDX3VzcjZfdVpPTm4wbUNjOTRFSkp1RWdpc3lVdWVMZ0VkSUlubjFyX3B2allRQ2V5eGI4QjRVMHEwd1VNc3FVZ2xkREgyYTBCZ3VSRVlBZnl5eEFlWGFjU3l6WFF5Szhfd3NvMEcwSFZrNXlRNWdhSE5kU0dWbk1RYlU3aTdTcjlIbW9CcGFnVU9DQmZLejVDRjNUY1o1YUVyMnkzeFdnWNIB4wFBVV95cUxPZkc4bWJDcTR6QVI2SFRGTnl1djdpNnc1bGE1ZXZGUjg2aVhYZHBWZnlzazlqbzhPZFBTT05ublN2ajRnYzNxWG0wQm9pS0p0RXQ4N2dxU3JvM0ktLXlTanRhQl9ORkk5WG5FdGF5dGFRU2w1SVo0Uk9rTHlNZlVxSjFYMFBFa3JjVE01ZWVMbS1nTkdWV0szUXE1c0J2eEFwSkhXdnh4ZWs0ZVVCYUFrRHZ1a2M5cjBNTUxzbnNXTmNFS09OUFFGMW1VR0xXZU1tcXlneXpULTM2bGhBeDhqRUtaWQ?oc=5",
         "impacto": "Evidencia confirmatoria del 2026-10-30 para HIP-05: Choque Físico Energético/Hídrico y Centros de Datos Simbióticos (Tamonante)"
-      },
-      {
-        "titular": "La crisis del 'cómputo varado' (Stranded Compute): cientos de miles de GPUs atrapadas en almacenes por cuellos de botella de red eléctrica",
-        "fuente": "TIKR / Industry Intelligence (2026-10-29)",
-        "url": "https://tikr.com/news/2026/10/29/stranded-compute-dark-gpus-grid-bottleneck/",
-        "impacto": "Evidencia empírica de burbuja/deuda para HIP-05: Choque Físico Energético/Hídrico y Centros de Datos Simbióticos (Tamonante)"
       }
     ],
     "senalesContra": []
@@ -246,34 +246,34 @@
     "totalSenales": 5,
     "senalesPro": [
       {
+        "titular": "DeepSeek lanza su nuevo agente de código autónomo para competir frontalmente con Claude Sonnet de Anthropic a una fracción de su coste",
+        "fuente": "Bloomberg Technology / Radar Agentes de Código (2026-11-01)",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSGJoZUdrNzFHTjRVcm9OOVZ5a1Z4dVB4ME1aNjlmYmdjX1ZOTXNWTFJTNFFFUkQ2UUxxTGV4UDlOS0RjMnRlWlFUZ04yemVtQU9zU3FZbHlWY1YxMi1YSVBGb3k5cGszYnptNnZVZk1mR1NmS0RvLUhOeS1QUmxZamtoNGgzR21CR2tmY0JUd1c3YXBBMlc0SDhkZm9kOFRtZ3NvQ2RLNVZOYnFaV2x5Vy1ra3ZNUQ?oc=5",
+        "impacto": "Evidencia empírica directa observada en DeepSeek lanza su nuevo agente de código autónomo para compe..."
+      },
+      {
+        "titular": "DeepSeek presenta su arquitectura 'Super-Agent': ejecución concurrente y multi-tarea mediante micro-modelos compactos de decisión (CDM)",
+        "fuente": "Global Times Tech (Geopolítica de IA, Semiconductores y Robótica de China) (2026-11-01)",
+        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBXdWVIMG1kTDNsREQ0ZElVZmMydDNBT0N1bVVWZ3NTRkVieURnTHc4MHc4N2trbHpTMTdQdE1wQ20zcmlOeHVMdEJMT3phZWVubjF2aWRjRWhRcDVUVjNtNkhR?oc=5",
+        "impacto": "Evidencia empírica directa observada en DeepSeek presenta su arquitectura 'Super-Agent': ejecución c..."
+      },
+      {
+        "titular": "La Electronic Frontier Foundation (EFF) advierte: reformar la ley de copyright para frenar la IA dañará a los creadores independientes y favorecerá a las Big Tech",
+        "fuente": "EFF Deeplinks (Derechos Digitales, Privacidad y Criptografía) (2026-10-30)",
+        "url": "https://www.eff.org/deeplinks/2026/10/rewriting-copyright-law-generative-ai-would-hurt-everyone",
+        "impacto": "Evidencia empírica directa observada en La Electronic Frontier Foundation (EFF) advierte: reformar l..."
+      },
+      {
+        "titular": "OpenAI limita drásticamente la información sobre armamento a menores en ChatGPT ante la presión regulatoria por seguridad preventiva",
+        "fuente": "Reuters Technology & AI (Agentes Autónomos, Mercados y Brechas de Seguridad) (2026-10-30)",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNOXotdk1SQjNVV0I0cTY5SF8wakFYNk9Za3pJM3JlOFF3YjBOR25PUnB6SnBFUmlzR2dSQXl4c3E2RjFzbVFGNXJSR2dyYUJwZnI3OU10MXY1SENMN2Uwd0h3QzJZaFkwVnZ4SGlGbWQtNlpXcEVUUUYtMDRiVXNILU91OVBpZmszZVZnUXUwanlxNFNod2Nfa3Z3eEYyRjdVTG9EVnZVSW1BUlM4Y3dfYVR1NkdJRVduZklvUmhkVXFVcVAwTnJST0pR?oc=5",
+        "impacto": "Evidencia empírica directa observada en OpenAI limita drásticamente la información sobre armamento a..."
+      },
+      {
         "titular": "The Information y Reuters revelan que DeepSeek y Moonshot usaron 'GPT-6 Astra' de OpenAI para entrenar y destilar sus últimos modelos",
         "fuente": "Reuters Technology & AI / The Information (2026-10-29)",
         "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOZWxreXdWZGhvNFRiam1WcVA1WGMtNnl3NVpEWjIyVV9IR0xReTYwTFU2Ulhnek5QbVlzc1prUlBwYlVYNmpFaXJLdTNRU3NnbkhWSFlzZllyN1lma0RydHM5bEFab2xIRW5aOUllWGtiMzRaOG1HT1M3Z3ZIN1NwVmFFZ2NlUFo5WUNYaTRZSm9waDl6cE03bE1NMEtIM2VORTVVUDN3Y01ER3drXzFwNkMyNFZ0N3F5MC1idTVR?oc=5",
         "impacto": "Evidencia confirmatoria del 2026-10-29 para HIP-06: Disrupción Open-Weight Oriental/Comunitaria frente al Oligopolio de Silicon Valley"
-      },
-      {
-        "titular": "OpenAI negocia la compra masiva de procesadores TPU de Google Cloud para quebrar su dependencia exclusiva de Nvidia y Microsoft",
-        "fuente": "Reuters Technology & AI (2026-10-28)",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNElvX2Y3Ym5FZFdxRGVFMHpwNTRIc3lQUXRzNFNST0xVY2FjR2xoMmFCaDNMWFhtQnZuSXlSSF9zamY1aUY1a2JIX3hBWUFhQ19hb2w4a0JIQmtKRmJoNjRadWJnWmprNE50V2ZQSFRQWTI5aUhXRzkwMlhRNktVOWJwbjJnUk9EVVpiVEo1UjhwMWpvek9EYWpFNkRMTzA?oc=5",
-        "impacto": "Evidencia confirmatoria para HIP-06: Disrupción Open-Weight Oriental/Comunitaria frente al Oligopolio"
-      },
-      {
-        "titular": "Midjourney implementa su 'Thinking Mode' alfa y carpetas colaborativas para erradicar fallos de render, texto y anatomía",
-        "fuente": "Midjourney Alpha Platform News (2026-10-28)",
-        "url": "https://alpha.midjourney.com/updates/thinking-mode-collab-folders-oct2026",
-        "impacto": "Evidencia confirmatoria del 2026-10-29 para HIP-06: Disrupción Open-Weight Oriental/Comunitaria frente al Oligopolio de Silicon Valley"
-      },
-      {
-        "titular": "La fotónica de silicio emerge como la única vía física para evitar el colapso de agua y electricidad en los centros de datos de IA",
-        "fuente": "BBC News Mundo (2026-10-26)",
-        "url": "https://www.bbc.com/mundo/noticias-67123456",
-        "impacto": "Evidencia empírica directa: La fotónica de silicio emerge como la única vía física para "
-      },
-      {
-        "titular": "El modelo V4.1-Flash de DeepSeek lidera el uso global con 33,6 billones de tokens semanales (+801%) y consolida el dominio de modelos chinos",
-        "fuente": "Global Times Tech (Geopolítica de IA, Semiconductores y Robótica de China) / OpenRouter (2026-10-26)",
-        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9WSXdaS1FHaVlkMUZqV1UtQ2dBVzZLaWhOc3hUOFVmRUtlVWxJOWVpbEtQXy1EajJITk5yNVZGRHNlNlRhRGprSU5LUVdRb3d5elZqOG9VXzJadHZ4VnFYbXFR?oc=5",
-        "impacto": "Evidencia confirmatoria del 2026-10-30 para HIP-06: Disrupción Open-Weight Oriental/Comunitaria frente al Oligopolio de Silicon Valley"
       }
     ],
     "senalesContra": []
@@ -295,6 +295,12 @@
         "impacto": "Evidencia confirmatoria del 2026-10-30 para HIP-07: Crisis de Honestidad tras Trauma Social por Deepfakes y Prima de Transparencia Radical"
       },
       {
+        "titular": "OpenAI limita drásticamente la información sobre armamento a menores en ChatGPT ante la presión regulatoria por seguridad preventiva",
+        "fuente": "Reuters Technology & AI (Agentes Autónomos, Mercados y Brechas de Seguridad) (2026-10-30)",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNOXotdk1SQjNVV0I0cTY5SF8wakFYNk9Za3pJM3JlOFF3YjBOR25PUnB6SnBFUmlzR2dSQXl4c3E2RjFzbVFGNXJSR2dyYUJwZnI3OU10MXY1SENMN2Uwd0h3QzJZaFkwVnZ4SGlGbWQtNlpXcEVUUUYtMDRiVXNILU91OVBpZmszZVZnUXUwanlxNFNod2Nfa3Z3eEYyRjdVTG9EVnZVSW1BUlM4Y3dfYVR1NkdJRVduZklvUmhkVXFVcVAwTnJST0pR?oc=5",
+        "impacto": "Evidencia empírica directa observada en OpenAI limita drásticamente la información sobre armamento a..."
+      },
+      {
         "titular": "SAG-AFTRA intensifica la presión en el Senado de EE.UU. para la aprobación federal de la 'NO FAKES Act' contra la clonación y réplicas digitales de IA",
         "fuente": "Sindicatos Artísticos EE.UU. (SAG-AFTRA, WGA, DGA - Secciones IA) (2026-10-29)",
         "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPLW5GU1pPWkthRGVFY04xMlhVVjBBTHM2YnBUZ1dqYjdENlJDUENEQ3B4WXRkZ29yemV6czRXT1EzOGNQRGpkQmJjemdCUXVYTndkZERWbXpvYjFVY2lmOXdPUzhXbUgyeU1qcWxMaUxhTHI0Vjh3ekl4cXJQWE1PeF9TemxPemZWVzhTRE1ZN0d4UQ?oc=5",
@@ -307,16 +313,10 @@
         "impacto": "Evidencia confirmatoria del 2026-10-29 para HIP-07: Crisis de Honestidad tras Trauma Social por Deepfakes y Prima de Transparencia Radical"
       },
       {
-        "titular": "Reuters destapa el plan de gobierno de Anthropic: un fideicomiso independiente tendrá poder de veto absoluto tras la salida de sus líderes",
-        "fuente": "Reuters Technology & AI (2026-10-27)",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQWjdLMFpXUmh5WjlTQUxaOExSbmM0bTV2bGRRY05iSnNfT1BnZ3l6OWFON2hYMlh0MnNyeDV3c2NGN2dHUl9xbVo0SHJzdkFHUWFfNHdNU2g0RktoYnZPdXc4ZEcxNW5SRzU3Njg4VzhscE14ODk3T0tONHBSYnFMNk5IYXdvSDktY2FNZDR2Tnd0dG82NHBuQUV0d3lVWVBoYkpNM1dwcjJCVDRseTVwQkxZWEpFNkhHOUFTRA?oc=5",
-        "impacto": "Evidencia confirmatoria para HIP-07: Crisis de Honestidad tras Trauma Social por Deepfakes y Prima de Transparencia"
-      },
-      {
-        "titular": "Anthropic alerta en su prospecto de salida a bolsa (IPO) que la cobertura mediática negativa y el rechazo social a la IA amenazan su viabilidad comercial",
-        "fuente": "The Hollywood Reporter — AI (2026-10-26)",
-        "url": "https://www.hollywoodreporter.com/business/digital/anthropic-ipo-filing-warns-negative-media-coverage-ai-risk-1236739927/",
-        "impacto": "Evidencia empírica directa: Anthropic alerta en su prospecto de salida a bolsa (IPO) que"
+        "titular": "Ava DuVernay defiende el uso de IA en su documental '14th' y abre la puerta al archivo histórico sintético en Hollywood",
+        "fuente": "The Hollywood Reporter — AI (2026-10-28)",
+        "url": "https://www.hollywoodreporter.com/movies/movie-news/ava-duvernay-defends-using-ai-doc-14th-1236739774/",
+        "impacto": "Evidencia empírica directa observada en Ava DuVernay defiende el uso de IA en su documental '14th' y..."
       }
     ],
     "senalesContra": []
@@ -344,6 +344,12 @@
         "impacto": "Coincidencia temática directa (directo) con la hipótesis HIP-08."
       },
       {
+        "titular": "ZenaTech Anticipates Faster Survey Delivery and Increased Capacity with AI and Drone Automation - The Globe and Mail",
+        "fuente": "Federaciones Europeas de Creadores Audiovisuales (FERA Directores & FSE Guionistas) (2026-10-29)",
+        "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxPcnJsaHN3aHpBaXIwTlJKazFKSlZsTmRNVk4xOEY1U1JKQlhJVkJLOUhWX1k4TFo5SE5VTGdXc0tjM29iMVd1ZEVzRF80dmY1RmtNYll2MVVoZHJjQ0U5V0V2UFNwTmwyMjU3VG51MUpPYW9WVms1NTlMQWhyWjFuRENjLWdYWmZreW1ENjJLZDNZVmQ2LTFJTU1NZVRhaGdyc18tRHVIUjJpQXNwWS1feFdVZU5aWHMwekl0eE93amlVV3pNQ1E5UzM1Zmx1eXZvSHNtZF96bXE4QWZqMElhNWJwYjllRzVKbzJ0TUg5a01zMVF0RDJxX25YdmExM1dDVnJRa2xpS29HSEZy?oc=5",
+        "impacto": "Coincidencia temática directa (live, directo) con la hipótesis HIP-08."
+      },
+      {
         "titular": "'Biblia negra', largometraje de terror independiente dirigido por Rubén Arnaiz, llega a las salas de cine apostando por la autoría física e indie",
         "fuente": "Audiovisual451 (Industria Española y Europea) (2026-10-27)",
         "url": "https://www.audiovisual451.com/biblia-negra-estreno-en-cines-9-de-octubre/",
@@ -354,12 +360,6 @@
         "fuente": "Federaciones Europeas de Creadores Audiovisuales / Tech (2026-10-27)",
         "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxNV1ltVUVxTmk0eGJQRGVlbWMtSlV3M3ZhOVFCMFBHYlhzeU9BRWFwTTVlME1sZHpfTVJfYmZObkIyaEJmcXAwbG1ZUThidGlORld6NjJKMEQtaVNfSEVoczhzMGFOdHFCZzhLNEtQUFJLSFhuSUVzVjJpb19JWHNJVXp1QlZIUVNsbE1IZjBTeGwzbjBSNjNwU284dkV0dmpyZlloRy1NNi1HT3BrVU5TVXFLbEVBY1ZIcGRfX3lkWFF2QUk4OTJmempEakhwV2pnMzlETnBNNGlmM2JLbVMtZC1BLW1kLXJpUFdEX2JickF5UjVLTmZjVUdGTTNGN2ttVGlCTmlJNVRMaV92UUtDaA?oc=5",
         "impacto": "Evidencia confirmatoria para HIP-08: El Directo y los Eventos Presenciales como Certificado Supremo de Verosimilitud"
-      },
-      {
-        "titular": "Llega a Buenos Aires la primera edición de WAIFF, el festival internacional de cine con IA 'Road to Cannes' respaldado por James Cameron y Marco Landi",
-        "fuente": "PRODU (Líder B2B Audiovisual y Tecnología LatAm) (2026-10-26)",
-        "url": "https://www.produ.com/tecnologia/noticias/llega-a-buenos-aires-la-primera-edicion-de-waiff-festival-internacional-que-une-cine-inteligencia-artificial-e-innovacion-tecnologica/",
-        "impacto": "Evidencia empírica directa: Llega a Buenos Aires la primera edición de WAIFF, el festiva"
       }
     ],
     "senalesContra": [
@@ -394,22 +394,22 @@
         "impacto": "Evidencia confirmatoria del 2026-10-29 para HIP-09: Renacimiento Espiritual y Bifurcación Narrativa: Dopamina IA vs. Iluminación Humana (Función Bárdica)"
       },
       {
+        "titular": "Ava DuVernay defiende el uso de IA en su documental '14th' y abre la puerta al archivo histórico sintético en Hollywood",
+        "fuente": "The Hollywood Reporter — AI (2026-10-28)",
+        "url": "https://www.hollywoodreporter.com/movies/movie-news/ava-duvernay-defends-using-ai-doc-14th-1236739774/",
+        "impacto": "Evidencia empírica directa observada en Ava DuVernay defiende el uso de IA en su documental '14th' y..."
+      },
+      {
+        "titular": "Donald Trump promete prohibir oficialmente el uso del término «Inteligencia Artificial» en la administración federal por considerarlo 'engañoso e inexacto'",
+        "fuente": "Variety — Artificial Intelligence (2026-10-27)",
+        "url": "https://variety.com/2026/digital/news/trump-artificial-intelligence-officially-ban-term-ai-1236932249/",
+        "impacto": "Evidencia empírica directa observada en Donald Trump promete prohibir oficialmente el uso del términ..."
+      },
+      {
         "titular": "Diego Betancor debuta en la producción cinematográfica con 'Una familia': rodaje en 16 mm por convicción artesanal frente al estándar digital",
         "fuente": "Audiovisual451 (Industria Española y Europea) (2026-10-26)",
         "url": "https://www.audiovisual451.com/diego-betancor-debuta-en-la-produccion-cinematografica-con-una-familia-un-proyecto-de-seis-anos-que-aposto-por-el-rodaje-en-16-mm-pese-a-las-limitaciones-presupuestarias/",
         "impacto": "Evidencia empírica directa: Diego Betancor debuta en la producción cinematográfica con '"
-      },
-      {
-        "titular": "Anthropic alerta en su prospecto de salida a bolsa (IPO) que la cobertura mediática negativa y el rechazo social a la IA amenazan su viabilidad comercial",
-        "fuente": "The Hollywood Reporter — AI (2026-10-26)",
-        "url": "https://www.hollywoodreporter.com/business/digital/anthropic-ipo-filing-warns-negative-media-coverage-ai-risk-1236739927/",
-        "impacto": "Evidencia empírica directa: Anthropic alerta en su prospecto de salida a bolsa (IPO) que"
-      },
-      {
-        "titular": "El futuro de la crítica cinematográfica en la era de la IA: el criterio estético y la vivencia personal frente a la síntesis algorítmica",
-        "fuente": "Radar Festivales de Cine España (El antepenúltimo mohicano) (2026-10-26)",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPRTJ2TE51WmpZMFl2V3NEbFN0cmtERVI3R1Z0NEVQSnhXbmtidU05Q0RZR3FEdVNLWk1HRE03c0xLbDZhYlEtZ21TOFVCenlNZjlfNnVaTHU0YTJOSlB0OHZJcUVCMkgxZXVVLTBRdUxhMjkweEMyRTl4RU9GbnN1UHNpZDExR2NjZjdaR00tWm13ZE5MamhF?oc=5",
-        "impacto": "Evidencia confirmatoria del 2026-10-29 para HIP-09: Renacimiento Espiritual y Bifurcación Narrativa: Dopamina IA vs. Iluminación Humana (Función Bárdica)"
       }
     ],
     "senalesContra": []
@@ -424,6 +424,12 @@
     "traccionScore": 98,
     "totalSenales": 5,
     "senalesPro": [
+      {
+        "titular": "Zeppelin Studio lanza 'Zeppelin AI': primera productora y plataforma de series y películas generadas con IA en América Latina",
+        "fuente": "PRODU (Líder B2B de Televisión, Series, OTT y Tecnología LatAm) (2026-10-30)",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNaWhiN0RmNEFOMG5aYVk3VGNGNGF6M2pNTDVFTDI0OEprQkpMUkhVQ2FLVHludTRWMVYwcV9OcGZHdmlBVk5IZGd0ZFhLYnRjcXZxWU1ZZzl0V1EzQlowbjVPQ1BZMks2TnpLR3BBNUdzeDBqLUIxWXhDWHVmd2tPODhXaEhfUVUtZmRjUzNOVjFySUl3ZWxhM3J1WlkxQ2NoMHZVM1RqejNwZVBhMUdWYWthRE1rM2FjWFV4V1NGNTExZUVLOUxQUUlqVWJiRG5tRGZv?oc=5",
+        "impacto": "Evidencia empírica directa observada en Zeppelin Studio lanza 'Zeppelin AI': primera productora y pl..."
+      },
       {
         "titular": "GoGo AI Network y Algo8 AI reanudan cotización bursátil tras consolidar su red de agentes autónomos para monitorización industrial",
         "fuente": "Federaciones Europeas de Creadores Audiovisuales / The Manila Times (2026-10-29)",
@@ -443,16 +449,10 @@
         "impacto": "Coincidencia temática directa (trabajo) con la hipótesis HIP-10."
       },
       {
-        "titular": "Meta obligada a retrasar sus nuevos términos comerciales tras la rebelión colectiva de medios y creadores contra el scraping para IA sin autorización",
-        "fuente": "Radar Publicidad y Agencias IA (Digiday) (2026-10-26)",
-        "url": "https://digiday.com/media/meta-delays-rollout-of-updated-commercial-terms-amid-publishers-collective-pushback/",
-        "impacto": "Evidencia empírica directa: Meta obligada a retrasar sus nuevos términos comerciales tra"
-      },
-      {
-        "titular": "UM Argentina lanza la iniciativa 'Stand Against Bland' con OMNI e IA para combatir el aplanamiento creativo en publicidad",
-        "fuente": "PRODU (Líder B2B Audiovisual y Tecnología LatAm) (2026-10-26)",
-        "url": "https://www.produ.com/publicidad/noticias/um-argentina-impulsa-stand-against-bland-con-capacitacion-omni-e-inteligencia-artificial/",
-        "impacto": "Evidencia empírica directa: UM Argentina lanza la iniciativa 'Stand Against Bland' con O"
+        "titular": "ZenaTech Anticipates Faster Survey Delivery and Increased Capacity with AI and Drone Automation - The Globe and Mail",
+        "fuente": "Federaciones Europeas de Creadores Audiovisuales (FERA Directores & FSE Guionistas) (2026-10-29)",
+        "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxPcnJsaHN3aHpBaXIwTlJKazFKSlZsTmRNVk4xOEY1U1JKQlhJVkJLOUhWX1k4TFo5SE5VTGdXc0tjM29iMVd1ZEVzRF80dmY1RmtNYll2MVVoZHJjQ0U5V0V2UFNwTmwyMjU3VG51MUpPYW9WVms1NTlMQWhyWjFuRENjLWdYWmZreW1ENjJLZDNZVmQ2LTFJTU1NZVRhaGdyc18tRHVIUjJpQXNwWS1feFdVZU5aWHMwekl0eE93amlVV3pNQ1E5UzM1Zmx1eXZvSHNtZF96bXE4QWZqMElhNWJwYjllRzVKbzJ0TUg5a01zMVF0RDJxX25YdmExM1dDVnJRa2xpS29HSEZy?oc=5",
+        "impacto": "Coincidencia temática directa (automation, trabajo) con la hipótesis HIP-10."
       }
     ],
     "senalesContra": []
@@ -467,6 +467,12 @@
     "traccionScore": 98,
     "totalSenales": 6,
     "senalesPro": [
+      {
+        "titular": "DeepSeek lanza su nuevo agente de código autónomo para competir frontalmente con Claude Sonnet de Anthropic a una fracción de su coste",
+        "fuente": "Bloomberg Technology / Radar Agentes de Código (2026-11-01)",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSGJoZUdrNzFHTjRVcm9OOVZ5a1Z4dVB4ME1aNjlmYmdjX1ZOTXNWTFJTNFFFUkQ2UUxxTGV4UDlOS0RjMnRlWlFUZ04yemVtQU9zU3FZbHlWY1YxMi1YSVBGb3k5cGszYnptNnZVZk1mR1NmS0RvLUhOeS1QUmxZamtoNGgzR21CR2tmY0JUd1c3YXBBMlc0SDhkZm9kOFRtZ3NvQ2RLNVZOYnFaV2x5Vy1ra3ZNUQ?oc=5",
+        "impacto": "Evidencia empírica directa observada en DeepSeek lanza su nuevo agente de código autónomo para compe..."
+      },
       {
         "titular": "Oracle integra 'AI Workspace' dentro de ChatGPT para operar ERPs corporativos y bases de datos con agentes de OpenAI",
         "fuente": "The Wall Street Journal — Tech & AI / Oracle AI World (2026-10-30)",
@@ -490,12 +496,6 @@
         "fuente": "Radar Centros de Datos España (Consumo Eléctrico, Agua y Plan IA360) (2026-10-30)",
         "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOZTMwOGJuOFc2LVA2NDZNQ0UzXzZ0dnlqTmp4QTRxWGQxMjUzMkVlV0g2dzVhQnFmaDBjdE95UXphYUg3SDdBZVp1dEZyb2I5VGRCQzBFbWowWEhicG1DUEFOZV9ZTkxTcF85SlNwZ2wwUEZ6Sldhenp2US1fTUlUOWJFSXBwc2FLNFhZM3d4T0VZSGFCb01JYmxuZGY4OGgyU2RIbG5UQVBpdUh0Rk1lcXkwV1RGSWdvNERUenF3Sm41MjNJMlctek1SeDN0cVlhc1RaTmFnMmxDRExuRXNhc05vZFM0azdkUmt6WjdBd2RMbm9jTU1iRVdfLTRhNUJDZXc?oc=5",
         "impacto": "Coincidencia temática directa (presupuesto) con la hipótesis HIP-11."
-      },
-      {
-        "titular": "Anthropic Says Enterprise AI Adoption Remains in ‘Early Phases’ - WSJ",
-        "fuente": "Radar Adopción Empresarial Real, ROI y Métricas de Productividad (Google News) (2026-10-30)",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWm93clFxa0N1RmJ3N3oxWEN1cUx5NjB5WGdfallYRFhmMXFiTHF5dDktRWpXNnNnVWgtMDFxRHJqSzN5YUlPLU9wTjZ3QThZVkRQbTB6ODJzWWhxUDA1cWpuYWJDQ1czSGc1b1B6M1dfY25kSkUxcnFoVlB5NTBZQ2s0ZEE4TDN5WGxkMmVLTndXUFBZc1VZNzlkTm1EbGYxMzByZA?oc=5",
-        "impacto": "Coincidencia temática directa (presupuesto) con la hipótesis HIP-11."
       }
     ],
     "senalesContra": [
@@ -518,6 +518,12 @@
     "totalSenales": 5,
     "senalesPro": [
       {
+        "titular": "DeepSeek presenta su arquitectura 'Super-Agent': ejecución concurrente y multi-tarea mediante micro-modelos compactos de decisión (CDM)",
+        "fuente": "Global Times Tech (Geopolítica de IA, Semiconductores y Robótica de China) (2026-11-01)",
+        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBXdWVIMG1kTDNsREQ0ZElVZmMydDNBT0N1bVVWZ3NTRkVieURnTHc4MHc4N2trbHpTMTdQdE1wQ20zcmlOeHVMdEJMT3phZWVubjF2aWRjRWhRcDVUVjNtNkhR?oc=5",
+        "impacto": "Evidencia empírica directa observada en DeepSeek presenta su arquitectura 'Super-Agent': ejecución c..."
+      },
+      {
         "titular": "La crisis hídrica de los centros de datos en Colorado y el oeste de EE.UU. desata rebeliones vecinales ante el colapso de acuíferos",
         "fuente": "Radar Centros de Datos España / The Sopris Sun (El Sol del Valle) (2026-10-30)",
         "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOVjJ5SmJGSHRLSW1sUmg0ME1ZbnFfRldLeEhpcTJJUUZnTVNwVXRZSEx5c29kMlRlRUJOb1BqZThqQkNRYlZWaVdDVGNGS3I3c19kZzhXZjRvdXVGRzMyRU11OWFIU1RvdThZanB6NkdtWHAzUzFvZHRaVXZ1ZjhJdUNBbjRwaDUtelViOC1od2VxOE54X2hQaS1KWDdkZUduN1F4Y0lIVHFFQQ?oc=5",
@@ -530,22 +536,16 @@
         "impacto": "Evidencia confirmatoria del 2026-10-30 para HIP-12: Compresión Endógena, Decrecentismo Ágil y Racionamiento de Cómputo ('Carnet de IA')"
       },
       {
+        "titular": "La huella física de la IA en España: un solo centro de datos puede consumir tanta electricidad como 100.000 hogares y agotar acuíferos locales",
+        "fuente": "Radar Centros de Datos España (Consumo Eléctrico, Agua y Plan IA360) / AraInfo (2026-10-29)",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNQV8zZzgyeWJmRUtXaDdyM3kyTTJUdHdHd0FaZFYtLWwzTFdRcHpzRTJFbmphZmtyWjFnMkU1MUFVei1OWFJZeEtKNzJkM0FNZnlzVW1Jdy1Za2cxQS05QXFZaDRlZkd3LS0xZHlyYTNOMG1SaDEzWlM3V1FnS2NIN0dxdVNXWGZETG1wc2E2VHdQWFFPZ3Via1VrQkRrQ1YxaDNDM09Hdw?oc=5",
+        "impacto": "Evidencia empírica directa observada en La huella física de la IA en España: un solo centro de datos..."
+      },
+      {
         "titular": "Moncloa otorga un régimen de excepción a la gigafactoría de IA de Tarragona y la exime de las obligaciones hídricas y ambientales del resto del sector",
         "fuente": "Radar Centros de Datos España (El Periódico) (2026-10-26)",
         "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNRkY4bkp5TDhieVBEWkcyRy1tUHMzRlNqYS04cjFLeUk0QmRRQWZtQWh2MTh0cjZGbGhGZmVHQW1iY1RabE9ndlFoTlZsX3hvU245MjRHTTNCbDFPLWZlVVhZelFVYUc0OHZWWGFaSWZYQ0R4X2FkdmRCNzl6SkYxZHIxOEdBc2lZaWxaUE56YndoYWo1ZHl6MXBmWEloejRvQkgxQnhtSDcxVTZKdTl3NUFNYm52QjN5M2NsZGFhdDYyd9IBwgFBVV95cUxOY09OVm5CZWpDOFMwTFpodG02YWFvSVQwSnRPdG83bUFCWDB6ZWFjajlESlJUaWItblluY1dFaGFUbmgyaGZHZFg3MWQ2a2JsZV91WjFRY1ltdGtISGZGOWx4TVdubUd1YnNaMlhqZXNTZUpodXRHVFVXSjJrakdiTTlIQ1kzTXg0TDFBWms5WG1EYklXcFBERVN3dDdhUkFVOFJRenpENm5TSE04WUh4SF9JRkVaNjRnbl9YZE1jRUNNUQ?oc=5",
         "impacto": "Evidencia confirmatoria del 2026-10-29 para HIP-12: Compresión Endógena, Decrecentismo Ágil y Racionamiento de Cómputo ('Carnet de IA')"
-      },
-      {
-        "titular": "La burbuja de los 'proyectos fantasma' en centros de datos de IA infla la reserva eléctrica y bloquea 2.500 GW en todo el mundo",
-        "fuente": "Radar Centros de Datos España (Consumo Eléctrico, Agua y Plan IA360) (2026-10-25)",
-        "url": "https://www.criptotendencia.com/2026/10/25/centros-de-datos-ia-proyectos-fantasma/",
-        "impacto": "Evidencia empírica directa: La burbuja de los 'proyectos fantasma' en centros de datos d"
-      },
-      {
-        "titular": "Amazon acumula 5.000 millones de dólares en servidores de IA paralizados en depósitos por falta de potencia eléctrica",
-        "fuente": "Radar Centros de Datos España (Consumo Eléctrico, Agua y Plan IA360) (2026-10-24)",
-        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNWEF1QUlBUXlpakFDNVJBV1ZrTG5kb3FYdkFhZ3JDdXpINmVMOXZ2UGdaY2ZKaEJ3d1ZoeU15SnNjUFUyMERmazcxR21hUTZsOV96dU5tcHJyVlVxWDlnQnFXa25laGNpb1Y0T1hLVXdxX2xna0U5WUczWHUwclpzTHU3UEpRdTFsN241cXU3ZEk1UHVydEh5bHdBcTVXWW1FSTdXRXVTVDV0anpwcU5oZTZlRV9BSlN3QnZDUXJaTGp1dnZhcjhHMkM5cDZHa1ZZNHJfcVpDR0xPRnlSMnBnUlhqb9IB_gFBVV95cUxPajZFWDEtNGZENUMwWnFseUV4OTdyUFRfSFNNb0xfeXpJdnNMMHJldWRIMkgtUEhqTlk3d2FZdEpOYVZSczV2VHpsTDFjVlNGNmtZMVYydmZ0WU8xbF9CcEo1Ym94ZFgtWEFjMEIyNE9rYUpzY3c2aWtyRTRoeDYyLS1KWHhkaWN2bld5QU42Tnh2NjlmRGw1Z1k3WWNudklMak9EZHN1RDV4NnRpeThWbTh4cmpfekZqQzJqc3I0cmxYbmZBQTJFMl9Hc2tGMWRMRmVsUlRGYXdHMVFOX3JFMjkzQy1GbE9WSEVmbGFaUC0xdjFhejJRSUlpdUZBQQ?oc=5",
-        "impacto": "Evidencia empírica directa: Amazon acumula 5.000 millones de dólares en servidores de IA"
       }
     ],
     "senalesContra": []
@@ -560,6 +560,12 @@
     "traccionScore": 98,
     "totalSenales": 5,
     "senalesPro": [
+      {
+        "titular": "Zeppelin Studio lanza 'Zeppelin AI': primera productora y plataforma de series y películas generadas con IA en América Latina",
+        "fuente": "PRODU (Líder B2B de Televisión, Series, OTT y Tecnología LatAm) (2026-10-30)",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNaWhiN0RmNEFOMG5aYVk3VGNGNGF6M2pNTDVFTDI0OEprQkpMUkhVQ2FLVHludTRWMVYwcV9OcGZHdmlBVk5IZGd0ZFhLYnRjcXZxWU1ZZzl0V1EzQlowbjVPQ1BZMks2TnpLR3BBNUdzeDBqLUIxWXhDWHVmd2tPODhXaEhfUVUtZmRjUzNOVjFySUl3ZWxhM3J1WlkxQ2NoMHZVM1RqejNwZVBhMUdWYWthRE1rM2FjWFV4V1NGNTExZUVLOUxQUUlqVWJiRG5tRGZv?oc=5",
+        "impacto": "Evidencia empírica directa observada en Zeppelin Studio lanza 'Zeppelin AI': primera productora y pl..."
+      },
       {
         "titular": "El nuevo mapa del entretenimiento: entre la era multiplataforma, la inteligencia artificial y el poder de la conexión humana - produ",
         "fuente": "PRODU (Líder B2B de Televisión, Series, OTT y Tecnología LatAm) (2026-10-29)",
@@ -583,12 +589,6 @@
         "fuente": "Deadline — Artificial Intelligence & Guilds (2026-10-22)",
         "url": "https://deadline.com/2026/10/stage-32-marketplace-combat-ai-slop-projects-1237170475/",
         "impacto": "Evidencia empírica directa: Stage 32 lanza un mercado verificado para blindar a los estu"
-      },
-      {
-        "titular": "Algoritmos Verdes para la Conservación de Ecosistemas y Biodiversidad: Cómo la IA está Protegiendo la Naturaleza - Programa nacional de algoritmos verdes",
-        "fuente": "Programa Nacional de Algoritmos Verdes (PNAV — Gobierno de España) (2026-10-20)",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPc1UtV21HNVRNWWItM1VKWWxVSXRJbEh4Mzh2VEMzNG9sV1JIem9kOVpnMllBMlpiMjBtWG5uMmlFMHVHX2FVT1VDbkZveTJURjRrOUFrRkNvdU40MGJUdjYwTTZaNEFENzhQNk94cTNvbVMzaGRHNS0zZGpFY1FydGVKR3lBeUtQTnFSQl8xMmp4ZkROeFRTRmJnamk2d3MxbUpBbm1aRElCazdmel9reGM4TVB2Y0RHSXhmTHFpWUg5M1V4b0V4bA?oc=5",
-        "impacto": "Coincidencia temática directa (algoritmo) con la hipótesis HIP-13."
       }
     ],
     "senalesContra": []
@@ -647,6 +647,18 @@
     "totalSenales": 7,
     "senalesPro": [
       {
+        "titular": "OpenAI Raises Less Than Half of $30 Billion Target in Latest Round - WSJ",
+        "fuente": "The Wall Street Journal — Tech & AI (Investigaciones Frontier y Fallos de Modelos) (2026-10-31)",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQTW9TMmVsZkc2b05TYkloVW41X050RjdtZ1F5U01TRnJOSEthYTJpcDdPWVhJb0FvRGEteHgtbVhSS0lOVEZ3T2N5MTNpSUNWNXpETThZR0RvcFQwY2Q5R3ctRUFvM1ZtdFdMaXhGSnpPM2FiLUhORXNrem84cUpfVGpuQ0VmaGNsZUlxUVQ0dk4zQUE2cWFzUk8yM1R3cjc3dEczVw?oc=5",
+        "impacto": "Coincidencia temática directa (wall street) con la hipótesis HIP-15."
+      },
+      {
+        "titular": "OpenAI recorta en 10.000 millones su meta de captación de fondos tras levantar menos de la mitad de los 30.000M$ previstos ante el castigo bursátil al capex tecnológico",
+        "fuente": "Reuters / Financial Times / The Wall Street Journal (2026-10-31)",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNTWw3N0l5dm5KUi1FQmllTEpEeUdkY1k5TVlFNTlnWWFlbTgtdUJfZE9RMjZiQlJEVXU2VFo2blVaWk1MZzNYMm9OYmdrSngtSk02YnhKNDdVMVZkS3hIMHpWZ2dnRjJZWjBzQ0lFRU4ySFFUQzdTdnUzN3JETGtCYlo3Y3kxeGJseG5veVJMSVVCRDVPYzB3TXQyaFE?oc=5",
+        "impacto": "Evidencia empírica directa observada en OpenAI recorta en 10.000 millones su meta de captación de fo..."
+      },
+      {
         "titular": "Intel pierde su magia: se desploma hasta un 30% en bolsa tras previsiones decepcionantes y castigo por capex en centros de datos",
         "fuente": "Cinco Días / El País (2026-10-30)",
         "url": "https://cincodias.elpais.com/companias/2026-10-30/intel-pierde-su-magia-se-desploma-un-25-en-bolsa-tras-lanzar-previsiones-decepcionantes.html#utm_source=x&utm_medium=social&utm_campaign=x",
@@ -663,18 +675,6 @@
         "fuente": "Finanzas para Todos / Earnings Q3-Q4 Analysis (2026-10-30)",
         "url": "https://www.youtube.com/watch?v=ocMTAZ-ZQzw#amazon_fcf",
         "impacto": "Evidencia confirmatoria de resultados Q3-Q4: Evidencia contable irrefutable de burbuja: Los gigantes tecnológicos están construyendo centros de datos a una velocidad muy superior a sus cobros reales en efectivo, acumulando riesgos masivos ante contratos diferidos no consolidados."
-      },
-      {
-        "titular": "El efecto colateral de las GPUs: El encarecimiento de memorias HBM encarece los portátiles y frena las ventas globales de PCs un 4%",
-        "fuente": "Finanzas para Todos / Earnings Q3-Q4 Analysis (2026-10-30)",
-        "url": "https://www.youtube.com/watch?v=ocMTAZ-ZQzw#intel_pc_cannibalization",
-        "impacto": "Evidencia confirmatoria de resultados Q3-Q4: Canibalización de mercado: La absorción monopolística de recursos por los centros de datos encarece el hardware de consumo y deprime la renovación informática general de particulares y empresas."
-      },
-      {
-        "titular": "ServiceNow sufre el peor desplome de su historia (-27%): coste de ingenieros in-situ y temor a la disrupción del SaaS por la IA",
-        "fuente": "Finanzas para Todos / Earnings Q3-Q4 Analysis (2026-10-30)",
-        "url": "https://www.youtube.com/watch?v=ocMTAZ-ZQzw#servicenow",
-        "impacto": "Resultados Q3 2026: el mercado castiga el coste de desplegar IA en clientes sin retorno inmediato."
       }
     ],
     "senalesContra": [
@@ -699,9 +699,15 @@
     "tesis": "El auge de los agentes de código (Cursor, Claude Code, Copilot) y el paradigma del 'Personal Software' permite a profesionales y empresas generar herramientas internas a medida sin pagar licencias recurrentes. Esto provoca una contracción acelerada y compresión de múltiplos en el modelo SaaS B2B tradicional (CRM, ERPs, gestores de tickets e incidencias como ServiceNow o Salesforce).",
     "categoria": "Economia Laboral Y Agentes",
     "status": "ACTIVA",
-    "traccionScore": 95,
+    "traccionScore": 96,
     "totalSenales": 5,
     "senalesPro": [
+      {
+        "titular": "DeepSeek lanza su nuevo agente de código autónomo para competir frontalmente con Claude Sonnet de Anthropic a una fracción de su coste",
+        "fuente": "Bloomberg Technology / Radar Agentes de Código (2026-11-01)",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSGJoZUdrNzFHTjRVcm9OOVZ5a1Z4dVB4ME1aNjlmYmdjX1ZOTXNWTFJTNFFFUkQ2UUxxTGV4UDlOS0RjMnRlWlFUZ04yemVtQU9zU3FZbHlWY1YxMi1YSVBGb3k5cGszYnptNnZVZk1mR1NmS0RvLUhOeS1QUmxZamtoNGgzR21CR2tmY0JUd1c3YXBBMlc0SDhkZm9kOFRtZ3NvQ2RLNVZOYnFaV2x5Vy1ra3ZNUQ?oc=5",
+        "impacto": "Evidencia empírica directa observada en DeepSeek lanza su nuevo agente de código autónomo para compe..."
+      },
       {
         "titular": "Anthropic hacked to deliver remote access trojan to Claude developer laptops worldwide - DoublePulsar",
         "fuente": "Radar Agentes de Código, SWE-Bench y Personal Software (Google News) (2026-10-30)",
@@ -725,12 +731,6 @@
         "fuente": "Hemeroteca Agentes de Código & Personal Software (2025-08-20)",
         "url": "https://agents.md/",
         "impacto": "Evidencia retrospectiva de 2025 (coding agent): AGENTS.md – Open format for guiding coding agents"
-      },
-      {
-        "titular": "Ask HN: What's Your Useful Local LLM Stack?",
-        "fuente": "Hemeroteca Agentes de Código & Personal Software (2025-07-15)",
-        "url": "https://news.ycombinator.com/item?id=44572043",
-        "impacto": "Evidencia retrospectiva de 2025 (Aider coding): Ask HN: What's Your Useful Local LLM Stack?"
       }
     ],
     "senalesContra": []
@@ -871,9 +871,15 @@
     "tesis": "El desplome o corrección severa en las cotizaciones de semiconductores, neoclouds y firmas de IA replica el patrón histórico del ferrocarril (siglo XIX) y la fibra óptica / telecomunicaciones (2001): un crash bursátil y liquidación de deuda de infraestructuras sobreconstruidas que NO detiene la adopción económica real. El abaratamiento drástico del cómputo secundario acelera la penetración de la IA en la economía productiva real, desmintiendo la tesis de que la tecnología carezca de utilidad o retorno a largo plazo.",
     "categoria": "Macroeconomia Y Burbuja Ia",
     "status": "ACTIVA",
-    "traccionScore": 66,
+    "traccionScore": 69,
     "totalSenales": 5,
     "senalesPro": [
+      {
+        "titular": "OpenAI recorta en 10.000 millones su meta de captación de fondos tras levantar menos de la mitad de los 30.000M$ previstos ante el castigo bursátil al capex tecnológico",
+        "fuente": "Reuters / Financial Times / The Wall Street Journal (2026-10-31)",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNTWw3N0l5dm5KUi1FQmllTEpEeUdkY1k5TVlFNTlnWWFlbTgtdUJfZE9RMjZiQlJEVXU2VFo2blVaWk1MZzNYMm9OYmdrSngtSk02YnhKNDdVMVZkS3hIMHpWZ2dnRjJZWjBzQ0lFRU4ySFFUQzdTdnUzN3JETGtCYlo3Y3kxeGJseG5veVJMSVVCRDVPYzB3TXQyaFE?oc=5",
+        "impacto": "Evidencia empírica directa observada en OpenAI recorta en 10.000 millones su meta de captación de fo..."
+      },
       {
         "titular": "Anthropic Says Enterprise AI Adoption Remains in ‘Early Phases’ - WSJ",
         "fuente": "Radar Adopción Empresarial Real, ROI y Métricas de Productividad (Google News) (2026-10-30)",
@@ -887,22 +893,16 @@
         "impacto": "Coincidencia temática directa (productividad, adopción empresarial) con la hipótesis HIP-20."
       },
       {
+        "titular": "Paradoja de adopción y retorno empresarial: el 90% de líderes está satisfecho con la IA, pero exige congelar contrataciones para compensar el sobrecoste",
+        "fuente": "Radar Adopción Empresarial Real, ROI y Métricas de Productividad (Google News) / FreightWaves (2026-10-29)",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPRHFOTnlyNkJnTjhkRlA2RklqZXNXYWVRNmZuejNacTdnUmZ6VjhoVWM5Y3JpV3F6dUNTVHV6UDVvbjBVXzhYNWpkVVh4LXRwWHhRR1hSVEMteXZ1OHdXLTlPN2lBaTVKTTJTd2xMNlRFY2l4R3Z0TTYzOWhlc1FoRmJZdnEtNXhvenNqMzEydXVnY3pf?oc=5",
+        "impacto": "Evidencia empírica directa observada en Paradoja de adopción y retorno empresarial: el 90% de lídere..."
+      },
+      {
         "titular": "Show HN: Molab, a cloud-hosted Marimo notebook workspace",
         "fuente": "Hemeroteca Macroeconomía IA, Deuda y Adopción Real (2025-07-18)",
         "url": "https://molab.marimo.io/notebooks",
         "impacto": "Evidencia retrospectiva de 2025 (GPU shortage cloud): Show HN: Molab, a cloud-hosted Marimo notebook workspace"
-      },
-      {
-        "titular": "Launch HN: Leaping (YC W25) – Self-Improving Voice AI",
-        "fuente": "Hemeroteca Macroeconomía IA, Deuda y Adopción Real (2025-07-10)",
-        "url": "https://news.ycombinator.com/item?id=44523523",
-        "impacto": "Evidencia retrospectiva de 2025 (enterprise AI adoption): Launch HN: Leaping (YC W25) – Self-Improving Voice AI"
-      },
-      {
-        "titular": "Enterprises are getting stuck in AI pilot hell, say Chatterbox Labs execs",
-        "fuente": "Hemeroteca Macroeconomía IA, Deuda y Adopción Real (2025-06-09)",
-        "url": "https://www.theregister.com/2025/06/08/chatterbox_labs_ai_adoption/",
-        "impacto": "Evidencia retrospectiva de 2025 (enterprise AI adoption): Enterprises are getting stuck in AI pilot hell, say Chatterbox Labs execs"
       }
     ],
     "senalesContra": []
@@ -914,9 +914,15 @@
     "tesis": "La IA deja de ser percibida socialmente como un motor de progreso neutro para convertirse en el principal chivo expiatorio político y electoral de la década (responsable del desempleo juvenil, el consumo abusivo de agua/energía y el fraude digital). Esta hostilidad social presiona a los reguladores a imponer tasas al cómputo, vetos de compra pública y bloqueos a las salidas a bolsa de los laboratorios (como admitió Anthropic ante la SEC en su formulario S-1), estrangulando su vía de escape financiero ante el vencimiento de deuda.",
     "categoria": "Politica Y Sociedad Civil",
     "status": "ACTIVA",
-    "traccionScore": 54,
-    "totalSenales": 3,
+    "traccionScore": 57,
+    "totalSenales": 5,
     "senalesPro": [
+      {
+        "titular": "La factura de la luz y los subsidios a centros de datos de IA irrumpen en el debate político y electoral de Estados Unidos",
+        "fuente": "Radar Centros de Datos España / Iberoeconomía (2026-10-31)",
+        "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPUS1ZU2R3QnVTdDA0RVFJMGZ2MmpTcF94NGZNd1ZrVnpWMzBRTjJuZU42U1dEekxJRmtMbkFXVDRkRlJlR01Wbm14Y3EzY3c1d0RLU1htalpab2tWYi1zcUpVZ1A4QUlRaWtHZDBVd0EwNFdMbG9Cd0lpckdpc0RyR1BZbmxRUGdyM2xVM1JrX3cydk9lWmVYTXdUSVBEd1FjRHVhWmh5Qkl3TFdWMXB1VjJ5a1BTaXRuRkg0bWstVU04NTFiNTVYT19PdDdZZnFvdmFBcjluRUZlLUxZZ1JMSWZBdC1wdjJBWWNtaXRMekhwaDY5?oc=5",
+        "impacto": "Evidencia empírica directa observada en La factura de la luz y los subsidios a centros de datos de I..."
+      },
       {
         "titular": "Democrats see AI hate as winning issue heading into 2028 - Axios",
         "fuente": "Axios AI & Tech (Primicias Geopolíticas, Seguridad y Filtraciones Washington) (2026-10-30)",
@@ -928,6 +934,12 @@
         "fuente": "Moncloa.com / Política Económica (2026-10-29)",
         "url": "https://www.moncloa.com/2026/10/29/rescates-empresas-ia-camara-3457599/",
         "impacto": "Resolución en el Congreso de EE.UU. para blindar fondos públicos y prohibir rescates a firmas de IA en quiebra."
+      },
+      {
+        "titular": "Donald Trump promete prohibir oficialmente el uso del término «Inteligencia Artificial» en la administración federal por considerarlo 'engañoso e inexacto'",
+        "fuente": "Variety — Artificial Intelligence (2026-10-27)",
+        "url": "https://variety.com/2026/digital/news/trump-artificial-intelligence-officially-ban-term-ai-1236932249/",
+        "impacto": "Evidencia empírica directa observada en Donald Trump promete prohibir oficialmente el uso del términ..."
       },
       {
         "titular": "Anthropic alerta en su prospecto de salida a bolsa (IPO) que la cobertura mediática negativa y el rechazo social a la IA amenazan su viabilidad comercial",
