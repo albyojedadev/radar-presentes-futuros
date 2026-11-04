@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Un mapa documentado de instituciones, capital y participación ciudadana en España y la Unión Europea.">
+  <meta name="theme-color" content="#F8F8F4">
+  <title>Atlas del poder — Quién decide. Cómo participar.</title>
+  <link rel="icon" href="assets/mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/atlas.css?v=arrastre">
+  <script defer src="assets/data.js?v=circuitos"></script>
+  <script defer src="assets/relations.js?v=circuitos"></script>
+  <script defer src="assets/graph.js"></script>
+  <script defer src="assets/spatial.js?v=arrastre"></script>
+  <script defer src="assets/app.js?v=dinero-completo"></script>
+</head>
+<body>
+  <a class="skip" href="#main">Saltar al contenido</a>
+<main id="main">
+    <section id="explorar" class="page">
+      <div class="intro">
+        <div><p class="eyebrow">UN ATLAS DE RELACIONES, NO UN RANKING</p><h1>Entender el poder.<br><span>Encontrar tu lugar.</span></h1></div>
+        <p class="intro-copy">Sigue el camino entre ciudadanía, instituciones y capital.<br>Selecciona un actor para ver <strong>qué decide, quién lo controla<br class="wide-only"> y cómo puedes intervenir.</strong></p>
+      </div>
+      <div class="explorer-bar">
+          <div class="topics" role="group" aria-label="Vistas del atlas">
+          <button data-topic="all" aria-pressed="true"><span>00</span> Todo el mapa</button>
+          <button data-topic="vote" aria-pressed="false"><span>01</span> Flujo del voto</button>
+          <button data-topic="checks" aria-pressed="false"><span>02</span> Contrapesos</button>
+          <button data-topic="money" aria-pressed="false"><span>03</span> Dinero</button>
+          <button data-topic="global" aria-pressed="false"><span>04</span> Conexiones globales</button>
+        </div>
+        <div class="search-wrap">
+          <label for="search" class="sr-only">Buscar en todo el atlas</label>
+          <span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Buscar un actor o mecanismo" autocomplete="off" aria-controls="search-results">
+          <div id="search-results" class="search-results" hidden></div>
+        </div>
+      </div>
+      <div class="workspace">
+        <div class="map-column">
+          <div class="map-heading"><div><span class="mono" id="map-kicker">TODO / RED COMPLETA</span><h2 id="map-title">Mapa de relaciones</h2></div><div class="view-switch" role="group" aria-label="Presentación"><button id="view-map" aria-pressed="true">Red</button><button id="view-space" aria-pressed="false">Espacio</button><button id="view-bands" aria-pressed="false">Franjas</button><button id="view-list" aria-pressed="false">Lista</button></div></div>
+          <div class="map-explainer"><p id="map-description">La ciudadanía está en la base. Sigue sus conexiones hacia la representación y los órganos de decisión.</p><button id="reset" class="text-button">Ver conjunto ↗</button></div>
+          <div id="map-viewport" class="map-viewport" tabindex="0" role="region" aria-label="Mapa de relaciones. Selecciona nodos con Tab. Puedes desplazar el mapa o usar la vista de lista.">
+            <div id="map-stage"><div id="map-inner"></div></div>
+          </div>
+          <div id="space-view" class="space-view" hidden><div class="space-toolbar"><p>Abre una constelación para explorar sus actores. Las líneas grises resumen vínculos entre grupos y las flechas de color muestran relaciones concretas.</p><div class="space-controls" role="group" aria-label="Controles del espacio"><button type="button" data-camera="out" aria-label="Alejar">−</button><button type="button" data-camera="in" aria-label="Acercar">+</button><button type="button" data-camera="reset">Centrar</button></div></div><div id="space-scene" role="region" aria-label="Grafo de grupos y actores"><svg id="space-lines" aria-hidden="true"></svg><div id="space-points"></div></div><p class="space-hint">Arrastra un nodo para recolocarlo o el fondo para girar. Usa Mayús y arrastra el fondo para desplazar el conjunto. Centrar restaura las posiciones. El color de los nodos indica su grupo y el de las flechas, el tipo de vínculo.</p></div>
+          <div id="actor-list" class="actor-list" hidden></div>
+          <div id="bands-view" class="bands-view" hidden></div>
+          <div class="map-bottom"><span id="map-status" role="status" aria-live="polite"></span><div class="zoom-controls"><button id="zoom-out" aria-label="Alejar mapa">−</button><button id="fit" aria-label="Ajustar mapa al ancho">Ajustar</button><button id="zoom-in" aria-label="Ampliar mapa">+</button></div></div>
+          <div class="legend">
+            <div class="legend-head"><strong>Cómo leer las conexiones</strong><label for="type-filter">Mostrar <select id="type-filter"><option value="all">mecanismos de esta vista</option></select></label></div>
+            <div id="edge-legend" class="edge-legend"></div>
+            <div class="shape-legend"><span>○ Institución pública</span><span>◇ Empresa / organización</span><span>◎ Sociedad civil</span><span>□ Mecanismo / proyecto</span></div>
+            <p>Las flechas indican dirección, no intensidad. La altura organiza la lectura; <strong>no mide poder ni falta de control.</strong></p>
+          </div>
+        </div>
+        <aside id="detail" class="detail" aria-label="Sigue una conexión · ficha del actor seleccionado" tabindex="-1" hidden></aside>
+      </div>
+      <div id="route-banner" class="route-banner" hidden></div>
+      <div class="routes"><div><p class="eyebrow">EMPIEZA POR UNA PREGUNTA</p><h2 id="routes-title">Caminos para entrar.</h2></div><div id="route-links"></div></div>
+    </section>
+  </main>
+<noscript><p class="nojs">Activa JavaScript para explorar el Atlas del poder.</p></noscript>
+</body>
+</html>

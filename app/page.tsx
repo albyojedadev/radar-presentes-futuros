@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import { Header } from "@/components/Header";
+import { Header, type RadarView } from "@/components/Header";
 import { RadarPresentesView } from "@/components/RadarPresentesView";
 import { HemerotecaView } from "@/components/HemerotecaView";
 import { AnuariosView } from "@/components/AnuariosView";
@@ -9,7 +9,7 @@ import { RadarFuturosView } from "@/components/RadarFuturosView";
 import datasetStatic from "@/public/data/dataset.json";
 
 export default function Home() {
-  const [vistaActiva, setVistaActiva] = useState<"presentes" | "hemeroteca" | "anuarios" | "futuros">("presentes");
+  const [vistaActiva, setVistaActiva] = useState<RadarView>("presentes");
   const dataset = datasetStatic;
 
   return (
@@ -36,6 +36,13 @@ export default function Home() {
 
           {vistaActiva === "futuros" && (
             <RadarFuturosView hipotesisList={dataset?.hipotesisFuturos || []} />
+          )}
+          {vistaActiva === "atlas" && (
+            <iframe
+              src="/atlas-del-poder/index.html"
+              title="Explorar el Atlas del poder"
+              className="block h-[80dvh] min-h-[560px] w-full rounded-xl border border-borderSubtle bg-panel"
+            />
           )}
         </main>
       </div>

@@ -1,11 +1,13 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
-import { Globe, Calendar, FileText, Compass, Radio, Sun, Moon, Menu, X } from "lucide-react";
+import { Globe, Calendar, FileText, Compass, Radio, Sun, Moon, Menu, X, Network } from "lucide-react";
+
+export type RadarView = "presentes" | "hemeroteca" | "anuarios" | "futuros" | "atlas";
 
 interface HeaderProps {
-  vistaActiva: "presentes" | "hemeroteca" | "anuarios" | "futuros";
-  setVistaActiva: (vista: "presentes" | "hemeroteca" | "anuarios" | "futuros") => void;
+  vistaActiva: RadarView;
+  setVistaActiva: (vista: RadarView) => void;
   totalSemanas: number;
 }
 
@@ -67,9 +69,16 @@ export function Header({ vistaActiva, setVistaActiva, totalSemanas }: HeaderProp
       icon: Compass,
       badge: "22 tesis",
     },
+    {
+      id: "atlas",
+      label: "Atlas del poder",
+      desc: "Explora quién decide y cómo se relacionan las instituciones",
+      icon: Network,
+      badge: "Mapa",
+    },
   ] as const;
 
-  const seleccionarVista = (id: "presentes" | "hemeroteca" | "anuarios" | "futuros") => {
+  const seleccionarVista = (id: RadarView) => {
     setVistaActiva(id);
     setIsMobileMenuOpen(false);
   };
@@ -100,7 +109,7 @@ export function Header({ vistaActiva, setVistaActiva, totalSemanas }: HeaderProp
         {/* ================================================================
             CONTROLES DE ESCRITORIO (>= lg)
             ================================================================ */}
-        <div className="hidden lg:flex items-center gap-2">
+        <div className="hidden xl:flex items-center gap-2">
           <nav className="flex items-center gap-1 rounded-xl border border-borderSubtle bg-subtle p-1 shadow-sm">
             {tabs.map((t) => {
               const Icon = t.icon;
@@ -148,7 +157,7 @@ export function Header({ vistaActiva, setVistaActiva, totalSemanas }: HeaderProp
         {/* ================================================================
             CONTROLES MÓVILES (< lg): Toggle Diurno + Botón Hamburguesa
             ================================================================ */}
-        <div className="flex lg:hidden items-center gap-1.5">
+        <div className="flex xl:hidden items-center gap-1.5">
           {/* Toggle Diurno / Nocturno Móvil */}
           <button
             onClick={toggleTheme}
@@ -182,7 +191,7 @@ export function Header({ vistaActiva, setVistaActiva, totalSemanas }: HeaderProp
           PANEL DESPLEGABLE MÓVIL (MENÚ DE HAMBURGUESA)
           ================================================================ */}
       {isMobileMenuOpen && (
-        <div className="lg:hidden border-t border-borderSubtle bg-panel px-4 py-4 shadow-lg animate-in slide-in-from-top-2 duration-150">
+        <div className="xl:hidden border-t border-borderSubtle bg-panel px-4 py-4 shadow-lg animate-in slide-in-from-top-2 duration-150">
           <div className="space-y-2">
             <span className="text-[10px] font-mono tracking-widest text-muted uppercase font-bold px-1">
               // MÓDULOS DEL RADAR //
