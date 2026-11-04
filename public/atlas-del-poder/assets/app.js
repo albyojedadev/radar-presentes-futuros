@@ -30,9 +30,7 @@
   function currentNodes() {
     const route=A.routes.find(r=>r.id===state.route);
     if(route)return A.nodes.filter(n=>route.nodes.includes(n.id)||route.context?.includes(n.id));
-    if(state.topic==='all'||state.topic==='money')return A.nodes;
-    const endpoints=new Set(eligibleEdges().filter(e=>state.type==='all'||e.type===state.type).flatMap(e=>[e.from,e.to]));
-    return A.nodes.filter(n=>endpoints.has(n.id));
+    return A.nodes;
   }
   function currentEdges(nodes) {
     const ids=new Set(nodes.map(n=>n.id));
@@ -65,7 +63,7 @@
     const nodes=currentNodes(), edges=currentEdges(nodes), meta=topics[state.topic], route=A.routes.find(r=>r.id===state.route);
     $('map-kicker').textContent=route?'RECORRIDO CIUDADANO':meta[0];
     $('map-title').textContent=route?route.title:meta[1];
-    $('map-description').textContent=meta[2];
+    $('map-description').textContent=meta[2]+(!route&&state.topic!=='all'&&state.topic!=='money'?' Se muestran todos los actores. Las flechas indican las conexiones registradas para el filtro activo.':'');
     $('route-banner').hidden=!route;
     $('route-banner').innerHTML=route?`<strong>${route.nodes.map(id=>esc(byId.get(id).short)).join(' → ')}</strong><p>${esc(route.text)}</p>${route.sources?sourceLinks(route.sources):''}`:'';
     const moneyRoutes=state.topic==='money'||route?.topic==='money'||route?.id==='taxes';
