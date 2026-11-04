@@ -283,34 +283,25 @@ export function HemerotecaView({ semanasPorAno }: HemerotecaViewProps) {
         {/* ====================================================================
             1. SÍNTESIS DE SEGUNDO ORDEN (ANÁLISIS ESTRATÉGICO SUPERIOR)
             ==================================================================== */}
-        {(() => {
-          const analisis = semanaObj?.analisis || {
-            fase: "Consolidación de agenda",
-            ejeDominante: "Cobertura centrada en la superficie informativa y controversias de corto plazo.",
-            puntoCiego: "Durante esta semana, el debate doméstico eclipsó por completo los avances normativos y las transformaciones de fondo.",
-            evaluacion: "La atención pública quedó absorbida por el ciclo político inmediato.",
-            divergencia: "Mientras las cabeceras occidentales priorizaron controversias electorales, el eje oriental centró su cobertura en cadenas de valor y soberanía tecnológica.",
-            tesis: "La divergencia de encuadres evidencia la desconexión entre la esfera mediática y las corrientes estructurales."
-          };
-
-          return (
-            <div className="rounded-xl border border-borderSubtle bg-subtle p-3.5 sm:p-5 space-y-4">
-              <div className="flex flex-wrap items-center justify-between gap-2 border-b border-borderSubtle pb-2.5">
-                <div className="flex items-center gap-2">
-                  <Compass className="h-4 w-4 text-alby-green" />
-                  <h3 className="text-sm font-bold text-title">
-                    Síntesis de Segundo Orden ({semanaSeleccionada})
-                  </h3>
-                </div>
-                {analisis.ejeDominante && (
-                  <span className="text-[11px] font-mono text-muted">
-                    Eje dominante: <span className="text-body font-medium">{analisis.ejeDominante}</span>
-                  </span>
-                )}
+        {semanaObj?.analisis && (semanaObj.analisis.puntoCiego || semanaObj.analisis.divergencia) ? (
+          <div className="rounded-xl border border-borderSubtle bg-subtle p-3.5 sm:p-5 space-y-4">
+            <div className="flex flex-wrap items-center justify-between gap-2 border-b border-borderSubtle pb-2.5">
+              <div className="flex items-center gap-2">
+                <Compass className="h-4 w-4 text-alby-green" />
+                <h3 className="text-sm font-bold text-title">
+                  Síntesis de Segundo Orden ({semanaSeleccionada})
+                </h3>
               </div>
+              {semanaObj.analisis.ejeDominante && (
+                <span className="text-[11px] font-mono text-muted">
+                  Eje dominante: <span className="text-body font-medium">{semanaObj.analisis.ejeDominante}</span>
+                </span>
+              )}
+            </div>
 
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
-                {/* Bloque Punto Ciego */}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+              {/* Bloque Punto Ciego */}
+              {semanaObj.analisis.puntoCiego && (
                 <div className="rounded-lg border border-borderSubtle bg-panel/70 p-4 space-y-2">
                   <div className="flex items-center gap-1.5">
                     <span className="flex h-2 w-2 rounded-full bg-alby-terr" />
@@ -319,16 +310,18 @@ export function HemerotecaView({ semanasPorAno }: HemerotecaViewProps) {
                     </span>
                   </div>
                   <p className="text-xs font-semibold text-title leading-relaxed">
-                    {analisis.puntoCiego}
+                    {semanaObj.analisis.puntoCiego}
                   </p>
-                  {analisis.evaluacion && (
+                  {semanaObj.analisis.evaluacion && (
                     <p className="text-[11px] text-muted leading-relaxed pt-1 border-t border-borderSubtle/60">
-                      <strong className="text-body font-mono">Evaluación:</strong> {analisis.evaluacion}
+                      <strong className="text-body font-mono">Evaluación:</strong> {semanaObj.analisis.evaluacion}
                     </p>
                   )}
                 </div>
+              )}
 
-                {/* Bloque Divergencia de Encuadre */}
+              {/* Bloque Divergencia de Encuadre */}
+              {semanaObj.analisis.divergencia && (
                 <div className="rounded-lg border border-borderSubtle bg-panel/70 p-4 space-y-2">
                   <div className="flex items-center gap-1.5">
                     <span className="flex h-2 w-2 rounded-full bg-alby-green" />
@@ -337,18 +330,18 @@ export function HemerotecaView({ semanasPorAno }: HemerotecaViewProps) {
                     </span>
                   </div>
                   <p className="text-xs font-semibold text-title leading-relaxed">
-                    {analisis.divergencia}
+                    {semanaObj.analisis.divergencia}
                   </p>
-                  {analisis.tesis && (
+                  {semanaObj.analisis.tesis && (
                     <p className="text-[11px] text-muted leading-relaxed pt-1 border-t border-borderSubtle/60">
-                      <strong className="text-body font-mono">Tesis Emergente:</strong> {analisis.tesis}
+                      <strong className="text-body font-mono">Tesis Emergente:</strong> {semanaObj.analisis.tesis}
                     </p>
                   )}
                 </div>
-              </div>
+              )}
             </div>
-          );
-        })()}
+          </div>
+        ) : null}
 
         {/* ====================================================================
             2. NUBE DE TAGS SEMANAL: SINCRONIZACIÓN GEOGRÁFICA (DE COMÚN A INDIVIDUAL)

@@ -298,8 +298,8 @@ def generar_cronica_resto(year, week):
     return None
 
 def OBTENER_DATOS_SEMANA(year, week):
-    if year == 2020:
-        for rango, fase, es, fr, de, uk, eu, us, latam, africa, china, ciego, div in CRONICAS[2020]:
+    if year in CRONICAS:
+        for rango, fase, es, fr, de, uk, eu, us, latam, africa, china, ciego, div in CRONICAS[year]:
             if rango[0] <= week <= rango[1]:
                 return {
                     "fase": fase, "es": es, "fr": fr, "de": de, "uk": uk, "eu": eu,

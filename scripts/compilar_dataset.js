@@ -123,24 +123,16 @@ function parsearInformeSemana(filePath) {
     }
   }
 
-  // Fallbacks consistentes si no hubiera etiquetas específicas
-  if (!puntoCiego && content.includes('Puntos Ciegos')) {
-    puntoCiego = "Durante esta semana, la cobertura priorizó la agenda institucional doméstica frente a transformaciones energéticas e industriales globales.";
-  }
-  if (!divergencia && content.includes('Divergencia')) {
-    divergencia = "Mientras las cabeceras occidentales se enfocaron en controversias parlamentarias, el eje oriental priorizó cadenas de suministro y autonomía tecnológica.";
-  }
-
   return {
     titulares: bloques,
     periodo,
     analisis: {
-      fase: fase || "Consolidación de agenda",
-      ejeDominante: ejeDominante || "Cobertura centrada en la superficie informativa y controversias de corto plazo.",
-      puntoCiego: puntoCiego || "Sin puntos ciegos críticos registrados.",
-      evaluacion: evaluacion || "La atención pública quedó absorbida por el ciclo político inmediato.",
-      divergencia: divergencia || "Fricción de encuadres entre bloques geopolíticos.",
-      tesis: tesis || "La divergencia de encuadres evidencia la desconexión entre la esfera mediática y las corrientes estructurales."
+      fase: fase || "",
+      ejeDominante: ejeDominante || "",
+      puntoCiego: puntoCiego || "",
+      evaluacion: evaluacion || "",
+      divergencia: divergencia || "",
+      tesis: tesis || ""
     }
   };
 }

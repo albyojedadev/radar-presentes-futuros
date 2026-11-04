@@ -38,7 +38,7 @@ TOTAL_SEMANAS_POR_ANO = {
     2023: 52,
     2024: 52,
     2025: 52,
-    2026: 44
+    2026: 43  # W44 y W45 se generan a partir de las fuentes reales en vivo
 }
 
 def formatear_informe(year, week):

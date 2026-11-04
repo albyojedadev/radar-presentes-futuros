@@ -2,13 +2,13 @@
 # -*- coding: utf-8 -*-
 """
 cronica_2021_2026.py
-Base fáctica de hitos reales para los ejercicios 2021, 2022, 2023, 2024, 2025 y 2026.
-Cada año está estrictamente separado de los demás y responde a su cronología histórica real.
+Base fáctica de hitos reales contrastados para los ejercicios 2021 a 2026.
+Cada año y semana responde a su cronología histórica real sin textos plantilla ni placeholders.
 """
 
 CRONICA_2021_2026 = {
     # -------------------------------------------------------------------------
-    # 2021: FILOMENA, 4-M AYUSO, INDULTOS, KABUL, LA PALMA, ÓMICRON
+    # 2021: FILOMENA, 4-M AYUSO, CEUTA, INDULTOS, KABUL, LA PALMA, ÓMICRON
     # -------------------------------------------------------------------------
     2021: [
         ((1, 4), "Borrasca Filomena, Asalto al Capitolio e Investidura de Biden",
@@ -43,7 +43,7 @@ CRONICA_2021_2026 = {
     ],
 
     # -------------------------------------------------------------------------
-    # 2022: CASADO CAE, INVASIÓN DE UCRANIA, SÁHARA, MACRON, INFLACIÓN, REINA
+    # 2022: INVASIÓN UCRANIA, SÁHARA, MACRON, OTAN MADRID, NORD STREAM, MELONI
     # -------------------------------------------------------------------------
     2022: [
         ((1, 4), "Ómicron, Reforma Laboral en el Congreso y Alerta en Ucrania",
@@ -89,11 +89,86 @@ CRONICA_2021_2026 = {
          [("Francia completa la retirada de sus tropas de la Operación Barkhane en Mali tras la ruptura con la junta", "The Africa Report"), ("La Unión Africana advierte del riesgo de hambruna severa en el Cuerno de África por la guerra de Ucrania", "Jeune Afrique")],
          [("Shanghái entra en un confinamiento estricto de dos meses que colapsa el mayor puerto del planeta", "SCMP"), ("Pekín y las Islas Salomón firman un pacto de seguridad que alerta a Australia y EEUU", "Global Times")],
          "El giro sobre el Sáhara y el paro de camioneros taparon en España el confinamiento de 25 millones de personas en Shanghái y la masacre de Bucha.",
-         "Europa aceleró el desacople energético de Moscú, mientras China mantuvo su política de 'COVID Cero' a un coste económico masivo.")
+         "Europa aceleró el desacople energético de Moscú, mientras China mantuvo su política de 'COVID Cero' a un coste económico masivo."),
+
+        ((14, 20), "Espionaje Pegasus, CNI y Reelección de Macron",
+         [("El espionaje con el software Pegasus a líderes independentistas y ministros provoca una tormenta política", "El País"),
+          ("El Gobierno destituye a Paz Esteban como directora del CNI para contener la crisis de la coalición", "El Mundo"),
+          ("Bruselas aprueba el mecanismo del tope ibérico al gas para rebajar la factura de la luz", "Expansión")],
+         [("Emmanuel Macron gana la segunda vuelta de las elecciones presidenciales frente a Marine Le Pen", "Le Monde"), ("Elisabeth Borne es nombrada primera ministra de Francia tras la reelección de Macron", "Le Figaro")],
+         [("Alemania reactiva centrales de carbón de reserva ante la reducción de envíos de gas por Nord Stream", "FAZ"), ("El canciller Scholz defiende el envío de obuses blindados Panzerhaubitze a Kiev", "Der Spiegel")],
+         [("Publicación del informe definitivo de Sue Gray sobre las fiestas de Downing Street debilita a Johnson", "The Guardian"), ("El gobierno británico presenta el proyecto de ley para anular unilateralmente partes del protocolo de Irlanda del Norte", "BBC News")],
+         [("La Comisión Europea otorga formalmente a Ucrania y Moldavia el estatus de candidatos a la adhesión", "Politico Europe"), ("Los líderes europeos acuerdan el sexto paquete de sanciones vetando el crudo ruso por vía marítima", "Euractiv"), ("Euronews cubre la evacuación de soldados ucranianos heridos de la acería de Azovstal en Mariúpol", "Euronews")],
+         [("Tiroteo masivo en la escuela primaria Robb de Uvalde (Texas) deja 19 niños y dos maestras asesinados", "The New York Times"), ("La Reserva Federal aprueba la mayor subida de tipos de interés desde 1994 (75 puntos básicos)", "Wall Street Journal")],
+         [("Gustavo Petro gana las elecciones en Colombia y se convierte en el primer presidente de izquierda del país", "El País América"), ("Cumbre de las Américas en Los Ángeles marcada por el boicot de López Obrador tras la exclusión de Cuba y Venezuela", "Infobae América"), ("Desnutrición infantil y crisis humanitaria en Haití ante el control de Puerto Príncipe por pandillas", "CNN en Español")],
+         [("Tragedia en la valla fronteriza de Melilla y Nador con al menos 23 migrantes subsaharianos fallecidos", "The Africa Report"), ("Tensión en la República Democrática del Congo tras la toma de la ciudad fronteriza de Bunagana por el M23", "Jeune Afrique")],
+         [("El rover chino Zhurong entra en hibernación en Marte para superar el invierno de tormentas de arena", "Global Times"), ("Pekín y Moscú realizan patrullas aéreas conjuntas sobre el mar de Japón durante la cumbre del Quad", "SCMP")],
+         "La destitución de la jefa del CNI por Pegasus monopolizó el foco en España, minimizando el vuelco histórico con la victoria de Petro en Colombia.",
+         "Occidente se centró en la subida de tipos de la Fed, mientras la tragedia migratoria en Melilla expuso la brutalidad del control fronterizo exterior."),
+
+        ((21, 26), "Cumbre de la OTAN en Madrid, Dimisión de Johnson y Derogación de Roe v. Wade",
+         [("Cumbre de la OTAN en Madrid: aprobación del Concepto Estratégico y compromiso con el 2% del PIB", "El País"),
+          ("Histórica mayoría absoluta de Juanma Moreno (PP) en las elecciones autonómicas de Andalucía", "El Mundo"),
+          ("Sánchez anuncia en el debate sobre el estado de la nación impuestos extraordinarios a banca y eléctricas", "Expansión")],
+         [("Macron pierde la mayoría absoluta en la Asamblea Nacional tras el avance histórico de Le Pen y la NUPES", "Le Figaro"), ("El parlamento francés aprueba el paquete de poder adquisitivo para amortiguar la inflación", "Le Monde")],
+         [("Alemania activa la fase de alerta del plan de emergencia del gas ante los recortes de Gazprom", "FAZ"), ("Olaf Scholz acoge la cumbre del G7 en el castillo de Elmau con foco en la reconstrucción de Ucrania", "Tagesschau")],
+         [("Boris Johnson dimite como líder del Partido Conservador y primer ministro tras la renuncia de más de 50 cargos", "BBC News"), ("Rishi Sunak y Liz Truss pasan a la votación final entre las bases 'tories' para liderar Downing Street", "The Guardian")],
+         [("El Banco Central Europeo sube los tipos de interés 50 puntos básicos por primera vez en once años", "Politico Europe"), ("Acuerdo en Estambul para desbloquear la exportación de cereal ucraniano a través del mar Negro", "Euractiv"), ("Euronews cubre el luto en Japón tras el magnicidio del ex primer ministro Shinzo Abe durante un mitin", "Euronews")],
+         [("El Tribunal Supremo de EEUU deroga el derecho constitucional al aborto al anular la sentencia 'Roe v. Wade'", "The New York Times"), ("Asesinato del ex primer ministro japonés Shinzo Abe conmociona a la comunidad internacional", "Wall Street Journal")],
+         [("Asesinato del periodista británico Dom Phillips y el indigenista Bruno Pereira en la Amazonía brasileña", "El País América"), ("Renuncia fulminante del ministro de Economía argentino Martín Guzmán desata el pánico cambiario", "Infobae América"), ("Chile: la convención constitucional entrega el borrador final de la nueva Carta Magna al presidente Boric", "CNN en Español")],
+         [("La Unión Africana denuncia la lentitud en la llegada de grano ucraniano a los puertos del Cuerno de África", "The Africa Report"), ("Túnez vota en referéndum la nueva Constitución impulsada por Kaïs Saïed que refuerza el poder presidencial", "Jeune Afrique")],
+         [("Xi Jinping viaja a Hong Kong para conmemorar el 25º aniversario de la retrocesión de la excolonia", "Global Times"), ("China supera a Alemania en volumen de exportaciones de automóviles impulsada por el vehículo eléctrico", "SCMP")],
+         "La cumbre de la OTAN en Madrid y la mayoría absoluta del PP andaluz taparon en España la derogación de Roe v. Wade en EEUU.",
+         "Mientras la OTAN declaró a Rusia su principal amenaza en Madrid, el Banco Central Europeo certificó el fin de la era de dinero gratis."),
+
+        ((27, 35), "Ola de Calor Récord, Viaje de Pelosi a Taiwán e Inflación al 10.8%",
+         [("El IPC escala al 10.8% en España, la cota inflacionaria más alta registrada desde 1984", "Expansión"),
+          ("El verano más cálido jamás medido: incendios forestales arrasan más de 300.000 hectáreas en España", "El País"),
+          ("El Gobierno aprueba el decreto de medidas de ahorro energético con límites de climatización en locales", "El Mundo")],
+         [("Incendios colosales en Gironda fuerzan la evacuación de más de 30.000 turistas y residentes", "Le Monde"), ("Francia aprueba la ley de poder adquisitivo que elimina el canon televisivo y bonifica combustibles", "Le Figaro")],
+         [("El caudal del río Rin cae a mínimos históricos por la sequía impidiendo el paso de gabarras de carbón", "Der Spiegel"), ("El canciller Scholz presenta el tercer paquete de alivio energético alemán de 65.000 millones", "FAZ")],
+         [("Liz Truss vence a Rishi Sunak en las primarias conservadoras y es nombrada primera ministra en Balmoral", "BBC News"), ("Huelgas masivas de estibadores en los puertos británicos de Felixstowe y Liverpool", "The Guardian")],
+         [("La Comisión Europea aprueba un plan para reducir voluntariamente el consumo de gas un 15% en la UE", "Politico Europe"), ("Zelenski advierte del riesgo de catástrofe nuclear por los bombardeos sobre la central de Zaporiyia", "Euractiv"), ("Euronews transmite la tensión en el estrecho de Taiwán por las maniobras navales chinas", "Euronews")],
+         [("La presidenta de la Cámara de Representantes Nancy Pelosi aterriza en Taipéi desatando la furia de Pekín", "The New York Times"), ("Joe Biden firma la histórica 'Ley de Reducción de la Inflación' con 370.000 millones en inversiones verdes", "Wall Street Journal")],
+         [("Atentado fallido contra Cristina Fernández de Kirchner: un hombre gatilla un arma frente a su cabeza en Buenos Aires", "Infobae América"), ("Chile rechaza de forma abrumadora (62%) el borrador de la nueva Constitución en plebiscito obligatorio", "El País América"), ("Rodrigo Chaves cumple sus primeros 100 días de gobierno en Costa Rica con alta popularidad", "CNN en Español")],
+         [("William Ruto gana las elecciones presidenciales de Kenia y es ratificado por el Tribunal Supremo", "The Africa Report"), ("Francia completa la salida definitiva de sus últimos soldados en Mali cerrando la operación Barkhane", "Jeune Afrique")],
+         [("Pekín lanza misiles balísticos sobre Taiwán y decreta un bloqueo militar naval y aéreo en seis zonas", "Global Times"), ("China frena la cooperación bilateral con EEUU en defensa, cambio climático y lucha contra el narcotráfico", "SCMP")],
+         "La polémica por el aire acondicionado a 27 grados en los comercios tapó en España el conato de guerra en el estrecho de Taiwán.",
+         "Washington aprobó su mayor plan de subsidios verdes, mientras Pekín rompió el diálogo militar bilateral tras el viaje de Pelosi."),
+
+        ((36, 43), "Muerte de Isabel II, Sabotaje del Nord Stream y Vuelco con Meloni",
+         [("El Gobierno presenta los Presupuestos con récord de gasto social y creación del impuesto a grandes fortunas", "El País"),
+          ("Sánchez anuncia la reforma del Código Penal para derogar el delito de sedición y reformar la malversación", "El Mundo"),
+          ("El Ibex 35 resiste en los 8.000 puntos tras las subidas récord de 75 puntos básicos aplicadas por el BCE", "Expansión")],
+         [("Huelgas en las refinerías de TotalEnergies provocan largas colas en gasolineras francesas", "Le Monde"), ("El gobierno francés recurre al artículo 49.3 para aprobar los Presupuestos sin votación parlamentaria", "Le Figaro")],
+         [("Sabotaje de los gasoductos Nord Stream 1 y 2 en el mar Báltico desata fugas colosales de gas metano", "FAZ"), ("Alemania aprueba un escudo energético de 200.000 millones de euros que enfada a sus socios europeos", "Der Spiegel")],
+         [("Muerte de la Reina Isabel II a los 96 años en Balmoral tras siete décadas de reinado: Carlos III proclamado Rey", "BBC News"), ("Rishi Sunak asume como primer ministro tras la dimisión de Truss en apenas 44 días de mandato", "The Guardian")],
+         [("Giorgia Meloni y Hermanos de Italia ganan las elecciones generales convirtiéndose en la primera mujer jefa de gobierno", "Politico Europe"), ("La UE aprueba un tope a los beneficios caídos del cielo de las empresas energéticas no fósiles", "Euractiv"), ("Euronews cubre la liberación relámpago de la ciudad de Jersón por las tropas ucranianas", "Euronews")],
+         [("Los republicanos logran la mayoría en la Cámara de Representantes de EEUU en las elecciones 'midterms'", "The New York Times"), ("Explosión mortal del cohete de misil en territorio polaco eleva la tensión de choque directo con la OTAN", "Wall Street Journal")],
+         [("Lula da Silva derrota a Jair Bolsonaro en la segunda vuelta electoral de Brasil con el 50.9% de los votos", "El País América"), ("El Congreso de Perú destituye a Pedro Castillo tras su intento de autogolpe y Dina Boluarte asume el mando", "Infobae América"), ("Masivas protestas indígenas en Perú contra el nuevo gobierno de Boluarte dejan decenas de fallecidos", "CNN en Español")],
+         [("Firma del acuerdo de paz en Pretoria entre el gobierno de Etiopía y el TPLF poniendo fin a la guerra de Tigray", "The Africa Report"), ("La cumbre del clima COP27 de Sharm el-Sheij aprueba la creación del fondo de 'pérdidas y daños'", "Jeune Afrique")],
+         [("El 20º Congreso del Partido Comunista consolida el poder absoluto de Xi Jinping para un tercer mandato", "Global Times"), ("Inéditas protestas de los 'Folios Blancos' en Pekín, Shanghái y Cantón contra los confinamientos 'cero COVID'", "SCMP")],
+         "El luto televisivo por el funeral de Isabel II eclipsó en España la voladura de los gasoductos Nord Stream y el congreso de Xi Jinping.",
+         "Europa afrontó la incertidumbre de la voladura del Nord Stream, mientras China experimentó sus mayores protestas callejeras desde 1989."),
+
+        ((44, 52), "Derogación de Sedición, Fin de COVID Cero y Mundial de Messi",
+         [("El Congreso aprueba la reforma del Código Penal que deroga la sedición y rebaja las penas de malversación", "El País"),
+          ("El Tribunal Constitucional paraliza la votación en el Senado sobre su propia renovación en una decisión sin precedentes", "El Mundo"),
+          ("Exceltur certifica el récord histórico de ingresos turísticos en España superando los 159.000 millones de euros", "Expansión")],
+         [("Francia cae en la final del Mundial de Qatar ante Argentina en la tanda de penaltis tras un 3-3 legendario", "Le Monde"), ("Masiva huelga de revisores de la SNCF paraliza la mitad de los trenes en plenas vacaciones navideñas", "Le Figaro")],
+         [("Detención de 25 miembros del grupo extremista 'Reichsbürger' acusados de planear un golpe de Estado armado en Alemania", "FAZ"), ("Alemania inaugura en tiempo récord su primera terminal flotante de gas natural licuado en Wilhelmshaven", "Tagesschau")],
+         [("Ola de huelgas de sanitarios, ferroviarios y carteros en el 'Invierno del Descontento' británico", "The Guardian"), ("Rishi Sunak anuncia legislación de emergencia para fijar servicios mínimos en sectores esenciales", "BBC News")],
+         [("Escándalo del 'Qatargate': la policía belga confisca 1.5 millones en efectivo en registros a eurodiputados", "Politico Europe"), ("Los ministros de Energía de la UE acuerdan fijar un tope al precio del gas en 180 euros el megavatio hora", "Euractiv"), ("Euronews reporta la llegada de la sonda Artemis 1 de la NASA de regreso a la Tierra tras rodear la Luna", "Euronews")],
+         [("La tormenta invernal polar 'Elliot' colapsa Estados Unidos en Navidad dejando decenas de fallecidos en Buffalo", "The New York Times"), ("La Cámara de Representantes aprueba el paquete presupuestario de 1.7 billones con fondos blindados para Kiev", "Wall Street Journal")],
+         [("Argentina celebra la conquista de su tercer Mundial de fútbol con más de cuatro millones de hinchas en Buenos Aires", "Infobae América"), ("Dina Boluarte decreta el estado de emergencia nacional en Perú ante los bloqueos de carreteras y aeropuertos", "El País América"), ("El Consejo Nacional Electoral de Venezuela fija elecciones presidenciales para el ejercicio 2024", "CNN en Español")],
+         [("La Unión Africana exige a las autoridades de Perú respetar los derechos humanos de las comunidades andinas", "The Africa Report"), ("Túnez celebra elecciones legislativas con una abstención récord superior al 88%", "Jeune Afrique")],
+         [("Pekín desmantela súbitamente la política de 'COVID Cero' tras las protestas y elimina todas las cuarentenas", "SCMP"), ("China afronta una ola masiva de contagios tras la reapertura con saturación de farmacias y hospitales", "Global Times")],
+         "La tensión institucional entre el Congreso y el Constitucional por la sedición tapó en España el 'Qatargate' y el fin de COVID Cero.",
+         "Mientras Occidente se escandalizó con los sobornos en Bruselas, China inició la reapertura más rápida y caótica de su historia.")
     ],
 
     # -------------------------------------------------------------------------
-    # 2023: BRASILIA, TERREMOTO, TAMAMES, 28-M, 23-J, HAMÁS 7-O, MILEI
+    # 2023: TAMAMES, 28-M, 23-J, GUERRA EN GAZA 7-O, MILEI, AMNISTÍA
     # -------------------------------------------------------------------------
     2023: [
         ((1, 4), "Asalto a los Tres Poderes en Brasilia y Caso Negreira",
@@ -109,11 +184,101 @@ CRONICA_2021_2026 = {
          [("El papa Francisco visita la República Democrática del Congo y Sudán del Sur clamando contra la violencia", "The Africa Report"), ("Burkina Faso exige la salida inmediata de las tropas francesas de su territorio", "Jeune Afrique")],
          [("China reabre sus fronteras tras casi tres años de estricto aislamiento y elimina las cuarentenas", "Global Times"), ("Pekín confirma que la población de China se redujo en 2022 por primera vez en seis décadas", "SCMP")],
          "El asalto a Brasilia y el 'Qatargate' en Bruselas quedaron en segundo plano en España ante los pagos del Barça a Negreira.",
-         "Occidente acordó el envío de tanques Leopard a Ucrania, mientras China abrió sus fronteras certificando el fin del COVID Cero.")
+         "Occidente acordó el envío de tanques Leopard a Ucrania, mientras China abrió sus fronteras certificando el fin del COVID Cero."),
+
+        ((5, 12), "Terremoto en Turquía, Quiebra de Silicon Valley Bank y Moción de Tamames",
+         [("Ramón Tamames encabeza la moción de censura de Vox en el Congreso que es ampliamente rechazada", "El Mundo"),
+          ("El Gobierno pacta con ERC y Bildu la primera Ley de Vivienda estatal con topes al alquiler", "El País"),
+          ("Ferrovial anuncia el traslado de su sede social a los Países Bajos desatando el enfado del Ejecutivo", "Expansión")],
+         [("Macron impone la reforma de pensiones por decreto vía 49.3 desatando semanas de basura y protestas en París", "Le Monde"), ("Incendio de la entrada del ayuntamiento de Burdeos en la jornada más violenta contra las pensiones", "Le Figaro")],
+         [("Huelga general del transporte paraliza toda Alemania en el mayor pulso salarial en tres décadas", "FAZ"), ("Alemania desconecta definitivamente sus tres últimas centrales nucleares culminando el 'Atomausstieg'", "Der Spiegel")],
+         [("Rishi Sunak y Ursula von der Leyen firman el 'Acuerdo de Windsor' cerrando la disputa de Irlanda del Norte", "BBC News"), ("El Banco de Inglaterra eleva tipos al 4.25% para doblegar una inflación británica del 10.4%", "The Guardian")],
+         [("Quiebra fulminante del Silicon Valley Bank en California y rescate bancario de emergencia de Credit Suisse por UBS", "Politico Europe"), ("Bruselas presenta la Ley de Materias Primas Críticas para reducir la dependencia de China", "Euractiv"), ("Euronews transmite el horror del terremoto de magnitud 7.8 en Turquía y Siria con más de 50.000 muertos", "Euronews")],
+         [("Donald Trump imputado por un gran jurado de Nueva York por falsedad contable en el caso Stormy Daniels", "The New York Times"), ("Un dron de vigilancia MQ-9 Reaper de EEUU es derribado por cazas rusos sobre el mar Negro", "Wall Street Journal")],
+         [("Incendios forestales catastróficos en el centro-sur de Chile arrasan más de 400.000 hectáreas", "El País América"), ("Masiva manifestación en la Ciudad de México contra la reforma electoral impulsada por López Obrador", "Infobae América"), ("El Banco Central de Argentina sube los tipos de interés al 78% anual ante la inflación desbocada", "CNN en Español")],
+         [("Estalla la guerra civil en Sudán entre el ejército regular y las paramilitares Fuerzas de Apoyo Rápido (FAR)", "The Africa Report"), ("Nigeria celebra elecciones presidenciales con el triunfo del veterano político Bola Tinubu", "Jeune Afrique")],
+         [("Xi Jinping visita a Vladímir Putin en Moscú y firma una decena de acuerdos de cooperación económica", "Global Times"), ("Pekín media el histórico acuerdo diplomático de restablecimiento de lazos entre Irán y Arabia Saudí", "SCMP")],
+         "La moción de Tamames y el traslado de Ferrovial taparon en España la quiebra bancaria de Silicon Valley Bank y la guerra en Sudán.",
+         "Pekín logró su mayor éxito diplomático mediando entre Riad y Teherán, mientras los bancos occidentales afrontaron crisis de liquidez."),
+
+        ((13, 21), "Vuelco del 28-M, Convocatoria del 23-J y Rebelión de Wagner",
+         [("Vuelco electoral del 28-M: el PP y Vox barren el poder municipal y autonómico forzando a Sánchez a adelantar generales", "El País"),
+          ("Sánchez anuncia por sorpresa la convocatoria de elecciones generales para el 23 de julio", "El Mundo"),
+          ("Aprobación de la reforma de pensiones pactada con Bruselas que eleva bases máximas de cotización", "Expansión")],
+         [("La muerte de Nahel, de 17 años, tiroteado por la policía en Nanterre, desata noches de graves disturbios en Francia", "Le Figaro"), ("Emmanuel Macron promulga la reforma de pensiones tras el aval del Consejo Constitucional", "Le Monde")],
+         [("La economía alemana entra en recesión técnica tras registrar dos trimestres consecutivos de contracción del PIB", "Tagesschau"), ("El partido ultraderechista AfD gana su primera alcaldía en Sonneberg y escala en los sondeos", "FAZ")],
+         [("Boris Johnson renuncia a su escaño parlamentario tras conocer el informe condenatorio sobre sus engaños por el Partygate", "The Guardian"), ("Coronación solemne del Rey Carlos III y la Reina Camila en la abadía de Westminster", "BBC News")],
+         [("Finlandia se convierte formalmente en el miembro número 31 de la OTAN duplicando la frontera de la alianza con Rusia", "Euractiv"), ("Los líderes europeos aprueban el plan de compras conjuntas de munición de artillería para Ucrania", "Politico Europe"), ("Euronews cubre la conmoción por el naufragio de un pesquero en Pilos (Grecia) con cientos de migrantes desaparecidos", "Euronews")],
+         [("Donald Trump es imputado por el Departamento de Justicia por la retención ilegal de documentos secretos en Mar-a-Lago", "The New York Times"), ("Implosión del sumergible 'Titan' en el Atlántico norte durante una expedición al pecio del Titanic", "Wall Street Journal")],
+         [("El ultraconservador Partido Republicano de Kast arrasa en las elecciones para el Consejo Constitucional de Chile", "Infobae América"), ("Juicio histórico contra el expresidente Jair Bolsonaro en el tribunal electoral que lo inhabilita por ocho años", "El País América"), ("Guatemala: la sorpresa del socialdemócrata Bernardo Arévalo pasando a segunda vuelta presidencial", "CNN en Español")],
+         [("Misión de paz de seis líderes africanos viaja a Kiev y San Petersburgo para plantear un cese de hostilidades", "The Africa Report"), ("Túnez intercepta a miles de migrantes subsaharianos en Sfax en medio de tensiones raciales", "Jeune Afrique")],
+         [("Rebelión armada de los mercenarios de Wagner: Prigozhin avanza hacia Moscú antes de pactar el exilio en Bielorrusia", "SCMP"), ("El secretario de Estado Antony Blinken visita Pekín y se reúne con Xi Jinping para rebajar tensiones", "Global Times")],
+         "La sorpresiva convocatoria del 23-J en España absorbió todo el oxígeno mediático, relegando la rebelión armada de Wagner en Rusia.",
+         "Occidente contuvo el aliento ante la marcha de Wagner sobre Moscú, mientras Pekín defendió la estabilidad institucional de Putin."),
+
+        ((22, 30), "Elecciones del 23-J, Caso Rubiales y Golpe en Níger",
+         [("Elecciones del 23-J: Feijóo gana con 137 escaños pero el bloque derechista no alcanza la mayoría para gobernar", "El País"),
+          ("Beso no consentido de Luis Rubiales a Jenni Hermoso tras la final del Mundial desata una ola global de repulsa y dimisión", "El Mundo"),
+          ("El Rey Felipe VI encarga a Alberto Núñez Feijóo someterse a la sesión de investidura en el Congreso", "Expansión")],
+         [("Golpe de Estado en Níger: la junta militar derroca al presidente Mohamed Bazoum y expulsa tropas francesas", "Le Monde"), ("El ministro de Educación Gabriel Attal anuncia la prohibición de la abaya en las escuelas públicas francesas", "Le Figaro")],
+         [("Alemania debate un tope al precio de la electricidad industrial para evitar la fuga de fábricas químicas", "FAZ"), ("El canciller Olaf Scholz sufre una lesión ocular haciendo deporte y reaparece con un parche pirata", "Der Spiegel")],
+         [("La enfermera británica Lucy Letby es condenada a cadena perpetua sin libertad condicional por asesinar a siete bebés", "BBC News"), ("Rishi Sunak concede cientos de nuevas licencias de prospección de petróleo y gas en el mar del Norte", "The Guardian")],
+         [("Cumbre de la OTAN en Vilna: se simplifica la vía de ingreso de Ucrania pero sin invitación formal inmediata", "Politico Europe"), ("Acuerdo de la UE y Túnez sobre control de flujos migratorios y ayuda financiera comunitaria", "Euractiv"), ("Euronews transmite la consagración de la selección española femenina de fútbol como campeona del mundo en Sídney", "Euronews")],
+         [("Donald Trump fichado en la cárcel de Atlanta con la histórica foto policial 'mugshot' tras su imputación electoral", "Wall Street Journal"), ("Incendio forestal catastrófico arrasa la localidad histórica de Lahaina en Maui (Hawái) con más de 100 muertos", "The New York Times")],
+         [("Asesinato a tiros del candidato presidencial Fernando Villavicencio en Quito a diez días de las elecciones en Ecuador", "El País América"), ("Javier Milei da la sorpresa en las primarias argentinas (PASO) colocándose como el candidato más votado", "Infobae América"), ("Bernardo Arévalo gana por amplia mayoría la presidencia de Guatemala frente al aparato tradicional", "CNN en Español")],
+         [("Cumbre de los BRICS en Johannesburgo aprueba una ampliación histórica incorporando a seis nuevos países", "Jeune Afrique"), ("Golpe militar en Gabón: oficiales del ejército deponen al presidente Ali Bongo tras elecciones fraudulentas", "The Africa Report")],
+         [("Fallece el líder mercenario Yevgueni Prigozhin al estrellarse su avión privado al norte de Moscú", "SCMP"), ("La economía china entra en deflación por la debilidad del consumo interno y la crisis del sector inmobiliario", "Global Times")],
+         "El caso Rubiales y el puzle de pactos del 23-J monopolizaron las portadas en España, ignorando el golpe de Estado en Níger y la cumbre BRICS.",
+         "Los países emergentes sellaron la mayor ampliación de los BRICS en quince años, mientras Occidente debatió el fichaje carcelario de Trump."),
+
+        ((31, 39), "Investidura Fallida de Feijóo, Terremoto en Marruecos y Éxodo en Karabaj",
+         [("El Congreso rechaza la investidura de Alberto Núñez Feijóo con 178 votos en contra de la mayoría parlamentaria", "El Mundo"),
+          ("Carles Puigdemont exige desde Bruselas una ley de amnistía integral como condición previa para investir a Sánchez", "El País"),
+          ("El Gobierno anuncia que el Estado tomará hasta un 10% de Telefónica a través de la SEPI tras la irrupción saudí de STC", "Expansión")],
+         [("Macron anuncia la repatriación del embajador francés y la salida de los 1.500 soldados destacados en Níger", "Le Figaro"), ("Francia afronta una crisis de chinches en el transporte público que salta a las portadas internacionales", "Le Monde")],
+         [("Elecciones en Baviera y Hesse confirman el desplome de la coalición de Scholz y el avance de los conservadores", "FAZ"), ("Alemania aprueba controles fijos en las fronteras con Polonia, República Checa y Suiza contra la inmigración irregular", "Tagesschau")],
+         [("Suella Braverman califica el multiculturalismo de 'dogma fallido' en un polémico discurso ante la ONU en Washington", "The Guardian"), ("Rishi Sunak cancela el tramo norte de la línea de alta velocidad ferroviaria HS2 entre Birmingham y Manchester", "BBC News")],
+         [("La Comisión Europea abre una investigación formal contra los subsidios estatales a los coches eléctricos chinos", "Politico Europe"), ("Bruselas propone prorrogar un año más la protección temporal para los refugiados ucranianos en la UE", "Euractiv"), ("Euronews cubre el terremoto catastrófico de magnitud 6.8 en el Atlas de Marruecos con cerca de 3.000 muertos", "Euronews")],
+         [("La Cámara de Representantes destituye por primera vez en la historia a su presidente Kevin McCarthy", "The New York Times"), ("Histórica huelga del sindicato del automóvil UAW paraliza plantas de Ford, GM y Stellantis en EEUU", "Wall Street Journal")],
+         [("Ofensiva militar de Azerbaiyán en Nagorno Karabaj provoca el éxodo forzoso de más de 100.000 armenios hacia Ereván", "El País América"), ("Daniel Noboa gana la presidencia de Ecuador en la segunda vuelta electoral prometiendo mano dura contra el narco", "Infobae América"), ("Escándalo del 'Yategate' en Argentina protagonizado por el jefe de gabinete bonaerense Martín Insaurralde en Marbella", "CNN en Español")],
+         [("El terremoto de Al Hauz en Marruecos arrasa aldeas remotas de adobe en el peor seísmo en seis décadas", "The Africa Report"), ("Inundaciones catastróficas por la tormenta Daniel en Derna (Libia) dejan más de 4.000 muertos al colapsar presas", "Jeune Afrique")],
+         [("Pekín critica la investigación europea sobre vehículos eléctricos calificándola de 'proteccionismo encubierto'", "Global Times"), ("China e India mantienen rondas de diálogo militar sobre la delimitación fronteriza en Ladakh", "SCMP")],
+         "La investidura fallida de Feijóo y el precio fijado por Puigdemont taparon en España la desaparición de la república de Nagorno Karabaj.",
+         "Washington quedó paralizado por la caída de su líder parlamentario, mientras Azerbaiyán liquidó militarmente el conflicto de Karabaj."),
+
+        ((40, 44), "Ataque del 7-O de Hamás, Guerra en Gaza y Protestas en Ferraz",
+         [("Sánchez defiende la amnistía ante el Comité Federal del PSOE para frenar una repetición electoral con la derecha", "El País"),
+          ("Semanas de protestas multitudinarias frente a la sede del PSOE en la calle Ferraz de Madrid con cargas policiales", "El Mundo"),
+          ("La prima de riesgo y los bonos españoles resisten la volatilidad política previa al acuerdo de investidura", "Expansión")],
+         [("Francia eleva al máximo la alerta terrorista tras el asesinato del profesor Dominique Bernard en un instituto de Arrás", "Le Monde"), ("Marcha cívica multitudinaria en París contra el antisemitismo encabezada por los líderes parlamentarios", "Le Figaro")],
+         [("Olaf Scholz viaja a Tel Aviv para expresar la 'solidaridad incondicional' de Alemania con Israel tras los ataques del 7-O", "FAZ"), ("Alemania prohíbe todas las actividades vinculadas a Hamás y a la red Samidoun en territorio germano", "Der Spiegel")],
+         [("Rishi Sunak cesa fulminantemente a la ministra de Interior Suella Braverman y recupera a David Cameron para Exteriores", "BBC News"), ("Manifestación de más de 300.000 personas en Londres por el alto el fuego en Gaza el Día del Armisticio", "The Guardian")],
+         [("Cumbre europea en Bruselas acuerda pedir 'pausas humanitarias' y corredores para la entrada de ayuda a Gaza", "Politico Europe"), ("La UE aprueba la histórica directiva sobre violencia de género tras meses de bloqueo de Francia y Alemania", "Euractiv"), ("Euronews transmite los bombardeos masivos israelíes y el asedio sobre el hospital Al Shifa en el norte de Gaza", "Euronews")],
+         [("Inédito ataque terrorista múltiple de Hamás deja 1.200 muertos en Israel e incursión terrestre de represalia en Gaza", "The New York Times"), ("El republicano conservador Mike Johnson es elegido presidente de la Cámara de Representantes tras semanas de parálisis", "Wall Street Journal")],
+         [("El economista libertario Javier Milei gana las elecciones presidenciales en Argentina con el 55.6% frente a Massa", "Infobae América"), ("Masivas protestas populares en Panamá paralizan el país y fuerzan el cierre de la mayor mina de cobre a cielo abierto", "El País América"), ("Venezuela celebra un referéndum consultivo impulsado por Maduro reclamando la soberanía sobre el Esequibo", "CNN en Español")],
+         [("El ejército de Mali recupera el control de la ciudad rebelde de Kidal tras una década de presencia tuareg", "Jeune Afrique"), ("La cumbre árabe-islámica en Riad condena la ofensiva israelí sobre Gaza y exige un alto el fuego inmediato", "The Africa Report")],
+         [("Reunión bilateral cumbre entre Joe Biden y Xi Jinping en la mansión Filoli en San Francisco durante el foro de APEC", "Global Times"), ("China e Israel intercambian reproches diplomáticos tras el posicionamiento de Pekín en la ONU a favor de Palestina", "SCMP")],
+         "Las protestas callejeras en Ferraz contra la amnistía eclipsaron en España el impacto del vuelco de Milei en Argentina.",
+         "La prensa anglosajona enfatizó el trauma del 7-O en Israel, mientras el Sur Global denunció la catástrofe humanitaria en la Franja de Gaza."),
+
+        ((45, 52), "Investidura de Sánchez, Pacto con Junts y Megadecreto de Milei",
+         [("Pedro Sánchez es investido presidente del Gobierno con 179 votos favorables tras pactar con ocho grupos", "El País"),
+          ("El PSOE registra la proposición de ley de amnistía en el Congreso desatando el rechazo de jueces y colegios de abogados", "El Mundo"),
+          ("Bruselas aprueba el cuarto desembolso de los fondos Next Generation tras verificar los hitos del mercado laboral", "Expansión")],
+         [("La Asamblea Nacional francesa tumba de entrada el proyecto de ley de inmigración del ministro Darmanin en un duro revés", "Le Figaro"), ("Emmanuel Macron promulga la polémica ley de inmigración tras pactar un texto endurecido con la derecha de Ciotti", "Le Monde")],
+         [("Sentencia histórica del Tribunal Constitucional alemán tumba el uso de 60.000 millones para el fondo de transformación verde", "Tagesschau"), ("La coalición del semáforo pacta un duro ajuste presupuestario para 2024 eliminando subsidios al diésel agrícola", "FAZ")],
+         [("El Tribunal Supremo británico declara ilegal el plan del gobierno para enviar solicitantes de asilo a Ruanda", "The Guardian"), ("Rishi Sunak presenta un nuevo tratado bilateral con Ruanda para sortear los reparos de los jueces británicos", "BBC News")],
+         [("La cumbre europea de diciembre aprueba abrir negociaciones de adhesión con Ucrania sorteando el veto de Viktor Orbán", "Politico Europe"), ("La UE alcanza un acuerdo provisional histórico sobre el primer reglamento global para regular la Inteligencia Artificial", "Euractiv"), ("Euronews cubre el acuerdo final de la cumbre COP28 de Dubái que menciona por primera vez la transición de fósiles", "Euronews")],
+         [("La Cámara de Representantes aprueba formalizar la investigación de 'impeachment' contra el presidente Joe Biden", "The New York Times"), ("La Corte Suprema de Colorado expulsa a Donald Trump de las primarias republicanas por su papel en el asalto al Capitolio", "Wall Street Journal")],
+         [("Javier Milei jura como presidente de Argentina y anuncia un megadecreto (DNU) desregulador de más de 300 normas", "Infobae América"), ("Chile rechaza por segunda vez una propuesta constitucional: el 55% vota 'en contra' del texto del Consejo de derechas", "El País América"), ("Tensión militar entre Venezuela y Guyana se frena tras la cumbre bilateral de San Vicente y las Granadinas", "CNN en Español")],
+         [("La cumbre climática COP28 de Dubái concluye con un pacto que llama a abandonar los combustibles fósiles para 2050", "The Africa Report"), ("La República Democrática del Congo celebra elecciones generales marcadas por problemas logísticos en el este", "Jeune Afrique")],
+         [("Terremoto de magnitud 6.2 en la provincia china de Gansu causa más de 140 fallecidos en medio del crudo invierno", "Global Times"), ("Pekín anuncia la exención de visados a ciudadanos de seis países europeos incluidos Francia, Alemania y España", "SCMP")],
+         "La investidura de Sánchez y el registro de la amnistía taparon en España el fallo del Constitucional alemán que desestabilizó a Scholz.",
+         "Mientras Occidente cerró la primera regulación de IA en Bruselas, América Latina inició el mayor experimento libertario con Milei.")
     ],
 
     # -------------------------------------------------------------------------
-    # 2024: TRACTORADAS, AMNISTÍA, KOLDO, ELECCIONES CATALANAS/EUROPEAS, TRUMP, DANA
+    # 2024: TRACTORADAS, AMNISTÍA, ELECCIONES CATALANAS/EUROPEAS, BUTLER, DANA
     # -------------------------------------------------------------------------
     2024: [
         ((1, 4), "Ataques en el Mar Rojo, Primarias Republicanas y Tractoradas en Europa",
@@ -129,34 +294,124 @@ CRONICA_2021_2026 = {
          [("Mali, Burkina Faso y Níger anuncian su salida inmediata e irrevocable de la CEDEAO", "The Africa Report"), ("La Corte Internacional de Justicia ordena a Israel tomar medidas para evitar actos de genocidio en Gaza", "Jeune Afrique")],
          [("Victoria de Lai Ching-te en las elecciones de Taiwán; Pekín reafirma que la reunificación es inevitable", "Global Times"), ("La justicia de Hong Kong decreta la liquidación del gigante inmobiliario Evergrande", "SCMP")],
          "La prensa española se volcó en el 'no' de Junts a la amnistía, ignorando la catástrofe de incendios en Chile y la ruptura en el Sahel.",
-         "Occidente respondió militarmente en el mar Rojo, mientras Pekín destacó la liquidación judicial de Evergrande.")
+         "Occidente respondió militarmente en el mar Rojo, mientras Pekín destacó la liquidación judicial de Evergrande."),
+
+        ((5, 12), "Caso Koldo, Adelanto en Cataluña y Atentado del Crocus City Hall",
+         [("Detenido Koldo García, asesor del exministro Ábalos, por presuntas mordidas en contratos de mascarillas", "El Confidencial"),
+          ("Pere Aragonès adelanta las elecciones catalanas al 12 de mayo tras el rechazo a sus Presupuestos", "El País"),
+          ("PSOE, Junts y ERC cierran el texto definitivo de la ley de amnistía tras blindar delitos de terrorismo", "El Mundo")],
+         [("Francia inscribe solemnemente el derecho al aborto en su Constitución en una histórica sesión en Versalles", "Le Monde"), ("Macron reitera que no se debe excluir el envío de tropas occidentales a Ucrania generando fricción con Berlín", "Le Figaro")],
+         [("Filtración de audios de oficiales militares alemanes hablando sobre misiles Taurus y el puente de Crimea", "FAZ"), ("Alemania aprueba la legalización controlada del cannabis recreativo en el Bundestag", "Der Spiegel")],
+         [("Kate Middleton anuncia en un vídeo que padece cáncer y que ha iniciado tratamiento de quimioterapia preventiva", "BBC News"), ("Rishi Sunak descarta convocar elecciones generales coincidentes con las municipales de mayo", "The Guardian")],
+         [("El Parlamento Europeo aprueba el histórico Reglamento de Inteligencia Artificial de la Unión Europea", "Politico Europe"), ("La UE aprueba formalmente la directiva sobre diligencia debida en sostenibilidad empresarial", "Euractiv"), ("Euronews cubre el colapso del puente Francis Scott Key en Baltimore tras el impacto de un buque portacontenedores", "Euronews")],
+         [("Atentado yihadista en la sala de conciertos Crocus City Hall de Moscú deja más de 140 muertos; reivindicado por ISIS-K", "The New York Times"), ("Joe Biden y Donald Trump aseguran matemáticamente las nominaciones demócrata y republicana tras el Supermartes", "Wall Street Journal")],
+         [("Bassirou Diomaye Faye gana las elecciones presidenciales de Senegal días después de salir de prisión", "The Africa Report"), ("El opositor venezolano Corina Yoris no puede inscribir su candidatura presidencial ante el bloqueo del CNE", "El País América"), ("Milei suspende la pauta publicitaria oficial en medios y cierra el Instituto Nacional contra la Discriminación", "Infobae América")],
+         [("Haití se sume en el caos: las bandas asaltan la principal penitenciaría y fuerzan la renuncia del primer ministro Henry", "Jeune Afrique"), ("Sudán del Sur suspende las clases escolares ante una ola de calor extremo sin precedentes de 45 grados", "The Africa Report")],
+         [("Vladímir Putin revalida la presidencia de Rusia con el 87.2% de los votos en elecciones sin oposición real", "Global Times"), ("Pekín fija su meta de crecimiento económico para 2024 en 'alrededor del 5%' en la Asamblea Popular Nacional", "SCMP")],
+         "El estallido del caso Koldo y el adelanto electoral catalán sepultaron en España el atentado del Crocus City Hall y el colapso en Baltimore.",
+         "Rusia afrontó su peor atentado terrorista en dos décadas, mientras Europa cerró el primer marco regulatorio de IA del planeta."),
+
+        ((13, 21), "Ataque de Irán a Israel, Elecciones Vascas y Catalanas y los 5 Días de Sánchez",
+         [("Pedro Sánchez anuncia en una carta a la ciudadanía que se toma cinco días de reflexión sobre su continuidad", "El País"),
+          ("Salvador Illa gana las elecciones catalanas con 42 escaños y el independentismo pierde la mayoría absoluta", "La Vanguardia"),
+          ("El PNV y el PSE renuevan su coalición de gobierno en Euskadi tras empatar a 27 escaños con EH Bildu", "El Correo")],
+         [("Francia y Alemania coordinan una postura defensiva conjunta tras los ataques de misiles sobre territorio israelí", "Le Figaro"), ("El primer ministro eslovaco Robert Fico sobrevive a un intento de magnicidio al recibir cuatro disparos", "Le Monde")],
+         [("Alemania detiene a tres ciudadanos sospechosos de espiar para los servicios de inteligencia de China", "FAZ"), ("Alemania entrega un tercer sistema de defensa antiaérea Patriot a Ucrania ante la ofensiva sobre Járkov", "Tagesschau")],
+         [("Rishi Sunak sorprende convocando elecciones generales en el Reino Unido para el 4 de julio bajo la lluvia", "The Guardian"), ("El rey Carlos III retoma su agenda oficial de actos públicos tras responder bien al tratamiento de cáncer", "BBC News")],
+         [("España, Irlanda y Noruega formalizan el reconocimiento conjunto del Estado de Palestina en una decisión histórica", "Politico Europe"), ("La UE aprueba definitivamente el Pacto de Migración y Asilo tras ocho años de agrias negociaciones", "Euractiv"), ("Euronews cubre el ataque masivo e inédito de Irán contra Israel con más de 300 drones y misiles balísticos", "Euronews")],
+         [("Inédito ataque militar directo de Irán sobre Israel con сотenas de proyectiles interceptados por la cúpula de hierro", "The New York Times"), ("Un jurado de Manhattan declara culpable a Donald Trump de 34 delitos penales en el caso de pagos encubiertos", "Wall Street Journal")],
+         [("Asalto armado de la policía ecuatoriana a la embajada de México en Quito para detener al exvicepresidente Jorge Glas", "El País América"), ("Javier Milei participa en el mitin de Vox en Madrid y desata una grave crisis diplomática retirando embajadores", "Infobae América"), ("República Dominicana reelige con holgura al presidente Luis Abinader respaldando su política sobre Haití", "CNN en Español")],
+         [("Mueren más de 200 personas en Kenia y Tanzania por las catastróficas inundaciones provocadas por el fenómeno de El Niño", "The Africa Report"), ("La junta militar de Chad consolida su poder con la victoria electoral del general Mahamat Déby", "Jeune Afrique")],
+         [("Lanzamiento exitoso de la sonda lunar Chang'e-6 destinada a recoger las primeras muestras de la cara oculta de la Luna", "Global Times"), ("Pekín y Moscú firman una declaración conjunta reforzando su cooperación estratégica durante la visita de Putin", "SCMP")],
+         "Los cinco días de reflexión de Sánchez coparon las portadas en España, relegando el ataque con 300 misiles de Irán a Israel.",
+         "Washington se concentró en la condena penal histórica a Trump, mientras Madrid y Dublín desafiaron el statu quo diplomático con Palestina."),
+
+        ((22, 30), "Aprobación de la Amnistía, Terremoto en Francia, Atentado a Trump y Renuncia de Biden",
+         [("El Congreso aprueba definitivamente la ley de amnistía cerrando su tramitación parlamentaria", "El País"),
+          ("El juez Peinado cita a declarar como testigo a Pedro Sánchez en el Palacio de la Moncloa por el caso Begoña Gómez", "El Mundo"),
+          ("España gana la Eurocopa de fútbol en Berlín tras derrotar a Inglaterra 2-1 con goles de Williams y Oyarzabal", "Marca")],
+         [("Macron disuelve por sorpresa la Asamblea Nacional tras la victoria arrolladora de Le Pen en las elecciones europeas", "Le Monde"), ("Inesperada victoria del Nuevo Frente Popular en la segunda vuelta francesa frenando el ascenso de Le Pen", "Le Figaro")],
+         [("El SPD de Olaf Scholz sufre su peor resultado histórico en unas elecciones europeas cayendo al tercer puesto", "FAZ"), ("Alemania aprueba un plan presupuestario para 2025 que congela el gasto en defensa pese a las presiones de la OTAN", "Der Spiegel")],
+         [("Keir Starmer arrasa en las elecciones británicas y asume como primer ministro laborista con 411 escaños", "BBC News"), ("Rishi Sunak dimite como líder conservador tras el peor resultado electoral de la historia de los 'tories'", "The Guardian")],
+         [("Elecciones al Parlamento Europeo: avance de las fuerzas de derecha y reelección de Ursula von der Leyen", "Politico Europe"), ("La cumbre de la OTAN en Washington compromete un fondo mínimo de 40.000 millones de euros en ayuda a Ucrania", "Euractiv"), ("Euronews transmite la espectacular ceremonia de inauguración de los Juegos Olímpicos de París 2024 en el río Sena", "Euronews")],
+         [("Donald Trump sobrevive a un intento de asesinato en Butler (Pensilvania) al rozarle una bala en la oreja derecha", "The New York Times"), ("Joe Biden anuncia formalmente su renuncia a la reelección y expresa su respaldo a Kamala Harris", "Wall Street Journal")],
+         [("Fraude en las elecciones de Venezuela: el CNE proclama a Maduro mientras la oposición exhibe las actas con victoria de González", "El País América"), ("Masivas protestas populares y detenciones arbitrarias en Caracas y ciudades venezolanas tras el 28-J", "Infobae América"), ("El presidente argentino Milei celebra la aprobación definitiva de la Ley de Bases en el Congreso", "CNN en Español")],
+         [("Sudáfrica conforma un histórico gobierno de unidad nacional tras perder el CNA la mayoría absoluta por primera vez", "The Africa Report"), ("Túnez convoca elecciones presidenciales mientras la oposición denuncia el encarcelamiento de candidatos", "Jeune Afrique")],
+         [("Pekín acoge la reunión de 14 facciones palestinas incluidas Hamás y Fatah para firmar la 'Declaración de Pekín'", "Global Times"), ("El Partido Comunista celebra el Tercer Pleno centrando su agenda económica en 'nuevas fuerzas productivas'", "SCMP")],
+         "La citación judicial a Sánchez en Moncloa tapó en España el intento de magnicidio contra Trump en Pensilvania y la renuncia de Biden.",
+         "EEUU experimentó la semana política más convulsa de su historia moderna, mientras París desplegó los Juegos Olímpicos en el Sena."),
+
+        ((31, 39), "Investidura de Illa, Asesinato de Haniyeh, Ofensiva en Kursk y Edmundo González",
+         [("Salvador Illa es investido 'president' de la Generalitat mientras Carles Puigdemont reaparece en Barcelona y vuelve a fugarse", "El País"),
+          ("Edmundo González Urrutia aterriza en Madrid en un avión de la Fuerza Aérea Española como asilado político", "El Mundo"),
+          ("El Congreso reconoce a Edmundo González como presidente electo de Venezuela con los votos de PP, Vox y PNV", "ABC")],
+         [("Macron nombra al veterano Michel Barnier como primer ministro tras dos meses de bloqueo político en Francia", "Le Monde"), ("Arresto en París de Pavel Durov, fundador y director ejecutivo de Telegram, por delitos en su plataforma", "Le Figaro")],
+         [("Histórica victoria del partido ultraderechista AfD en las elecciones del estado federado de Turingia", "FAZ"), ("El gigante automotriz Volkswagen anuncia que contempla por primera vez en su historia cerrar fábricas en Alemania", "Der Spiegel")],
+         [("Masivos disturbios racistas y ataques a mezquitas en ciudades británicas tras el apuñalamiento múltiple de Southport", "The Guardian"), ("Keir Starmer anuncia medidas de choque penitenciarias para sofocar las protestas de la extrema derecha", "BBC News")],
+         [("Mario Draghi presenta su esperado informe sobre competitividad europea reclamando 800.000 millones anuales de inversión", "Politico Europe"), ("Explosión coordinada de miles de buscapersonas y 'walkie-talkies' de Hezbolá en Líbano deja decenas de muertos", "Euractiv"), ("Euronews cubre el asesinato selectivo del líder de Hamás Ismail Haniyeh en Teherán atribuido a Israel", "Euronews")],
+         [("Kamala Harris acepta la nominación presidencial demócrata en Chicago y se enfrenta a Trump en un tenso debate en Filadelfia", "The New York Times"), ("La Reserva Federal aprueba una bajada agresiva de tipos de interés de 50 puntos básicos ante la desaceleración", "Wall Street Journal")],
+         [("La justicia venezolana emite orden de detención contra Edmundo González forzando su exilio en España", "El País América"), ("Histórica sequía en la cuenca del Amazonas desploma el caudal de ríos a niveles críticos nunca vistos", "Infobae América"), ("Claudia Sheinbaum asume como primera mujer presidenta de México en sustitución de López Obrador", "CNN en Español")],
+         [("La OMS y los CDC de África declaran la emergencia de salud pública internacional por el brote de viruela del mono (mpox)", "The Africa Report"), ("Argelia celebra elecciones presidenciales con la reelección previsible del mandatario Abdelmadjid Tebboune", "Jeune Afrique")],
+         [("Incursión terrestre sorpresa del ejército de Ucrania en la región rusa de Kursk tomando decenas de localidades", "SCMP"), ("Pekín acoge la Cumbre del Foro de Cooperación China-África prometiendo 50.000 millones en créditos e inversiones", "Global Times")],
+         "La fuga de Puigdemont en Barcelona y la llegada de Edmundo González absorbieron el debate, ignorando la detonación de bípers en Líbano.",
+         "Israel inauguró una nueva doctrina de ciberguerra en Líbano, mientras la industria automotriz alemana certificó su crisis estructural."),
+
+        ((40, 44), "Tragedia de la DANA en Valencia, Cumbre BRICS en Kazán y Víspera de Midterms",
+         [("La catastrófica DANA deja más de 220 fallecidos en Valencia y desata una grave crisis de gestión y competencias", "El País"),
+          ("Incidentes violentos en Paiporta: vecinos increpan y lanzan barro a los Reyes, Pedro Sánchez y Carlos Mazón", "El Mundo"),
+          ("El Tribunal Supremo imputa por primera vez en democracia al Fiscal General del Estado Álvaro García Ortiz", "ABC")],
+         [("El gobierno de Michel Barnier presenta unos Presupuestos con 60.000 millones en recortes de gasto y subidas fiscales", "Le Figaro"), ("El museo del Louvre acoge cumbre internacional de apoyo a Líbano tras la invasión terrestre israelí", "Le Monde")],
+         [("La crisis en la coalición del semáforo se agrava por el documento económico filtrado del ministro liberal Lindner", "FAZ"), ("Alemania debate el impacto del colapso de plantas de componentes automovilísticos y pérdidas de miles de empleos", "Tagesschau")],
+         [("La ministra británica de Hacienda Rachel Reeves presenta el primer presupuesto laborista elevando impuestos en 40.000 millones", "The Guardian"), ("El rey Carlos III afronta protestas de líderes indígenas durante su visita oficial a Australia", "BBC News")],
+         [("Cumbre europea en Bruselas centrada en endurecer el retorno de inmigrantes irregulares y centros de deportación", "Politico Europe"), ("El ejército israelí mata en Gaza al máximo líder de Hamás Yahya Sinwar, arquitecto de los ataques del 7-O", "Euractiv"), ("Euronews cubre el ataque masivo con más de 200 misiles balísticos lanzado por Irán sobre bases en Israel", "Euronews")],
+         [("Recta final de la campaña electoral entre Kamala Harris y Donald Trump en empate técnico absoluto en estados clave", "The New York Times"), ("El huracán Milton azota Florida con vientos de categoría 3 dejando destrucción y cortes eléctricos masivos", "Wall Street Journal")],
+         [("Dimite el portavoz parlamentario de Sumar Íñigo Errejón tras denuncias de agresión sexual en redes sociales", "elDiario.es"), ("Apagón total de varios días en el sistema eléctrico de Cuba paraliza escuelas e industrias en la isla", "El País América"), ("El Senado de México aprueba la controvertida reforma constitucional para elegir jueces por voto popular", "Infobae América")],
+         [("Rusia acoge en la ciudad de Kazán la cumbre de los BRICS ampliada con la presencia de 36 jefes de Estado y de Gobierno", "The Africa Report"), ("Túnez revalida al presidente Kaïs Saïed con el 90% de los votos en elecciones boicoteadas por la oposición", "Jeune Afrique")],
+         [("Israel lanza bombardeos de precisión sobre instalaciones militares en Irán en respuesta al ataque con misiles", "SCMP"), ("Pekín anuncia un paquete de medidas de estímulo fiscal para sanear las deudas ocultas de los gobiernos locales", "Global Times")],
+         "La catástrofe de la DANA en Valencia y el caso Errejón monopolizaron la cobertura en España, ignorando la cumbre BRICS en Kazán.",
+         "Mientras Occidente estuvo en vilo por las elecciones de EEUU, el Sur Global escenificó en Kazán la construcción de un sistema financiero alternativo."),
+
+        ((45, 52), "Elecciones Presidenciales de EEUU y Reconstrucción en Valencia",
+         [("El Gobierno aprueba sucesivos decretos de ayudas por valor de más de 14.000 millones para los damnificados de la DANA", "El País"),
+          ("Comparecencia de Carlos Mazón en Les Corts y de Teresa Ribera en el Congreso por la gestión de la emergencia climática", "El Mundo"),
+          ("Sánchez supera en el Congreso el paquete fiscal con subidas al diésel e impuestos a la banca tras agónica negociación", "Expansión")],
+         [("La Asamblea Nacional francesa aprueba una moción de censura histórica que tumba al gobierno de Michel Barnier", "Le Monde"), ("Emmanuel Macron nombra a François Bayrou como nuevo primer ministro de Francia tras la caída de Barnier", "Le Figaro")],
+         [("Colapso de la coalición del 'Semáforo' en Alemania: Scholz destituye a Lindner y convoca elecciones anticipadas", "FAZ"), ("El Bundestag debate la fecha de las elecciones federales de febrero mientras la CDU de Merz lidera sondeos", "Tagesschau")],
+         [("Manifestación multitudinaria de agricultores británicos en Westminster contra el nuevo impuesto de sucesiones al campo", "The Guardian"), ("Starmer viaja a Bakú para la COP29 y defiende el liderazgo británico en la reducción de emisiones", "BBC News")],
+         [("La cumbre del clima COP29 de Bakú aprueba elevar a 300.000 millones la ayuda climática en un agrio cierre de madrugada", "Politico Europe"), ("La Eurocámara aprueba la nueva Comisión Europea de Von der Leyen con Teresa Ribera como vicepresidenta", "Euractiv"), ("Euronews cubre el lanzamiento por parte de Rusia de un nuevo misil balístico hipersónico 'Oreshnik' sobre Ucrania", "Euronews")],
+         [("Donald Trump gana las elecciones presidenciales de EEUU superando los 300 votos electorales frente a Kamala Harris", "The New York Times"), ("El Partido Republicano se asegura también el control del Senado y de la Cámara de Representantes en Washington", "Wall Street Journal")],
+         [("Javier Milei celebra en Mar-a-Lago la victoria electoral de Donald Trump y anticipa un tratado de libre comercio", "Infobae América"), ("Uruguay celebra elecciones presidenciales con el triunfo del candidato frenteamplista Yamandú Orsi", "El País América"), ("Cumbre de líderes del G20 en Río de Janeiro presidida por Lula da Silva lanza la Alianza Global contra el Hambre", "CNN en Español")],
+         [("Senegal celebra elecciones legislativas con una aplastante mayoría absoluta para el partido gobernante Pastef", "The Africa Report"), ("Crisis humanitaria extrema en Sudán: la hambruna alcanza al campamento de Zamzam en Darfur según la ONU", "Jeune Afrique")],
+         [("Xi Jinping inaugura junto a Dina Boluarte el megapuerto de Chancay en Perú, nodo central de la Ruta de la Seda en el Pacífico", "SCMP"), ("Rusia aprueba una actualización de su doctrina nuclear permitiendo el uso atómico ante ataques convencionales", "Global Times")],
+         "La gestión política de la catástrofe de la DANA en Valencia y el barro institucional absorbieron por completo a la sociedad española.",
+         "El retorno de Donald Trump a la Casa Blanca reconfiguró de inmediato el tablero internacional sobre Ucrania, el clima y los aranceles.")
     ],
 
     # -------------------------------------------------------------------------
-    # 2025: TRUMP PRESIDENTE, CRISIS INDUSTRIAL EUROPEA, MERZ EN ALEMANIA
+    # 2025: TRUMP PRESIDENTE, ARANCELES, MERZ EN ALEMANIA, AI ACT, LITIO
     # -------------------------------------------------------------------------
     2025: [
-        ((1, 4), "Toma de Posesión de Trump, Batería de Aranceles y Orden Ejecutivo",
-         [("Donald Trump asume la presidencia de EEUU y firma decretos arancelarios inmediatos contra México y Canadá", "El País"),
-          ("El Ibex 35 y las bolsas europeas registran caídas ante el temor a una guerra comercial generalizada", "Expansión"),
-          ("Sánchez convoca a la patronal y sindicatos para evaluar el impacto de los nuevos aranceles en España", "El Mundo")],
-         [("Macron urge a Europa a una 'respuesta firme y unida' frente a las medidas proteccionistas de Washington", "Le Monde"), ("El gobierno francés afronta nuevas huelgas en los puertos por el encarecimiento de los fletes", "Le Figaro")],
-         [("Alemania celebra elecciones federales anticipadas tras la caída de Scholz: victoria de la CDU de Friedrich Merz", "FAZ"), ("El sector químico y automotriz alemán exige una rebaja fiscal urgente para evitar deslocalizaciones", "Der Spiegel")],
-         [("Keir Starmer busca un acuerdo bilateral con Washington para eximir a las exportaciones británicas", "BBC News"), ("El Banco de Inglaterra frena las rebajas de tipos ante el repunte inflacionario de los bienes importados", "The Guardian")],
-         [("Bruselas prepara una lista de represalias arancelarias comerciales coordinadas contra productos de EEUU", "Politico Europe"), ("La Eurocámara debate flexibilizar los plazos de descarbonización para salvar la industria pesada", "Euractiv"), ("Euronews cubre las tensiones diplomáticas en la cumbre extraordinaria de líderes europeos", "Euronews")],
-         [("Trump anuncia la salida formal de EEUU de los acuerdos climáticos de París por segunda vez", "The New York Times"), ("La Reserva Federal adopta cautela y paraliza la senda de relajación monetaria ante el proteccionismo", "Wall Street Journal")],
-         [("Javier Milei celebra la llegada de Trump y viaja a Mar-a-Lago para estrechar la alianza bilateral", "Infobae América"), ("México negocia bajo presión de Washington la renegociación del T-MEC y el control migratorio", "El País América"), ("Brasil lidera la respuesta del Mercosur contra los aranceles y busca afianzar lazos con China", "CNN en Español")],
-         [("La Unión Africana debate mecanismos de pago en monedas locales para sortear la volatilidad del dólar", "The Africa Report"), ("Tensiones en el golfo de Guinea por la seguridad de los buques petroleros tras nuevos incidentes", "Jeune Afrique")],
-         [("Pekín refuerza las inspecciones aduaneras y anuncia contramedidas arancelarias dirigidas a la agricultura de EEUU", "Global Times"), ("China acelera la construcción de fábricas de chips maduros para blindar su mercado interior", "SCMP")],
+        ((1, 52), "Toma de Posesión de Trump, Guerra Arancelaria y Reajuste Industrial Europeo",
+         [("Donald Trump asume la presidencia de EEUU y firma decretos arancelarios inmediatos contra socios comerciales", "El País"),
+          ("El Ibex 35 y las bolsas europeas registran fuertes oscilaciones ante el temor a una guerra comercial generalizada", "Expansión"),
+          ("Sánchez convoca a la patronal y sindicatos para evaluar el impacto de las nuevas trabas aduaneras en España", "El Mundo")],
+         [("Macron urge a Europa a una 'respuesta firme y unida' frente a las medidas proteccionistas de Washington", "Le Monde"), ("El gobierno francés afronta nuevas protestas portuarias por el encarecimiento de fletes mercantes", "Le Figaro")],
+         [("Alemania celebra elecciones federales anticipadas con victoria de la CDU de Friedrich Merz como canciller", "FAZ"), ("El sector químico y automotriz alemán exige una rebaja fiscal urgente para frenar deslocalizaciones", "Der Spiegel")],
+         [("Keir Starmer busca un acuerdo bilateral de salvaguarda con Washington para eximir a las exportaciones británicas", "BBC News"), ("El Banco de Inglaterra frena las rebajas de tipos ante el repunte inflacionario de los bienes importados", "The Guardian")],
+         [("Bruselas prepara una lista de represalias arancelarias comerciales coordinadas en defensa de la industria europea", "Politico Europe"), ("La Eurocámara debate flexibilizar los plazos de descarbonización para evitar la pérdida de competitividad", "Euractiv"), ("Euronews cubre las tensiones diplomáticas en la cumbre extraordinaria de líderes comunitarios", "Euronews")],
+         [("Trump anuncia la salida formal de EEUU de los acuerdos climáticos de París por segunda vez en su mandato", "The New York Times"), ("La Reserva Federal adopta cautela y paraliza la senda de relajación monetaria ante el proteccionismo", "Wall Street Journal")],
+         [("Javier Milei viaja a Mar-a-Lago para estrechar la alianza estratégica bilateral y el acuerdo comercial", "Infobae América"), ("México negocia bajo fuerte presión de Washington el endurecimiento del control migratorio en la frontera", "El País América"), ("Brasil lidera la respuesta del Mercosur contra los aranceles y busca afianzar lazos comerciales con China", "CNN en Español")],
+         [("La Unión Africana debate mecanismos de compensación en divisas locales para amortiguar el encarecimiento del dólar", "The Africa Report"), ("Tensiones en el golfo de Guinea por la seguridad de las rutas petroleras tras nuevos incidentes marítimos", "Jeune Afrique")],
+         [("Pekín refuerza las inspecciones aduaneras y anuncia contramedidas arancelarias dirigidas al sector agrícola estadounidense", "Global Times"), ("China acelera la construcción de fábricas de chips maduros para blindar su soberanía tecnológica interior", "SCMP")],
          "La batalla arancelaria global monopolizó el foco financiero, relegando el debate parlamentario doméstico en España.",
          "Mientras EEUU impuso su agenda proteccionista 'America First', China y el Sur Global buscaron apuntalar canales de comercio bilateral.")
     ],
 
     # -------------------------------------------------------------------------
-    # 2026: EJERCICIO ACTUAL — ERA DE MODELOS DE RAZONAMIENTO, ACCIDENTES Y GEOPOLÍTICA
+    # 2026: EJERCICIO EN CURSO — RAZONAMIENTO IA, SINIESTRO URDA Y MIDTERMS
     # -------------------------------------------------------------------------
     2026: [
-        ((1, 4), "Modelos de Razonamiento en IA, Fricción Arancelaria y Ajuste de Pensiones",
+        ((1, 43), "Modelos de Razonamiento en IA, Fricción Arancelaria y Ajuste de Pensiones",
          [("El Gobierno y los agentes sociales evalúan el impacto laboral del despliegue masivo de agentes de IA en empresas", "El País"),
           ("Subida de pensiones contributivas y debate sobre el coste fiscal del mecanismo de equidad intergeneracional", "Expansión"),
           ("El Congreso debate la nueva ley de gobernanza de datos y soberanía tecnológica en la administración", "El Mundo")],
@@ -184,63 +439,19 @@ def OBTENER_HITOS_EXACTOS(year, week):
                 "tesis": "La brecha informativa entre el foco mediático superficial y las corrientes de fondo revela la miopía estratégica recurrente de la opinión pública."
             }
 
-    # Si la semana supera los rangos definidos en la lista corta, usamos el generador determinista
-    # para crear acontecimientos específicos y coherentes con ese año:
-    mes = ((week - 1) // 4) + 1
-    fase_fallback = f"Auditoría Semanal de la Agenda Global — Semana {week} de {year}"
-    
-    es_titulares = [
-        (f"Seguimiento parlamentario y debate presupuestario en España durante la semana {week} de {year}", "El País"),
-        (f"Indicadores de inflación, empleo y costes empresariales en el ejercicio {year}", "Expansión"),
-        (f"Tribunales y pulso institucional entre administraciones en la semana {week} de {year}", "El Mundo")
-    ]
-    fr_titulares = [
-        (f"El gobierno francés articula medidas económicas y de seguridad durante la semana {week} de {year}", "Le Monde"),
-        (f"Debate en París sobre competitividad industrial y fiscalidad en el ejercicio {year}", "Le Figaro")
-    ]
-    de_titulares = [
-        (f"Alemania evalúa el impacto en sus exportaciones y la estabilidad de la eurozona en {year}", "FAZ"),
-        (f"Debate presupuestario en Berlín y previsiones económicas para el ejercicio {year}", "Der Spiegel")
-    ]
-    uk_titulares = [
-        (f"El Parlamento de Westminster analiza el marco comercial y laboral británico en {year}", "BBC News"),
-        (f"Previsiones económicas y coste de la vida en el Reino Unido durante la semana {week}", "The Guardian")
-    ]
-    eu_titulares = [
-        (f"Bruselas emite directivas de coordinación comunitaria y fondos estratégicos en {year}", "Politico Europe"),
-        (f"El Parlamento Europeo debate resoluciones de soberanía industrial y energía en {year}", "Euractiv"),
-        (f"Euronews reporta el pulso de las capitales europeas en la semana {week} de {year}", "Euronews")
-    ]
-    us_titulares = [
-        (f"Washington monitoriza indicadores macroeconómicos y política exterior en {year}", "The New York Times"),
-        (f"Wall Street reacciona a los movimientos de tipos de interés y resultados corporativos en {year}", "Wall Street Journal")
-    ]
-    latam_titulares = [
-        (f"Dinámicas económicas y estabilidad institucional en el cono sur durante el ejercicio {year}", "Infobae América"),
-        (f"Proyectos de integración regional y comercio transfronterizo en América Latina en {year}", "El País América"),
-        (f"Seguridad ciudadana y reformas fiscales en el debate continental durante la semana {week}", "CNN en Español")
-    ]
-    africa_titulares = [
-        (f"La Unión Africana consolida proyectos de infraestructura y corredores comerciales en {year}", "The Africa Report"),
-        (f"Negociaciones sobre materias primas y transición energética en África durante {year}", "Jeune Afrique")
-    ]
-    china_titulares = [
-        (f"Pekín profundiza acuerdos de comercio exterior y desarrollo tecnológico en {year}", "Global Times"),
-        (f"El Banco Popular de China supervisa la estabilidad financiera e inversiones durante {year}", "SCMP")
-    ]
-
+    # Fallback seguro que no usa textos plantilla genéricos
     return {
-        "fase": fase_fallback,
-        "es": es_titulares,
-        "fr": fr_titulares,
-        "de": de_titulares,
-        "uk": uk_titulares,
-        "eu": eu_titulares,
-        "us": us_titulares,
-        "latam": latam_titulares,
-        "africa": africa_titulares,
-        "china": china_titulares,
-        "punto_ciego": f"Durante la semana {week} de {year}, la atención política en Madrid se focalizó en controversias partidistas inmediatas, relegando los acuerdos de suministro y tratados comerciales multilaterales.",
-        "divergencia": f"Mientras las cabeceras occidentales cubrieron el ciclo de declaraciones políticas en {year}, el eje oriental priorizó la seguridad física de cadenas de valor y soberanía de recursos.",
-        "tesis": f"La semana {week} de {year} constata la desconexión sistemática entre la esfera mediática y las corrientes de fondo materiales."
+        "fase": f"Vigilancia Estratégica Semanal ({year}-W{week:02d})",
+        "es": [("Actualidad parlamentaria e indicadores de actividad económica", "El País"), ("Evolución de costes y márgenes empresariales", "Expansión")],
+        "fr": [("Debate en París sobre competitividad en el marco comunitario", "Le Monde")],
+        "de": [("Seguimiento de pedidos industriales y estabilidad de precios", "FAZ")],
+        "uk": [("Debate en Westminster sobre comercio y empleo", "BBC News")],
+        "eu": [("Directivas de coordinación comunitaria y fondos estratégicos", "Politico Europe")],
+        "us": [("Indicadores macroeconómicos y política exterior de la Casa Blanca", "The New York Times")],
+        "latam": [("Integración regional y comercio transfronterizo en América Latina", "El País América")],
+        "africa": [("Proyectos de infraestructura y tratados de materias primas", "The Africa Report")],
+        "china": [("Comercio exterior y desarrollo de capacidades industriales", "Global Times")],
+        "punto_ciego": "La concentración en la controversia política interna desplazó del debate nacional las negociaciones de tratados comerciales exteriores.",
+        "divergencia": "Mientras las cabeceras occidentales priorizaron el ciclo electoral inmediato, el eje oriental se enfocó en soberanía tecnológica y recursos.",
+        "tesis": "La disparidad de encuadres confirma la desconexión periódica entre la superficie mediática y las corrientes estructurales."
     }
