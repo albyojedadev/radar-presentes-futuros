@@ -12,7 +12,7 @@ window.AtlasGraph = (() => {
       rows.push({label:bands[level],y:top});
       top += 25;
       for (let start = 0; start < group.length; start += 5) {
-        const row = group.slice(start,start+5), step = Math.min(310,(width-190)/4);
+        const row = group.slice(start,start+5), step = (width-190)/4;
         row.forEach((n,i) => positions[n.id] = {x:width/2+(i-(row.length-1)/2)*step,y:top,width:164,height:96});
         top += 100;
       }

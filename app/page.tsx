@@ -21,7 +21,7 @@ export default function Home() {
           totalSemanas={dataset?.totalSemanas || 357}
         />
 
-        <main className="mx-auto max-w-7xl px-3 py-4 sm:px-6 sm:py-6">
+        <main className={vistaActiva === "atlas" ? "w-full min-w-0" : "mx-auto max-w-7xl px-3 py-4 sm:px-6 sm:py-6"}>
           {vistaActiva === "presentes" && (
             <RadarPresentesView noticiasHoy={dataset?.noticiasHoy} />
           )}
@@ -41,7 +41,7 @@ export default function Home() {
             <iframe
               src="/atlas-del-poder/index.html"
               title="Explorar el Atlas del poder"
-              className="block h-[80dvh] min-h-[560px] w-full rounded-xl border border-borderSubtle bg-panel"
+              className="block h-[80dvh] min-h-[560px] w-full border-0 bg-panel"
             />
           )}
         </main>

@@ -136,7 +136,10 @@
     else if(b.id==='fit'){state.zoom=1;resize();$('map-viewport').scrollTo(0,0);}
   });
   $('type-filter').addEventListener('change',event=>{state.type=event.target.value;render();});
-  window.addEventListener('resize',resize);
+  window.addEventListener('resize',()=>{
+    if(state.view==='map'&&geometry&&geometry.width!==Math.max(1000,$('map-viewport').clientWidth))render();
+    else resize();
+  });
   // Drag only the canvas background; node buttons and native scrolling remain available.
   let drag=null;
   $('map-viewport').addEventListener('pointerdown',event=>{

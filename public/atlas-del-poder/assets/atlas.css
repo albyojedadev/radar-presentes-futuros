@@ -58,3 +58,4 @@
 .space-hub span{top:calc(50% + var(--label-y));left:calc(50% + var(--label-x));width:128px;max-width:none;transform:translateX(-50%);text-align:center}
 .space-actor i{color:var(--constellation);background:color-mix(in srgb,var(--constellation) 24%,var(--paper))}
 .space-actor[aria-pressed=true] i{color:var(--constellation);background:var(--constellation)}
+main#main{max-width:none;width:100%;padding-inline:clamp(12px,2vw,28px)}
