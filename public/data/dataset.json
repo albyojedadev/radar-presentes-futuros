@@ -1,5 +1,5 @@
 {
-  "fechaGeneracion": "2026-11-04T10:10:45.719Z",
+  "fechaGeneracion": "2026-11-04T11:35:17.468Z",
   "fuentesConfig": {
     "ES": {
       "nombre": "España",
@@ -208,54 +208,51 @@
   },
   "noticiasHoy": {
     "fecha": "2026-11-04",
-    "timestamp": "2026-11-04 10:05:22",
+    "timestamp": "2026-11-04 11:32:27",
     "analisisEspana": {
-      "porcentaje_domestico": "68% Ruido Doméstico",
+      "porcentaje_domestico": "54% Doméstico / 46% Exterior",
       "monotema": {
-        "titulo": "Elecciones y Pugna Institucional EE.UU. (10 titulares sincronizados)",
-        "descripcion": "La agenda española queda monopolizada por elecciones y pugna institucional ee.uu., concentrando a la inmensa mayoría de las 6 cabeceras bajo una cobertura monotemática continua."
+        "titulo": "Elecciones y Pugna Institucional EE.UU. (10 de 24 titulares • 42%)",
+        "descripcion": "La agenda española se divide entre el impacto exterior de 'Elecciones y Pugna Institucional EE.UU.' (10 aperturas) y la atención doméstica hacia 'Accidente Ferroviario / Red de Transporte' (5 titulares)."
       },
       "polarizacion": {
-        "titulo": "Fractura de Encuadre entre Cabeceras Conservadoras y Progresistas",
-        "descripcion": "Contraste editorial visible: mientras cabeceras conservadoras presionan con titulares como 'El sistema de señalización en el tramo Madrid-Sevilla, ...', los medios progresistas replantean la cobertura con 'Las ‘midterms’ 2026, en vivo | Vuelco político en Estad...'."
+        "titulo": "Divergencia de Agenda: Foco Editorial Escindido",
+        "descripcion": "Fractura de selección de apertura: mientras la prensa progresista (El País, elDiario.es) vuelca su portada en 'Elecciones y Pugna Institucional EE.UU.' (8 de 8 titulares), las cabeceras conservadoras (El Mundo, ABC) priorizan 'Accidente Ferroviario / Red de Transporte' (4 aperturas), reflejando dos jerarquías informativas contrapuestas."
       },
       "contraste": {
-        "titulo": "Eclipsamiento Geopolítico: 68% de Cobertura Doméstica",
-        "descripcion": "La concentración en la controversia interna deja en punto ciego las corrientes internacionales que dominan el resto del mundo, como Conflicto Oriente Medio (Gaza / Líbano) y Tecnología Disruptiva, IA y Biotecnología."
+        "titulo": "Agenda Dividida: 54% Doméstico / 46% Exterior",
+        "descripcion": "Pese al reparto equilibrado entre noticias nacionales e internacionales, el foco exterior se polariza en torno a EE.UU., omitiendo corrientes de fondo que marcan el día en otros continentes, como SouthAfrica y Africa."
       }
     },
     "puntosCiegos": [
       {
         "id": "PC-01",
-        "titulo": "Conflicto Oriente Medio (Gaza / Líbano)",
-        "titular_noticia": "Elecciones intermedias 2026: Donald Trump sufre una derrota histórica, de Texas a Michigan",
-        "impacto": "Asimetría crítica: Mientras 6 cabeceras internacionales en CHINA, DE, EU, FR, US priorizan este acontecimiento, la prensa nacional en España le dedica cero menciones en portada.",
+        "titulo": "SouthAfrica",
+        "titular_noticia": "ANC faces anger over poor services as South Africans vote in local elections",
+        "impacto": "Asimetría informativa: Mientras 4 cabeceras internacionales en AFRICA, UK, US priorizan este hito, la prensa nacional en España le dedica cero menciones en portada.",
         "bloques_afectados": [
-          "CHINA",
-          "DE",
-          "EU",
-          "FR",
+          "AFRICA",
+          "UK",
           "US"
         ]
       },
       {
         "id": "PC-02",
-        "titulo": "Tecnología Disruptiva, IA y Biotecnología",
-        "titular_noticia": "Apple inicia en China la prueba de su IA con el asistente Qwen de Alibaba",
-        "impacto": "Asimetría crítica: Mientras 4 cabeceras internacionales en CHINA, EU priorizan este acontecimiento, la prensa nacional en España le dedica cero menciones en portada.",
+        "titulo": "Africa",
+        "titular_noticia": "Sudanese diaspora and human rights groups denounce UAE nominee for UN top job",
+        "impacto": "Asimetría informativa: Mientras 3 cabeceras internacionales en AFRICA, UK priorizan este hito, la prensa nacional en España le dedica cero menciones en portada.",
         "bloques_afectados": [
-          "CHINA",
-          "EU"
+          "AFRICA",
+          "UK"
         ]
       },
       {
         "id": "PC-03",
-        "titulo": "Guerra Ucrania / Rusia / Frente Oriental",
-        "titular_noticia": "POTENCIA DE FUEGO: Noruega y Francia refuerzan los lazos industriales con Ucrania",
-        "impacto": "Asimetría crítica: Mientras 3 cabeceras internacionales en EU, US priorizan este acontecimiento, la prensa nacional en España le dedica cero menciones en portada.",
+        "titulo": "Politics",
+        "titular_noticia": "Election 2026: Africa champion Chris Coons takes the helm in the US Senate",
+        "impacto": "Asimetría informativa: Mientras 3 cabeceras internacionales en AFRICA priorizan este hito, la prensa nacional en España le dedica cero menciones en portada.",
         "bloques_afectados": [
-          "EU",
-          "US"
+          "AFRICA"
         ]
       }
     ],
@@ -268,54 +265,6 @@
             "medio": "El País",
             "perfil": "Centro-Izquierda / Generalista",
             "noticias": [
-              {
-                "titulo": "Las ‘midterms’ 2026, en vivo | Vuelco político en Estados Unidos: los demócratas logran el control total del Congreso en un duro castigo a Trump",
-                "url": "https://elpais.com/us/2026-11-03/las-midterms-2026-en-vivo.html",
-                "resumen": "El Partido Demócrata se hace con el Senado y la Cámara de Representantes tras vencer en bastiones republicanos como Texas, Kansas, Iowa y Carolina del Sur | El demócrata Abdul El-Sayed gana las elecciones al Senado en Míchigan y se convierte en el primer musulmán en la Cámara alt",
-                "fecha": "Wed, 04 Nov 2026 09:40:08 GMT",
-                "titulo_original": "Las ‘midterms’ 2026, en vivo | Vuelco político en Estados Unidos: los demócratas logran el control total del Congreso en un duro castigo a Trump",
-                "tags": [
-                  "#EleccionesEeUu",
-                  "#DonaldTrump",
-                  "#PartidoRepublicanoEe",
-                  "#PartidoDemócrataEe"
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "Elecciones y Pugna Institucional EE.UU.",
-                "coincidencias_count": 19
-              },
-              {
-                "titulo": "Los resultados de las ‘midterms’ de 2026 en Estados Unidos, en vivo",
-                "url": "https://elpais.com/us/2026-11-03/los-resultados-de-las-midterms-de-2026-en-estados-unidos-en-vivo.html",
-                "resumen": "Siga en directo el recuento de votos en la Cámara y el Senado y el escrutinio por Estado",
-                "fecha": "Wed, 04 Nov 2026 08:47:52 GMT",
-                "titulo_original": "Los resultados de las ‘midterms’ de 2026 en Estados Unidos, en vivo",
-                "tags": [
-                  "#EleccionesEeUu",
-                  "#DonaldTrump",
-                  "#PartidoRepublicanoEe",
-                  "#PartidoDemócrataEe"
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "Elecciones y Pugna Institucional EE.UU.",
-                "coincidencias_count": 19
-              },
-              {
-                "titulo": "Trump admite la amarga derrota en las ‘midterms’: “Estoy un poco sorprendido. Pensé que lo haríamos mejor”",
-                "url": "https://elpais.com/us/2026-11-04/trump-admite-la-amarga-derrota-en-las-midterms-estoy-un-poco-sorprendido-pense-que-lo-hariamos-mejor.html",
-                "resumen": "El presidente de Estados Unidos trata de quitarse responsabilidad de la debacle republicana pese a que pidió votar como si estuviera en la papeleta y recorrió 30 Estados",
-                "fecha": "Wed, 04 Nov 2026 07:09:18 GMT",
-                "titulo_original": "Trump admite la amarga derrota en las ‘midterms’: “Estoy un poco sorprendido. Pensé que lo haríamos mejor”",
-                "tags": [
-                  "#EleccionesEeUu",
-                  "#DonaldTrump",
-                  "#PartidoRepublicanoEe",
-                  "#PartidoDemócrataEe"
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "Elecciones y Pugna Institucional EE.UU.",
-                "coincidencias_count": 19
-              },
               {
                 "titulo": "Los demócratas arrasan en las ‘midterms’ a lomos del voto de castigo a la caótica presidencia de Trump",
                 "url": "https://elpais.com/us/2026-11-04/los-democratas-arrasan-en-las-midterms-a-lomos-del-voto-de-castigo-a-la-caotica-presidencia-de-trump.html",
@@ -330,7 +279,55 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Elecciones y Pugna Institucional EE.UU.",
-                "coincidencias_count": 19
+                "coincidencias_count": 18
+              },
+              {
+                "titulo": "Las ‘midterms’ 2026, en vivo | Vuelco político en Estados Unidos: los demócratas logran el control total del Congreso en un duro castigo a Trump",
+                "url": "https://elpais.com/us/2026-11-03/las-midterms-2026-en-vivo.html",
+                "resumen": "El Partido Demócrata se hace con el Senado y la Cámara de Representantes tras vencer en bastiones republicanos como Texas, Kansas, Iowa y Carolina del Sur | El demócrata Abdul El-Sayed gana las elecciones al Senado en Míchigan y se convierte en el primer musulmán en la Cámara alt",
+                "fecha": "Wed, 04 Nov 2026 11:12:12 GMT",
+                "titulo_original": "Las ‘midterms’ 2026, en vivo | Vuelco político en Estados Unidos: los demócratas logran el control total del Congreso en un duro castigo a Trump",
+                "tags": [
+                  "#EleccionesEeUu",
+                  "#DonaldTrump",
+                  "#PartidoRepublicanoEe",
+                  "#PartidoDemócrataEe"
+                ],
+                "tema_repetido": true,
+                "cluster_tema": "Elecciones y Pugna Institucional EE.UU.",
+                "coincidencias_count": 18
+              },
+              {
+                "titulo": "Los resultados de las ‘midterms’ de 2026 en Estados Unidos, en vivo",
+                "url": "https://elpais.com/us/2026-11-03/los-resultados-de-las-midterms-de-2026-en-estados-unidos-en-vivo.html",
+                "resumen": "Siga en directo el recuento de votos en la Cámara y el Senado y el escrutinio por Estado",
+                "fecha": "Wed, 04 Nov 2026 10:04:36 GMT",
+                "titulo_original": "Los resultados de las ‘midterms’ de 2026 en Estados Unidos, en vivo",
+                "tags": [
+                  "#EleccionesEeUu",
+                  "#DonaldTrump",
+                  "#PartidoRepublicanoEe",
+                  "#PartidoDemócrataEe"
+                ],
+                "tema_repetido": true,
+                "cluster_tema": "Elecciones y Pugna Institucional EE.UU.",
+                "coincidencias_count": 18
+              },
+              {
+                "titulo": "Trump admite la amarga derrota en las ‘midterms’: “Estoy un poco sorprendido. Pensé que lo haríamos mejor”",
+                "url": "https://elpais.com/us/2026-11-04/trump-admite-la-amarga-derrota-en-las-midterms-estoy-un-poco-sorprendido-pense-que-lo-hariamos-mejor.html",
+                "resumen": "El presidente de Estados Unidos trata de quitarse responsabilidad de la debacle republicana pese a que pidió votar como si él estuviera en la papeleta y recorrió 30 Estados",
+                "fecha": "Wed, 04 Nov 2026 07:09:18 GMT",
+                "titulo_original": "Trump admite la amarga derrota en las ‘midterms’: “Estoy un poco sorprendido. Pensé que lo haríamos mejor”",
+                "tags": [
+                  "#EleccionesEeUu",
+                  "#DonaldTrump",
+                  "#PartidoRepublicanoEe",
+                  "#PartidoDemócrataEe"
+                ],
+                "tema_repetido": true,
+                "cluster_tema": "Elecciones y Pugna Institucional EE.UU.",
+                "coincidencias_count": 18
               }
             ],
             "estado": "OK",
@@ -354,7 +351,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Accidente Ferroviario / Red de Transporte",
-                "coincidencias_count": 8
+                "coincidencias_count": 6
               },
               {
                 "titulo": "La despedida a Marie, Daniela, Carlos, Yassine, Fernando o Marta, nuevos identificados en la tragedia de Urda: \"Vuestra marcha deja un vacío enorme\"",
@@ -370,7 +367,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Accidente Ferroviario / Red de Transporte",
-                "coincidencias_count": 8
+                "coincidencias_count": 6
               },
               {
                 "titulo": "¿Cómo pueden informarse los familiares? Teléfonos de atención a víctimas y allegados y puntos de ayuda para los afectados por el accidente de tren de Urda (Toledo)",
@@ -386,7 +383,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Accidente Ferroviario / Red de Transporte",
-                "coincidencias_count": 8
+                "coincidencias_count": 6
               },
               {
                 "titulo": "El Ministerio de Transportes certificó, 21 días antes de la tragedia de Urda, que la red ferroviaria española estaba \"en niveles aceptables de riesgo\"",
@@ -402,7 +399,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Accidente Ferroviario / Red de Transporte",
-                "coincidencias_count": 8
+                "coincidencias_count": 6
               }
             ],
             "estado": "OK",
@@ -413,57 +410,56 @@
             "perfil": "Conservador / Tradicional",
             "noticias": [
               {
-                "titulo": "UGT se querella contra Adif por la filtración de los audios del puesto de control para «construir un relato» tras el accidente",
-                "url": "https://www.abc.es/espana/ugt-querella-adif-filtracion-grabaciones-puesto-control-20261104101809-nt.html",
-                "resumen": "La investigación sobre el accidente de Urda ha abierto la puerta a una guerra judicial por el asunto que más ha soliviantado a los trabajdores y sindicatos de Renfe: la filtración de las grabaciones y comunicaciones del Centro de Regulación y Control del tráfico ferroviario cuyo ",
-                "fecha": "Wed, 04 Nov 2026 10:59:16 +0100",
-                "titulo_original": "UGT se querella contra Adif por la filtración de los audios del puesto de control para «construir un relato» tras el accidente",
-                "tags": [
-                  "#Transporte",
-                  "#Ferrocarril",
-                  "#Accidente",
-                  "#Infraestructuras"
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "Accidente Ferroviario / Red de Transporte",
-                "coincidencias_count": 8
-              },
-              {
-                "titulo": "El régimen cubano libera a la corresponsal de ABC, Camila Acosta, tras varias horas detenida",
-                "url": "https://www.abc.es/internacional/regimen-cubano-libera-corresponsal-abc-camila-acosta-20261104085302-nt.html",
-                "resumen": "La corresponsal de ABC en la Habana, Camila Acosta, ha sido liberada después de pasar una noche arrestada en los calabozos del régimen. Según confirmó la periodista a este periódico a través de un mensaje de audio, las autoridades le requirieron su teléfono móvil para mantenerla ",
-                "fecha": "Wed, 04 Nov 2026 10:57:42 +0100",
-                "titulo_original": "El régimen cubano libera a la corresponsal de ABC, Camila Acosta, tras varias horas detenida",
+                "titulo": "Llega a Netflix la nueva película de Mario Casas y Blanca Suárez: un thriller del creador de 'Contratiempo' y 'Zeta' con Eduard Fernández",
+                "url": "https://www.abc.es/play/cine/noticias/llega-netflix-nueva-pelicula-mario-casas-blanca-20261104073000-nt.html",
+                "resumen": "Una nueva foto de Blanca Suárez y Mario Casas revolucionó las redes sociales hace unos días. Siete años después del fin de su relación, los actores han vuelto a posar juntos luciendo unas curiosas camisetas con sendos mensajes de 'I'm not Blanca Suárez' y 'I'm not Mario Casas' .L",
+                "fecha": "Wed, 04 Nov 2026 12:13:23 +0100",
+                "titulo_original": "Llega a Netflix la nueva película de Mario Casas y Blanca Suárez: un thriller del creador de 'Contratiempo' y 'Zeta' con Eduard Fernández",
                 "tags": [],
                 "tema_repetido": false,
                 "cluster_tema": "",
                 "coincidencias_count": 0
               },
               {
-                "titulo": "Los resultados de las elecciones, estado a estado",
-                "url": "https://www.abc.es/internacional/resultados-elecciones-eeuu-directo-20261103230129-nt.html",
-                "resumen": "Código Desktop .v-a--d-s-1 .v-a-p-t { color: #0e3a6f !important; } .v-a--d-s-1 { height: auto !important; min-height: unset !important; } .v-a--d-s-1 .v-a-t { color: #202020 !important; } .v-a--d-s-1 .v-a-p-t, .v-a--d-s-1 .v-a-t, .v-a--d-s-1 .v-a-s-t { color: #202020 !important; ",
-                "fecha": "Wed, 04 Nov 2026 10:55:02 +0100",
-                "titulo_original": "Los resultados de las elecciones, estado a estado",
-                "tags": [],
+                "titulo": "El Gobierno da luz verde a la firma de siete contratos de Defensa por 4.200 millones",
+                "url": "https://www.abc.es/espana/gobierno-luz-verde-firma-siete-contratos-defensa-20261103212017-nt.html",
+                "resumen": "El Gobierno ha dado luz verde en el Consejo de Ministros a un paquete de inversión en Defensa por un importe total que supera los 4.200 millones de euros y que deberá materializarse en siete contratos distintos. Las inversiones han sido aprobadas a propuesta del Ministerio de Def",
+                "fecha": "Wed, 04 Nov 2026 12:08:35 +0100",
+                "titulo_original": "El Gobierno da luz verde a la firma de siete contratos de Defensa por 4.200 millones",
+                "tags": [
+                  "#Mercados",
+                  "#Divisas",
+                  "#Finanzas"
+                ],
                 "tema_repetido": false,
                 "cluster_tema": "",
                 "coincidencias_count": 0
               },
               {
-                "titulo": "Moeve da un paso histórico y sale del negocio de exploración y producción de petróleo",
-                "url": "https://www.abc.es/economia/moeve-paso-historico-sale-negocio-exploracion-produccion-20261104104815-nt.html",
-                "resumen": "En octubre de 2024 la actual Moeve emprendió un nuevo camino al dejar atrás la mítica marca comercial de Cepsa, que tenía 95 años de historia. Desde entonces se ha embarcado en una carrera, en cierto modo contra reloj, para virar hacia tecnologías verdes. Ese último paso se ejecu",
-                "fecha": "Wed, 04 Nov 2026 10:48:15 +0100",
-                "titulo_original": "Moeve da un paso histórico y sale del negocio de exploración y producción de petróleo",
+                "titulo": "Tsunami demócrata en las 'midterms': Estados Unidos dice no a Donald Trump",
+                "url": "https://www.abc.es/internacional/tsunami-democrata-midterms-eeuu-dice-trump-20261104052925-nt.html",
+                "resumen": "«Haced como si yo estuviera en las papeletas». Ese fue el mensaje que Donald Trump lanzó a EE.UU. sobre las decisivas elecciones legislativas de este martes. Y la respuesta de los votantes a esta invitación al referéndum ha sido contundente e histórica: pese a que el recuento sig",
+                "fecha": "Wed, 04 Nov 2026 12:06:54 +0100",
+                "titulo_original": "Tsunami demócrata en las 'midterms': Estados Unidos dice no a Donald Trump",
                 "tags": [
-                  "#Minería",
-                  "#Energía",
-                  "#Recursos"
+                  "#EEUU",
+                  "#Elecciones",
+                  "#Política"
                 ],
                 "tema_repetido": true,
-                "cluster_tema": "Soberanía de Recursos, Minería y Energía",
-                "coincidencias_count": 2
+                "cluster_tema": "Elecciones y Pugna Institucional EE.UU.",
+                "coincidencias_count": 18
+              },
+              {
+                "titulo": "Tres dispositivos de Apple con hasta un -29% que siempre aciertan: de tu mochila a horas de música",
+                "url": "https://www.abc.es/favorito/apple-airtag-airpods-4-airpods-max-2-rebajados-11-11-menos-500-euros-20261102060030-nt.html",
+                "resumen": "Antes de recomendarte nada de Apple , la pregunta que importa es muy simple: ¿dónde lo vas a llevar? Un cacharro que acaba en un cajón no rinde, por bueno que parezca en la hoja de datos.Con esa idea he montado esta lista corta, que va de abajo arriba. Los Apple AirTag se cuelgan",
+                "fecha": "Wed, 04 Nov 2026 12:05:56 +0100",
+                "titulo_original": "Tres dispositivos de Apple con hasta un -29% que siempre aciertan: de tu mochila a horas de música",
+                "tags": [],
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
               }
             ],
             "estado": "OK",
@@ -487,7 +483,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Elecciones y Pugna Institucional EE.UU.",
-                "coincidencias_count": 19
+                "coincidencias_count": 18
               },
               {
                 "titulo": "Trump patalea por la derrota en las midterms y amenaza con vetar las iniciativas del Congreso dominado por los demócratas",
@@ -503,7 +499,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Elecciones y Pugna Institucional EE.UU.",
-                "coincidencias_count": 19
+                "coincidencias_count": 18
               },
               {
                 "titulo": "James Talarico gana el primer escaño en el Senado para los demócratas en Texas desde 1994: \"Hemos vencido a Goliat\"",
@@ -519,7 +515,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Elecciones y Pugna Institucional EE.UU.",
-                "coincidencias_count": 19
+                "coincidencias_count": 18
               },
               {
                 "titulo": "Resultados de las 'midterms' en EEUU 2026: el mapa de quién ha ganado las elecciones en cada estado",
@@ -535,7 +531,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Elecciones y Pugna Institucional EE.UU.",
-                "coincidencias_count": 19
+                "coincidencias_count": 18
               }
             ],
             "estado": "OK",
@@ -546,22 +542,11 @@
             "perfil": "Digital / Investigación",
             "noticias": [
               {
-                "titulo": "Detenido por presuntos tratamientos estéticos sin titulación en una clínica de Barcelona",
-                "url": "https://www.elconfidencial.com/espana/cataluna/2026-11-04/detenidos-clinica-estetica-sin-titulacion-1tps_4458588/",
-                "resumen": "Los Mossos detuvieron a un hombre por ofrecer tratamientos estéticos sin titulación; varias clientas sufrieron lesiones y se incautaron fármacos y dinero durante el registro",
-                "fecha": "2026-11-04T10:42:00+01:00",
-                "titulo_original": "Detenido por presuntos tratamientos estéticos sin titulación en una clínica de Barcelona",
-                "tags": [],
-                "tema_repetido": false,
-                "cluster_tema": "",
-                "coincidencias_count": 0
-              },
-              {
-                "titulo": "Illa cierra filas en el Parlament con su jefe de gabinete caído por un caso judicial",
-                "url": "https://www.elconfidencial.com/espana/cataluna/2026-11-04/illa-sacrifica-a-su-jefe-de-gabinete-tras-levantarse-el-secreto-de-sumario-de-su-caso_4458271/",
-                "resumen": "La Generalitat ha estado aguantando al jefe de gabinete del presidente durante siete meses. Al final ha caído cuando su causa ha avanzado y se ha levantado el secreto de sumario",
-                "fecha": "2026-11-04T10:07:00+01:00",
-                "titulo_original": "Illa cierra filas en el Parlament con su jefe de gabinete caído por un caso judicial",
+                "titulo": "Roberto Brasero, sobre la llegada del frío y las primeras nevadas a España: \"Heladas en más zonas y más intensas\"",
+                "url": "https://www.elconfidencial.com/espana/2026-11-04/prediccion-roberto-brasero-nieve-y-heladas-1qrt_4458568/",
+                "resumen": "España afronta un miércoles marcado por el contraste meteorológico, con temperaturas mínimas que podrían caer hasta los -6 ºC en zonas del interior peninsular y precipitaciones intensas en el sureste",
+                "fecha": "2026-11-04T12:04:00+01:00",
+                "titulo_original": "Roberto Brasero, sobre la llegada del frío y las primeras nevadas a España: \"Heladas en más zonas y más intensas\"",
                 "tags": [],
                 "tema_repetido": false,
                 "cluster_tema": "",
@@ -584,6 +569,17 @@
                 "resumen": "La intervención tuvo lugar de noche, a 30 millas al sureste de Formentera, con participación de Salvamento Marítimo y agentes de San José",
                 "fecha": "2026-11-04T08:24:00+01:00",
                 "titulo_original": "Rescatadas 15 personas de origen magrebí a 30 millas al sureste de Formentera",
+                "tags": [],
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
+              },
+              {
+                "titulo": "Herido grave un joven tras sufrir un atropello y recibir cinco puñaladas en Usera, en Madrid",
+                "url": "https://www.elconfidencial.com/espana/2026-11-04/herido-grave-atropello-apunalamiento-madrid-1tna-1tps_4458495/",
+                "resumen": "La víctima, de unos 25 años, fue auxiliada inicialmente por agentes, que le practicaron un torniquete, y permanece consciente en un centro sanitario de referencia",
+                "fecha": "2026-11-04T08:17:00+01:00",
+                "titulo_original": "Herido grave un joven tras sufrir un atropello y recibir cinco puñaladas en Usera, en Madrid",
                 "tags": [],
                 "tema_repetido": false,
                 "cluster_tema": "",
@@ -611,16 +607,18 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Accidente Ferroviario / Red de Transporte",
-                "coincidencias_count": 8
+                "coincidencias_count": 6
               },
               {
-                "titulo": "Moeve vende todo su negocio tradicional en Argelia al gigante indonesio Pertamina por mil millones",
-                "url": "https://www.expansion.com/empresas/2026/11/04/moeve-vende-negocio-tradicional-argelia-gigante-indonesio-pertamina-mil-millones.html",
-                "resumen": "El grupo español se convierte en la primera petrolera en salir totalmente del negocio tradicional de exploración y producción de hidrocarburos, para centrarse en energías de nueva generación. Leer",
-                "fecha": "Wed, 04 Nov 2026 09:49:56 +0100",
-                "titulo_original": "Moeve vende todo su negocio tradicional en Argelia al gigante indonesio Pertamina por mil millones",
+                "titulo": "Yolanda Díaz perfila una subida del salario mínimo del 4,9% para 2027, hasta 1.281 euros al mes",
+                "url": "https://www.expansion.com/economia/2026/11/04/yolanda-diaz-perfila-subida-salario-minimo-4-9-2027-1-281-euros-mes.html",
+                "resumen": "El Ministerio de Trabajo inicia las consultas con patronal y sindicatos tras recibir la recomendación de la Comisión Asesora. Supone elevar la cuantía en 60 euros al mes y 837 euros en el conjunto del año. Leer",
+                "fecha": "Wed, 04 Nov 2026 12:05:09 +0100",
+                "titulo_original": "Yolanda Díaz perfila una subida del salario mínimo del 4,9% para 2027, hasta 1.281 euros al mes",
                 "tags": [
-                  "#Empresas"
+                  "#GonzaloD.Velarde",
+                  "#Economía",
+                  "#YolandaDíaz"
                 ],
                 "tema_repetido": false,
                 "cluster_tema": "",
@@ -640,23 +638,21 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Elecciones y Pugna Institucional EE.UU.",
-                "coincidencias_count": 19
+                "coincidencias_count": 18
               },
               {
-                "titulo": "Trump dice que aceptará los resultados pero vetará las iniciativas demócratas",
-                "url": "https://www.expansion.com/economia/politica/2026/11/04/trump-dice-aceptara-resultados-vetara-iniciativas-democratas.html",
-                "resumen": "El presidente de Estados Unidos, Donald Trump, ha asegurado que está dispuesto a aceptar el resultado de las elecciones de medio mandato que han arrebatado el poder a los republicanos en el Congreso, pero que vetará las iniciativas demócratas. Leer",
-                "fecha": "Wed, 04 Nov 2026 06:39:36 +0100",
-                "titulo_original": "Trump dice que aceptará los resultados pero vetará las iniciativas demócratas",
+                "titulo": "Liux aspira a fabricar hasta 20.000 coches en España",
+                "url": "https://www.expansion.com/empresas/motor/2026/11/04/liux-incorpora-socio-fabricar-20-000-coches.html",
+                "resumen": "La compañía española lanzará en primavera su primer modelo, el eléctrico urbano Big. Es la única marca nueva que no llega de China. Leer",
+                "fecha": "Wed, 04 Nov 2026 01:02:56 +0100",
+                "titulo_original": "Liux aspira a fabricar hasta 20.000 coches en España",
                 "tags": [
-                  "#Política",
-                  "#EleccionesEstadosUnidos",
-                  "#EEUU",
-                  "#Elecciones"
+                  "#Motor",
+                  "#CarlosDrake"
                 ],
-                "tema_repetido": true,
-                "cluster_tema": "Elecciones y Pugna Institucional EE.UU.",
-                "coincidencias_count": 19
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
               }
             ],
             "estado": "OK",
@@ -673,24 +669,24 @@
             "perfil": "Centro-Izquierda / Referencia",
             "noticias": [
               {
-                "titulo": "Elecciones intermedias 2026: Donald Trump sufre una derrota histórica, de Texas a Michigan",
+                "titulo": "Midterms 2026 : Donald Trump subit une défaite historique, du Texas au Michigan",
                 "url": "https://www.lemonde.fr/international/article/2026/11/04/midterms-2026-donald-trump-subit-un-revers-historique_6806131_3210.html",
-                "resumen": "La brutal derrota de los republicanos está relacionada, en primer lugar, con el rechazo del presidente estadounidense, de su administración, de su guerra en Irán con Israel o de la corrupción institucionalizada. No tuvo en cuenta las preocupaciones de los votantes, a quienes les preocupa principalmente el coste de",
+                "resumen": "La défaite brutale des républicains est d’abord liée au rejet du président américain, de son administration, de sa guerre en Iran avec Israël ou de la corruption institutionnalisée. Il n’a pas tenu compte des préoccupations des électeurs, qui s’inquiètent avant tout du coût de la",
                 "fecha": "Wed, 04 Nov 2026 09:58:33 +0100",
                 "titulo_original": "Midterms 2026 : Donald Trump subit une défaite historique, du Texas au Michigan",
                 "tags": [
-                  "#OrienteMedio",
-                  "#Geopolítica",
-                  "#Seguridad"
+                  "#EEUU",
+                  "#Elecciones",
+                  "#Política"
                 ],
                 "tema_repetido": true,
-                "cluster_tema": "Conflicto Oriente Medio (Gaza / Líbano)",
-                "coincidencias_count": 6
+                "cluster_tema": "Elecciones y Pugna Institucional EE.UU.",
+                "coincidencias_count": 18
               },
               {
-                "titulo": "Elecciones intermedias de 2026: James Talarico, el demócrata cristiano que desencadena un terremoto político en Texas",
+                "titulo": "Midterms 2026 : James Talarico, le démocrate chrétien qui déclenche un séisme politique au Texas",
                 "url": "https://www.lemonde.fr/international/article/2026/11/04/midterms-2026-james-talarico-le-democrate-chretien-qui-declenche-un-seisme-politique-au-texas_6806123_3210.html",
-                "resumen": "Este seminarista de 37 años destacó su fe para seducir a los votantes moderados y ganar la batalla por el Senado, en un estado ganado por los republicanos durante décadas. Los ataques a su físico o sus pasadas declaraciones a favor de las minorías finalmente no le preocuparon.",
+                "resumen": "Ce séminariste de 37 ans a mis en avant sa foi pour séduire les électeurs modérés et remporter la bataille du Sénat, dans un Etat acquis aux républicains depuis des décennies. Les attaques contre son physique ou ses propos passés en faveur des minorités ne lui ont finalement pas",
                 "fecha": "Wed, 04 Nov 2026 08:59:28 +0100",
                 "titulo_original": "Midterms 2026 : James Talarico, le démocrate chrétien qui déclenche un séisme politique au Texas",
                 "tags": [
@@ -700,12 +696,12 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Elecciones y Pugna Institucional EE.UU.",
-                "coincidencias_count": 19
+                "coincidencias_count": 18
               },
               {
-                "titulo": "Presupuesto 2027: ante el punto muerto de los debates, Sébastien Lecornu explora la vía de las ordenanzas",
+                "titulo": "Budget 2027 : devant l’impasse des débats, Sébastien Lecornu explore la voie des ordonnances",
                 "url": "https://www.lemonde.fr/politique/article/2026/11/04/budget-2027-devant-l-impasse-des-debats-sebastien-lecornu-explore-la-voie-des-ordonnances_6805969_823448.html",
-                "resumen": "Mientras la Asamblea Nacional se prepara para rechazar la parte de ingresos del proyecto de ley de finanzas, se sospecha que el gobierno ha dejado pasar la discusión para implementar su texto inicial mediante ordenanzas, una solución que considero más segura que recurrir al 49.3.",
+                "resumen": "Alors que l’Assemblée nationale s’apprête à rejeter la partie recettes du projet de loi de finances, le gouvernement est soupçonné de laisser filer la discussion pour mettre en œuvre son texte initial par ordonnances, une solution jugée plus sûre que le recours au 49.3 par des me",
                 "fecha": "Wed, 04 Nov 2026 05:30:01 +0100",
                 "titulo_original": "Budget 2027 : devant l’impasse des débats, Sébastien Lecornu explore la voie des ordonnances",
                 "tags": [],
@@ -714,19 +710,15 @@
                 "coincidencias_count": 0
               },
               {
-                "titulo": "La ultraderecha, este movimiento que utiliza la violencia para defender una ideología de extrema derecha",
+                "titulo": "L’ultradroite, cette mouvance qui utilise la violence pour défendre une idéologie d’extrême droite",
                 "url": "https://www.lemonde.fr/idees/article/2026/11/04/l-ultradroite-cette-mouvance-qui-utilise-la-violence-pour-defendre-une-ideologie-d-extreme-droite_6806133_3232.html",
-                "resumen": "El perfil de Kevin T., autor del ataque racista en Trappes (Yvelines), pertenece a la “ultraderecha radical violenta”, confirmó la fiscalía el martes 3 de noviembre. Un fenómeno en aumento: desde 2019 se han registrado 23 procedimientos vinculados a la ultraderecha.",
+                "resumen": "Le profil de Kevin T., l’auteur de l’attentat raciste de Trappes (Yvelines), relève de « l’ultradroite radicale violente », a confirmé le parquet, mardi 3 novembre. Un phénomène en croissance : 23 procédures liées à l’ultradroite ont été recensées depuis 2019.",
                 "fecha": "Wed, 04 Nov 2026 10:00:03 +0100",
                 "titulo_original": "L’ultradroite, cette mouvance qui utilise la violence pour défendre une idéologie d’extrême droite",
-                "tags": [
-                  "#Justicia",
-                  "#Instituciones",
-                  "#Polonia"
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "Polonia",
-                "coincidencias_count": 2
+                "tags": [],
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
               }
             ],
             "estado": "OK",
@@ -737,68 +729,65 @@
             "perfil": "Conservador / Tradicional",
             "noticias": [
               {
-                "titulo": "EN VIVO - elecciones intermedias de 2026: ola azul en el Congreso, Donald Trump sufre un duro revés dos años después de su salida de la Casa Blanca",
+                "titulo": "EN DIRECT - Midterms 2026 : vague bleue au Congrès, Donald Trump subit un revers cinglant à deux ans de son départ de la Maison-Blanche",
                 "url": "https://www.lefigaro.fr/international/en-direct-midterms-2026-donald-trump-resultats-elections-americaines-etats-unis-democrates-republicains-congres-senat-chambre-des-representants-20261104",
-                "resumen": "Los demócratas firmaron el martes una victoria decisiva con una mayoría adquirida en ambas cámaras del Congreso estadounidense. Este giro, aún inimaginable hace un año, abre una era de incertidumbre para Donald Trump a dos años de su salida de la Casa Blanca.",
-                "fecha": "Wed, 04 Nov 2026 10:30:57 +0100",
+                "resumen": "Les démocrates ont signé une victoire sans appel mardi avec une majorité acquise aux deux chambres du Congrès américain. Ce basculement encore inimaginable il y a un an, ouvre une ère d’incertitude pour Donald Trump à deux ans de son départ de la Maison-Blanche.",
+                "fecha": "Wed, 04 Nov 2026 12:30:03 +0100",
                 "titulo_original": "EN DIRECT - Midterms 2026 : vague bleue au Congrès, Donald Trump subit un revers cinglant à deux ans de son départ de la Maison-Blanche",
                 "tags": [
-                  "#Internacional",
+                  "#International",
                   "#EEUU",
                   "#Elecciones",
                   "#Política"
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Elecciones y Pugna Institucional EE.UU.",
-                "coincidencias_count": 19
+                "coincidencias_count": 18
               },
               {
-                "titulo": "Las elecciones intermedias de 2026: un senador musulmán, gobernadores negros, un senador abiertamente gay... Las primicias históricas de las elecciones",
-                "url": "https://www.lefigaro.fr/international/midterms-2026-une-gouverneure-noire-un-senateur-ouvertement-gay-les-premieres-historiques-du-scrutin-20261104",
-                "resumen": "Más allá de la batalla entre demócratas y republicanos, las elecciones de mitad de período estuvieron marcadas por varias victorias históricas. Desde el Congreso hasta puestos de gobernador, varios candidatos minoritarios han roto barreras políticas y simbólicas.",
-                "fecha": "Wed, 04 Nov 2026 08:49:39 +0100",
-                "titulo_original": "Midterms 2026 : un sénateur musulman, des gouverneurs noirs, un sénateur ouvertement gay… Les premières historiques du scrutin",
+                "titulo": "«En France aussi, nous le ferons» : la gauche et LFI voient dans les résultats des midterms un espoir pour la présidentielle",
+                "url": "https://www.lefigaro.fr/elections/presidentielles/en-france-aussi-nous-le-ferons-la-gauche-et-lfi-voient-dans-les-resultats-des-midterms-un-espoir-pour-la-presidentielle-20261104",
+                "resumen": "En remportant la majorité au Sénat et à la Chambre des représentants, les démocrates infligent un revers majeur à Donald Trump. De ce côté-ci de l’Atlantique, les partis cherchent déjà les leçons à en tirer pour 2027.",
+                "fecha": "Wed, 04 Nov 2026 12:25:44 +0100",
+                "titulo_original": "«En France aussi, nous le ferons» : la gauche et LFI voient dans les résultats des midterms un espoir pour la présidentielle",
                 "tags": [
-                  "#Internacional",
+                  "#Présidentielle",
                   "#EEUU",
                   "#Elecciones",
                   "#Política"
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Elecciones y Pugna Institucional EE.UU.",
-                "coincidencias_count": 19
+                "coincidencias_count": 18
               },
               {
-                "titulo": "Mitad de mandato 2026: Donald Trump felicita a los demócratas por su “buen trabajo” y se declara “completamente preparado para aceptar estos resultados”",
-                "url": "https://www.lefigaro.fr/international/midterms-2026-face-a-la-vague-democrate-trump-se-dit-tout-a-fait-dispose-a-accepter-ces-resultats-20261104",
-                "resumen": "El presidente estadounidense, sin embargo, se niega a asumir la responsabilidad del revés de su bando, argumentando que \"no estaba en las papeletas\".",
-                "fecha": "Wed, 04 Nov 2026 09:04:53 +0100",
-                "titulo_original": "Midterms 2026 : Donald Trump félicite les démocrates pour leur «bon boulot», se déclarant «tout à fait disposé à accepter ces résultats»",
+                "titulo": "Iran : le guide suprême estime que ceux qui s’attendent à un changement de politique des États-Unis «se trompent lourdement»",
+                "url": "https://www.lefigaro.fr/international/iran-le-guide-supreme-estime-que-ceux-qui-s-attendent-a-un-changement-de-politique-des-etats-unis-se-trompent-lourdement-20261104",
+                "resumen": "Mojtaba Khamenei a averti mercredi que la guerre «serait beaucoup plus étendue» si les États-Unis reprenaient leurs frappes contre l’Iran. Il n’est toujours pas apparu en public depuis son accession au pouvoir en mars.",
+                "fecha": "Wed, 04 Nov 2026 12:27:38 +0100",
+                "titulo_original": "Iran : le guide suprême estime que ceux qui s’attendent à un changement de politique des États-Unis «se trompent lourdement»",
                 "tags": [
-                  "#Internacional",
-                  "#EEUU",
-                  "#Elecciones",
-                  "#Política"
+                  "#International"
                 ],
-                "tema_repetido": true,
-                "cluster_tema": "Elecciones y Pugna Institucional EE.UU.",
-                "coincidencias_count": 19
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
               },
               {
-                "titulo": "Elecciones intermedias de 2026: el demócrata Abdul El-Sayed gana la carrera senatorial en Michigan y se convierte en el primer senador musulmán de Estados Unidos",
-                "url": "https://www.lefigaro.fr/international/midterms-2026-le-democrate-abdul-el-sayed-remporte-la-senatoriale-dans-le-michigan-et-devient-le-premier-senateur-musulman-des-etats-unis-20261104",
-                "resumen": "El doctor Abdul El-Sayed, figura de la izquierda demócrata, venció al republicano Mike Rogers en Michigan, según varios medios estadounidenses. Se convertirá en el primer musulmán en ocupar un puesto en el Senado de los Estados Unidos.",
-                "fecha": "Wed, 04 Nov 2026 09:55:08 +0100",
-                "titulo_original": "Midterms 2026 : le démocrate Abdul El-Sayed remporte la sénatoriale dans le Michigan et devient le premier sénateur musulman des États-Unis",
+                "titulo": "Midterms 2026 : comment fonctionne le droit de veto, que Donald Trump promet d’utiliser contre certains textes démocrates ?",
+                "url": "https://www.lefigaro.fr/international/midterms-2026-comment-fonctionne-le-droit-de-veto-que-donald-trump-promet-d-utiliser-contre-certains-textes-democrates-20261104",
+                "resumen": "DÉCRYPTAGE - Alors que les républicains viennent d’essuyer une véritable déroute, le 47e président des États-Unis a affirmé qu’il mettrait «son veto à tout».",
+                "fecha": "Wed, 04 Nov 2026 12:13:04 +0100",
+                "titulo_original": "Midterms 2026 : comment fonctionne le droit de veto, que Donald Trump promet d’utiliser contre certains textes démocrates ?",
                 "tags": [
-                  "#Internacional",
+                  "#International",
                   "#EEUU",
                   "#Elecciones",
                   "#Política"
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Elecciones y Pugna Institucional EE.UU.",
-                "coincidencias_count": 19
+                "coincidencias_count": 18
               }
             ],
             "estado": "OK",
@@ -808,6 +797,22 @@
             "medio": "France 24",
             "perfil": "Internacional / Geopolítico",
             "noticias": [
+              {
+                "titulo": "Del “veto” a la “aceptación”: ¿cómo gobernará Trump con el Congreso en manos de los demócratas?",
+                "url": "https://www.france24.com/es/ee-uu-y-canad%C3%A1/20261104-del-veto-a-la-aceptaci%C3%B3n-c%C3%B3mo-gobernar%C3%A1-trump-con-el-congreso-en-manos-de-los-dem%C3%B3cratas",
+                "resumen": "La contundente victoria demócrata en las elecciones de medio término, que permitirá a la bancada azul recuperar el control tanto de la Cámara de Representantes como del Senado, abre una nueva etapa de confrontación política para Donald Trump. El presidente ya ha advertido que uti",
+                "fecha": "Wed, 04 Nov 2026 10:06:36 GMT",
+                "titulo_original": "Del “veto” a la “aceptación”: ¿cómo gobernará Trump con el Congreso en manos de los demócratas?",
+                "tags": [
+                  "#Ee.Uu.Canadá",
+                  "#EEUU",
+                  "#Elecciones",
+                  "#Política"
+                ],
+                "tema_repetido": true,
+                "cluster_tema": "Elecciones y Pugna Institucional EE.UU.",
+                "coincidencias_count": 18
+              },
               {
                 "titulo": "Los demócratas arrebatan el control del Congreso a los republicanos",
                 "url": "https://www.france24.com/es/video/20261104-los-dem%C3%B3cratas-arrebatan-el-control-del-congreso-a-los-republicanos",
@@ -821,7 +826,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Elecciones y Pugna Institucional EE.UU.",
-                "coincidencias_count": 19
+                "coincidencias_count": 18
               },
               {
                 "titulo": "Abdul El-Sayed, primer senador musulmán de EE. UU.: \"Donald Trump, usted podrá llamarme senador\"",
@@ -836,7 +841,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Elecciones y Pugna Institucional EE.UU.",
-                "coincidencias_count": 19
+                "coincidencias_count": 18
               },
               {
                 "titulo": "James Talarico se convierte en el primer senador demócrata por Texas tras 38 años",
@@ -848,21 +853,6 @@
                 "tema_repetido": false,
                 "cluster_tema": "",
                 "coincidencias_count": 0
-              },
-              {
-                "titulo": "Juan Manfredi: \"Pese al control demócrata del Congreso, Trump seguirá gobernando por decreto\"",
-                "url": "https://www.france24.com/es/video/20261104-juan-manfredi-pese-al-control-dem%C3%B3crata-del-congreso-trump-seguir%C3%A1-gobernando-por-decreto",
-                "resumen": "El presidente de Estados Unidos, Donald Trump, perdió este 3 de noviembre el control republicano del Congreso, tras la victoria del Partido Demócrata tanto en el Senado como en la Cámara de Representantes, así como en varias gobernaciones. Ahora, las dudas giran en torno a cómo c",
-                "fecha": "Wed, 04 Nov 2026 09:18:41 GMT",
-                "titulo_original": "Juan Manfredi: \"Pese al control demócrata del Congreso, Trump seguirá gobernando por decreto\"",
-                "tags": [
-                  "#EEUU",
-                  "#Elecciones",
-                  "#Política"
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "Elecciones y Pugna Institucional EE.UU.",
-                "coincidencias_count": 19
               }
             ],
             "estado": "OK",
@@ -879,61 +869,62 @@
             "perfil": "Internacional / Público",
             "noticias": [
               {
-                "titulo": "EE.UU. elecciones intermedias: los demócratas capturan ambas cámaras del Congreso",
+                "titulo": "Spaniens Verkehrsminister tritt nach Zugunglück zurück",
+                "url": "https://www.dw.com/de/spaniens-verkehrsminister-tritt-nach-zugunglück-zurück/a-79852421?maca=de-rss-de-all-1119-xml-mrss",
+                "resumen": "Nach der Zugkatastrophe mit 69 Toten hatte der spanische Verkehrsminister Óscar Puente zunächst wiederholt ausgeschlossen, sein Amt aufzugeben. Nun änderte er seine Haltung und sprach von \"politischer Würde\".",
+                "fecha": "Wed, 4 Nov 2026 11:13:00 GMT",
+                "titulo_original": "Spaniens Verkehrsminister tritt nach Zugunglück zurück",
+                "tags": [
+                  "#Aktuelles",
+                  "#Transporte",
+                  "#Ferrocarril",
+                  "#Accidente"
+                ],
+                "tema_repetido": true,
+                "cluster_tema": "Accidente Ferroviario / Red de Transporte",
+                "coincidencias_count": 6
+              },
+              {
+                "titulo": "Deutschland probt Krisenszenario bei Megahitze",
+                "url": "https://www.dw.com/de/deutschland-probt-krisenszenario-bei-megahitze/a-79851353?maca=de-rss-de-all-1119-xml-mrss",
+                "resumen": "Fünf Dürrejahre hintereinander - und dann noch eine Hitzewelle mit Temperaturen bis zu 45 Grad: Diese fiktive Lage ist Ausgangspunkt einer Großsimulation von rund 180 Behörden, Institutionen und Firmen.",
+                "fecha": "Wed, 4 Nov 2026 10:09:00 GMT",
+                "titulo_original": "Deutschland probt Krisenszenario bei Megahitze",
+                "tags": [
+                  "#Aktuelles"
+                ],
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
+              },
+              {
+                "titulo": "Kinderbuchautor Janosch ist tot",
+                "url": "https://www.dw.com/de/kinderbuchautor-janosch-ist-tot/a-79851530?maca=de-rss-de-all-1119-xml-mrss",
+                "resumen": "Tiger, Bär und Tigerente: Mit seinen Kultfiguren wurde der Kinderbuchautor und Illustrator Janosch weltberühmt. Nun ist er im Alter von 95 Jahren gestorben.",
+                "fecha": "Wed, 4 Nov 2026 09:45:00 GMT",
+                "titulo_original": "Kinderbuchautor Janosch ist tot",
+                "tags": [
+                  "#Kultur"
+                ],
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
+              },
+              {
+                "titulo": "US-Midterms: Demokraten erobern beide Kammern im Kongress",
                 "url": "https://www.dw.com/de/us-midterms-demokraten-erobern-beide-kammern-im-kongress/a-79848805?maca=de-rss-de-all-1119-xml-mrss",
-                "resumen": "La mayoría de los estadounidenses votó de azul en las elecciones de mitad de período. Los demócratas obtuvieron la mayoría en ambas cámaras del Congreso. Los republicanos del presidente estadounidense Donald Trump están viviendo un desastre.",
+                "resumen": "Die USA haben bei den Zwischenwahlen mehrheitlich blau gewählt. In beiden Kammern des Kongresses erzielten die Demokraten die Mehrheit. Die Republikaner von US-Präsident Donald Trump erleben ein Desaster.",
                 "fecha": "Wed, 4 Nov 2026 09:39:00 GMT",
                 "titulo_original": "US-Midterms: Demokraten erobern beide Kammern im Kongress",
                 "tags": [
+                  "#Aktuelles",
                   "#EEUU",
                   "#Elecciones",
                   "#Política"
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Elecciones y Pugna Institucional EE.UU.",
-                "coincidencias_count": 19
-              },
-              {
-                "titulo": "Wawira Njiru, la encargada del almuerzo escolar de Kenia, recibe el Premio Alemán de África",
-                "url": "https://www.dw.com/de/wawira-njiru-kenias-frau-für-schulessen-erhält-den-deutschen-afrika-preis/a-79655695?maca=de-rss-de-all-1119-xml-mrss",
-                "resumen": "Desde una pequeña recaudación de fondos hasta una gran empresa social, el programa de alimentación escolar de Wawira Njiru en Kenia tiene más éxito de lo que jamás imaginó. Por ello recibe el Premio Alemán de África.",
-                "fecha": "Wed, 4 Nov 2026 08:50:00 GMT",
-                "titulo_original": "Wawira Njiru - Kenias Frau für Schulessen erhält den Deutschen Afrika-Preis",
-                "tags": [
-                  "#Roncha"
-                ],
-                "tema_repetido": false,
-                "cluster_tema": "",
-                "coincidencias_count": 0
-              },
-              {
-                "titulo": "Los demócratas estadounidenses conquistan la Cámara de Representantes y el Senado - Pacto de noticias: Lo más importante en resumen",
-                "url": "https://www.dw.com/de/us-demokraten-erobern-repräsentantenhaus-und-senat-news-kompakt-das-wichtigste-kurz-gefasst/a-79849813?maca=de-rss-de-all-1119-xml-mrss",
-                "resumen": "Grave revés para el presidente estadounidense Trump: en las elecciones al Congreso los demócratas recuperaron la Cámara de Representantes y el Senado. En España dimite el ministro de Transportes Puente. El resumen informativo de DW.",
-                "fecha": "Wed, 4 Nov 2026 08:28:00 GMT",
-                "titulo_original": "US-Demokraten erobern Repräsentantenhaus und Senat - News kompakt: Das Wichtigste kurz gefasst",
-                "tags": [
-                  "#Transporte",
-                  "#Ferrocarril",
-                  "#Accidente",
-                  "#Infraestructuras"
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "Accidente Ferroviario / Red de Transporte",
-                "coincidencias_count": 8
-              },
-              {
-                "titulo": "25 años de Harry Potter en el cine: Desde el estreno mundial en Leicester Square, la polémica sobre J.K. Rowling hasta la nueva edición como serie en streaming.",
-                "url": "https://www.dw.com/de/25-jahre-harry-potter-im-kino-von-der-weltpremiere-am-leicester-square-die-kontroverse-über-j-k-rowling-bis-zur-neuauflage-als-streaming-serie/a-79841297?maca=de-rss-de-all-1119-xml-mrss",
-                "resumen": "En 2001, “Harry Potter y la piedra filosofal” se estrenó en los cines y se convirtió en un éxito mundial. 25 años después, el remake está a punto de comenzar como una serie en streaming. La tensión es alta, J.K. Rowling sigue siendo controvertida.",
-                "fecha": "Wed, 4 Nov 2026 08:21:00 GMT",
-                "titulo_original": "25 Jahre Harry Potter im Kino: Von der Weltpremiere am Leicester Square, die Kontroverse über J.K. Rowling bis zur Neuauflage als Streaming-Serie.",
-                "tags": [
-                  "#Cultura"
-                ],
-                "tema_repetido": false,
-                "cluster_tema": "",
-                "coincidencias_count": 0
+                "coincidencias_count": 18
               }
             ],
             "estado": "OK",
@@ -944,11 +935,11 @@
             "perfil": "Investigación / Centro",
             "noticias": [
               {
-                "titulo": "John Frieda: el peluquero estrella muere a los 75 años",
-                "url": "https://www.spiegel.de/panorama/leute/john-frieda-starfriseur-mit-75-jahren-gestorben-a-f5281ce4-cc55-4a3b-b9f6-ac3faa0a2ada#ref=rss",
-                "resumen": "Entre sus clientes se encontraban Madonna, Nicole Kidman y Diana: ahora ha fallecido el peluquero John Frieda. Tenía 75 años.",
-                "fecha": "Wed, 4 Nov 2026 10:56:00 +0100",
-                "titulo_original": "John Frieda: Starfriseur mit 75 Jahren gestorben",
+                "titulo": "München: Totes Kind in Hotelzimmer entdeckt",
+                "url": "https://www.spiegel.de/panorama/muenchen-totes-kind-in-hotelzimmer-entdeckt-a-1ad52be3-747c-447a-b038-91f1d995bfbf#ref=rss",
+                "resumen": "In einem Münchner Hotel ist ein lebloses Kind gefunden worden. Die Mordkomission ermittelt.",
+                "fecha": "Wed, 4 Nov 2026 12:19:00 +0100",
+                "titulo_original": "München: Totes Kind in Hotelzimmer entdeckt",
                 "tags": [
                   "#Panorama"
                 ],
@@ -957,49 +948,49 @@
                 "coincidencias_count": 0
               },
               {
-                "titulo": "Receta de stroganoff con champiñones y ñoquis: rápida y abundante",
-                "url": "https://www.spiegel.de/effilee/rezept-fuer-stroganoff-mit-pilzen-und-gnocchi-schnell-und-herzhaft-a-fffbdca3-32f2-4ef8-a59a-39b1b5a713c5#ref=rss",
-                "resumen": "Si no quieres matarte con setas silvestres mal identificadas, normalmente recurres a las setas cultivadas. Con la técnica adecuada, también saben muy bien. Siempre y cuando sigas este truco.",
-                "fecha": "Wed, 4 Nov 2026 10:41:00 +0100",
-                "titulo_original": "Rezept für Stroganoff mit Pilzen und Gnocchi – schnell und herzhaft",
+                "titulo": "Midterms in den USA: Trumps teure Tankquittung",
+                "url": "https://www.spiegel.de/mobilitaet/auto/midterms-in-den-usa-trumps-teure-tankquittung-a-d7fa3f27-7c36-48f8-9a5e-eee0d41198fb#ref=rss",
+                "resumen": "Das teure Benzin hat die US-Wähler erzürnt wie kein anderes Thema, auch deshalb scheiterten die Republikaner auf ganzer Linie. Besonders instinktlos wirkte ein Satz von Donald Trump bei einem Termin mit Audi-Chef Gernot Döllner.",
+                "fecha": "Wed, 4 Nov 2026 12:17:00 +0100",
+                "titulo_original": "Midterms in den USA: Trumps teure Tankquittung",
                 "tags": [
-                  "#Effilee"
+                  "#Mobilität",
+                  "#EEUU",
+                  "#Elecciones",
+                  "#Política"
+                ],
+                "tema_repetido": true,
+                "cluster_tema": "Elecciones y Pugna Institucional EE.UU.",
+                "coincidencias_count": 18
+              },
+              {
+                "titulo": "Energiepreise: Deutsche kaufen 38 Prozent weniger Heizöl",
+                "url": "https://www.spiegel.de/wirtschaft/energiepreise-deutsche-kaufen-38-prozent-weniger-heizoel-a-0eef58fb-5baa-4c21-8938-98aca25e9769#ref=rss",
+                "resumen": "Deutschland wird in diesem Jahr wohl weniger Energie verbrauchen als zuvor, auch private Haushalte halten sich zurück. Einige fossile Energieträger finden trotzdem mehr Absatz.",
+                "fecha": "Wed, 4 Nov 2026 12:16:00 +0100",
+                "titulo_original": "Energiepreise: Deutsche kaufen 38 Prozent weniger Heizöl",
+                "tags": [
+                  "#Wirtschaft"
                 ],
                 "tema_repetido": false,
                 "cluster_tema": "",
                 "coincidencias_count": 0
               },
               {
-                "titulo": "Estados Unidos: Abdul al-Sayed molesta a JD Vance",
-                "url": "https://www.spiegel.de/ausland/midterms-usa-abdul-al-sayed-aergert-jd-vance-a-c66dada1-b09b-4e91-83ea-247deba42ba8#ref=rss",
-                "resumen": "Los demócratas en Estados Unidos están de celebración: han logrado una mayoría en ambas cámaras del parlamento y han logrado victorias sorprendentes. Primeras declaraciones de los ganadores en el vídeo.",
-                "fecha": "Wed, 4 Nov 2026 10:32:00 +0100",
-                "titulo_original": "Midterms USA: Abdul al-Sayed ärgert JD Vance",
-                "tags": [
-                  "#Extranjero",
-                  "#EEUU",
-                  "#Elecciones",
-                  "#Política"
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "Elecciones y Pugna Institucional EE.UU.",
-                "coincidencias_count": 19
-              },
-              {
-                "titulo": "Las elecciones intermedias de 2026 en EE. UU.: Donald Trump castigado: los demócratas tienen la mayoría de las gobernaciones por primera vez en 15 años",
+                "titulo": "Midterms 2026 in den USA: Stichwahlen in Louisiana nötig – Endergebnis der »General Elections« daher nicht vor dem 12. Dezember",
                 "url": "https://www.spiegel.de/ausland/midterms-2026-in-den-usa-donald-trump-abgestraft-demokraten-erobern-laut-prognosen-mehrheit-im-repraesentantenhaus-und-im-senat-abdul-el-sayed-gewinnt-michigan-a-c6a7c5b3-24a1-4e70-a78e-067745ed4103#ref=rss",
-                "resumen": "Derrota general del presidente estadounidense Donald Trump: los demócratas no sólo ganaron ambas cámaras del Congreso en las elecciones intermedias, sino que también ganaron las elecciones para gobernador. Y: Abdul El-Sayed se convierte en el primer musulmán en ingresar al Senado. El análisis en vivo.",
-                "fecha": "Wed, 4 Nov 2026 10:22:00 +0100",
-                "titulo_original": "Midterms 2026 in den USA: Donald Trump abgestraft - Demokraten haben erstmals seit 15 Jahren wieder die Mehrheit der Gouverneursposten",
+                "resumen": "Die Demokraten holten bei den Midterms nicht nur beide Kammern des Kongresses, auch bei den Gouverneurswahlen marschierten sie durch. Dennoch wird das Endergebnis auf sich warten lassen. Die Liveanalyse.",
+                "fecha": "Wed, 4 Nov 2026 12:07:00 +0100",
+                "titulo_original": "Midterms 2026 in den USA: Stichwahlen in Louisiana nötig – Endergebnis der »General Elections« daher nicht vor dem 12. Dezember",
                 "tags": [
-                  "#Extranjero",
+                  "#Ausland",
                   "#EEUU",
                   "#Elecciones",
                   "#Política"
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Elecciones y Pugna Institucional EE.UU.",
-                "coincidencias_count": 19
+                "coincidencias_count": 18
               }
             ],
             "estado": "OK",
@@ -1010,60 +1001,56 @@
             "perfil": "Público / ARD",
             "noticias": [
               {
-                "titulo": "Muere el ilustrador y autor de libros infantiles Janosch a los 95 años",
-                "url": "https://www.tagesschau.de/kultur/janosch-gestorben-100.html",
-                "resumen": "Historias ilustradas con cariño y corazón: esa es la marca registrada de los libros infantiles de Janosch. Horst Eckert, como se llama realmente el ilustrador y escritor, ha fallecido en Tenerife a la edad de 95 años.",
-                "fecha": "Wed, 04 Nov 2026 10:57:45 +0100",
-                "titulo_original": "Kinderbuchautor und Illustrator Janosch mit 95 Jahren gestorben",
+                "titulo": "Midterms: Eine historische Wahl mit vielen Premieren",
+                "url": "https://www.tagesschau.de/ausland/amerika/midterms-historische-siege-100.html",
+                "resumen": "Die erste schwarze Gouverneurin, eine indigene Senatorin und demokratische Siege in republikanischen Hochburgen wie Kansas oder Texas: Den Demokraten gelang bei den Midterms vielerorts Historisches - eine Auswahl.",
+                "fecha": "Wed, 04 Nov 2026 12:23:58 +0100",
+                "titulo_original": "Midterms: Eine historische Wahl mit vielen Premieren",
+                "tags": [
+                  "#EEUU",
+                  "#Elecciones",
+                  "#Política"
+                ],
+                "tema_repetido": true,
+                "cluster_tema": "Elecciones y Pugna Institucional EE.UU.",
+                "coincidencias_count": 18
+              },
+              {
+                "titulo": "Deutsche Reaktionen auf Midterms: Gratulation und gedämpfte Erwartungen",
+                "url": "https://www.tagesschau.de/inland/innenpolitik/reaktionen-deutschland-midterms-100.html",
+                "resumen": "Deutsche Politiker haben die Niederlage der Republikaner bei den US-Midterms begrüßt, dämpfen aber die Erwartung an eine andere Außenpolitik von Präsident Trump. Eine SPD-Politikerin warnt vor einer \"wütenden Ente\" im Weißen Haus.",
+                "fecha": "Wed, 04 Nov 2026 12:18:19 +0100",
+                "titulo_original": "Deutsche Reaktionen auf Midterms: Gratulation und gedämpfte Erwartungen",
+                "tags": [
+                  "#EEUU",
+                  "#Elecciones",
+                  "#Política"
+                ],
+                "tema_repetido": true,
+                "cluster_tema": "Elecciones y Pugna Institucional EE.UU.",
+                "coincidencias_count": 18
+              },
+              {
+                "titulo": "Zum Tod des Illustrators Janosch: Vom Glück, ein bisschen anders zu sein",
+                "url": "https://www.tagesschau.de/kultur/illustrator-janosch-tod-100.html",
+                "resumen": "Er erschuf den kleinen Tiger und den kleinen Bären, ließ Onkel Popov fliegen und lehrte Millionen Kindern Schnuddelbuddels Lebensweisheit: \"Wer das hier liest, braucht sich vor nichts mehr zu fürchten.\" Nun ist Janosch gestorben. Von J. Rieger.",
+                "fecha": "Wed, 04 Nov 2026 12:15:03 +0100",
+                "titulo_original": "Zum Tod des Illustrators Janosch: Vom Glück, ein bisschen anders zu sein",
                 "tags": [],
                 "tema_repetido": false,
                 "cluster_tema": "",
                 "coincidencias_count": 0
               },
               {
-                "titulo": "Informe de mercado: los inversores del DAX reaccionan con calma",
-                "url": "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-boerse-118.html",
-                "resumen": "Tras la victoria electoral de los demócratas en EE.UU., los inversores rápidamente volvieron a la normalidad. El DAX está compensando las pérdidas previas a la apertura del mercado. La atención se centra en el progreso de la temporada de informes.",
-                "fecha": "Wed, 04 Nov 2026 10:46:01 +0100",
-                "titulo_original": "Marktbericht: DAX-Anleger reagieren gelassen",
-                "tags": [
-                  "#EEUU",
-                  "#Elecciones",
-                  "#Política"
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "Elecciones y Pugna Institucional EE.UU.",
-                "coincidencias_count": 19
-              },
-              {
-                "titulo": "El presidente israelí Herzog inicia consultas para formar un gobierno",
-                "url": "https://www.tagesschau.de/ausland/asien/israel-wahl-konsultationen-herzog-100.html",
-                "resumen": "Hoy comienzan en Israel consultas cruciales sobre la formación de un nuevo gobierno. Después de las elecciones parlamentarias, el país se encuentra en un punto muerto. El presidente Herzog pide compromisos históricos. Por Julio Segador.",
-                "fecha": "Wed, 04 Nov 2026 10:43:26 +0100",
-                "titulo_original": "Israels Präsident Herzog startet Konsultationen zur Regierungsbildung",
-                "tags": [
-                  "#OrienteMedio",
-                  "#Geopolítica",
-                  "#Seguridad"
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "Conflicto Oriente Medio (Gaza / Líbano)",
-                "coincidencias_count": 6
-              },
-              {
-                "titulo": "Blog en vivo sobre las elecciones intermedias: ++ Pistorius felicita a los demócratas estadounidenses por la “victoria histórica” ++",
-                "url": "https://www.tagesschau.de/newsticker/liveblog-midterms-2026-100.html",
-                "resumen": "El ministro federal de Defensa, Pistorius, felicitó a los demócratas por una “victoria histórica” en el Congreso. En Michigan, el demócrata El-Sayed se impuso y se convirtió en el primer senador musulmán. Las novedades en el blog en vivo.",
-                "fecha": "Wed, 04 Nov 2026 11:02:06 +0100",
-                "titulo_original": "Liveblog zu den Midterms: ++ Pistorius gratuliert US-Demokraten zu \"historischem Sieg\" ++",
-                "tags": [
-                  "#EEUU",
-                  "#Elecciones",
-                  "#Política"
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "Elecciones y Pugna Institucional EE.UU.",
-                "coincidencias_count": 19
+                "titulo": "Inflation im Euroraum steigt auf 4,0 Prozent",
+                "url": "https://www.tagesschau.de/wirtschaft/konjunktur/inflation-eurozone-oktober-102.html",
+                "resumen": "Die Teuerung in der Eurozone ist im Oktober auf 4,0 Prozent gestiegen. Das ist die höchste Inflationsrate seit September 2023. Besonders die hohen Energiepreise sind Treiber der aktuellen Entwicklung.",
+                "fecha": "Wed, 04 Nov 2026 12:12:00 +0100",
+                "titulo_original": "Inflation im Euroraum steigt auf 4,0 Prozent",
+                "tags": [],
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
               }
             ],
             "estado": "OK",
@@ -1080,9 +1067,9 @@
             "perfil": "Público / Global",
             "noticias": [
               {
-                "titulo": "Carolina del Sur elige senador demócrata por primera vez en casi tres décadas",
+                "titulo": "South Carolina elects Democratic senator for first time in almost three decades",
                 "url": "https://www.bbc.co.uk/news/articles/cjy56z440nl9o?at_medium=RSS&at_campaign=rss",
-                "resumen": "Se prevé que Annie Andrews derrote a Darline Graham, quien fue elegida personalmente por el presidente Trump para ocupar el asiento de su hermano después de su muerte.",
+                "resumen": "Annie Andrews is projected to defeat Darline Graham, who was handpicked by President Trump to take her brother's seat after his death.",
                 "fecha": "Wed, 04 Nov 2026 07:32:02 GMT",
                 "titulo_original": "South Carolina elects Democratic senator for first time in almost three decades",
                 "tags": [
@@ -1092,27 +1079,23 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Elecciones y Pugna Institucional EE.UU.",
-                "coincidencias_count": 19
+                "coincidencias_count": 18
               },
               {
-                "titulo": "James Talarico se convierte en el primer demócrata en ganar un escaño en el Senado de Texas desde 1988",
+                "titulo": "James Talarico becomes first Democrat to win Texas Senate seat since 1988",
                 "url": "https://www.bbc.co.uk/news/articles/c6n8dnn09jg7o?at_medium=RSS&at_campaign=rss",
-                "resumen": "\"Esto no fue sólo un tsunami, no sólo un referéndum, sino que fue un baño de sangre\", dijo un experto a la BBC sobre las históricas victorias de los demócratas en Texas.",
+                "resumen": "\"This wasn't just a tsunami, not just a referendum, but this was a bloodbath,\" one expert told the BBC on Democrats' historic wins in Texas.",
                 "fecha": "Wed, 04 Nov 2026 05:39:36 GMT",
                 "titulo_original": "James Talarico becomes first Democrat to win Texas Senate seat since 1988",
-                "tags": [
-                  "#EEUU",
-                  "#Elecciones",
-                  "#Política"
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "Elecciones y Pugna Institucional EE.UU.",
-                "coincidencias_count": 19
+                "tags": [],
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
               },
               {
-                "titulo": "Los republicanos de Florida se defienden de los demócratas mientras el estado elige al primer gobernador negro",
+                "titulo": "Florida Republicans fend off Democrats as state elects first black governor",
                 "url": "https://www.bbc.co.uk/news/articles/c9146d88pl32o?at_medium=RSS&at_campaign=rss",
-                "resumen": "El republicano Byron Donalds, que contó con el respaldo del presidente Donald Trump, será el primer gobernador negro de Florida.",
+                "resumen": "Republican Byron Donalds, who was backed by President Donald Trump, will be the first black governor of Florida.",
                 "fecha": "Wed, 04 Nov 2026 07:12:21 GMT",
                 "titulo_original": "Florida Republicans fend off Democrats as state elects first black governor",
                 "tags": [
@@ -1122,13 +1105,13 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Elecciones y Pugna Institucional EE.UU.",
-                "coincidencias_count": 19
+                "coincidencias_count": 18
               },
               {
-                "titulo": "El principal negociador de Irán dice que los estadounidenses votaron \"no a la guerra\"",
+                "titulo": "Iran's chief negotiator says Americans voted 'no to war'",
                 "url": "https://www.bbc.co.uk/news/articles/c6d934npl9y8o?at_medium=RSS&at_campaign=rss",
-                "resumen": "\"Respaldamos este mensaje\", dice Mohammed Bagher Ghalibaf, mientras Donald Trump reconoce el papel del conflicto en la derrota del Partido Republicano.",
-                "fecha": "Wed, 04 Nov 2026 09:40:35 GMT",
+                "resumen": "\"We endorse this message,\" Mohammed Bagher Ghalibaf says, as Donald Trump acknowledges the conflict's role in the Republican Party's defeat.",
+                "fecha": "Wed, 04 Nov 2026 10:11:39 GMT",
                 "titulo_original": "Iran's chief negotiator says Americans voted 'no to war'",
                 "tags": [
                   "#EEUU",
@@ -1137,7 +1120,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Elecciones y Pugna Institucional EE.UU.",
-                "coincidencias_count": 19
+                "coincidencias_count": 18
               }
             ],
             "estado": "OK",
@@ -1148,64 +1131,64 @@
             "perfil": "Progresista / Investigación",
             "noticias": [
               {
-                "titulo": "El ANC se enfrenta a la ira por los deficientes servicios mientras los sudafricanos votan en las elecciones locales",
+                "titulo": "ANC faces anger over poor services as South Africans vote in local elections",
                 "url": "https://www.theguardian.com/world/2026/nov/04/anc-south-africa-local-elections-water-outages-power-cuts",
-                "resumen": "Se espera que el partido obtenga menos de un tercio de los votos en medio de la frustración por los cortes de agua y de energía El Congreso Nacional Africano está en camino de obtener un resultado contundente en las elecciones locales de Sudáfrica el miércoles mientras los votantes acuden a las urnas en medio de un profundo descontento por los cortes de agua.",
+                "resumen": "Party expected to get less than a third of the vote amid frustration over water outages and power cuts The African National Congress is on course for a bruising result in South Africa’s local elections on Wednesday as voters go to the polls amid deep discontent over water outages",
                 "fecha": "Wed, 04 Nov 2026 04:00:23 GMT",
                 "titulo_original": "ANC faces anger over poor services as South Africans vote in local elections",
                 "tags": [
-                  "#Sudáfrica",
-                  "#Anc(congresoNacional",
-                  "#África",
-                  "#Mundiales"
+                  "#SouthAfrica",
+                  "#Anc(africanNational",
+                  "#Africa",
+                  "#WorldNews"
                 ],
                 "tema_repetido": true,
-                "cluster_tema": "Elecciones y Pugna Institucional EE.UU.",
-                "coincidencias_count": 19
+                "cluster_tema": "SouthAfrica",
+                "coincidencias_count": 3
               },
               {
-                "titulo": "Sumideros, tierras marcadas y chivos expiatorios: el flagelo de la minería ilegal de oro en Johannesburgo",
+                "titulo": "Sinkholes, scarred land and scapegoats: the scourge of illegal gold mining in Johannesburg",
                 "url": "https://www.theguardian.com/business/2026/oct/30/sinkholes-scarred-land-scapegoats-illegal-gold-mining-johannesburg",
-                "resumen": "No se vislumbra un final para los impulsores de la minería ilegal, mientras que la acción policial parece ineficaz. Cora Bailey se ha encontrado con mineros ilegales desde que comenzó a tratar animales heridos en los municipios alrededor de Roodepoort, al oeste de Johannesburgo, en 1991. Pero como",
+                "resumen": "There is no end in sight for the drivers of illegal mining, while police action appears ineffective Cora Bailey has been encountering illegal miners ever since she first started treating injured animals in the townships around Roodepoort, west of Johannesburg, in 1991. But as the",
                 "fecha": "Fri, 30 Oct 2026 05:00:45 GMT",
                 "titulo_original": "Sinkholes, scarred land and scapegoats: the scourge of illegal gold mining in Johannesburg",
                 "tags": [
-                  "#Minería",
-                  "#Sudáfrica",
-                  "#Oro",
-                  "#África"
+                  "#Mining",
+                  "#SouthAfrica",
+                  "#Gold",
+                  "#Africa"
                 ],
                 "tema_repetido": true,
-                "cluster_tema": "Soberanía de Recursos, Minería y Energía",
-                "coincidencias_count": 2
+                "cluster_tema": "SouthAfrica",
+                "coincidencias_count": 3
               },
               {
-                "titulo": "La diáspora sudanesa y grupos de derechos humanos denuncian al candidato de los Emiratos Árabes Unidos para el puesto más alto de la ONU",
+                "titulo": "Sudanese diaspora and human rights groups denounce UAE nominee for UN top job",
                 "url": "https://www.theguardian.com/world/2026/oct/30/sudanese-diaspora-human-rights-groups-denounce-uae-nominee-un-top-job",
-                "resumen": "Los críticos citan la negación de Lana Nusseibeh de las acusaciones de que los Emiratos Árabes Unidos están alimentando la guerra en Sudán al apoyar a los paramilitares RSF. Miembros de la diáspora sudanesa y observadores internacionales de derechos humanos han denunciado la candidatura de un diplomático emiratí para el puesto más alto en la ONU, citando su de",
+                "resumen": "Critics cite Lana Nusseibeh’s denial of accusations the UAE is fuelling Sudan war by supporting paramilitary RSF Members of the Sudanese diaspora and international human rights monitors have denounced the candidature of an Emirati diplomat for the top job at the UN, citing her de",
                 "fecha": "Fri, 30 Oct 2026 05:00:45 GMT",
                 "titulo_original": "Sudanese diaspora and human rights groups denounce UAE nominee for UN top job",
                 "tags": [
-                  "#NacionesUnidas",
-                  "#EmiratosÁrabesUnidos",
-                  "#Sudán",
-                  "#África"
+                  "#UnitedNations",
+                  "#UnitedArabEmirates",
+                  "#Sudan",
+                  "#Africa"
                 ],
                 "tema_repetido": true,
-                "cluster_tema": "África",
+                "cluster_tema": "Africa",
                 "coincidencias_count": 2
               },
               {
-                "titulo": "Egipto multa a la destacada editora Lina Attalah y cierra el medio de noticias independiente Mada Masr",
+                "titulo": "Egypt fines prominent editor Lina Attalah and shuts independent news outlet Mada Masr",
                 "url": "https://www.theguardian.com/world/2026/oct/28/egypt-lina-attalah-mada-masr-press-freedom-clampdown",
-                "resumen": "Las advertencias de una creciente represión contra la libertad de prensa se producen después de que un tribunal de El Cairo condenara a Attalah por administrar un sitio web sin licencia. Lina Attalah, una destacada periodista egipcia y editora en jefe del medio de noticias Mada Masr, fue liberada de su detención por las autoridades egipcias.",
+                "resumen": "Warnings of escalating clampdown on press freedom come after Cairo court convicts Attalah of managing an unlicensed website Lina Attalah, a prominent Egyptian journalist and the editor-in-chief of the news outlet Mada Masr, has been released from detention by Egypt’s authorities",
                 "fecha": "Wed, 28 Oct 2026 14:16:24 GMT",
                 "titulo_original": "Egypt fines prominent editor Lina Attalah and shuts independent news outlet Mada Masr",
                 "tags": [
-                  "#Egipto",
-                  "#LibertadPrensa",
-                  "#MedioOrienteNorte",
-                  "#Mundiales"
+                  "#Egypt",
+                  "#PressFreedom",
+                  "#MiddleEastNorth",
+                  "#WorldNews"
                 ],
                 "tema_repetido": false,
                 "cluster_tema": "",
@@ -1220,11 +1203,11 @@
             "perfil": "Televisión / Actualidad en Directo",
             "noticias": [
               {
-                "titulo": "'Espere lo peor': Qué significan los resultados para el mundo | Dominic Waghorn",
+                "titulo": "'Expect the worst': What results mean for the world",
                 "url": "https://news.sky.com/story/expect-the-worst-what-results-mean-for-the-world-dominic-waghorn-13607794",
-                "resumen": "¿Trump restringido o Trump desenfrenado? Ésa es la pregunta para el mundo ahora que observa su humillación en las elecciones intermedias.",
+                "resumen": "Trump restrained or Trump rampant? That is the question for the world now as it looks on at his humiliation in the midterms.",
                 "fecha": "Wed, 04 Nov 2026 05:57:00 +0000",
-                "titulo_original": "'Expect the worst': What results mean for the world | Dominic Waghorn",
+                "titulo_original": "'Expect the worst': What results mean for the world",
                 "tags": [
                   "#EEUU",
                   "#Elecciones",
@@ -1232,41 +1215,36 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Elecciones y Pugna Institucional EE.UU.",
-                "coincidencias_count": 19
+                "coincidencias_count": 18
               },
               {
-                "titulo": "El ministro de Transportes de España dimitirá tras un accidente de tren que mató a 69 personas",
+                "titulo": "Spain's transport minister to resign after train crash killed 69 people",
                 "url": "https://news.sky.com/story/spains-transport-minister-oscar-puente-to-resign-after-train-crash-killed-69-people-13607610",
-                "resumen": "El ministro de Transportes de España ha dicho que dimitirá después de dos accidentes de trenes mortales en menos de un año.",
+                "resumen": "Spain's transport minister has said he will step down after two deadly train crashes in less than a year.",
                 "fecha": "Tue, 03 Nov 2026 20:32:00 +0000",
                 "titulo_original": "Spain's transport minister to resign after train crash killed 69 people",
-                "tags": [
-                  "#Transporte",
-                  "#Ferrocarril",
-                  "#Accidente",
-                  "#Infraestructuras"
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "Accidente Ferroviario / Red de Transporte",
-                "coincidencias_count": 8
-              },
-              {
-                "titulo": "Amenazas de bomba reportadas en múltiples vuelos, incluidos dos desde aeropuertos del Reino Unido",
-                "url": "https://news.sky.com/story/bomb-threats-reported-on-multiple-flights-13607460",
-                "resumen": "Al menos siete vuelos, incluidos dos procedentes del Reino Unido, se han visto afectados por amenazas de bomba, que provocaron aterrizajes no planificados y cierres temporales de aeropuertos.",
-                "fecha": "Tue, 03 Nov 2026 12:37:00 +0000",
-                "titulo_original": "Bomb threats reported on multiple flights, including two from UK airports",
                 "tags": [],
                 "tema_repetido": false,
                 "cluster_tema": "",
                 "coincidencias_count": 0
               },
               {
-                "titulo": "Muere futbolista español tras colisión en el campo",
-                "url": "https://news.sky.com/story/tenerife-footballer-jesus-de-miguel-30-dies-after-on-field-collision-13607419",
-                "resumen": "El futbolista tinerfeño Jesús de Miguel ha fallecido tras sufrir un paro cardíaco tras una colisión en el campo durante un partido este lunes.",
-                "fecha": "Tue, 03 Nov 2026 10:20:00 +0000",
-                "titulo_original": "Spanish footballer dies after on-field collision",
+                "titulo": "Cyber attack threatens French blood banks",
+                "url": "https://news.sky.com/story/cyber-attack-threatens-french-blood-banks-13606660",
+                "resumen": "Blood bank sites in France are the latest to be hit by cyber attackers.",
+                "fecha": "Wed, 04 Nov 2026 06:13:00 +0000",
+                "titulo_original": "Cyber attack threatens French blood banks",
+                "tags": [],
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
+              },
+              {
+                "titulo": "Bomb threats reported on multiple flights, including two from UK airports",
+                "url": "https://news.sky.com/story/bomb-threats-reported-on-multiple-flights-13607460",
+                "resumen": "At least seven flights, including two from the UK, have been affected by bomb threats, which caused unplanned landings and temporary airport closures.",
+                "fecha": "Tue, 03 Nov 2026 12:37:00 +0000",
+                "titulo_original": "Bomb threats reported on multiple flights, including two from UK airports",
                 "tags": [],
                 "tema_repetido": false,
                 "cluster_tema": "",
@@ -1287,60 +1265,48 @@
             "perfil": "Comunitario / Multilingüe",
             "noticias": [
               {
-                "titulo": "BMW reduce beneficio y advierte posible pérdida anual en su división de coches",
-                "url": "https://es.euronews.com/2026/11/04/bmw-reduce-beneficio-y-advierte-posible-perdida-anual-en-su-division-de-coches",
-                "resumen": "BMW informó el miércoles una caída de sus beneficios, un día después de emitir su segunda advertencia de beneficios del año, mientras la competencia china sacude la industria automovilística mundial.",
-                "fecha": "Wed, 04 Nov 2026 11:02:17 +0100",
-                "titulo_original": "BMW reduce beneficio y advierte posible pérdida anual en su división de coches",
+                "titulo": "La Justicia alemana ordena tramitar la demanda del oligarca Alisher Usmanov contra el Consejo de la UE",
+                "url": "https://es.euronews.com/2026/11/04/la-justicia-alemana-ordena-tramitar-la-demanda-del-oligarca-alisher-usmanov",
+                "resumen": "La disputa legal con el multimillonario ruso‑uzbeko Usmanov está marcada por acuerdos con Exteriores, dudas políticas y un proceso bloqueado. El Tribunal Supremo alemán fija límites al tribunal de Hamburgo. El magnate podrá ahora demandar al Consejo de la UE.",
+                "fecha": "Wed, 04 Nov 2026 12:31:20 +0100",
+                "titulo_original": "La Justicia alemana ordena tramitar la demanda del oligarca Alisher Usmanov contra el Consejo de la UE",
                 "tags": [],
                 "tema_repetido": false,
                 "cluster_tema": "",
                 "coincidencias_count": 0
               },
               {
-                "titulo": "Elecciones de medio mandato en EE.UU.: votan contra los centros de datos de IA",
-                "url": "https://es.euronews.com/2026/11/04/elecciones-de-medio-mandato-en-eeuu-votan-contra-los-centros-de-datos-de-ia",
-                "resumen": "El partidario republicano Elon Musk publicó: \"Los centros de datos en el espacio parecen bastante atractivos ahora\", mientras los demócratas ganan el control del Congreso de EE.UU.",
-                "fecha": "Wed, 04 Nov 2026 10:55:47 +0100",
-                "titulo_original": "Elecciones de medio mandato en EE.UU.: votan contra los centros de datos de IA",
-                "tags": [
-                  "#EEUU",
-                  "#Elecciones",
-                  "#Política"
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "Elecciones y Pugna Institucional EE.UU.",
-                "coincidencias_count": 19
+                "titulo": "El banco francés Crédit Mutuel Arkéa sufre un ciberataque con presuntas pérdidas de 118 millones de euros",
+                "url": "https://es.euronews.com/2026/11/04/credit-mutuel-arkea-sufre-ciberataque-habrian-robado-118-millones-de-euros",
+                "resumen": "La entidad bancaria francesa suspende temporalmente varias operaciones tras sufrir un fraude masivo en sus sistemas. En este 2026, el banco bretón trata de asegurar sus canales de transacción y aclara que ninguno de sus clientes resultará perjudicado por el incidente.",
+                "fecha": "Wed, 04 Nov 2026 12:17:39 +0100",
+                "titulo_original": "El banco francés Crédit Mutuel Arkéa sufre un ciberataque con presuntas pérdidas de 118 millones de euros",
+                "tags": [],
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
               },
               {
-                "titulo": "Apple inicia en China la prueba de su IA con el asistente Qwen de Alibaba",
-                "url": "https://es.euronews.com/2026/11/04/apple-inicia-en-china-prueba-de-su-ia-con-el-asistente-qwen-de-alibaba",
-                "resumen": "Apple ha empezado a probar sus herramientas de IA con desarrolladores en China, dos años después de lanzarlas en EE.UU. Para cumplir las normas de Pekín, confía en el modelo Qwen de Alibaba.",
-                "fecha": "Wed, 04 Nov 2026 10:49:55 +0100",
-                "titulo_original": "Apple inicia en China la prueba de su IA con el asistente Qwen de Alibaba",
-                "tags": [
-                  "#DeepTech",
-                  "#InteligenciaArtificial",
-                  "#Innovación"
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "Tecnología Disruptiva, IA y Biotecnología",
-                "coincidencias_count": 3
+                "titulo": "Las redes se llenan de memes virales tras la victoria demócrata en las legislativas de EE.UU.",
+                "url": "https://es.euronews.com/2026/11/04/memes-virales-celebran-la-ola-azul-en-las-legislativas-de-eeuu",
+                "resumen": "Las redes sociales se llenan de referencias a la cultura pop y comentarios humorísticos tras las elecciones de mitad de mandato en Estados Unidos. En este 2026, los internautas convierten el vuelco electoral en un fenómeno viral en plataformas digitales.",
+                "fecha": "Wed, 04 Nov 2026 12:08:15 +0100",
+                "titulo_original": "Las redes se llenan de memes virales tras la victoria demócrata en las legislativas de EE.UU.",
+                "tags": [],
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
               },
               {
-                "titulo": "Un bombardeo ruso en Zaporiyia deja 33 muertos y alrededor de 50 desaparecidos",
-                "url": "https://es.euronews.com/video/2026/11/04/bombardeo-ruso-en-zaporizhzhia-deja-33-muertos-y-alrededor-de-50-desaparecidos",
-                "resumen": "Bombardeos rusos contra un punto de ayuda humanitaria en la región ucraniana de Zaporiyia han causado 33 muertos y más de 50 desaparecidos el lunes 2 de noviembre. Supervivientes y rescatistas están siendo tratados por heridas graves.",
-                "fecha": "Wed, 04 Nov 2026 10:27:37 +0100",
-                "titulo_original": "Un bombardeo ruso en Zaporiyia deja 33 muertos y alrededor de 50 desaparecidos",
-                "tags": [
-                  "#OrienteMedio",
-                  "#Geopolítica",
-                  "#Seguridad"
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "Conflicto Oriente Medio (Gaza / Líbano)",
-                "coincidencias_count": 6
+                "titulo": "Últimas noticias | 04 noviembre 2026 - Mediodía",
+                "url": "https://es.euronews.com/video/2026/11/04/ultimas-noticias-04-noviembre-2026-mediodia",
+                "resumen": "Ponte al día con las noticias más importantes de Europa y el mundo este 04 noviembre 2026: noticias de última hora, internacional, negocios, entretenimiento, política, cultura, viajes.",
+                "fecha": "Wed, 04 Nov 2026 12:00:25 +0100",
+                "titulo_original": "Últimas noticias | 04 noviembre 2026 - Mediodía",
+                "tags": [],
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
               }
             ],
             "estado": "OK",
@@ -1351,68 +1317,65 @@
             "perfil": "Regulatorio / Políticas UE",
             "noticias": [
               {
-                "titulo": "Elon Musk sufre un duro golpe en las elecciones intermedias de EE.UU.",
-                "url": "https://www.politico.eu/article/elon-musk-dealt-major-blow-in-midterm-elections-2026/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-                "resumen": "Los planes para la construcción de centros de datos en todo Texas están en duda después de que los demócratas ganaran sorpresivamente.",
-                "fecha": "Wed, 04 Nov 2026 09:43:13 +0000",
-                "titulo_original": "Elon Musk suffers major blow in US midterms",
+                "titulo": "Pistorius verteidigt Bevorzugung der deutschen Industrie bei Rüstungsausgaben",
+                "url": "https://www.politico.eu/article/pistorius-verteidigt-bevorzugung-der-deutschen-industrie-bei-ruestungsausgaben/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+                "resumen": "Der Schutz der heimischen Rüstungsindustrie sei ein Problem, mit dem alle EU-Länder zu kämpfen hätten, so der Verteidigungsminister.",
+                "fecha": "Wed, 04 Nov 2026 10:47:02 +0000",
+                "titulo_original": "Pistorius verteidigt Bevorzugung der deutschen Industrie bei Rüstungsausgaben",
                 "tags": [
-                  "#Datos",
-                  "#CentrosDatos",
-                  "#Elecciones",
-                  "#Espacio"
+                  "#Industrie&Handel"
                 ],
-                "tema_repetido": true,
-                "cluster_tema": "Elecciones y Pugna Institucional EE.UU.",
-                "coincidencias_count": 19
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
               },
               {
-                "titulo": "Europa se despierta con un tsunami azul en las elecciones intermedias de EE.UU.",
-                "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/europe-wakes-up-to-a-blue-tsunami-in-the-us-midterms/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-                "resumen": "De la noche a la mañana, el Partido Demócrata ganó el Senado de Estados Unidos y logró avances decisivos en la Cámara. Pero esto podría no ser necesariamente una buena noticia para Europa. En este episodio especial, Zoya Sheftalovich está acompañada por Sarah Wheaton en Bruselas y nuestro jefe de la Oficina de Política Global, Jack Blanch.",
-                "fecha": "Wed, 04 Nov 2026 06:30:00 +0000",
-                "titulo_original": "Europe wakes up to a blue tsunami in the US midterms",
+                "titulo": "The blue tsunami sparks joy, hope and mockery in Europe",
+                "url": "https://www.politico.eu/article/us-midterm-election-democrats-blue-tsunami-hope-mockery-europe/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+                "resumen": "The changing power dynamic in Washington puts Donald Trump under pressure and gives Europe's mainstream a rare moment of transatlantic relief.",
+                "fecha": "Wed, 04 Nov 2026 10:42:42 +0000",
+                "titulo_original": "The blue tsunami sparks joy, hope and mockery in Europe",
                 "tags": [
-                  "#PolíticaEuropea",
-                  "#AsuntosExteriores",
-                  "#Política",
-                  "#EEUU"
+                  "#Defense",
+                  "#Elections",
+                  "#FarRight",
+                  "#ForeignPolicy"
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Elecciones y Pugna Institucional EE.UU.",
-                "coincidencias_count": 19
+                "coincidencias_count": 18
               },
               {
-                "titulo": "Las elecciones intermedias de Estados Unidos: lo que significa la ola azul para Gran Bretaña",
-                "url": "https://www.politico.eu/podcast/westminster-insider/us-midterms-what-the-blue-wave-means-for-britain/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-                "resumen": "Los demócratas ganaron el Senado y la Cámara de Representantes, tomando el control del Congreso durante el resto de la presidencia de Donald Trump. En este episodio especial de Westminster Insider, Patrick Baker está acompañado desde Washington D.C. por nuestro jefe de la Oficina de Política Global, Jack Blanchard, para desentrañar la elección.",
-                "fecha": "Wed, 04 Nov 2026 06:29:34 +0000",
-                "titulo_original": "US midterms: What the blue wave means for Britain",
+                "titulo": "What Trump’s double defeat means for the UK",
+                "url": "https://www.politico.eu/podcast/politics-at-sam-and-annes/what-trumps-double-defeat-means-for-the-uk/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+                "resumen": "It’s been a bruising night for Donald Trump at the midterm elections – losing both the house and the senate – but what does it mean for Britain? In a special edition, Sam Coates and Anne McElvoy hear from a variety of experts – on both sides of the Atlantic – as the balance of […",
+                "fecha": "Wed, 04 Nov 2026 10:28:28 +0000",
+                "titulo_original": "What Trump’s double defeat means for the UK",
                 "tags": [
-                  "#PolíticaBritánica",
-                  "#EEUU",
-                  "#Elecciones",
-                  "#Política"
+                  "#BritishPolitics",
+                  "#PoliticsSamAnne’s",
+                  "#U.s.Politics",
+                  "#Politics"
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Elecciones y Pugna Institucional EE.UU.",
-                "coincidencias_count": 19
+                "coincidencias_count": 18
               },
               {
-                "titulo": "Elecciones impactantes para Trump: los demócratas toman el control del Congreso",
-                "url": "https://www.politico.eu/podcast/berlin-playbook-podcast/schockwahl-fur-trump-demokraten-erobern-den-kongress/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-                "resumen": "En las elecciones intermedias en EE.UU., los demócratas ganarán la Cámara de Representantes y también es probable una victoria en el Senado. Donald Trump ya está retumbando. Helge Fuhst, presidente de los consejos editoriales de POLITICO, Welt y Business Insider, informa directamente desde Washington sobre la W",
-                "fecha": "Wed, 04 Nov 2026 05:25:55 +0000",
-                "titulo_original": "Schockwahl für Trump: Demokraten erobern den Kongress",
+                "titulo": "Spanish economy minister takes over transport ministry after deadly crash",
+                "url": "https://www.politico.eu/article/spanish-economy-minister-takes-over-transport-ministry-after-deadly-crash/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+                "resumen": "Carlos Cuerpo will run the Transport Ministry following Óscar Puente's resignation",
+                "fecha": "Wed, 04 Nov 2026 10:11:36 +0000",
+                "titulo_original": "Spanish economy minister takes over transport ministry after deadly crash",
                 "tags": [
-                  "#Ciberseguridad",
-                  "#Podcast",
-                  "#DonaldTrump",
-                  "#DefensaEuropea"
+                  "#Transport",
+                  "#FinancialServices",
+                  "#Mobility",
+                  "#Transporte"
                 ],
                 "tema_repetido": true,
-                "cluster_tema": "Elecciones y Pugna Institucional EE.UU.",
-                "coincidencias_count": 19
+                "cluster_tema": "Accidente Ferroviario / Red de Transporte",
+                "coincidencias_count": 6
               }
             ],
             "estado": "OK",
@@ -1423,65 +1386,62 @@
             "perfil": "Políticas Comunitarias / Institucional Bruselas",
             "noticias": [
               {
-                "titulo": "POTENCIA DE FUEGO: Noruega y Francia refuerzan los lazos industriales con Ucrania",
+                "titulo": "Trump: What next for a lame duck US president?",
+                "url": "https://www.rapporteur.com/news/trump-what-next-for-a-lame-duck-us-president/",
+                "resumen": "Always unpredictable, a weakened US president might lash out",
+                "fecha": "Wed, 04 Nov 2026 11:09:45 +0000",
+                "titulo_original": "Trump: What next for a lame duck US president?",
+                "tags": [
+                  "#DonaldTrump",
+                  "#TransatlanticRelations",
+                  "#EEUU",
+                  "#Elecciones"
+                ],
+                "tema_repetido": true,
+                "cluster_tema": "Elecciones y Pugna Institucional EE.UU.",
+                "coincidencias_count": 18
+              },
+              {
+                "titulo": "Sánchez appoints economy minister to manage rail crisis",
+                "url": "https://www.rapporteur.com/news/sanchez-appoints-economy-minister-to-manage-rail-crisis/",
+                "resumen": "Carlos Cuerpo, a technocrat seen as neutral, might throw Pedro Sánchez a political lifeline",
+                "fecha": "Wed, 04 Nov 2026 10:46:13 +0000",
+                "titulo_original": "Sánchez appoints economy minister to manage rail crisis",
+                "tags": [
+                  "#AcrossEurope",
+                  "#Elections",
+                  "#PedroSanchez",
+                  "#Psoe"
+                ],
+                "tema_repetido": true,
+                "cluster_tema": "Elections",
+                "coincidencias_count": 3
+              },
+              {
+                "titulo": "FIREPOWER: Norway, France bolster industrial ties with Ukraine",
                 "url": "https://www.rapporteur.com/news/firepower-norway-france-bolster-industrial-ties-with-ukraine/",
-                "resumen": "En la edición de hoy: programa de trabajo, conversaciones sobre Ucrania, Eslovenia",
+                "resumen": "In today's edition: work programme, Ukraine talks, Slovenia",
                 "fecha": "Wed, 04 Nov 2026 08:48:34 +0000",
                 "titulo_original": "FIREPOWER: Norway, France bolster industrial ties with Ukraine",
                 "tags": [
-                  "#PotenciaFuego",
-                  "#Geopolítica",
-                  "#GuerraUcrania",
-                  "#Defensa"
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "Guerra Ucrania / Rusia / Frente Oriental",
-                "coincidencias_count": 3
-              },
-              {
-                "titulo": "EL HACK: El plan de trabajo de la Comisión para 2027, basado en la IA",
-                "url": "https://www.rapporteur.com/news/the-hack-commissions-ai-heavy-2027-work-plan/",
-                "resumen": "En la edición de hoy: derechos de autor de IA, JD–Ceconomy, Ley de redes digitales",
-                "fecha": "Wed, 04 Nov 2026 08:43:57 +0000",
-                "titulo_original": "THE HACK: Commission’s AI-heavy 2027 work plan",
-                "tags": [
-                  "#Truco",
-                  "#DeepTech",
-                  "#InteligenciaArtificial",
-                  "#Innovación"
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "Tecnología Disruptiva, IA y Biotecnología",
-                "coincidencias_count": 3
-              },
-              {
-                "titulo": "VOLTAJE: ¿Está la UE preparada para romper las leyes sobre la naturaleza?",
-                "url": "https://www.rapporteur.com/news/voltage-is-the-eu-poised-to-tear-up-nature-laws/",
-                "resumen": "En la edición de hoy: impuesto energético, superred, Ormuz",
-                "fecha": "Wed, 04 Nov 2026 08:39:22 +0000",
-                "titulo_original": "VOLTAGE: Is the EU poised to tear up nature laws?",
-                "tags": [
-                  "#Voltaje"
+                  "#Firepower"
                 ],
                 "tema_repetido": false,
                 "cluster_tema": "",
                 "coincidencias_count": 0
               },
               {
-                "titulo": "Los entornos de pruebas regulatorios de IA deben reflejar la atención médica del mundo real, advierte el jefe de HealthAI [Contenido de socio]",
-                "url": "https://www.rapporteur.com/interview/ai-regulatory-sandboxes-must-reflect-real-world-healthcare-healthai-chief-warns/",
-                "resumen": "Ricardo Baptista Leite, de HealthAI, le dice al relator que los entornos de pruebas regulatorios podrían ayudar a evaluar la IA de alto riesgo en la atención médica, pero advierte sobre las consecuencias de datos de mala calidad y una supervisión inadecuada.",
-                "fecha": "Wed, 04 Nov 2026 08:35:57 +0000",
-                "titulo_original": "AI regulatory sandboxes must reflect real-world healthcare, HealthAI chief warns [Partner Content]",
+                "titulo": "THE HACK: Commission’s AI-heavy 2027 work plan",
+                "url": "https://www.rapporteur.com/news/the-hack-commissions-ai-heavy-2027-work-plan/",
+                "resumen": "In today's edition: AI copyright, JD–Ceconomy, Digital Networks Act",
+                "fecha": "Wed, 04 Nov 2026 08:43:57 +0000",
+                "titulo_original": "THE HACK: Commission’s AI-heavy 2027 work plan",
                 "tags": [
-                  "#LeyFarmacéuticaUe",
-                  "#ForoEuropeoSalud",
-                  "#IaSalud",
-                  "#DeepTech"
+                  "#Hack"
                 ],
-                "tema_repetido": true,
-                "cluster_tema": "Tecnología Disruptiva, IA y Biotecnología",
-                "coincidencias_count": 3
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
               }
             ],
             "estado": "OK",
@@ -1498,66 +1458,68 @@
             "perfil": "Liberal / Establishment",
             "noticias": [
               {
-                "titulo": "Una mujer afgana se encuentra entre decenas de personas que serán deportadas a Afganistán",
-                "url": "https://www.nytimes.com/2026/11/03/world/asia/afghan-deportation-flight.html",
-                "resumen": "La administración Trump ha organizado un vuelo para enviar a decenas de inmigrantes afganos de regreso a Afganistán, a pesar del riesgo de persecución por parte de los talibanes.",
-                "fecha": "Tue, 03 Nov 2026 20:57:49 +0000",
-                "titulo_original": "Afghan Woman Is Among Dozens to Be Deported to Afghanistan",
+                "titulo": "Countries Weigh, and Worry About, What Trump Will Do After Midterm Defeat",
+                "url": "https://www.nytimes.com/2026/11/04/world/asia/midterms-trump-foreign-policy-world.html",
+                "resumen": "Commentators abroad wondered what the president’s electoral losses might mean for oil prices, the war on Iran and the end of the Trump era.",
+                "fecha": "Wed, 04 Nov 2026 10:18:37 +0000",
+                "titulo_original": "Countries Weigh, and Worry About, What Trump Will Do After Midterm Defeat",
                 "tags": [
-                  "#InmigraciónIlegal",
-                  "#Deportación",
-                  "#MujeresNiñas",
-                  "#Talibanes"
+                  "#UnitedStatesPolitics",
+                  "#UsIsraeliAttack",
+                  "#InternationalRelations",
+                  "#Oil(petroleum)Gasoline"
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Elecciones y Pugna Institucional EE.UU.",
-                "coincidencias_count": 19
+                "coincidencias_count": 18
               },
               {
-                "titulo": "Las tácticas de venta de propiedades en Cisjordania enfrentan un desafío en Canadá",
-                "url": "https://www.nytimes.com/2026/11/03/world/canada/canada-west-bank-lawsuit.html",
-                "resumen": "Las prácticas de marketing de algunas empresas que promocionan propiedades en el territorio ocupado por Israel a compradores extranjeros son engañosas, afirma un documento reciente.",
-                "fecha": "Tue, 03 Nov 2026 20:58:18 +0000",
-                "titulo_original": "West Bank Property Sales Tactics Face a Challenge in Canada",
+                "titulo": "Why Doctors in Thailand Fear KFC",
+                "url": "https://www.nytimes.com/2026/11/04/world/asia/thailand-kfc-curse-doctors.html",
+                "resumen": "In a country where superstitions are as imaginative as they are many, physicians have come to fear a jinx involving Kentucky Fried Chicken.",
+                "fecha": "Wed, 04 Nov 2026 10:01:48 +0000",
+                "titulo_original": "Why Doctors in Thailand Fear KFC",
                 "tags": [
-                  "#FuerzasMilitaresDefensa",
-                  "#AsentamientosIsraelíes",
-                  "#PolíticaGobierno",
-                  "#Israel"
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "Conflicto Oriente Medio (Gaza / Líbano)",
-                "coincidencias_count": 6
-              },
-              {
-                "titulo": "Polonia refuerza la seguridad en la frontera con Rusia",
-                "url": "https://www.nytimes.com/2026/11/03/world/europe/poland-russia-kaliningrad.html",
-                "resumen": "El primer ministro Donald Tusk dijo que había habido “movimientos perturbadores” en Kaliningrado, una región rusa justo al norte de Polonia.",
-                "fecha": "Tue, 03 Nov 2026 18:18:07 +0000",
-                "titulo_original": "Poland Beefs Up Security at Border With Russia",
-                "tags": [
-                  "#Polonia",
-                  "#Kaliningrado(rusia)",
-                  "#Colmillo",
-                  "#Donald"
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "Guerra Ucrania / Rusia / Frente Oriental",
-                "coincidencias_count": 3
-              },
-              {
-                "titulo": "Amenazas de bomba interrumpen varios vuelos en toda Europa",
-                "url": "https://www.nytimes.com/2026/11/03/world/europe/bomb-threats-europe-flights-planes.html",
-                "resumen": "Las autoridades están investigando amenazas contra al menos siete aviones. El avión aterrizó de forma segura y no se encontraron explosivos, dijeron las autoridades.",
-                "fecha": "Wed, 04 Nov 2026 07:29:45 +0000",
-                "titulo_original": "Bomb Threats Disrupt Several Flights Across Europe",
-                "tags": [
-                  "#AerolíneasAviones",
-                  "#BombasExplosivos"
+                  "#Superstitions",
+                  "#FastFoodIndustry",
+                  "#Doctors",
+                  "#Hospitals"
                 ],
                 "tema_repetido": false,
                 "cluster_tema": "",
                 "coincidencias_count": 0
+              },
+              {
+                "titulo": "Israel’s President Could Play Key Role in Breaking Post-Election Deadlock",
+                "url": "https://www.nytimes.com/2026/11/04/world/middleeast/israel-president-herzog-election-government.html",
+                "resumen": "President Isaac Herzog has tried to avoid controversy and heal rifts in his largely ceremonial role. But his skills as a savvy mediator could be instrumental after an inconclusive election.",
+                "fecha": "Wed, 04 Nov 2026 09:43:34 +0000",
+                "titulo_original": "Israel’s President Could Play Key Role in Breaking Post-Election Deadlock",
+                "tags": [
+                  "#Elections",
+                  "#JewishAgencyIsrael",
+                  "#LabourParty(israel)",
+                  "#Herzog"
+                ],
+                "tema_repetido": true,
+                "cluster_tema": "Conflicto Oriente Medio (Gaza / Líbano)",
+                "coincidencias_count": 2
+              },
+              {
+                "titulo": "Helen Zille Is Running for Mayor of Johannesburg and Needling the ANC",
+                "url": "https://www.nytimes.com/2026/11/04/world/africa/johannesburg-mayor-elections.html",
+                "resumen": "As South Africans head to the polls on Wednesday, Helen Zille, 75, is betting voters care less about race and more about public services in her bid to become mayor of Johannesburg.",
+                "fecha": "Wed, 04 Nov 2026 10:23:53 +0000",
+                "titulo_original": "Helen Zille Is Running for Mayor of Johannesburg and Needling the ANC",
+                "tags": [
+                  "#SouthAfrica",
+                  "#Elections",
+                  "#HelenZille",
+                  "#Mayors"
+                ],
+                "tema_repetido": true,
+                "cluster_tema": "SouthAfrica",
+                "coincidencias_count": 3
               }
             ],
             "estado": "OK",
@@ -1568,60 +1530,48 @@
             "perfil": "Público / Nacional",
             "noticias": [
               {
-                "titulo": "El fiscal general de Nevada, Aaron Ford, vence al titular republicano para gobernador",
-                "url": "https://www.npr.org/2026/11/04/g-s1-151138/midterms-ford-nevada-governor-lombardo",
-                "resumen": "El demócrata Aaron Ford derrotó al gobernador republicano Joe Lombardo. Se convertirá en el primer gobernador negro de Nevada.",
-                "fecha": "Wed, 04 Nov 2026 04:48:40 -0500",
-                "titulo_original": "Nevada Attorney General Aaron Ford beats GOP incumbent for governor",
+                "titulo": "Review: The Legend of Zelda: Ocarina of Time remake is superb, streamlined and safe",
+                "url": "https://www.npr.org/2026/11/04/nx-s1-6026597/review-legend-of-zelda-ocarina-of-time-remake-switch-2",
+                "resumen": "Nintendo's new Ocarina of Time remake enshrines its place in the gaming canon for generations to come. But despite its stupendous production values, the game left me feeling oddly bereft.",
+                "fecha": "Wed, 04 Nov 2026 06:00:00 -0500",
+                "titulo_original": "Review: The Legend of Zelda: Ocarina of Time remake is superb, streamlined and safe",
                 "tags": [],
                 "tema_repetido": false,
                 "cluster_tema": "",
                 "coincidencias_count": 0
               },
               {
-                "titulo": "El demócrata Abdul El-Sayed derrota al republicano Mike Rogers en una carrera clave por el Senado de Michigan",
-                "url": "https://www.npr.org/2026/11/04/g-s1-150029/michigan-senate-race-abdul-el-sayed-mike-rogers",
-                "resumen": "La campaña de El-Sayed puso a prueba cómo le iría a un candidato antisistema de izquierda en un perenne campo de batalla en el Medio Oeste. Con la victoria, se convertirá en el primer estadounidense musulmán en ocupar un puesto en el Senado.",
-                "fecha": "Wed, 04 Nov 2026 02:28:02 -0500",
-                "titulo_original": "Democrat Abdul El-Sayed defeats Republican Mike Rogers in key Michigan Senate race",
-                "tags": [
-                  "#EEUU",
-                  "#Elecciones",
-                  "#Política"
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "Elecciones y Pugna Institucional EE.UU.",
-                "coincidencias_count": 19
+                "titulo": "Hakeem Jeffries is poised to become the first Black speaker of the House",
+                "url": "https://www.npr.org/2026/11/04/g-s1-150030/hakeem-jeffries-speaker-of-the-house-midterms",
+                "resumen": "As speaker, the New York Democrat would be second in the presidential line of succession, after the vice president. He has vowed to focus on affordability and holding the administration accountable.",
+                "fecha": "Wed, 04 Nov 2026 05:00:00 -0500",
+                "titulo_original": "Hakeem Jeffries is poised to become the first Black speaker of the House",
+                "tags": [],
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
               },
               {
-                "titulo": "Los republicanos trataron de salir de las grandes pérdidas en el Congreso mediante manipulaciones electorales. no funcionó",
-                "url": "https://www.npr.org/2026/11/04/nx-s1-6028588/redistricting-efforts-failed-republicans",
-                "resumen": "Entre las amplias victorias de los demócratas el martes se encuentran victorias en varios distritos del Congreso que los republicanos habían rediseñado explícitamente para impulsar a su partido antes de las elecciones intermedias.",
-                "fecha": "Wed, 04 Nov 2026 02:23:28 -0500",
-                "titulo_original": "Republicans tried to gerrymander their way out of big congressional losses. It didn't work",
-                "tags": [
-                  "#EEUU",
-                  "#Elecciones",
-                  "#Política"
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "Elecciones y Pugna Institucional EE.UU.",
-                "coincidencias_count": 19
+                "titulo": "These 9 candidates for governor just made history",
+                "url": "https://www.npr.org/2026/11/04/nx-s1-6028546/governor-candidates-history-election-2026",
+                "resumen": "Voters on Tuesday elected the nation's first Black woman governor and the nation's first Native American woman governor.",
+                "fecha": "Wed, 04 Nov 2026 05:00:00 -0500",
+                "titulo_original": "These 9 candidates for governor just made history",
+                "tags": [],
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
               },
               {
-                "titulo": "El líder demócrata de la Cámara de Representantes, Hakeem Jeffries, declara que \"Estados Unidos ha vuelto\"",
-                "url": "https://www.npr.org/2026/11/04/nx-s1-6028572/hakeem-jeffries-midterms-house",
-                "resumen": "Jeffries, quien se dirigió a sus partidarios después de que se solicitara el control de la Cámara para los demócratas, argumentó que los votantes han enviado al Congreso un mensaje para poner fin al extremismo y la \"corrupción\".",
-                "fecha": "Wed, 04 Nov 2026 01:50:28 -0500",
-                "titulo_original": "House Democratic Leader Hakeem Jeffries declares \"America is back\"",
-                "tags": [
-                  "#EEUU",
-                  "#Elecciones",
-                  "#Política"
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "Elecciones y Pugna Institucional EE.UU.",
-                "coincidencias_count": 19
+                "titulo": "Nevada Attorney General Aaron Ford beats GOP incumbent for governor",
+                "url": "https://www.npr.org/2026/11/04/g-s1-151138/midterms-ford-nevada-governor-lombardo",
+                "resumen": "Democrat Aaron Ford defeated Republican Gov. Joe Lombardo. He's set to become Nevada's first Black governor.",
+                "fecha": "Wed, 04 Nov 2026 04:48:40 -0500",
+                "titulo_original": "Nevada Attorney General Aaron Ford beats GOP incumbent for governor",
+                "tags": [],
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
               }
             ],
             "estado": "OK",
@@ -1632,64 +1582,59 @@
             "perfil": "Financiero / Conservador",
             "noticias": [
               {
-                "titulo": "Los palestinos regresan a pie al norte de Gaza",
+                "titulo": "Palestinians Stream Back to Northern Gaza on Foot",
                 "url": "https://www.wsj.com/articles/palestinians-flock-back-to-northern-gaza-on-foot-after-hostage-release-breakthrough-3f60e2db",
-                "resumen": "Israel permitió que los desplazados de Gaza comenzaran a cruzar una zona militar que divide el enclave en dos después de que se rompiera el estancamiento sobre la liberación de rehenes.",
+                "resumen": "Israel allowed displaced Gazans to begin crossing a military zone that bisects the enclave after a deadlock over hostage releases was broken.",
                 "fecha": "Mon, 27 Jan 2025 14:23:00 -0500",
                 "titulo_original": "Palestinians Stream Back to Northern Gaza on Foot",
                 "tags": [
-                  "#Pagado",
+                  "#Paid",
                   "#OrienteMedio",
                   "#Geopolítica",
                   "#Seguridad"
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Conflicto Oriente Medio (Gaza / Líbano)",
-                "coincidencias_count": 6
-              },
-              {
-                "titulo": "El principal promotor inmobiliario de China informa enormes pérdidas, en señal de crecientes problemas inmobiliarios",
-                "url": "https://www.wsj.com/articles/even-chinas-property-stalwart-isnt-immune-from-the-crisis-19799863",
-                "resumen": "Los problemas en Vanke plantean dudas sobre la continua propagación de la crisis inmobiliaria y si el Estado chino intervendrá.",
-                "fecha": "Mon, 27 Jan 2025 12:32:00 -0500",
-                "titulo_original": "Leading China Property Developer Reports Huge loss, in Sign of Widening Real-Estate Woes",
-                "tags": [
-                  "#Pagado",
-                  "#Vivienda",
-                  "#Economía"
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "Economía",
                 "coincidencias_count": 2
               },
               {
-                "titulo": "Los rehenes israelíes liberados todavía tenían metralla en el cuerpo del ataque del 7 de octubre",
-                "url": "https://www.wsj.com/articles/freed-israeli-hostages-still-had-shrapnel-in-their-bodies-from-oct-7-attack-3de8cd1e",
-                "resumen": "Algunas de las mujeres fueron retenidas solas durante largos períodos y pasaron ocho meses en túneles, dijo un funcionario médico israelí.",
-                "fecha": "Mon, 27 Jan 2025 12:12:00 -0500",
-                "titulo_original": "Freed Israeli Hostages Still Had Shrapnel in Their Bodies From Oct. 7 Attack",
+                "titulo": "Leading China Property Developer Reports Huge loss, in Sign of Widening Real-Estate Woes",
+                "url": "https://www.wsj.com/articles/even-chinas-property-stalwart-isnt-immune-from-the-crisis-19799863",
+                "resumen": "Troubles at Vanke raise questions about the continued spread of the property crisis and whether the Chinese state will step in.",
+                "fecha": "Mon, 27 Jan 2025 12:32:00 -0500",
+                "titulo_original": "Leading China Property Developer Reports Huge loss, in Sign of Widening Real-Estate Woes",
                 "tags": [
-                  "#Pagado"
+                  "#Paid"
                 ],
                 "tema_repetido": false,
                 "cluster_tema": "",
                 "coincidencias_count": 0
               },
               {
-                "titulo": "El presunto sabotaje de un cable de aguas profundas desencadena la primera respuesta liderada por la OTAN",
+                "titulo": "Freed Israeli Hostages Still Had Shrapnel in Their Bodies From Oct. 7 Attack",
+                "url": "https://www.wsj.com/articles/freed-israeli-hostages-still-had-shrapnel-in-their-bodies-from-oct-7-attack-3de8cd1e",
+                "resumen": "Some of the women were held alone for extended periods and spent eight months in tunnels, an Israeli medical official said.",
+                "fecha": "Mon, 27 Jan 2025 12:12:00 -0500",
+                "titulo_original": "Freed Israeli Hostages Still Had Shrapnel in Their Bodies From Oct. 7 Attack",
+                "tags": [
+                  "#Paid"
+                ],
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
+              },
+              {
+                "titulo": "Suspected Sabotage of Deep-Sea Cable Triggers First NATO-Led Response",
                 "url": "https://www.wsj.com/articles/suspected-sabotage-of-deep-sea-cable-triggers-first-nato-led-response-337119ba",
-                "resumen": "La alianza organizó su primera respuesta coordinada a una supuesta campaña de sabotaje contra infraestructura crítica después de que se cortara otro cable en el Mar Báltico.",
+                "resumen": "The alliance mounted its first coordinated response to a suspected sabotage campaign against critical infrastructure after another cable was severed in the Baltic Sea.",
                 "fecha": "Mon, 27 Jan 2025 11:22:00 -0500",
                 "titulo_original": "Suspected Sabotage of Deep-Sea Cable Triggers First NATO-Led Response",
                 "tags": [
-                  "#Pagado",
-                  "#Geopolítica",
-                  "#GuerraUcrania",
-                  "#Defensa"
+                  "#Paid"
                 ],
-                "tema_repetido": true,
-                "cluster_tema": "Guerra Ucrania / Rusia / Frente Oriental",
-                "coincidencias_count": 3
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
               }
             ],
             "estado": "OK",
@@ -1719,7 +1664,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Accidente Ferroviario / Red de Transporte",
-                "coincidencias_count": 8
+                "coincidencias_count": 6
               },
               {
                 "titulo": "Los riesgos para De la Espriella ante una victoria demócrata en EE UU tras alinearse con Trump - EL PAÍS",
@@ -1734,7 +1679,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Elecciones y Pugna Institucional EE.UU.",
-                "coincidencias_count": 19
+                "coincidencias_count": 18
               },
               {
                 "titulo": "El Niño deja obsoleto el ‘apellido’ del Corredor Seco: “No hay un adjetivo para esta sequía” - EL PAÍS",
@@ -1767,48 +1712,58 @@
             "perfil": "Cobertura continental / Noticias en directo",
             "noticias": [
               {
-                "titulo": "Sorteo 5 de la Triplex de la Once: comprueba los resultados de hoy",
-                "url": "https://www.infobae.com/espana/2026/11/04/sorteo-5-de-la-triplex-de-la-once-comprueba-los-resultados-de-hoy/",
-                "resumen": "Juegos Once difundió la combinación ganadora del Sorteo 5 de las 21:15 horas. Tenemos los números ganadores aquí mismo",
-                "fecha": "Wed, 04 Nov 2026 10:01:39 +0000",
-                "titulo_original": "Sorteo 5 de la Triplex de la Once: comprueba los resultados de hoy",
+                "titulo": "C. Tangana vuelve a lo grande con ‘Milko Freestyle’, su regreso al rap con un homenaje muy especial: “Mi niño ha nacido y mi vida ha cambiado”",
+                "url": "https://www.infobae.com/espana/cultura/2026/11/04/c-tangana-vuelve-a-lo-grande-con-milko-freestyle-su-regreso-al-rap-con-un-homenaje-muy-especial-mi-nino-ha-nacido-y-mi-vida-ha-cambiado/",
+                "resumen": "Pucho regresa al género que le vio crecer con el nombre de Crema mientras prepara su retorno a los escenarios con Agorazein",
+                "fecha": "Wed, 04 Nov 2026 11:28:19 +0000",
+                "titulo_original": "C. Tangana vuelve a lo grande con ‘Milko Freestyle’, su regreso al rap con un homenaje muy especial: “Mi niño ha nacido y mi vida ha cambiado”",
                 "tags": [],
                 "tema_repetido": false,
                 "cluster_tema": "",
                 "coincidencias_count": 0
               },
               {
-                "titulo": "Q Wong, la nueva figura política en Nueva Zelanda que evoca el ascenso de Jacinda Ardern",
-                "url": "https://www.infobae.com/america/agencias/2026/11/04/q-wong-la-nueva-figura-politica-en-nueva-zelanda-que-evoca-el-ascenso-de-jacinda-ardern/",
-                "resumen": "",
-                "fecha": "Wed, 04 Nov 2026 10:01:37 +0000",
-                "titulo_original": "Q Wong, la nueva figura política en Nueva Zelanda que evoca el ascenso de Jacinda Ardern",
+                "titulo": "Ábalos acusa al Gobierno de “incapacidad” para defender las reformas ferroviarias que impulsó al frente del Ministerio y de dejar que el PP “imponga un relato interesado”",
+                "url": "https://www.infobae.com/espana/2026/11/04/abalos-acusa-al-gobierno-de-incapacidad-para-defender-las-reformas-ferroviarias-que-impulso-al-frente-del-ministerio-y-de-dejar-que-el-pp-imponga-un-relato-interesado/",
+                "resumen": "El exministro de Transportes reivindica desde la cárcel las medidas de seguridad que adoptó durante su mandato y reprocha al Ejecutivo que no salga al paso de las críticas del PP tras la tragedia ferroviaria de Urda",
+                "fecha": "Wed, 04 Nov 2026 11:28:12 +0000",
+                "titulo_original": "Ábalos acusa al Gobierno de “incapacidad” para defender las reformas ferroviarias que impulsó al frente del Ministerio y de dejar que el PP “imponga un relato interesado”",
+                "tags": [
+                  "#Transporte",
+                  "#Ferrocarril",
+                  "#Accidente",
+                  "#Infraestructuras"
+                ],
+                "tema_repetido": true,
+                "cluster_tema": "Accidente Ferroviario / Red de Transporte",
+                "coincidencias_count": 6
+              },
+              {
+                "titulo": "Vivir con miedo en casa: la violencia intrafamiliar contra menores aumenta un 75%, con el padre como agresor en casi la mitad de los casos",
+                "url": "https://www.infobae.com/espana/2026/11/04/vivir-con-miedo-en-casa-la-violencia-intrafamiliar-contra-menores-aumenta-un-75-con-el-padre-como-agresor-en-casi-la-mitad-de-los-casos/",
+                "resumen": "Según un estudio de la Fundación ANAR sobre casos atendidos entre 2020 y 2025, el 64% de los menores sufría violencia a diario",
+                "fecha": "Wed, 04 Nov 2026 11:28:03 +0000",
+                "titulo_original": "Vivir con miedo en casa: la violencia intrafamiliar contra menores aumenta un 75%, con el padre como agresor en casi la mitad de los casos",
                 "tags": [],
                 "tema_repetido": false,
                 "cluster_tema": "",
                 "coincidencias_count": 0
               },
               {
-                "titulo": "Feijóo avanza que si gobierna presentará su primer Presupuesto en primavera de 2027 y a finales de año el de 2028",
-                "url": "https://www.infobae.com/espana/agencias/2026/11/04/feijoo-avanza-que-si-gobierna-presentara-su-primer-presupuesto-en-primavera-de-2027-y-a-finales-de-ano-el-de-2028/",
-                "resumen": "",
-                "fecha": "Wed, 04 Nov 2026 10:01:34 +0000",
-                "titulo_original": "Feijóo avanza que si gobierna presentará su primer Presupuesto en primavera de 2027 y a finales de año el de 2028",
-                "tags": [],
-                "tema_repetido": false,
-                "cluster_tema": "",
-                "coincidencias_count": 0
-              },
-              {
-                "titulo": "Super Once: esta es la combinación ganadora del sorteo del 4 noviembre",
-                "url": "https://www.infobae.com/espana/2026/11/04/super-once-esta-es-la-combinacion-ganadora-del-sorteo-del-4-noviembre/",
-                "resumen": "Juegos Once publicó la combinación ganadora del sorteo 1 de las 10:00 horas",
-                "fecha": "Wed, 04 Nov 2026 10:01:21 +0000",
-                "titulo_original": "Super Once: esta es la combinación ganadora del sorteo del 4 noviembre",
-                "tags": [],
-                "tema_repetido": false,
-                "cluster_tema": "",
-                "coincidencias_count": 0
+                "titulo": "Reacciones a la dimisión de Óscar Puente, en directo: Sánchez agradece al ministro su trabajo “sin descanso” y asegura que su renuncia demuestra “el respeto que el Estado siente” por las víctimas",
+                "url": "https://www.infobae.com/espana/2026/11/04/reacciones-a-la-dimision-de-oscar-puente-en-directo-ultima-hora-del-accidente-de-urda-y-las-elecciones-generales-en-espana-el-29-n/",
+                "resumen": "El ministro anunció su dimisión ayer, casi una semana tras el alcance de trenes. Este miércoles, Feijóo y Abascal, que según todas las encuestas previas al siniestro podrían formar gobierno, continúan con sus agendas públicas con entrevistas, encuentros con medios y mítines",
+                "fecha": "Wed, 04 Nov 2026 11:27:49 +0000",
+                "titulo_original": "Reacciones a la dimisión de Óscar Puente, en directo: Sánchez agradece al ministro su trabajo “sin descanso” y asegura que su renuncia demuestra “el respeto que el Estado siente” por las víctimas",
+                "tags": [
+                  "#Transporte",
+                  "#Ferrocarril",
+                  "#Accidente",
+                  "#Infraestructuras"
+                ],
+                "tema_repetido": true,
+                "cluster_tema": "Accidente Ferroviario / Red de Transporte",
+                "coincidencias_count": 6
               }
             ],
             "estado": "OK",
@@ -1842,7 +1797,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Elecciones y Pugna Institucional EE.UU.",
-                "coincidencias_count": 19
+                "coincidencias_count": 18
               },
               {
                 "titulo": "Estos tres estados podrían presentar resultados históricos. ¿Qué está en juego y por qué importa? - CNN en Español",
@@ -1881,56 +1836,56 @@
             "perfil": "Geopolítica / Economía Africana",
             "noticias": [
               {
-                "titulo": "Sudáfrica dice que Estados Unidos cambió sus objetivos respecto de la AGOA; Ruanda menos afectada",
+                "titulo": "Election 2026: Africa champion Chris Coons takes the helm in the US Senate",
+                "url": "https://www.theafricareport.com/435394/election-2026-africa-champion-chris-coons-takes-the-helm-in-the-us-senate/",
+                "resumen": "The Delaware Democrat brings decades of experience and connections to the continent to his new role atop the Senate Foreign Relations Committee",
+                "fecha": "Wed, 04 Nov 2026 11:30:00 +0000",
+                "titulo_original": "Election 2026: Africa champion Chris Coons takes the helm in the US Senate",
+                "tags": [
+                  "#Politics"
+                ],
+                "tema_repetido": true,
+                "cluster_tema": "Politics",
+                "coincidencias_count": 2
+              },
+              {
+                "titulo": "South Africa says US shifted goalposts on AGOA; Rwanda less affected",
                 "url": "https://www.theafricareport.com/435388/agoa-south-africa-says-us-shifted-goalposts-on-trade-rwanda-less-affected/",
-                "resumen": "El gobierno sudafricano dice que es desafortunado que las razones por las que Estados Unidos lo excluyó del acuerdo comercial no fueron las condiciones establecidas durante las negociaciones, pero se concentrará en diversificar sus mercados de exportación.",
+                "resumen": "The South African government says it’s unfortunate that the reasons for the United States excluding it from the trade agreement were not the conditions set during negotiations, but it will focus on diversifying its export markets.",
                 "fecha": "Wed, 04 Nov 2026 09:00:00 +0000",
                 "titulo_original": "South Africa says US shifted goalposts on AGOA; Rwanda less affected",
                 "tags": [
-                  "#Política"
+                  "#Politics"
                 ],
                 "tema_repetido": true,
-                "cluster_tema": "Política",
-                "coincidencias_count": 16
+                "cluster_tema": "Politics",
+                "coincidencias_count": 2
               },
               {
-                "titulo": "Aig-Imoukhuede: los bancos de Nigeria fueron sólo el comienzo",
+                "titulo": "Aig-Imoukhuede: Nigeria’s banks were only the beginning",
                 "url": "https://www.theafricareport.com/435195/aig-imoukhuede-nigerias-banks-were-only-the-beginning/",
-                "resumen": "Nigeria creó bancos capaces de financiar proyectos de miles de millones de dólares. Ahora, el hombre que ayudó a transformar Access Bank dice que la próxima revolución debe profundizar el capital de pensiones y seguros, y llevar financiación asequible a millones de empresas más pequeñas.",
+                "resumen": "Nigeria built banks capable of financing billion-dollar projects. Now the man who helped transform Access Bank says the next revolution must deepen pension and insurance capital – and bring affordable finance to millions of smaller businesses.",
                 "fecha": "Wed, 04 Nov 2026 08:24:49 +0000",
                 "titulo_original": "Aig-Imoukhuede: Nigeria’s banks were only the beginning",
                 "tags": [
-                  "#Negocio"
+                  "#Business"
                 ],
                 "tema_repetido": false,
                 "cluster_tema": "",
                 "coincidencias_count": 0
               },
               {
-                "titulo": "Nigeria 2027: 5 batallas de poder en APC amenazan los planes de reelección de Tinubu",
+                "titulo": "Nigeria 2027: 5 power battles in APC threatening Tinubu’s reelection plans",
                 "url": "https://www.theafricareport.com/435358/nigeria-2027-5-power-battles-in-ruling-apc-threatening-tinubus-reelection-plans/",
-                "resumen": "Con la oposición dividida, los mayores dolores de cabeza políticos del presidente Bola Tinubu pueden provenir de su propio bando.",
+                "resumen": "With the opposition divided, President Bola Tinubu’s biggest political headaches may be coming from within his own camp.",
                 "fecha": "Wed, 04 Nov 2026 07:00:00 +0000",
                 "titulo_original": "Nigeria 2027: 5 power battles in APC threatening Tinubu’s reelection plans",
                 "tags": [
-                  "#Política"
+                  "#Politics"
                 ],
                 "tema_repetido": true,
-                "cluster_tema": "Política",
-                "coincidencias_count": 16
-              },
-              {
-                "titulo": "Kenia: Por qué Ruto corteja a Kalonzo de cara a 2027",
-                "url": "https://www.theafricareport.com/435230/kenya-why-ruto-is-courting-kalonzo-ahead-of-2027/",
-                "resumen": "A medida que se acercan las elecciones presidenciales de 2027, los esfuerzos del presidente William Ruto están en pleno apogeo para ganarse al líder del Frente Patriótico Wiper, Kalonzo Musyoka, una de las principales luminarias de la oposición unida, para que apoye su candidatura a la reelección. ¿Lo logrará?",
-                "fecha": "Wed, 04 Nov 2026 06:00:00 +0000",
-                "titulo_original": "Kenya: Why Ruto is courting Kalonzo ahead of 2027",
-                "tags": [
-                  "#Política"
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "Política",
-                "coincidencias_count": 16
+                "cluster_tema": "Politics",
+                "coincidencias_count": 2
               }
             ],
             "estado": "OK",
@@ -1941,9 +1896,20 @@
             "perfil": "África Francófona / Magreb",
             "noticias": [
               {
-                "titulo": "De Abiyán a Addis Abeba, la discreta pero franca ofensiva económica de Italia en África",
+                "titulo": "Les « eaux toxiques » d’Oujda, nouveau sujet de polémique entre Alger et Rabat",
+                "url": "https://www.jeuneafrique.com/1858616/politique/les-eaux-toxiques-doujda-nouveau-sujet-de-polemique-entre-alger-et-rabat/",
+                "resumen": "L’accusation a été formulée lors d’une conférence sur l’eau organisée fin octobre : selon Alger, Rabat mène une forme de « guerre hybride » en polluant les eaux d’une rivière transfrontalière, l’oued Mouilah. L’Algérie dit vouloir saisir la justice internationale.",
+                "fecha": "2026-11-04T11:59:25+00:00",
+                "titulo_original": "Les « eaux toxiques » d’Oujda, nouveau sujet de polémique entre Alger et Rabat",
+                "tags": [],
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
+              },
+              {
+                "titulo": "D’Abidjan à Addis-Abeba, la discrète mais franche offensive économique de l’Italie en Afrique",
                 "url": "https://www.jeuneafrique.com/1856491/economie-entreprises/dabidjan-a-addis-abeba-la-discrete-mais-franche-offensive-economique-de-litalie-en-afrique/",
-                "resumen": "Costa de Marfil, designada país piloto del plan Mattei, alberga la sede africana del banco de desarrollo italiano CDP. Entre la diplomacia económica y la lucha contra la inmigración, descifrando una ofensiva con medios limitados.",
+                "resumen": "Désignée pays pilote du plan Mattei, la Côte d’Ivoire accueille le siège africain de la banque de développement italienne, CDP. Entre diplomatie économique et lutte anti-immigration, décryptage d’une offensive aux moyens limités.",
                 "fecha": "2026-11-04T08:54:33+00:00",
                 "titulo_original": "D’Abidjan à Addis-Abeba, la discrète mais franche offensive économique de l’Italie en Afrique",
                 "tags": [],
@@ -1952,9 +1918,9 @@
                 "coincidencias_count": 0
               },
               {
-                "titulo": "AFIS 2026: Mary Vilakazi, del municipio de Alexandra en la cima de FirstRand, nombrada banquera del año",
+                "titulo": "AFIS 2026 : Mary Vilakazi, du township d’Alexandra au sommet de FirstRand, désignée banquière de l’année",
                 "url": "https://www.jeuneafrique.com/1858573/economie-entreprises/afis-2026-mary-vilakazi-du-township-dalexandra-au-sommet-de-firstrand-designee-banquiere-de-lannee/",
-                "resumen": "Primera mujer al frente del gigante bancario sudafricano FirstRand, originaria de una zona desfavorecida de Johannesburgo, ocupó rápidamente puestos de responsabilidad. Hoy, ella está presionando a su grupo para que innove, particularmente invirtiendo en la transición verde.",
+                "resumen": "Première femme à diriger le géant bancaire sud-africain FirstRand, la native d’un quartier défavorisé de Johannesburg a rapidement occupé des postes à responsabilité. Aujourd’hui, elle pousse son groupe à innover, en investissant notamment dans la transition verte.",
                 "fecha": "2026-11-04T07:10:00+00:00",
                 "titulo_original": "AFIS 2026 : Mary Vilakazi, du township d’Alexandra au sommet de FirstRand, désignée banquière de l’année",
                 "tags": [],
@@ -1963,22 +1929,11 @@
                 "coincidencias_count": 0
               },
               {
-                "titulo": "“Se nos impide huir”: en Camerún, pueblos atrapados entre el ejército y Boko Haram",
+                "titulo": "« On nous empêche de fuir » : au Cameroun, des villages pris en étau entre l’armée et Boko Haram",
                 "url": "https://www.jeuneafrique.com/1856770/politique/on-nous-empeche-de-fuir-au-cameroun-des-villages-pris-en-etau-entre-larmee-et-boko-haram/",
-                "resumen": "A pesar de las ofensivas de las fuerzas de defensa en el Extremo Norte, Boko Haram adapta su estrategia y aterroriza a los civiles. Historia de una crisis humanitaria y de seguridad, agravada por el profundo malestar entre el ejército y los habitantes.",
+                "resumen": "Malgré les offensives des forces de défense dans l’Extrême-Nord, Boko Haram adapte sa stratégie et terrorise les civils. Récit d’une crise sécuritaire et humanitaire, aggravée par le profond malaise entre l’armée et les habitants.",
                 "fecha": "2026-11-04T06:55:00+00:00",
                 "titulo_original": "« On nous empêche de fuir » : au Cameroun, des villages pris en étau entre l’armée et Boko Haram",
-                "tags": [],
-                "tema_repetido": false,
-                "cluster_tema": "",
-                "coincidencias_count": 0
-              },
-              {
-                "titulo": "OIF: cómo Félix Tshisekedi y sus aliados intentan frustrar la reelección de Louise Mushikiwabo",
-                "url": "https://www.jeuneafrique.com/1858308/politique/oif-comment-felix-tshisekedi-et-ses-allies-tentent-de-contrecarrer-la-reelection-de-louise-mushikiwabo/",
-                "resumen": "Ante la aspiración del Secretario General saliente a un tercer mandato, un frente liderado por la República Democrática del Congo cuestiona el método de nombramiento al frente de la Organización Internacional de la Francofonía en la próxima cumbre de Phnom Penh. Incluso si eso significa favorecer una solicitud europea",
-                "fecha": "2026-11-03T18:50:30+00:00",
-                "titulo_original": "OIF : comment Félix Tshisekedi et ses alliés tentent de contrecarrer la réélection de Louise Mushikiwabo",
                 "tags": [],
                 "tema_repetido": false,
                 "cluster_tema": "",
@@ -1993,61 +1948,62 @@
             "perfil": "Panafricano / Noticias directas",
             "noticias": [
               {
-                "titulo": "África: Toda África hoy - 4 de noviembre de 2026",
+                "titulo": "Africa: How Many More COPs Before Climate Promises Become Action?",
+                "url": "https://allafrica.com/stories/202611040346.html",
+                "resumen": "[allAfrica] Every year before COP, the same question surfaces: what is the one thing Africa needs from this summit?",
+                "fecha": "Wed, 04 Nov 2026 11:27:53 GMT",
+                "titulo_original": "Africa: How Many More COPs Before Climate Promises Become Action?",
+                "tags": [
+                  "#Africa",
+                  "#FoodAgriculture",
+                  "#Economy",
+                  "#BusinessFinance"
+                ],
+                "tema_repetido": true,
+                "cluster_tema": "Africa",
+                "coincidencias_count": 2
+              },
+              {
+                "titulo": "Africa: All of Africa Today - November 4, 2026",
                 "url": "https://allafrica.com/stories/202611040155.html",
-                "resumen": "[toda África]",
+                "resumen": "[allAfrica]",
                 "fecha": "Wed, 04 Nov 2026 06:43:54 GMT",
                 "titulo_original": "Africa: All of Africa Today - November 4, 2026",
                 "tags": [
-                  "#África",
-                  "#Conflicto",
-                  "#PazSeguridad",
-                  "#ÁfricaOriental"
+                  "#Africa",
+                  "#Conflict",
+                  "#PeaceSecurity",
+                  "#EastAfrica"
                 ],
                 "tema_repetido": true,
-                "cluster_tema": "África",
+                "cluster_tema": "Africa",
                 "coincidencias_count": 2
               },
               {
-                "titulo": "Sudáfrica: Los sudafricanos acuden a las urnas para elegir a los líderes de los gobiernos locales",
+                "titulo": "South Africa: South Africans Head to Polls to Elect Local Government Leaders",
                 "url": "https://allafrica.com/stories/202611040161.html",
-                "resumen": "[SAnews.gov.za] Los sudafricanos elegibles se dirigirán hoy a los colegios electorales de todo el país para emitir sus votos en las elecciones de gobiernos locales de 2026.",
+                "resumen": "[SAnews.gov.za] Eligible South Africans will today head to voting stations across the country to cast their votes in the 2026 Local Government Elections.",
                 "fecha": "Wed, 04 Nov 2026 07:37:06 GMT",
                 "titulo_original": "South Africa: South Africans Head to Polls to Elect Local Government Leaders",
                 "tags": [
-                  "#Gobernancia",
-                  "#Sudáfrica",
-                  "#África"
+                  "#Governance",
+                  "#SouthAfrica",
+                  "#SouthernAfrica"
                 ],
                 "tema_repetido": true,
-                "cluster_tema": "Sudáfrica",
-                "coincidencias_count": 2
+                "cluster_tema": "SouthAfrica",
+                "coincidencias_count": 3
               },
               {
-                "titulo": "Etiopía: Etíope-estadounidense se declara culpable de espiar para Etiopía y enfrenta hasta 22 años de prisión en Estados Unidos",
+                "titulo": "Ethiopia: Ethiopian-American Pleads Guilty to Spying for Ethiopia, Faces Up to 22 Years in U.S. Prison",
                 "url": "https://allafrica.com/stories/202611040148.html",
-                "resumen": "[Estándar de Addis] Addis Abeba - Abraham Teklu Lemma, un ciudadano estadounidense naturalizado de ascendencia etíope y ex contratista de TI del gobierno de los EE. UU., se declaró culpable el 3 de noviembre de conspirar para transmitir información de defensa nacional altamente clasificada a funcionarios del gobierno etíope.",
+                "resumen": "[Addis Standard] Addis Abeba -- Abraham Teklu Lemma, a naturalized U.S. citizen of Ethiopian descent and former U.S. government IT contractor, pleaded guilty on November 3 to conspiring to transmit highly classified national defense information to Ethiopian government officials,",
                 "fecha": "Wed, 04 Nov 2026 06:39:32 GMT",
                 "titulo_original": "Ethiopia: Ethiopian-American Pleads Guilty to Spying for Ethiopia, Faces Up to 22 Years in U.S. Prison",
                 "tags": [
-                  "#ÁfricaOriental",
-                  "#Etiopía"
-                ],
-                "tema_repetido": false,
-                "cluster_tema": "",
-                "coincidencias_count": 0
-              },
-              {
-                "titulo": "Libia: Máxima autoridad religiosa dictamina contra el uso de ropa Nike",
-                "url": "https://allafrica.com/stories/202611040139.html",
-                "resumen": "[toda África] La máxima autoridad religiosa de Libia, Dar al-Ifta, ha emitido un fallo religioso que prohíbe a los musulmanes comprar, vender o usar ropa que lleve el logotipo de Nike.",
-                "fecha": "Wed, 04 Nov 2026 06:14:28 GMT",
-                "titulo_original": "Libya: Top Religious Authority Rules Against Wearing Nike Clothing",
-                "tags": [
-                  "#Libia",
-                  "#ÁfricaNorte",
-                  "#Religión",
-                  "#Deporte"
+                  "#EastAfrica",
+                  "#Ethiopia",
+                  "#LegalJudicialAffairs"
                 ],
                 "tema_repetido": false,
                 "cluster_tema": "",
@@ -2068,11 +2024,11 @@
             "perfil": "Regional / Negocios e Internacional",
             "noticias": [
               {
-                "titulo": "Conclusiones de Estados Unidos a mitad de mandato: el juego de culpas de Trump, los láseres espaciales de Elon y el resto del mundo",
-                "url": "https://www.scmp.com/news/china/diplomacy/article/3373270/us-midterm-takeaways-trumps-blame-game-elons-space-lasers-and-rest-world",
-                "resumen": "Siga aquí la cobertura en vivo del SCMP. Los demócratas obtuvieron el control de ambas cámaras del Congreso de Estados Unidos en las elecciones de mitad de período del martes, asestando un duro golpe al presidente Donald Trump mientras los votantes expresaban su frustración por el aumento de los costos y la guerra de Irán. Con los demócratas listos para hacerse cargo del Congreso",
-                "fecha": "Wed, 04 Nov 2026 10:00:22 +0000",
-                "titulo_original": "US midterm takeaways: Trump’s blame game, Elon’s space lasers and the rest of the world",
+                "titulo": "In Asia, midterms spark worries about diplomatic uncertainty, economic pressure",
+                "url": "https://www.scmp.com/news/china/diplomacy/article/3373286/asia-midterms-spark-worries-about-diplomatic-uncertainty-economic-pressure",
+                "resumen": "Follow the SCMP’s live coverage here. In the wake of Democrats’ sweeping victory in congressional elections, Asian countries are weighing how their ties with the US will shift under a lame-duck Trump administration. Washington’s Asian allies believe the “blue wave” will only heig",
+                "fecha": "Wed, 04 Nov 2026 11:33:40 +0000",
+                "titulo_original": "In Asia, midterms spark worries about diplomatic uncertainty, economic pressure",
                 "tags": [
                   "#EEUU",
                   "#Elecciones",
@@ -2080,48 +2036,40 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Elecciones y Pugna Institucional EE.UU.",
-                "coincidencias_count": 19
+                "coincidencias_count": 18
               },
               {
-                "titulo": "Abandonada por sus padres tras un diagnóstico de cáncer, una mujer china muere tras una batalla en solitario",
-                "url": "https://www.scmp.com/news/people-culture/china-personalities/article/3373208/abandoned-parents-after-cancer-diagnosis-chinese-woman-dies-after-solo-battle",
-                "resumen": "Una influencer china que se hizo conocida por luchar valientemente contra el cáncer de huesos después de que sus padres la abandonaran tras su diagnóstico falleció, provocando un luto generalizado en línea. El 27 de octubre, la cuenta del influencer anticancerígeno Miracle Xia Xia publicó un obituario anunciando que s",
-                "fecha": "Wed, 04 Nov 2026 10:00:08 +0000",
-                "titulo_original": "Abandoned by parents after cancer diagnosis, Chinese woman dies after solo battle",
+                "titulo": "Education chief dismisses push for final-year university internships amid AI threat",
+                "url": "https://www.scmp.com/news/hong-kong/education/article/3373280/education-chief-dismisses-push-final-year-university-internships-amid-ai-threat",
+                "resumen": "Hong Kong’s education minister has shot down a suggestion to turn the final stretch of undergraduate degree programmes into an internship period to boost employability, amid a fall in entry-level jobs due to the rise of artificial intelligence (AI). Secretary for Education Christ",
+                "fecha": "Wed, 04 Nov 2026 11:03:49 +0000",
+                "titulo_original": "Education chief dismisses push for final-year university internships amid AI threat",
                 "tags": [],
                 "tema_repetido": false,
                 "cluster_tema": "",
                 "coincidencias_count": 0
               },
               {
-                "titulo": "Golpe para Netanyahu mientras el organismo electoral israelí rechaza las acusaciones de fraude en los partidos árabes",
-                "url": "https://www.scmp.com/news/world/middle-east/article/3373260/blow-netanyahu-israeli-election-body-rejects-claims-arab-party-fraud",
-                "resumen": "Las autoridades electorales israelíes rechazaron el miércoles las acusaciones promovidas por el primer ministro Benjamín Netanyahu de fraude por parte de partidos árabes, que podrían ser la clave para destituirlo del poder tras una votación divisiva. El presidente Isaac Herzog recibirá oficialmente al mediodía los resultados de t",
-                "fecha": "Wed, 04 Nov 2026 09:24:54 +0000",
-                "titulo_original": "Blow for Netanyahu as Israeli election body rejects claims of Arab party fraud",
-                "tags": [
-                  "#OrienteMedio",
-                  "#Geopolítica",
-                  "#Seguridad"
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "Conflicto Oriente Medio (Gaza / Líbano)",
-                "coincidencias_count": 6
+                "titulo": "Lawyer dismisses rumours of Malaysia’s Najib settling US$12.3 million fine",
+                "url": "https://www.scmp.com/week-asia/people/article/3373283/lawyer-dismisses-rumours-malaysias-najib-settling-us123-million-fine",
+                "resumen": "Lawyers for Malaysia’s jailed former prime minister Najib Razak on Wednesday dismissed speculation about his imminent transfer to house arrest, as his former ruling party struggles to raise the 50 million ringgit (US$12.3 million) fine needed to bring him home. The rumours came a",
+                "fecha": "Wed, 04 Nov 2026 11:00:31 +0000",
+                "titulo_original": "Lawyer dismisses rumours of Malaysia’s Najib settling US$12.3 million fine",
+                "tags": [],
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
               },
               {
-                "titulo": "Trump sufre una derrota en las elecciones intermedias semanas antes de la reunión con Xi",
-                "url": "https://www.scmp.com/plus/news/us/us-elections/article/3373259/trump-suffers-midterms-trouncing-weeks-xi-meeting",
-                "resumen": "Los demócratas obtuvieron el control de ambas cámaras del Congreso en las elecciones de mitad de período, mientras los votantes estadounidenses castigaban al presidente Donald Trump por la inflación, la corrupción y el aumento de los costos de la atención médica. El partido iba camino de conseguir al menos 54 escaños en el Senado después de inesperadas victorias en antiguos bastiones republicanos.",
-                "fecha": "Wed, 04 Nov 2026 09:24:47 +0000",
-                "titulo_original": "Trump suffers midterms trouncing weeks before Xi meeting",
-                "tags": [
-                  "#EEUU",
-                  "#Elecciones",
-                  "#Política"
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "Elecciones y Pugna Institucional EE.UU.",
-                "coincidencias_count": 19
+                "titulo": "Roll-out of HK$5m anti-terrorism bollards in Causeway Bay draws mixed reactions",
+                "url": "https://www.scmp.com/news/hong-kong/society/article/3373282/roll-out-hk5m-anti-terrorism-bollards-causeway-bay-draws-mixed-reactions",
+                "resumen": "The installation of anti-ram bollards costing HK$5 million (US$637,230) has begun at a busy crossing in Hong Kong’s Causeway Bay to prevent vehicles from mounting crowded pavements, sparking debate over whether the safety barriers justify the price tag. By Wednesday afternoon, wo",
+                "fecha": "Wed, 04 Nov 2026 10:58:47 +0000",
+                "titulo_original": "Roll-out of HK$5m anti-terrorism bollards in Causeway Bay draws mixed reactions",
+                "tags": [],
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
               }
             ],
             "estado": "OK",
@@ -2132,7 +2080,7 @@
             "perfil": "Oficialista / Perspectiva Exterior",
             "noticias": [
               {
-                "titulo": "El plan de la FCC de EE. UU. de prohibir los laboratorios de pruebas chinos podría alterar las cadenas mundiales de suministro de productos electrónicos y aumentar los costos de la industria: analistas",
+                "titulo": "US FCC plan to bar Chinese testing labs could disrupt global electronics supply chains, raise industry costs: analysts",
                 "url": "https://www.globaltimes.cn/page/202610/1371820.shtml",
                 "resumen": "",
                 "fecha": "Fri, 09 Oct 2026 14:14:28 GMT",
@@ -2142,12 +2090,12 @@
                   "#InteligenciaArtificial",
                   "#Innovación"
                 ],
-                "tema_repetido": true,
-                "cluster_tema": "Tecnología Disruptiva, IA y Biotecnología",
-                "coincidencias_count": 3
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
               },
               {
-                "titulo": "La reunión conmemorativa del Día de la Libertad de Sudáfrica revela su búsqueda de dignidad y gobernanza inclusiva en la era posterior al apartheid",
+                "titulo": "South Africa freedom day memorial gathering reveals its pursuit of dignity and inclusive governance in post apartheid era",
                 "url": "https://www.globaltimes.cn/page/202608/1368830.shtml",
                 "resumen": "",
                 "fecha": "Sun, 23 Aug 2026 00:00:00 GMT",
@@ -2158,23 +2106,18 @@
                 "coincidencias_count": 0
               },
               {
-                "titulo": "China introducirá un nuevo horario de trenes a partir del 1 de julio, incluido el servicio de trenes de alta velocidad entre Beijing y Urumqi",
+                "titulo": "China to introduce new train timetable from July 1, including high-speed train service between Beijing and Urumqi",
                 "url": "https://www.globaltimes.cn/page/202606/1363810.shtml",
                 "resumen": "",
                 "fecha": "Thu, 18 Jun 2026 00:00:00 GMT",
                 "titulo_original": "China to introduce new train timetable from July 1, including high-speed train service between Beijing and Urumqi",
-                "tags": [
-                  "#Transporte",
-                  "#Ferrocarril",
-                  "#Accidente",
-                  "#Infraestructuras"
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "Accidente Ferroviario / Red de Transporte",
-                "coincidencias_count": 8
+                "tags": [],
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
               },
               {
-                "titulo": "Experto chino critica la afirmación del canciller filipino de que la delimitación entre Japón y Filipinas \"no tiene nada que ver\" con China y advierte que la medida sirve para propósitos ulteriores más allá de las conversaciones bilaterales.",
+                "titulo": "Chinese expert criticizes Filipino FM's claim that Japan-Philippines delimitation 'nothing to do' with China, warns move serves ulterior purposes beyond bilateral talks",
                 "url": "https://www.globaltimes.cn/page/202606/1363326.shtml",
                 "resumen": "",
                 "fecha": "Thu, 11 Jun 2026 00:00:00 GMT",
@@ -2193,25 +2136,22 @@
             "perfil": "Agencia Estatal de Noticias",
             "noticias": [
               {
-                "titulo": "Palestinos chocan con soldados israelíes tras protesta contra la visita de Pence",
+                "titulo": "Palestinians clash with Israeli soldiers after protest against Pence visit",
                 "url": "http://www.xinhuanet.com/english/world/2018-01/24/c_136919909.htm",
-                "resumen": "Manifestantes palestinos arrojan piedras a soldados israelíes durante enfrentamientos después de una protesta contra la visita del vicepresidente estadounidense Mike Pence a Jerusalén, en la ciudad cisjordana de Hebrón, el 23 de enero de 2018.",
+                "resumen": "Palestinian protesters hurl stones at Israeli soldiers during clashes after a protest against the visit of U.S. Vice President Mike Pence in Jerusalem, in the West Bank city of Hebron, on Jan. 23, 2018.",
                 "fecha": "2018-01-24",
                 "titulo_original": "Palestinians clash with Israeli soldiers after protest against Pence visit",
                 "tags": [
-                  "#Xinhuanet",
-                  "#Sociedad",
-                  "#Manifestaciones",
-                  "#Protestas"
+                  "#Xinhuanet"
                 ],
                 "tema_repetido": false,
                 "cluster_tema": "",
                 "coincidencias_count": 0
               },
               {
-                "titulo": "El fracaso de Estados Unidos en nombrar embajador australiano es un \"insulto diplomático\": ex viceprimer ministro",
+                "titulo": "U.S. failure to appoint Australian ambassador \"diplomatic insult\": former deputy PM",
                 "url": "http://www.xinhuanet.com/english/2018-01/03/c_136868968.htm",
-                "resumen": "El ex viceprimer ministro australiano Tim Fischer acusó a Estados Unidos de golpear a Australia con un \"insulto diplomático\".",
+                "resumen": "Former Australian Deputy Prime Minister Tim Fischer has accused the U.S. of hitting Australia with a \"diplomatic insult.\"",
                 "fecha": "2018-01-03",
                 "titulo_original": "U.S. failure to appoint Australian ambassador \"diplomatic insult\": former deputy PM",
                 "tags": [
@@ -2222,9 +2162,9 @@
                 "coincidencias_count": 0
               },
               {
-                "titulo": "El presidente del Parlamento húngaro se dirige a Budapest",
+                "titulo": "Speaker of Hungarian Parliament addresses in Budapest",
                 "url": "http://www.xinhuanet.com/english/2017-10/28/c_136711043.htm",
-                "resumen": "Laszlo Kover (primero por la izquierda), presidente del Parlamento húngaro, habla en una conferencia de presidentes del parlamento de los Balcanes Occidentales en Budapest, Hungría, el 27 de octubre de 2017.",
+                "resumen": "Laszlo Kover (1st L), Speaker of the Hungarian Parliament, speaks at a conference of the parliament speakers of the Western Balkans in Budapest, Hungary on Oct. 27, 2017.",
                 "fecha": "2017-10-28",
                 "titulo_original": "Speaker of Hungarian Parliament addresses in Budapest",
                 "tags": [
@@ -2237,18 +2177,15 @@
               {
                 "titulo": "Typhoon Lan lashes central Japan, killing 2 and disrupting transport systems",
                 "url": "http://www.xinhuanet.com/english/2017-10/23/c_136699146.htm",
-                "resumen": "Dos personas murieron y los sistemas de transporte y negocios quedaron gravemente afectados cuando el tifón Lan azotó la costa central del Pacífico de Japón después de tocar tierra el lunes por la mañana.",
+                "resumen": "Two people were killed and transportation systems and businesses severely disrupted as Typhoon Lan lashed central Japan's Pacific coast after making landfall early Monday.",
                 "fecha": "2017-10-23",
                 "titulo_original": "Typhoon Lan lashes central Japan, killing 2 and disrupting transport systems",
                 "tags": [
-                  "#Xinhuanet",
-                  "#Transporte",
-                  "#Ferrocarril",
-                  "#Accidente"
+                  "#Xinhuanet"
                 ],
-                "tema_repetido": true,
-                "cluster_tema": "Accidente Ferroviario / Red de Transporte",
-                "coincidencias_count": 8
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
               }
             ],
             "estado": "OK",

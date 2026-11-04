@@ -63,30 +63,8 @@ export function RadarPresentesView({ noticiasHoy }: RadarPresentesViewProps) {
   const codigosMostrados =
     regionFiltro === "ALL" ? Object.keys(regiones) : [regionFiltro];
 
-  // 3 Puntos Ciegos canónicos
-  const puntosCiegos = noticiasHoy.puntosCiegos || [
-    {
-      id: "PC-01",
-      titulo: "Crisis de Infraestructura y Mantenimiento Ferroviario / Servicios Esenciales",
-      titular_noticia: "Tensión institucional por averías en la red de alta velocidad y colapso de cercanías",
-      impacto: "La prensa generalista polariza sobre la dimisión de cargos individuales mientras se elude la auditoría del déficit inversor en los sistemas de señalización LZB/ERTMS frente a las exigencias comunitarias.",
-      bloques_afectados: ["ES", "EU"]
-    },
-    {
-      id: "PC-02",
-      titulo: "Soberanía de Minerales Críticos y Redes de Suministro en el Eje Oriental",
-      titular_noticia: "Pekín intensifica el control de tierras raras y acuerdos bilaterales de litio y cobalto en África",
-      impacto: "Mientras Occidente centra su cobertura en controversias electorales inmediatas, el Eje Oriental y el Sur Global consolidan el control físico de la cadena de valor de baterías y semiconductores.",
-      bloques_afectados: ["CHINA", "AFRICA", "US"]
-    },
-    {
-      id: "PC-03",
-      titulo: "Fractura Institucional y Pulso Constitucional en Europa del Este",
-      titular_noticia: "Bloqueo policial en la sede del Tribunal Constitucional en Varsovia y pugna gubernamental",
-      impacto: "Desapercibido en las portadas españolas, el enfrentamiento entre el gobierno de Tusk y la judicatura polaca pone a prueba los mecanismos de condicionalidad del estado de derecho de la Unión Europea.",
-      bloques_afectados: ["EU", "DE", "FR"]
-    }
-  ];
+  // 3 Puntos Ciegos calculados dinámicamente desde la ingesta diaria
+  const puntosCiegos = noticiasHoy.puntosCiegos || [];
 
   return (
     <div className="space-y-6">
@@ -191,36 +169,38 @@ export function RadarPresentesView({ noticiasHoy }: RadarPresentesViewProps) {
             </div>
             <div className="flex items-baseline gap-2">
               <span className="text-2xl font-bold font-mono text-alby-terr">
-                72% Local
+                {noticiasHoy.analisisEspana?.porcentaje_domestico || "Foco Variable"}
               </span>
               <span className="text-[11px] text-muted">
                 en prensa de España
               </span>
             </div>
             <p className="text-[11px] text-muted leading-tight">
-              La prensa española centra casi 3/4 de sus portadas en ruido doméstico frente a corrientes exteriores.
+              {noticiasHoy.analisisEspana?.contraste?.titulo
+                ? `${noticiasHoy.analisisEspana.contraste.titulo}.`
+                : "Distribución editorial entre política doméstica y corrientes internacionales."}
             </p>
           </div>
         </div>
       </div>
 
       {/* ====================================================================
-          RADIOGRAFÍA DINÁMICA DE LA AGENDA EN ESPAÑA (FOCO DOMÉSTICO EN VIVO)
+          RADIOGRAFÍA DINÁMICA DE LA AGENDA EN ESPAÑA (FOCO DINÁMICO EN VIVO)
           ==================================================================== */}
       {(() => {
         const analisisEspana = noticiasHoy.analisisEspana || {
-          porcentaje_domestico: "72% Ruido Doméstico",
+          porcentaje_domestico: "Distribución Variable",
           monotema: {
-            titulo: "Siniestro Ferroviario & Colapso de Gestión Adif / Renfe",
-            descripcion: "16 de los 24 titulares nacionales se sincronizan de forma unánime en el accidente ferroviario, debatiendo el fallo de señalización en el tramo Madrid-Sevilla y la exigencia de responsabilidades políticas a Óscar Puente."
+            titulo: "Sin datos consolidados",
+            descripcion: "Procesando ingesta de portadas del día."
           },
           polarizacion: {
-            titulo: "Fractura de Encuadre entre Cabeceras Conservadoras y Progresistas",
-            descripcion: "Mientras las cabeceras de perfil conservador (El Mundo, ABC) redoblan la presión por dimisiones y falta de inversión, medios como elDiario.es y El País priorizan las ayudas aprobadas en Consejo de Ministros y la cronología técnica del convoy."
+            titulo: "Sin divergencia registrada",
+            descripcion: "Procesando ingesta de portadas del día."
           },
           contraste: {
-            titulo: "Eclipsamiento Geopolítico: Cobertura Doméstica Monopolizada",
-            descripcion: "La intensidad del monotema interno provoca que el pulso judicial en Varsovia (UE) o las restricciones chinas en tierras raras queden relegadas a cero menciones en portada en España, operando como puntos ciegos absolutos."
+            titulo: "Sin contraste geopolítico",
+            descripcion: "Procesando ingesta de portadas del día."
           }
         };
 
@@ -230,12 +210,12 @@ export function RadarPresentesView({ noticiasHoy }: RadarPresentesViewProps) {
               <div className="flex items-center gap-2">
                 <span className="flex h-2.5 w-2.5 rounded-full bg-alby-terr animate-pulse shrink-0" />
                 <h3 className="text-xs sm:text-sm font-bold text-title">
-                  Radiografía de la Agenda en España (6 Cabeceras • Cobertura Doméstica)
+                  Radiografía de la Agenda en España (6 Cabeceras • Análisis Dinámico)
                 </h3>
               </div>
               <div className="flex items-center gap-2">
                 <span className="rounded-md bg-[#e8ded0] dark:bg-[#2b241d] px-2 py-0.5 sm:px-2.5 text-[11px] sm:text-xs font-mono font-bold text-alby-terr border border-[#cfc4b2] dark:border-[#42382c]">
-                  {analisisEspana.porcentaje_domestico || "72% Ruido Doméstico"}
+                  {analisisEspana.porcentaje_domestico || "Foco Variable"}
                 </span>
                 <button
                   onClick={() => setRegionFiltro("ES")}
@@ -247,10 +227,10 @@ export function RadarPresentesView({ noticiasHoy }: RadarPresentesViewProps) {
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-3 sm:gap-4">
-              {/* Foco 1: Monotema */}
+              {/* Foco 1: Eje Dominante */}
               <div className="rounded-xl border border-[#d8cfbe]/70 dark:border-[#3d3429] bg-panel p-4 space-y-1.5 shadow-2xs">
                 <span className="text-[10px] font-mono text-alby-terr uppercase font-bold tracking-wider">
-                  01 // Monotema Dominante
+                  01 // Eje Dominante de Portada
                 </span>
                 <h4 className="text-xs font-bold text-title leading-snug">
                   {analisisEspana.monotema?.titulo}
