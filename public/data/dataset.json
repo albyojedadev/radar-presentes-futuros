@@ -1,5 +1,5 @@
 {
-  "fechaGeneracion": "2026-11-09T08:12:20.765Z",
+  "fechaGeneracion": "2026-11-09T08:14:07.481Z",
   "fuentesConfig": {
     "ES": {
       "nombre": "España",
@@ -207,60 +207,59 @@
     }
   },
   "noticiasHoy": {
-    "fecha": "2026-11-08",
-    "timestamp": "2026-11-08 14:16:55",
+    "fecha": "2026-11-09",
+    "timestamp": "2026-11-09 08:11:47",
     "analisisEspana": {
-      "porcentaje_domestico": "71% Enfoque Doméstico",
+      "porcentaje_domestico": "92% Enfoque Doméstico",
       "monotema": {
         "titulo": "Agenda Fragmentada (Sin Monotema Hegemónico • 25% Máximo)",
-        "descripcion": "Dispersión informativa en las 6 cabeceras: la atención se reparte de forma dividida entre 'Accidente Ferroviario / Red de Transporte' (6 titulares) y 'Crisis de Vivienda e Inmobiliario' (2 aperturas), sin un relato único unánime."
+        "descripcion": "Dispersión informativa en las 6 cabeceras: la atención se reparte de forma dividida entre 'Accidente Ferroviario / Red de Transporte' (6 titulares) y 'Manifestaciones y Protestas Sociales' (2 aperturas), sin un relato único unánime."
       },
       "polarizacion": {
-        "titulo": "Fractura de Encuadre en torno a 'Accidente Ferroviario / Red de Transporte'",
-        "descripcion": "Contraste editorial directo ante el mismo suceso: mientras cabeceras conservadoras (El Mundo, ABC) titulan con foco en 'La caja negra del Iryo revela que la maquinista intentó \"rep...', los medios progresistas (El País, elDiario.es) replantean el relato destacando 'Última hora de la actualidad política, en directo | Sánchez ...'."
+        "titulo": "Divergencia de Agenda: Foco Editorial Escindido",
+        "descripcion": "Fractura de selección de apertura: mientras la prensa progresista (El País, elDiario.es) vuelca su portada en 'Accidente Ferroviario / Red de Transporte' (3 de 8 titulares), las cabeceras conservadoras (El Mundo, ABC) priorizan 'Pp' (2 aperturas), reflejando dos jerarquías informativas contrapuestas."
       },
       "contraste": {
-        "titulo": "Eclipsamiento por Foco Local (71% Doméstico)",
-        "descripcion": "El predominio de la controversia política y social interna relega a un segundo plano acontecimientos internacionales de primer orden cubiertos en el resto del mundo, como Guerra Ucrania / Rusia / Frente Oriental y Conflicto Oriente Medio (Gaza / Líbano)."
+        "titulo": "Eclipsamiento por Foco Local (92% Doméstico)",
+        "descripcion": "El predominio de la controversia política y social interna relega a un segundo plano acontecimientos internacionales de primer orden cubiertos en el resto del mundo, como Guerra Ucrania / Rusia / Frente Oriental y Tecnología Disruptiva, IA y Biotecnología."
       }
     },
     "puntosCiegos": [
       {
         "id": "PC-01",
         "titulo": "Guerra Ucrania / Rusia / Frente Oriental",
-        "titular_noticia": "En Europa, la amenaza de un creciente cansancio ciudadano con la guerra en Ucrania",
-        "impacto": "Asimetría informativa: Mientras 13 cabeceras internacionales en DE, EU, FR, US priorizan este hito, la prensa nacional en España le dedica cero menciones en portada.",
+        "titular_noticia": "Los ministros de Asuntos Exteriores del G7 hablan de Ucrania e Irán",
+        "impacto": "Asimetría informativa: Mientras 8 cabeceras internacionales en DE, EU, UK, US priorizan este hito, la prensa nacional en España le dedica cero menciones en portada.",
         "bloques_afectados": [
           "DE",
           "EU",
-          "FR",
+          "UK",
           "US"
         ]
       },
       {
         "id": "PC-02",
-        "titulo": "Conflicto Oriente Medio (Gaza / Líbano)",
-        "titular_noticia": "Gaza bajo el agua: desplazados intentan salvar lo poco que queda de sus tiendas inundadas",
-        "impacto": "Asimetría informativa: Mientras 9 cabeceras internacionales en DE, FR, LATAM, UK, US priorizan este hito, la prensa nacional en España le dedica cero menciones en portada.",
+        "titulo": "Tecnología Disruptiva, IA y Biotecnología",
+        "titular_noticia": "Nvidia investiga si su director ejecutivo fue blanco de espionaje chino en una relación extramatrimonial",
+        "impacto": "Asimetría informativa: Mientras 6 cabeceras internacionales en CHINA, EU, FR, UK, US priorizan este hito, la prensa nacional en España le dedica cero menciones en portada.",
         "bloques_afectados": [
-          "DE",
+          "CHINA",
+          "EU",
           "FR",
-          "LATAM",
           "UK",
           "US"
         ]
       },
       {
         "id": "PC-03",
-        "titulo": "Crisis Institucional y Poder Judicial",
-        "titular_noticia": "Tras el ataque de Cracovia, Polonia en estado de shock",
-        "impacto": "Asimetría informativa: Mientras 7 cabeceras internacionales en DE, EU, FR, LATAM, US priorizan este hito, la prensa nacional en España le dedica cero menciones en portada.",
+        "titulo": "Elecciones y Pugna Institucional EE.UU.",
+        "titular_noticia": "Las elecciones intermedias en EE.UU.: Donald Trump concede su primera entrevista a 60 Minutes",
+        "impacto": "Asimetría informativa: Mientras 6 cabeceras internacionales en AFRICA, DE, LATAM, UK priorizan este hito, la prensa nacional en España le dedica cero menciones en portada.",
         "bloques_afectados": [
+          "AFRICA",
           "DE",
-          "EU",
-          "FR",
           "LATAM",
-          "US"
+          "UK"
         ]
       }
     ],
@@ -274,68 +273,68 @@
             "perfil": "Centro-Izquierda / Generalista",
             "noticias": [
               {
-                "titulo": "Alberto Núñez Feijóo: “Hacer una coalición de Gobierno con Vox no depende de mí”",
-                "url": "https://elpais.com/espana/2026-11-08/alberto-nunez-feijoo-hacer-una-coalicion-de-gobierno-con-vox-no-depende-de-mi.html",
-                "resumen": "El candidato del PP, en una entrevista en EL PAÍS: “Sánchez está consiguiendo desactivar a toda la izquierda y absorberla” |“Abascal nunca me ha hablado de vicepresidencias ni ministerios” | Confirma que derogará los decretos de vivienda y avisa de que, si el próximo fiscal gener",
-                "fecha": "Sun, 08 Nov 2026 04:30:01 GMT",
-                "titulo_original": "Alberto Núñez Feijóo: “Hacer una coalición de Gobierno con Vox no depende de mí”",
+                "titulo": "El bloque de la derecha mantiene su ventaja pero el PSOE se acerca al PP",
+                "url": "https://elpais.com/espana/elecciones-generales/2026-11-09/el-bloque-de-la-derecha-mantiene-su-ventaja-pero-el-psoe-se-acerca-al-pp.html",
+                "resumen": "Los socialistas avanzan pese al accidente de Urda mientras el desplome amenaza a las fuerzas a su izquierda, según una encuesta de 40dB. para EL PAÍS y la SER",
+                "fecha": "Mon, 09 Nov 2026 04:30:01 GMT",
+                "titulo_original": "El bloque de la derecha mantiene su ventaja pero el PSOE se acerca al PP",
                 "tags": [
-                  "#España",
                   "#EleccionesGenerales",
-                  "#AlbertoNúñezFeijóo",
-                  "#Pp"
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "Crisis de Vivienda e Inmobiliario",
-                "coincidencias_count": 2
-              },
-              {
-                "titulo": "Última hora de la actualidad política, en directo | Sánchez se compromete a blindar la revalorización de las pensiones conforme al IPC en la Constitución",
-                "url": "https://elpais.com/espana/2026-11-08/ultima-hora-de-la-actualidad-politica-en-directo.html",
-                "resumen": "“Se lo vamos a exigir a todos los grupos parlamentarios”, ha dicho el presidente del Gobierno y candidato socialista a la reelección en un mitin en Bilbao | Feijóo: “Menos mirar a Trump y más mirar los trenes, que este país está colapsado” | Rufián: “La izquierda no puede robar”",
-                "fecha": "Sun, 08 Nov 2026 13:47:25 GMT",
-                "titulo_original": "Última hora de la actualidad política, en directo | Sánchez se compromete a blindar la revalorización de las pensiones conforme al IPC en la Constitución",
-                "tags": [
-                  "#España",
-                  "#Elecciones",
-                  "#EleccionesGenerales",
-                  "#PartidosPolíticos"
+                  "#GobiernoEspaña",
+                  "#CongresoDiputados",
+                  "#Senado"
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Accidente Ferroviario / Red de Transporte",
-                "coincidencias_count": 7
+                "coincidencias_count": 10
               },
               {
-                "titulo": "Los deberes económicos tras el 29-N: vivienda, infraestructuras, Presupuestos y pensiones, entre los más urgentes",
-                "url": "https://elpais.com/economia/negocios/2026-11-07/los-deberes-economicos-tras-el-29-n-vivienda-infraestructuras-presupuestos-y-pensiones-entre-los-mas-urgentes.html",
-                "resumen": "El partido o la coalición que logre formar un Gobierno tras las elecciones se encontrará un país que crece, con menos paro y deuda, pero que ofrece también grietas estructurales que hay que afrontar cuanto antes",
-                "fecha": "Sat, 07 Nov 2026 16:30:00 GMT",
-                "titulo_original": "Los deberes económicos tras el 29-N: vivienda, infraestructuras, Presupuestos y pensiones, entre los más urgentes",
+                "titulo": "La huelga divide a los españoles y más de la mitad rechaza las acampadas",
+                "url": "https://elpais.com/espana/elecciones-generales/2026-11-09/la-huelga-divide-a-los-espanoles-y-mas-de-la-mitad-rechaza-las-acampadas.html",
+                "resumen": "El 30% dice que las elecciones no son limpias y el 70% cree erróneamente que España crece menos que Europa, según una encuesta de 40dB.",
+                "fecha": "Mon, 09 Nov 2026 04:30:01 GMT",
+                "titulo_original": "La huelga divide a los españoles y más de la mitad rechaza las acampadas",
+                "tags": [
+                  "#EleccionesGenerales",
+                  "#GobiernoEspaña",
+                  "#CongresoDiputados",
+                  "#Senado"
+                ],
+                "tema_repetido": true,
+                "cluster_tema": "Manifestaciones y Protestas Sociales",
+                "coincidencias_count": 3
+              },
+              {
+                "titulo": "El PP ampliará hasta los 50 años de edad el aval público para pagar la entrada de una casa",
+                "url": "https://elpais.com/espana/elecciones-generales/2026-11-09/el-pp-ampliara-hasta-los-50-anos-de-edad-el-aval-publico-para-pagar-la-entrada-de-una-casa.html",
+                "resumen": "Los populares plantean en su programa que se pueda pagar el IVA de la vivienda a plazos con la hipoteca, según ha conocido EL PAÍS",
+                "fecha": "Mon, 09 Nov 2026 04:30:01 GMT",
+                "titulo_original": "El PP ampliará hasta los 50 años de edad el aval público para pagar la entrada de una casa",
+                "tags": [
+                  "#España",
+                  "#Pp",
+                  "#AlbertoNúñezFeijóo",
+                  "#Vivienda"
+                ],
+                "tema_repetido": true,
+                "cluster_tema": "Crisis de Vivienda e Inmobiliario",
+                "coincidencias_count": 3
+              },
+              {
+                "titulo": "Los sindicatos se preparan para un seguimiento “desigual” de la huelga por territorios, sectores y edades",
+                "url": "https://elpais.com/economia/2026-11-09/los-sindicatos-preven-un-seguimiento-desigual-por-territorios-sectores-y-edades-en-la-huelga-general.html",
+                "resumen": "Las centrales anticipan manifestaciones masivas y buscan detener la actividad, pero prevén un respaldo “asimétrico” en función del impacto de la crisis de la vivienda y del conflicto ya en marcha",
+                "fecha": "Mon, 09 Nov 2026 04:45:01 GMT",
+                "titulo_original": "Los sindicatos se preparan para un seguimiento “desigual” de la huelga por territorios, sectores y edades",
                 "tags": [
                   "#Economía",
-                  "#EleccionesGenerales",
-                  "#Gobierno",
-                  "#Psoe"
+                  "#HuelgasGenerales",
+                  "#Sindicatos",
+                  "#Trabajo"
                 ],
                 "tema_repetido": true,
-                "cluster_tema": "Crisis de Vivienda e Inmobiliario",
-                "coincidencias_count": 2
-              },
-              {
-                "titulo": "“Nena, dime algo”: el último mensaje del marido de una víctima de Urda",
-                "url": "https://elpais.com/espana/2026-11-08/nena-dime-algo-el-ultimo-mensaje-del-marido-de-una-victima-de-urda.html",
-                "resumen": "Javier Barrio relata en una carta la desesperación que vivió con sus hijos mientras esperaba noticias de su esposa",
-                "fecha": "Sun, 08 Nov 2026 04:30:01 GMT",
-                "titulo_original": "“Nena, dime algo”: el último mensaje del marido de una víctima de Urda",
-                "tags": [
-                  "#España",
-                  "#Trenes",
-                  "#AccidenteTrenesUrda",
-                  "#Urda"
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "Accidente Ferroviario / Red de Transporte",
-                "coincidencias_count": 7
+                "cluster_tema": "Manifestaciones y Protestas Sociales",
+                "coincidencias_count": 3
               }
             ],
             "estado": "OK",
@@ -346,60 +345,68 @@
             "perfil": "Centro-Derecha / Generalista",
             "noticias": [
               {
-                "titulo": "La caja negra del Iryo revela que la maquinista intentó \"reportar a Atocha en 3-4 ocasiones sin contestación\" antes del choque",
-                "url": "https://www.elmundo.es/economia/2026/11/07/6aef1a7ffdddff8b688b45a0.html",
-                "resumen": "Los datos del tren arrollado en Urda reflejan que fue brutalmente lanzado por el impacto del AVE a una velocidad de 47 km/h en tres segundos Leer",
-                "fecha": "Sat, 07 Nov 2026 22:49:04 +0100",
-                "titulo_original": "La caja negra del Iryo revela que la maquinista intentó \"reportar a Atocha en 3-4 ocasiones sin contestación\" antes del choque",
+                "titulo": "El PP recuperará la presencia del Estado en el País Vasco y Cataluña en seis meses: funcionarios, comisarías, Seguridad Social...",
+                "url": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/08/6af06581e85ece11488b4573.html",
+                "resumen": "Feijóo promete una auditoría y un plan para que 'vuelva' la Administración Central a estas CCAA y reforzando las delegaciones Leer",
+                "fecha": "Sun, 08 Nov 2026 22:43:49 +0100",
+                "titulo_original": "El PP recuperará la presencia del Estado en el País Vasco y Cataluña en seis meses: funcionarios, comisarías, Seguridad Social...",
                 "tags": [
-                  "#AccidenteTrenToledo",
-                  "#Civil",
-                  "#EstebanUrreiztieta",
-                  "#CésarUrrutia"
+                  "#Pp",
+                  "#AlbertoNúñezFeijóo",
+                  "#PedroSánchez",
+                  "#ImanolPradales"
+                ],
+                "tema_repetido": true,
+                "cluster_tema": "Pp",
+                "coincidencias_count": 2
+              },
+              {
+                "titulo": "PP y Vox suman 199 diputados con un 50,4% de los votos y Sánchez no remonta la tragedia de los trenes",
+                "url": "https://www.elmundo.es/espana/encuestas/2026/11/08/6af066bee85eceae5a8b4598.html",
+                "resumen": "Feijóo mantiene su ventaja frente al líder del PSOE, que llega a la campaña 26 escaños por debajo Leer",
+                "fecha": "Sun, 08 Nov 2026 22:43:36 +0100",
+                "titulo_original": "PP y Vox suman 199 diputados con un 50,4% de los votos y Sánchez no remonta la tragedia de los trenes",
+                "tags": [
+                  "#Psoe",
+                  "#Pp",
+                  "#Vox",
+                  "#Amplio"
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Accidente Ferroviario / Red de Transporte",
-                "coincidencias_count": 7
+                "coincidencias_count": 10
               },
               {
-                "titulo": "Xavier García Albiol: \"Vamos a endurecer las leyes sobre okupación, inmigración ilegal e inseguridad como nos piden los ciudadanos\"",
-                "url": "https://www.elmundo.es/cataluna/2026/11/08/6aef4e2be85ece804f8b45a3.html",
-                "resumen": "El alcalde de Badalona es la gran apuesta de Feijóo para encabezar la candidatura en Cataluña y desactivar a Vox Leer",
-                "fecha": "Sun, 08 Nov 2026 01:17:24 +0100",
-                "titulo_original": "Xavier García Albiol: \"Vamos a endurecer las leyes sobre okupación, inmigración ilegal e inseguridad como nos piden los ciudadanos\"",
+                "titulo": "Autohuelga contra las encuestas",
+                "url": "https://www.elmundo.es/espana/2026/11/09/6af0a687e4d4d835568b4591.html",
+                "resumen": "Sánchez anima la huelga general mientras Carlos Cuerpo intenta evitar una huelga de verdad, la de los maquinistas de los trenes Leer",
+                "fecha": "Mon, 09 Nov 2026 00:27:26 +0100",
+                "titulo_original": "Autohuelga contra las encuestas",
                 "tags": [
-                  "#Cataluña",
-                  "#EleccionesGenerales",
-                  "#XavierGarcíaAlbiol",
-                  "#IñakiEllakuría"
+                  "#RobertoBenito",
+                  "#Transporte",
+                  "#Ferrocarril",
+                  "#Accidente"
                 ],
                 "tema_repetido": true,
-                "cluster_tema": "EleccionesGenerales",
-                "coincidencias_count": 3
+                "cluster_tema": "Accidente Ferroviario / Red de Transporte",
+                "coincidencias_count": 10
               },
               {
-                "titulo": "Los escándalos que ya acechaban a Cristian Corvillo, el 'fontanero chaquetero', cuando llevaba en el coche a Sánchez",
-                "url": "https://www.elmundo.es/cronica/2026/11/08/6aede81d21efa0981a8b458b.html",
-                "resumen": "Es tan del PSOE que tiene dos denuncias internas, una por ayudar a otra formación liderada por una imputada y otra por forzar afiliaciones. Llegó a deber \"medio millón a la seguridad social y no pagaba a sus trabajadoras\". \"El karma existe\", dicen en su pueblo Leer",
-                "fecha": "Sun, 08 Nov 2026 14:17:33 +0100",
-                "titulo_original": "Los escándalos que ya acechaban a Cristian Corvillo, el 'fontanero chaquetero', cuando llevaba en el coche a Sánchez",
-                "tags": [],
-                "tema_repetido": false,
-                "cluster_tema": "",
-                "coincidencias_count": 0
-              },
-              {
-                "titulo": "Sánchez promete reformar la Constitución para blindar las pensiones y el aborto y cita al Papa para llamar a las urnas",
-                "url": "https://www.elmundo.es/pais-vasco/2026/11/08/6af05b28e85eceb9318b457d.html",
-                "resumen": "El candidato a la presidencia reactiva la campaña con propuestas sociales para frenar a la \"involución\". El presidente sitúa a su Gobierno como el \"faro entre tanta oscuridad\" en el mundo Leer",
-                "fecha": "Sun, 08 Nov 2026 13:22:20 +0100",
-                "titulo_original": "Sánchez promete reformar la Constitución para blindar las pensiones y el aborto y cita al Papa para llamar a las urnas",
+                "titulo": "El corazón del 'sorpasso' de Vox al PSOE en Torre Pacheco: \"Hay que poner todo en su sitio\"",
+                "url": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/08/6af0bb62fc6c83752d8b4585.html",
+                "resumen": "Abascal tiene en esta autonomía un feudo. Campo, agua e inmigración lo dispararon a la victoria en 2019 y en 2026 volverá a superar al PSOE. La derecha aspira a un 8-2 en Murcia, territorio clave que inaugura la serie 'Aquí se decide la campaña' Leer",
+                "fecha": "Mon, 09 Nov 2026 02:23:04 +0100",
+                "titulo_original": "El corazón del 'sorpasso' de Vox al PSOE en Torre Pacheco: \"Hay que poner todo en su sitio\"",
                 "tags": [
-                  "#JoseanIzarra"
+                  "#Pp",
+                  "#Vox",
+                  "#AlbertoNúñezFeijóo",
+                  "#Psoe"
                 ],
-                "tema_repetido": false,
-                "cluster_tema": "",
-                "coincidencias_count": 0
+                "tema_repetido": true,
+                "cluster_tema": "Pp",
+                "coincidencias_count": 2
               }
             ],
             "estado": "OK",
@@ -410,44 +417,44 @@
             "perfil": "Conservador / Tradicional",
             "noticias": [
               {
-                "titulo": "Alcaraz, en busca de su primer título en París, el quinto de la temporada, ante Shelton",
-                "url": "https://www.abc.es/deportes/tenis/alcaraz-shelton-sigue-directo-final-masters-1000-20261108150558-di.html",
-                "resumen": "",
-                "fecha": "Sun, 08 Nov 2026 15:12:10 +0100",
-                "titulo_original": "Alcaraz, en busca de su primer título en París, el quinto de la temporada, ante Shelton",
+                "titulo": "Feijóo sigue siendo el líder más valorado y mejora cuatro décimas entre sus votantes",
+                "url": "https://www.abc.es/espana/feijoo-sigue-lider-valorado-mejora-cuatro-decimas-20261108023017-nt.html",
+                "resumen": "El presidente del PP, Alberto Núñez Feijóo, repite un mes más como el líder político mejor valorado entre los españoles aunque suspende en la nota media. En el barómetro de GAD3 para ABC obtiene una media de un 4,3 sobre 10, tres décimas más que en octubre, que lo mantiene por de",
+                "fecha": "Mon, 09 Nov 2026 08:55:02 +0100",
+                "titulo_original": "Feijóo sigue siendo el líder más valorado y mejora cuatro décimas entre sus votantes",
                 "tags": [],
                 "tema_repetido": false,
                 "cluster_tema": "",
                 "coincidencias_count": 0
               },
               {
-                "titulo": "Arabia Saudí intercepta cinco misiles disparados por los hutíes sobre Riad y el sur del país",
-                "url": "https://www.abc.es/internacional/arabia-saudi-intercepta-cinco-misiles-disparados-huties-20261108110216-nt.html",
-                "resumen": "La coalición militar internacional liderada por Arabia Saudí ha informado este domingo de la intercepción y destrucción de dos misiles de crucero y tres misiles balísticos sobre la capital, Riad, y sobre diversas regiones del sur del país durante las últimas horas a manos de la m",
-                "fecha": "Sun, 08 Nov 2026 14:55:28 +0100",
-                "titulo_original": "Arabia Saudí intercepta cinco misiles disparados por los hutíes sobre Riad y el sur del país",
+                "titulo": "Doctora de la Puerta: «Hay tres alimentos a los que la microbiota le gusta especialmente»",
+                "url": "https://www.abc.es/bienestar/alimentacion/doctora-puerta-experta-microbiota-tres-alimentos-microbiota-20261109063000-nt.html",
+                "resumen": "El tema de la microbiota está hoy más de moda que nunca y es esencial para nuestra salud y bienestar , ya que ayuda a funciones como la digestión, la producción de vitaminas y el desarrollo del sistema inmunitario. Se trata de un conjunto de microorganismos , como bacterias, viru",
+                "fecha": "Mon, 09 Nov 2026 08:50:34 +0100",
+                "titulo_original": "Doctora de la Puerta: «Hay tres alimentos a los que la microbiota le gusta especialmente»",
                 "tags": [],
                 "tema_repetido": false,
                 "cluster_tema": "",
                 "coincidencias_count": 0
               },
               {
-                "titulo": "Julián Álvarez frente a su pecado: ¿lo celebra?",
-                "url": "https://www.abc.es/deportes/futbol/julian-alvarez-ante-pecado-azulgrana-20261107010638-nt.html",
-                "resumen": "Atlético de Madrid y Barcelona se enfrentan este domingo ( 21.00 horas, Dazn ) en un duelo gigantesco, de esos que hace hervir al Metropolitano hasta que se desborda. Todo un clásico del fútbol español que además tiene mucha miga matemática pues, si los rojiblancos consiguen la v",
-                "fecha": "Sun, 08 Nov 2026 14:45:24 +0100",
-                "titulo_original": "Julián Álvarez frente a su pecado: ¿lo celebra?",
+                "titulo": "Muere en el hospital el autor del tiroteo que dejó seis muertos en Cracovia",
+                "url": "https://www.abc.es/internacional/muere-hospital-autor-tiroteo-dejo-seis-muertos-20261109075621-nt.html",
+                "resumen": "El hombre de 24 años responsable del tiroteo masivo perpetrado este sábado en la plaza del Mercado Principal de Cracovia ha fallecido a primera hora de este lunes en el hospital en el que se encontraba ingresado en estado crítico, según ha informado la Policía polaca.El agresor p",
+                "fecha": "Mon, 09 Nov 2026 08:07:49 +0100",
+                "titulo_original": "Muere en el hospital el autor del tiroteo que dejó seis muertos en Cracovia",
                 "tags": [],
                 "tema_repetido": false,
                 "cluster_tema": "",
                 "coincidencias_count": 0
               },
               {
-                "titulo": "Vivienne, la hija de Angelina Jolie y Brad Pitt, hospitalizada por un trastorno alimenticio",
-                "url": "https://www.abc.es/gente/vivienne-hija-angelina-jolie-brad-pitt-hospitalizada-20261108080228-nt.html",
-                "resumen": "Vivienne es una de los dos mellizos que Angelina Jolie y Brad Pitt tuvieron durante su matrimonio y cumplió la mayoría de edad el pasado mes de julio. Pero con solo unos meses en el mundo como adulto, la joven tiene mucho que contar. No solo ha sido una de las últimas de la famil",
-                "fecha": "Sun, 08 Nov 2026 14:44:34 +0100",
-                "titulo_original": "Vivienne, la hija de Angelina Jolie y Brad Pitt, hospitalizada por un trastorno alimenticio",
+                "titulo": "El desayuno de Arguiñano: «Huevo con cabeza de jabalí y cebolla frita. El café es para estudiantes»",
+                "url": "https://www.abc.es/gente/karlos-arguinano-anos-sobre-desayuno-cojo-sarten-20261109080000-nt.html",
+                "resumen": "Hay un dicho popular que expresa lo siguiente: 'somos lo que comemos' y, aunque se trate de unas palabras que se pueden interpretar de diversas formas, a veces resulta interesante saber qué comen personas famosas o conocidas en el mundo de la gastronomía, ya que podría revelar al",
+                "fecha": "Mon, 09 Nov 2026 08:00:02 +0100",
+                "titulo_original": "El desayuno de Arguiñano: «Huevo con cabeza de jabalí y cebolla frita. El café es para estudiantes»",
                 "tags": [],
                 "tema_repetido": false,
                 "cluster_tema": "",
@@ -461,6 +468,54 @@
             "medio": "elDiario.es",
             "perfil": "Izquierda Progresista / Digital",
             "noticias": [
+              {
+                "titulo": "El PSOE crece tras la dimisión de Óscar Puente pero PP y Vox mantienen la mayoría absoluta",
+                "url": "https://www.eldiario.es/politica/psoe-crece-dimision-oscar-puente-pp-vox-mantienen-mayoria-absoluta_1_13643551.html",
+                "resumen": "Los partidos de Feijóo y Abascal vuelven a superar el 50% y Frente Amplio y Podemos caen, según la encuesta de Ateneo del Dato para elDiario.es Anterior encuesta de Ateneo del Dato - El bloque de izquierdas recorta distancias, pero PP y Vox mantienen la mayoría absoluta Encuesta ",
+                "fecha": "Sun, 08 Nov 2026 20:36:33 +0000",
+                "titulo_original": "El PSOE crece tras la dimisión de Óscar Puente pero PP y Vox mantienen la mayoría absoluta",
+                "tags": [
+                  "#EleccionesGenerales2026",
+                  "#Encuestas",
+                  "#Psoe",
+                  "#ÓscarPuente"
+                ],
+                "tema_repetido": true,
+                "cluster_tema": "Accidente Ferroviario / Red de Transporte",
+                "coincidencias_count": 10
+              },
+              {
+                "titulo": "🎙 PODCAST | Informe Dimisión: ¿por qué dimiten los ministros en España?",
+                "url": "https://www.eldiario.es/un-tema-al-dia/podcast-informe-dimision-por-que-dimiten-ministros-espana_132_13644775.html",
+                "resumen": "Alfonso Guerra, José Luis Corcuera, Màxim Huerta, Gallardón, Ana Mato, Jose Manuel Soria, Óscar Puente. Los que se fueron y los que no. La lista de dimisiones de nuestra democracia cuenta una historia ESPECIAL - La máquina que parece alguien, con Carlos del Castillo ¿Cuántos mini",
+                "fecha": "Sun, 08 Nov 2026 20:36:35 +0000",
+                "titulo_original": "🎙 PODCAST | Informe Dimisión: ¿por qué dimiten los ministros en España?",
+                "tags": [
+                  "#ÓscarPuente",
+                  "#ConsejoMinistros",
+                  "#Política",
+                  "#CorrupciónPolítica"
+                ],
+                "tema_repetido": true,
+                "cluster_tema": "Accidente Ferroviario / Red de Transporte",
+                "coincidencias_count": 10
+              },
+              {
+                "titulo": "Los apuntes de Leire Díez hace casi dos años: \"Koldo es un buen Aldama. PP ha ofrecido un pastizal\"",
+                "url": "https://www.eldiario.es/politica/apuntes-leire-diez-anos-koldo-buen-aldama-pp-ofrecido-pastizal_1_13648465.html",
+                "resumen": "Los cuadernos de la exmilitante socialista incorporados al sumario que instruye el juez Pedraz recogen una frase sobre un supuesto soborno contra el Gobierno Dos años de mentiras pagadas a precio de oro para tumbar un Gobierno, por José Manuel Romero Leire Díez, militante sociali",
+                "fecha": "Mon, 09 Nov 2026 06:24:38 +0000",
+                "titulo_original": "Los apuntes de Leire Díez hace casi dos años: \"Koldo es un buen Aldama. PP ha ofrecido un pastizal\"",
+                "tags": [
+                  "#KoldoGarcía",
+                  "#PpPartidoPopular",
+                  "#LeireDíez",
+                  "#Minería"
+                ],
+                "tema_repetido": true,
+                "cluster_tema": "Soberanía de Recursos, Minería y Energía",
+                "coincidencias_count": 2
+              },
               {
                 "titulo": "Dos años de mentiras pagadas a precio de oro para tumbar un Gobierno",
                 "url": "https://www.eldiario.es/politica/anos-mentiras-pagadas-precio-oro-tumbar-gobierno_129_13645051.html",
@@ -476,54 +531,6 @@
                 "tema_repetido": true,
                 "cluster_tema": "Soberanía de Recursos, Minería y Energía",
                 "coincidencias_count": 2
-              },
-              {
-                "titulo": "Sánchez pide un \"voto en masa contra la involución\" de PP y Vox: \"Feijóo no es más triste porque no quiere\"",
-                "url": "https://www.eldiario.es/euskadi/sanchez-pide-voto-masa-involucion-pp-vox-feijoo-no-triste-no-quiere_1_13647215.html",
-                "resumen": "Se compromete en Bilbao a blindar en la Constitución la revalorización de las pensiones y el derecho al aborto, y critica a Feijóo por decir que formar una coalición con Vox no dependería de él: \"No insulte a la inteligencia de la gente\" Sánchez pide una mayoría “amplia y progres",
-                "fecha": "Sun, 08 Nov 2026 12:59:45 +0000",
-                "titulo_original": "Sánchez pide un \"voto en masa contra la involución\" de PP y Vox: \"Feijóo no es más triste porque no quiere\"",
-                "tags": [
-                  "#Euskadi",
-                  "#PedroSánchez",
-                  "#EleccionesGenerales",
-                  "#Psoe"
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "EleccionesGenerales",
-                "coincidencias_count": 3
-              },
-              {
-                "titulo": "La campaña vuelve a comenzar pero no empieza de cero",
-                "url": "https://www.eldiario.es/blog/politica-para-supervivientes/campana-vuelve-comenzar-no-empieza-cero_132_13645180.html",
-                "resumen": "'Política para supervivientes' es una carta semanal de Iñigo Sáenz de Ugarte exclusiva para socios y socias de elDiario.es con historias sobre política nacional. Si tú también lo quieres leer y recibir cada domingo en tu buzón, hazte socio, hazte socia de elDiario.es Óscar Puente",
-                "fecha": "Sun, 08 Nov 2026 07:13:20 +0000",
-                "titulo_original": "La campaña vuelve a comenzar pero no empieza de cero",
-                "tags": [
-                  "#ÓscarPuente",
-                  "#AccidenteTrenUrda",
-                  "#EleccionesGenerales2026",
-                  "#Psoe"
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "Accidente Ferroviario / Red de Transporte",
-                "coincidencias_count": 7
-              },
-              {
-                "titulo": "Salvador Illa: “Es una bajeza moral que Feijóo utilice a las 69 víctimas de Urda para que no se convoque la huelga general”",
-                "url": "https://www.eldiario.es/catalunya/salvador-illa-bajeza-moral-feijoo-utilice-69-victimas-urda-no-convoque-huelga-general_128_13643854.html",
-                "resumen": "El president de la Generalitat se muestra convencido de que el PSOE no solo ganará sino que podrá gobernar gracias a una movilización como la que logró Lula en Brasil o ahora los demócratas en Estados Unidos 'La carrera del 29N': un nuevo boletín temporal para entender la campaña",
-                "fecha": "Sat, 07 Nov 2026 21:41:34 +0000",
-                "titulo_original": "Salvador Illa: “Es una bajeza moral que Feijóo utilice a las 69 víctimas de Urda para que no se convoque la huelga general”",
-                "tags": [
-                  "#SalvadorIlla",
-                  "#Elecciones2026",
-                  "#HuelgaGeneral",
-                  "#PedroSánchez"
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "Accidente Ferroviario / Red de Transporte",
-                "coincidencias_count": 7
               }
             ],
             "estado": "OK",
@@ -534,48 +541,22 @@
             "perfil": "Digital / Investigación",
             "noticias": [
               {
-                "titulo": "Libertad para diez miembros de Núcleo Nacional detenidos en distintos puntos del país",
-                "url": "https://www.elconfidencial.com/espana/2026-11-08/nucleo-nacional-detenidos-libertad-armas-1tna-1tps_4461300/",
-                "resumen": "La magistrada impone comparecencias semanales, retirada del pasaporte y veto para abandonar España a los arrestados, investigados por odio, asociación ilícita y armas prohibidas",
-                "fecha": "2026-11-08T14:54:00+01:00",
-                "titulo_original": "Libertad para diez miembros de Núcleo Nacional detenidos en distintos puntos del país",
+                "titulo": "Cuatro intoxicados por monóxido de carbono tras hacer una barbacoa en el salón de su casa",
+                "url": "https://www.elconfidencial.com/espana/2026-11-09/intoxicacion-monoxido-carbono-barbacoa-1tna-1tps_4461453/",
+                "resumen": "El suceso ocurrió a las 3:39 horas y los afectados fueron evacuados al Hospital de Guadalajara, dos de ellos en una UVI",
+                "fecha": "2026-11-09T09:04:00+01:00",
+                "titulo_original": "Cuatro intoxicados por monóxido de carbono tras hacer una barbacoa en el salón de su casa",
                 "tags": [],
                 "tema_repetido": false,
                 "cluster_tema": "",
                 "coincidencias_count": 0
               },
               {
-                "titulo": "Activado el nivel 1 de peligrosidad en el incendio forestal de Valverde del Fresno (Cáceres)",
-                "url": "https://www.elconfidencial.com/espana/2026-11-08/incendio-forestal-valverde-fresno-1tna-1tps_4461286/",
-                "resumen": "El Plan Infoex activa el nivel 1 por posible afección a carreteras, con apoyo de medios extremeños, estatales, castellanoleoneses y portugueses",
-                "fecha": "2026-11-08T14:35:00+01:00",
-                "titulo_original": "Activado el nivel 1 de peligrosidad en el incendio forestal de Valverde del Fresno (Cáceres)",
-                "tags": [],
-                "tema_repetido": false,
-                "cluster_tema": "",
-                "coincidencias_count": 0
-              },
-              {
-                "titulo": "Sánchez avisa al \"sheriff del mundo\" de que \"lo que pasa en España se decide en España\" y acusa a Feijóo y Abascal de tragar \"con todo\"",
-                "url": "https://www.elconfidencial.com/espana/2026-11-08/sanchez-psoe-trump-eeuu-feijoo-elecciones-29-n_4461274/",
-                "resumen": "El presidente asume en Bilbao el \"compromiso solemne\" de blindar en la Constitución la revalorización de las pensiones y pide una \"mayoría amplia y progresista\" para el Congreso y el Senado",
-                "fecha": "2026-11-08T14:09:00+01:00",
-                "titulo_original": "Sánchez avisa al \"sheriff del mundo\" de que \"lo que pasa en España se decide en España\" y acusa a Feijóo y Abascal de tragar \"con todo\"",
-                "tags": [
-                  "#EEUU",
-                  "#Elecciones",
-                  "#Política"
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "Elecciones y Pugna Institucional EE.UU.",
-                "coincidencias_count": 5
-              },
-              {
-                "titulo": "Feijóo carga contra Sánchez: \"Menos mirar a Trump y más mirar los trenes, que este país está colapsado\"",
-                "url": "https://www.elconfidencial.com/espana/2026-11-08/feijoo-mitin-moreno-malaga-precampana-elecciones_4461271/",
-                "resumen": "En su acto de precampaña, el candidato del PP ha criticado los fallos de gestión del actual Ejecutivo, como el caos de las infraestructuras, la vivienda y los escándalos de corrupción",
-                "fecha": "2026-11-08T13:45:00+01:00",
-                "titulo_original": "Feijóo carga contra Sánchez: \"Menos mirar a Trump y más mirar los trenes, que este país está colapsado\"",
+                "titulo": "Los trenes de todas las líneas de Rodalies circulan fuera de horario por una incidencia operativa",
+                "url": "https://www.elconfidencial.com/espana/cataluna/2026-11-09/rodalies-trenes-retrasos-huelga-1tna-1tps_4461449/",
+                "resumen": "Renfe pide consultar las pantallas mientras persisten las demoras y avisa de servicios mínimos durante las movilizaciones previstas esta semana",
+                "fecha": "2026-11-09T08:35:00+01:00",
+                "titulo_original": "Los trenes de todas las líneas de Rodalies circulan fuera de horario por una incidencia operativa",
                 "tags": [
                   "#Transporte",
                   "#Ferrocarril",
@@ -584,7 +565,29 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Accidente Ferroviario / Red de Transporte",
-                "coincidencias_count": 7
+                "coincidencias_count": 10
+              },
+              {
+                "titulo": "Cortes de tráfico en Madrid hoy, lunes 9 de noviembre, festividad de la Almudena: horarios y calles afectadas",
+                "url": "https://www.elconfidencial.com/espana/madrid/2026-11-09/cortes-trafico-madrid-lunes-9-noviembre-festividad-almudena-1qrt_4460496/",
+                "resumen": "Madrid se viste de gala este 9 de noviembre para honrar a la Virgen de la Almudena, por lo que sufrirá importantes restricciones de tráfico. Las calles Bailén y Mayor quedarán blindadas, afectando a tres líneas clave de la EMT durante la misa y procesión",
+                "fecha": "2026-11-09T05:45:00+01:00",
+                "titulo_original": "Cortes de tráfico en Madrid hoy, lunes 9 de noviembre, festividad de la Almudena: horarios y calles afectadas",
+                "tags": [],
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
+              },
+              {
+                "titulo": "El Conde de Gondomar, el héroe de la diplomacia al que todavía odian los ingleses y que España ignora",
+                "url": "https://www.elconfidencial.com/espana/castilla-y-leon/2026-11-09/el-conde-de-gondomar-el-heroe-de-la-diplomacia-al-que-todavia-odian-los-ingleses-y-que-espana-ignora_4460619/",
+                "resumen": "Diego de Sarmiento y su esposa Constanza de Acuña fueron claves para los 20 años de paz que España e Inglaterra disfrutaron a comienzos del siglo XVII. La exposición de Valladolid rescata una figura poco conocida",
+                "fecha": "2026-11-09T05:00:00+01:00",
+                "titulo_original": "El Conde de Gondomar, el héroe de la diplomacia al que todavía odian los ingleses y que España ignora",
+                "tags": [],
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
               }
             ],
             "estado": "OK",
@@ -606,9 +609,9 @@
                   "#RebecaArroyo",
                   "#Mercados"
                 ],
-                "tema_repetido": true,
-                "cluster_tema": "Mercados de Divisas y Finanzas",
-                "coincidencias_count": 2
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
               },
               {
                 "titulo": "ACS negocia construir la sede mundial de Oracle por 4.000 millones",
@@ -652,9 +655,9 @@
                   "#SandraSánchez",
                   "#Mercados"
                 ],
-                "tema_repetido": true,
-                "cluster_tema": "Mercados de Divisas y Finanzas",
-                "coincidencias_count": 2
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
               }
             ],
             "estado": "OK",
@@ -671,52 +674,48 @@
             "perfil": "Centro-Izquierda / Referencia",
             "noticias": [
               {
-                "titulo": "En Europa, la amenaza de un creciente cansancio ciudadano con la guerra en Ucrania",
-                "url": "https://www.lemonde.fr/international/article/2026/11/08/en-europe-la-menace-d-une-lassitude-grandissante-des-citoyens-a-l-egard-de-la-guerre-en-ukraine_6808396_3210.html",
-                "resumen": "La mayoría de los europeos están convencidos de que Rusia representa una amenaza para el Viejo Continente y siguen apoyando a Kiev. Sin embargo, en un momento en el que el poder adquisitivo de los hogares se ve erosionado por la inflación, el coste de la ayuda militar a Kiev se muestra cada vez más.",
-                "fecha": "Sun, 08 Nov 2026 06:00:09 +0100",
-                "titulo_original": "En Europe, la menace d’une lassitude grandissante des citoyens à l’égard de la guerre en Ukraine",
-                "tags": [
-                  "#Geopolítica",
-                  "#GuerraUcrania",
-                  "#Defensa"
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "Guerra Ucrania / Rusia / Frente Oriental",
-                "coincidencias_count": 7
-              },
-              {
-                "titulo": "Tras el ataque de Cracovia, Polonia en estado de shock",
-                "url": "https://www.lemonde.fr/international/article/2026/11/08/la-pologne-en-etat-de-choc-apres-la-fusillade-de-cracovie_6808422_3210.html",
-                "resumen": "Seis personas murieron y otras quince resultaron heridas el sábado en el centro histórico de Cracovia por un polaco de 24 años \"fascinado por la extrema derecha\", en palabras del ministro del Interior. El Ministerio Público abrió una investigación el domingo por un hecho de \"",
-                "fecha": "Sun, 08 Nov 2026 12:03:01 +0100",
-                "titulo_original": "Après l’attentat de Cracovie, la Pologne en état de choc",
-                "tags": [
-                  "#Justicia",
-                  "#Instituciones",
-                  "#Polonia"
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "Crisis Institucional y Poder Judicial",
-                "coincidencias_count": 7
-              },
-              {
-                "titulo": "François Villeroy de Galhau: “Dejar escapar la deuda significa tomar decisiones contra la juventud, decisiones gerontocráticas”",
-                "url": "https://www.lemonde.fr/idees/article/2026/11/08/francois-villeroy-de-galhau-laisser-filer-la-dette-c-est-faire-des-choix-contre-la-jeunesse-des-choix-gerontocratiques_6808404_3232.html",
-                "resumen": "Ante la crisis financiera y social, el ex gobernador del Banco de Francia, que dejó su cargo en junio, aboga, en una entrevista concedida a Le Monde, por una recuperación basada en la eficiencia del gasto público y en tres grandes proyectos europeos concretos en el horizonte.",
-                "fecha": "Sun, 08 Nov 2026 06:30:11 +0100",
-                "titulo_original": "François Villeroy de Galhau : « Laisser filer la dette, c’est faire des choix contre la jeunesse, des choix gérontocratiques »",
+                "titulo": "“Un El Niño extraordinario choca con un planeta ya sobrecalentado”: ​​2026 será uno de los años más calurosos registrados",
+                "url": "https://www.lemonde.fr/planete/article/2026/11/09/un-el-nino-hors-norme-entre-en-collision-avec-une-planete-deja-surchauffee-2026-sera-l-une-des-annees-les-plus-chaudes-jamais-enregistrees_6808623_3244.html",
+                "resumen": "Al iniciarse la COP31 el lunes en Türkiye, la Organización Meteorológica Mundial publica su boletín anual sobre el estado del clima.",
+                "fecha": "Mon, 09 Nov 2026 08:30:09 +0100",
+                "titulo_original": "« Un El Niño hors norme entre en collision avec une planète déjà surchauffée » : 2026 sera l’une des années les plus chaudes jamais enregistrées",
                 "tags": [],
                 "tema_repetido": false,
                 "cluster_tema": "",
                 "coincidencias_count": 0
               },
               {
-                "titulo": "En Grasset, una tortura mortal tras siete meses sin jefe",
-                "url": "https://www.lemonde.fr/livres/article/2026/11/08/chez-grasset-un-supplice-mortifere-apres-sept-mois-sans-patron_6808405_3260.html",
-                "resumen": "Desde el brutal despido en abril de su director general Olivier Nora, desembarcado por su propietario, Vincent Bolloré, la casa parisina de la rue des Saints-Pères espera, muda y paralizada, conocer su destino.",
-                "fecha": "Sun, 08 Nov 2026 06:30:05 +0100",
-                "titulo_original": "Chez Grasset, un supplice mortifère après sept mois sans patron",
+                "titulo": "Movilización social: para Sébastien Lecornu, la semana de todas las negociaciones",
+                "url": "https://www.lemonde.fr/politique/article/2026/11/09/mobilisation-sociale-pour-sebastien-lecornu-la-semaine-de-toutes-les-negociations_6808601_823448.html",
+                "resumen": "El Primer Ministro recibirá el lunes a los interlocutores sociales y luego a los estudiantes de secundaria, antes de reunir a los agentes de la función pública al final de la semana. Si la respuesta no cumplió con las expectativas, el movimiento social podría continuar e influir en las elecciones presidenciales.",
+                "fecha": "Mon, 09 Nov 2026 05:30:38 +0100",
+                "titulo_original": "Mobilisation sociale : pour Sébastien Lecornu, la semaine de toutes les négociations",
+                "tags": [
+                  "#Sociedad",
+                  "#Manifestaciones",
+                  "#Protestas"
+                ],
+                "tema_repetido": true,
+                "cluster_tema": "Manifestaciones y Protestas Sociales",
+                "coincidencias_count": 3
+              },
+              {
+                "titulo": "Atentado en Cracovia: el tirador, un joven de 24 años fascinado por las “ideologías de extrema derecha”, murió a causa de sus heridas",
+                "url": "https://www.lemonde.fr/international/article/2026/11/09/l-auteur-de-la-fusillade-de-cracovie-est-mort_6808619_3210.html",
+                "resumen": "Seis personas, entre ellas dos extranjeros, murieron el domingo y una quincena más resultaron heridas en la Grand Place de la ciudad polaca.",
+                "fecha": "Mon, 09 Nov 2026 07:28:29 +0100",
+                "titulo_original": "Attentat à Cracovie : le tireur, un homme de 24 ans fasciné par les « idéologies d’extrême droite », est mort des suites de ses blessures",
+                "tags": [],
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
+              },
+              {
+                "titulo": "Presidencial 2027: Edouard Philippe corre el riesgo de girar hacia la derecha en su campaña",
+                "url": "https://www.lemonde.fr/politique/article/2026/11/09/presidentielle-2027-edouard-philippe-tente-le-pari-risque-du-virage-a-droite-pour-sa-campagne_6808565_823448.html",
+                "resumen": "Al endurecer su discurso sobre la inmigración para consolidar su base electoral, el ex primer ministro podría alienar a los votantes moderados que necesita para superar la primera vuelta.",
+                "fecha": "Mon, 09 Nov 2026 05:00:05 +0100",
+                "titulo_original": "Présidentielle 2027 : Edouard Philippe tente le pari risqué du virage à droite pour sa campagne",
                 "tags": [],
                 "tema_repetido": false,
                 "cluster_tema": "",
@@ -731,64 +730,55 @@
             "perfil": "Conservador / Tradicional",
             "noticias": [
               {
-                "titulo": "“Pensábamos que nos estábamos muriendo”: la diputada del LFI Farida Amrani alcanzada por fuego de mortero mientras estaba en la peluquería",
-                "url": "https://www.lefigaro.fr/faits-divers/on-a-cru-mourir-la-deputee-lfi-farida-amrani-touchee-par-un-tir-de-mortier-alors-qu-elle-etait-chez-le-coiffeur-20261108",
-                "resumen": "INFO LE FIGARO - Un hombre encapuchado irrumpió en el salón de belleza antes de hacer estallar su dispositivo pirotécnico. Los investigadores prefieren la vía de represalias vinculada al acuerdo vecino.",
-                "fecha": "Sun, 08 Nov 2026 14:33:21 +0100",
-                "titulo_original": "«On a cru mourir» : la députée LFI Farida Amrani touchée par un tir de mortier alors qu’elle était chez le coiffeur",
+                "titulo": "EN VIVO - Elecciones presidenciales de 2027: Le Pen y Mélenchon al alza, Philippe sigue a la baja según una encuesta",
+                "url": "https://www.lefigaro.fr/elections/presidentielles/en-direct-presidentielle-2027-le-pen-melenchon-sondage-philippe-wauquiez-candidat-droite-salaires-20261109",
+                "resumen": "Tanto el líder del Insoumis como el candidato RN continúan su impulso, subiendo uno o dos puntos en la mayoría de las hipótesis con respecto a la anterior oleada del mismo instituto, publicada a finales de octubre.",
+                "fecha": "Mon, 09 Nov 2026 08:50:02 +0100",
+                "titulo_original": "EN DIRECT - Présidentielle 2027 : Le Pen et Mélenchon en hausse, Philippe encore en baisse selon un sondage",
                 "tags": [
-                  "#HechosVarios"
+                  "#Presidencial"
                 ],
                 "tema_repetido": false,
                 "cluster_tema": "",
                 "coincidencias_count": 0
               },
               {
-                "titulo": "Guerra en Ucrania: “Jean-Luc Mélenchon se convirtió en portavoz del Kremlin” en Donbass, denuncia Jean-Noël Barrot",
-                "url": "https://www.lefigaro.fr/international/guerre-en-ukraine-jean-luc-melenchon-s-est-fait-porte-parole-du-kremlin-sur-le-donbass-denonce-jean-noel-barrot-20261108",
-                "resumen": "El Ministro de Asuntos Exteriores considera que la posición sobre Donbass expresada por el líder del LFI durante su reunión en Le Bourget este sábado es “sin precedentes”.",
-                "fecha": "Sun, 08 Nov 2026 13:53:36 +0100",
-                "titulo_original": "Guerre en Ukraine : «Jean-Luc Mélenchon s'est fait porte-parole du Kremlin» sur le Donbass, dénonce Jean-Noël Barrot",
+                "titulo": "Elecciones presidenciales de 2027: en el sudeste, los rivales Édouard Philippe y Gabriel Attal se enfrentan en las primarias",
+                "url": "https://www.lefigaro.fr/elections/presidentielles/presidentielle-2027-dans-le-sud-est-les-rivaux-edouard-philippe-et-gabriel-attal-s-opposent-sur-la-primaire-20261108",
+                "resumen": "INFORME - En la Costa Azul, el candidato de Horizons ha acelerado su campaña, pero su competidor de Renaissance cuestiona su posición dominante en la derecha y el centro.",
+                "fecha": "Sun, 08 Nov 2026 23:27:22 +0100",
+                "titulo_original": "Présidentielle 2027 : dans le Sud-Est, les rivaux Édouard Philippe et Gabriel Attal s’opposent sur la primaire",
                 "tags": [
-                  "#Internacional",
-                  "#Geopolítica",
-                  "#GuerraUcrania",
-                  "#Defensa"
+                  "#Presidencial"
                 ],
-                "tema_repetido": true,
-                "cluster_tema": "Guerra Ucrania / Rusia / Frente Oriental",
-                "coincidencias_count": 7
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
               },
               {
-                "titulo": "Guerra en Ucrania: los europeos, incluida Francia, estarán “representados” durante las negociaciones en Abu Dabi",
-                "url": "https://www.lefigaro.fr/international/guerre-en-ukraine-les-europeens-dont-la-france-seront-representes-lors-des-negociations-a-abu-dhabi-20261108",
-                "resumen": "\"Francia [...] hará oír la voz de Europa\", afirmó Jean-Noël Barrot.",
-                "fecha": "Sun, 08 Nov 2026 14:44:38 +0100",
-                "titulo_original": "Guerre en Ukraine : les Européens, dont la France, seront «représentés» lors des négociations à Abu Dhabi",
+                "titulo": "Presidencial 2027: en Saint-Raphaël, los candidatos de derecha se reúnen sin ponerse de acuerdo",
+                "url": "https://www.lefigaro.fr/elections/presidentielles/presidentielle-2027-a-saint-raphael-les-candidats-de-droite-se-croisent-sans-s-accorder-20261108",
+                "resumen": "INFORME - Con motivo de la novena edición de los Rencontres de l'avenir en Var, los principales protagonistas de la elección presidencial mantuvieron sus posiciones, a favor o en contra de una primaria.",
+                "fecha": "Sun, 08 Nov 2026 18:45:00 +0100",
+                "titulo_original": "Présidentielle 2027 : à Saint-Raphaël, les candidats de droite se croisent sans s’accorder",
                 "tags": [
-                  "#Internacional",
-                  "#Geopolítica",
-                  "#GuerraUcrania",
-                  "#Defensa"
+                  "#Presidencial"
                 ],
-                "tema_repetido": true,
-                "cluster_tema": "Guerra Ucrania / Rusia / Frente Oriental",
-                "coincidencias_count": 7
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
               },
               {
-                "titulo": "Cómo Donald Trump está torciendo el brazo a Ucrania",
-                "url": "https://www.lefigaro.fr/international/comment-donald-trump-tord-le-bras-de-l-ukraine-20261106",
-                "resumen": "ANÁLISIS – Sus concesiones al Kremlin y su hostilidad hacia Kiev conducen a nuevas conversaciones tripartitas anunciadas en Abu Dabi. El primero desde febrero pasado.",
-                "fecha": "Fri, 06 Nov 2026 08:00:00 +0100",
-                "titulo_original": "Comment Donald Trump tord le bras de l’Ukraine",
+                "titulo": "Electos, ministros, asesores… Los macronistas pueden salvar sus vidas en 2027",
+                "url": "https://www.lefigaro.fr/politique/elus-ministres-conseillers-le-sauve-qui-peut-des-macronistes-pour-se-recaser-d-ici-2027-20261108",
+                "resumen": "HISTORIA - A medida que los años de Macron llegan a su fin y una gran incertidumbre se cierne sobre las elecciones presidenciales, muchos en los pasillos del poder están buscando una base. Entre bastidores.",
+                "fecha": "Sun, 08 Nov 2026 15:29:20 +0100",
+                "titulo_original": "Élus, ministres, conseillers… Le sauve-qui-peut des macronistes pour se recaser d’ici 2027",
                 "tags": [
-                  "#Internacional",
-                  "#Geopolítica",
-                  "#GuerraUcrania",
-                  "#Defensa"
+                  "#Política"
                 ],
                 "tema_repetido": true,
-                "cluster_tema": "Guerra Ucrania / Rusia / Frente Oriental",
+                "cluster_tema": "Política",
                 "coincidencias_count": 7
               }
             ],
@@ -800,54 +790,54 @@
             "perfil": "Internacional / Geopolítico",
             "noticias": [
               {
-                "titulo": "En directo: León XIV se despide este domingo de Uruguay y viaja a la Argentina de Milei tras tensiones por la austeridad",
-                "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261108-en-directo-le%C3%B3n-xiv-se-despedir%C3%A1-de-uruguay-y-viajar%C3%A1-a-la-argentina-de-milei-en-medio-de-tensiones-por-la-austeridad",
-                "resumen": "El primer papa estadounidense, pero con fuertes vínculos con América Latina–de hecho, cuenta con la nacionalidad peruana–, culmina este domingo 8 de noviembre su visita a Uruguay, primera parada de su gira por la región. En las próximas horas se dirigirá a la vecina Argentina, do",
-                "fecha": "Sun, 08 Nov 2026 12:40:22 GMT",
-                "titulo_original": "En directo: León XIV se despide este domingo de Uruguay y viaja a la Argentina de Milei tras tensiones por la austeridad",
+                "titulo": "Nvidia investiga si su director ejecutivo fue blanco de espionaje chino en una relación extramatrimonial",
+                "url": "https://www.france24.com/es/ee-uu-y-canad%C3%A1/20261109-nvidia-investiga-si-su-director-ejecutivo-fue-blanco-de-espionaje-chino-en-una-relaci%C3%B3n-extramatrimonial",
+                "resumen": "El gigante de fabricante de chips Nvidia anunció este domingo 8 de noviembre que abrió una investigación independiente sobre su director ejecutivo, Jensen Huang, luego de que se hiciera pública su relación con una empresaria investigada por sus presuntos vínculos con la inteligen",
+                "fecha": "Mon, 09 Nov 2026 02:44:23 GMT",
+                "titulo_original": "Nvidia investiga si su director ejecutivo fue blanco de espionaje chino en una relación extramatrimonial",
                 "tags": [
-                  "#AméricaLatina"
+                  "#Ee.Uu.Canadá",
+                  "#DeepTech",
+                  "#InteligenciaArtificial",
+                  "#Innovación"
                 ],
+                "tema_repetido": true,
+                "cluster_tema": "Tecnología Disruptiva, IA y Biotecnología",
+                "coincidencias_count": 5
+              },
+              {
+                "titulo": "Más de 3.300 migrantes llegan a El Hierro, en Canarias: ¿hay capacidad de respuesta?",
+                "url": "https://www.france24.com/es/video/20261109-m%C3%A1s-de-3-300-migrantes-llegan-a-el-hierro-en-canarias-hay-capacidad-de-respuesta",
+                "resumen": "Más de 3.300 migrantes han llegado a la isla de El Hierro, en el archipiélago español de Canarias, desde comienzos de noviembre, en una nueva oleada migratoria que vuelve a poner a prueba la capacidad de acogida de este territorio fronterizo. Las embarcaciones continúan arribando",
+                "fecha": "Mon, 09 Nov 2026 02:31:07 GMT",
+                "titulo_original": "Más de 3.300 migrantes llegan a El Hierro, en Canarias: ¿hay capacidad de respuesta?",
+                "tags": [],
                 "tema_repetido": false,
                 "cluster_tema": "",
                 "coincidencias_count": 0
               },
               {
-                "titulo": "Gaza bajo el agua: desplazados intentan salvar lo poco que queda de sus tiendas inundadas",
-                "url": "https://www.france24.com/es/video/20261108-gaza-bajo-el-agua-desplazados-intentan-salvar-lo-poco-que-queda-de-sus-tiendas-inundadas",
-                "resumen": "Tras una noche de intensas tormentas en la Franja de Gaza, miles de desplazados despertaron con sus tiendas de campaña inundadas. Familias enteras utilizaron baldes para sacar el agua acumulada y levantaron barreras improvisadas de arena y barro para intentar proteger sus refugio",
-                "fecha": "Sun, 08 Nov 2026 02:46:46 GMT",
-                "titulo_original": "Gaza bajo el agua: desplazados intentan salvar lo poco que queda de sus tiendas inundadas",
+                "titulo": "'Wildwood: El Bosque Salvaje': el stop motion más épico de la historia del cine",
+                "url": "https://www.france24.com/es/programas/cultura/20261109-wildwood-el-bosque-salvaje-el-stop-motion-m%C3%A1s-%C3%A9pico-de-la-historia-del-cine",
+                "resumen": "En esta crónica de Cultura conversamos del estreno de la fábula familiar 'Wildwood', una suntuosa película que desafía la estética de la inteligencia artificial con su producción íntegramente artesanal, que la convierte en la cinta de animación en stop motion más larga jamás prod",
+                "fecha": "Mon, 09 Nov 2026 02:13:12 GMT",
+                "titulo_original": "'Wildwood: El Bosque Salvaje': el stop motion más épico de la historia del cine",
                 "tags": [
-                  "#OrienteMedio",
-                  "#Geopolítica",
-                  "#Seguridad"
+                  "#Cultura",
+                  "#DeepTech",
+                  "#InteligenciaArtificial",
+                  "#Innovación"
                 ],
                 "tema_repetido": true,
-                "cluster_tema": "Conflicto Oriente Medio (Gaza / Líbano)",
-                "coincidencias_count": 9
+                "cluster_tema": "Tecnología Disruptiva, IA y Biotecnología",
+                "coincidencias_count": 5
               },
               {
-                "titulo": "Polonia: tiroteo en el corazón de Cracovia deja varios muertos y heridos",
-                "url": "https://www.france24.com/es/video/20261108-polonia-tiroteo-en-el-coraz%C3%B3n-de-cracovia-deja-varios-muertos-y-heridos",
-                "resumen": "Un tiroteo ocurrido en el centro histórico de Cracovia, una de las ciudades más visitadas de Polonia, dejó varios muertos y heridos, según informaron las autoridades. El ataque se produjo en la Plaza del Mercado Principal, donde un hombre armado abrió fuego de forma indiscriminad",
-                "fecha": "Sun, 08 Nov 2026 02:10:23 GMT",
-                "titulo_original": "Polonia: tiroteo en el corazón de Cracovia deja varios muertos y heridos",
-                "tags": [
-                  "#Justicia",
-                  "#Instituciones",
-                  "#Polonia"
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "Crisis Institucional y Poder Judicial",
-                "coincidencias_count": 7
-              },
-              {
-                "titulo": "Tras la crisis, ¿Paraguay se encamina hacia un cambio real o solo a un relevo de figuras?",
-                "url": "https://www.france24.com/es/video/20261108-tras-la-crisis-paraguay-se-encamina-hacia-un-cambio-real-o-solo-a-un-relevo-de-figuras",
-                "resumen": "La destitución y posterior detención del expresidente paraguayo Santiago Peña han abierto uno de los periodos de mayor incertidumbre política en Paraguay en los últimos años. La crisis se desencadenó tras la intervención de Ueno Bank derivó en investigaciones por presuntos confli",
-                "fecha": "Sun, 08 Nov 2026 02:07:51 GMT",
-                "titulo_original": "Tras la crisis, ¿Paraguay se encamina hacia un cambio real o solo a un relevo de figuras?",
+                "titulo": "¿Cuál es el balance del primer año de Rodrigo Paz en Bolivia?",
+                "url": "https://www.france24.com/es/video/20261109-cu%C3%A1l-es-el-balance-del-primer-a%C3%B1o-de-rodrigo-paz-en-bolivia",
+                "resumen": "Se cumple un año desde que Rodrigo Paz asumió la Presidencia de Bolivia. Su primer año de gestión ha estado marcado por medidas para enfrentar la crisis económica y la reducción parcial de los subsidios a los combustibles. En este contexto, el analista político Raúl Peñaranda ana",
+                "fecha": "Mon, 09 Nov 2026 02:07:26 GMT",
+                "titulo_original": "¿Cuál es el balance del primer año de Rodrigo Paz en Bolivia?",
                 "tags": [],
                 "tema_repetido": false,
                 "cluster_tema": "",
@@ -868,53 +858,52 @@
             "perfil": "Internacional / Público",
             "noticias": [
               {
-                "titulo": "Mali: Casi 4.000 desplazados tras el ataque a Souleye",
-                "url": "https://www.dw.com/de/mali-fast-4-000-vertriebene-nach-angriff-auf-souleye/a-79854085?maca=de-rss-de-all-1119-xml-mrss",
-                "resumen": "En Malí, casi 4.000 personas desplazadas habrían encontrado refugio en Macina y Sarro, en la región de Ségou, en el centro del país, en su mayoría mujeres y niños que huyeron del ataque al pueblo de Souleye.",
-                "fecha": "Sun, 8 Nov 2026 13:37:00 GMT",
-                "titulo_original": "Mali: Fast 4.000 Vertriebene nach Angriff auf Souleye",
+                "titulo": "Conferencia Mundial sobre el Clima COP31: ¿Qué puede ofrecer la cumbre de Antalya?",
+                "url": "https://www.dw.com/de/weltklimakonferenz-cop31-was-kann-der-gipfel-in-antalya-liefern/a-79670957?maca=de-rss-de-all-1119-xml-mrss",
+                "resumen": "Hay mucho en la agenda en Antalya, pero no todos los países están de acuerdo. En el futuro, alianzas más pequeñas podrían promover la electrificación, la financiación climática y la eliminación gradual de los combustibles fósiles.",
+                "fecha": "Mon, 9 Nov 2026 06:15:00 GMT",
+                "titulo_original": "Weltklimakonferenz COP31 - Was kann der Gipfel in Antalya liefern?",
                 "tags": [
-                  "#Roncha"
+                  "#Ambiente"
                 ],
                 "tema_repetido": false,
                 "cluster_tema": "",
                 "coincidencias_count": 0
               },
               {
-                "titulo": "Ucrania: La central nuclear de Zaporizhzhia vuelve a ser cortada",
-                "url": "https://www.dw.com/de/ukraine-akw-saporischschja-wieder-vom-strom-abgetrennt/a-79890404?maca=de-rss-de-all-1119-xml-mrss",
-                "resumen": "La central nuclear ucraniana de Zaporizhzhia, controlada por unidades rusas, debe volver a recibir generadores de emergencia. Las razones de esto aún no se conocen.",
-                "fecha": "Sun, 8 Nov 2026 13:20:00 GMT",
-                "titulo_original": "Ukraine: AKW Saporischschja wieder vom Strom abgetrennt",
+                "titulo": "La política del CSU Ilse Aigner es ahora la favorita como primera mujer presidenta federal",
+                "url": "https://www.dw.com/de/die-csu-politikerin-ilse-aigner-ist-als-erste-bundespräsidentin-nun-favoritin/a-79873744?maca=de-rss-de-all-1119-xml-mrss",
+                "resumen": "Sería la primera presidenta federal y también la primera política del CSU en ocupar el cargo más alto del estado alemán. Ilse Aigner es ahora la candidata y favorita hasta las elecciones a la Asamblea Federal del 30 de enero.",
+                "fecha": "Sun, 8 Nov 2026 19:34:00 GMT",
+                "titulo_original": "Die CSU-Politikerin Ilse Aigner ist als erste Bundespräsidentin nun Favoritin",
                 "tags": [
-                  "#Geopolítica",
-                  "#GuerraUcrania",
-                  "#Defensa"
+                  "#Alemania"
                 ],
-                "tema_repetido": true,
-                "cluster_tema": "Guerra Ucrania / Rusia / Frente Oriental",
-                "coincidencias_count": 7
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
               },
               {
-                "titulo": "Moscú: Placa conmemorativa del jefe de espías de la RDA, Wolf",
-                "url": "https://www.dw.com/de/moskau-gedenktafel-erinnert-an-ddr-spionagechef-wolf/a-79890319?maca=de-rss-de-all-1119-xml-mrss",
-                "resumen": "La dictadura de la RDA es historia desde hace más de tres décadas. Markus Wolf, uno de sus principales representantes, será homenajeado ahora en Moscú.",
-                "fecha": "Sun, 8 Nov 2026 13:02:00 GMT",
-                "titulo_original": "Moskau: Gedenktafel erinnert an DDR-Spionagechef Wolf",
+                "titulo": "¿Es inestable la reputación de Polonia como país seguro?",
+                "url": "https://www.dw.com/de/wackelt-polens-ruf-als-sicheres-land/a-79893042?maca=de-rss-de-all-1119-xml-mrss",
+                "resumen": "El ataque terrorista en Cracovia conmocionó a Polonia. Sin embargo, la lucha por el poder entre el campo de centro izquierda de Donald Tusk y la oposición de derecha continúa. La reputación de Polonia como país seguro es inestable.",
+                "fecha": "Sun, 8 Nov 2026 17:29:00 GMT",
+                "titulo_original": "Wackelt Polens Ruf als sicheres Land?",
                 "tags": [
-                  "#Geopolítica",
-                  "#GuerraUcrania",
-                  "#Defensa"
+                  "#Roncha",
+                  "#Justicia",
+                  "#Instituciones",
+                  "#Polonia"
                 ],
                 "tema_repetido": true,
-                "cluster_tema": "Guerra Ucrania / Rusia / Frente Oriental",
-                "coincidencias_count": 7
+                "cluster_tema": "Crisis Institucional y Poder Judicial",
+                "coincidencias_count": 2
               },
               {
                 "titulo": "Israel: Gadi Eisenkot, rival de Netanyahu, formará gobierno",
                 "url": "https://www.dw.com/de/israel-netanjahu-rivale-gadi-eisenkot-soll-regierung-bilden/a-79889744?maca=de-rss-de-all-1119-xml-mrss",
                 "resumen": "El equilibrio de poder en el recién elegido parlamento de Israel es complicado. La alianza de Gadi Eisenkot carece de 13 mandatos para su propia mayoría gobernante. Los partidos de la minoría árabe podrían ayudar.",
-                "fecha": "Sun, 8 Nov 2026 11:36:00 GMT",
+                "fecha": "Sun, 8 Nov 2026 16:40:00 GMT",
                 "titulo_original": "Israel: Netanjahu-Rivale Gadi Eisenkot soll Regierung bilden",
                 "tags": [
                   "#OrienteMedio",
@@ -923,7 +912,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Conflicto Oriente Medio (Gaza / Líbano)",
-                "coincidencias_count": 9
+                "coincidencias_count": 3
               }
             ],
             "estado": "OK",
@@ -934,59 +923,62 @@
             "perfil": "Investigación / Centro",
             "noticias": [
               {
-                "titulo": "Tubinga: Desconocidos arrojan 15 kilos de cemento en Georgsbrunnen",
-                "url": "https://www.spiegel.de/panorama/tuebingen-unbekannte-kippen-15-kilo-zement-in-georgsbrunnen-a-6802b2f9-e948-47b2-b4f6-7937326c8973#ref=rss",
-                "resumen": "Un transeúnte vio en Tubinga a tres hombres arrojando por la noche varios sacos de cemento en Georgsbrunnen. Inicialmente las autoridades cortaron el agua.",
-                "fecha": "Sun, 8 Nov 2026 15:01:00 +0100",
-                "titulo_original": "Tübingen: Unbekannte kippen 15 Kilo Zement in Georgsbrunnen",
+                "titulo": "Bundesliga: Schalke 04 pierde en Hoffenheim y teme por Robin Gosens y Loris Karius",
+                "url": "https://www.spiegel.de/sport/fussball/fussball-bundesliga-schalke-04-verliert-in-hoffenheim-und-bangt-um-robin-gosens-und-loris-karius-a-a707ea81-d1b1-4ada-a17e-de7eb2bdf3eb#ref=rss",
+                "resumen": "Dos lesiones eclipsaron la derrota del Schalke 04 ante el TSG 1899 Hoffenheim: Robin Gosens y Loris Karius tuvieron que abandonar el campo tras un choque. El entrenador Miron Muslić teme que Gosens esté de baja durante mucho tiempo.",
+                "fecha": "Mon, 9 Nov 2026 09:00:00 +0100",
+                "titulo_original": "Fußball-Bundesliga: Schalke 04 verliert in Hoffenheim und bangt um Robin Gosens und Loris Karius",
                 "tags": [
-                  "#Panorama"
+                  "#Deporte",
+                  "#Transporte",
+                  "#Ferrocarril",
+                  "#Accidente"
+                ],
+                "tema_repetido": true,
+                "cluster_tema": "Accidente Ferroviario / Red de Transporte",
+                "coincidencias_count": 10
+              },
+              {
+                "titulo": "Creta: la guardia costera griega recupera al menos 20 inmigrantes muertos en un barco",
+                "url": "https://www.spiegel.de/ausland/kreta-griechische-kuestenwache-birgt-mindestens-20-tote-migranten-auf-boot-a-67ce7c1a-abd0-432a-a7b9-938fa0e6ebbe#ref=rss",
+                "resumen": "Varios barcos con refugiados a bordo tuvieron problemas al sur de Creta durante el fin de semana. La guardia costera griega llega ahora a una conclusión devastadora.",
+                "fecha": "Mon, 9 Nov 2026 08:56:00 +0100",
+                "titulo_original": "Kreta: Griechische Küstenwache birgt mindestens 20 tote Migranten auf Boot",
+                "tags": [
+                  "#Extranjero"
                 ],
                 "tema_repetido": false,
                 "cluster_tema": "",
                 "coincidencias_count": 0
               },
               {
-                "titulo": "Berlín: Un hombre iza la bandera palestina frente al Reichstag",
-                "url": "https://www.spiegel.de/panorama/justiz/berlin-mann-hisst-palaestina-flagge-vor-dem-reichstag-a-ed021ff5-e272-4dce-99bd-f9c5d8174938#ref=rss",
-                "resumen": "La bandera de la unidad sobre el terreno: Una bandera palestina ondeó brevemente el domingo frente al Reichstag en Berlín. La policía ha detenido a dos jóvenes.",
-                "fecha": "Sun, 8 Nov 2026 14:47:00 +0100",
-                "titulo_original": "Berlin: Mann hisst Palästina-Flagge vor dem Reichstag",
+                "titulo": "Las elecciones intermedias en EE.UU.: Donald Trump concede su primera entrevista a 60 Minutes",
+                "url": "https://www.spiegel.de/ausland/midterms-in-den-usa-donald-trump-gibt-60-minutes-erstes-interview-a-e5dd74eb-256a-47e5-a7b3-1c93b7c52ac2#ref=rss",
+                "resumen": "Por primera vez desde la histórica derrota de mitad de mandato, Donald Trump concedió una entrevista televisiva detallada. Entre los habituales elogios a sí mismo, el presidente estadounidense hace balance por momentos. ¿Pero también quiere cambiar algo?",
+                "fecha": "Mon, 9 Nov 2026 08:46:00 +0100",
+                "titulo_original": "Midterms in den USA: Donald Trump gibt 60 Minutes erstes Interview",
                 "tags": [
-                  "#Panorama",
-                  "#OrienteMedio",
-                  "#Geopolítica",
-                  "#Seguridad"
+                  "#Extranjero",
+                  "#EEUU",
+                  "#Elecciones",
+                  "#Política"
                 ],
                 "tema_repetido": true,
-                "cluster_tema": "Conflicto Oriente Medio (Gaza / Líbano)",
-                "coincidencias_count": 9
+                "cluster_tema": "Elecciones y Pugna Institucional EE.UU.",
+                "coincidencias_count": 5
               },
               {
-                "titulo": "Willie Nelson cree que “hizo todo mal” durante mucho tiempo",
-                "url": "https://www.spiegel.de/kultur/willie-nelson-findet-er-habe-lange-zeit-alles-falsch-gemacht-a-9206faeb-cb0f-4b4f-9845-fa031503f1d2#ref=rss",
-                "resumen": "Además de la música, el veterano del country Willie Nelson es más conocido por consumir cannabis. A sus 93 años presenta sus memorias y revela su idea de una vida feliz.",
-                "fecha": "Sun, 8 Nov 2026 14:38:00 +0100",
-                "titulo_original": "Willie Nelson findet, er habe lange Zeit »alles falsch gemacht«",
+                "titulo": "Commerzbank: UniCredit quiere implementar una nueva estrategia a partir de 2027",
+                "url": "https://www.spiegel.de/wirtschaft/unternehmen/commerzbank-unicredit-moechte-ab-2027-neue-strategie-umsetzen-a-ab6c6747-ebcc-4d11-8be9-ac31272446e0#ref=rss",
+                "resumen": "Tan pronto como se concluya oficialmente la adquisición del Commerzbank, UniCredit quiere implementar allí su estrategia. Los accionistas de Commerzbank deberían esperar dividendos más bajos.",
+                "fecha": "Mon, 9 Nov 2026 08:40:00 +0100",
+                "titulo_original": "Commerzbank: UniCredit möchte ab 2027 neue Strategie umsetzen",
                 "tags": [
-                  "#Cultura"
+                  "#Negocio"
                 ],
                 "tema_repetido": true,
-                "cluster_tema": "Cultura",
+                "cluster_tema": "Negocio",
                 "coincidencias_count": 2
-              },
-              {
-                "titulo": "Dave Bell: el británico rema 28.000 kilómetros desde Sudamérica hasta África",
-                "url": "https://www.spiegel.de/sport/dave-bell-brite-rudert-28-000-kilometer-von-suedamerika-nach-afrika-a-3aa502ee-b4c4-4e96-9884-f34ff75a86cc#ref=rss",
-                "resumen": "Tiburones, tormentas y un whisky del rey: Dave Bell estuvo solo en un bote de remos durante 327 días y cruzó dos océanos. Reflexiones de un hombre que estuvo solo durante mucho tiempo, pero nunca solo.",
-                "fecha": "Sun, 8 Nov 2026 14:36:00 +0100",
-                "titulo_original": "Dave Bell: Brite rudert 28.000 Kilometer von Südamerika nach Afrika",
-                "tags": [
-                  "#Deporte"
-                ],
-                "tema_repetido": false,
-                "cluster_tema": "",
-                "coincidencias_count": 0
               }
             ],
             "estado": "OK",
@@ -997,56 +989,33 @@
             "perfil": "Público / ARD",
             "noticias": [
               {
-                "titulo": "Un hombre iza la bandera palestina frente al Reichstag de Berlín",
-                "url": "https://www.tagesschau.de/inland/regional/berlin/reichstag-palaestina-flagge-100.html",
-                "resumen": "Un hombre subió al mástil de casi 30 metros de altura frente al edificio del Reichstag en Berlín. Quitó la bandera alemana e izó una bandera palestina. Ahora la seguridad del estado está investigando.",
-                "fecha": "Sun, 08 Nov 2026 15:05:08 +0100",
-                "titulo_original": "Mann hisst Palästinenser-Flagge vor Berliner Reichstagsgebäude",
-                "tags": [
-                  "#OrienteMedio",
-                  "#Geopolítica",
-                  "#Seguridad"
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "Conflicto Oriente Medio (Gaza / Líbano)",
-                "coincidencias_count": 9
+                "titulo": "¿Cuál es el estado de la protección del clima en el país anfitrión, Türkiye?",
+                "url": "https://www.tagesschau.de/ausland/europa/cop-gastgeber-turkei-100.html",
+                "resumen": "Aumentar la proporción de energía eléctrica en todo el mundo al 35 por ciento para 2035: el anfitrión Türkiye se dirige a la conferencia sobre el clima con esta propuesta. Sin embargo, el país sigue dependiendo principalmente del carbón. Por Benjamín Weber.",
+                "fecha": "Mon, 09 Nov 2026 09:05:32 +0100",
+                "titulo_original": "Wie steht es um den Klimaschutz im Gastgeberland Türkei?",
+                "tags": [],
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
               },
               {
-                "titulo": "Ataques aéreos rusos: cientos de miles de ucranianos nuevamente sin electricidad",
-                "url": "https://www.tagesschau.de/ausland/europa/ukraine-stromausfall-120.html",
-                "resumen": "Una vez más, Rusia ha golpeado duramente el suministro energético de Ucrania. En la región de Dnipropetrovsk, 600.000 personas no tienen electricidad. La central nuclear ocupada de Zaporizhzhia debe refrigerarse con generadores de emergencia.",
-                "fecha": "Sun, 08 Nov 2026 13:05:57 +0100",
-                "titulo_original": "Russische Luftangriffe: Erneut Hunderttausende Ukrainer ohne Strom",
-                "tags": [
-                  "#Geopolítica",
-                  "#GuerraUcrania",
-                  "#Defensa"
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "Guerra Ucrania / Rusia / Frente Oriental",
-                "coincidencias_count": 7
+                "titulo": "El representante de las víctimas, Zupke, advierte contra la distorsión de la historia de la RDA",
+                "url": "https://www.tagesschau.de/inland/november-gedenken-100.html",
+                "resumen": "El 9 de noviembre juega un papel especial en la historia de Alemania. El representante de las víctimas del SED advierte que no se debe abusar del legado de la revolución pacífica con fines políticos. El Canciller Merz pidió la protección de la democracia.",
+                "fecha": "Mon, 09 Nov 2026 08:19:35 +0100",
+                "titulo_original": "Opferbeauftragte Zupke warnt vor Verdrehung der DDR-Geschichte",
+                "tags": [],
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
               },
               {
-                "titulo": "Disparos en Cracovia: la fiscalía investiga sospechas de terrorismo",
-                "url": "https://www.tagesschau.de/ausland/europa/krakau-schuesse-trauer-102.html",
-                "resumen": "Tras el tiroteo en Cracovia, la fiscalía asume terrorismo. Murieron seis personas. Hay indicios de que el tirador tenía una actitud “muy radical”. Tres familiares también fueron baleados.",
-                "fecha": "Sun, 08 Nov 2026 12:19:37 +0100",
-                "titulo_original": "Schüsse in Krakau: Staatsanwaltschaft geht Terrorismusverdacht nach",
-                "tags": [
-                  "#Justicia",
-                  "#Instituciones",
-                  "#Polonia"
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "Crisis Institucional y Poder Judicial",
-                "coincidencias_count": 7
-              },
-              {
-                "titulo": "Trabajadores temporales: la fuente de dinero de Corea del Norte en Rusia",
-                "url": "https://www.tagesschau.de/ausland/europa/russland-nordkorea-104.html",
-                "resumen": "Corea del Norte no sólo proporciona soldados para la guerra contra Ucrania. En Rusia también trabajan decenas de miles de trabajadores temporales. Espera ganar más que en su país de origen. ¿Se hará realidad este deseo? Por Norberto Hahn.",
-                "fecha": "Sun, 08 Nov 2026 11:32:46 +0100",
-                "titulo_original": "Leiharbeiter: Nordkoreas Geldquelle in Russland",
+                "titulo": "Los ministros de Asuntos Exteriores del G7 hablan de Ucrania e Irán",
+                "url": "https://www.tagesschau.de/ausland/europa/g7-paris-100.html",
+                "resumen": "¿Qué papel juega Europa en la resolución de la guerra de Ucrania? ¿Qué sigue para Irán? Estas cuestiones están en el centro de las conversaciones del G7 en París, en las que también participa el secretario de Estado estadounidense Rubio.",
+                "fecha": "Mon, 09 Nov 2026 07:50:09 +0100",
+                "titulo_original": "G7-Außenminister sprechen über Ukraine und Iran",
                 "tags": [
                   "#Geopolítica",
                   "#GuerraUcrania",
@@ -1055,6 +1024,17 @@
                 "tema_repetido": true,
                 "cluster_tema": "Guerra Ucrania / Rusia / Frente Oriental",
                 "coincidencias_count": 7
+              },
+              {
+                "titulo": "Muere el tirador de Cracovia",
+                "url": "https://www.tagesschau.de/ausland/europa/krakau-todesschuetze-tot-100.html",
+                "resumen": "Los tiroteos mortales en Cracovia causaron horror, pero también plantearon muchas preguntas. Especialmente dependiendo del motivo del perpetrador. Ya no se le puede interrogar. El joven de 24 años murió en el hospital.",
+                "fecha": "Mon, 09 Nov 2026 08:06:15 +0100",
+                "titulo_original": "Todesschütze von Krakau ist tot",
+                "tags": [],
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
               }
             ],
             "estado": "OK",
@@ -1071,52 +1051,53 @@
             "perfil": "Público / Global",
             "noticias": [
               {
-                "titulo": "Lo que sabemos hasta ahora después del ataque armado en Cracovia",
-                "url": "https://www.bbc.co.uk/news/articles/cmd7q15drwgeo?at_medium=RSS&at_campaign=rss",
-                "resumen": "Seis personas murieron en un tiroteo aleatorio en la plaza principal de Cracovia, y más tarde se encontraron tres cadáveres en la casa del atacante.",
-                "fecha": "Sun, 08 Nov 2026 11:22:17 GMT",
-                "titulo_original": "What we know so far after Krakow gun attack",
+                "titulo": "El sospechoso del tiroteo en Cracovia murió en el hospital, dice la policía",
+                "url": "https://www.bbc.co.uk/news/articles/c6y434dw8319o?at_medium=RSS&at_campaign=rss",
+                "resumen": "Al menos seis personas murieron en el tiroteo y en su casa se encontraron tres cadáveres de familiares del sospechoso.",
+                "fecha": "Mon, 09 Nov 2026 07:26:09 GMT",
+                "titulo_original": "Krakow shooting suspect has died in hospital, police say",
                 "tags": [],
                 "tema_repetido": false,
                 "cluster_tema": "",
                 "coincidencias_count": 0
               },
               {
-                "titulo": "Los hutíes dicen que al menos 33 muertos en ataque aéreo saudita",
-                "url": "https://www.bbc.co.uk/news/articles/c65yn1v99ypmo?at_medium=RSS&at_campaign=rss",
-                "resumen": "Arabia Saudita, que lidera una coalición que lucha contra los hutíes en Yemen, no ha hecho comentarios.",
-                "fecha": "Sun, 08 Nov 2026 04:03:12 GMT",
-                "titulo_original": "Houthis say at least 33 killed in Saudi air strike",
+                "titulo": "Dentro de las bandas de narcotraficantes francesas que reclutan niños para matar",
+                "url": "https://www.bbc.co.uk/news/articles/cq62y01r2313o?at_medium=RSS&at_campaign=rss",
+                "resumen": "La BBC se adentra en el peligroso inframundo de Marsella, donde los jóvenes son atrapados, brutalizados y explotados.",
+                "fecha": "Mon, 09 Nov 2026 06:00:26 GMT",
+                "titulo_original": "Inside the French drug gangs recruiting children to kill",
                 "tags": [],
                 "tema_repetido": false,
                 "cluster_tema": "",
                 "coincidencias_count": 0
               },
               {
-                "titulo": "\"Aplanados\", \"cansados\", \"cínicos\": los neozelandeses inusualmente sombríos organizan las elecciones más reñidas en años en Nueva Zelanda",
-                "url": "https://www.bbc.co.uk/news/articles/cxr5yyg2nj9eo?at_medium=RSS&at_campaign=rss",
-                "resumen": "El ánimo nacional está deprimido y la fe en la política es aún menor: los votantes abandonan los partidos principales en las urnas.",
-                "fecha": "Sat, 07 Nov 2026 21:36:16 GMT",
-                "titulo_original": "'Flat', 'tired', 'cynical': Unusually gloomy Kiwis deliver New Zealand's tightest election in years",
+                "titulo": "Un cirujano que almorzó cerca del tiroteo en Cracovia sin duda salvó la vida de un oficial, dice un colega",
+                "url": "https://www.bbc.co.uk/news/articles/c5x2vw4e1gx1o?at_medium=RSS&at_campaign=rss",
+                "resumen": "Han surgido más detalles sobre dos agentes de policía aclamados por impedir que un pistolero polaco matara más.",
+                "fecha": "Sun, 08 Nov 2026 23:34:18 GMT",
+                "titulo_original": "Surgeon having lunch near Krakow shooting undoubtedly saved officer's life, colleague says",
                 "tags": [],
                 "tema_repetido": false,
                 "cluster_tema": "",
                 "coincidencias_count": 0
               },
               {
-                "titulo": "El presidente de Israel encarga al líder de la oposición Eisenkot formar gobierno",
-                "url": "https://www.bbc.co.uk/news/articles/cmy8367lj5xlo?at_medium=RSS&at_campaign=rss",
-                "resumen": "Ni el bloque del primer ministro Benjamín Netanyahu ni el de su rival obtuvieron la mayoría en las elecciones de la semana pasada.",
-                "fecha": "Sat, 07 Nov 2026 22:19:59 GMT",
-                "titulo_original": "Israel's president tasks opposition leader Eisenkot with forming government",
+                "titulo": "Siete muertos y más de 100 heridos tras colisión de trenes en Egipto",
+                "url": "https://www.bbc.co.uk/news/articles/cwvgr20mmmevo?at_medium=RSS&at_campaign=rss",
+                "resumen": "Varios vagones descarrilaron después de que dos trenes que viajaban en la misma dirección chocaran en las afueras de la ciudad de Giza.",
+                "fecha": "Sun, 08 Nov 2026 19:58:02 GMT",
+                "titulo_original": "Seven dead and more than 100 injured after trains collide in Egypt",
                 "tags": [
-                  "#OrienteMedio",
-                  "#Geopolítica",
-                  "#Seguridad"
+                  "#Transporte",
+                  "#Ferrocarril",
+                  "#Accidente",
+                  "#Infraestructuras"
                 ],
                 "tema_repetido": true,
-                "cluster_tema": "Conflicto Oriente Medio (Gaza / Líbano)",
-                "coincidencias_count": 9
+                "cluster_tema": "Accidente Ferroviario / Red de Transporte",
+                "coincidencias_count": 10
               }
             ],
             "estado": "OK",
@@ -1126,6 +1107,22 @@
             "medio": "The Guardian (World)",
             "perfil": "Progresista / Investigación",
             "noticias": [
+              {
+                "titulo": "Colisión de dos trenes en Egipto mata al menos a siete personas",
+                "url": "https://www.theguardian.com/world/2026/nov/08/egypt-two-trains-deadly-collision",
+                "resumen": "El presidente ordena una rápida investigación después de que un tren descarrilara en una colisión en al-Ayyat, a unos 50 kilómetros de El Cairo. Siete personas murieron y al menos 125 resultaron heridas cuando dos trenes chocaron el domingo al sur de la capital egipcia, El Cairo, dijeron funcionarios. El accidente se produjo en al-Ayyat d",
+                "fecha": "Sun, 08 Nov 2026 17:51:17 GMT",
+                "titulo_original": "Collision of two trains in Egypt kills at least seven",
+                "tags": [
+                  "#Egipto",
+                  "#ChoquesTrenes",
+                  "#TransporteFerroviario",
+                  "#África"
+                ],
+                "tema_repetido": true,
+                "cluster_tema": "Accidente Ferroviario / Red de Transporte",
+                "coincidencias_count": 10
+              },
               {
                 "titulo": "Cómo las filosofías africanas inspiraron un nuevo enfoque para organizar festivales de cine en Manchester",
                 "url": "https://www.theguardian.com/news/2026/nov/08/african-philosophies-see-my-world-film-festival-manchester",
@@ -1154,9 +1151,9 @@
                   "#Religión",
                   "#Mundiales"
                 ],
-                "tema_repetido": false,
-                "cluster_tema": "",
-                "coincidencias_count": 0
+                "tema_repetido": true,
+                "cluster_tema": "Kenia",
+                "coincidencias_count": 2
               },
               {
                 "titulo": "El ANC se enfrenta a una dura derrota en las elecciones locales de Sudáfrica con el 80% de los votos contados",
@@ -1173,22 +1170,6 @@
                 "tema_repetido": true,
                 "cluster_tema": "Elecciones y Pugna Institucional EE.UU.",
                 "coincidencias_count": 5
-              },
-              {
-                "titulo": "Trabajador sanitario británico con ébola evacuado de la República Democrática del Congo al Reino Unido",
-                "url": "https://www.theguardian.com/world/2026/nov/04/british-healthcare-worker-ebola-evacuated-drc-to-uk-document-shows",
-                "resumen": "El paciente se encuentra en condición estable y será trasladado a una unidad especializada en enfermedades infecciosas de \"altas consecuencias\". Se ha confirmado que un trabajador sanitario británico con ébola está siendo evacuado de la República Democrática del Congo al Reino Unido para recibir tratamiento médico. “Un británico",
-                "fecha": "Wed, 04 Nov 2026 18:18:37 GMT",
-                "titulo_original": "British healthcare worker with Ebola evacuated from DR Congo to UK",
-                "tags": [
-                  "#Ébola",
-                  "#ReinoUnido",
-                  "#EnfermedadesInfecciosas",
-                  "#DesarrolloGlobal"
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "Emergencia Climática y Fenómenos Extremos",
-                "coincidencias_count": 2
               }
             ],
             "estado": "OK",
@@ -1199,41 +1180,56 @@
             "perfil": "Televisión / Actualidad en Directo",
             "noticias": [
               {
-                "titulo": "Un británico entre los seis muertos por un pistolero de \"extrema derecha\" en los disturbios de Cracovia",
-                "url": "https://news.sky.com/story/british-national-among-six-killed-by-far-right-gunman-in-krakow-rampage-13609612",
-                "resumen": "Un británico de 32 años se encuentra entre las seis personas que murieron en un tiroteo masivo en Cracovia, y otra resultó herida, dijeron funcionarios polacos.",
-                "fecha": "Sun, 08 Nov 2026 02:19:00 +0000",
-                "titulo_original": "Briton among six killed by 'far-right' gunman in Krakow rampage",
+                "titulo": "El jefe de la marina de Finlandia dice que la presencia de Rusia en el Mar Báltico puede haber alcanzado su punto máximo por ahora",
+                "url": "https://news.sky.com/story/finlands-navy-chief-says-russias-presence-in-the-baltic-sea-may-have-peaked-for-now-13609763",
+                "resumen": "Rusia puede haber alcanzado el límite de su capacidad \"en tiempos de paz\" para proyectar fuerza en el Mar Báltico, con la situación marítima \"tensa\" pero \"estable\", afirmó el jefe de la marina finlandesa.",
+                "fecha": "Sun, 08 Nov 2026 01:01:00 +0000",
+                "titulo_original": "Finland's navy chief says Russia's presence in the Baltic Sea may have peaked for now",
                 "tags": [
-                  "#Sociedad",
-                  "#Manifestaciones",
-                  "#Protestas"
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "Manifestaciones y Protestas Sociales",
-                "coincidencias_count": 4
-              },
-              {
-                "titulo": "Golpe para Netanyahu cuando el presidente de Israel le pidió a su rival de la oposición que formara gobierno",
-                "url": "https://news.sky.com/story/blow-for-netanyahu-as-opposition-rival-asked-to-form-government-by-israels-president-13609540",
-                "resumen": "El presidente de Israel ha pedido al rival más fuerte de Benjamin Netanyahu, Gadi Eisenkot, que intente formar un gobierno tras unas elecciones estancadas.",
-                "fecha": "Sat, 07 Nov 2026 20:10:00 +0000",
-                "titulo_original": "Blow for Netanyahu as opposition rival asked to form government by Israel's president",
-                "tags": [
-                  "#OrienteMedio",
                   "#Geopolítica",
-                  "#Seguridad"
+                  "#GuerraUcrania",
+                  "#Defensa"
                 ],
                 "tema_repetido": true,
-                "cluster_tema": "Conflicto Oriente Medio (Gaza / Líbano)",
-                "coincidencias_count": 9
+                "cluster_tema": "Guerra Ucrania / Rusia / Frente Oriental",
+                "coincidencias_count": 7
               },
               {
-                "titulo": "Trump le pide al jefe de UFC, Dana White, que sea su nuevo secretario de prensa",
+                "titulo": "El gigante de la inteligencia artificial Nvidia inicia una investigación sobre el romance del CEO con el 'espía chino'",
+                "url": "https://news.sky.com/story/tech-giant-nvidia-launches-investigation-after-reports-ceo-was-targeted-by-chinese-intelligence-13609986",
+                "resumen": "El director ejecutivo del gigante tecnológico Nvidia admitió haber tenido una aventura y la compañía está investigando informes de que fue blanco de un esfuerzo de inteligencia extranjero.",
+                "fecha": "Sun, 08 Nov 2026 20:41:00 +0000",
+                "titulo_original": "AI giant Nvidia launches investigation into CEO's affair with 'Chinese spy'",
+                "tags": [
+                  "#DeepTech",
+                  "#InteligenciaArtificial",
+                  "#Innovación"
+                ],
+                "tema_repetido": true,
+                "cluster_tema": "Tecnología Disruptiva, IA y Biotecnología",
+                "coincidencias_count": 5
+              },
+              {
+                "titulo": "Murió el pistolero sospechoso de matar a seis personas en la ciudad polaca de Cracovia, dice la policía",
+                "url": "https://news.sky.com/story/gunman-suspected-of-killing-six-people-in-polish-city-of-krakow-has-died-police-say-13608464",
+                "resumen": "Un hombre armado sospechoso de matar a seis personas, incluido un ciudadano británico, en Polonia el sábado murió en el hospital.",
+                "fecha": "Thu, 05 Nov 2026 15:39:00 +0000",
+                "titulo_original": "Gunman suspected of killing six people in Polish city of Krakow has died, police say",
+                "tags": [
+                  "#Justicia",
+                  "#Instituciones",
+                  "#Polonia"
+                ],
+                "tema_repetido": true,
+                "cluster_tema": "Crisis Institucional y Poder Judicial",
+                "coincidencias_count": 2
+              },
+              {
+                "titulo": "Trump 'sólo bromea' acerca de ofrecer el puesto de secretario de prensa al jefe de UFC",
                 "url": "https://news.sky.com/story/trump-asks-ufc-boss-dana-white-to-become-white-house-press-secretary-13609613",
-                "resumen": "Donald Trump ha pedido al promotor de artes marciales mixtas Dana White que sea su nuevo secretario de prensa en la Casa Blanca.",
+                "resumen": "Donald Trump ha dicho que \"sólo estaba bromeando\" acerca de que el jefe de UFC, Dana White, se convierta en secretario de prensa de la Casa Blanca.",
                 "fecha": "Sun, 08 Nov 2026 04:27:00 +0000",
-                "titulo_original": "Trump asks UFC boss Dana White to be his new press secretary",
+                "titulo_original": "Trump 'only kidding' about offering UFC boss press secretary job",
                 "tags": [
                   "#EEUU",
                   "#Elecciones",
@@ -1242,17 +1238,6 @@
                 "tema_repetido": true,
                 "cluster_tema": "Elecciones y Pugna Institucional EE.UU.",
                 "coincidencias_count": 5
-              },
-              {
-                "titulo": "\"Los derechos humanos y la libertad han cesado\": el periódico que desafió al Kremlin paga el precio",
-                "url": "https://news.sky.com/story/human-rights-and-freedom-have-ceased-newspaper-that-defied-kremlin-pays-price-13609715",
-                "resumen": "",
-                "fecha": "Sun, 08 Nov 2026 13:59:00 +0000",
-                "titulo_original": "'Human rights and freedom have ceased': Newspaper that defied Kremlin pays price",
-                "tags": [],
-                "tema_repetido": false,
-                "cluster_tema": "",
-                "coincidencias_count": 0
               }
             ],
             "estado": "OK",
@@ -1269,56 +1254,52 @@
             "perfil": "Comunitario / Multilingüe",
             "noticias": [
               {
-                "titulo": "Egipto descubre un yacimiento de gas en el Mediterráneo con 200.000 millones de pies cúbicos",
-                "url": "https://es.euronews.com/2026/11/08/egipto-descubre-nuevo-yacimiento-gas-natural-mediterraneo",
-                "resumen": "El Ministerio de Petróleo atribuyó los resultados positivos al aumento de la inversión y de la actividad exploratoria, así como a la mejora del clima inversor y a los avances en el pago de las deudas pendientes con las empresas energéticas extranjeras.",
-                "fecha": "Sun, 08 Nov 2026 14:35:04 +0100",
-                "titulo_original": "Egipto descubre un yacimiento de gas en el Mediterráneo con 200.000 millones de pies cúbicos",
-                "tags": [
-                  "#Minería",
-                  "#Energía",
-                  "#Recursos"
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "Soberanía de Recursos, Minería y Energía",
-                "coincidencias_count": 2
-              },
-              {
-                "titulo": "EE.UU. ataca un buque mercante en el golfo de Omán por eludir el bloqueo a Irán",
-                "url": "https://es.euronews.com/2026/11/08/estados-unidos-ataca-buque-mercante-golfo-oman-bloqueo-iran",
-                "resumen": "La agencia británica de seguridad marítima UKMTO informó el sábado por la noche de un incidente entre un buque de carga y fuerzas militares en el golfo de Omán.",
-                "fecha": "Sun, 08 Nov 2026 13:03:58 +0100",
-                "titulo_original": "EE.UU. ataca un buque mercante en el golfo de Omán por eludir el bloqueo a Irán",
+                "titulo": "Muere a los 52 años el director chileno ganador del Oscar Sebastián Lelio",
+                "url": "https://es.euronews.com/2026/11/09/muere-a-los-52-anos-el-director-chileno-ganador-del-oscar-sebastian-lelio",
+                "resumen": "El cineasta argentino ganó fama con su película «Gloria» y luego obtuvo el segundo Óscar de Chile con «Una mujer fantástica» (2017), cuyo impacto impulsó una ley que permite cambiar legalmente de género.",
+                "fecha": "Mon, 09 Nov 2026 09:08:55 +0100",
+                "titulo_original": "Muere a los 52 años el director chileno ganador del Oscar Sebastián Lelio",
                 "tags": [],
                 "tema_repetido": false,
                 "cluster_tema": "",
                 "coincidencias_count": 0
               },
               {
-                "titulo": "Últimas noticias | 08 noviembre 2026 - Mediodía",
-                "url": "https://es.euronews.com/video/2026/11/08/ultimas-noticias-08-noviembre-2026-mediodia",
-                "resumen": "Ponte al día con las noticias más importantes de Europa y el mundo este 08 noviembre 2026: noticias de última hora, internacional, negocios, entretenimiento, política, cultura, viajes.",
-                "fecha": "Sun, 08 Nov 2026 12:00:25 +0100",
-                "titulo_original": "Últimas noticias | 08 noviembre 2026 - Mediodía",
+                "titulo": "'Ebenezer', 'Rivals' y el regreso de U2: lo mejor para hacer y ver en Europa esta semana",
+                "url": "https://es.euronews.com/2026/11/09/ebenezer-rivals-y-el-regreso-de-u2-lo-mejor-para-hacer-y-ver-en-europa-esta-semana",
+                "resumen": "Johnny Depp interpreta a Scrooge en una nueva adaptación de Dickens, los irlandeses U2 celebran su 50 aniversario y la Saatchi Gallery de Londres inaugura una gran exposición de arte urbano. Esto es lo más destacado de la semana.",
+                "fecha": "Mon, 09 Nov 2026 09:01:39 +0100",
+                "titulo_original": "'Ebenezer', 'Rivals' y el regreso de U2: lo mejor para hacer y ver en Europa esta semana",
                 "tags": [],
                 "tema_repetido": false,
                 "cluster_tema": "",
                 "coincidencias_count": 0
               },
               {
-                "titulo": "La Justicia de Paraguay ordena prisión preventiva para el expresidente Santiago Peña por el caso Ueno Bank",
-                "url": "https://es.euronews.com/2026/11/08/paraguay-prision-preventiva-santiago-pena-caso-ueno-bank",
-                "resumen": "La Fiscalía acusa a Peña de presuntas irregularidades en la gestión de fondos públicos depositados en Ueno Bank. Su defensa niega las acusaciones, mientras la hidroeléctrica de Itaipú reclama más de 163 millones de dólares.",
-                "fecha": "Sun, 08 Nov 2026 11:50:54 +0100",
-                "titulo_original": "La Justicia de Paraguay ordena prisión preventiva para el expresidente Santiago Peña por el caso Ueno Bank",
+                "titulo": "Trump, Putin y Xi sopesan reunirse en China para abordar el fin de la guerra en Irán",
+                "url": "https://es.euronews.com/2026/11/09/trump-putin-y-xi-sopesan-reunirse-en-china-para-abordar-el-fin-de-la-guerra-en-iran",
+                "resumen": "El presidente de EE.UU., Donald Trump, dijo que posiblemente se reuniría la semana que viene con Vladímir Putin y Xi Jinping en China para tratar la \"desnuclearización\" y cómo poner fin a la guerra de Irán.",
+                "fecha": "Mon, 09 Nov 2026 08:55:25 +0100",
+                "titulo_original": "Trump, Putin y Xi sopesan reunirse en China para abordar el fin de la guerra en Irán",
                 "tags": [
-                  "#Justicia",
-                  "#Instituciones",
-                  "#Polonia"
+                  "#Geopolítica",
+                  "#GuerraUcrania",
+                  "#Defensa"
                 ],
                 "tema_repetido": true,
-                "cluster_tema": "Crisis Institucional y Poder Judicial",
+                "cluster_tema": "Guerra Ucrania / Rusia / Frente Oriental",
                 "coincidencias_count": 7
+              },
+              {
+                "titulo": "Argentina: Milei recibe al Papa León XIV en una visita histórica",
+                "url": "https://es.euronews.com/video/2026/11/09/argentina-milei-recibe-al-papa-leon-xiv-en-una-visita-historica",
+                "resumen": "El Papa León XIV llegó a Argentina el domingo 8 de noviembre, en la primera visita al país en casi 40 años. El presidente Javier Milei lo recibió en el aeropuerto de Buenos Aires y el obelisco se iluminó en su honor.",
+                "fecha": "Mon, 09 Nov 2026 08:54:55 +0100",
+                "titulo_original": "Argentina: Milei recibe al Papa León XIV en una visita histórica",
+                "tags": [],
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
               }
             ],
             "estado": "OK",
@@ -1329,64 +1310,64 @@
             "perfil": "Regulatorio / Políticas UE",
             "noticias": [
               {
-                "titulo": "Europa estará representada en las conversaciones de Abu Dabi sobre Ucrania, dice el Ministro de Asuntos Exteriores francés",
-                "url": "https://www.politico.eu/article/europe-will-be-represented-in-abu-dhabi-talks-on-ukraine-french-foreign-minister-jean-noel-barrot-says/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-                "resumen": "Jean-Noël Barrot dijo que \"los europeos estarán bien representados\" en las conversaciones mediadas por Estados Unidos, pero no dijo quién haría el viaje a Abu Dhabi.",
-                "fecha": "Sun, 08 Nov 2026 14:03:28 +0000",
-                "titulo_original": "Europe will be represented in Abu Dhabi talks on Ukraine, French foreign minister says",
+                "titulo": "El plan de Le Pen para acabar con la diplomacia de la UE",
+                "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/le-pens-plan-to-end-eu-diplomacy/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+                "resumen": "Todos los ojos están nuevamente puestos en Ucrania esta semana, mientras una nueva ronda de conversaciones diplomáticas pone en juego el futuro de Europa. La atención del continente estará en gran medida en Ucrania mientras las conversaciones trilaterales entre Estados Unidos, Kiev y Moscú se lleven a cabo en Abu Dhabi. Hay mucho en juego, como dijo el presidente Dona",
+                "fecha": "Mon, 09 Nov 2026 05:05:00 +0000",
+                "titulo_original": "Le Pen’s plan to end EU diplomacy",
                 "tags": [
-                  "#PolíticaExterior",
-                  "#Kremlin",
-                  "#MediosComunicación",
-                  "#Seguridad"
+                  "#PodcastLibroEstrategias",
+                  "#PolíticaEuropea",
+                  "#ExtremaDerecha",
+                  "#PolíticaExterior"
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Guerra Ucrania / Rusia / Frente Oriental",
                 "coincidencias_count": 7
               },
               {
-                "titulo": "Los ataques rusos dejan a 600.000 personas en la oscuridad en el este de Ucrania",
-                "url": "https://www.politico.eu/article/russian-strikes-leave-600000-in-the-dark-in-eastern-ukraine-dnipropetrovsk/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-                "resumen": "El presidente ucraniano, Volodymyr Zelenskyy, pidió más sanciones a Rusia antes de las conversaciones en Abu Dhabi.",
-                "fecha": "Sun, 08 Nov 2026 11:09:52 +0000",
-                "titulo_original": "Russian strikes leave 600,000 in the dark in eastern Ukraine",
+                "titulo": "El estilo libre de Ilse Aigner",
+                "url": "https://www.politico.eu/podcast/berlin-playbook-podcast/die-kur-der-ilse-aigner/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+                "resumen": "Desarrollado por YouTube.",
+                "fecha": "Mon, 09 Nov 2026 04:30:00 +0000",
+                "titulo_original": "Die Kür der Ilse Aigner",
                 "tags": [
-                  "#InfraestructuraCrítica",
-                  "#Electricidad",
-                  "#Hospitales",
-                  "#Infraestructura"
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "Guerra Ucrania / Rusia / Frente Oriental",
-                "coincidencias_count": 7
-              },
-              {
-                "titulo": "Domingo de seguridad: el nuevo frente de la Bundeswehr en Lituania - con Robertas Kaunas",
-                "url": "https://www.politico.eu/podcast/berlin-playbook-podcast/security-sunday-die-neue-front-der-bundeswehr-in-litauen-mit-robertas-kaunas/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-                "resumen": "Intercalado entre Kaliningrado y Bielorrusia se encuentra el punto más vulnerable de la OTAN. Precisamente aquí nació la Panzerbrigade 45, probablemente el proyecto más importante de la era alemana. Hasta 2027, casi 5.000 soldados alemanes estarán estacionados permanentemente en Lituania.",
-                "fecha": "Sun, 08 Nov 2026 09:30:58 +0000",
-                "titulo_original": "Security Sunday: Die neue Front der Bundeswehr in Litauen – mit Robertas Kaunas",
-                "tags": [
-                  "#PaísesBálticos",
-                  "#Defensa",
                   "#Podcast",
-                  "#Drones"
+                  "#Diplomacia",
+                  "#DonaldTrump",
+                  "#PolíticaExterior"
+                ],
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
+              },
+              {
+                "titulo": "Desechable: la gente corriente que hace el trabajo sucio de Rusia",
+                "url": "https://www.politico.eu/article/russia-hybrid-war-europe-low-level-agents/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+                "resumen": "El Kremlin está reclutando civiles para llevar a cabo sabotajes en toda Europa.",
+                "fecha": "Mon, 09 Nov 2026 03:00:00 +0000",
+                "titulo_original": "Disposable: The ordinary people doing Russia’s dirty work",
+                "tags": [
+                  "#GlobalReportersNetwork",
+                  "#Inteligencia",
+                  "#Terrorismo",
+                  "#Política"
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Guerra Ucrania / Rusia / Frente Oriental",
                 "coincidencias_count": 7
               },
               {
-                "titulo": "Un paseo con Bodo Ramelow",
-                "url": "https://www.politico.eu/podcast/berlin-playbook-podcast/ein-spaziergang-mit-bodo-ramelow/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-                "resumen": "El mundo se está volviendo loco, pero sorprendentemente hay una unidad en el Presidium del Bundestag. En una entrevista con Gordon Repinski, el vicepresidente del Bundestag, Bodo Ramelow (Die Linke), ofrece una visión poco común de la cooperación no partidista, también en los turnos de noche. Al hacerlo, d",
-                "fecha": "Sat, 07 Nov 2026 06:22:24 +0000",
-                "titulo_original": "Ein Spaziergang mit Bodo Ramelow",
+                "titulo": "Marine Le Pen viene tras Kaja Kallas",
+                "url": "https://www.politico.eu/article/marine-le-pen-is-coming-after-kaja-kallas/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+                "resumen": "El jefe diplomático de la UE se ha enfrentado con Ursula von der Leyen y ahora el favorito a la presidencia francesa se suma a ello.",
+                "fecha": "Mon, 09 Nov 2026 03:00:00 +0000",
+                "titulo_original": "Marine Le Pen is coming after Kaja Kallas",
                 "tags": [
-                  "#Antisemitismo",
-                  "#Podcast",
-                  "#ExtremaIzquierda",
-                  "#ExtremaDerecha"
+                  "#Presupuesto",
+                  "#Cooperación",
+                  "#Desarrollo",
+                  "#Diplomacia"
                 ],
                 "tema_repetido": false,
                 "cluster_tema": "",
@@ -1401,67 +1382,59 @@
             "perfil": "Políticas Comunitarias / Institucional Bruselas",
             "noticias": [
               {
-                "titulo": "Los ataques rusos cortan el suministro eléctrico a cientos de miles de personas en Ucrania",
-                "url": "https://www.rapporteur.com/news/russian-strikes-cut-power-to-hundreds-of-thousands-in-ukraine/",
-                "resumen": "Las huelgas nocturnas han provocado cortes de energía generalizados en todo el país.",
-                "fecha": "Sun, 08 Nov 2026 12:32:07 +0000",
-                "titulo_original": "Russian strikes cut power to hundreds of thousands in Ukraine",
+                "titulo": "FIREPOWER: Instalación de Equidad de Defensa 2.0 entrante",
+                "url": "https://www.rapporteur.com/news/firepower-defence-equity-facility-2-0-incoming/",
+                "resumen": "En la edición de hoy: industria sueca, Finlandia, Mélenchon",
+                "fecha": "Mon, 09 Nov 2026 07:53:41 +0000",
+                "titulo_original": "FIREPOWER: Defence Equity Facility 2.0 incoming",
                 "tags": [
-                  "#TodaEuropa",
-                  "#Kyiv",
-                  "#Ucrania",
-                  "#GuerraUcrania"
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "Guerra Ucrania / Rusia / Frente Oriental",
-                "coincidencias_count": 7
-              },
-              {
-                "titulo": "Mélenchon anima a su base para la segunda vuelta de Le Pen",
-                "url": "https://www.rapporteur.com/news/melenchon-fires-up-his-base-for-le-pen-runoff/",
-                "resumen": "La extrema izquierda prepara el escenario para la confrontación con los 'macronistas y sus aliados de extrema derecha'",
-                "fecha": "Sun, 08 Nov 2026 12:18:52 +0000",
-                "titulo_original": "Mélenchon fires up his base for Le Pen runoff",
-                "tags": [
-                  "#FranciaImperturbable",
-                  "#JeanLucMélenchon",
-                  "#MarinaPen"
+                  "#PotenciaFuego"
                 ],
                 "tema_repetido": false,
                 "cluster_tema": "",
                 "coincidencias_count": 0
               },
               {
-                "titulo": "La victoria estudiantil de Serbia deja a los serbios de Kosovo ante la incertidumbre",
-                "url": "https://www.rapporteur.com/news/serbias-student-victory-leaves-kosovo-serbs-facing-uncertainty/",
-                "resumen": "Belgrado financia atención sanitaria, educación, pensiones y asistencia social para los serbios de Kosovo",
-                "fecha": "Sun, 08 Nov 2026 07:00:52 +0000",
-                "titulo_original": "Serbia’s student victory leaves Kosovo Serbs facing uncertainty",
+                "titulo": "EL HACK: Los líderes de la UE hablarán sobre los desafíos de la IA",
+                "url": "https://www.rapporteur.com/news/the-hack-eu-leaders-to-talk-ai-challenges/",
+                "resumen": "En la edición de hoy: CAIDA, algoritmo TikTok, Ley de Niños Polacos",
+                "fecha": "Mon, 09 Nov 2026 07:47:47 +0000",
+                "titulo_original": "THE HACK: EU leaders to talk AI challenges",
                 "tags": [
-                  "#TodaEuropa",
-                  "#AleksandarVucic",
-                  "#Balcanes",
-                  "#Belgrado"
+                  "#Truco",
+                  "#DeepTech",
+                  "#InteligenciaArtificial",
+                  "#Innovación"
+                ],
+                "tema_repetido": true,
+                "cluster_tema": "Tecnología Disruptiva, IA y Biotecnología",
+                "coincidencias_count": 5
+              },
+              {
+                "titulo": "VOLTAJE: Inicio de la COP31",
+                "url": "https://www.rapporteur.com/news/voltage-cop31-kick-off/",
+                "resumen": "En la edición de hoy: ETS, Tratado de Alta Mar, vinculación entre el Reino Unido y la UE",
+                "fecha": "Mon, 09 Nov 2026 07:42:38 +0000",
+                "titulo_original": "VOLTAGE: COP31 kick-off",
+                "tags": [
+                  "#Voltaje"
                 ],
                 "tema_repetido": false,
                 "cluster_tema": "",
                 "coincidencias_count": 0
               },
               {
-                "titulo": "Un pistolero \"fascinado por la extrema derecha\" mata a seis personas en Cracovia, Polonia",
-                "url": "https://www.rapporteur.com/news/five-killed-dozen-wounded-in-krakow-mass-shooting/",
-                "resumen": "Tusk calificó el tiroteo como un acto de \"terrorismo\"",
-                "fecha": "Sat, 07 Nov 2026 16:49:31 +0000",
-                "titulo_original": "Gunman ‘fascinated by far-right’ kills six in Krakow, Poland",
+                "titulo": "PRIMEROS AUXILIOS: La farmacéutica suiza advierte sobre la amenaza arancelaria de EE.UU.",
+                "url": "https://www.rapporteur.com/news/first-aid-swiss-pharma-warns-over-us-tariff-threat/",
+                "resumen": "En la edición de hoy: la próxima semana, medicamentos críticos, COP31",
+                "fecha": "Mon, 09 Nov 2026 07:34:38 +0000",
+                "titulo_original": "FIRST AID: Swiss pharma warns over US tariff threat",
                 "tags": [
-                  "#TodaEuropa",
-                  "#KarolNawrocki",
-                  "#Cracovia",
-                  "#Polonia"
+                  "#Auxilios"
                 ],
-                "tema_repetido": true,
-                "cluster_tema": "Crisis Institucional y Poder Judicial",
-                "coincidencias_count": 7
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
               }
             ],
             "estado": "OK",
@@ -1478,11 +1451,11 @@
             "perfil": "Liberal / Establishment",
             "noticias": [
               {
-                "titulo": "En Argentina, el Papa León se reunirá con una Iglesia en desacuerdo con el presidente Milei",
+                "titulo": "En Argentina, el Papa León le dice al presidente Milei que la economía debe servir a los necesitados",
                 "url": "https://www.nytimes.com/2026/11/08/world/americas/pope-leo-argentina-milei.html",
                 "resumen": "El viaje del pontífice se produce en medio de tensiones entre el líder libertario del país y su Iglesia católica, que está profundamente comprometida con la justicia social.",
-                "fecha": "Sun, 08 Nov 2026 10:00:57 +0000",
-                "titulo_original": "In Argentina, Pope Leo to Meet Church at Odds With President Milei",
+                "fecha": "Sun, 08 Nov 2026 23:36:32 +0000",
+                "titulo_original": "In Argentina, Pope Leo Tells President Milei Economy Must Serve the Needy",
                 "tags": [
                   "#LeónXiv",
                   "#Argentina",
@@ -1494,52 +1467,51 @@
                 "coincidencias_count": 0
               },
               {
-                "titulo": "Lo que hay que saber sobre el tiroteo masivo en Cracovia, Polonia",
-                "url": "https://www.nytimes.com/2026/11/08/world/europe/poland-krakow-mass-shooting.html",
-                "resumen": "Al menos nueve personas murieron y al menos 16 resultaron heridas tras tiroteos en Cracovia y otra ciudad, dijo la policía. El motivo sigue sin estar claro.",
-                "fecha": "Sun, 08 Nov 2026 13:09:09 +0000",
-                "titulo_original": "What to Know About the Mass Shooting in Krakow, Poland",
+                "titulo": "Grupo armado atacado por Estados Unidos contraataca en Colombia",
+                "url": "https://www.nytimes.com/2026/11/08/world/americas/colombia-drone-attack-eln.html",
+                "resumen": "Las fuerzas estadounidenses están ayudando a Colombia y Venezuela a cazar al ELN. Este fin de semana, el grupo atacó una base militar colombiana con drones, dijeron funcionarios.",
+                "fecha": "Mon, 09 Nov 2026 05:45:34 +0000",
+                "titulo_original": "Targeted by U.S., Armed Group Strikes Back in Colombia",
                 "tags": [
-                  "#Asesinatos",
-                  "#Policía",
-                  "#AtaquesPolicía",
-                  "#TiroteosMasivos"
+                  "#Colombia",
+                  "#Venezuela",
+                  "#Rubio",
+                  "#Marco"
                 ],
                 "tema_repetido": true,
-                "cluster_tema": "Crisis Institucional y Poder Judicial",
+                "cluster_tema": "Guerra Ucrania / Rusia / Frente Oriental",
                 "coincidencias_count": 7
               },
               {
-                "titulo": "Torre Saudi Aramco dañada por el ataque de los hutíes de Yemen a Riad",
-                "url": "https://www.nytimes.com/2026/11/08/world/middleeast/saudi-aramco-tower-riyadh-hit.html",
-                "resumen": "Las autoridades sauditas dijeron que nadie resultó herido y que la \"metralla que cayó\" de un misil interceptado había impactado el edificio en el distrito financiero de la capital.",
-                "fecha": "Sun, 08 Nov 2026 13:05:01 +0000",
-                "titulo_original": "Saudi Aramco Tower Damaged as Yemen’s Houthis Attack Riyadh",
+                "titulo": "Trenes chocan cerca de El Cairo y mueren 4 personas",
+                "url": "https://www.nytimes.com/2026/11/08/world/middleeast/egypt-train-collision-al-ayyat-district.html",
+                "resumen": "El choque entre dos trenes de pasajeros fue el último de una historia de accidentes ferroviarios mortales en Egipto, a pesar de que se gastaron miles de millones en modernizar la red.",
+                "fecha": "Sun, 08 Nov 2026 23:03:01 +0000",
+                "titulo_original": "Trains Collide Near Cairo, Killing 4",
                 "tags": [
-                  "#GuerraConflictosArmados",
-                  "#ArabiaSaudita",
-                  "#Riad(arabiaSaudita)",
-                  "#AtaqueEstadosUnidos"
-                ],
-                "tema_repetido": false,
-                "cluster_tema": "",
-                "coincidencias_count": 0
-              },
-              {
-                "titulo": "¿Quién es Gadi Eisenkot, el líder de la oposición israelí?",
-                "url": "https://www.nytimes.com/2026/11/08/world/middleeast/israel-eisenkot-netanyahu-what-to-know.html",
-                "resumen": "Eisenkot, general de carrera y principal rival del Primer Ministro Benjamín Netanyahu de Israel, tendrá ahora hasta seis semanas para formar una coalición.",
-                "fecha": "Sun, 08 Nov 2026 12:33:40 +0000",
-                "titulo_original": "Who Is Gadi Eisenkot, Israel’s Opposition Leader?",
-                "tags": [
-                  "#FuerzasMilitaresDefensa",
-                  "#GuerraIsraelGaza",
-                  "#AtaqueEstadosUnidos",
-                  "#Eyacula"
+                  "#Muertes(muertes)",
+                  "#Ferrocarriles",
+                  "#Ayyat(egipto)",
+                  "#Cairo(egipto)"
                 ],
                 "tema_repetido": true,
-                "cluster_tema": "Conflicto Oriente Medio (Gaza / Líbano)",
-                "coincidencias_count": 9
+                "cluster_tema": "Accidente Ferroviario / Red de Transporte",
+                "coincidencias_count": 10
+              },
+              {
+                "titulo": "Aturdidos por un raro tiroteo masivo, los polacos preguntan qué provocó al joven sospechoso",
+                "url": "https://www.nytimes.com/2026/11/08/world/europe/poland-shooting-suspect-family.html",
+                "resumen": "Las autoridades dicen que un joven de 24 años mató a su familia y luego a seis personas durante un tiroteo en Cracovia. Ahora están tratando de determinar el motivo.",
+                "fecha": "Sun, 08 Nov 2026 22:48:25 +0000",
+                "titulo_original": "Reeling From Rare Mass Shooting, Poles Ask What Set Off Young Suspect",
+                "tags": [
+                  "#TiroteosMasivos",
+                  "#Polonia",
+                  "#Cracovia(polonia)"
+                ],
+                "tema_repetido": true,
+                "cluster_tema": "Polonia",
+                "coincidencias_count": 3
               }
             ],
             "estado": "OK",
@@ -1550,55 +1522,56 @@
             "perfil": "Público / Nacional",
             "noticias": [
               {
-                "titulo": "El cambio climático está alterando los colores que vemos en el mundo: un viaje ilustrado",
-                "url": "https://www.npr.org/2026/11/08/nx-s1-5393776/color-climate-change-coral-lakes",
-                "resumen": "Desde paisajes árticos hasta cuerpos de insectos, el cambio climático está cambiando los colores familiares de la naturaleza.",
-                "fecha": "Sun, 08 Nov 2026 06:00:00 -0500",
-                "titulo_original": "Climate change is altering the colors we see in the world: an illustrated journey",
+                "titulo": "Cómo el colapso bancario dejó a millones en el limbo y derrocó al presidente de Paraguay",
+                "url": "https://www.npr.org/2026/11/09/nx-s1-6034066/paraguay-president-pena-ueno",
+                "resumen": "El colapso de un banco en Paraguay dejó a millones sin acceso a su dinero, derrocó al presidente y expuso una red de vínculos políticos y financieros.",
+                "fecha": "Mon, 09 Nov 2026 01:20:44 -0500",
+                "titulo_original": "How a bank collapse left millions in limbo and toppled Paraguay's president",
                 "tags": [],
                 "tema_repetido": false,
                 "cluster_tema": "",
                 "coincidencias_count": 0
               },
               {
-                "titulo": "En Maine, un nuevo enfoque para practicar la medicina en el cielo",
-                "url": "https://www.npr.org/2026/11/08/nx-s1-6017801/air-ambulance-service-rural-healthcare-staffing",
-                "resumen": "El servicio médico aéreo conlleva altos riesgos, altos costos y dificultades de personal. Para reducir la rotación y atender a los pacientes rurales, LifeFlight of Maine está dando prioridad a las necesidades de los trabajadores de la salud.",
-                "fecha": "Sun, 08 Nov 2026 06:00:00 -0500",
-                "titulo_original": "In Maine, a new approach to practicing medicine in the sky",
+                "titulo": "Nvidia inicia una investigación sobre la supuesta relación del CEO con el espía chino",
+                "url": "https://www.npr.org/2026/11/08/nx-s1-6034036/nvidia-launches-investigation-into-ceos-alleged-relationship-with-chinese-spy",
+                "resumen": "El gigante fabricante de chips dice que está investigando informes del New York Times de que su director ejecutivo, Jensen Huang, fue el objetivo de una operación de inteligencia china.",
+                "fecha": "Sun, 08 Nov 2026 19:17:43 -0500",
+                "titulo_original": "Nvidia launches investigation into CEO's alleged relationship with Chinese spy",
+                "tags": [
+                  "#DeepTech",
+                  "#InteligenciaArtificial",
+                  "#Innovación"
+                ],
+                "tema_repetido": true,
+                "cluster_tema": "Tecnología Disruptiva, IA y Biotecnología",
+                "coincidencias_count": 5
+              },
+              {
+                "titulo": "La NASA busca astronautas para vivir y trabajar en la Luna",
+                "url": "https://www.npr.org/2026/11/08/nx-s1-6034002/nasa-astronaut-class-applications-2026",
+                "resumen": "La NASA necesita más reclutas para regresar a la Luna después de más de medio siglo de ausencia.",
+                "fecha": "Sun, 08 Nov 2026 18:36:47 -0500",
+                "titulo_original": "NASA is looking for astronauts to live and work on the Moon",
                 "tags": [],
                 "tema_repetido": false,
                 "cluster_tema": "",
                 "coincidencias_count": 0
               },
               {
-                "titulo": "Un desierto cobra vida: Atacama de Chile estalla en su mayor exhibición floral en décadas",
-                "url": "https://www.npr.org/2026/11/08/nx-s1-6023812/chile-desert-el-nino",
-                "resumen": "Las lluvias de El Niño han transformado el desierto de Atacama de Chile en un espectacular mar de colores, despertando un ecosistema fugaz de flores y vida silvestre en uno de los lugares más secos de la Tierra.",
-                "fecha": "Sun, 08 Nov 2026 06:00:00 -0500",
-                "titulo_original": "A desert stirs to life: Chile's Atacama erupts in its biggest floral display in decades",
+                "titulo": "Europa se unirá a las conversaciones sobre Ucrania mediadas por Estados Unidos en Abu Dabi, desafiando las objeciones del Kremlin",
+                "url": "https://www.npr.org/2026/11/08/nx-s1-6034014/europe-join-us-brokered-ukraine-talks-abu-dhabi-russia",
+                "resumen": "Francia dice que funcionarios europeos asistirán a las conversaciones entre Rusia y Ucrania mediadas por Estados Unidos en Abu Dhabi, la primera ronda de negociaciones a tres bandas desde febrero.",
+                "fecha": "Sun, 08 Nov 2026 14:25:30 -0500",
+                "titulo_original": "Europe to join U.S.-brokered Ukraine talks in Abu Dhabi, defying Kremlin objections",
                 "tags": [
-                  "#Clima",
-                  "#Emergencias"
+                  "#Geopolítica",
+                  "#GuerraUcrania",
+                  "#Defensa"
                 ],
                 "tema_repetido": true,
-                "cluster_tema": "Emergencia Climática y Fenómenos Extremos",
-                "coincidencias_count": 2
-              },
-              {
-                "titulo": "Cómo los votantes de la Generación Z ayudaron a impulsar una ola azul para los demócratas",
-                "url": "https://www.npr.org/2026/11/08/nx-s1-6032829/gen-z-voters-midterm-elections",
-                "resumen": "Los republicanos lograron avances entre los votantes jóvenes en 2024, pero en las elecciones intermedias de este año, los estadounidenses menores de 30 años lanzaron una fuerte reprimenda al presidente Trump y su partido, votando decisivamente por los demócratas.",
-                "fecha": "Sun, 08 Nov 2026 05:00:00 -0500",
-                "titulo_original": "How Gen Z voters helped fuel a blue wave for Democrats",
-                "tags": [
-                  "#Sociedad",
-                  "#Manifestaciones",
-                  "#Protestas"
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "Manifestaciones y Protestas Sociales",
-                "coincidencias_count": 4
+                "cluster_tema": "Guerra Ucrania / Rusia / Frente Oriental",
+                "coincidencias_count": 7
               }
             ],
             "estado": "OK",
@@ -1622,7 +1595,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Conflicto Oriente Medio (Gaza / Líbano)",
-                "coincidencias_count": 9
+                "coincidencias_count": 3
               },
               {
                 "titulo": "El principal promotor inmobiliario de China informa enormes pérdidas, en señal de crecientes problemas inmobiliarios",
@@ -1637,7 +1610,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Crisis de Vivienda e Inmobiliario",
-                "coincidencias_count": 2
+                "coincidencias_count": 3
               },
               {
                 "titulo": "Los rehenes israelíes liberados todavía tenían metralla en el cuerpo del ataque del 7 de octubre",
@@ -1683,37 +1656,22 @@
             "perfil": "Cobertura continental / Análisis pan-regional",
             "noticias": [
               {
-                "titulo": "¿En qué creen los latinoamericanos? El catolicismo retrocede y suben los que no profesan ninguna religión - EL PAÍS",
-                "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOa1lzYV9IUExCeGJyTjhhTXVlNUN2TUdndy1heDZBeGxyZ1dNYlpfa0NxTnpnVnRNSnlvUlI4UVJybkVudTZUeGVnNnVqMm9UMTBUWFdYc2ZOM0R4NWVaMDluNnYydjJONVhpRl9ZN3M2cThkd0dCMU5MekJqdmdKbUxVOFh6Y0VFWUdWVzdoVmVOX1NuRVlBYXJycUNHTlZuWUJTNFVMY05fa0lKUHhrM0I1QjRaNFVqR0ZwcUlOSWFhSWtNOFBKOGlHZEJZSXRNTjlhS0dUOVlOeWFmRkVr0gHzAUFVX3lxTFBCZEZ0a1c1M1VReVE3V1NEblZ3VW45eWJ3TXpjV01VWVd4am9JTHpFZDZmMjQyc3BsNzBzNkZuX2QyNS01QW4wSm9BNno2aGl6V1kyVzlvYkZHQVlyWlJhZk5MX2tlaWJRbUpydUlEZ1o3TWVYaUpqbXRObFF1NjBSbmtVY1kyejJqVlNzX2lFNGs4LWM4Zy1tOTVqVjQybThvcnloUHJVSHB1ZmpEZmpYOVVaOWtKaXRrd1RsN2oyNU1KWmZweExBdW1uemdIS3ZVMDdkUmFoeGY1S01aU2h0SG56Tzk0bXRRYjI5bGJaRld3Yw?oc=5",
-                "resumen": "¿En qué creen los latinoamericanos? El catolicismo retrocede y suben los que no profesan ninguna religión EL PAÍS",
-                "fecha": "Sat, 07 Nov 2026 09:30:00 GMT",
-                "titulo_original": "¿En qué creen los latinoamericanos? El catolicismo retrocede y suben los que no profesan ninguna religión - EL PAÍS",
+                "titulo": "Los señalamientos contra el embajador de Colombia en la ONU: “Ha creado un ambiente de incertidumbre en la misión” - EL PAÍS",
+                "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOX0l0MHlzQnJVXzBpN2xXenVNZFJIbE5VOTdSYk50X2NJTHBZcnFPT0ctTFE0a2h5SkdlWWt1bkNPaEJsbHdfRk1kLUVvZzZuVWFiTEdqaGJCdTZRSUNFTzF6MV80bnRCdEsydXNKc0xadlJBWlh4eWMyLUN0ZzJmdDh2dk1od0xiV2dnenlsNnNINExhYWtDbmhjS3pzRDBmTmZEZDVyMlpkcjM1WnhvUVBzRVBBTTlTOW9Gb0hweTBuaUFjQXI1cHBOelNEbmpBcW5YTjJsekVhbS1SbFozV3dFRjk2TWhrVGpsMVFtUkVlUGZoTEHSAYoCQVVfeXFMT0p6LVNSeWozNUExZ2FlNG5IM0kxRFFTaWlnRGFGR0cxcnBvYmY1MnpTVkh3T0tfUEROWmNXT2g5VGhiaFdVblNUZ1VSUmVibGxsMUY1dE9LTEdiaDRGTzBEUGNUV18wOWotRmF4RE5oNmxqTjR1NWY1SUhBdXBrNkQ5OGpfQ3prUWI2UHBnZy1ib0VtVFMwdjJrdFhnVG5LaElLcF9VWkVjMXdFSkRFMEdmdXFMZ3ZtSUNkcURoN2tBMzh5b1lKaExGQUp2UTNwUm9NSFJWTF9yc2FPaUV0cFpEMHdZV3BJSzBVajJ4Y0pKbjhZaHhsUmk3bjNUQ3RyV2NkOHp0VGlialE?oc=5",
+                "resumen": "Los señalamientos contra el embajador de Colombia en la ONU: “Ha creado un ambiente de incertidumbre en la misión” EL PAÍS",
+                "fecha": "Sun, 08 Nov 2026 09:30:00 GMT",
+                "titulo_original": "Los señalamientos contra el embajador de Colombia en la ONU: “Ha creado un ambiente de incertidumbre en la misión” - EL PAÍS",
                 "tags": [],
                 "tema_repetido": false,
                 "cluster_tema": "",
                 "coincidencias_count": 0
               },
               {
-                "titulo": "El presidente de Paraguay, Santiago Peña, destituido y detenido por presunta corrupción - EL PAÍS",
-                "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZ3ozNnhTdGFBWXlJRFlsUFphbGlOVDVkMWNkT295c01aTHZDbU5kck9ieTJPek9UeGlYUS1pQXJ2NTV6aXdXT19KZ0l0YWV3X3g2aVZCQjM2RjFab281WHBqeldTeUhkcGRQWnpodkh0bTN5ZlVHTlUycFFEeldycjlLbTVPd1FMM2Q0Nk40Uk5fMklhYU5nTlN4bk5BUGp2SkZqalc1LXpzZzlwMUhsYtIBxAFBVV95cUxOOFRSU21NTGdQMHpRMk9MRGFZVU9kekxjMDBaU3NSSTZ2Mnl0bVB0WVQ5NnlfdUF4UlhwckhEYV9ESXlrYTBGampBX3laMGU3RHYycnE1LWlYNW1md2JnT0hTbUZIbEZDVzJIWGl1RGJYcG5SaGlJM3djT1hfeHVJeXBSbFhqOEc4WGRqcVVnNnVuc244cEptVGZ5NkMzOXUxQU03N3VCdHVtTHRJNWQ3SWszTUU5LWhQck1oTFN3QXYzV3hX?oc=5",
-                "resumen": "El presidente de Paraguay, Santiago Peña, destituido y detenido por presunta corrupción EL PAÍS",
-                "fecha": "Fri, 06 Nov 2026 22:35:52 GMT",
-                "titulo_original": "El presidente de Paraguay, Santiago Peña, destituido y detenido por presunta corrupción - EL PAÍS",
-                "tags": [
-                  "#Justicia",
-                  "#Instituciones",
-                  "#Polonia"
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "Crisis Institucional y Poder Judicial",
-                "coincidencias_count": 7
-              },
-              {
-                "titulo": "Perfume de badea o crema solar de chontaduro: emerge la industria alrededor de las 2.500 frutas colombianas - EL PAÍS",
-                "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQdWJXNHJrb0kxME03dHMtbElKMHUzNWFTbUNoUWZVeUFDVmdLbEwwSlNxU3FnX1JXcTgzYnY3RGFlTUtGUjJQLWFRMXpFZFZ3SURPRThFZUI4b0phZ1VFNXQydFVYOElqNHMyTXdNRUdVc1NGYngybVFtNERWbWZkdXp6MDVRdWJPU1lYWmhNSkFzQUFVWG5QdXJwUmZ0UHNzb1FNOUN5RHJiSWJMQWFtR2NGUklvYVB0d2tvNURqUFp3eXBoU2tFMktfdWVqTG9QRXRMSEN6c2hXU0VobGVzdzBoa3NrYl9XZC1V0gH_AUFVX3lxTFBQNWlZZ181VUF6eXotR2hYM3hrd0wtdXc1WkF5UmFHNGFBWF85WGtremFiUl94UUIyMkwtbl9aY3I5ZWU3dTFsZXFLVFZuS211X1JHUnJITGNlLWJ0Z0E0aHVXUUtTS0Y5Vk1XZ1BMMEdrNVBHb3dpVld5VS1wWGwtZlVSN3U3VWxpcUlKSExKZHNualdNcmZHQmdNbkpJaHhlMVBtQnFfc3MwVjN1U1JMMkE3eHpQOWFyaU5Da1NGOVV3NUFGcnJBb094WkVtalVqVXZXc2VxMkpDNFFqSXh3eEd3NGI5N1htR05UUHNkN3BhWktMZW1FdDlScjh0NA?oc=5",
-                "resumen": "Perfume de badea o crema solar de chontaduro: emerge la industria alrededor de las 2.500 frutas colombianas EL PAÍS",
-                "fecha": "Sat, 07 Nov 2026 09:30:00 GMT",
-                "titulo_original": "Perfume de badea o crema solar de chontaduro: emerge la industria alrededor de las 2.500 frutas colombianas - EL PAÍS",
+                "titulo": "En Ecuador hasta lo básico se vuelve una batalla - EL PAÍS",
+                "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNbk4tdlZxdGRSU09SWmJZN1M5NHJTdDFGbEgwb1pLN084M3k5SUNTMkZNZlVFeFVXYmlteW5xclV1OFBQdTc3VTQtbnlIX3VUTVd2VGJiUEtQTC1JSVhLaUtwZHl1T2FQZWFHcDJVRS1LcWdCbmJwVlBXZF9wNVMwbWkyM0R4OE5IdzhLRjRYSzU4WGhvMWfSAaoBQVVfeXFMTWhPSEFfOUFoTWJZOGJYNklDbmpTTC1WMW1YVDg4STNYS2E3SEQyZEhFZ19OQzBQb3pYdVNWUTN0WndnZGd0WTJjejFrWTFkX0tEMTMtQjZ1dW92VGcySlo3VXdPSVdOdkZnSU00clZsX3N5cnFIR0FLM1BjclFoOVFzLUl6amNnbHhRZGJ4bGZ2Y3NOSjRNajJYWmRrdFBsd2RucFlzU0tXTkE?oc=5",
+                "resumen": "En Ecuador hasta lo básico se vuelve una batalla EL PAÍS",
+                "fecha": "Sun, 08 Nov 2026 09:00:00 GMT",
+                "titulo_original": "En Ecuador hasta lo básico se vuelve una batalla - EL PAÍS",
                 "tags": [],
                 "tema_repetido": false,
                 "cluster_tema": "",
@@ -1729,6 +1687,17 @@
                 "tema_repetido": false,
                 "cluster_tema": "",
                 "coincidencias_count": 0
+              },
+              {
+                "titulo": "EL PAÍS Edición América: el periódico global - EL PAÍS",
+                "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTFBwSFY4RGpVSjFCcFp6REl1UWcyM0Yxa1N5RDFNVERQZG14b2ZJdFZjeDVhV2hFOVk4alQ2RW9YNEY?oc=5",
+                "resumen": "EL PAÍS Edición América: el periódico global EL PAÍS",
+                "fecha": "Fri, 07 Feb 2020 11:26:41 GMT",
+                "titulo_original": "EL PAÍS Edición América: el periódico global - EL PAÍS",
+                "tags": [],
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
               }
             ],
             "estado": "OK",
@@ -1739,53 +1708,48 @@
             "perfil": "Cobertura continental / Noticias en directo",
             "noticias": [
               {
-                "titulo": "El papa anima a católicos de Uruguay a seguir trasmitiendo la fe durante misa en Florida",
-                "url": "https://www.infobae.com/america/agencias/2026/11/08/el-papa-anima-a-catolicos-de-uruguay-a-seguir-trasmitiendo-la-fe-durante-misa-en-florida/",
+                "titulo": "Prohens informa a agentes económicos y sociales sobre las actuaciones del Govern contra el incremento de precios",
+                "url": "https://www.infobae.com/espana/agencias/2026/11/09/prohens-informa-a-agentes-economicos-y-sociales-sobre-las-actuaciones-del-govern-contra-el-incremento-de-precios/",
                 "resumen": "",
-                "fecha": "Sun, 08 Nov 2026 14:16:13 +0000",
-                "titulo_original": "El papa anima a católicos de Uruguay a seguir trasmitiendo la fe durante misa en Florida",
+                "fecha": "Mon, 09 Nov 2026 08:00:47 +0000",
+                "titulo_original": "Prohens informa a agentes económicos y sociales sobre las actuaciones del Govern contra el incremento de precios",
                 "tags": [],
                 "tema_repetido": false,
                 "cluster_tema": "",
                 "coincidencias_count": 0
               },
               {
-                "titulo": "El guardameta alemán Manuel Neuer (FC Bayern) sufre una rotura parcial de tendón en el pie derecho",
-                "url": "https://www.infobae.com/america/agencias/2026/11/08/el-guardameta-aleman-manuel-neuer-fc-bayern-sufre-una-rotura-parcial-de-tendon-en-el-pie-derecho/",
+                "titulo": "Un intenso 'Niño' agravará el calor y los fenómenos climáticos extremos hasta 2027, según la OMM",
+                "url": "https://www.infobae.com/america/agencias/2026/11/09/un-intenso-nino-agravara-el-calor-y-los-fenomenos-climaticos-extremos-hasta-2027-segun-la-omm/",
                 "resumen": "",
-                "fecha": "Sun, 08 Nov 2026 14:16:09 +0000",
-                "titulo_original": "El guardameta alemán Manuel Neuer (FC Bayern) sufre una rotura parcial de tendón en el pie derecho",
+                "fecha": "Mon, 09 Nov 2026 08:00:30 +0000",
+                "titulo_original": "Un intenso 'Niño' agravará el calor y los fenómenos climáticos extremos hasta 2027, según la OMM",
                 "tags": [],
                 "tema_repetido": false,
                 "cluster_tema": "",
                 "coincidencias_count": 0
               },
               {
-                "titulo": "Sekulic: \"Esta racha de siete victorias es fruto de todo el trabajo colectivo\"",
-                "url": "https://www.infobae.com/espana/agencias/2026/11/08/sekulic-esta-racha-de-siete-victorias-es-fruto-de-todo-el-trabajo-colectivo/",
-                "resumen": "",
-                "fecha": "Sun, 08 Nov 2026 14:15:54 +0000",
-                "titulo_original": "Sekulic: \"Esta racha de siete victorias es fruto de todo el trabajo colectivo\"",
+                "titulo": "Shakira rompió el silencio tras los rumores sobre la salud de su padre, William Mebarak: este fue su mensaje",
+                "url": "https://www.infobae.com/colombia/2026/11/09/shakira-rompio-el-silencio-tras-los-rumores-sobre-la-salud-de-su-padre-william-mebarak-este-fue-su-mensaje/",
+                "resumen": "La artista compartió un mensaje de agradecimiento a sus seguidores por las muestras de cariño recibidas durante los últimos días",
+                "fecha": "Mon, 09 Nov 2026 07:47:32 +0000",
+                "titulo_original": "Shakira rompió el silencio tras los rumores sobre la salud de su padre, William Mebarak: este fue su mensaje",
                 "tags": [],
                 "tema_repetido": false,
                 "cluster_tema": "",
                 "coincidencias_count": 0
               },
               {
-                "titulo": "Más de 60 heridos tras descarrilar un tren de pasajeros en la gobernación de Guiza",
-                "url": "https://www.infobae.com/america/agencias/2026/11/08/mas-de-60-heridos-tras-descarrilar-un-tren-de-pasajeros-en-la-gobernacion-de-guiza/",
+                "titulo": "Cuatro intoxicados por monóxido de carbono tras hacer una barbacoa en el salón de su casa",
+                "url": "https://www.infobae.com/espana/agencias/2026/11/09/cuatro-intoxicados-por-monoxido-de-carbono-tras-hacer-una-barbacoa-en-el-salon-de-su-casa/",
                 "resumen": "",
-                "fecha": "Sun, 08 Nov 2026 14:15:51 +0000",
-                "titulo_original": "Más de 60 heridos tras descarrilar un tren de pasajeros en la gobernación de Guiza",
-                "tags": [
-                  "#Transporte",
-                  "#Ferrocarril",
-                  "#Accidente",
-                  "#Infraestructuras"
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "Accidente Ferroviario / Red de Transporte",
-                "coincidencias_count": 7
+                "fecha": "Mon, 09 Nov 2026 07:46:18 +0000",
+                "titulo_original": "Cuatro intoxicados por monóxido de carbono tras hacer una barbacoa en el salón de su casa",
+                "tags": [],
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
               }
             ],
             "estado": "OK",
@@ -1796,11 +1760,22 @@
             "perfil": "Cobertura continental / Televisión Panamericana",
             "noticias": [
               {
-                "titulo": "El CEO de la UFC, Dana White, rechaza la oferta de Trump para ser secretario de prensa, según una fuente - CNN en Español",
-                "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOdzdPQ3VKNC02RlAtYmxHMDF2cFJjdFg2c05CUENLZm9NeHd4LW9UbWJNT3dhS0lhY1RUMWd3dnhscUpYMFUzYjJvRlM2eVZ6SEJUWC13VUhEbUlzR3JDR1VwTnUxU2xpbTJUUDhiOUZ3X1d2cGZFTnkzV0VoOXB3ZzFacFdacENVU1c1ZkFiNmd5OWV5SlAxdA?oc=5",
-                "resumen": "El CEO de la UFC, Dana White, rechaza la oferta de Trump para ser secretario de prensa, según una fuente CNN en Español",
-                "fecha": "Sun, 08 Nov 2026 00:29:00 GMT",
-                "titulo_original": "El CEO de la UFC, Dana White, rechaza la oferta de Trump para ser secretario de prensa, según una fuente - CNN en Español",
+                "titulo": "Impulsados por el resultado de las elecciones en EE.UU., grupo de salvadoreños se unirá a caravana de inmigrantes - CNN en Español",
+                "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOX1VBaHZGVGNBNTlScXpjNU94am1CWUZLSlM3anR0ZzItQXJNSWxEdlBfQXh4blY1SzlKUkg2QjlpdmlTWkRYN3E2anh0aEUyM3pORHZpR2F6RlJzQ3M4SUJ3c21UV3dLdHQxQW1nTlhPNTE4Y2lFTmxyUDEwWjlSVkZ1OVlSYjM1bVJwcWJOYmZvLVo4MElwQkdWXzVhWjRXdmtqU2dNLVNFRTI5cGd1SUE4Mnh5T1FKOHM5aXhXY0FRNEk4Zy0wdHN3anZYSmhfUC1R?oc=5",
+                "resumen": "Impulsados por el resultado de las elecciones en EE.UU., grupo de salvadoreños se unirá a caravana de inmigrantes CNN en Español",
+                "fecha": "Sat, 07 Nov 2026 22:19:07 GMT",
+                "titulo_original": "Impulsados por el resultado de las elecciones en EE.UU., grupo de salvadoreños se unirá a caravana de inmigrantes - CNN en Español",
+                "tags": [],
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
+              },
+              {
+                "titulo": "Un nuevo video muestra el arco de Trump mientras el proyecto sufre otro revés - CNN en Español",
+                "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOUnhFQ1NKWC1OUTdLNnloenVaWkRtdXc3MTlDd2RfUzFuWnFfM3MtOC15bC1falF3ejNRU2JRX1VMNDBvek9UOVF6a0U1cTEwRmh4OWR0SHdWVGFsbzRZeG13QTVpWEJvMjY0em4zWk9rMEt6OFRqS0tGQlJfSHZDUEpfdGNXa0gtaFgw?oc=5",
+                "resumen": "Un nuevo video muestra el arco de Trump mientras el proyecto sufre otro revés CNN en Español",
+                "fecha": "Sun, 08 Nov 2026 18:23:01 GMT",
+                "titulo_original": "Un nuevo video muestra el arco de Trump mientras el proyecto sufre otro revés - CNN en Español",
                 "tags": [
                   "#EEUU",
                   "#Elecciones",
@@ -1811,41 +1786,30 @@
                 "coincidencias_count": 5
               },
               {
-                "titulo": "Golpean a Mon Laferte en el rostro con un objeto durante concierto en Las Vegas - CNN en Español",
-                "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNMl9lYlAzb3FVMWphUXlQaHBJbUN4MHpqZW5DSTBENk1xdEgwQjZaRThxQWJBa0FmbGdadG5ScUdWVVJiRTR6YjBNTDJUSlI5SVhnVkd0aDM3cFRndnJVSnlOZU93YkJYdXAtMU9adUNxYWRkV2FwQTlucGkxNUtHenMycmtqV3d5Vkp2NzFpR2VjNFIwa1phNDlBRXJySUZEZzRVMThB?oc=5",
-                "resumen": "Golpean a Mon Laferte en el rostro con un objeto durante concierto en Las Vegas CNN en Español",
-                "fecha": "Fri, 06 Nov 2026 21:23:32 GMT",
-                "titulo_original": "Golpean a Mon Laferte en el rostro con un objeto durante concierto en Las Vegas - CNN en Español",
+                "titulo": "Edificio propiedad del gigante petrolero saudí sufrió daños en un ataque con misiles contra el distrito financiero de Riad - CNN en Español",
+                "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPRzdZN3IyaG5oWGQtQWF6elduYTZaYS1obmYtb29nTTFWemNkNnRJUU9IY0g2U2xocFg4NGNOMmM5b0pTVUFMUk40dDMxY2p3dVk0bzJGU3BVR0V3RUpWTmVhTjZxbDdTQ2t4bTNBZGI4LWFuRnhJNGcwRVVaSXBSLXFxWVBiLW1YNXFSUGR0Yw?oc=5",
+                "resumen": "Edificio propiedad del gigante petrolero saudí sufrió daños en un ataque con misiles contra el distrito financiero de Riad CNN en Español",
+                "fecha": "Sun, 08 Nov 2026 10:12:00 GMT",
+                "titulo_original": "Edificio propiedad del gigante petrolero saudí sufrió daños en un ataque con misiles contra el distrito financiero de Riad - CNN en Español",
                 "tags": [],
                 "tema_repetido": false,
                 "cluster_tema": "",
                 "coincidencias_count": 0
               },
               {
-                "titulo": "Investigación de CNN revela fallas de construcción en viviendas públicas que colapsaron en los terremotos en Venezuela - CNN en Español",
-                "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNUjZqRTEzeFI5Qi1WbHUwa2Jnbk1YZkIxeV9fSFNnQ0Y4bjNld2NJd2R0aGtWV2lKX2lmR3hBVXZXcUFjemxSdU5MTlRabkFwcFVoVl9QdUZHaUFuUTRPVlFsbXhnSWVtUVRqOXFBalktTFhUQjNuRmNmaDJ5TXRCUkcxaXVYQzh5cXJyQkRTRE54ZUpMQmJMM0lMSGg5aTE3?oc=5",
-                "resumen": "Investigación de CNN revela fallas de construcción en viviendas públicas que colapsaron en los terremotos en Venezuela CNN en Español",
-                "fecha": "Sun, 08 Nov 2026 12:01:00 GMT",
-                "titulo_original": "Investigación de CNN revela fallas de construcción en viviendas públicas que colapsaron en los terremotos en Venezuela - CNN en Español",
-                "tags": [],
-                "tema_repetido": false,
-                "cluster_tema": "",
-                "coincidencias_count": 0
-              },
-              {
-                "titulo": "Eisenkot recibirá el encargo de formar el próximo gobierno en Israel, pero el camino sigue siendo complicado - CNN en Español",
-                "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPMFl5MFJYOC0tcDRlZ1pBQ2pYdHI0ZjBYdnN3T21SSHc1UGtqeDdpbHdpV0gwMkJiT3hSZHMteEktcHUyMzRDZEpIV0M2dzItdHFYVlo2RHVzcWVUWjdycEVMYU1WRW5NZVZUeHQwdkVVcTFSLVB2RjB4V2k2M2NPd0RlT2tFOEU?oc=5",
-                "resumen": "Eisenkot recibirá el encargo de formar el próximo gobierno en Israel, pero el camino sigue siendo complicado CNN en Español",
-                "fecha": "Sat, 07 Nov 2026 20:52:00 GMT",
-                "titulo_original": "Eisenkot recibirá el encargo de formar el próximo gobierno en Israel, pero el camino sigue siendo complicado - CNN en Español",
+                "titulo": "Trump dice que es \"muy poco probable\" que se reanuden los ataques contra Irán si las negociaciones avanzan - CNN en Español",
+                "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQYUpUVTJPdndFejZxajAyOWU2S0k2R0xMRm5xWVMyYjFOUHJmOHlPNGQ3V3RlbzQyMkJSRHNVY2xWTmtQbnZEaEhQd1c2cmVNTzVoMERtUGNjUDNSVkJIdlRiRjZnQnNTYzJBUUtOd0JycVBKMktlVmdoajlSSWp5STEzNlhyNWRD?oc=5",
+                "resumen": "Trump dice que es \"muy poco probable\" que se reanuden los ataques contra Irán si las negociaciones avanzan CNN en Español",
+                "fecha": "Sun, 08 Nov 2026 18:00:00 GMT",
+                "titulo_original": "Trump dice que es \"muy poco probable\" que se reanuden los ataques contra Irán si las negociaciones avanzan - CNN en Español",
                 "tags": [
-                  "#OrienteMedio",
-                  "#Geopolítica",
-                  "#Seguridad"
+                  "#EEUU",
+                  "#Elecciones",
+                  "#Política"
                 ],
                 "tema_repetido": true,
-                "cluster_tema": "Conflicto Oriente Medio (Gaza / Líbano)",
-                "coincidencias_count": 9
+                "cluster_tema": "Elecciones y Pugna Institucional EE.UU.",
+                "coincidencias_count": 5
               }
             ],
             "estado": "OK",
@@ -1862,61 +1826,60 @@
             "perfil": "Geopolítica / Economía Africana",
             "noticias": [
               {
-                "titulo": "Nigeria 2027: Los poderosos igbo que ayudan a Seyi Tinubu a penetrar el bastión de Peter Obi",
+                "titulo": "Las grandes petroleras dan la espalda a la refinación africana mientras Dangote saca provecho",
+                "url": "https://www.theafricareport.com/435774/big-oil-turns-its-back-on-african-refining-as-dangote-cashes-in/",
+                "resumen": "Los márgenes récord de la guerra en Oriente Medio no logran atraer a las grandes empresas a volver a un negocio que, según dicen, no puede pagar en el continente.",
+                "fecha": "Mon, 09 Nov 2026 08:12:44 +0000",
+                "titulo_original": "Big Oil turns its back on African refining as Dangote cashes in",
+                "tags": [
+                  "#Negocio",
+                  "#OrienteMedio",
+                  "#Geopolítica",
+                  "#Seguridad"
+                ],
+                "tema_repetido": true,
+                "cluster_tema": "Conflicto Oriente Medio (Gaza / Líbano)",
+                "coincidencias_count": 3
+              },
+              {
+                "titulo": "Ghana 2028: ¿Quién sucede a Mahama cuando comienza la lucha por el poder entre los partidos gobernantes?",
+                "url": "https://www.theafricareport.com/435717/ghana-2028-who-succeeds-mahama-as-ruling-party-power-struggle-begins/",
+                "resumen": "Dado que al presidente John Mahama se le ha impedido buscar otro mandato, sus posibles sucesores se están posicionando para controlar el Congreso Nacional Demócrata de Ghana.",
+                "fecha": "Mon, 09 Nov 2026 06:00:00 +0000",
+                "titulo_original": "Ghana 2028: Who succeeds Mahama as ruling party power struggle begins?",
+                "tags": [
+                  "#Política",
+                  "#EEUU",
+                  "#Elecciones"
+                ],
+                "tema_repetido": true,
+                "cluster_tema": "Elecciones y Pugna Institucional EE.UU.",
+                "coincidencias_count": 5
+              },
+              {
+                "titulo": "¿Podrán los poderosos igbo de Seyi Tinubu volverse el sureste contra Peter Obi en 2027?",
                 "url": "https://www.theafricareport.com/435664/nigeria-2027-the-igbo-powerbrokers-helping-seyi-tinubu-penetrate-peter-obis-stronghold/",
-                "resumen": "El hijo del presidente ha reclutado a empresarios adinerados, ex leales a la oposición y políticos influyentes para expandir su Movimiento City Boy en el sureste, utilizando dinero en efectivo, programas de base y conexiones políticas para cambiar la suerte electoral de su padre en la región.",
+                "resumen": "Desde magnates empresariales hasta ex partidarios de la oposición, el hijo del presidente ha formado una red influyente en el sureste de Nigeria. Su movimiento City Boy está ganando terreno, pero convertir el apoyo de las elites en votos puede resultar una tarea mucho más difícil.",
                 "fecha": "Sun, 08 Nov 2026 09:00:00 +0000",
-                "titulo_original": "Nigeria 2027: The Igbo powerbrokers helping Seyi Tinubu penetrate Peter Obi’s stronghold",
+                "titulo_original": "Can Seyi Tinubu’s Igbo powerbrokers turn the southeast against Peter Obi in 2027?",
                 "tags": [
                   "#Política"
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Política",
-                "coincidencias_count": 5
+                "coincidencias_count": 7
               },
               {
-                "titulo": "Etiopía: una economía de 201.000 millones de dólares sobre el papel, una factura fiscal más elevada en la práctica",
+                "titulo": "Reajuste del PIB de Etiopía: quinta economía de África, mismas deudas, mayores ambiciones fiscales",
                 "url": "https://www.theafricareport.com/435714/ethiopia-a-201bn-economy-on-paper-a-heavier-tax-bill-in-practice/",
-                "resumen": "Addis Abeba dice que la reestructuración confirma a Etiopía como la tercera economía más grande del África subsahariana. Los economistas dicen que una cifra mayor contribuye poco al endeudamiento o al crecimiento, pero sí ayuda mucho al recaudador de impuestos.",
+                "resumen": "La revisión eleva el PIB nominal de 15 billones de Brn a 24 billones de Brn y mejora los ratios de endeudamiento a medida que las conversaciones de reestructuración van llegando a su fin. Los economistas dicen que el cambio real se sentirá en la oficina tributaria, no en las cifras de crecimiento.",
                 "fecha": "Fri, 06 Nov 2026 14:30:00 +0000",
-                "titulo_original": "Ethiopia: A $201bn economy on paper, a heavier tax bill in practice",
+                "titulo_original": "Ethiopia GDP rebasing: Africa’s fifth-largest economy, same debts, bigger tax ambitions",
                 "tags": [
                   "#Negocio"
                 ],
-                "tema_repetido": false,
-                "cluster_tema": "",
-                "coincidencias_count": 0
-              },
-              {
-                "titulo": "Tanzania: Lissu absuelto de traición, pero sentenciado por incitar disturbios",
-                "url": "https://www.theafricareport.com/435725/tanzania-lissu-cleared-of-treason-but-sentenced-for-inciting-unrest/",
-                "resumen": "El líder de la oposición tanzanía, Tundu Lissu, fue condenado el viernes a cuatro años de prisión por incitar a los disturbios, evitando el cargo más grave de traición que conlleva la pena de muerte, en un caso que ha suscitado la condena internacional.",
-                "fecha": "Fri, 06 Nov 2026 13:27:38 +0000",
-                "titulo_original": "Tanzania: Lissu cleared of treason, but sentenced for inciting unrest",
-                "tags": [
-                  "#Política",
-                  "#Sociedad",
-                  "#Manifestaciones",
-                  "#Protestas"
-                ],
                 "tema_repetido": true,
-                "cluster_tema": "Manifestaciones y Protestas Sociales",
-                "coincidencias_count": 4
-              },
-              {
-                "titulo": "Por qué el presidente de Namibia violó una regla personal para el proyecto de combustible de 2.500 millones de dólares de Dangote",
-                "url": "https://www.theafricareport.com/435594/why-namibias-president-broke-a-personal-rule-for-dangotes-2-5bn-fuel-project/",
-                "resumen": "Netumbo Nandi-Ndaitwah dice que ella misma supervisará el proyecto de oleoducto regional y almacenamiento de combustible de Dangote, decidida a no permitir que la burocracia le cueste a Namibia otra inversión importante.",
-                "fecha": "Fri, 06 Nov 2026 12:02:12 +0000",
-                "titulo_original": "Why Namibia’s president broke a personal rule for Dangote’s $2.5bn fuel project",
-                "tags": [
-                  "#Negocio",
-                  "#Mercados",
-                  "#Divisas",
-                  "#Finanzas"
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "Mercados de Divisas y Finanzas",
+                "cluster_tema": "Negocio",
                 "coincidencias_count": 2
               }
             ],
@@ -1928,44 +1891,51 @@
             "perfil": "África Francófona / Magreb",
             "noticias": [
               {
-                "titulo": "Generales, diplomáticos, políticos: en Chad, los soldados del mariscal Déby Itno",
-                "url": "https://www.jeuneafrique.com/1859548/politique/generaux-diplomates-politiques-au-tchad-les-soldats-du-marechal-deby-itno/",
-                "resumen": "Ante las crisis que sacuden su entorno regional y las fragilidades de su poder, Mahamat Idriss Déby Itno cuenta con un círculo de fieles. Miembros de su familia, generales, diplomáticos… ¿Quién forma la guardia personal del presidente chadiano?",
-                "fecha": "2026-11-08T12:25:00+00:00",
-                "titulo_original": "Généraux, diplomates, politiques : au Tchad, les soldats du maréchal Déby Itno",
+                "titulo": "Petróleo, gasoducto y rivalidad con Marruecos: lo que revela la estrategia militar argelina en Níger",
+                "url": "https://www.jeuneafrique.com/1859709/economie-entreprises/petrole-gazoduc-et-rivalite-avec-le-maroc-ce-que-revele-la-strategie-militaire-algerienne-au-niger/",
+                "resumen": "Para proteger el proyecto estratégico del gasoducto transahariano, Argelia se dispone a enviar su ejército a Níger. Descifrando una importante ruptura doctrinal, en particular guiada por la rivalidad económica y geopolítica con Marruecos.",
+                "fecha": "2026-11-09T08:06:09+00:00",
+                "titulo_original": "Pétrole, gazoduc et rivalité avec le Maroc : ce que révèle la stratégie militaire algérienne au Niger",
+                "tags": [
+                  "#Minería",
+                  "#Energía",
+                  "#Recursos"
+                ],
+                "tema_repetido": true,
+                "cluster_tema": "Soberanía de Recursos, Minería y Energía",
+                "coincidencias_count": 2
+              },
+              {
+                "titulo": "En Senegal, el regreso al favor de Souleymane Kandé, el nuevo jefe de la inteligencia exterior",
+                "url": "https://www.jeuneafrique.com/1858127/politique/au-senegal-le-retour-en-grace-de-souleymane-kande-le-nouveau-patron-du-renseignement-exterieur/",
+                "resumen": "Expulsado de Dakar por Ousmane Sonko en 2024, el general del ejército fue nombrado jefe de la Dirección General de Inteligencia Exterior (DGRE) el 12 de septiembre.",
+                "fecha": "2026-11-09T07:58:00+00:00",
+                "titulo_original": "Au Sénégal, le retour en grâce de Souleymane Kandé, le nouveau patron du renseignement extérieur",
                 "tags": [],
                 "tema_repetido": false,
                 "cluster_tema": "",
                 "coincidencias_count": 0
               },
               {
-                "titulo": "En la República Democrática del Congo, estas mujeres que hacen la economía",
-                "url": "https://www.jeuneafrique.com/1859539/economie-entreprises/en-rdc-ces-femmes-qui-font-leconomie/",
-                "resumen": "Desde la industria minera hasta las finanzas, cinco líderes congoleños ocupan puestos importantes en la economía de la República Democrática del Congo. A través de sus viajes, es evidente el creciente lugar de las mujeres en los centros de toma de decisiones económicas del país.",
-                "fecha": "2026-11-08T10:06:14+00:00",
-                "titulo_original": "En RDC, ces femmes qui font l’économie",
-                "tags": [],
-                "tema_repetido": false,
-                "cluster_tema": "",
-                "coincidencias_count": 0
+                "titulo": "Katumbi contra Katebe Katoto: en la República Democrática del Congo, nuevas revelaciones sobre el conflicto inmobiliario que separa a los hermanos",
+                "url": "https://www.jeuneafrique.com/1859729/politique/katumbi-contre-katebe-katoto-en-rdc-nouvelles-revelations-sur-le-litige-immobilier-qui-dechire-la-fratrie/",
+                "resumen": "Perseguido en Kinshasa por su hermano Raphaël Katebe Katoto en un asunto inmobiliario, Moïse Katumbi se defiende. El empresario realiza un peritaje científico para comprobar la validez de las ventas y denuncia un procedimiento irregular.",
+                "fecha": "2026-11-09T07:00:00+00:00",
+                "titulo_original": "Katumbi contre Katebe Katoto : en RDC, nouvelles révélations sur le litige immobilier qui déchire la fratrie",
+                "tags": [
+                  "#Vivienda",
+                  "#Economía"
+                ],
+                "tema_repetido": true,
+                "cluster_tema": "Crisis de Vivienda e Inmobiliario",
+                "coincidencias_count": 3
               },
               {
-                "titulo": "En Dakar, las veladas 100% femeninas son populares y están cambiando los códigos",
-                "url": "https://www.jeuneafrique.com/1838051/societe/a-dakar-les-soirees-100-feminines-ont-la-cote-et-bousculent-les-codes/",
-                "resumen": "Desde hace más de un año, en la capital senegalesa, el concepto “Yaay sorte danser” reúne cada trimestre a un número cada vez mayor de participantes. Pueden escuchar música y bailar libremente, sin miedo a ser juzgados, sin peligro. Y sin hombres.",
-                "fecha": "2026-11-08T09:00:00+00:00",
-                "titulo_original": "À Dakar, les soirées 100 % féminines ont la cote et bousculent les codes",
-                "tags": [],
-                "tema_repetido": false,
-                "cluster_tema": "",
-                "coincidencias_count": 0
-              },
-              {
-                "titulo": "Coumba Ba, candidato mauritano a la OIF: “Seré el secretario general del consenso”",
-                "url": "https://www.jeuneafrique.com/1859720/politique/coumba-ba-candidate-mauritanienne-a-loif-je-serai-la-secretaire-generale-du-consensus/",
-                "resumen": "A pocos días de la cumbre de la Organización Internacional de la Francofonía, que se celebrará del 14 al 16 de noviembre en Phnom Penh, Camboya, la mauritana continúa discretamente su campaña. Y todavía cree en sus posibilidades.",
-                "fecha": "2026-11-08T08:00:00+00:00",
-                "titulo_original": "Coumba Ba, candidate mauritanienne à l’OIF : « Je serai la secrétaire générale du consensus »",
+                "titulo": "Elecciones presidenciales de 2027 en Nigeria: ¿Bola Tinubu será derrotado por su propio bando?",
+                "url": "https://www.jeuneafrique.com/1859412/politique/presidentielle-2027-au-nigeria-bola-tinubu-sera-t-il-battu-par-son-propre-camp/",
+                "resumen": "Con la oposición dividida, los principales dolores de cabeza políticos del presidente Bola Tinubu podrían provenir de su propio campo: ambiciones rivales y disputas entre figuras influyentes de APC amenazan con complicar su reelección.",
+                "fecha": "2026-11-08T15:00:00+00:00",
+                "titulo_original": "Présidentielle 2027 au Nigeria : Bola Tinubu sera-t-il battu par son propre camp ?",
                 "tags": [],
                 "tema_repetido": false,
                 "cluster_tema": "",
@@ -1980,66 +1950,66 @@
             "perfil": "Panafricano / Noticias directas",
             "noticias": [
               {
-                "titulo": "África: CANEX abre las puertas a los empresarios de la moda de Gambia que buscan reconocimiento mundial",
-                "url": "https://allafrica.com/stories/202611070240.html",
-                "resumen": "[allAfrica] Para el empresario de moda gambiano Ndey Bassin Faye, la construcción de una marca reconocida internacionalmente comienza con empoderar a las mujeres, celebrar la cultura local y adoptar los textiles hechos en África. En CANEX WKND 2026 en Lagos, ella y otros empresarios miran más allá de b",
-                "fecha": "Sat, 07 Nov 2026 17:50:46 GMT",
-                "titulo_original": "Africa: CANEX Opens Doors for Gambian Fashion Entrepreneurs Seeking Global Recognition",
+                "titulo": "África: Toda África hoy - 9 de noviembre de 2026",
+                "url": "https://allafrica.com/stories/202611090111.html",
+                "resumen": "[toda África]",
+                "fecha": "Mon, 09 Nov 2026 07:20:08 GMT",
+                "titulo_original": "Africa: All of Africa Today - November 9, 2026",
                 "tags": [
                   "#África",
-                  "#Agronegocios",
-                  "#Letras",
-                  "#CulturaEntretenimiento"
+                  "#AyudaAsistencia",
+                  "#Economía",
+                  "#NegociosFinanzas"
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "África",
                 "coincidencias_count": 2
               },
               {
-                "titulo": "África: CANEX WKND 2026 muestra la brillantez creativa de África en una noche de moda y premios",
-                "url": "https://allafrica.com/stories/202611080008.html",
-                "resumen": "[allAfrica] La ostentación, el glamour y una vibrante celebración de la creatividad africana ocuparon un lugar central en el desfile de moda CANEX WKND 2026 en Lagos, Nigeria.",
-                "fecha": "Sun, 08 Nov 2026 11:28:03 GMT",
-                "titulo_original": "Africa: CANEX WKND 2026 Showcases Africa's Creative Brilliance in a Night of Fashion and Awards",
+                "titulo": "Sudáfrica: Tres muertos en tiroteo en Grassy Park - Noticias breves de Sudáfrica - 9 de noviembre de 2026",
+                "url": "https://allafrica.com/stories/202611090090.html",
+                "resumen": "[toda África]",
+                "fecha": "Mon, 09 Nov 2026 06:00:23 GMT",
+                "titulo_original": "South Africa: Three Killed in Grassy Park Shooting - South African News Briefs - November 9, 2026",
                 "tags": [
+                  "#Gobernancia",
+                  "#Sudáfrica",
                   "#África",
-                  "#Letras",
-                  "#CulturaEntretenimiento",
-                  "#Economía"
+                  "#Deporte"
                 ],
                 "tema_repetido": true,
-                "cluster_tema": "África",
+                "cluster_tema": "Sudáfrica",
                 "coincidencias_count": 2
               },
               {
-                "titulo": "África: Una transición energética justa no puede dejar atrás el agua",
-                "url": "https://allafrica.com/stories/202611070229.html",
-                "resumen": "[Agencia Bird Story] Mientras África sopesa cómo impulsar sus industrias y ampliar el acceso a la electricidad, el agua debe ser parte de la ecuación. Antes de la COP31, el Dr. Jonty Cogger y Paul Wani Lado aprovechan la experiencia de Sudáfrica para argumentar que una transición energética justa debe poner a prueba los fósiles propuestos.",
-                "fecha": "Sat, 07 Nov 2026 16:51:25 GMT",
-                "titulo_original": "Africa: A Just Energy Transition Cannot Leave Water Behind",
+                "titulo": "Kenia: TikTok elimina 750.000 vídeos en Kenia por violaciones de contenido",
+                "url": "https://allafrica.com/stories/202611090100.html",
+                "resumen": "[Capital FM] Nairobi – TikTok eliminó más de 750.000 videos en Kenia por violar sus pautas comunitarias en el segundo trimestre de 2026, lo que destaca las crecientes demandas operativas y regulatorias que enfrentan las plataformas digitales a medida que se expande el consumo de contenido en línea.",
+                "fecha": "Mon, 09 Nov 2026 06:55:37 GMT",
+                "titulo_original": "Kenya: TikTok Removes 750,000 Videos in Kenya Over Content Violations",
                 "tags": [
-                  "#África",
-                  "#Clima",
-                  "#Ambiente"
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "África",
-                "coincidencias_count": 2
-              },
-              {
-                "titulo": "África: CANEX tiene como objetivo capacitar a los creativos africanos para competir en los mercados globales e impulsar el crecimiento económico",
-                "url": "https://allafrica.com/stories/202611060130.html",
-                "resumen": "[allAfrica] Creativos de todo el continente se están reuniendo en Lagos, Nigeria, para el Creative Africa Nexus (CANEX). Esta iniciativa reúne al talento creativo, inversores, formuladores de políticas y líderes de la industria de África para desbloquear el potencial económico del culto del continente.",
-                "fecha": "Fri, 06 Nov 2026 08:09:33 GMT",
-                "titulo_original": "Africa: CANEX Aims to Empower African Creatives to Compete in Global Markets and Drive Economic Growth",
-                "tags": [
-                  "#África",
                   "#Letras",
                   "#CulturaEntretenimiento",
-                  "#Economía"
+                  "#Economía",
+                  "#NegociosFinanzas"
                 ],
                 "tema_repetido": true,
-                "cluster_tema": "África",
+                "cluster_tema": "Economía",
+                "coincidencias_count": 4
+              },
+              {
+                "titulo": "Kenia: Murkomen promete aislar a Paul Mackenzie en prisión por temor a radicalizar a los reclusos",
+                "url": "https://allafrica.com/stories/202611090099.html",
+                "resumen": "[Capital FM] Nairobi – El Secretario del Gabinete del Interior, Kipchumba Murkomen, ha prometido garantizar que el controvertido predicador Paul Mackenzie permanezca bajo custodia exclusiva, citando temores de que pueda radicalizar a otros reclusos si se le permite interactuar libremente con ellos.",
+                "fecha": "Mon, 09 Nov 2026 06:55:36 GMT",
+                "titulo_original": "Kenya: Murkomen Vows to Isolate Paul Mackenzie in Prison Over Fears of Radicalising Inmates",
+                "tags": [
+                  "#ÁfricaOriental",
+                  "#Gobernancia",
+                  "#Kenia"
+                ],
+                "tema_repetido": true,
+                "cluster_tema": "Kenia",
                 "coincidencias_count": 2
               }
             ],
@@ -2057,52 +2027,48 @@
             "perfil": "Regional / Negocios e Internacional",
             "noticias": [
               {
-                "titulo": "La principal escuela de teatro de Hong Kong presentará su entrada a medida que la ciudad universitaria amplía su campus",
-                "url": "https://www.scmp.com/news/hong-kong/education/article/3373709/hong-kongs-top-drama-school-stage-entrance-university-town-expands-campus",
-                "resumen": "Hong Kong casi duplicará el área del campus de una de las tres ciudades universitarias planificadas para la Metrópolis del Norte a 75 hectáreas, con espacio reservado para un segundo campus para la única institución pública de la ciudad especializada en artes escénicas. Según un documento presentado a",
-                "fecha": "Sun, 08 Nov 2026 14:01:34 +0000",
-                "titulo_original": "Hong Kong’s top drama school to stage entrance as university town expands campus",
+                "titulo": "Los líderes de la Cop31 instan al mundo a acelerar la lucha contra el calentamiento global",
+                "url": "https://www.scmp.com/news/world/article/3373785/cop31-leaders-urge-world-accelerate-fight-against-global-warming",
+                "resumen": "Los líderes de la cumbre climática Cop31 instaron al mundo a acelerar la lucha contra el calentamiento global a medida que el aumento de las temperaturas y un número cada vez mayor de desastres provocados por el clima amenazan vidas y la economía global, cuando comenzó la reunión anual en Turquía el lunes. Los comentarios en",
+                "fecha": "Mon, 09 Nov 2026 08:13:15 +0000",
+                "titulo_original": "Cop31 leaders urge world to accelerate fight against global warming",
                 "tags": [],
                 "tema_repetido": false,
                 "cluster_tema": "",
                 "coincidencias_count": 0
               },
               {
-                "titulo": "China ordena a la oficina de estadísticas luchar contra los datos falsos con tecnología moderna",
-                "url": "https://www.scmp.com/news/china/politics/article/3373704/china-orders-statistics-bureau-fight-fake-data-modern-technology",
-                "resumen": "La Oficina Nacional de Estadísticas (NBS) de China tiene la tarea de descubrir datos fabricados utilizando tecnología moderna, según la última actualización de las responsabilidades de la agencia respaldada por Beijing. El viernes, la Oficina de la Comisión Estatal para la Reforma del Sector Público publicó una revisión",
-                "fecha": "Sun, 08 Nov 2026 14:00:30 +0000",
-                "titulo_original": "China orders statistics bureau to fight fake data with modern technology",
+                "titulo": "Sergio Ermotti de la UBS sobre las crisis que moldearon al banco y cómo navegar en las redes regulatorias",
+                "url": "https://www.scmp.com/business/banking-finance/article/3373783/ubs-sergio-ermotti-crises-shaped-bank-and-navigating-regulatory-webs",
+                "resumen": "A finales de marzo de 2023 sonó el teléfono de Sergio Ermotti. Entonces, se desempeñaba como presidente de Swiss Re y se disponía a renovar su mandato, cómodamente instalado en lo que parecía ser un capítulo digno y asentado de una ilustre carrera bancaria. Al otro lado de la línea estaba el presidente de la UBS, C.",
+                "fecha": "Mon, 09 Nov 2026 08:01:47 +0000",
+                "titulo_original": "UBS’ Sergio Ermotti on the crises that shaped the bank and navigating regulatory webs",
                 "tags": [],
                 "tema_repetido": false,
                 "cluster_tema": "",
                 "coincidencias_count": 0
               },
               {
-                "titulo": "Un hombre japonés con \"rencor contra la sociedad\" apuñala a un trabajador de una librería",
-                "url": "https://www.scmp.com/news/asia/east-asia/article/3373708/japan-man-grudge-against-society-stabs-bookshop-worker",
-                "resumen": "La policía japonesa arrestó a un hombre de 33 años que admitió haber apuñalado a un trabajador de una librería en Osaka el domingo, dijo un portavoz, añadiendo que el sospechoso dijo que \"guardaba rencor a la sociedad\". El hombre, identificado como Satoshi Okamoto, supuestamente usó un cuchillo de cocina para apuñalar al trabajador.",
-                "fecha": "Sun, 08 Nov 2026 13:44:22 +0000",
-                "titulo_original": "Japan man with ‘grudge against society’ stabs bookshop worker",
+                "titulo": "'Basado en evidencia': Legco exigirá investigación a los legisladores que presenten mociones no vinculantes",
+                "url": "https://www.scmp.com/news/hong-kong/politics/article/3373777/evidence-based-legco-require-research-lawmakers-raising-non-binding-motions",
+                "resumen": "La legislatura de Hong Kong exigirá a los legisladores que presenten resultados de investigación y recomendaciones relevantes cuando presenten mociones que no tienen efecto legislativo, una medida que, según ha dicho su presidente, tiene como objetivo ayudar al público a seguir los debates más fácilmente y fomentar el debate \"basado en evidencia\".",
+                "fecha": "Mon, 09 Nov 2026 07:47:13 +0000",
+                "titulo_original": "‘Evidence-based’: Legco to require research from lawmakers raising non-binding motions",
                 "tags": [],
                 "tema_repetido": false,
                 "cluster_tema": "",
                 "coincidencias_count": 0
               },
               {
-                "titulo": "Donald Trump fue elegido presidente número 45 de los Estados Unidos en 2016 – del archivo SCMP",
-                "url": "https://www.scmp.com/news/world/united-states-canada/article/3373129/donald-trump-elected-45th-president-united-states-2016-scmp-archive",
-                "resumen": "Este artículo se publicó por primera vez el 10 de noviembre de 2016. Trump busca la unidad por Shi Jiangtao Donald Trump llamó a la unidad nacional y prometió trabajar con todas las naciones en un triunfal discurso de victoria ayer (9 de noviembre de 2016) que coronó al magnate inmobiliario de 70 años.",
-                "fecha": "Sun, 08 Nov 2026 13:30:18 +0000",
-                "titulo_original": "Donald Trump elected 45th president of the United States in 2016 – from the SCMP archive",
-                "tags": [
-                  "#EEUU",
-                  "#Elecciones",
-                  "#Política"
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "Elecciones y Pugna Institucional EE.UU.",
-                "coincidencias_count": 5
+                "titulo": "Muere en el hospital el pistolero que mató a seis personas en una plaza de la ciudad polaca",
+                "url": "https://www.scmp.com/news/world/europe/article/3373776/gunman-who-killed-6-polish-city-square-dies-hospital",
+                "resumen": "El joven de 24 años con opiniones de extrema derecha que mató a seis personas e hirió a otras 15 en un tiroteo en una plaza de una ciudad polaca el sábado murió en el hospital el lunes, dijo la policía. El atacante, vestido con ropa de estilo militar y un chaleco antibalas, entró en la plaza principal del casco antiguo de Cracovia.",
+                "fecha": "Mon, 09 Nov 2026 07:46:19 +0000",
+                "titulo_original": "Gunman who killed 6 in Polish city square dies in hospital",
+                "tags": [],
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
               }
             ],
             "estado": "OK",
@@ -2123,9 +2089,9 @@
                   "#InteligenciaArtificial",
                   "#Innovación"
                 ],
-                "tema_repetido": false,
-                "cluster_tema": "",
-                "coincidencias_count": 0
+                "tema_repetido": true,
+                "cluster_tema": "Tecnología Disruptiva, IA y Biotecnología",
+                "coincidencias_count": 5
               },
               {
                 "titulo": "La reunión conmemorativa del Día de la Libertad de Sudáfrica revela su búsqueda de dignidad y gobernanza inclusiva en la era posterior al apartheid",
@@ -2152,7 +2118,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Accidente Ferroviario / Red de Transporte",
-                "coincidencias_count": 7
+                "coincidencias_count": 10
               },
               {
                 "titulo": "Experto chino critica la afirmación del canciller filipino de que la delimitación entre Japón y Filipinas \"no tiene nada que ver\" con China y advierte que la medida sirve para propósitos ulteriores más allá de las conversaciones bilaterales.",
@@ -2187,7 +2153,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Manifestaciones y Protestas Sociales",
-                "coincidencias_count": 4
+                "coincidencias_count": 3
               },
               {
                 "titulo": "El fracaso de Estados Unidos en nombrar embajador australiano es un \"insulto diplomático\": ex viceprimer ministro",
@@ -2229,7 +2195,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Accidente Ferroviario / Red de Transporte",
-                "coincidencias_count": 7
+                "coincidencias_count": 10
               }
             ],
             "estado": "OK",
