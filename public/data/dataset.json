@@ -1,5 +1,5 @@
 {
-  "fechaGeneracion": "2026-11-08T14:19:36.281Z",
+  "fechaGeneracion": "2026-11-09T08:12:20.765Z",
   "fuentesConfig": {
     "ES": {
       "nombre": "España",
@@ -3218,7 +3218,7 @@
             "CHINA"
           ],
           "numRegiones": 9,
-          "conteo": 581,
+          "conteo": 596,
           "alcance": "global",
           "tipoEtiqueta": "Sincronización Global"
         },
@@ -3230,12 +3230,40 @@
             "DE",
             "US",
             "LATAM",
+            "AFRICA",
+            "CHINA"
+          ],
+          "numRegiones": 7,
+          "conteo": 59,
+          "alcance": "global",
+          "tipoEtiqueta": "Sincronización Global"
+        },
+        {
+          "tag": "Seguridad Sanitaria & Pandemia",
+          "regiones": [
+            "FR",
+            "DE",
+            "UK",
+            "US",
+            "LATAM",
             "CHINA"
           ],
           "numRegiones": 6,
-          "conteo": 55,
+          "conteo": 49,
           "alcance": "global",
           "tipoEtiqueta": "Sincronización Global"
+        },
+        {
+          "tag": "Agenda Política en España",
+          "regiones": [
+            "ES",
+            "US",
+            "CHINA"
+          ],
+          "numRegiones": 3,
+          "conteo": 135,
+          "alcance": "regional",
+          "tipoEtiqueta": "Corriente Regional"
         },
         {
           "tag": "Soberanía y Recursos en África",
@@ -3245,7 +3273,19 @@
             "CHINA"
           ],
           "numRegiones": 3,
-          "conteo": 129,
+          "conteo": 130,
+          "alcance": "regional",
+          "tipoEtiqueta": "Corriente Regional"
+        },
+        {
+          "tag": "Guerra en Ucrania & OTAN",
+          "regiones": [
+            "DE",
+            "UK",
+            "CHINA"
+          ],
+          "numRegiones": 3,
+          "conteo": 4,
           "alcance": "regional",
           "tipoEtiqueta": "Corriente Regional"
         },
@@ -3261,35 +3301,13 @@
           "tipoEtiqueta": "Corriente Regional"
         },
         {
-          "tag": "Agenda Política en España",
-          "regiones": [
-            "ES",
-            "US"
-          ],
-          "numRegiones": 2,
-          "conteo": 132,
-          "alcance": "regional",
-          "tipoEtiqueta": "Corriente Regional"
-        },
-        {
           "tag": "Crisis Energética & Gas",
           "regiones": [
             "EU",
             "AFRICA"
           ],
           "numRegiones": 2,
-          "conteo": 44,
-          "alcance": "regional",
-          "tipoEtiqueta": "Corriente Regional"
-        },
-        {
-          "tag": "Seguridad Sanitaria & Pandemia",
-          "regiones": [
-            "LATAM",
-            "CHINA"
-          ],
-          "numRegiones": 2,
-          "conteo": 44,
+          "conteo": 45,
           "alcance": "regional",
           "tipoEtiqueta": "Corriente Regional"
         },
@@ -3300,7 +3318,7 @@
             "LATAM"
           ],
           "numRegiones": 2,
-          "conteo": 3,
+          "conteo": 5,
           "alcance": "regional",
           "tipoEtiqueta": "Corriente Regional"
         },
@@ -3310,7 +3328,7 @@
             "CHINA"
           ],
           "numRegiones": 1,
-          "conteo": 87,
+          "conteo": 88,
           "alcance": "individual",
           "tipoEtiqueta": "Asunto Doméstico"
         },
@@ -3330,7 +3348,7 @@
             "US"
           ],
           "numRegiones": 1,
-          "conteo": 2,
+          "conteo": 3,
           "alcance": "individual",
           "tipoEtiqueta": "Asunto Doméstico"
         },
@@ -3338,16 +3356,6 @@
           "tag": "Pacto Verde & Rebelión Agrícola",
           "regiones": [
             "LATAM"
-          ],
-          "numRegiones": 1,
-          "conteo": 1,
-          "alcance": "individual",
-          "tipoEtiqueta": "Asunto Doméstico"
-        },
-        {
-          "tag": "Guerra en Ucrania & OTAN",
-          "regiones": [
-            "CHINA"
           ],
           "numRegiones": 1,
           "conteo": 1,
@@ -89872,6 +89880,342 @@
             "tipoEtiqueta": "Asunto Doméstico"
           }
         ]
+      },
+      {
+        "archivo": "INFORME_SEMANA_2026-W46.md",
+        "codigo": "2026-W46",
+        "year": 2026,
+        "rutaRelativa": "2026/INFORME_SEMANA_2026-W46.md",
+        "periodo": "Del 2026-10-30 al 2026-11-08 (7 día(s) acumulados)",
+        "analisis": {
+          "fase": "Agenda Fragmentada sin Monotema Hegemónico (2026-W46)",
+          "ejeDominante": "Dispersión informativa en España: la atención se repartió de forma equilibrada entre 'Accidente Ferroviario / Infraestructuras de Transporte' (31 titulares) y asuntos parlamentarios diversos sin un eje absorbente.",
+          "puntoCiego": "La cobertura española ignoró por completo el impacto de 'Conflicto Oriente Medio (Gaza / Líbano)', presente con 21 cabeceras internacionales en CHINA, DE, FR, LATAM, UK, US (ej. 'En Gaza, los ataques israelíes matan a ocho personas, entre ellas un n...').",
+          "evaluacion": "La saturación de la atención mediática en la agenda doméstica aísla a la opinión pública de transformaciones críticas en Conflicto Oriente Medio (Gaza / Líbano), afectando a cadenas de valor y equilibrios geopolíticos multilaterales.",
+          "divergencia": "Fractura de encuadre ante 'Asuntos Generales y Dispersión': mientras cabeceras conservadoras presionan sobre fallos de gestión y responsabilidades políticas, los medios progresistas replantean el relato en la cronología técnica y las medidas de auxilio.",
+          "tesis": "La auditoría de la semana 2026-W46 constata la desconexión sistemática entre los monotemas de fricción política nacional y las corrientes subterráneas de reconfiguración material global."
+        },
+        "titulares": {
+          "ES": [
+            {
+              "titulo": "Óscar Puente descarta dimitir: “Mi forma de ser responsable es dar la cara”",
+              "medio": "El País",
+              "url": "https://elpais.com/economia/2026-10-30/oscar-puente-comparece-para-hablar-del-accidente-de-urda-dos-dias-despues-de-la-tragedia.html"
+            },
+            {
+              "titulo": "El Gobierno se plantea parar el tráfico en la línea de alta velocidad Madrid-Barcelona durante las obras de remodelación",
+              "medio": "El País",
+              "url": "https://elpais.com/economia/2026-10-30/puente-valora-parar-la-linea-de-ave-madrid-barcelona-durante-las-obras-de-remodelacion.html"
+            },
+            {
+              "titulo": "Los controladores de Atocha ordenaron seguir el protocolo equivocado antes del choque entre el AVE y el Iryo: “Me estaba liando”",
+              "medio": "El País",
+              "url": "https://elpais.com/espana/2026-10-30/los-controladores-de-atocha-ordenaron-seguir-el-protocolo-equivocado-antes-del-choque-entre-el-ave-y-el-iryo-me-estaba-liando.html"
+            },
+            {
+              "titulo": "Los expertos señalan problemas en el sistema que van más allá del error cometido por el operario que daba instrucciones desde Atocha",
+              "medio": "El País",
+              "url": "https://elpais.com/espana/2026-10-30/preguntas-y-respuestas-sobre-el-accidente-de-urda-lo-que-explican-y-lo-que-no-los-audios-entre-los-maquinistas-y-el-centro-de-control.html"
+            }
+          ],
+          "FR": [
+            {
+              "titulo": "Manifestación del 31 de octubre en París: el tribunal administrativo suspende la orden de la Prefectura de Policía que prohíbe el trayecto entre la Bastilla y la Nación, deseada por la intersindical",
+              "medio": "Le Monde",
+              "url": "https://www.lemonde.fr/societe/article/2026/10/30/manifestation-du-31-octobre-a-paris-le-tribunal-administratif-suspend-l-arrete-de-la-prefecture-de-police-interdisant-la-manifestation-entre-bastille-et-nation-souhaite-par-l-intersyndicale_6803066_3225.html"
+            },
+            {
+              "titulo": "Ataque de Trappes: la historia en vídeo de un ataque terrorista con motivo racista",
+              "medio": "Le Monde",
+              "url": "https://www.lemonde.fr/videos/video/2026/10/30/attentat-de-trappes-le-recit-en-video-d-une-attaque-terroriste-au-mobile-raciste_6803127_1669088.html"
+            },
+            {
+              "titulo": "EN VIVO, elecciones intermedias de 2026: Ted Cruz está preocupado por la movilización demócrata y teme una derrota en Texas",
+              "medio": "Le Monde",
+              "url": "https://www.lemonde.fr/international/live/2026/10/30/en-direct-midterms-2026-ted-cruz-s-inquiete-de-la-mobilisation-democrate-et-redoute-une-defaite-au-texas_6801590_3210.html"
+            },
+            {
+              "titulo": "En Polonia, destituido el presidente del Tribunal Constitucional, la policía se desplegó en Varsovia",
+              "medio": "Le Monde",
+              "url": "https://www.lemonde.fr/international/article/2026/10/30/en-pologne-le-president-du-tribunal-constitutionnel-ecarte-la-police-deployee-a-varsovie_6803134_3210.html"
+            }
+          ],
+          "DE": [
+            {
+              "titulo": "Se dice que Nelly recibió 50.000 dólares por aparecer en la gira de Taylor Swift.",
+              "medio": "Der Spiegel",
+              "url": "https://www.spiegel.de/kultur/musik/nelly-soll-fuer-auftritt-bei-taylor-swift-tour-50-000-dollar-bekommen-haben-a-eca91177-f571-4459-86a0-b944c6b357fd#ref=rss"
+            },
+            {
+              "titulo": "Polonia: Operación policial en medio de una creciente disputa sobre el Tribunal Constitucional",
+              "medio": "Der Spiegel",
+              "url": "https://www.spiegel.de/ausland/polen-polizeieinsatz-bei-eskalierendem-streit-ueber-das-verfassungsgericht-a-47bdca85-d4e4-48da-8688-d3c40f2065ad#ref=rss"
+            },
+            {
+              "titulo": "Guerra de Ucrania: Estados Unidos aprueba la venta de 500 antimisiles Patriot",
+              "medio": "Der Spiegel",
+              "url": "https://www.spiegel.de/ausland/ukraine-krieg-usa-genehmigen-verkauf-von-500-patriot-abwehrraketen-a-2a082d3f-12c3-4c6d-8ef0-a9be89feb674#ref=rss"
+            },
+            {
+              "titulo": "México: La mujer esqueleto “Catrina” que bate récords vigila la Ciudad de México",
+              "medio": "Der Spiegel",
+              "url": "https://www.spiegel.de/netzwelt/web/mexiko-rekord-skelettfrau-catrina-wacht-ueber-mexiko-stadt-a-d65fd94d-3d9f-412e-a09c-33a85bc90b2b#ref=rss"
+            }
+          ],
+          "UK": [
+            {
+              "titulo": "El gigante criptográfico Binance intenta recuperar 6.300 millones de dólares robados en un hack vinculado a Corea del Norte",
+              "medio": "BBC News (World)",
+              "url": "https://www.bbc.co.uk/news/articles/cwe8lp7zy07zo?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "titulo": "La reclusa estadounidense Christa Pike dice que se despertó \"confundida y dolorida\" después de una ejecución fallida",
+              "medio": "BBC News (World)",
+              "url": "https://www.bbc.co.uk/news/articles/ck62ydn7dj9eo?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "titulo": "Cientos de personas evacuadas de Oleshky, ocupada por Rusia, durante un inusual alto el fuego en Ucrania",
+              "medio": "BBC News (World)",
+              "url": "https://www.bbc.co.uk/news/articles/c60me298k1yeo?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "titulo": "La policía se desplegó durante el enfrentamiento por el control del tribunal superior de Polonia",
+              "medio": "BBC News (World)",
+              "url": "https://www.bbc.co.uk/news/articles/crz9824d5e88o?at_medium=RSS&at_campaign=rss"
+            }
+          ],
+          "EU": [
+            {
+              "titulo": "El voto anticipado hispano sube un 80% en Estados Unidos, según la organización Voto Latino",
+              "medio": "Euronews",
+              "url": "https://es.euronews.com/2026/10/30/voto-anticipado-hispano-sube-80-por-ciento-eeuu-segun-voto-latino"
+            },
+            {
+              "titulo": "Estados Unidos cancela la foto del G20 tras el rechazo de diplomáticos europeos a Lavrov",
+              "medio": "Euronews",
+              "url": "https://es.euronews.com/2026/10/30/estados-unidos-cancela-la-foto-del-g20-tras-el-rechazo-de-diplomaticos-europeos-a-lavrov"
+            },
+            {
+              "titulo": "Canadá y la UE cerrarán antes de junio de 2027 la \"membresía asociada\", según Carney",
+              "medio": "Euronews",
+              "url": "https://es.euronews.com/2026/10/30/canada-y-la-ue-cerraran-antes-de-junio-de-2027-la-membresia-asociada-segun-carney"
+            },
+            {
+              "titulo": "Grand Slam de Abu Dabi 2026: Los pesos medios brillan en el segundo día",
+              "medio": "Euronews",
+              "url": "https://es.euronews.com/2026/10/30/grand-slam-de-abu-dabi-2026-los-pesos-medios-brillan-en-el-segundo-dia"
+            }
+          ],
+          "US": [
+            {
+              "titulo": "Estados Unidos enviará a decenas de personas de regreso a Afganistán, a pesar del riesgo de persecución",
+              "medio": "The New York Times",
+              "url": "https://www.nytimes.com/2026/10/30/world/asia/afghan-refugees-deported-flight-pakistan.html"
+            },
+            {
+              "titulo": "Errores de control de tráfico causaron el mortal accidente de tren en España, dice un funcionario",
+              "medio": "The New York Times",
+              "url": "https://www.nytimes.com/2026/10/30/world/europe/spain-crash-contoller-errors.html"
+            },
+            {
+              "titulo": "¿Podría Bukele de El Salvador ser el salvador de Haití?",
+              "medio": "The New York Times",
+              "url": "https://www.nytimes.com/2026/10/30/world/americas/el-salvador-haiti-soldiers-bukele.html"
+            },
+            {
+              "titulo": "Es poco probable que las elecciones de Israel cambien sus políticas y su aislamiento global",
+              "medio": "The New York Times",
+              "url": "https://www.nytimes.com/2026/10/30/world/europe/israel-election-netanyahu-eisenkot.html"
+            }
+          ],
+          "LATAM": [
+            {
+              "titulo": "Las claves del ultimátum de Bukele a las poderosas bandas de Haití tras el secuestro de 4 militares salvadoreños",
+              "medio": "BBC News Mundo",
+              "url": "https://www.bbc.com/mundo/watch/cq9vz31j8xpko?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "titulo": "Un hackeo a la empresa Binance afecta a US$6.300 millones en activos digitales, el mayor robo de criptomonedas conocido",
+              "medio": "BBC News Mundo",
+              "url": "https://www.bbc.com/mundo/articles/cvze42lk562ko?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "titulo": "\"No ha habido un solo momento desde esa noche en que no sienta dolor\": Christa Pike habla por primera vez desde su fallida ejecución por inyección letal",
+              "medio": "BBC News Mundo",
+              "url": "https://www.bbc.com/mundo/articles/c674pd105v54o?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "titulo": "Elecciones en EE.UU.: cómo influye la dura política migratoria de Trump en el bastión latino republicano del sur de Florida",
+              "medio": "BBC News Mundo",
+              "url": "https://www.bbc.com/mundo/articles/cm78pl5w7qq9o?at_medium=RSS&at_campaign=rss"
+            }
+          ],
+          "AFRICA": [
+            {
+              "titulo": "Camerún: Cómo Paul Biya aseguró la transición a la democracia",
+              "medio": "The Africa Report",
+              "url": "https://www.theafricareport.com/435001/cameroon-how-paul-biya-locked-down-the-transition-to-democracy/"
+            },
+            {
+              "titulo": "Un año después del golpe militar: el autoritarismo frustra las aspiraciones de la Generación Z de un nuevo Madagascar",
+              "medio": "The Africa Report",
+              "url": "https://www.theafricareport.com/435004/a-year-after-the-military-coup-authoritarianism-dashes-gen-z-aspirations-for-a-new-madagascar/"
+            },
+            {
+              "titulo": "Elecciones en Sudáfrica: Zille, Zuma y la batalla por las grandes ciudades",
+              "medio": "The Africa Report",
+              "url": "https://www.theafricareport.com/435020/south-africa-elections-zille-zuma-and-the-battle-for-the-big-cities/"
+            },
+            {
+              "titulo": "Nuevas sanciones de Estados Unidos profundizan la disputa entre Congo y Ruanda",
+              "medio": "The Africa Report",
+              "url": "https://www.theafricareport.com/434985/new-us-sanctions-deepen-congo-rwanda-spat/"
+            }
+          ],
+          "CHINA": [
+            {
+              "titulo": "El error de la tesis australiana de la “amenaza china”",
+              "medio": "South China Morning Post",
+              "url": "https://www.scmp.com/opinion/asia-opinion/article/3372519/flaw-australias-china-threat-thesis"
+            },
+            {
+              "titulo": "El principal periódico independiente de Rusia, Novaya Gazeta, cierra bajo presión del Kremlin",
+              "medio": "South China Morning Post",
+              "url": "https://www.scmp.com/news/world/russia-central-asia/article/3372798/russias-top-independent-newspaper-novaya-gazeta-shuts-under-kremlin-pressure"
+            },
+            {
+              "titulo": "¿Podrá Connie Chan convertirse en la primera estadounidense de origen asiático de San Francisco en el Congreso?",
+              "medio": "South China Morning Post",
+              "url": "https://www.scmp.com/news/us/us-elections/article/3372796/can-connie-chan-become-san-franciscos-first-asian-american-congress"
+            },
+            {
+              "titulo": "Carney contempla un acuerdo de junio para convertir a Canadá en el primer miembro asociado de la UE",
+              "medio": "South China Morning Post",
+              "url": "https://www.scmp.com/news/world/united-states-canada/article/3372794/carney-expects-conclude-talks-making-canada-eus-first-associate-member-june"
+            }
+          ]
+        },
+        "tags": [
+          {
+            "tag": "Inteligencia Artificial & Chips",
+            "regiones": [
+              "ES",
+              "FR",
+              "DE",
+              "UK",
+              "EU",
+              "US",
+              "LATAM",
+              "AFRICA",
+              "CHINA"
+            ],
+            "numRegiones": 9,
+            "conteo": 15,
+            "alcance": "global",
+            "tipoEtiqueta": "Sincronización Global"
+          },
+          {
+            "tag": "Seguridad Sanitaria & Pandemia",
+            "regiones": [
+              "FR",
+              "DE",
+              "UK",
+              "US",
+              "LATAM"
+            ],
+            "numRegiones": 5,
+            "conteo": 5,
+            "alcance": "global",
+            "tipoEtiqueta": "Sincronización Global"
+          },
+          {
+            "tag": "Elecciones en EEUU & Polarización",
+            "regiones": [
+              "FR",
+              "US",
+              "LATAM",
+              "AFRICA"
+            ],
+            "numRegiones": 4,
+            "conteo": 4,
+            "alcance": "global",
+            "tipoEtiqueta": "Sincronización Global"
+          },
+          {
+            "tag": "Guerra en Ucrania & OTAN",
+            "regiones": [
+              "DE",
+              "UK",
+              "CHINA"
+            ],
+            "numRegiones": 3,
+            "conteo": 3,
+            "alcance": "regional",
+            "tipoEtiqueta": "Corriente Regional"
+          },
+          {
+            "tag": "Agenda Política en España",
+            "regiones": [
+              "ES",
+              "CHINA"
+            ],
+            "numRegiones": 2,
+            "conteo": 3,
+            "alcance": "regional",
+            "tipoEtiqueta": "Corriente Regional"
+          },
+          {
+            "tag": "Crisis y Reformas en América Latina",
+            "regiones": [
+              "US",
+              "LATAM"
+            ],
+            "numRegiones": 2,
+            "conteo": 2,
+            "alcance": "regional",
+            "tipoEtiqueta": "Corriente Regional"
+          },
+          {
+            "tag": "Conflicto en Gaza & Mar Rojo",
+            "regiones": [
+              "US"
+            ],
+            "numRegiones": 1,
+            "conteo": 1,
+            "alcance": "individual",
+            "tipoEtiqueta": "Asunto Doméstico"
+          },
+          {
+            "tag": "Crisis Energética & Gas",
+            "regiones": [
+              "AFRICA"
+            ],
+            "numRegiones": 1,
+            "conteo": 1,
+            "alcance": "individual",
+            "tipoEtiqueta": "Asunto Doméstico"
+          },
+          {
+            "tag": "Soberanía y Recursos en África",
+            "regiones": [
+              "AFRICA"
+            ],
+            "numRegiones": 1,
+            "conteo": 1,
+            "alcance": "individual",
+            "tipoEtiqueta": "Asunto Doméstico"
+          },
+          {
+            "tag": "Potencia Industrial de China & Taiwán",
+            "regiones": [
+              "CHINA"
+            ],
+            "numRegiones": 1,
+            "conteo": 1,
+            "alcance": "individual",
+            "tipoEtiqueta": "Asunto Doméstico"
+          }
+        ]
       }
     ]
   },
@@ -89899,22 +90243,22 @@
           "impacto": "Coincidencia temática directa (watermark) con la hipótesis HIP-01."
         },
         {
+          "titular": "Sylvain Chomet ('Bienvenidos a Belleville') desmiente acusaciones de IA en su cortometraje para Dior con voz de Robert Pattinson: 'Todo fue dibujado a mano'",
+          "fuente": "Variety — Artificial Intelligence (2026-11-07)",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNLVBvQ2RFTlpNMU9yZWFMSS16aWhIUWUwNkw4WV9Ob1daZHJEVFQ2R0stSm1vZ1lOUGtCU3FPYldsb2FuR00zWURYT2w1S2w1OVctVmhDZGNnTy1uSmtOcUtsWU1lQzZ0aUxCM2NER014eThZWVZwb2tCZlp3cG1HeWpIb2YxV2x3LVU2Rk9VSmlUUDRQOTlwdUg0QUlOLVlUdW9hWDZDZ1Yydms?oc=5",
+          "impacto": "Evidencia empírica directa confirmada en el informe del 2026-11-08"
+        },
+        {
+          "titular": "El patrimonio de Elvis Presley y la editora de Eminem demandan formalmente a la startup de generación musical Suno por infracción de copyright",
+          "fuente": "Variety — Artificial Intelligence (2026-11-07)",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQY29vaGFSTlN1SWJTTWpWcVdiTWZaTWppNlFJanZGR1d0S3A2Vm1LVjVGWFNiODB1TkJWc3pQUGQyWHF2SWR1Zk9lX09WRm9GTm12UHh4bTlpdXkxQkpidF8wRm5yTWI4X29IenM1NmtGOC0tSUdfOTRSaEtsTkl3eVZtbkFfUTUtTDVjbWU1cWRrdw?oc=5",
+          "impacto": "Evidencia empírica directa confirmada en el informe del 2026-11-08"
+        },
+        {
           "titular": "Itch.io actualiza sus directrices editoriales y purga oleadas de videojuegos generados con IA sin supervisión humana",
           "fuente": "80 Level (Gamedev, 3D, Shaders & AI Pipelines) (2026-11-05)",
           "url": "https://80.lv/articles/itch-io-revises-ai-content-policies-after-removing-ai-generated-games/",
           "impacto": "Evidencia empírica verificada el 2026-11-05"
-        },
-        {
-          "titular": "El productor de 'Blade Runner 2049' (Alcon Entertainment) cierra un acuerdo extrajudicial con Warner Bros. Discovery y Elon Musk por el uso no consentido de imágenes con IA en el Cybercab",
-          "fuente": "The Hollywood Reporter — AI (2026-11-05)",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNc2pfNDhxQzI2Y05xOE5iZDFpVnZaczhWZFgyalBtUGRxMm9BV0dBajJ6Y3dEU3lCWmotSGR3eXlIaWlWR0Vad2RmMDlPSjltd0wzbkFqazhCUWN5VjRxWVZraW5aT00yNjJ6a2xaTlA0QjZDNE5hZHFncGlmWVZwU2xwNG8wbnpkWXRrZ0RPRmI1VFpYLXBqRlRGMG1ZMzRDNG1heU13aUUxS2N0aUE?oc=5",
-          "impacto": "Evidencia empírica directa observada en El productor de 'Blade Runner 2049' (Alcon Entertainment) ci..."
-        },
-        {
-          "titular": "Nexus Mods implanta la declaración obligatoria de IA en todos los contenidos y mods comunitarios de videojuegos",
-          "fuente": "80 Level (Gamedev, 3D, Shaders & AI Pipelines) (2026-11-05)",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA1Q1hmOXd1NnFWSmVGVUZ6dExzWXpNQ25XQjhSb296S3ZHdEtxUDlVOXZ2bUZBUS0taGJla3hlN1dnSEI0eEU5SHJoUi1pVlo5NWhOcE1xZENMZDQwRE9fakFUQ1BGR000YjN6aVpSSTVjMTZ2dnZj?oc=5",
-          "impacto": "Evidencia empírica directa observada en Nexus Mods implanta la declaración obligatoria de IA en todo..."
         }
       ],
       "senalesContra": [
@@ -89949,10 +90293,10 @@
           "impacto": "Coincidencia temática directa (studio, vfx) con la hipótesis HIP-02."
         },
         {
-          "titular": "AI Could Make Filmmaking Costlier Than the 35mm Era, Korean Pioneers Warn at Taiwan Creative Content Fest",
+          "titular": "Pioneros del cine coreano advierten en el TCCF que rodar con IA puede resultar más caro que el celuloide de 35mm por el coste de computación y 'cleanup'",
           "fuente": "Variety — Artificial Intelligence (2026-11-08)",
           "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNeFRfQ3F6THhlV0I0ZzhQLUR0M1V3NWhKZmZvdjhYbFl2T2lpNnhNRjd1eDNFSDFhYVdyTkVEZjNwNFgxSzR0S3JrX2xJZWpaejdlOE9TQnRLRk8zOWRtbnRSZ19id0pKX1l2Y3VHR1J2VWNEZzBIMnF5Ri1WbHdXWTJMQ1pkdzZjdnd0aFVQUjM3WWdUdlRfQ2J2RF9JTm01Ry16U182UE0xTE0?oc=5",
-          "impacto": "Coincidencia temática directa (studio, vfx) con la hipótesis HIP-02."
+          "impacto": "Evidencia empírica directa confirmada en el informe del 2026-11-08"
         },
         {
           "titular": "Creíamos que la IA iba a escribir por nosotros, pero donde ChaGPT está creciendo más en España es como buscador",
@@ -89993,6 +90337,12 @@
           "impacto": "Coincidencia temática directa (enterprise) con la hipótesis HIP-03."
         },
         {
+          "titular": "Lanzan un agente autónomo 100% local y de código abierto para smartphones (iOS y Android) capaz de monitorizar interfaces sin depender de la nube",
+          "fuente": "Comunidad r/LocalLLaMA (Herramientas Locales y Modelos Abiertos) (2026-11-08)",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xqd058/use_your_phone_to_monitor_anything_with_local/",
+          "impacto": "Evidencia empírica directa confirmada en el informe del 2026-11-08"
+        },
+        {
           "titular": "Microsoft extends undisclosed usage restrictions on Copilot Chat for enterprise users",
           "fuente": "Radar Agentes de Código, SWE-Bench y Personal Software (Google News) (2026-11-06)",
           "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQTEJQa3JiVzdXRmRNT09ySDVMelZwd0c5NWJ5cW96REtXT0E1V3l4Vjg4Z0Zhd2N3Mm5rN3hKSGN6akFySF8ydTdMUXpLclFYRVFQb2JiNFBtTDlRSXlyVUc0ZUR1OHQ5SEg1MHFISjlBb1pxUGVWTlVpSDYyQnQ4MXZhNGwxSC1vYzdnbTVPYjh5eWp6ZGV0ckxoNUpSUkVPQ29vZUlCS3pJZndVX0tIS2tDdzVxUEM3eUd2ellYTVZqODNMUE8tYkVVMTVnVERYMHc?oc=5",
@@ -90005,16 +90355,10 @@
           "impacto": "Evidencia empírica directa observada en La animación iberoamericana se organiza frente a la IA: Conc..."
         },
         {
-          "titular": "Salesforce sees surge in enterprise AI adoption with agentforce",
-          "fuente": "Radar Adopción Empresarial Real, ROI y Métricas de Productividad (Google News) (2026-11-05)",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPaXI2Q09vS0VtUGZENVFrUnlxOGdmZUtqV0ZGTUIySEtkem1uLVQwZkZqTmRPMThoaE9WM1VLSEZVa2tBSFp5NXZjMTQzbW1zWXhrdlNvLUdrbFBETV9DNDdFVUJqOHNrQVU0MzJYcGNaNXZud2o4Z1dldk5QNjdtOG9jdjI5WjRUVGdNbjZ3?oc=5",
-          "impacto": "Coincidencia temática directa (enterprise) con la hipótesis HIP-03."
-        },
-        {
-          "titular": "Sentra Raises $150 Million for Agentic Data Security as Enterprise AI Adoption Accelerates",
-          "fuente": "Radar Adopción Empresarial Real, ROI y Métricas de Productividad (Google News) (2026-11-05)",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOMEVnalgtVkM4MUp1UVJfR1c3cE9DV3htLTluWDVIdXhRbEFBc2pYVUgzTFZmb0ViTHl0TlVfbjVzU21wbGYxZ2VPNUxQbkdXbVY5VWQ2aHQxd2lIQzVkUTFRVnhnTWd6emhCcEtXZHI4OEt2OVJFdEdHbXhYUC1BdTg5dFFpT05LcVdKNHpsZDlnWFI0c0JXellpZk9aMVljYXNNb015clJtQ0NpVjQ3ZDBBLUZzamc?oc=5",
-          "impacto": "Coincidencia temática directa (enterprise) con la hipótesis HIP-03."
+          "titular": "Weta FX expande su infraestructura de IA a Taiwán y toma una participación estratégica en Moonshine Studio",
+          "fuente": "Screen Daily / Screen International (Negocio Cinematográfico Europeo) (2026-11-06)",
+          "url": "https://www.screendaily.com/news/weta-fx-to-build-ai-hub-in-taiwan-buy-into-moonshine-studio/5198901.article",
+          "impacto": "Evidencia empírica directa confirmada en el informe del 2026-11-08"
         }
       ],
       "senalesContra": []
@@ -90042,22 +90386,22 @@
           "impacto": "Coincidencia temática directa (doblaje) con la hipótesis HIP-04."
         },
         {
-          "titular": "AI Could Make Filmmaking Costlier Than the 35mm Era, Korean Pioneers Warn at Taiwan Creative Content Fest",
-          "fuente": "Variety — Artificial Intelligence (2026-11-08)",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNeFRfQ3F6THhlV0I0ZzhQLUR0M1V3NWhKZmZvdjhYbFl2T2lpNnhNRjd1eDNFSDFhYVdyTkVEZjNwNFgxSzR0S3JrX2xJZWpaejdlOE9TQnRLRk8zOWRtbnRSZ19id0pKX1l2Y3VHR1J2VWNEZzBIMnF5Ri1WbHdXWTJMQ1pkdzZjdnd0aFVQUjM3WWdUdlRfQ2J2RF9JTm01Ry16U182UE0xTE0?oc=5",
-          "impacto": "Coincidencia temática directa (doblaje) con la hipótesis HIP-04."
-        },
-        {
           "titular": "Creíamos que la IA iba a escribir por nosotros, pero donde ChaGPT está creciendo más en España es como buscador",
           "fuente": "Xataka — Inteligencia Artificial y Tecnología (2026-11-07)",
           "url": "https://www.xataka.com/robotica-e-ia/creiamos-que-ia-iba-a-escribir-nosotros-donde-chagpt-esta-creciendo-espana-como-buscador",
           "impacto": "Coincidencia temática directa (doblaje) con la hipótesis HIP-04."
         },
         {
-          "titular": "‘Triplets of Belleville’ Director Sylvain Chomet Fires Back at AI Accusations Over Dior Film Featuring Robert Pattinson’s Voice: ‘Everything Was Drawn by Hand’ (EXCLUSIVE)",
+          "titular": "Christopher Nolan exige al sindicato de directores (DGA) obligar a los grandes estudios a rendir cuentas estrictas sobre el uso de IA",
+          "fuente": "Deadline — Artificial Intelligence & Guilds (2026-11-07)",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNMm5uMGI2NjduMDY0ZnR1SmM2Ujk3SmFvMy12dDZqZW0xX3JQVnRQNklfdlVBb2xkMG10TG5rd0pwblJ0N09jeWRpeXZvYTc5alVfWExPdnJVREdQMEp2cE5uOGtvdmMxOF95cWJRRzBhdWVYLVg1QXJjN29UOEJSTWdiaThaNE00OVhwUHJUWVdDRWVSU2ZrZnpRS0F4Z3FwWFE?oc=5",
+          "impacto": "Evidencia empírica directa confirmada en el informe del 2026-11-08"
+        },
+        {
+          "titular": "El patrimonio de Elvis Presley y la editora de Eminem demandan formalmente a la startup de generación musical Suno por infracción de copyright",
           "fuente": "Variety — Artificial Intelligence (2026-11-07)",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNLVBvQ2RFTlpNMU9yZWFMSS16aWhIUWUwNkw4WV9Ob1daZHJEVFQ2R0stSm1vZ1lOUGtCU3FPYldsb2FuR00zWURYT2w1S2w1OVctVmhDZGNnTy1uSmtOcUtsWU1lQzZ0aUxCM2NER014eThZWVZwb2tCZlp3cG1HeWpIb2YxV2x3LVU2Rk9VSmlUUDRQOTlwdUg0QUlOLVlUdW9hWDZDZ1Yydms?oc=5",
-          "impacto": "Coincidencia temática directa (doblaje) con la hipótesis HIP-04."
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQY29vaGFSTlN1SWJTTWpWcVdiTWZaTWppNlFJanZGR1d0S3A2Vm1LVjVGWFNiODB1TkJWc3pQUGQyWHF2SWR1Zk9lX09WRm9GTm12UHh4bTlpdXkxQkpidF8wRm5yTWI4X29IenM1NmtGOC0tSUdfOTRSaEtsTkl3eVZtbkFfUTUtTDVjbWU1cWRrdw?oc=5",
+          "impacto": "Evidencia empírica directa confirmada en el informe del 2026-11-08"
         }
       ],
       "senalesContra": [
@@ -90086,6 +90430,12 @@
           "impacto": "Coincidencia temática directa (data center) con la hipótesis HIP-05."
         },
         {
+          "titular": "La fiebre de la IA choca con los metales básicos: la red eléctrica mundial exige millones de toneladas de cobre para alimentar los megacentros de datos",
+          "fuente": "Xataka — Inteligencia Artificial y Tecnología (2026-11-07)",
+          "url": "https://www.xataka.com/energia/fiebre-ia-esta-creando-otro-problema-necesitamos-toneladas-metal-para-poder-darle-electricidad",
+          "impacto": "Evidencia empírica directa confirmada en el informe del 2026-11-08"
+        },
+        {
           "titular": "El Partido Demócrata evalúa regular la Inteligencia Artificial y los data center",
           "fuente": "Radar Centros de Datos España (Consumo Eléctrico, Agua y Plan IA360) (2026-11-06)",
           "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNQ0FUQVBFMUU5Q2JMWEpCenVyeFUwMTQ0aGt2V2xxaURXekItQUVKdC1WZ3MwcFcwcUEwSWUzOUxKc1V3bi1rbGkxLUpBNUtQb3dOaEkzQVladF9HaVhqT2cwOWZRM2RiQW05QkZ1WU9wVFhCX1JSX0xTZXNidDVxQUVsZmZ3X2dITTJWa051ZXJqc0dzWlgwYm1lSng2Mk5UMXFFcEhmRHhNRTBCU3p3cVdCaG1fS1VueXfSAb8BQVVfeXFMUHNXMjQyZTNSV3FJLXpSWFdEcVB0dGFhN0VVcXdTY3B4YXlNT1E2QVpNVXJHOXA2TWlVTWUtRjR3ZElhWUtjM2ZqbGhyS3J2Zklldk9NZDJHZFlqRUtJYW1OUGxhLWxqMXNkOTI2NDB2QUdVbmQ1dGFocmFwX0gtU1NfVzZrSW9wdzR6U1k2T3V5dHItaUJmdTIwSW02aWhhb3hkUEUwaXBDOXplVmVuSGxzS05NTUpncXM1dTJkSU0?oc=5",
@@ -90102,12 +90452,6 @@
           "fuente": "Radar Centros de Datos España (Consumo Eléctrico, Agua y Plan IA360) (2026-11-06)",
           "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNbzBGb2FXRkdsM25sclV6R0dfRWFLd0pGRWI3UVN4TFpsMzJFMUt4V19tUFRlYVFINk50blZfenlzazZ0Z0lHSWxyeHlUS2VKZlhUeDdGTjdXSGg0d2xlLWgzZWNrYmwxOW15YjlIc2ZWRE5KU1AzOUdUS2lBcmV0WmZpSEhMOE1PVzBKa2p3WEd4eDlBOG1yS05NUVBwdUhwT3p1cW1YYnBjbHlPUlRReU1WTzlheGtwMHpTUlZITWhodXdFQkpqcWlBelNPWVhYblE?oc=5",
           "impacto": "Evidencia empírica directa observada en La ‘sed’ insaciable de los centros de datos en Texas: El con..."
-        },
-        {
-          "titular": "El Gobierno de Taiwán interviene de urgencia para estabilizar la bolsa y su divisa tras la amenaza de moratorias a centros de datos lideradas por Texas",
-          "fuente": "FRANCE 24 Español / Comisión de Supervisión Financiera de Taiwán (2026-11-06)",
-          "url": "https://www.youtube.com/watch?v=_a51EXeNf90#t=taiwan_gov_intervention",
-          "impacto": "Evidencia empirica extraida del analisis audiovisual de FRANCE 24 Español / Comisión de Supervisión Financiera de Taiwán."
         }
       ],
       "senalesContra": []
@@ -90129,28 +90473,28 @@
           "impacto": "Coincidencia temática directa (deepseek, qwen, kling) con la hipótesis HIP-06."
         },
         {
-          "titular": "DeepSeek Nears OpenAI’s Cyber Model in Vals Test at $3 a Run",
-          "fuente": "Labs Frontera Orientales (DeepSeek, Qwen, Kling, Seedance/ByteDance, Hailuo/MiniMax, Hunyuan) (2026-11-08)",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNTFRkaW10X3BFS3pBNERxNFB0Yks5ajkxRXp2a0hQSDBxMlNmcWV6dzhzVFJhYTQxRjNFdGpEWnZmdjMwSkdhbFpFOVlLdDFNT2gwVVprY1gxUVI0Z0NHR2RkS0RwZ2FVTGp5SG5aNUFVX0dJOU1wUUxBR1B6RmFKVVVrZzZySEhxeFZjT29jZw?oc=5",
-          "impacto": "Coincidencia temática directa (deepseek, qwen, kling) con la hipótesis HIP-06."
-        },
-        {
           "titular": "Best Free AI Video Generators 2026: No-Watermark Picks Tested",
           "fuente": "Labs Frontera Orientales (DeepSeek, Qwen, Kling, Seedance/ByteDance, Hailuo/MiniMax, Hunyuan) (2026-11-08)",
           "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE05R1VuQ3ZaMFdnZUJOZTVCc25ibHlfSWJIa0dfTHpabVlaVzdsUXVQeEhpY2VEQzd0b0pRV2dBQTFEUXB5MmVJemphaG1VWUFXY1VPblhOWlN1LUxZd0tn?oc=5",
           "impacto": "Coincidencia temática directa (deepseek, qwen, kling) con la hipótesis HIP-06."
         },
         {
-          "titular": "DeepSeek Doubles Down on Open Source at Wuzhen and Admits the Risks",
-          "fuente": "Labs Frontera Orientales (DeepSeek, Qwen, Kling, Seedance/ByteDance, Hailuo/MiniMax, Hunyuan) (2026-11-08)",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNbG5pcFNYN25yYUlpYXU3QWgxMXFMRkZtT1h4ZklDLUtjdEpYVE1ESGNpTVRvV0d1WDNxTEVpWTdiTmhoX1NjMkdELXZpTW5TRksxakJhVkdWYkxQTk1EZGFqVTBzZEloeTVqX09XYXRWQUhpbTV0a1pscmZNc3hjWlVfeUFTV3hJenp5bQ?oc=5",
-          "impacto": "Coincidencia temática directa (deepseek, qwen, open source) con la hipótesis HIP-06."
+          "titular": "Effects of KV Cache Quantization on Qwen3.8 27B",
+          "fuente": "Comunidad r/LocalLLaMA (Herramientas Locales y Modelos Abiertos) (2026-11-08)",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xqbesv/effects_of_kv_cache_quantization_on_qwen38_27b/",
+          "impacto": "Coincidencia temática directa (qwen, localllama) con la hipótesis HIP-06."
         },
         {
-          "titular": "Use your phone to monitor anything with local models! Demo of my Open Source and 100% local agent (iOS and Android!)",
+          "titular": "testing Qoduck (Maybe qwen4) on Qoder",
           "fuente": "Comunidad r/LocalLLaMA (Herramientas Locales y Modelos Abiertos) (2026-11-08)",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xqd058/use_your_phone_to_monitor_anything_with_local/",
-          "impacto": "Coincidencia temática directa (open source, localllama) con la hipótesis HIP-06."
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xqafp1/testing_qoduck_maybe_qwen4_on_qoder/",
+          "impacto": "Coincidencia temática directa (qwen, localllama) con la hipótesis HIP-06."
+        },
+        {
+          "titular": "DeepSeek iguala el modelo de ciberseguridad avanzada de OpenAI en los benchmarks de Vals a solo 3$ por ejecución",
+          "fuente": "Labs Frontera Orientales (DeepSeek, Qwen, Kling, Seedance/ByteDance, Hailuo/MiniMax, Hunyuan) (2026-11-08)",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNTFRkaW10X3BFS3pBNERxNFB0Yks5ajkxRXp2a0hQSDBxMlNmcWV6dzhzVFJhYTQxRjNFdGpEWnZmdjMwSkdhbFpFOVlLdDFNT2gwVVprY1gxUVI0Z0NHR2RkS0RwZ2FVTGp5SG5aNUFVX0dJOU1wUUxBR1B6RmFKVVVrZzZySEhxeFZjT29jZw?oc=5",
+          "impacto": "Evidencia empírica directa confirmada en el informe del 2026-11-08"
         }
       ],
       "senalesContra": []
@@ -90165,6 +90509,12 @@
       "traccionScore": 98,
       "totalSenales": 5,
       "senalesPro": [
+        {
+          "titular": "Sylvain Chomet ('Bienvenidos a Belleville') desmiente acusaciones de IA en su cortometraje para Dior con voz de Robert Pattinson: 'Todo fue dibujado a mano'",
+          "fuente": "Variety — Artificial Intelligence (2026-11-07)",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNLVBvQ2RFTlpNMU9yZWFMSS16aWhIUWUwNkw4WV9Ob1daZHJEVFQ2R0stSm1vZ1lOUGtCU3FPYldsb2FuR00zWURYT2w1S2w1OVctVmhDZGNnTy1uSmtOcUtsWU1lQzZ0aUxCM2NER014eThZWVZwb2tCZlp3cG1HeWpIb2YxV2x3LVU2Rk9VSmlUUDRQOTlwdUg0QUlOLVlUdW9hWDZDZ1Yydms?oc=5",
+          "impacto": "Evidencia empírica directa confirmada en el informe del 2026-11-08"
+        },
         {
           "titular": "Itch.io actualiza sus directrices editoriales y purga oleadas de videojuegos generados con IA sin supervisión humana",
           "fuente": "80 Level (Gamedev, 3D, Shaders & AI Pipelines) (2026-11-05)",
@@ -90188,12 +90538,6 @@
           "fuente": "Xataka — Inteligencia Artificial y Tecnología (2026-11-05)",
           "url": "https://www.xataka.com/empresas-y-economia/hundimiento-historico-bolsa-estadounidense-grandes-tecnologicas-se-dejan-a-esta-hora-9-19",
           "impacto": "Coincidencia temática directa (elecciones) con la hipótesis HIP-07."
-        },
-        {
-          "titular": "Cuban: Facebook knowingly runs AI deepfake scam ads; docs say $16B fraud revenue",
-          "fuente": "Radar Open-Source Disruptivo (r/LocalLLaMA + HackerNews AI >100pts) (2026-11-05)",
-          "url": "https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html",
-          "impacto": "Coincidencia temática directa (deepfake, scam, fraud) con la hipótesis HIP-07."
         }
       ],
       "senalesContra": []
@@ -90227,15 +90571,15 @@
           "impacto": "Coincidencia temática directa (directo) con la hipótesis HIP-08."
         },
         {
-          "titular": "Use your phone to monitor anything with local models! Demo of my Open Source and 100% local agent (iOS and Android!)",
-          "fuente": "Comunidad r/LocalLLaMA (Herramientas Locales y Modelos Abiertos) (2026-11-08)",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xqd058/use_your_phone_to_monitor_anything_with_local/",
-          "impacto": "Coincidencia temática directa (comunidad) con la hipótesis HIP-08."
-        },
-        {
           "titular": "Effects of KV Cache Quantization on Qwen3.8 27B",
           "fuente": "Comunidad r/LocalLLaMA (Herramientas Locales y Modelos Abiertos) (2026-11-08)",
           "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xqbesv/effects_of_kv_cache_quantization_on_qwen38_27b/",
+          "impacto": "Coincidencia temática directa (comunidad) con la hipótesis HIP-08."
+        },
+        {
+          "titular": "testing Qoduck (Maybe qwen4) on Qoder",
+          "fuente": "Comunidad r/LocalLLaMA (Herramientas Locales y Modelos Abiertos) (2026-11-08)",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xqafp1/testing_qoduck_maybe_qwen4_on_qoder/",
           "impacto": "Coincidencia temática directa (comunidad) con la hipótesis HIP-08."
         }
       ],
@@ -90283,10 +90627,10 @@
           "impacto": "Evidencia empirica extraida del analisis audiovisual de Jabiertzo / Análisis Industrial de China."
         },
         {
-          "titular": "Character.ai sale contract omits 40 attorneys general's user data conditions",
-          "fuente": "Radar Compañeros Virtuales, Apego Humano y Salud Mental (Google News) (2026-11-06)",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPZTJWWGpqb1laZ2hfeUpWYXpfRThJZWRMaGtDZVI5YmpQa1g5dXBrSUg5VXVpcVYxYjBUQkRYaXo1RzFjZkNaUkx0UTBIWW9lUUdDYnc3VnFwSjFaM1NxclVlbnlKZVdKaWkzSGE0MVdQTEh6blZWUmItZDVTcTNFTTFBc0p3UC1VbkYtVlZVWlA5dExEWVQ5Tw?oc=5",
-          "impacto": "Coincidencia temática directa (salud mental) con la hipótesis HIP-09."
+          "titular": "El 55% de los tokens de IA en China se destina a microdramas: 430.000 producciones en 2026 y desplome del 80% en rodajes físicos en Hengdian",
+          "fuente": "Jabiertzo / Estudio Grupo CITIC / Univ. Pekín (2026-11-07)",
+          "url": "https://www.youtube.com/watch?v=jabiertzo_microdramas_2026",
+          "impacto": "Evidencia empírica directa confirmada en el informe del 2026-11-08"
         }
       ],
       "senalesContra": []
@@ -90328,8 +90672,8 @@
         {
           "titular": "El 55% de los tokens de IA en China se destina a microdramas: 430.000 producciones en 2026 y desplome del 80% en rodajes físicos en Hengdian",
           "fuente": "Jabiertzo / Estudio Grupo CITIC / Univ. Pekín (2026-11-07)",
-          "url": "https://www.youtube.com/watch?v=kKbOb3YcqlQ#t=citic_hengdian_tokens",
-          "impacto": "Evidencia empirica extraida del analisis audiovisual de Jabiertzo / Estudio Grupo CITIC / Univ. Pekín."
+          "url": "https://www.youtube.com/watch?v=jabiertzo_microdramas_2026",
+          "impacto": "Evidencia empírica directa confirmada en el informe del 2026-11-08"
         }
       ],
       "senalesContra": []
@@ -90369,10 +90713,10 @@
           "impacto": "Coincidencia temática directa (presupuesto) con la hipótesis HIP-11."
         },
         {
-          "titular": "DeepSeek Doubles Down on Open Source at Wuzhen and Admits the Risks",
-          "fuente": "Labs Frontera Orientales (DeepSeek, Qwen, Kling, Seedance/ByteDance, Hailuo/MiniMax, Hunyuan) (2026-11-08)",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNbG5pcFNYN25yYUlpYXU3QWgxMXFMRkZtT1h4ZklDLUtjdEpYVE1ESGNpTVRvV0d1WDNxTEVpWTdiTmhoX1NjMkdELXZpTW5TRksxakJhVkdWYkxQTk1EZGFqVTBzZEloeTVqX09XYXRWQUhpbTV0a1pscmZNc3hjWlVfeUFTV3hJenp5bQ?oc=5",
-          "impacto": "Coincidencia temática directa (presupuesto) con la hipótesis HIP-11."
+          "titular": "Claude Code Images: Paste With Ctrl+V, Alt+V or a Path",
+          "fuente": "Radar Agentes de Código, SWE-Bench y Personal Software (Google News) (2026-11-08)",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1kWXZLR0JVc0kxc2R1RVE0ZFd2ZThScS1TeENKN0Q5TkxyX0ZKTV9VaTBtSVZnLWRFeG9vM3JQUkttcV8zTXc1UkpveHZyMm9L?oc=5",
+          "impacto": "Coincidencia temática directa (agent, agente) con la hipótesis HIP-11."
         }
       ],
       "senalesContra": [
@@ -90407,6 +90751,12 @@
           "impacto": "Coincidencia temática directa (sostenibilidad) con la hipótesis HIP-12."
         },
         {
+          "titular": "Pioneros del cine coreano advierten en el TCCF que rodar con IA puede resultar más caro que el celuloide de 35mm por el coste de computación y 'cleanup'",
+          "fuente": "Variety — Artificial Intelligence (2026-11-08)",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNeFRfQ3F6THhlV0I0ZzhQLUR0M1V3NWhKZmZvdjhYbFl2T2lpNnhNRjd1eDNFSDFhYVdyTkVEZjNwNFgxSzR0S3JrX2xJZWpaejdlOE9TQnRLRk8zOWRtbnRSZ19id0pKX1l2Y3VHR1J2VWNEZzBIMnF5Ri1WbHdXWTJMQ1pkdzZjdnd0aFVQUjM3WWdUdlRfQ2J2RF9JTm01Ry16U182UE0xTE0?oc=5",
+          "impacto": "Evidencia empírica directa confirmada en el informe del 2026-11-08"
+        },
+        {
           "titular": "Adopción popular de IA generativa en China alcanza los 350M de usuarios y cataliza micro-equipos independientes de 2-3 personas que desbancan a productoras",
           "fuente": "Jabiertzo / Análisis Demográfico China (2026-11-07)",
           "url": "https://www.youtube.com/watch?v=kKbOb3YcqlQ#t=china_350m_users",
@@ -90416,12 +90766,6 @@
           "titular": "¿Ha empezado ya el estallido de la burbuja de la IA? Esto es lo que nos dice el desplome de las bolsas",
           "fuente": "Radar Burbuja IA y Sostenibilidad Financiera España/Latam (Google News ES) (2026-11-07)",
           "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOWGEwRGtGYk91dnVqNHhyN08tWk1jdzFwZ0Q5R0pydmNOa3BQZGZtc0Z3OUllb3dQUHdxME1SbkoyTkZtcjNPS3ZkM3Y4Tm85N0dwX0NCaFZybDBwclZ6ODRHOVZLSWV3WTZxUGV6UWI2LVJ5Y3dBQXVyOVA3OTFPN2pVeDV5OUlqU0JqSzdsT0piZjhWempVaEJjbEs0SlhTaXNn0gGoAUFVX3lxTE92b3hYVWI5c1NILUFzV3pDNEZ2Rk5pLU83TTBzNHlZTGtqcjMtbDVBUlpnUi1ndjR0WHI5Zk5YSWppSXl6SEptOVB2MGVMVWlGQ1ZwQnN3ZExGWW40dVhoTkd0M2w1bjRSNmh3U2FGWVR3YmZCd0xqS1c2T01JY2x6TU1YQkdtbG1fbjBEWndTSkdHQ3FJdWQtZ2RIQ3JyTmE0TzRhbk5Hag?oc=5",
-          "impacto": "Coincidencia temática directa (sostenibilidad) con la hipótesis HIP-12."
-        },
-        {
-          "titular": "Mercados se preguntan: ¿Comenzó a estallar la burbuja de la Inteligencia Artificial?",
-          "fuente": "Radar Burbuja IA y Sostenibilidad Financiera España/Latam (Google News ES) (2026-11-06)",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOZGJxanhVWGxBYnlJWGd2RnV4RmFMVmo3TFpxNUtjVjB2dHZacTRCdm9LcllwNm9nYTh0NERCc05uRGxfTDNJd05rRGNtWHR5RzF4LTh2Z19CY1hENDFDdThaSWlqSXVneGVkeklkUE9ERTMyTTA1Mi1kaC0zZE5rNW8xZnFiT091OEMwQzBLWWE0cjRnZW9kM25RQjg5N2h0bDlpUmxLdmZRYzdPaWtDbVRZMA?oc=5",
           "impacto": "Coincidencia temática directa (sostenibilidad) con la hipótesis HIP-12."
         }
       ],
@@ -90437,12 +90781,6 @@
       "traccionScore": 98,
       "totalSenales": 5,
       "senalesPro": [
-        {
-          "titular": "Use your phone to monitor anything with local models! Demo of my Open Source and 100% local agent (iOS and Android!)",
-          "fuente": "Comunidad r/LocalLLaMA (Herramientas Locales y Modelos Abiertos) (2026-11-08)",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xqd058/use_your_phone_to_monitor_anything_with_local/",
-          "impacto": "Coincidencia temática directa (comunidad) con la hipótesis HIP-13."
-        },
         {
           "titular": "Effects of KV Cache Quantization on Qwen3.8 27B",
           "fuente": "Comunidad r/LocalLLaMA (Herramientas Locales y Modelos Abiertos) (2026-11-08)",
@@ -90466,6 +90804,12 @@
           "fuente": "Comunidad r/LocalLLaMA (Herramientas Locales y Modelos Abiertos) (2026-11-07)",
           "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xpx0on/good_luck_getting_a_cheap_gpu_amd_is_a_data/",
           "impacto": "Coincidencia temática directa (comunidad) con la hipótesis HIP-13."
+        },
+        {
+          "titular": "NousResearch/Arete-27B · Hugging Face (Qwen finetune)",
+          "fuente": "Comunidad r/LocalLLaMA (Herramientas Locales y Modelos Abiertos) (2026-11-07)",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xpmj33/nousresearcharete27b_hugging_face_qwen_finetune/",
+          "impacto": "Coincidencia temática directa (comunidad) con la hipótesis HIP-13."
         }
       ],
       "senalesContra": []
@@ -90480,6 +90824,18 @@
       "traccionScore": 98,
       "totalSenales": 5,
       "senalesPro": [
+        {
+          "titular": "DeepSeek iguala el modelo de ciberseguridad avanzada de OpenAI en los benchmarks de Vals a solo 3$ por ejecución",
+          "fuente": "Labs Frontera Orientales (DeepSeek, Qwen, Kling, Seedance/ByteDance, Hailuo/MiniMax, Hunyuan) (2026-11-08)",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNTFRkaW10X3BFS3pBNERxNFB0Yks5ajkxRXp2a0hQSDBxMlNmcWV6dzhzVFJhYTQxRjNFdGpEWnZmdjMwSkdhbFpFOVlLdDFNT2gwVVprY1gxUVI0Z0NHR2RkS0RwZ2FVTGp5SG5aNUFVX0dJOU1wUUxBR1B6RmFKVVVrZzZySEhxeFZjT29jZw?oc=5",
+          "impacto": "Evidencia empírica directa confirmada en el informe del 2026-11-08"
+        },
+        {
+          "titular": "DeepSeek redobla su compromiso con el código abierto en la Cumbre de Wuzhen pero reconoce formalmente los riesgos de proliferación",
+          "fuente": "Labs Frontera Orientales (DeepSeek, Qwen, Kling, Seedance/ByteDance, Hailuo/MiniMax, Hunyuan) (2026-11-08)",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNbG5pcFNYN25yYUlpYXU3QWgxMXFMRkZtT1h4ZklDLUtjdEpYVE1ESGNpTVRvV0d1WDNxTEVpWTdiTmhoX1NjMkdELXZpTW5TRksxakJhVkdWYkxQTk1EZGFqVTBzZEloeTVqX09XYXRWQUhpbTV0a1pscmZNc3hjWlVfeUFTV3hJenp5bQ?oc=5",
+          "impacto": "Evidencia empírica directa confirmada en el informe del 2026-11-08"
+        },
         {
           "titular": "Chainalysis says hackers stole credentials and tokens for all of its customers",
           "fuente": "Ars Technica — AI & Deep Tech (2026-11-06)",
@@ -90497,18 +90853,6 @@
           "fuente": "Radar Ciberseguridad Ofensiva y Ataques Automatizados con IA (Google News) (2026-11-05)",
           "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOdFB2ZXhodmF2cE1SaEVPQ01GRGdjNjY5ZUlCZjdrSjRkS0dTZkdjOVhPckdabGJJdGNoLVpyZ2lJZEd2N081ZTJTMGczSjVHc2c3TmI5Q2gzSVNfbjBnUDFoc0Z6VlA0dHlGRmJsQjVLMzVCQVhkalpyTGZKS29QUDBiRUZyY3JTWWowVTZxR3dVajNrZkY5OW9CNlhhQQ?oc=5",
           "impacto": "Coincidencia temática directa (cyberattack) con la hipótesis HIP-14."
-        },
-        {
-          "titular": "CERT-In Issues Critical Alert Over 'Crafty Falcon' AI Cyberattack Targeting India's Financial Sector",
-          "fuente": "Radar Ciberseguridad Ofensiva y Ataques Automatizados con IA (Google News) (2026-11-05)",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPSEg1QmFsSmdZYUxTc1k2SDE0ZUpwWnBkcWhORlUybS0xMXp5akV5bDNfNl9pMVRpX2lXTjlLcGJCamxLdHhwaG1ISmZHRGZGMHZPWWlodFB6RjRXem9pcURKaGZmNWpYT1dIRlhjVENjZEl6ZmhYS2pkMTBQZFJEWVctcFRlTTliUkhMZV9wVUxiQ1lGY2VFS1JlREpFcW8?oc=5",
-          "impacto": "Coincidencia temática directa (cyberattack) con la hipótesis HIP-14."
-        },
-        {
-          "titular": "NCSC: UK Critical Infrastructure at Risk from AI Malware",
-          "fuente": "Radar Ciberseguridad Ofensiva y Ataques Automatizados con IA (Google News) (2026-11-04)",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQc052WnZfdENGVlV5RFE2Mmw4SU9lT3VkLVUzN21aZE55QWNVdk10UUk0WkVqVDdfbDREai1HOVF0cTRxMFRSYXE0RGxFdzNIejlZVmlIOVpQcnJ0RlNfSmJzM1lvSGxueG50Q2VueWgwUGNDX1Atc29Wek5NNWpveGY4Sm1JWkZGS0hiOVNzTQ?oc=5",
-          "impacto": "Coincidencia temática directa (critical infrastructure) con la hipótesis HIP-14."
         }
       ],
       "senalesContra": []
@@ -90610,16 +90954,16 @@
           "impacto": "Coincidencia temática directa (claude code, personal software, saas) con la hipótesis HIP-16."
         },
         {
+          "titular": "DeepSeek iguala el modelo de ciberseguridad avanzada de OpenAI en los benchmarks de Vals a solo 3$ por ejecución",
+          "fuente": "Labs Frontera Orientales (DeepSeek, Qwen, Kling, Seedance/ByteDance, Hailuo/MiniMax, Hunyuan) (2026-11-08)",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNTFRkaW10X3BFS3pBNERxNFB0Yks5ajkxRXp2a0hQSDBxMlNmcWV6dzhzVFJhYTQxRjNFdGpEWnZmdjMwSkdhbFpFOVlLdDFNT2gwVVprY1gxUVI0Z0NHR2RkS0RwZ2FVTGp5SG5aNUFVX0dJOU1wUUxBR1B6RmFKVVVrZzZySEhxeFZjT29jZw?oc=5",
+          "impacto": "Evidencia empírica directa confirmada en el informe del 2026-11-08"
+        },
+        {
           "titular": "Claude Code's “Don't Ask Again” File Exposes Passwords and Keys in 1,122 Public Copies on GitHub",
           "fuente": "Radar Agentes de Código, SWE-Bench y Personal Software (Google News) (2026-11-07)",
           "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9vLUN5ZGJuNFdSUmt1YmFxYUYtRWJSbUpRR3pCVUNaVjBCZ2pPWTY5am1nMk5RczBDV3cwbVFEemFqTXN5QV9oLVBGQWMtbTktQTluaVJlaVBxUXIzZjQ5d0pVTnpQcmxQRWEzZE8wT2ZYX25PdHQtYVo5SQ?oc=5",
           "impacto": "Coincidencia temática directa (claude code, personal software, saas) con la hipótesis HIP-16."
-        },
-        {
-          "titular": "Copilot code review: API management and review overview updates",
-          "fuente": "Radar Agentes de Código, SWE-Bench y Personal Software (Google News) (2026-11-07)",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPcXo3N09iUUg2M3dlVkJscjdGbDJFS0w2cWlSR1BRRHFoLU9QcC1wUHo2VTRULUxlaE1pVk9teXpPSy1lTi1mTy1BM3dESDkydk5NdTZGWk1TYVdzay1TMkItWEM5YUFvYnZOQ05kZHNrNDQ4YXM0X3NyVEFRcVlJSnViQmg2QUpWUUVWa2MyZ2l1ckdfcndrQjRLZjFEYXVzYXVfYjlVTQ?oc=5",
-          "impacto": "Coincidencia temática directa (copilot, personal software, swe-bench) con la hipótesis HIP-16."
         }
       ],
       "senalesContra": []
@@ -90674,7 +91018,7 @@
       "tesis": "La aplicación de modelos fundacionales a la biología molecular, la química de materiales y la física teórica (AlphaFold 3, ESM, diseño de fármacos de novo, superconductores y fusión) reduce los ciclos de descubrimiento e investigación de décadas a meses. Esto genera tensiones geopolíticas por la soberanía de patentes biotecnológicas, la aprobación regulatoria médica y la bioseguridad frente a patógenos sintéticos.",
       "categoria": "Deeptech Y Opensource",
       "status": "ACTIVA",
-      "traccionScore": 96,
+      "traccionScore": 95,
       "totalSenales": 5,
       "senalesPro": [
         {
@@ -90733,16 +91077,16 @@
           "impacto": "Coincidencia temática directa (fabrica, fábrica) con la hipótesis HIP-19."
         },
         {
-          "titular": "Embodied AI's Humanoid Robot Is Built to Work Next to People",
-          "fuente": "Radar Robótica Humanoide y Vehículos Autónomos (Google News) (2026-11-06)",
-          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQQlRtdHlkVjNxaFNNblpBOHpKSmxwRzhidWxKMHVDQ2tGb0tMZlI1WGFBTTg3TjN1a1I0VG5DbW5ZQTVHc2hHRXZUeE0zQzlOZ1dBTEo0SGlJb0NmNzZiZnE2d3hFM0tsemRmNk9ZV01YTXRiMGxjVzZkU1VoRlNpaHZLQ2VvMDA0RmpJSVkwWGxzOEtDWHJueC1lZ2c0VG42RWs3cEpoNXBRVHZNTzA2c1plTTNMcV9UU3BOQk1yc1RkTEJkenRMTDROM1FiVG54TDIw?oc=5",
-          "impacto": "Coincidencia temática directa (humanoid robot, embodied ai, logística) con la hipótesis HIP-19."
-        },
-        {
           "titular": "Cainiao (Alibaba) abre su red mundial de almacenes logísticos como campo de entrenamiento físico para Robótica Humanoide e IA Corpórea",
           "fuente": "China Tech Media (36Kr / Pandaily / SCMP Tech) (2026-11-06)",
           "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOd2pYN0VyT3RWR25zTldlYVB1QVlfNDFoRWdpVmtoWmV6bG1YSTNTUkh1YWFGQ2lhaUtfbkUwQlZIOXctOTBNMFh5ejBsRjNCUDJUMzcyZFhoRFhFaVBYcnlZVGlNUkVvQ0htZ2hQWGI0d1VYU05lSzJTbDQ3azNpaEFMb09COXR1UjBVcWVXMmpWemRxYUhGNTd5TkUtMGlUVTRxakJhSTdPcExaclJiVA?oc=5",
           "impacto": "Evidencia empírica directa observada en Cainiao (Alibaba) abre su red mundial de almacenes logístico..."
+        },
+        {
+          "titular": "Embodied AI presenta su robot humanoide comercial diseñado específicamente para trabajar en líneas de ensamblaje junto a operarios humanos",
+          "fuente": "Radar Robótica Humanoide y Vehículos Autónomos (Google News) (2026-11-06)",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNV3E1WFlwMUpZVW9aMGk1RFNfcmxXUFBxTlhjWVZtWkNtX3NnSGJvaE1oT290Yl9rT3J1M1pxdm9iR3Z2T1JLVnptWVBNQW8tb0hfcWpnbmpSdnNQUl95dE5fWjR6Tnp3bF91RjJ3eEZtM1J6V3lQUFFXU01Qbl9WdEFQMXh5WTh3dmZHTld0V2J0T1RkM3R0NFNJOUg1cm50QQ?oc=5",
+          "impacto": "Evidencia empírica directa confirmada en el informe del 2026-11-08"
         },
         {
           "titular": "Advantech sees edge AI growth accelerating beyond semiconductor equipment into robotics",
@@ -90764,6 +91108,18 @@
       "totalSenales": 6,
       "senalesPro": [
         {
+          "titular": "Pioneros del cine coreano advierten en el TCCF que rodar con IA puede resultar más caro que el celuloide de 35mm por el coste de computación y 'cleanup'",
+          "fuente": "Variety — Artificial Intelligence (2026-11-08)",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNeFRfQ3F6THhlV0I0ZzhQLUR0M1V3NWhKZmZvdjhYbFl2T2lpNnhNRjd1eDNFSDFhYVdyTkVEZjNwNFgxSzR0S3JrX2xJZWpaejdlOE9TQnRLRk8zOWRtbnRSZ19id0pKX1l2Y3VHR1J2VWNEZzBIMnF5Ri1WbHdXWTJMQ1pkdzZjdnd0aFVQUjM3WWdUdlRfQ2J2RF9JTm01Ry16U182UE0xTE0?oc=5",
+          "impacto": "Evidencia empírica directa confirmada en el informe del 2026-11-08"
+        },
+        {
+          "titular": "DeepSeek redobla su compromiso con el código abierto en la Cumbre de Wuzhen pero reconoce formalmente los riesgos de proliferación",
+          "fuente": "Labs Frontera Orientales (DeepSeek, Qwen, Kling, Seedance/ByteDance, Hailuo/MiniMax, Hunyuan) (2026-11-08)",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNbG5pcFNYN25yYUlpYXU3QWgxMXFMRkZtT1h4ZklDLUtjdEpYVE1ESGNpTVRvV0d1WDNxTEVpWTdiTmhoX1NjMkdELXZpTW5TRksxakJhVkdWYkxQTk1EZGFqVTBzZEloeTVqX09XYXRWQUhpbTV0a1pscmZNc3hjWlVfeUFTV3hJenp5bQ?oc=5",
+          "impacto": "Evidencia empírica directa confirmada en el informe del 2026-11-08"
+        },
+        {
           "titular": "Desplome post-electoral en Wall Street: el Nasdaq cae un 5,5% y la cesta de hardware de IA sufre su peor sesión desde abril de 2025",
           "fuente": "Morningstar / Financial Times / CBS News (2026-11-06)",
           "url": "https://www.morningstar.com/markets/midterms-ai-stock-selloff-2026",
@@ -90780,18 +91136,6 @@
           "fuente": "Radar Adopción Empresarial Real, ROI y Métricas de Productividad (Google News) (2026-11-06)",
           "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNT3h2UF9fT0hldUQwdF9vU1VvNzlIcWdPei0tS0hxaHBCWmJTS0t3a2R1akZXSUZ5eDRDaHpMNzFYbzFnUU1zODVGY2dtVW1HdFR2SkJERmp1YTlPZ0RtZkRaOXFYMjM0cWZ1V0twX1h3LWNKUnBhXzVzN29ZNWpLZnBZNWhocGhjc2xzSzRocFJleUotNUE?oc=5",
           "impacto": "Evidencia empírica directa observada en Las horas ahorradas no son dólares ahorrados: Las corporacio..."
-        },
-        {
-          "titular": "Desplome en cadena de la infraestructura de semiconductores en Asia: TSMC (-9.8%), Micron (-18%) y activación de circuit breaker en Seúl (KOSPI -6%) tras las elecciones en EE.UU.",
-          "fuente": "FRANCE 24 Español (Análisis Económico) (2026-11-06)",
-          "url": "https://www.youtube.com/watch?v=_a51EXeNf90#t=tsmc_kospi",
-          "impacto": "Evidencia empirica extraida del analisis audiovisual de FRANCE 24 Español (Análisis Económico)."
-        },
-        {
-          "titular": "Salesforce sees surge in enterprise AI adoption with agentforce",
-          "fuente": "Radar Adopción Empresarial Real, ROI y Métricas de Productividad (Google News) (2026-11-05)",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPaXI2Q09vS0VtUGZENVFrUnlxOGdmZUtqV0ZGTUIySEtkem1uLVQwZkZqTmRPMThoaE9WM1VLSEZVa2tBSFp5NXZjMTQzbW1zWXhrdlNvLUdrbFBETV9DNDdFVUJqOHNrQVU0MzJYcGNaNXZud2o4Z1dldk5QNjdtOG9jdjI5WjRUVGdNbjZ3?oc=5",
-          "impacto": "Coincidencia temática directa (productividad, adopción empresarial) con la hipótesis HIP-20."
         }
       ],
       "senalesContra": [
@@ -90814,10 +91158,10 @@
       "totalSenales": 5,
       "senalesPro": [
         {
-          "titular": "Exclusive | Major Investors Are Skeptical Anthropic IPO Can Achieve $1.5 Trillion Valuation",
-          "fuente": "The Wall Street Journal — Tech & AI (Investigaciones Frontier y Fallos de Modelos) (2026-11-06)",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPNVlmZWpuTHFFVDktVG9OaXlnVl9xSFliZFl4YXFRemVUZDFRRFFaajdEcnQ0b01sQTNJNDVDUkRaQXpLdEY3dGhVUjloVS16UHZIQ0cwUG5wQnpxaDcyX3lvX3A0VFZTb0xjMFBObUJKR3N5cVU2WFhqNzRMcEtjN09HQ3VKcnNIcy15V3VJUTdFRkk1OXhQYlNjMFpELUV0Y2o1MnNNa2dPd3lSN3JJdGM2Z0wzdw?oc=5",
-          "impacto": "Coincidencia temática directa (anthropic ipo) con la hipótesis HIP-21."
+          "titular": "El patrimonio de Elvis Presley y la editora de Eminem demandan formalmente a la startup de generación musical Suno por infracción de copyright",
+          "fuente": "Variety — Artificial Intelligence (2026-11-07)",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQY29vaGFSTlN1SWJTTWpWcVdiTWZaTWppNlFJanZGR1d0S3A2Vm1LVjVGWFNiODB1TkJWc3pQUGQyWHF2SWR1Zk9lX09WRm9GTm12UHh4bTlpdXkxQkpidF8wRm5yTWI4X29IenM1NmtGOC0tSUdfOTRSaEtsTkl3eVZtbkFfUTUtTDVjbWU1cWRrdw?oc=5",
+          "impacto": "Evidencia empírica directa confirmada en el informe del 2026-11-08"
         },
         {
           "titular": "Anthropic IPO Buyers See Valuation as Low as $1.1 Trillion",
@@ -90838,10 +91182,10 @@
           "impacto": "Evidencia empirica extraida del analisis audiovisual de FRANCE 24 Español / Comisión de Supervisión Financiera de Taiwán."
         },
         {
-          "titular": "Anthropic firma con Associated Press su primer acuerdo formal de licencias de contenidos para cobertura electoral e IA",
-          "fuente": "Adweek / Radar Publicidad y Agencias IA (2026-11-05)",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5QWDRDT0pHemRFaFNQWnlJaUR2NU9sT2h0QnFOUldvT2dScHh0cVRvTVN4blJvY1BBNHgyNWpBWHpXbnh0UXF5ZkoxbXFHT01yV0tLdkhVb21jQ2d5ZmlNUG4wWkh5NmRhTW5sck1Xb2h6Y1d4eDFR?oc=5",
-          "impacto": "Evidencia empírica verificada el 2026-11-05"
+          "titular": "Grandes inversores de Wall Street muestran escepticismo ante la valoración de 1,5 billones de dólares prevista para la salida a bolsa de Anthropic",
+          "fuente": "The Wall Street Journal — Tech & AI (Investigaciones Frontier y Fallos de Modelos) (2026-11-06)",
+          "url": "https://www.wsj.com/tech/ai/anthropic-ipo-valuation-skepticism-1-5-trillion-2026",
+          "impacto": "Evidencia empírica directa confirmada en el informe del 2026-11-08"
         }
       ],
       "senalesContra": []
@@ -90853,7 +91197,7 @@
       "tesis": "El mantra clásico de Silicon Valley de 'lanzar pronto y validar en público (Building in Public)' se vuelve suicida. En la era de los agentes de código y la ingeniería inversa asistida por visión, exponer una demo, mecánica original o prototipo de software en abierto permite a clones automatizados replicar el producto en 48 horas (como evidenció la crisis del Steam Next Fest 2026). La supervivencia de creadores e indies exige la transición al 'Dark Launch': desarrollo hermético, pruebas solo en círculos cerrados y lanzamiento masivo directo a canales de distribución propios.",
       "categoria": "Videojuegos Y Product Launch",
       "status": "ACTIVA",
-      "traccionScore": 57,
+      "traccionScore": 56,
       "totalSenales": 4,
       "senalesPro": [
         {
@@ -90884,6 +91228,6 @@
       "senalesContra": []
     }
   ],
-  "totalSemanas": 358,
+  "totalSemanas": 359,
   "totalAnuarios": 7
 }
