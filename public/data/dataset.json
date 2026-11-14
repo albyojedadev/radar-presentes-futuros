@@ -1,5 +1,5 @@
 {
-  "fechaGeneracion": "2026-11-13T09:49:26.584Z",
+  "fechaGeneracion": "2026-11-14T12:47:58.247Z",
   "fuentesConfig": {
     "ES": {
       "nombre": "España",
@@ -207,32 +207,35 @@
     }
   },
   "noticiasHoy": {
-    "fecha": "2026-11-13",
-    "timestamp": "2026-11-13 09:46:20",
+    "fecha": "2026-11-14",
+    "timestamp": "2026-11-14 12:44:11",
     "analisisEspana": {
-      "porcentaje_domestico": "100% Enfoque Doméstico",
+      "porcentaje_domestico": "88% Enfoque Doméstico",
       "monotema": {
         "titulo": "Agenda Fragmentada (Sin Monotema Hegemónico • 17% Máximo)",
-        "descripcion": "Dispersión informativa en las 6 cabeceras: la atención se reparte de forma dividida entre 'EleccionesGenerales' (4 titulares) y 'Psoe' (4 aperturas), sin un relato único unánime."
+        "descripcion": "Dispersión informativa en las 6 cabeceras: la atención se reparte de forma dividida entre 'EleccionesGenerales' (4 titulares) y 'Accidente Ferroviario / Red de Transporte' (3 aperturas), sin un relato único unánime."
       },
       "polarizacion": {
-        "titulo": "Divergencia de Agenda: Foco Editorial Escindido",
-        "descripcion": "Fractura de selección de apertura: mientras la prensa progresista (El País, elDiario.es) vuelca su portada en 'EleccionesGenerales' (3 de 8 titulares), las cabeceras conservadoras (El Mundo, ABC) priorizan 'Psoe' (2 aperturas), reflejando dos jerarquías informativas contrapuestas."
+        "titulo": "Fractura de Encuadre en torno a 'EleccionesGenerales'",
+        "descripcion": "Contraste editorial directo ante el mismo suceso: mientras cabeceras conservadoras (El Mundo, ABC) titulan con foco en 'Últimos fusibles de Sánchez...', los medios progresistas (El País, elDiario.es) replantean el relato destacando 'El PSOE pelea las elecciones en 18 provincias que tiene iden...'."
       },
       "contraste": {
-        "titulo": "Eclipsamiento por Foco Local (100% Doméstico)",
-        "descripcion": "El predominio de la controversia política y social interna relega a un segundo plano acontecimientos internacionales de primer orden cubiertos en el resto del mundo, como Guerra Ucrania / Rusia / Frente Oriental y Elecciones y Pugna Institucional EE.UU.."
+        "titulo": "Eclipsamiento por Foco Local (88% Doméstico)",
+        "descripcion": "El predominio de la controversia política y social interna relega a un segundo plano acontecimientos internacionales de primer orden cubiertos en el resto del mundo, como Guerra Ucrania / Rusia / Frente Oriental y Conflicto Oriente Medio (Gaza / Líbano)."
       }
     },
     "puntosCiegos": [
       {
         "id": "PC-01",
         "titulo": "Guerra Ucrania / Rusia / Frente Oriental",
-        "titular_noticia": "Putin quiere incluir a los europeos en las conversaciones sobre Ucrania",
-        "impacto": "Asimetría informativa: Mientras 9 cabeceras internacionales en DE, EU, LATAM, UK, US priorizan este hito, la prensa nacional en España le dedica cero menciones en portada.",
+        "titular_noticia": "EN VIVO, guerra en Ucrania: Volodymyr Zelensky dice que Estados Unidos discutió concesiones territoriales a cambio de ser miembro de la OTAN",
+        "impacto": "Asimetría informativa: Mientras 16 cabeceras internacionales en AFRICA, CHINA, DE, EU, FR, LATAM, UK, US priorizan este hito, la prensa nacional en España le dedica cero menciones en portada.",
         "bloques_afectados": [
+          "AFRICA",
+          "CHINA",
           "DE",
           "EU",
+          "FR",
           "LATAM",
           "UK",
           "US"
@@ -240,23 +243,21 @@
       },
       {
         "id": "PC-02",
-        "titulo": "Elecciones y Pugna Institucional EE.UU.",
-        "titular_noticia": "El ex director ejecutivo de Nvidia, Jensen Huang, convocado a testificar ante el Congreso sobre un romance con un presunto espía chino",
-        "impacto": "Asimetría informativa: Mientras 7 cabeceras internacionales en AFRICA, LATAM, UK, US priorizan este hito, la prensa nacional en España le dedica cero menciones en portada.",
+        "titulo": "Conflicto Oriente Medio (Gaza / Líbano)",
+        "titular_noticia": "Gaza enfrenta el invierno entre enfermedades, inundaciones y escasez de ayuda humanitaria",
+        "impacto": "Asimetría informativa: Mientras 4 cabeceras internacionales en FR, UK, US priorizan este hito, la prensa nacional en España le dedica cero menciones en portada.",
         "bloques_afectados": [
-          "AFRICA",
-          "LATAM",
+          "FR",
           "UK",
           "US"
         ]
       },
       {
         "id": "PC-03",
-        "titulo": "Accidente Ferroviario / Red de Transporte",
-        "titular_noticia": "Deutsche Bahn quiere ser más familiar, pero no quiere instalar toboganes para niños",
-        "impacto": "Asimetría informativa: Mientras 5 cabeceras internacionales en CHINA, DE, UK priorizan este hito, la prensa nacional en España le dedica cero menciones en portada.",
+        "titulo": "Cultura",
+        "titular_noticia": "El compositor Wolf Biermann cumple 90 años",
+        "impacto": "Asimetría informativa: Mientras 3 cabeceras internacionales en DE, UK priorizan este hito, la prensa nacional en España le dedica cero menciones en portada.",
         "bloques_afectados": [
-          "CHINA",
           "DE",
           "UK"
         ]
@@ -272,11 +273,27 @@
             "perfil": "Centro-Izquierda / Generalista",
             "noticias": [
               {
-                "titulo": "La campaña arranca con la derecha en el horizonte de los 190 escaños",
-                "url": "https://elpais.com/espana/elecciones-generales/2026-11-13/la-campana-arranca-con-la-derecha-en-el-horizonte-de-los-190-escanos.html",
-                "resumen": "El primero de los ‘trackings’ diarios de 40dB. para EL PAÍS y la SER confirma la fortaleza de Vox, cuyo líder compite en popularidad con el del PP",
-                "fecha": "Fri, 13 Nov 2026 04:30:01 GMT",
-                "titulo_original": "La campaña arranca con la derecha en el horizonte de los 190 escaños",
+                "titulo": "Campaña elecciones 29N y actualidad política, en directo | Sánchez pide “el voto de todos los que quieren más Europa” para frenar a Abascal",
+                "url": "https://elpais.com/espana/elecciones-generales/2026-11-14/campana-elecciones-29n-y-actualidad-politica-en-directo.html",
+                "resumen": "Feijóo: “Ocho años de Gobierno se resumen en el Ministerio de Transportes. De Ábalos a Puente y siempre Sánchez”",
+                "fecha": "Sat, 14 Nov 2026 12:30:31 GMT",
+                "titulo_original": "Campaña elecciones 29N y actualidad política, en directo | Sánchez pide “el voto de todos los que quieren más Europa” para frenar a Abascal",
+                "tags": [
+                  "#EleccionesGenerales",
+                  "#GobiernoEspaña",
+                  "#CongresoDiputados",
+                  "#Senado"
+                ],
+                "tema_repetido": true,
+                "cluster_tema": "Accidente Ferroviario / Red de Transporte",
+                "coincidencias_count": 11
+              },
+              {
+                "titulo": "El PSOE pelea las elecciones en 18 provincias que tiene identificadas como prioritarias",
+                "url": "https://elpais.com/espana/elecciones-generales/2026-11-14/el-psoe-pelea-las-elecciones-en-18-provincias-que-tiene-identificadas-como-prioritarias.html",
+                "resumen": "Los socialistas aspiran a lograr casi una veintena de escaños en juego apelando al voto útil y por el tirón de Vox en detrimento del PP",
+                "fecha": "Sat, 14 Nov 2026 04:30:01 GMT",
+                "titulo_original": "El PSOE pelea las elecciones en 18 provincias que tiene identificadas como prioritarias",
                 "tags": [
                   "#EleccionesGenerales",
                   "#GobiernoEspaña",
@@ -288,27 +305,11 @@
                 "coincidencias_count": 2
               },
               {
-                "titulo": "Arranca la campaña con el plantón de Abascal a Jordi Wild: “Todo el efecto positivo que había conseguido con Broncano se ha diluido”",
-                "url": "https://elpais.com/podcasts/hoy-en-el-pais/2026-11-13/arranca-la-campana-con-el-planton-de-abascal-a-jordi-wild-todo-el-efecto-positivo-que-habia-conseguido-con-broncano-se-ha-diluido.html",
-                "resumen": "Xosé Hermida analiza la actualidad política de cara al 29N",
-                "fecha": "Fri, 13 Nov 2026 04:45:01 GMT",
-                "titulo_original": "Arranca la campaña con el plantón de Abascal a Jordi Wild: “Todo el efecto positivo que había conseguido con Broncano se ha diluido”",
-                "tags": [
-                  "#Podcast",
-                  "#SantiagoAbascal",
-                  "#AlbertoNúñezFeijóo",
-                  "#AdaColau"
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "Podcast",
-                "coincidencias_count": 2
-              },
-              {
-                "titulo": "Y el marido de Begoña Gómez visitó a Manu Sánchez: perros al cuadrado (y en todas partes)",
-                "url": "https://elpais.com/espana/elecciones-generales/2026-11-12/y-el-marido-de-begona-gomez-visito-a-manu-sanchez-perros-al-cuadrado-y-en-todas-partes.html",
-                "resumen": "El presidente del Gobierno acude al programa de ‘El Perro Andaluz’",
-                "fecha": "Thu, 12 Nov 2026 23:09:17 GMT",
-                "titulo_original": "Y el marido de Begoña Gómez visitó a Manu Sánchez: perros al cuadrado (y en todas partes)",
+                "titulo": "La diferencia entre PP y PSOE se estrecha, según el ‘tracking’ diario de 40dB.",
+                "url": "https://elpais.com/espana/elecciones-generales/2026-11-14/la-diferencia-entre-pp-y-psoe-se-estrecha-segun-el-tracking-diario-de-40db.html",
+                "resumen": "Colau gana enteros entre los suyos mientras la campaña anima la participación",
+                "fecha": "Sat, 14 Nov 2026 04:30:01 GMT",
+                "titulo_original": "La diferencia entre PP y PSOE se estrecha, según el ‘tracking’ diario de 40dB.",
                 "tags": [
                   "#EleccionesGenerales",
                   "#GobiernoEspaña",
@@ -320,11 +321,11 @@
                 "coincidencias_count": 2
               },
               {
-                "titulo": "El día que Abascal gritó “¡Visca Catalunya!\" y se rodeó de senyeras",
-                "url": "https://elpais.com/espana/elecciones-generales/2026-11-13/el-dia-que-abascal-grito-visca-catalunya-y-se-rodeo-de-senyeras.html",
-                "resumen": "El líder de Vox multiplica los gestos para ganar el voto de la derecha xenófoba catalana con la expectativa de triplicar sus escaños en la comunidad",
-                "fecha": "Fri, 13 Nov 2026 04:30:01 GMT",
-                "titulo_original": "El día que Abascal gritó “¡Visca Catalunya!\" y se rodeó de senyeras",
+                "titulo": "Vox quiere revisar la nacionalización de 300.000 españoles de origen marroquí",
+                "url": "https://elpais.com/espana/elecciones-generales/2026-11-14/vox-considera-fraudulenta-la-nacionalizacion-de-mas-de-300000-espanoles-originarios-de-marruecos.html",
+                "resumen": "El partido ultra considera su ciudadanía “fraudulenta” y quiere gravar con impuestos las remesas que los inmigrantes envían a sus familias como hace Trump",
+                "fecha": "Sat, 14 Nov 2026 04:30:01 GMT",
+                "titulo_original": "Vox quiere revisar la nacionalización de 300.000 españoles de origen marroquí",
                 "tags": [
                   "#EleccionesGenerales",
                   "#GobiernoEspaña",
@@ -332,8 +333,8 @@
                   "#Senado"
                 ],
                 "tema_repetido": true,
-                "cluster_tema": "EleccionesGenerales",
-                "coincidencias_count": 2
+                "cluster_tema": "Elecciones y Pugna Institucional EE.UU.",
+                "coincidencias_count": 7
               }
             ],
             "estado": "OK",
@@ -344,68 +345,66 @@
             "perfil": "Centro-Derecha / Generalista",
             "noticias": [
               {
-                "titulo": "Los mensajes desvelados por la UCO sitúan a Óscar López como impulsor de la reunión de Sánchez con el chófer de la trama: \"Todo es raro\"",
-                "url": "https://www.elmundo.es/espana/2026/11/12/6af61ead21efa0bb048b458b.html",
-                "resumen": "El presidente, que lo negó la semana pasada, sí se vio 35 minutos con Cristian Corvillo en Córdoba, una cita que fue impulsada, para sorpresa del imputado, por la propia Moncloa Leer",
-                "fecha": "Fri, 13 Nov 2026 08:49:28 +0100",
-                "titulo_original": "Los mensajes desvelados por la UCO sitúan a Óscar López como impulsor de la reunión de Sánchez con el chófer de la trama: \"Todo es raro\"",
+                "titulo": "Sánchez favoreció la reactivación de la trama corrupta en el PSOE",
+                "url": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/13/6af7793ffdddffc5748b45ba.html",
+                "resumen": "Su cita de 35 minutos en 2023 con el detenido Corvillo apunta al presidente del Gobierno, cada vez más vinculado a los manejos del grupo Leer",
+                "fecha": "Fri, 13 Nov 2026 22:43:55 +0100",
+                "titulo_original": "Sánchez favoreció la reactivación de la trama corrupta en el PSOE",
                 "tags": [
+                  "#KoldoGarcía",
+                  "#Nlpremium",
+                  "#QuicoAlsedo",
+                  "#SilviaLorenzo"
+                ],
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
+              },
+              {
+                "titulo": "Últimos fusibles de Sánchez",
+                "url": "https://www.elmundo.es/espana/2026/11/14/6af75bf0fc6c837f278b4595.html",
+                "resumen": "Que España haya dejado de funcionar es el legado del primer presidente que completa una legislatura sin presupuestos Leer",
+                "fecha": "Sat, 14 Nov 2026 01:11:03 +0100",
+                "titulo_original": "Últimos fusibles de Sánchez",
+                "tags": [
+                  "#EleccionesGenerales",
                   "#Psoe",
                   "#PedroSánchez",
-                  "#Tribunales",
-                  "#Uco"
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "Psoe",
-                "coincidencias_count": 2
-              },
-              {
-                "titulo": "Feijóo se vuelca en la disputa del voto joven con Vox: \"Los problemas no se solucionan con fiereza, sino con gestión\"",
-                "url": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/13/6af620eb21efa059588b45bb.html",
-                "resumen": "Aprovecha el agujero \"reputacional\" de Abascal por cancelar su entrevista con Jordi Wild y moviliza a Nuevas Generaciones para dar la \"batalla cultural\" de la vivienda Leer",
-                "fecha": "Fri, 13 Nov 2026 01:27:22 +0100",
-                "titulo_original": "Feijóo se vuelca en la disputa del voto joven con Vox: \"Los problemas no se solucionan con fiereza, sino con gestión\"",
-                "tags": [
-                  "#EleccionesGenerales",
-                  "#AlbertoNúñezFeijóo",
-                  "#Pp",
-                  "#Vox"
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "Crisis de Vivienda e Inmobiliario",
-                "coincidencias_count": 2
-              },
-              {
-                "titulo": "El juez da 10 días al Tribunal de Cuentas para emitir un nuevo informe sobre las donaciones del PSOE que aclare los descuadres bancarios",
-                "url": "https://www.elmundo.es/espana/2026/11/12/6af62498e85ece93128b45a9.html",
-                "resumen": "La UCO acudió ayer al órgano fiscalizador a por información sobre presuntas irregularidades en donaciones al partido de Sánchez Leer",
-                "fecha": "Thu, 12 Nov 2026 22:49:43 +0100",
-                "titulo_original": "El juez da 10 días al Tribunal de Cuentas para emitir un nuevo informe sobre las donaciones del PSOE que aclare los descuadres bancarios",
-                "tags": [
-                  "#TribunalCuentas",
-                  "#Psoe",
-                  "#Uco",
-                  "#Nlpremium"
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "Psoe",
-                "coincidencias_count": 2
-              },
-              {
-                "titulo": "El PP y Vox arrancan la campaña con una sólida mayoría absoluta y siguen sacando a votantes de la abstención",
-                "url": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/12/6af60b3ee4d4d8845c8b4577.html",
-                "resumen": "La derecha ganaría las elecciones generales del 29-N con entre 189 y 202 escaños, según el 'tracking' diario de Sigma Dos para EL MUNDO que se publicará cada día hasta el 23 de noviembre Leer",
-                "fecha": "Thu, 12 Nov 2026 20:14:00 +0100",
-                "titulo_original": "El PP y Vox arrancan la campaña con una sólida mayoría absoluta y siguen sacando a votantes de la abstención",
-                "tags": [
-                  "#EleccionesGenerales",
-                  "#Psoe",
-                  "#Vox",
-                  "#Amplio"
+                  "#JorgeBustos"
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "EleccionesGenerales",
                 "coincidencias_count": 2
+              },
+              {
+                "titulo": "Moncloa y Ferraz proyectan una campaña de golpes de efecto como Begoña o Lula que aísle al PSOE de la UCO: \"Habrá sorpresas\"",
+                "url": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/14/6af7685ae4d4d848758b4587.html",
+                "resumen": "El propósito de Sánchez es que el debate transcurra en una burbuja, al margen de las investigaciones y actuaciones judiciales Leer",
+                "fecha": "Sat, 14 Nov 2026 00:00:37 +0100",
+                "titulo_original": "Moncloa y Ferraz proyectan una campaña de golpes de efecto como Begoña o Lula que aísle al PSOE de la UCO: \"Habrá sorpresas\"",
+                "tags": [
+                  "#EleccionesGenerales",
+                  "#Psoe",
+                  "#PedroSánchez",
+                  "#RaúlPiña"
+                ],
+                "tema_repetido": true,
+                "cluster_tema": "EleccionesGenerales",
+                "coincidencias_count": 2
+              },
+              {
+                "titulo": "El Pedro Sánchez que votará a Feijóo: \"Estos socialistas no son de fiar\"",
+                "url": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/13/6af7462ffdddff31748b456e.html",
+                "resumen": "No lleva mal la coincidencia de su nombre con el del líder socialista, aunque ideológicamente está en las antípodas. Si se va de vacaciones deja un cartel en el bar que regenta: \"Cerrado del 17 al 30 para pensar; también me llamo Pedro Sánchez\" Leer",
+                "fecha": "Fri, 13 Nov 2026 22:43:48 +0100",
+                "titulo_original": "El Pedro Sánchez que votará a Feijóo: \"Estos socialistas no son de fiar\"",
+                "tags": [
+                  "#Nlpremium",
+                  "#AnaMaríaOrtiz"
+                ],
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
               }
             ],
             "estado": "OK",
@@ -416,33 +415,11 @@
             "perfil": "Conservador / Tradicional",
             "noticias": [
               {
-                "titulo": "10 errores al conducir por ciudad con lluvia que pueden costarte una multa",
-                "url": "https://www.abc.es/motor/reportajes/errores-conducir-ciudad-lluvia-pueden-costarte-multa-20261112074801-nt.html",
-                "resumen": "La lluvia modifica las condiciones de circulación y exige adaptar nuestra manera de conducir. La adherencia de los neumáticos disminuye, las distancias de frenado aumentan y la visibilidad se reduce. Por eso, cuando llueve debemos moderar la velocidad, ampliar la distancia de seg",
-                "fecha": "Fri, 13 Nov 2026 10:24:50 +0100",
-                "titulo_original": "10 errores al conducir por ciudad con lluvia que pueden costarte una multa",
-                "tags": [],
-                "tema_repetido": false,
-                "cluster_tema": "",
-                "coincidencias_count": 0
-              },
-              {
-                "titulo": "Feijóo: «En los gobiernos autonómicos en los que está Vox no ha habido ningún problema en esta nueva etapa»",
-                "url": "https://www.abc.es/espana/campana-elecciones-generales-espana-29n-directo-sanchez-feijoo-abascal-20261113162908-di.html",
-                "resumen": "Sigue en directo la última hora sobre la campaña electoral en España, con todas las noticias sobre Pedro Sánchez, Feijóo, Santiago Abascal, Ada Colau y el resto de candidatos a la Presidencia del Gobierno hoy, viernes 13 de noviembre.",
-                "fecha": "Fri, 13 Nov 2026 10:14:58 +0100",
-                "titulo_original": "Feijóo: «En los gobiernos autonómicos en los que está Vox no ha habido ningún problema en esta nueva etapa»",
-                "tags": [],
-                "tema_repetido": false,
-                "cluster_tema": "",
-                "coincidencias_count": 0
-              },
-              {
-                "titulo": "Juan del Val dice a Pedro Sánchez lo que muchos españoles piensan tras escuchar las palabras de Begoña Gómez: «Medallas las justas»",
-                "url": "https://www.abc.es/play/television/noticias/juan-val-dice-pedro-sanchez-espanoles-piensan-20261113101009-nt.html",
-                "resumen": "La carrera electoral ya está en marcha y los partidos han comenzado a desplegar sus estrategias de cara a la cita con las urnas del próximo 29 de noviembre. El PSOE ha inaugurado la campaña este jueves en Sevilla con un mitin en el que todas las miradas no han estado puestas en P",
-                "fecha": "Fri, 13 Nov 2026 10:10:09 +0100",
-                "titulo_original": "Juan del Val dice a Pedro Sánchez lo que muchos españoles piensan tras escuchar las palabras de Begoña Gómez: «Medallas las justas»",
+                "titulo": "Sánchez llama a una movilización masiva ante más de 3.000 personas en Palma: «Vamos a seguir gobernando»",
+                "url": "https://www.abc.es/espana/baleares/sanchez-llama-movilizacion-masiva-ante-3000-personas-20261114132503-nt.html",
+                "resumen": "El presidente del Gobierno y candidato del PSOE a la reelección, Pedro Sánchez, ha protagonizado este sábado un multitudinario mitin electoral en el recinto de Son Fusteret de Palma, ante más de 3.000 personas, en el que ha llamado a una movilización masiva del electorado sociali",
+                "fecha": "Sat, 14 Nov 2026 13:36:27 +0100",
+                "titulo_original": "Sánchez llama a una movilización masiva ante más de 3.000 personas en Palma: «Vamos a seguir gobernando»",
                 "tags": [
                   "#Sociedad",
                   "#Manifestaciones",
@@ -450,14 +427,41 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Manifestaciones y Protestas Sociales",
-                "coincidencias_count": 4
+                "coincidencias_count": 6
               },
               {
-                "titulo": "Hay un reloj Huawei para cada persona: del corredor al que va de traje, con hasta un 30% menos",
-                "url": "https://www.abc.es/favorito/relojes-huawei-bajan-11-11-aliexpress-bici-running-buceo-menos-300-euros-20261111062500-nt.html",
-                "resumen": "Quien sale en bici los domingos y quien prepara un maratón comparten muñeca, pero no necesidades. Al primero le importa que el reloj aguante una mañana de puerto sin pedir enchufe; al segundo, que el ritmo que marca en el kilómetro 25 sea el de verdad.Por eso comprar \"un reloj de",
-                "fecha": "Fri, 13 Nov 2026 10:04:41 +0100",
-                "titulo_original": "Hay un reloj Huawei para cada persona: del corredor al que va de traje, con hasta un 30% menos",
+                "titulo": "Comprueba los premios del sorteo de la Lotería Nacional",
+                "url": "https://www.abc.es/loterias/loteria-nacional/loteria-nacional-hoy-sabado-directo-comprobar-resultados-sorteo-20261114105239-di.html",
+                "resumen": "Consulta el resultado del sorteo de la Lotería Nacional de hoy, sábado 14 de noviembre de 2026 , y la lista oficial de números premiados. Premios de la Lotería Nacional de hoy, sábado 14 de noviembrePrimer premio (60.000 euros al décimo): 75409 Segundo premio (12.000 euros al déc",
+                "fecha": "Sat, 14 Nov 2026 13:20:00 +0100",
+                "titulo_original": "Comprueba los premios del sorteo de la Lotería Nacional",
+                "tags": [],
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
+              },
+              {
+                "titulo": "Vicente Vallés: «Pedro Sánchez recurre a Begoña Gómez cuando no puede contar ni con Zapatero ni con Óscar Puente»",
+                "url": "https://www.abc.es/play/television/noticias/vicente-valles-pedro-sanchez-recurre-begona-gomez-20261114093000-nt.html",
+                "resumen": "A dos semanas de las elecciones generales del próximo domingo 29 de noviembre, la carrera electoral entra en una fase decisiva. Los partidos intensifican sus actos para trasladar sus propuestas y tratar de convencer a los ciudadanos, especialmente a los más indecisos.El PSOE ha d",
+                "fecha": "Sat, 14 Nov 2026 12:41:34 +0100",
+                "titulo_original": "Vicente Vallés: «Pedro Sánchez recurre a Begoña Gómez cuando no puede contar ni con Zapatero ni con Óscar Puente»",
+                "tags": [
+                  "#Transporte",
+                  "#Ferrocarril",
+                  "#Accidente",
+                  "#Infraestructuras"
+                ],
+                "tema_repetido": true,
+                "cluster_tema": "Accidente Ferroviario / Red de Transporte",
+                "coincidencias_count": 11
+              },
+              {
+                "titulo": "Tamara Gorro quiere ser madre de nuevo a sus 39 años: «Me gustaría tener familia numerosa»",
+                "url": "https://www.abc.es/gente/tamara-gorro-quiere-madre-nuevo-anos-gustaria-20261114110421-nt.html",
+                "resumen": "Si hace escasos días Cayetano Rivera sorprendía a todos al decirle a Tamara Gorro en sus redes «tú, mi oasis», ahora la influencer ha sorprendido a todos con una revelación con la que nadie contaba: contempla la posibilidad de ser madre de nuevo a sus 39 años. Y todo dentro de un",
+                "fecha": "Sat, 14 Nov 2026 11:13:41 +0100",
+                "titulo_original": "Tamara Gorro quiere ser madre de nuevo a sus 39 años: «Me gustaría tener familia numerosa»",
                 "tags": [],
                 "tema_repetido": false,
                 "cluster_tema": "",
@@ -472,66 +476,68 @@
             "perfil": "Izquierda Progresista / Digital",
             "noticias": [
               {
-                "titulo": "Cuenta atrás para el 29N: la izquierda apela a la épica para remontar y la derecha sube el tono 'antisanchista'",
-                "url": "https://www.eldiario.es/politica/cuenta-29n-izquierda-apela-epica-remontar-derecha-sube-tono-antisanchista_1_13660189.html",
-                "resumen": "Sánchez confirma a su pareja como activo electoral del PSOE y Begoña Gómez participa en el mitin de arranque de acampaña mientras Feijóo y Abascal prometen cambiar España El CIS preelectoral se aleja del resto de encuestas y sitúa a la suma de PP y Vox lejos de la mayoría absolut",
-                "fecha": "Thu, 12 Nov 2026 21:57:40 +0000",
-                "titulo_original": "Cuenta atrás para el 29N: la izquierda apela a la épica para remontar y la derecha sube el tono 'antisanchista'",
+                "titulo": "EEUU reabre el tráfico aéreo después de más de cuatro horas y miles de vuelos suspendidos por un fallo de comunicaciones",
+                "url": "https://www.eldiario.es/internacional/eeuu-reabre-trafico-aereo-despues-cuatro-horas-miles-vuelos-suspendidos-fallo-comunicaciones_1_13663572.html",
+                "resumen": "La Administración Trump descarta un ataque a sus equipos y culpa a una \"sobrecarga\" la decisión de cancelar los vuelos Por qué ha suspendido EEUU todos los vuelos durante horas y qué riesgo hay de que pueda repetirse Han sido más de cuatro horas de incertidumbre . De aviones que ",
+                "fecha": "Sat, 14 Nov 2026 02:56:01 +0000",
+                "titulo_original": "EEUU reabre el tráfico aéreo después de más de cuatro horas y miles de vuelos suspendidos por un fallo de comunicaciones",
                 "tags": [
-                  "#Psoe",
-                  "#PpPartidoPopular",
-                  "#Vox",
-                  "#Amplio"
+                  "#Aviones",
+                  "#TransporteAéreo",
+                  "#EstadosUnidos",
+                  "#EEUU"
                 ],
                 "tema_repetido": true,
-                "cluster_tema": "Psoe",
-                "coincidencias_count": 2
+                "cluster_tema": "Elecciones y Pugna Institucional EE.UU.",
+                "coincidencias_count": 7
               },
               {
-                "titulo": "Begoña Gómez toma la palabra en el arranque de campaña del PSOE: \"Gracias por darme aliento para continuar\"",
-                "url": "https://www.eldiario.es/politica/begona-gomez-toma-palabra-arranque-campana-psoe-gracias-haberme-dado-aliento-continuar_1_13659951.html",
-                "resumen": "Pedro Sánchez defiende a los sindicatos de los ataques de la derecha y su pareja interviene por sorpresa en el mitin de arranque de campaña para mandar un mensaje tras su proceso judicial: \"Lo que he hecho toda mi vida es intentar luchar y defender mi trabajo. Estamos cansadas de",
-                "fecha": "Thu, 12 Nov 2026 18:54:47 +0000",
-                "titulo_original": "Begoña Gómez toma la palabra en el arranque de campaña del PSOE: \"Gracias por darme aliento para continuar\"",
+                "titulo": "Por qué ha suspendido EEUU todos los vuelos durante horas y qué riesgo hay de que pueda repetirse",
+                "url": "https://www.eldiario.es/internacional/theguardian/suspendido-eeuu-vuelos-durante-horas-riesgo-hay-pueda-repetirse_1_13663783.html",
+                "resumen": "La interrupción provocó más de 10.000 retrasos y al menos 6.600 cancelaciones. Las alteraciones se extenderán además al fin de semana, con alrededor de 1.500 cancelaciones previstas para este sábado EEUU reabre el tráfico aéreo después de más de cuatro horas y miles de vuelos sus",
+                "fecha": "Sat, 14 Nov 2026 10:19:19 +0000",
+                "titulo_original": "Por qué ha suspendido EEUU todos los vuelos durante horas y qué riesgo hay de que pueda repetirse",
                 "tags": [
-                  "#Psoe",
-                  "#PedroSánchez"
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "Psoe",
-                "coincidencias_count": 2
-              },
-              {
-                "titulo": "Un cálculo alternativo del CIS preelectoral da la mayoría absoluta a PP y Vox aunque el PSOE sería primera fuerza",
-                "url": "https://www.eldiario.es/politica/calculo-alternativo-cis-preelectoral-da-mayoria-absoluta-pp-vox-psoe-seria-primera-fuerza_1_13659317.html",
-                "resumen": "Según la estimación de Ateneo del Dato con los microdatos del CIS, los socialistas serían primera fuerza con entre 113 y 133 diputados, el PP se quedaría en una horquilla de entre 103 y 117, Vox rompería su techo con entre 72 y 84, y Frente Amplio lograría entre 6 y 8 El CIS pree",
-                "fecha": "Thu, 12 Nov 2026 19:48:58 +0000",
-                "titulo_original": "Un cálculo alternativo del CIS preelectoral da la mayoría absoluta a PP y Vox aunque el PSOE sería primera fuerza",
-                "tags": [
-                  "#EleccionesGenerales2026",
-                  "#EncuestaElectoral",
-                  "#Encuestas",
-                  "#EncuestaCis"
+                  "#EstadosUnidos",
+                  "#Aviones",
+                  "#TransporteAéreo",
+                  "#DonaldTrump"
                 ],
                 "tema_repetido": false,
                 "cluster_tema": "",
                 "coincidencias_count": 0
               },
               {
-                "titulo": "El mapa del reparto de escaños y quiénes serían los nuevos diputados según el CIS",
-                "url": "https://www.eldiario.es/politica/mapa-reparto-escanos-serian-diputados-cis_1_13659526.html",
-                "resumen": "Utiliza el buscador para conocer los nombres de los candidatos de los distintos partidos que sí obtendrían escaño a raíz de los resultados de la macroencuesta del instituto de Tezanos Encuesta preelectoral - El CIS preelectoral se aleja del resto de encuestas y sitúa a la suma de",
-                "fecha": "Thu, 12 Nov 2026 17:32:28 +0000",
-                "titulo_original": "El mapa del reparto de escaños y quiénes serían los nuevos diputados según el CIS",
+                "titulo": "Los verdaderos subvencionados 'comegambas'",
+                "url": "https://www.eldiario.es/blog/el-boletin-del-director/verdaderos-subvencionados-comegambas_132_13663615.html",
+                "resumen": "'El boletín del director' es una carta semanal de Ignacio Escolar exclusiva para socios y socias de elDiario.es. Si tú también lo quieres leer y recibir cada sábado en tu buzón, hazte socio o socia Un pequeño pasatiempo: intenta adivinar quién dijo qué. “La huelga es corrupción m",
+                "fecha": "Sat, 14 Nov 2026 07:52:23 +0000",
+                "titulo_original": "Los verdaderos subvencionados 'comegambas'",
                 "tags": [
-                  "#EleccionesGenerales2026",
-                  "#EncuestaElectoral",
-                  "#Encuestas",
-                  "#EncuestaCis"
+                  "#Sindicatos",
+                  "#CcooComisionesObreras",
+                  "#UgtUniónGeneral",
+                  "#PpPartidoPopular"
                 ],
-                "tema_repetido": false,
-                "cluster_tema": "",
-                "coincidencias_count": 0
+                "tema_repetido": true,
+                "cluster_tema": "Manifestaciones y Protestas Sociales",
+                "coincidencias_count": 6
+              },
+              {
+                "titulo": "Sánchez busca una movilización histórica de la izquierda contra el PP y Vox que vuelva a echar por tierra los sondeos",
+                "url": "https://www.eldiario.es/politica/sanchez-busca-movilizacion-historica-izquierda-pp-vox-vuelva-echar-tierra-sondeos_1_13662791.html",
+                "resumen": "Los socialistas se lanzan contra el PP también en el terreno judicial por los pagos a Koldo García; los trackings internos de Ferraz sitúan al PSOE como primera fuerza y una estrecha diferencia entre bloques Cuenta atrás para el 29N: la izquierda apela a la épica para remontar y ",
+                "fecha": "Fri, 13 Nov 2026 21:53:28 +0000",
+                "titulo_original": "Sánchez busca una movilización histórica de la izquierda contra el PP y Vox que vuelva a echar por tierra los sondeos",
+                "tags": [
+                  "#Psoe",
+                  "#PedroSánchez",
+                  "#EleccionesGenerales2026",
+                  "#Sociedad"
+                ],
+                "tema_repetido": true,
+                "cluster_tema": "Manifestaciones y Protestas Sociales",
+                "coincidencias_count": 6
               }
             ],
             "estado": "OK",
@@ -542,44 +548,49 @@
             "perfil": "Digital / Investigación",
             "noticias": [
               {
-                "titulo": "Los verificadores de Jordi Wild intervienen ante Ada Colau: el 91% de los detenidos por hurto en Barcelona son extranjeros",
-                "url": "https://www.elconfidencial.com/espana/2026-11-13/ada-colau-inmigracion-entrevista-jordi-wild-elecciones-generales_4464281/",
-                "resumen": "La exalcaldesa de Barcelona acepta la cifra en 'The Wild Project', pero sostiene que en su etapa \"la mayoría eran de nacionalidad española\"",
-                "fecha": "2026-11-13T10:10:00+01:00",
-                "titulo_original": "Los verificadores de Jordi Wild intervienen ante Ada Colau: el 91% de los detenidos por hurto en Barcelona son extranjeros",
+                "titulo": "Quinto día de búsqueda del delincuente que puso la bomba que mató a un agente en Oviedo",
+                "url": "https://www.elconfidencial.com/espana/2026-11-14/policia-busca-autor-explosion-oviedo-1tna-1tps_4465075/",
+                "resumen": "Equipos de élite rastrean nuevos indicios en la capital asturiana tras la explosión que causó un fallecido y dejó herido grave a un especialista",
+                "fecha": "2026-11-14T11:07:00+01:00",
+                "titulo_original": "Quinto día de búsqueda del delincuente que puso la bomba que mató a un agente en Oviedo",
                 "tags": [],
                 "tema_repetido": false,
                 "cluster_tema": "",
                 "coincidencias_count": 0
               },
               {
-                "titulo": "Ada Colau, en la entrevista con Jordi Wild, sobre las 'paguitas' a inmigrantes: \"Es falso. Los 7 millones que hay en el país aportan el 10% de las contribuciones a la Seguridad Social y suponen solo el 1% del gasto público\"",
-                "url": "https://www.elconfidencial.com/espana/2026-11-13/ada-colau-jordi-wild-entrevista-elecciones-generales_4464259/",
-                "resumen": "Ada Colau defiende en 'The Wild Project' que la inmigración \"no es un problema\" y avisa a la izquierda de que \"es un error comprar el marco de la derecha\"",
-                "fecha": "2026-11-13T09:54:00+01:00",
-                "titulo_original": "Ada Colau, en la entrevista con Jordi Wild, sobre las 'paguitas' a inmigrantes: \"Es falso. Los 7 millones que hay en el país aportan el 10% de las contribuciones a la Seguridad Social y suponen solo el 1% del gasto público\"",
+                "titulo": "Las Meninas regresan a las calles de Madrid con un homenaje a las víctimas de Urda",
+                "url": "https://www.elconfidencial.com/espana/madrid/2026-11-14/meninas-madrid-homenaje-urda-toledo_4465072/",
+                "resumen": "Una treintena de esculturas de Meninas Madrid Gallery tomarán la capital durante el próximo mes",
+                "fecha": "2026-11-14T11:03:00+01:00",
+                "titulo_original": "Las Meninas regresan a las calles de Madrid con un homenaje a las víctimas de Urda",
+                "tags": [
+                  "#Transporte",
+                  "#Ferrocarril",
+                  "#Accidente",
+                  "#Infraestructuras"
+                ],
+                "tema_repetido": true,
+                "cluster_tema": "Accidente Ferroviario / Red de Transporte",
+                "coincidencias_count": 11
+              },
+              {
+                "titulo": "Tres personas detenidas en Valencia por explotar a extranjeros y suplantar su identidad",
+                "url": "https://www.elconfidencial.com/espana/2026-11-14/detenidos-explotacion-laboral-falsedad-documental-1tna-1tps_4465067/",
+                "resumen": "Una trama usaba identidades ajenas para colocar al menos a 83 empleados sin permiso en obras, con pagos irregulares y sin alta en la Seguridad Social",
+                "fecha": "2026-11-14T11:00:00+01:00",
+                "titulo_original": "Tres personas detenidas en Valencia por explotar a extranjeros y suplantar su identidad",
                 "tags": [],
                 "tema_repetido": false,
                 "cluster_tema": "",
                 "coincidencias_count": 0
               },
               {
-                "titulo": "Mueren dos personas y una afectada moderada en el incendio de una casa en San Bartolomé de Tirajana (Gran Canaria)",
-                "url": "https://www.elconfidencial.com/espana/2026-11-13/incendio-vivienda-dos-fallecidos-gran-canaria-1tna-1tps_4464267/",
-                "resumen": "El suceso, registrado de madrugada en San Bartolomé de Tirajana, movilizó a bomberos, sanitarios y policías; un varón de 45 años fue evacuado por inhalación de humo",
-                "fecha": "2026-11-13T09:53:00+01:00",
-                "titulo_original": "Mueren dos personas y una afectada moderada en el incendio de una casa en San Bartolomé de Tirajana (Gran Canaria)",
-                "tags": [],
-                "tema_repetido": false,
-                "cluster_tema": "",
-                "coincidencias_count": 0
-              },
-              {
-                "titulo": "Ada Colau, en la entrevista con Jordi Wild, sobre el papel de Marruecos en la crisis de Ceuta: \"Hay que revisar las relaciones. Quiero pensar que se esté haciendo desde la discreción\"",
-                "url": "https://www.elconfidencial.com/espana/2026-11-13/ada-colau-jordi-wild-entrevista-elecciones-generales_4464240/",
-                "resumen": "Ada Colau sostiene en 'The Wild Project' que es \"imposible\" que la entrada masiva en Ceuta se produjera sin el permiso de Rabat, mientras el Gobierno evita culpar a Marruecos",
-                "fecha": "2026-11-13T09:37:00+01:00",
-                "titulo_original": "Ada Colau, en la entrevista con Jordi Wild, sobre el papel de Marruecos en la crisis de Ceuta: \"Hay que revisar las relaciones. Quiero pensar que se esté haciendo desde la discreción\"",
+                "titulo": "Prisión para un hombre por agredir a una mujer en Manacor y proponerle dinero a cambio de mantener relaciones sexuales",
+                "url": "https://www.elconfidencial.com/espana/2026-11-14/agresion-sexual-robo-violencia-manacor-1tna-1tps_4465051/",
+                "resumen": "La víctima sufrió lesiones leves al resistirse y denunció el ataque, que terminó con el sospechoso ante el juez y encarcelado",
+                "fecha": "2026-11-14T10:35:00+01:00",
+                "titulo_original": "Prisión para un hombre por agredir a una mujer en Manacor y proponerle dinero a cambio de mantener relaciones sexuales",
                 "tags": [],
                 "tema_repetido": false,
                 "cluster_tema": "",
@@ -670,33 +681,11 @@
             "perfil": "Centro-Izquierda / Referencia",
             "noticias": [
               {
-                "titulo": "Elecciones presidenciales de 2027: la ofensiva iliberal de Marine Le Pen",
-                "url": "https://www.lemonde.fr/politique/article/2026/11/13/presidentielle-2027-l-offensive-illiberale-de-marine-le-pen_6809272_823448.html",
-                "resumen": "Asociaciones, sindicatos, magistrados, periodistas: los dirigentes de la Agrupación Nacional intensifican sus ataques públicos contra organismos intermediarios, instituciones y organizaciones civiles que puedan criticarlos.",
-                "fecha": "Fri, 13 Nov 2026 05:29:17 +0100",
-                "titulo_original": "Présidentielle 2027 : l’offensive illibérale de Marine Le Pen",
-                "tags": [],
-                "tema_repetido": false,
-                "cluster_tema": "",
-                "coincidencias_count": 0
-              },
-              {
-                "titulo": "En la Cisjordania ocupada, la rutina de los ataques, la violencia y el despojo",
-                "url": "https://www.lemonde.fr/international/article/2026/11/13/en-cisjordanie-occupee-la-routine-des-attaques-des-violences-et-des-spoliations_6809298_3210.html",
-                "resumen": "Si bien las elecciones legislativas israelíes del 27 de octubre no arrojaron una mayoría clara, la situación continúa deteriorándose en el territorio palestino, donde los colonos y el ejército están aumentando sus abusos.",
-                "fecha": "Fri, 13 Nov 2026 10:00:14 +0100",
-                "titulo_original": "En Cisjordanie occupée, la routine des attaques, des violences et des spoliations",
-                "tags": [],
-                "tema_repetido": false,
-                "cluster_tema": "",
-                "coincidencias_count": 0
-              },
-              {
-                "titulo": "Movimiento escolar secundario: el riesgo de que la situación “se deteriore” para los establecimientos movilizados",
-                "url": "https://www.lemonde.fr/societe/article/2026/11/13/mouvement-lyceen-entre-blocages-persistants-et-montee-des-violences-les-lycees-mobilises-face-a-la-crainte-d-une-situation-inextricable_6809270_3224.html",
-                "resumen": "Si la movilización se ha intensificado, está ganando intensidad en determinados establecimientos. A medida que aumentan las tensiones y se multiplican los actos de violencia, crece la preocupación entre profesores, directores y padres.",
-                "fecha": "Fri, 13 Nov 2026 05:00:29 +0100",
-                "titulo_original": "Mouvement lycéen : le risque du « pourrissement » de la situation pour les établissements mobilisés",
+                "titulo": "Movilización de escuelas secundarias: la comunicación opaca del gobierno sobre las cifras de escuelas secundarias perturbadas y detenciones",
+                "url": "https://www.lemonde.fr/societe/article/2026/11/14/mouvement-lyceen-la-communication-opaque-du-gouvernement-sur-les-chiffres-des-lycees-perturbes-et-des-interpellations_6809555_3224.html",
+                "resumen": "Desde el inicio del año escolar el 2 de noviembre, la educación nacional sólo comparte las cifras de escuelas secundarias completamente bloqueadas. Un informe que minimiza la movilización, en opinión de los directores de colegio. Desde hace varios días se mantiene en silencio el número de detenciones.",
+                "fecha": "Sat, 14 Nov 2026 05:00:06 +0100",
+                "titulo_original": "Mobilisation lycéenne : la communication opaque du gouvernement sur les chiffres des lycées perturbés et des interpellations",
                 "tags": [
                   "#Sociedad",
                   "#Manifestaciones",
@@ -704,18 +693,53 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Manifestaciones y Protestas Sociales",
-                "coincidencias_count": 4
+                "coincidencias_count": 6
               },
               {
-                "titulo": "La interrupción global del correo electrónico de Outlook interrumpe el acceso al correo electrónico, Microsoft lucha por resolver la situación",
-                "url": "https://www.lemonde.fr/pixels/article/2026/11/13/une-panne-mondiale-d-outlook-empeche-des-dizaines-de-milliers-d-utilisateurs-d-acceder-a-leurs-e-mails_6809171_4408996.html",
-                "resumen": "\"No se han identificado signos de acción maliciosa o de ciberataque\" por el momento, asegura el gigante informático. Las medidas adoptadas para solucionar el problema \"no están funcionando como se esperaba\", lamenta también.",
-                "fecha": "Fri, 13 Nov 2026 00:36:49 +0100",
-                "titulo_original": "Une panne mondiale de la messagerie Outlook perturbe l’accès aux e-mails, Microsoft peine à résoudre la situation",
-                "tags": [],
-                "tema_repetido": false,
-                "cluster_tema": "",
-                "coincidencias_count": 0
+                "titulo": "El asunto Nvidia se convierte en una crisis política para Donald Trump",
+                "url": "https://www.lemonde.fr/international/article/2026/11/14/aux-etats-unis-l-affaire-nvidia-tourne-a-la-crise-politique-pour-donald-trump_6809696_3210.html",
+                "resumen": "Según el \"New York Times\", el presidente americano fue informado ya en mayo de los riesgos vinculados a la relación entre Jensen Huang, jefe del gigante de los semiconductores, y un empresario chino sospechoso de espionaje. Está directamente implicado en",
+                "fecha": "Sat, 14 Nov 2026 06:00:42 +0100",
+                "titulo_original": "L’affaire Nvidia tourne à la crise politique pour Donald Trump",
+                "tags": [
+                  "#EEUU",
+                  "#Elecciones",
+                  "#Política"
+                ],
+                "tema_repetido": true,
+                "cluster_tema": "Elecciones y Pugna Institucional EE.UU.",
+                "coincidencias_count": 7
+              },
+              {
+                "titulo": "EN VIVO, guerra en Ucrania: Volodymyr Zelensky dice que Estados Unidos discutió concesiones territoriales a cambio de ser miembro de la OTAN",
+                "url": "https://www.lemonde.fr/international/live/2026/11/14/en-direct-guerre-en-ukraine-volodymyr-zelensky-affirme-que-les-etats-unis-ont-evoque-des-concessions-territoriales-en-echange-d-une-adhesion-a-l-otan_6808609_3210.html",
+                "resumen": "\"Esta es la primera vez que se plantea esta cuestión\", dijo el presidente ucraniano, días después de la última ronda de conversaciones de paz en Abu Dabi. Reiteró que Ucrania no estaba dispuesta a retirar sus tropas y que los términos de un posible acuerdo",
+                "fecha": "Sat, 14 Nov 2026 12:13:27 +0100",
+                "titulo_original": "EN DIRECT, guerre en Ukraine : Volodymyr Zelensky affirme que les Etats-Unis ont évoqué des concessions territoriales en échange d’une adhésion à l’OTAN",
+                "tags": [
+                  "#Geopolítica",
+                  "#GuerraUcrania",
+                  "#Defensa"
+                ],
+                "tema_repetido": true,
+                "cluster_tema": "Guerra Ucrania / Rusia / Frente Oriental",
+                "coincidencias_count": 12
+              },
+              {
+                "titulo": "En Isla de Francia, los usuarios de la línea J se enfrentan a incidentes en serie: “Cuando hay cancelaciones de trenes, no veo a mis hijos”",
+                "url": "https://www.lemonde.fr/economie/article/2026/11/14/en-ile-de-france-les-usagers-de-la-ligne-j-confrontes-a-des-incidents-en-serie-quand-il-y-a-des-suppressions-de-trains-je-ne-vois-pas-mes-enfants_6810247_3234.html",
+                "resumen": "“Crisis de los ejes”, catenarias rotas… Los accidentes se sucedieron en 2026 en esta línea Transilien que parte de la estación Saint-Lazare, en París, para recorrer 174 kilómetros hasta las fronteras de Normandía y Alta Francia. Un calvario para los 277.000 viajeros",
+                "fecha": "Sat, 14 Nov 2026 13:26:59 +0100",
+                "titulo_original": "En Ile-de-France, les usagers de la ligne J confrontés à des incidents en série : « Quand il y a des suppressions de trains, je ne vois pas mes enfants »",
+                "tags": [
+                  "#Transporte",
+                  "#Ferrocarril",
+                  "#Accidente",
+                  "#Infraestructuras"
+                ],
+                "tema_repetido": true,
+                "cluster_tema": "Accidente Ferroviario / Red de Transporte",
+                "coincidencias_count": 11
               }
             ],
             "estado": "OK",
@@ -726,11 +750,11 @@
             "perfil": "Conservador / Tradicional",
             "noticias": [
               {
-                "titulo": "Las reparaciones “no funcionan como se esperaba”: lo que necesita saber sobre la gigantesca interrupción de Outlook y las herramientas de Microsoft",
-                "url": "https://www.lefigaro.fr/secteur/high-tech/microsoft-dit-que-les-mesures-pour-resoudre-la-panne-mondiale-d-outlook-ne-fonctionnent-pas-comme-prevu-20261113",
-                "resumen": "Esta interrupción, que dura más de diez horas, está impidiendo que millones de usuarios en todo el mundo accedan a sus correos electrónicos.",
-                "fecha": "Fri, 13 Nov 2026 10:10:25 +0100",
-                "titulo_original": "Les réparations «ne fonctionnent pas comme prévu» : ce qu’il faut savoir de la panne géante d’Outlook et des outils Microsoft",
+                "titulo": "Outlook, Teams, Copilot… Microsoft anuncia el fin de la interrupción global tras más de 24 horas de interrupción",
+                "url": "https://www.lefigaro.fr/secteur/high-tech/outlook-teams-copilot-microsoft-annonce-la-fin-de-la-panne-mondiale-apres-plus-de-24-heures-de-perturbations-20261114",
+                "resumen": "El gigante americano anunció este sábado por la mañana el restablecimiento de todos sus servicios, tras una interrupción que perturbó gravemente el funcionamiento de empresas y administraciones en todo el mundo.",
+                "fecha": "Sat, 14 Nov 2026 13:34:25 +0100",
+                "titulo_original": "Outlook, Teams, Copilot… Microsoft annonce la fin de la panne mondiale après plus de 24 heures de perturbations",
                 "tags": [
                   "#TecnologíaWeb"
                 ],
@@ -739,39 +763,42 @@
                 "coincidencias_count": 0
               },
               {
-                "titulo": "Empresas paralizadas, exámenes interrumpidos, aviones retrasados... La caída global de Microsoft y Outlook provoca consecuencias en cascada",
-                "url": "https://www.lefigaro.fr/secteur/high-tech/entreprises-paralysees-examens-perturbes-avions-retardes-la-panne-mondiale-de-microsoft-et-outlook-provoque-des-consequences-en-cascade-20261113",
-                "resumen": "Mientras Microsoft lucha por resolver el incidente que afecta a sus servicios online desde hace varias horas, la interrupción está perturbando a muchas organizaciones, muy dependientes de las herramientas del gigante americano.",
-                "fecha": "Fri, 13 Nov 2026 10:38:57 +0100",
-                "titulo_original": "Entreprises paralysées, examens perturbés, avions retardés… La panne mondiale de Microsoft et Outlook provoque des conséquences en cascade",
+                "titulo": "EN DIRECT - Colère sociale : ambiance très calme place de la République avant le départ du cortège parisien, entre 30.000 et 60.000 personnes attendues dans la capitale",
+                "url": "https://www.lefigaro.fr/actualite-france/manifestations-mouvement-social-gilets-jaunes-policiers-corteges-paris-acte-v-20261114",
+                "resumen": "Protección de niños y adolescentes, oposición a la “licencia para matar”, salarios, medios de educación: varias manifestaciones se celebrarán el sábado en Francia y convergerán en una única manifestación en París, en el V acto del movimiento contra el alto coste de la vida.",
+                "fecha": "Sat, 14 Nov 2026 13:40:02 +0100",
+                "titulo_original": "EN DIRECT - Colère sociale : ambiance très calme place de la République avant le départ du cortège parisien, entre 30.000 et 60.000 personnes attendues dans la capitale",
                 "tags": [
-                  "#TecnologíaWeb"
+                  "#Compañía",
+                  "#Sociedad",
+                  "#Manifestaciones",
+                  "#Protestas"
+                ],
+                "tema_repetido": true,
+                "cluster_tema": "Manifestaciones y Protestas Sociales",
+                "coincidencias_count": 6
+              },
+              {
+                "titulo": "Manifestación del 14 de noviembre en París: el trayecto entre República y Nación autorizado, según los organizadores",
+                "url": "https://www.lefigaro.fr/actualite-france/manifestation-du-14-novembre-a-paris-le-parcours-entre-republique-et-nation-autorise-selon-les-organisateurs-20261113",
+                "resumen": "Este recorrido, que pasa por la plaza de la Bastilla, fue presentado el martes por la coordinación de los chalecos amarillos, pero otras organizaciones habían participado en las discusiones en la prefectura, como las filiales de la CGT en Isla de Francia, el FSU y FO.",
+                "fecha": "Sat, 14 Nov 2026 10:43:24 +0100",
+                "titulo_original": "Manifestation du 14 novembre à Paris : le parcours entre République et Nation autorisé, selon les organisateurs",
+                "tags": [
+                  "#Compañía"
                 ],
                 "tema_repetido": false,
                 "cluster_tema": "",
                 "coincidencias_count": 0
               },
               {
-                "titulo": "Interrupción de Global Outlook: Microsoft \"no ve signos de acción maliciosa o ataque cibernético\" en esta etapa",
-                "url": "https://www.lefigaro.fr/secteur/high-tech/panne-mondiale-d-outlook-microsoft-ne-voit-aucun-signe-d-action-malveillante-ou-de-cyberattaque-a-ce-stade-20261113",
-                "resumen": "Después de más de 12 horas de una avería que la empresa estadounidense lucha por contener, sus equipos han descartado la posibilidad de una acción exterior.",
-                "fecha": "Fri, 13 Nov 2026 10:05:24 +0100",
-                "titulo_original": "Panne mondiale d'Outlook : Microsoft ne voit «aucun signe d'action malveillante ou de cyberattaque» à ce stade",
+                "titulo": "“Cuando el ministerio anuncia el bloqueo de 50 escuelas secundarias, contamos entre 150 y 200 que no funcionan normalmente”: ¿está el gobierno minimizando las cifras de bloqueos?",
+                "url": "https://www.lefigaro.fr/actualite-france/quand-le-ministere-annonce-50-lycees-bloques-nous-en-comptons-150-a-200-qui-ne-fonctionnent-pas-normalement-le-gouvernement-minimise-t-il-les-chiffres-des-blocages-20261113",
+                "resumen": "INVESTIGACIÓN - Mientras el ejecutivo califica de “residual” el número de establecimientos afectados por las perturbaciones, los responsables insisten en que debemos “dejar de mentir a la gente” y no “minimizar lo que están viviendo”.",
+                "fecha": "Fri, 13 Nov 2026 19:25:58 +0100",
+                "titulo_original": "« Quand le ministère annonce 50 lycées bloqués, nous en comptons 150 à 200 qui ne fonctionnent pas normalement » : le gouvernement minimise-t-il les chiffres des blocages ?",
                 "tags": [
-                  "#TecnologíaWeb"
-                ],
-                "tema_repetido": false,
-                "cluster_tema": "",
-                "coincidencias_count": 0
-              },
-              {
-                "titulo": "“Engañó a todos”: tras el ataque a Trappes, Kevin Tessier, “la bestia negra” contada por su familia",
-                "url": "https://www.lefigaro.fr/faits-divers/il-a-dupe-tout-le-monde-apres-l-attentat-de-trappes-kevin-tessier-la-bete-noire-racontee-par-sa-famille-20261112",
-                "resumen": "INVESTIGACIÓN - Desde la guardería de Guyancourt hasta el ataque a Trappes, las personas cercanas a Kevin Tessier describieron a los investigadores como un hombre inestable y aislado, devorado por la enfermedad y un odio racista creciente. Y una familia que no lo vio venir. Le Figaro consultó a su público",
-                "fecha": "Thu, 12 Nov 2026 21:00:00 +0100",
-                "titulo_original": "«Il a dupé tout le monde» : après l’attentat de Trappes, Kevin Tessier, «la bête noire» racontée par sa famille",
-                "tags": [
-                  "#HechosVarios"
+                  "#Compañía"
                 ],
                 "tema_repetido": false,
                 "cluster_tema": "",
@@ -786,44 +813,48 @@
             "perfil": "Internacional / Geopolítico",
             "noticias": [
               {
-                "titulo": "Informe desde Antigua: vuelven a Guatemala restos del nobel de literatura Miguel Ángel Asturias",
-                "url": "https://www.france24.com/es/video/20261113-informe-desde-antigua-vuelven-a-guatemala-restos-del-nobel-de-literatura-miguel-%C3%A1ngel-asturias",
-                "resumen": "Los restos del nobel de literatura Miguel Ángel Asturias vuelven a Guatemala tras 52 años. Las cenizas del escritor habían permanecido en Francia por solicitud de su familia debido a un exilio forzoso de más de 12 años durante el golpe de Estado de 1954 en el que perdió su nacion",
-                "fecha": "Fri, 13 Nov 2026 05:57:13 GMT",
-                "titulo_original": "Informe desde Antigua: vuelven a Guatemala restos del nobel de literatura Miguel Ángel Asturias",
+                "titulo": "Colombia: el Fondo Milagro y la reconstrucción del terremoto ponen presión a De la Espriella",
+                "url": "https://www.france24.com/es/video/20261114-colombia-el-fondo-milagro-y-la-reconstrucci%C3%B3n-del-terremoto-ponen-presi%C3%B3n-a-de-la-espriella",
+                "resumen": "La gestión de los recursos para la reconstrucción tras el terremoto enfrenta nuevas críticas. Este viernes renunció el gerente del Fondo Milagro, entidad creada para administrar los recursos destinados a la emergencia, en medio de cuestionamientos por su gestión. La polémica se i",
+                "fecha": "Sat, 14 Nov 2026 02:51:17 GMT",
+                "titulo_original": "Colombia: el Fondo Milagro y la reconstrucción del terremoto ponen presión a De la Espriella",
                 "tags": [],
                 "tema_repetido": false,
                 "cluster_tema": "",
                 "coincidencias_count": 0
               },
               {
-                "titulo": "Decenas de miles de jóvenes se congregaron en el Estadio Nacional para ver al papa León XIV",
-                "url": "https://www.france24.com/es/video/20261113-decenas-de-miles-de-j%C3%B3venes-se-congregaron-en-el-estadio-nacional-para-ver-al-papa-le%C3%B3n-xiv",
-                "resumen": "El papa León XIV lideró una misa masiva que reunió a más de 43.000 jóvenes en el Estadio Nacional de Lima, donde el pontífice se sintió conmovido por el cálido recibimiento de los jóvenes fieles. Nuestro corresponsal Francisco Zacarías nos contó cómo fue el ambiente de la vigilia",
-                "fecha": "Fri, 13 Nov 2026 05:56:26 GMT",
-                "titulo_original": "Decenas de miles de jóvenes se congregaron en el Estadio Nacional para ver al papa León XIV",
+                "titulo": "Luis Quiñones: \"No se sabe si la falla en las comunicaciones en EE. UU. fue accidental o provocada\"",
+                "url": "https://www.france24.com/es/video/20261114-luis-qui%C3%B1ones-no-se-sabe-si-la-falla-en-las-comunicaciones-de-ee-uu-fue-accidental-o-provocada",
+                "resumen": "Una falla en las comunicaciones de los centros de control aéreo obligó a la Administración Federal de Aviación (FAA) a suspender temporalmente despegues y aterrizajes en Estados Unidos. El problema afectó los sistemas utilizados para coordinar el tráfico aéreo, una herramienta es",
+                "fecha": "Sat, 14 Nov 2026 02:39:23 GMT",
+                "titulo_original": "Luis Quiñones: \"No se sabe si la falla en las comunicaciones en EE. UU. fue accidental o provocada\"",
                 "tags": [],
                 "tema_repetido": false,
                 "cluster_tema": "",
                 "coincidencias_count": 0
               },
               {
-                "titulo": "¿Por qué las empresas automotrices se están yendo de México?",
-                "url": "https://www.france24.com/es/video/20261113-por-qu%C3%A9-las-empresas-automotrices-se-est%C3%A1n-yendo-de-m%C3%A9xico",
-                "resumen": "Empresas automotrices con sus manufactureras en México han anunciado que trasladarán sus plantas a Estados Unidos, desencadenando despidos masivos e impactos en la economía local. Para nuestra invitada Ivet Rodríguez, especialista en producción automotriz, se trata de una respues",
-                "fecha": "Fri, 13 Nov 2026 05:54:11 GMT",
-                "titulo_original": "¿Por qué las empresas automotrices se están yendo de México?",
-                "tags": [],
-                "tema_repetido": false,
-                "cluster_tema": "",
-                "coincidencias_count": 0
+                "titulo": "Gaza enfrenta el invierno entre enfermedades, inundaciones y escasez de ayuda humanitaria",
+                "url": "https://www.france24.com/es/video/20261114-gaza-enfrenta-el-invierno-entre-enfermedades-inundaciones-y-escasez-de-ayuda-humanitaria",
+                "resumen": "El frío, las inundaciones y el hacinamiento en los campamentos marcan la cotidianidad de cientos de miles de palestinos en Gaza, en medio de las restricciones israelíes a la entrada de ayuda humanitaria. Estas condiciones favorecen la propagación de enfermedades, especialmente en",
+                "fecha": "Sat, 14 Nov 2026 02:38:12 GMT",
+                "titulo_original": "Gaza enfrenta el invierno entre enfermedades, inundaciones y escasez de ayuda humanitaria",
+                "tags": [
+                  "#OrienteMedio",
+                  "#Geopolítica",
+                  "#Seguridad"
+                ],
+                "tema_repetido": true,
+                "cluster_tema": "Conflicto Oriente Medio (Gaza / Líbano)",
+                "coincidencias_count": 4
               },
               {
-                "titulo": "Caída mundial de Microsoft afecta a usuarios de Outlook, Teams y Copilot",
-                "url": "https://www.france24.com/es/video/20261113-ca%C3%ADda-mundial-de-microsoft-afecta-a-usuarios-de-outlook-teams-y-copilot",
-                "resumen": "Microsoft 365, Outlook y Teams sufrieron una caída que afectó a miles de usuarios en Estados Unidos este jueves 12 de noviembre, según el sitio de monitoreo de interrupciones Downdetector.com. Miles de usuarios alrededor del mundo y cientos de compañías se han visto afectados por",
-                "fecha": "Fri, 13 Nov 2026 05:52:58 GMT",
-                "titulo_original": "Caída mundial de Microsoft afecta a usuarios de Outlook, Teams y Copilot",
+                "titulo": "EE.UU. reanuda los despegues en todo el país tras horas de interrupción",
+                "url": "https://www.france24.com/es/ee-uu-y-canad%C3%A1/20261113-estados-unidos-ordena-la-suspensi%C3%B3n-de-despegues-en-todo-el-pa%C3%ADs-por-problemas-en-las-comunicaciones",
+                "resumen": "",
+                "fecha": "Sat, 14 Nov 2026 02:00:45 GMT",
+                "titulo_original": "EE.UU. reanuda los despegues en todo el país tras horas de interrupción",
                 "tags": [],
                 "tema_repetido": false,
                 "cluster_tema": "",
@@ -844,60 +875,55 @@
             "perfil": "Internacional / Público",
             "noticias": [
               {
-                "titulo": "Putin quiere incluir a los europeos en las conversaciones sobre Ucrania",
-                "url": "https://www.dw.com/de/putin-will-europäer-bei-ukraine-gesprächen-einbeziehen/a-79936896?maca=de-rss-de-all-1119-xml-mrss",
-                "resumen": "Después de una reunión con el jefe del Kremlin, el negociador estadounidense Kushner se mostró cautelosamente optimista. Aunque todavía existen grandes diferencias entre Moscú y Kiev, también hay signos de un importante intercambio de prisioneros.",
-                "fecha": "Fri, 13 Nov 2026 08:42:00 GMT",
-                "titulo_original": "Putin will Europäer bei Ukraine-Gesprächen einbeziehen",
-                "tags": [
-                  "#Geopolítica",
-                  "#GuerraUcrania",
-                  "#Defensa"
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "Guerra Ucrania / Rusia / Frente Oriental",
-                "coincidencias_count": 6
+                "titulo": "El Papa León XIV visita su antigua diócesis en Perú",
+                "url": "https://www.dw.com/de/papst-leo-xiv-zu-besuch-in-seinem-früheren-bistum-in-peru/a-79947665?maca=de-rss-de-all-1119-xml-mrss",
+                "resumen": "El actual Papa León XIV fue obispo de Chiclayo en Perú durante siete años. En el marco de su viaje a Sudamérica, regresó a su antiguo lugar de trabajo y allí fue recibido como una estrella del pop.",
+                "fecha": "Sat, 14 Nov 2026 11:28:00 GMT",
+                "titulo_original": "Papst Leo XIV. zu Besuch in seinem früheren Bistum in Peru",
+                "tags": [],
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
               },
               {
-                "titulo": "Pacto de noticias: la disrupción de Microsoft afecta a usuarios de todo el mundo",
-                "url": "https://www.dw.com/de/news-kompakt-microsoft-störung-trifft-nutzer-weltweit/a-79936498?maca=de-rss-de-all-1119-xml-mrss",
-                "resumen": "Después de los cortes globales, Microsoft continúa teniendo problemas con sus servicios en la nube. Los europeos también deberían tener un asiento en la mesa de negociaciones para poner fin a la guerra en Ucrania. El resumen informativo de DW.",
-                "fecha": "Fri, 13 Nov 2026 08:00:00 GMT",
-                "titulo_original": "News kompakt: Microsoft-Störung trifft Nutzer weltweit",
-                "tags": [
-                  "#Geopolítica",
-                  "#GuerraUcrania",
-                  "#Defensa"
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "Guerra Ucrania / Rusia / Frente Oriental",
-                "coincidencias_count": 6
+                "titulo": "Tras percances en Microsoft, los expertos aconsejan tener más cuidado",
+                "url": "https://www.dw.com/de/nach-pannen-bei-microsoft-raten-experten-zu-mehr-vorsicht/a-79947639?maca=de-rss-de-all-1119-xml-mrss",
+                "resumen": "Wenn ein Tech-Gigant sich als Nadelöhr präsentiert, wird es eng. Nach den Ausfällen beim US-Technologieunternehmen Microsoft warnen Experten eindringlich, sich nicht von einem Anbieter abhängig zu machen.",
+                "fecha": "Sat, 14 Nov 2026 11:24:00 GMT",
+                "titulo_original": "Nach Pannen bei Microsoft raten Experten zu mehr Vorsicht",
+                "tags": [],
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
               },
               {
-                "titulo": "Premio Nobel Mohammadi: Memorias desde la prisión - Una vida luchando por la libertad en Irán",
-                "url": "https://www.dw.com/de/nobelpreisträgerin-mohammadi-memoiren-aus-dem-gefängnis-ein-leben-im-kampf-für-freiheit-im-iran/a-79875768?maca=de-rss-de-all-1119-xml-mrss",
-                "resumen": "Escrito en prisión y sacado de contrabando: el libro de Narges Mohammadi, ganador del Premio Nobel de la Paz 2023, muestra el precio que puede costar resistir al régimen de Irán y luchar por la libertad.",
-                "fecha": "Fri, 13 Nov 2026 07:45:00 GMT",
-                "titulo_original": "Nobelpreisträgerin Mohammadi: Memoiren aus dem Gefängnis - Ein Leben im Kampf für Freiheit im Iran",
+                "titulo": "El auge del oro en Guinea: nueva refinería y mineros de oro desplazados",
+                "url": "https://www.dw.com/de/guineas-goldboom-neue-raffinerie-und-vertriebene-goldschürfer/a-79922802?maca=de-rss-de-all-1119-xml-mrss",
+                "resumen": "Guinea está tomando medidas contra la minería ilegal de oro. Esto se justifica por los peligros para el medio ambiente. Hay informes de violencia y deportaciones. Al mismo tiempo, se inauguró la primera refinería de oro en Conakry.",
+                "fecha": "Sat, 14 Nov 2026 10:45:00 GMT",
+                "titulo_original": "Guineas Goldboom: Neue Raffinerie und vertriebene Goldschürfer",
+                "tags": [
+                  "#Roncha",
+                  "#Minería",
+                  "#Energía",
+                  "#Recursos"
+                ],
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
+              },
+              {
+                "titulo": "El compositor Wolf Biermann cumple 90 años",
+                "url": "https://www.dw.com/de/der-liedermacher-wolf-biermann-wird-90-jahre-alt/a-79902741?maca=de-rss-de-all-1119-xml-mrss",
+                "resumen": "Su vida es un espejo de la historia germano-alemana contemporánea. Wolf Biermann lo comentó con una guitarra y una boca descarada, y a sus 90 años sigue tan combativo como siempre.",
+                "fecha": "Sat, 14 Nov 2026 09:59:00 GMT",
+                "titulo_original": "Der Liedermacher Wolf Biermann wird 90 Jahre alt",
                 "tags": [
                   "#Cultura"
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Cultura",
-                "coincidencias_count": 2
-              },
-              {
-                "titulo": "Acusaciones de espionaje: cómo Ankara presiona a los críticos",
-                "url": "https://www.dw.com/de/spionagevorwurf-wie-ankara-kritiker-unter-druck-setzt/a-79932031?maca=de-rss-de-all-1119-xml-mrss",
-                "resumen": "Periodistas, figuras de la oposición y empleados de instituciones occidentales son sospechosos de espionaje en Turquía. Los expertos también ven esto como un instrumento de disuasión política.",
-                "fecha": "Fri, 13 Nov 2026 05:30:00 GMT",
-                "titulo_original": "Spionagevorwurf: Wie Ankara Kritiker unter Druck setzt",
-                "tags": [
-                  "#Roncha"
-                ],
-                "tema_repetido": false,
-                "cluster_tema": "",
-                "coincidencias_count": 0
+                "coincidencias_count": 3
               }
             ],
             "estado": "OK",
@@ -908,62 +934,59 @@
             "perfil": "Investigación / Centro",
             "noticias": [
               {
-                "titulo": "Roma – Los estorninos invaden los barrios: los vecinos se protegen de los excrementos de pájaros con sombrillas",
-                "url": "https://www.spiegel.de/panorama/rom-stare-fallen-in-viertel-ein-anwohner-schuetzen-sie-sich-mit-regenschirmen-vor-vogelkot-a-8cb63763-1158-42af-a0a6-85a89850857f#ref=rss",
-                "resumen": "Los estorninos andan sueltos en la capital italiana: los romanos gimen bajo los montones de excrementos de pájaros que llueven sobre ellos cada día. Las trompetas tampoco ayudan.",
-                "fecha": "Fri, 13 Nov 2026 10:37:00 +0100",
-                "titulo_original": "Rom – Stare fallen in Viertel ein: Anwohner schützen sie sich mit Regenschirmen vor Vogelkot",
-                "tags": [
-                  "#Panorama"
-                ],
-                "tema_repetido": false,
-                "cluster_tema": "",
-                "coincidencias_count": 0
-              },
-              {
-                "titulo": "Deutsche Bahn quiere ser más familiar, pero no quiere instalar toboganes para niños",
-                "url": "https://www.spiegel.de/mobilitaet/bus-bahn/deutsche-bahn-will-familienfreundlicher-werden-aber-keine-rutschen-fuer-kinder-einbauen-a-c484360a-ebce-4b10-8f47-e19d6847e9d6#ref=rss",
-                "resumen": "La jefa ferroviaria Evelyn Palla promete a los viajeros con niños más espacio en los ICE y las zonas familiares deberían ser más atractivas. Pero los parques infantiles en los trenes parecen ir demasiado lejos para ella.",
-                "fecha": "Fri, 13 Nov 2026 10:29:00 +0100",
-                "titulo_original": "Deutsche Bahn will familienfreundlicher werden – aber keine Rutschen für Kinder einbauen",
-                "tags": [
-                  "#Movilidad",
-                  "#Transporte",
-                  "#Ferrocarril",
-                  "#Accidente"
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "Accidente Ferroviario / Red de Transporte",
-                "coincidencias_count": 5
-              },
-              {
-                "titulo": "NFL: Jameis Winston de los New York Giants falla con el truco “Quién dejó salir a los perros”",
-                "url": "https://www.spiegel.de/sport/american-football/nfl-jameis-winston-von-den-new-york-giants-scheitert-mit-who-let-the-dogs-out-trick-a-c79f431a-09d7-4841-a3a8-551c99e10fae#ref=rss",
-                "resumen": "Para engañar a la defensa contraria, a Jameis Winston se le ocurrió algo muy especial: el mariscal de campo de los New York Giants cantó la canción más famosa de los \"Baha Men\" antes de su jugada.",
-                "fecha": "Fri, 13 Nov 2026 09:46:00 +0100",
-                "titulo_original": "NFL: Jameis Winston von den New York Giants scheitert mit »Who let the dogs out«-Trick",
+                "titulo": "FIFA: Arsène Wenger como posible candidato a suceder a Infantino",
+                "url": "https://www.spiegel.de/sport/fussball/fifa-arsene-wenger-als-moeglicher-kandidat-fuer-infantino-nachfolge-a-fc0de243-1a47-4b1c-bf3b-a0fa672dd51f#ref=rss",
+                "resumen": "El plazo de presentación de solicitudes para las elecciones presidenciales de la FIFA finaliza dentro de unos días. El legendario entrenador Arsène Wenger es considerado un posible candidato. Según Hans-Joachim Watzke, demostró “valentía cívica” en el sistema Infantino.",
+                "fecha": "Sat, 14 Nov 2026 13:35:00 +0100",
+                "titulo_original": "Fifa: Arsène Wenger als möglicher Kandidat für Infantino-Nachfolge",
                 "tags": [
                   "#Deporte"
                 ],
+                "tema_repetido": true,
+                "cluster_tema": "Deporte",
+                "coincidencias_count": 2
+              },
+              {
+                "titulo": "Mecklemburgo-Pomerania Occidental obtiene un gobierno estatal rojo, rojo y verde",
+                "url": "https://www.spiegel.de/politik/mecklenburg-vorpommern-bekommt-erste-rot-rot-gruene-landesregierung-deutschlands-a-64982c32-c954-4d6b-a066-01e7d6b7141e#ref=rss",
+                "resumen": "Pronto gobernará en Schwerin una coalición del SPD, la Izquierda y los Verdes. Los tres partidos acordaron el correspondiente acuerdo de coalición. La alianza se sellará con una firma por la noche.",
+                "fecha": "Sat, 14 Nov 2026 13:30:00 +0100",
+                "titulo_original": "Mecklenburg-Vorpommern bekommt rot-rot-grüne Landesregierung",
+                "tags": [
+                  "#Político"
+                ],
                 "tema_repetido": false,
                 "cluster_tema": "",
                 "coincidencias_count": 0
               },
               {
-                "titulo": "Conflicto en Oriente Medio: la Guardia Revolucionaria informa de un ataque al sistema de radar estadounidense en Bahréin",
-                "url": "https://www.spiegel.de/politik/konflikt-in-nahost-revolutionsgarden-melden-angriff-auf-us-radaranlage-in-bahrain-a-5be86ac0-f243-4db4-bc82-028f676d145d#ref=rss",
-                "resumen": "El Estrecho de Ormuz, de importancia estratégica, vuelve a ser escenario de ataques militares. Teherán habla de un sistema de alerta temprana estadounidense destruido en Bahréin y de una explosión a bordo de un petrolero.",
-                "fecha": "Fri, 13 Nov 2026 09:42:00 +0100",
-                "titulo_original": "Konflikt in Nahost: Revolutionsgarden melden Angriff auf US-Radaranlage in Bahrain",
+                "titulo": "Sandra Hülser fue nominada dos veces al Premio del Cine Europeo",
+                "url": "https://www.spiegel.de/kultur/kino/sandra-hueller-zweimal-fuer-europaeischen-filmpreis-nominiert-a-e73b9895-d242-4dc9-b559-a3f7b8f44e14#ref=rss",
+                "resumen": "Sandra Hülser ha sido nominada a los Premios del Cine Europeo por sus papeles protagónicos en “Fatherland” y “Rose”. ¿Una duplicación inusual? No es la primera vez que esto le sucede a la actriz alemana.",
+                "fecha": "Sat, 14 Nov 2026 13:24:00 +0100",
+                "titulo_original": "Sandra Hüller zweimal für Europäischen Filmpreis nominiert",
                 "tags": [
-                  "#Político",
-                  "#OrienteMedio",
-                  "#Geopolítica",
-                  "#Seguridad"
+                  "#Cultura"
                 ],
                 "tema_repetido": true,
-                "cluster_tema": "Conflicto Oriente Medio (Gaza / Líbano)",
-                "coincidencias_count": 5
+                "cluster_tema": "Cultura",
+                "coincidencias_count": 3
+              },
+              {
+                "titulo": "Guerra de Ucrania: cuando llega la luz, todos los miembros de la familia de la casa Babytsch echan a correr",
+                "url": "https://www.spiegel.de/ausland/ukraine-krieg-wenn-der-strom-anspringt-laeuft-jedes-familienmitglied-im-hause-babytsch-los-a-69cee47c-930f-4e3a-8c80-3b28ae753ea7#ref=rss",
+                "resumen": "Rusia está destruyendo sistemáticamente el suministro de energía en Kiev, donde vive la familia Babych. Sin electricidad regular, lavar la ropa, cargar el teléfono celular e incluso sacar al perro se convierte en un desafío.",
+                "fecha": "Sat, 14 Nov 2026 13:14:00 +0100",
+                "titulo_original": "Ukraine-Krieg: Wenn der Strom anspringt, läuft jedes Familienmitglied im Hause Babytsch los",
+                "tags": [
+                  "#Extranjero",
+                  "#Geopolítica",
+                  "#GuerraUcrania",
+                  "#Defensa"
+                ],
+                "tema_repetido": true,
+                "cluster_tema": "Guerra Ucrania / Rusia / Frente Oriental",
+                "coincidencias_count": 12
               }
             ],
             "estado": "OK",
@@ -974,48 +997,57 @@
             "perfil": "Público / ARD",
             "noticias": [
               {
-                "titulo": "Facilitación para la industria en el comercio de emisiones de la UE",
-                "url": "https://www.tagesschau.de/ausland/europa/emissionshandel-eu-industrie-100.html",
-                "resumen": "La industria de la UE debería tener que pagar menos por las emisiones. Los negociadores del Parlamento de la UE y los estados miembros acordaron asignar certificados de emisión gratuitos adicionales a las industrias afectadas por un período de tiempo limitado.",
-                "fecha": "Fri, 13 Nov 2026 10:44:48 +0100",
-                "titulo_original": "Erleichterung für Industrie im EU-Emissionshandel",
+                "titulo": "Según Zelensky, Estados Unidos ofrece a Ucrania la adhesión a la OTAN si cede territorio",
+                "url": "https://www.tagesschau.de/ausland/europa/ukraine-usa-nato-gebietsverzicht-100.html",
+                "resumen": "Según Zelensky, Estados Unidos ha sugerido que Ucrania se retire del Donbass a cambio de unirse a la OTAN. En determinadas condiciones, afirmó, sometería esta cuestión a votación en un referéndum.",
+                "fecha": "Sat, 14 Nov 2026 13:42:12 +0100",
+                "titulo_original": "USA bieten Ukraine laut Selenskyj NATO-Beitritt bei Gebietsverzicht",
+                "tags": [
+                  "#Geopolítica",
+                  "#GuerraUcrania",
+                  "#Defensa"
+                ],
+                "tema_repetido": true,
+                "cluster_tema": "Guerra Ucrania / Rusia / Frente Oriental",
+                "coincidencias_count": 12
+              },
+              {
+                "titulo": "Acto de luto en Múnich: gran solidaridad al despedirse Aiwanger",
+                "url": "https://www.tagesschau.de/inland/aiwanger-trauerfeier-100.html",
+                "resumen": "Numerosas personas participaron en Múnich en la ceremonia de duelo por el viceprimer ministro bávaro y líder de los electores libres, Aiwanger. El cardenal Marx habló de un “shock”. Elogió a Aiwanger como una “personalidad extraordinaria”.",
+                "fecha": "Sat, 14 Nov 2026 12:11:58 +0100",
+                "titulo_original": "Trauerakt in München: Große Anteilnahme bei Abschied von Aiwanger",
                 "tags": [],
                 "tema_repetido": false,
                 "cluster_tema": "",
                 "coincidencias_count": 0
               },
               {
-                "titulo": "Informe de mercado: el DAX se debilita tras cuatro días de ganancias",
-                "url": "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-dow-nvidia-geldanlage-100.html",
-                "resumen": "Después de cuatro días consecutivos de ganancias, los inversores hoy se toman las cosas un poco más despacio: el DAX cae ligeramente. Semanalmente, el índice líder alemán todavía se encuentra en la zona de ganancias.",
-                "fecha": "Fri, 13 Nov 2026 10:25:51 +0100",
-                "titulo_original": "Marktbericht: DAX schwächelt nach vier Gewinntagen",
+                "titulo": "Microsoft: sistemas completamente restaurados después de la interrupción",
+                "url": "https://www.tagesschau.de/wirtschaft/unternehmen/microsoft-stoerung-behoben-100.html",
+                "resumen": "Los problemas en Microsoft paralizaron los servicios centrales en la nube durante horas, afectando a empresas y consumidores de todo el mundo. Según Microsoft, todos los sistemas ya están funcionando nuevamente. No hay evidencia de actividad maliciosa.",
+                "fecha": "Sat, 14 Nov 2026 11:17:44 +0100",
+                "titulo_original": "Microsoft: Systeme nach Störung komplett wiederhergestellt",
                 "tags": [],
                 "tema_repetido": false,
                 "cluster_tema": "",
                 "coincidencias_count": 0
               },
               {
-                "titulo": "Cuando “Der Rosenkavalier” viaja a Shanghai",
-                "url": "https://www.tagesschau.de/kultur/neue-oper-shanghai-staatsoper-berlin-100.html",
-                "resumen": "Un año de preparación, 300 personas presentes y la escenografía llegaron en contenedores: la Ópera Estatal de Berlín fue invitada a la recién inaugurada ópera de Shanghai. El espectacular edificio está destinado a atraer la cultura internacional. Por E. Lamby-Schmitt.",
-                "fecha": "Fri, 13 Nov 2026 10:21:59 +0100",
-                "titulo_original": "Wenn \"Der Rosenkavalier\" nach Shanghai reist",
-                "tags": [],
-                "tema_repetido": false,
-                "cluster_tema": "",
-                "coincidencias_count": 0
-              },
-              {
-                "titulo": "Móviles en el tráfico: ¿Hasta dónde puede llegar la vigilancia?",
-                "url": "https://www.tagesschau.de/inland/gesellschaft/handy-blitzer-kontrolle-ueberwachung-100.html",
-                "resumen": "Hasta el momento, sólo en Renania-Palatinado existen “cámaras de velocidad para teléfonos móviles”. El ministro federal de Transportes, Bilger, quiere introducirlos en todo el país para evitar accidentes. Los críticos advierten de una invasión desproporcionada de la privacidad. Por Oliver Bemelmann.",
-                "fecha": "Fri, 13 Nov 2026 10:21:11 +0100",
-                "titulo_original": "Handys im Straßenverkehr: Wie weit darf Überwachung gehen?",
-                "tags": [],
-                "tema_repetido": false,
-                "cluster_tema": "",
-                "coincidencias_count": 0
+                "titulo": "Bahn saca una conclusión positiva sobre la prohibición del alcohol en las estaciones de tren",
+                "url": "https://www.tagesschau.de/inland/gesellschaft/bahn-alkohol-verbot-bilanz-100.html",
+                "resumen": "El consumo de alcohol en las estaciones de tren está prohibido en todo el país desde hace un mes. Deutsche Bahn está satisfecho con su balance inicial. Menos basura, menos conflictos: la situación ha mejorado para viajeros y empleados.",
+                "fecha": "Sat, 14 Nov 2026 11:07:05 +0100",
+                "titulo_original": "Bahn zieht positive Bilanz zu Alkoholverbot an Bahnhöfen",
+                "tags": [
+                  "#Transporte",
+                  "#Ferrocarril",
+                  "#Accidente",
+                  "#Infraestructuras"
+                ],
+                "tema_repetido": true,
+                "cluster_tema": "Accidente Ferroviario / Red de Transporte",
+                "coincidencias_count": 11
               }
             ],
             "estado": "OK",
@@ -1032,52 +1064,22 @@
             "perfil": "Público / Global",
             "noticias": [
               {
-                "titulo": "El ex director ejecutivo de Nvidia, Jensen Huang, convocado a testificar ante el Congreso sobre un romance con un presunto espía chino",
-                "url": "https://www.bbc.co.uk/news/articles/cmq5vd1wdgz6o?at_medium=RSS&at_campaign=rss",
-                "resumen": "Huang renunció abruptamente el jueves como director de una de las empresas más valiosas del mundo después de revelaciones de supuestas relaciones extramatrimoniales.",
-                "fecha": "Fri, 13 Nov 2026 03:57:01 GMT",
-                "titulo_original": "Ex-Nvidia CEO Jensen Huang summoned to testify before Congress about affair with alleged Chinese spy",
-                "tags": [
-                  "#EEUU",
-                  "#Elecciones",
-                  "#Política"
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "Elecciones y Pugna Institucional EE.UU.",
-                "coincidencias_count": 5
-              },
-              {
-                "titulo": "Zelensky da la bienvenida a que Estados Unidos incorpore a Europa a las conversaciones de paz entre Rusia y Ucrania",
-                "url": "https://www.bbc.co.uk/news/articles/ckn80j9jv3jxo?at_medium=RSS&at_campaign=rss",
-                "resumen": "El presidente ucraniano dice que tiene sentido que los líderes europeos participen, ya que Ucrania espera unirse eventualmente a la UE.",
-                "fecha": "Fri, 13 Nov 2026 02:01:35 GMT",
-                "titulo_original": "Zelensky welcomes US bringing Europe into Russia-Ukraine peace talks",
-                "tags": [
-                  "#Geopolítica",
-                  "#GuerraUcrania",
-                  "#Defensa"
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "Guerra Ucrania / Rusia / Frente Oriental",
-                "coincidencias_count": 6
-              },
-              {
-                "titulo": "Los piratas informáticos norcoreanos utilizaron videollamadas falsas en un hackeo de criptomonedas de 400 millones de dólares, dice el FBI",
-                "url": "https://www.bbc.co.uk/news/articles/cqdj1ellpd70o?at_medium=RSS&at_campaign=rss",
-                "resumen": "Se cree que más de 900 víctimas han sido víctimas del esquema FaceStealer en los últimos 18 meses.",
-                "fecha": "Fri, 13 Nov 2026 02:48:29 GMT",
-                "titulo_original": "North Korean hackers used fake video calls in $400m crypto hack, says FBI",
+                "titulo": "Lo que sabemos sobre la parada en tierra y qué hacer si te ve afectado",
+                "url": "https://www.bbc.co.uk/news/articles/cqx2wyvyr3zzo?at_medium=RSS&at_campaign=rss",
+                "resumen": "Los funcionarios estadounidenses dicen que la interrupción fue causada por una sobrecarga de equipos viejos y no por un ciberataque.",
+                "fecha": "Sat, 14 Nov 2026 07:42:11 GMT",
+                "titulo_original": "What we know about the ground stop and what to do if you're affected",
                 "tags": [],
                 "tema_repetido": false,
                 "cluster_tema": "",
                 "coincidencias_count": 0
               },
               {
-                "titulo": "Buque de guerra ruso alcanzado por un dron ucraniano en el Golfo de Finlandia",
-                "url": "https://www.bbc.co.uk/news/articles/cmn0d33zz34zo?at_medium=RSS&at_campaign=rss",
-                "resumen": "Se cree que este ataque es la primera vez que drones ucranianos atacan un barco ruso en un tramo abierto del Mar Báltico.",
-                "fecha": "Thu, 12 Nov 2026 20:09:16 GMT",
-                "titulo_original": "Russian warship hit by Ukrainian drone in Gulf of Finland",
+                "titulo": "Estados Unidos ha propuesto que Ucrania ceda Donbas para ser miembro de la OTAN, dice Zelensky",
+                "url": "https://www.bbc.co.uk/news/articles/cwvg2l312ylqo?at_medium=RSS&at_campaign=rss",
+                "resumen": "El presidente ucraniano dice que los enviados estadounidenses promocionaron el intercambio como parte de los esfuerzos para poner fin a la guerra con Rusia.",
+                "fecha": "Sat, 14 Nov 2026 11:41:20 GMT",
+                "titulo_original": "US has floated Ukraine ceding Donbas for Nato membership, Zelensky says",
                 "tags": [
                   "#Geopolítica",
                   "#GuerraUcrania",
@@ -1085,7 +1087,33 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Guerra Ucrania / Rusia / Frente Oriental",
-                "coincidencias_count": 6
+                "coincidencias_count": 12
+              },
+              {
+                "titulo": "Trump, Putin y Xi planean una histórica reunión conjunta en China la próxima semana, dice la Casa Blanca",
+                "url": "https://www.bbc.co.uk/news/articles/ckz74jzpy18do?at_medium=RSS&at_campaign=rss",
+                "resumen": "Trump discutirá la \"reducción de las armas nucleares\" durante unas conversaciones sin precedentes, afirma una portavoz.",
+                "fecha": "Sat, 14 Nov 2026 05:52:31 GMT",
+                "titulo_original": "Trump, Putin and Xi plan historic joint meeting in China next week, White House says",
+                "tags": [
+                  "#Geopolítica",
+                  "#GuerraUcrania",
+                  "#Defensa"
+                ],
+                "tema_repetido": true,
+                "cluster_tema": "Guerra Ucrania / Rusia / Frente Oriental",
+                "coincidencias_count": 12
+              },
+              {
+                "titulo": "'Milagro en Mississippi': todos los pasajeros rescatados después de la colisión de un crucero en Nueva Orleans",
+                "url": "https://www.bbc.co.uk/news/articles/cw20xmy0m5yyo?at_medium=RSS&at_campaign=rss",
+                "resumen": "La colisión deja a 32 personas en el hospital con heridas no críticas, pero no se desconoce el paradero de nadie.",
+                "fecha": "Fri, 13 Nov 2026 23:40:45 GMT",
+                "titulo_original": "'Miracle on Mississippi' - All passengers rescued after New Orleans cruise ship collision",
+                "tags": [],
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
               }
             ],
             "estado": "OK",
@@ -1109,7 +1137,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Tecnología Disruptiva, IA y Biotecnología",
-                "coincidencias_count": 4
+                "coincidencias_count": 2
               },
               {
                 "titulo": "Lewis Hamilton visita el cruce egipcio de Rafah y las instalaciones de ayuda en Gaza",
@@ -1125,7 +1153,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Conflicto Oriente Medio (Gaza / Líbano)",
-                "coincidencias_count": 5
+                "coincidencias_count": 4
               },
               {
                 "titulo": "Al menos siete muertos en colisión de dos trenes en Egipto",
@@ -1141,7 +1169,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Accidente Ferroviario / Red de Transporte",
-                "coincidencias_count": 5
+                "coincidencias_count": 11
               },
               {
                 "titulo": "Cómo las filosofías africanas inspiraron un nuevo enfoque para organizar festivales de cine en Manchester",
@@ -1157,7 +1185,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Cultura",
-                "coincidencias_count": 2
+                "coincidencias_count": 3
               }
             ],
             "estado": "OK",
@@ -1168,30 +1196,45 @@
             "perfil": "Televisión / Actualidad en Directo",
             "noticias": [
               {
-                "titulo": "Se nombra al hombre asesinado a tiros en un gimnasio de Washington DC",
-                "url": "https://news.sky.com/story/four-shot-in-washington-dc-within-walking-distance-of-white-house-13611509",
-                "resumen": "Se ha identificado el nombre de un hombre asesinado a tiros en un gimnasio de Washington DC el jueves.",
-                "fecha": "Thu, 12 Nov 2026 13:34:00 +0000",
-                "titulo_original": "Man shot dead in Washington DC gym is named",
+                "titulo": "Trump, Xi y Putin celebrarán una reunión sin precedentes, dice la Casa Blanca",
+                "url": "https://news.sky.com/story/trump-xi-and-putin-to-hold-unprecedented-meeting-white-house-says-13612124",
+                "resumen": "Los líderes de Estados Unidos, China y Rusia celebrarán una reunión sin precedentes al margen de una importante cumbre económica, dijo la Casa Blanca.",
+                "fecha": "Sat, 14 Nov 2026 08:19:00 +0000",
+                "titulo_original": "Trump, Xi and Putin to hold unprecedented meeting, White House says",
+                "tags": [
+                  "#Geopolítica",
+                  "#GuerraUcrania",
+                  "#Defensa"
+                ],
+                "tema_repetido": true,
+                "cluster_tema": "Guerra Ucrania / Rusia / Frente Oriental",
+                "coincidencias_count": 12
+              },
+              {
+                "titulo": "El portero sancionado con 12 partidos por colisión mortal con el delantero del Tenerife",
+                "url": "https://news.sky.com/story/goalkeeper-jesus-owono-given-12-game-ban-for-fatal-collision-with-tenerife-striker-jesus-de-miguel-13612126",
+                "resumen": "El portero andorrano Jesús Owono ha sido sancionado con 12 partidos de sanción tras una colisión sobre el terreno de juego que provocó la muerte del delantero del Tenerife Jesús de Miguel.",
+                "fecha": "Sat, 14 Nov 2026 08:12:00 +0000",
+                "titulo_original": "Goalkeeper given 12-game ban for fatal collision with Tenerife striker",
                 "tags": [],
                 "tema_repetido": false,
                 "cluster_tema": "",
                 "coincidencias_count": 0
               },
               {
-                "titulo": "Estallan intensos enfrentamientos en España mientras millones de personas se unen a la huelga general",
-                "url": "https://news.sky.com/story/fiery-clashes-erupt-in-spain-as-millions-join-general-strike-13611270",
-                "resumen": "El miércoles estallaron disturbios en ciudades de toda España después de que millones de trabajadores se unieran a la primera huelga general del país en 14 años.",
-                "fecha": "Thu, 12 Nov 2026 02:41:00 +0000",
-                "titulo_original": "Fiery clashes erupt in Spain as millions join general strike",
+                "titulo": "Los líderes de la UE eligen un equipo para las conversaciones de paz en Ucrania después de meses de vacilaciones",
+                "url": "https://news.sky.com/story/eu-leaders-choose-team-for-ukraine-peace-talks-after-months-of-wavering-13612008",
+                "resumen": "Los representantes británicos formarán parte de un equipo que representará a Europa en las conversaciones de paz en Ucrania.",
+                "fecha": "Fri, 13 Nov 2026 18:04:00 +0000",
+                "titulo_original": "EU leaders choose team for Ukraine peace talks after months of wavering",
                 "tags": [
-                  "#Sociedad",
-                  "#Manifestaciones",
-                  "#Protestas"
+                  "#Geopolítica",
+                  "#GuerraUcrania",
+                  "#Defensa"
                 ],
                 "tema_repetido": true,
-                "cluster_tema": "Manifestaciones y Protestas Sociales",
-                "coincidencias_count": 4
+                "cluster_tema": "Guerra Ucrania / Rusia / Frente Oriental",
+                "coincidencias_count": 12
               },
               {
                 "titulo": "Ataque israelí contra hospital de Gaza mata a seis personas, dice el Ministerio de Salud",
@@ -1206,23 +1249,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Conflicto Oriente Medio (Gaza / Líbano)",
-                "coincidencias_count": 5
-              },
-              {
-                "titulo": "La alerta de bomba en la estación de Calais perturba el Eurostar",
-                "url": "https://news.sky.com/story/bomb-alert-at-calais-train-station-affects-eurostar-13611403",
-                "resumen": "Una alerta de bomba en una estación de tren francesa interrumpió los viajes, incluidos los internacionales, y los trenes Eurostar se encuentran entre los afectados.",
-                "fecha": "Thu, 12 Nov 2026 09:27:00 +0000",
-                "titulo_original": "Bomb alert at Calais train station disrupts Eurostar",
-                "tags": [
-                  "#Transporte",
-                  "#Ferrocarril",
-                  "#Accidente",
-                  "#Infraestructuras"
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "Accidente Ferroviario / Red de Transporte",
-                "coincidencias_count": 5
+                "coincidencias_count": 4
               }
             ],
             "estado": "OK",
@@ -1239,48 +1266,48 @@
             "perfil": "Comunitario / Multilingüe",
             "noticias": [
               {
-                "titulo": "La Comisión Europea prevé desbloquear 10.000 millones del fondo pospandemia para Hungría",
-                "url": "https://es.euronews.com/2026/11/13/comision-europea-desbloquear-10000-millones-fondo-pospandemia-hungria",
-                "resumen": "Hungría está en camino de recibir casi 10.000 millones de euros en fondos de recuperación de la UE, congelados bajo Viktor Orbán, después de que el gobierno de Péter Magyar aprobara amplias reformas sobre el Estado de derecho y contra la corrupción.",
-                "fecha": "Fri, 13 Nov 2026 10:44:26 +0100",
-                "titulo_original": "La Comisión Europea prevé desbloquear 10.000 millones del fondo pospandemia para Hungría",
+                "titulo": "Agreden con arma blanca a un vicerrector de la Universidad de Versailles-Saint-Quentin",
+                "url": "https://es.euronews.com/2026/11/14/agreden-con-arma-blanca-a-un-vicerrector-de-la-universidad-de-versailles-saint-quentin",
+                "resumen": "La agresión tuvo lugar el viernes a última hora de la tarde, según el presidente del centro. La ministra de Universidades afirma que \"se enmarca en un contexto de violencia en los campus\". Aún no se conocen los motivos del agresor.",
+                "fecha": "Sat, 14 Nov 2026 13:08:01 +0100",
+                "titulo_original": "Agreden con arma blanca a un vicerrector de la Universidad de Versailles-Saint-Quentin",
+                "tags": [],
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
+              },
+              {
+                "titulo": "Nueva protesta en Portugal contra las políticas agravantes de la crisis de vivienda",
+                "url": "https://es.euronews.com/2026/11/14/nueva-protesta-en-portugal-contra-las-politicas-agravantes-de-la-crisis-de-vivienda",
+                "resumen": "Al menos 32 ciudades portuguesas celebrarán este sábado protestas contra la falta de vivienda, convocadas por la plataforma Casa para Vivir, que exigen más protección y vivienda pública.",
+                "fecha": "Sat, 14 Nov 2026 13:04:16 +0100",
+                "titulo_original": "Nueva protesta en Portugal contra las políticas agravantes de la crisis de vivienda",
                 "tags": [
-                  "#Justicia",
-                  "#Instituciones",
-                  "#Polonia"
+                  "#Sociedad",
+                  "#Manifestaciones",
+                  "#Protestas"
                 ],
-                "tema_repetido": false,
-                "cluster_tema": "",
-                "coincidencias_count": 0
+                "tema_repetido": true,
+                "cluster_tema": "Manifestaciones y Protestas Sociales",
+                "coincidencias_count": 6
               },
               {
-                "titulo": "José Pinhal: El cantante que murió en el anonimato y ahora llena los coliseos del país",
-                "url": "https://es.euronews.com/2026/11/13/fenomeno-jose-pinhal-el-cantante-que-murio-en-el-anonimato-y-ahora-llena-los-coliseos-del",
-                "resumen": "Una banda tributo a un artista que, mientras vivió, fue famoso en un círculo ultrarreducido llevó al delirio el Coliseu dos Recreios en su concierto de despedida. Comprender el fenómeno José Pinhal es entender la tendencia del siglo a rescatar pepitas del pasado.",
-                "fecha": "Fri, 13 Nov 2026 10:19:20 +0100",
-                "titulo_original": "José Pinhal: El cantante que murió en el anonimato y ahora llena los coliseos del país",
+                "titulo": "Turquía y Qatar firman en Estambul un acuerdo de defensa mutua frente ataques externos",
+                "url": "https://es.euronews.com/2026/11/14/turquia-y-qatar-firman-en-estambul-un-acuerdo-de-defensa-mutua-frente-ataques-externos",
+                "resumen": "El acuerdo firmado en Estambul entre el presidente Erdoğan y el emir de Qatar Al Sani busca una posición común ante ataques armados externos contra una o ambas partes; además, ambos países reforzarán maniobras conjuntas y cooperación en Defensa.",
+                "fecha": "Sat, 14 Nov 2026 12:58:59 +0100",
+                "titulo_original": "Turquía y Qatar firman en Estambul un acuerdo de defensa mutua frente ataques externos",
                 "tags": [],
                 "tema_repetido": false,
                 "cluster_tema": "",
                 "coincidencias_count": 0
               },
               {
-                "titulo": "Robyn tacha Eurovisión de 'una mierda' y 'vergonzoso'",
-                "url": "https://es.euronews.com/2026/11/13/robyn-tacha-eurovision-de-una-mierda-y-vergonzoso",
-                "resumen": "La estrella sueca del pop Robyn, conocida por éxitos como 'With Every Heartbeat' y 'Dancing On My Own', dio su veredicto sobre Eurovisión en el pódcast de Amy Poehler. Dijo que desde la participación de ABBA le resulta menos atractivo y que es \"vergonzoso\".",
-                "fecha": "Fri, 13 Nov 2026 10:17:52 +0100",
-                "titulo_original": "Robyn tacha Eurovisión de 'una mierda' y 'vergonzoso'",
-                "tags": [],
-                "tema_repetido": false,
-                "cluster_tema": "",
-                "coincidencias_count": 0
-              },
-              {
-                "titulo": "Los sondeos dibujan dos escenarios enfrentados sobre quién gobernará España al inicio de campaña",
-                "url": "https://es.euronews.com/2026/11/13/arranca-la-campana-electoral-los-sondeos-dibujan-dos-escenarios-enfrentados",
-                "resumen": "La campaña para las elecciones generales del 29N comienza con un panorama muy distinto según el sondeo. El CIS sitúa al PSOE en cabeza y descarta una mayoría de PP y Vox, mientras que Sigma Dos y 40dB anticipan una victoria de la derecha. SW Demoscopia también da ventaja a los so",
-                "fecha": "Fri, 13 Nov 2026 10:02:05 +0100",
-                "titulo_original": "Los sondeos dibujan dos escenarios enfrentados sobre quién gobernará España al inicio de campaña",
+                "titulo": "La Guardia Civil cierra el perfil de TikTok detrás de una estafa bancaria en España a 162 personas",
+                "url": "https://es.euronews.com/2026/11/14/la-guardia-civil-cierra-el-perfil-de-tiktok-detras-de-una-estafa-bancaria-en-espana-a-162-",
+                "resumen": "Tras la apariencia de cotidianeidad de varios vídeos de TikTok se parapetaba una red que ofrecía 100 euros por abrir cuentas bancarias que, posteriormente, eran utilizadas para malversar con dinero procedente de estafas y otros ciberdelitos.",
+                "fecha": "Sat, 14 Nov 2026 12:12:33 +0100",
+                "titulo_original": "La Guardia Civil cierra el perfil de TikTok detrás de una estafa bancaria en España a 162 personas",
                 "tags": [],
                 "tema_repetido": false,
                 "cluster_tema": "",
@@ -1295,68 +1322,68 @@
             "perfil": "Regulatorio / Políticas UE",
             "noticias": [
               {
-                "titulo": "Sánchez lamenta la posibilidad de una “aniquilación planetaria”",
-                "url": "https://www.politico.eu/article/sanchez-laments-potential-for-planetary-annihilation/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-                "resumen": "El líder español insta a una reforma importante de las Naciones Unidas y advierte que la adopción por parte de la UE de la “preparación para la guerra” está alimentando “una mentalidad militarista peligrosa”.",
-                "fecha": "Fri, 13 Nov 2026 09:00:00 +0000",
-                "titulo_original": "Spain’s Sánchez laments potential for ‘planetary annihilation’",
+                "titulo": "Estados Unidos sugirió que Ucrania podría renunciar a Donbass para ser miembro de la OTAN, dice Zelenskyy",
+                "url": "https://www.politico.eu/article/us-suggested-ukraine-could-give-up-donbas-for-nato-membership-zelenskyy-says/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+                "resumen": "\"Esta fue la primera vez que se planteó esto\", dijo el presidente ucraniano a los periodistas.",
+                "fecha": "Sat, 14 Nov 2026 10:48:19 +0000",
+                "titulo_original": "US suggested Ukraine could give up Donbas for NATO membership, Zelenskyy says",
                 "tags": [
-                  "#África",
-                  "#Américas",
-                  "#Conflicto",
-                  "#Crisis"
+                  "#Negociaciones",
+                  "#Seguridad",
+                  "#Guerra",
+                  "#Armas"
                 ],
                 "tema_repetido": true,
-                "cluster_tema": "África",
-                "coincidencias_count": 3
+                "cluster_tema": "Guerra Ucrania / Rusia / Frente Oriental",
+                "coincidencias_count": 12
               },
               {
-                "titulo": "Los ciudadanos europeos respaldan abrumadoramente la creación de un ejército de la UE, según una encuesta",
-                "url": "https://www.politico.eu/article/european-citizens-overwhelmingly-back-creation-of-an-eu-army-survey-finds/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-                "resumen": "Más de siete de cada 10 apoyan un ejército europeo, mientras que casi ocho de cada 10 quieren capacidades de defensa europeas más fuertes, según el informe Tendencias 2026 de GLOBSEC.",
-                "fecha": "Fri, 13 Nov 2026 06:00:00 +0000",
-                "titulo_original": "European citizens overwhelmingly back creation of an EU army, survey finds",
+                "titulo": "Finlandia rechaza la demanda rusa de abandonar la OTAN como parte de las conversaciones de paz",
+                "url": "https://www.politico.eu/article/finland-rejects-reported-russian-demand-to-leave-nato-as-part-of-peace-talks/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+                "resumen": "\"Es absolutamente escandaloso siquiera sugerir algo así\", afirmó el ministro de Defensa, Antti Häkkänen.",
+                "fecha": "Sat, 14 Nov 2026 09:57:48 +0000",
+                "titulo_original": "Finland rejects reported Russian demand to leave NATO as part of peace talks",
                 "tags": [
-                  "#GuerraCibernética",
-                  "#Defensa",
-                  "#DefensaEuropea",
-                  "#Militar"
+                  "#PaísesBálticos",
+                  "#Fronteras",
+                  "#PolíticaExterior",
+                  "#Negociaciones"
                 ],
                 "tema_repetido": true,
-                "cluster_tema": "Defensa",
-                "coincidencias_count": 6
+                "cluster_tema": "Guerra Ucrania / Rusia / Frente Oriental",
+                "coincidencias_count": 12
               },
               {
-                "titulo": "Cómo la influencer conspirativa Candace Owens convirtió las noticias falsas sobre Brigitte Macron en un fenómeno global",
-                "url": "https://www.politico.eu/article/comment-linfluenceuse-complotiste-candace-owens-a-fait-de-linfox-sur-brigitte-macron-un-phenomene-mondial/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-                "resumen": "El estadounidense convirtió esta teoría de la conspiración en un podcast con más de 30 millones de visitas. Hoy se encuentra en el centro de una batalla legal sin precedentes liderada por el matrimonio Macron.",
-                "fecha": "Fri, 13 Nov 2026 05:00:00 +0000",
-                "titulo_original": "Comment l’influenceuse complotiste Candace Owens a fait de l’infox sur Brigitte Macron un phénomène mondial",
-                "tags": [
-                  "#Desinformación",
-                  "#MediosComunicación",
-                  "#RedesSociales",
-                  "#Política"
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "Política",
-                "coincidencias_count": 6
-              },
-              {
-                "titulo": "Reforma del BND: el nuevo poder de los servicios secretos",
-                "url": "https://www.politico.eu/podcast/berlin-playbook-podcast/bnd-reform-die-neue-macht-der-geheimdienste/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+                "titulo": "La semana del cumpleaños del horror para Merz. Con Rasmus Buchsteiner",
+                "url": "https://www.politico.eu/podcast/berlin-playbook-podcast/die-geburtstagswoche-des-grauens-fur-merz-mit-rasmus-buchsteiner/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
                 "resumen": "Desarrollado por YouTube.",
-                "fecha": "Fri, 13 Nov 2026 04:19:22 +0000",
-                "titulo_original": "BND-Reform: Die neue Macht der Geheimdienste",
+                "fecha": "Sat, 14 Nov 2026 04:30:00 +0000",
+                "titulo_original": "Die Geburtstagswoche des Grauens für Merz. Mit Rasmus Buchsteiner",
                 "tags": [
-                  "#Ciberseguridad",
+                  "#Presupuesto",
+                  "#Tribunales",
                   "#Podcast",
-                  "#ExtremaIzquierda",
-                  "#PolíticaAlemana"
+                  "#Elecciones"
                 ],
                 "tema_repetido": true,
-                "cluster_tema": "Podcast",
-                "coincidencias_count": 2
+                "cluster_tema": "Elecciones",
+                "coincidencias_count": 5
+              },
+              {
+                "titulo": "El acuerdo de la UE sobre las conversaciones con Ucrania eclipsa la cumbre centrada en la IA en Dublín",
+                "url": "https://www.politico.eu/article/eu-deal-on-ukraine-talks-overshadows-ai-focused-summit-in-dublin/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+                "resumen": "Los líderes de la UE han acordado que el formato E5 (Alemania, Francia, Reino Unido, Italia y Polonia) más la Comisión Europea y el Consejo representarán al bloque en cualquier negociación de paz futura.",
+                "fecha": "Fri, 13 Nov 2026 19:10:16 +0000",
+                "titulo_original": "EU deal on Ukraine talks overshadows AI-focused summit in Dublin",
+                "tags": [
+                  "#Apec",
+                  "#InteligenciaArtificial",
+                  "#Kremlin",
+                  "#Sanciones"
+                ],
+                "tema_repetido": true,
+                "cluster_tema": "Guerra Ucrania / Rusia / Frente Oriental",
+                "coincidencias_count": 12
               }
             ],
             "estado": "OK",
@@ -1367,62 +1394,67 @@
             "perfil": "Políticas Comunitarias / Institucional Bruselas",
             "noticias": [
               {
-                "titulo": "FIREPOWER: Líderes celebran primeras conversaciones en profundidad sobre IA",
-                "url": "https://www.rapporteur.com/news/firepower-leaders-hold-first-in-depth-talks-on-ai/",
-                "resumen": "En la edición de hoy: movilidad militar, Ucrania, cadenas de suministro rusas",
-                "fecha": "Fri, 13 Nov 2026 08:48:52 +0000",
-                "titulo_original": "FIREPOWER: Leaders hold first in-depth talks on AI",
+                "titulo": "Estados Unidos propone a Ucrania ceder territorio a cambio de unirse a la OTAN: Zelenskyy",
+                "url": "https://www.rapporteur.com/news/us-proposes-ukraine-cede-territory-in-exchange-for-joining-nato-zelenskyy/",
+                "resumen": "Moscú también rechazó una propuesta de alto el fuego sobre los ataques energéticos, dijo Zelenskyy, advirtiendo de una mayor agresión rusa.",
+                "fecha": "Sat, 14 Nov 2026 11:07:23 +0000",
+                "titulo_original": "US proposes Ukraine cede territory in exchange for joining NATO: Zelenskyy",
                 "tags": [
-                  "#PotenciaFuego",
-                  "#Geopolítica",
-                  "#GuerraUcrania",
-                  "#Defensa"
+                  "#TodaEuropa",
+                  "#Otan",
+                  "#Rusia",
+                  "#Ucrania"
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Guerra Ucrania / Rusia / Frente Oriental",
-                "coincidencias_count": 6
+                "coincidencias_count": 12
               },
               {
-                "titulo": "EL HACK: Dublín acoge charlas sobre IA",
-                "url": "https://www.rapporteur.com/news/the-hack-dublin-hosts-ai-talks/",
-                "resumen": "En la edición de hoy: informe CAIDA, Kids Act, Pax Silica",
-                "fecha": "Fri, 13 Nov 2026 08:44:21 +0000",
-                "titulo_original": "THE HACK: Dublin hosts AI talks",
+                "titulo": "La EMA endurece las recomendaciones anticonceptivas de la UE para las usuarias de Mounjaro",
+                "url": "https://www.rapporteur.com/news/ema-tightens-eu-contraceptive-advice-for-mounjaro-users/",
+                "resumen": "La actualización de la UE sigue a las advertencias del Reino Unido después de que se reportaran 40 embarazos entre consumidoras de drogas para bajar de peso",
+                "fecha": "Sat, 14 Nov 2026 10:37:13 +0000",
+                "titulo_original": "EMA tightens EU contraceptive advice for Mounjaro users",
                 "tags": [
-                  "#Truco",
-                  "#DeepTech",
-                  "#InteligenciaArtificial",
-                  "#Innovación"
+                  "#Anticonceptivos",
+                  "#Ema",
+                  "#Glp1",
+                  "#Munjaro"
+                ],
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
+              },
+              {
+                "titulo": "Bangladesh se apresura a cerrar un acuerdo comercial con la UE",
+                "url": "https://www.rapporteur.com/news/needs-round-up-bangladesh-races-to-stitch-up-an-eu-trade-deal/",
+                "resumen": "Dhaka busca un acuerdo para salvaguardar sus exportaciones de prendas de vestir a Europa",
+                "fecha": "Sat, 14 Nov 2026 07:00:18 +0000",
+                "titulo_original": "Bangladesh races to stitch up an EU trade deal",
+                "tags": [
+                  "#Bangladesh",
+                  "#ComisiónEuropea",
+                  "#India",
+                  "#Indonesia"
+                ],
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
+              },
+              {
+                "titulo": "La reanudación de los viajes aéreos en EE. UU. “llevará tiempo” después de una parada de horas",
+                "url": "https://www.rapporteur.com/news/all-departing-us-flights-grounded-due-to-communication-problem/",
+                "resumen": "Casi 6.000 vuelos cancelados, incluidas algunas rutas internacionales",
+                "fecha": "Fri, 13 Nov 2026 22:05:43 +0000",
+                "titulo_original": "US air travel resumption will ‘take time’ after hours-long stop",
+                "tags": [
+                  "#Aviación",
+                  "#Transporte",
+                  "#EstadosUnidos(ee.uu.)"
                 ],
                 "tema_repetido": true,
-                "cluster_tema": "Tecnología Disruptiva, IA y Biotecnología",
-                "coincidencias_count": 4
-              },
-              {
-                "titulo": "VOLTAJE: ¿Podría Estados Unidos optar por un arancel al carbono?",
-                "url": "https://www.rapporteur.com/news/voltage-could-the-us-go-for-a-carbon-tariff/",
-                "resumen": "En la edición de hoy: permisos ETS, leyes polacas, PFAS",
-                "fecha": "Fri, 13 Nov 2026 08:37:36 +0000",
-                "titulo_original": "VOLTAGE: Could the US go for a carbon tariff?",
-                "tags": [
-                  "#Voltaje"
-                ],
-                "tema_repetido": false,
-                "cluster_tema": "",
-                "coincidencias_count": 0
-              },
-              {
-                "titulo": "PRIMEROS AUXILIOS: Incertidumbre sobre el cronograma de TPD",
-                "url": "https://www.rapporteur.com/news/first-aid-uncertainty-over-tpd-timeline/",
-                "resumen": "En la edición de hoy: preparación, impuesto al azúcar, aguas residuales",
-                "fecha": "Fri, 13 Nov 2026 08:34:35 +0000",
-                "titulo_original": "FIRST AID: Uncertainty over TPD timeline",
-                "tags": [
-                  "#Auxilios"
-                ],
-                "tema_repetido": false,
-                "cluster_tema": "",
-                "coincidencias_count": 0
+                "cluster_tema": "Transporte",
+                "coincidencias_count": 9
               }
             ],
             "estado": "OK",
@@ -1439,68 +1471,68 @@
             "perfil": "Liberal / Establishment",
             "noticias": [
               {
-                "titulo": "En las elecciones francesas, los centristas miran a una estrella del judo y a un banquero central",
-                "url": "https://www.nytimes.com/2026/11/13/world/europe/france-riner-judo-lagarde-election.html",
-                "resumen": "Algunos votantes quieren alternativas a un enfrentamiento entre la extrema derecha y la extrema izquierda en las elecciones presidenciales de 2027. Teddy Riner, el campeón de judo, está dentro, mientras que Christine Lagarde tiene menos posibilidades.",
-                "fecha": "Fri, 13 Nov 2026 09:22:48 +0000",
-                "titulo_original": "In French Election, Centrists Eye a Judo Star and a Central Banker",
+                "titulo": "Un “choque generacional” está alimentando las protestas en Europa",
+                "url": "https://www.nytimes.com/2026/11/14/world/europe/student-protests-pensions-generations.html",
+                "resumen": "A medida que los jubilados viven más, los gobiernos necesitan gastar más en pensiones. Eso dificulta la financiación de otros servicios, lo que provoca protestas como las previstas este fin de semana en Francia.",
+                "fecha": "Sat, 14 Nov 2026 05:01:06 +0000",
+                "titulo_original": "A ‘Generational Clash’ Is Fueling Europe’s Protests",
                 "tags": [
-                  "#Francia",
-                  "#Elecciones",
-                  "#Enjuagar",
-                  "#OsitoPeluche"
+                  "#UniónEuropea",
+                  "#Europa",
+                  "#Alemania",
+                  "#Francia"
                 ],
                 "tema_repetido": true,
-                "cluster_tema": "Elecciones",
-                "coincidencias_count": 6
+                "cluster_tema": "Accidente Ferroviario / Red de Transporte",
+                "coincidencias_count": 11
               },
               {
-                "titulo": "En Moscú, Witkoff y Kushner piden a Putin que incluya a Europa en las conversaciones de paz",
-                "url": "https://www.nytimes.com/2026/11/12/world/europe/russia-ukraine-witkoff-kushner.html",
-                "resumen": "En Dublín, el presidente Volodymyr Zelensky de Ucrania dijo que los europeos se unirían a la próxima ronda de conversaciones. Rusia no lo ha confirmado.",
-                "fecha": "Fri, 13 Nov 2026 07:58:38 +0000",
-                "titulo_original": "In Moscow, Witkoff and Kushner Ask Putin to Include Europe in Peace Talks",
+                "titulo": "“Concéntrense en Londres”: cómo los agentes iraníes atacaron objetivos europeos",
+                "url": "https://www.nytimes.com/2026/11/13/world/europe/iran-attacks-europe-britain.html",
+                "resumen": "Una ola de ataques en Gran Bretaña y otros lugares durante la primavera sembró el miedo en toda Europa. Los fiscales arrojan nueva luz sobre cómo Irán apuntó a los aliados de Estados Unidos.",
+                "fecha": "Fri, 13 Nov 2026 20:10:37 +0000",
+                "titulo_original": "‘Get Focused on London’: How Iran’s Agents Attacked European Targets",
                 "tags": [
-                  "#InvasiónRusaUcrania",
-                  "#PolíticaGobierno",
-                  "#Putin",
-                  "#VladímirV."
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "Guerra Ucrania / Rusia / Frente Oriental",
-                "coincidencias_count": 6
-              },
-              {
-                "titulo": "AI. Las armas necesitan datos para su entrenamiento. Ucrania tiene mucho que ofrecer.",
-                "url": "https://www.nytimes.com/2026/11/12/world/europe/ukraine-ai-weapons.html",
-                "resumen": "El gobierno ucraniano ha puesto a disposición de empresas de defensa nacionales y extranjeras un tesoro de cinco millones de vídeos del campo de batalla.",
-                "fecha": "Thu, 12 Nov 2026 10:00:57 +0000",
-                "titulo_original": "A.I. Weapons Need Data for Their Training. Ukraine Has a Lot to Offer.",
-                "tags": [
-                  "#InvasiónRusaUcrania",
-                  "#InteligenciaArtificial",
-                  "#ComercioArmas",
-                  "#Drones(avionesPiloto)"
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "Guerra Ucrania / Rusia / Frente Oriental",
-                "coincidencias_count": 6
-              },
-              {
-                "titulo": "Ella está reescribiendo las baladas de México, la historia de una mujer a la vez",
-                "url": "https://www.nytimes.com/2026/11/12/world/americas/grammys-women-vivir-quintana.html",
-                "resumen": "La compositora nominada al Grammy Vivir Quintana es conocida en toda América Latina por dar voz a las mujeres que lucharon contra la violencia doméstica.",
-                "fecha": "Thu, 12 Nov 2026 05:01:11 +0000",
-                "titulo_original": "She Is Rewriting Mexico’s Ballads, One Woman’s Story at a Time",
-                "tags": [
-                  "#MusicaLatina",
-                  "#TipoContenido:Perfil",
-                  "#MujeresNiñas",
-                  "#DerechosMujeres"
+                  "#AtaqueEstadosUnidos",
+                  "#BasesEInstalaciones",
+                  "#IncendioProvocado",
+                  "#FuerzasMilitaresDefensa"
                 ],
                 "tema_repetido": false,
                 "cluster_tema": "",
                 "coincidencias_count": 0
+              },
+              {
+                "titulo": "El acceso a Starshield de Ucrania está siendo restringido nuevamente, dice Zelensky",
+                "url": "https://www.nytimes.com/2026/11/14/world/europe/ukraine-starshield-zelensky.html",
+                "resumen": "El presidente Volodymyr Zelensky dijo que el sistema, que Ucrania utiliza para guiar los drones, estaba siendo estrangulado en territorio ocupado por Rusia. SpaceX, su desarrollador, ha negado la afirmación.",
+                "fecha": "Sat, 14 Nov 2026 12:24:35 +0000",
+                "titulo_original": "Ukraine’s Starshield Access Is Being Restricted Again, Zelensky Says",
+                "tags": [
+                  "#InvasiónRusaUcrania",
+                  "#Ucrania",
+                  "#Zelenski",
+                  "#Volodymyr"
+                ],
+                "tema_repetido": true,
+                "cluster_tema": "Guerra Ucrania / Rusia / Frente Oriental",
+                "coincidencias_count": 12
+              },
+              {
+                "titulo": "El acaparamiento de petróleo de Trump en Venezuela está poniendo a prueba la identidad nacional del país",
+                "url": "https://www.nytimes.com/2026/11/14/world/americas/trump-venezuela-oil.html",
+                "resumen": "Las creencias arraigadas desde hace mucho tiempo en Venezuela sobre el control soberano sobre el petróleo se están desmoronando a medida que Estados Unidos reclama las reservas de petróleo del país.",
+                "fecha": "Sat, 14 Nov 2026 10:10:01 +0000",
+                "titulo_original": "Trump’s Oil Grab in Venezuela Is Testing the Country’s National Identity",
+                "tags": [
+                  "#PolíticaGobierno",
+                  "#Chávez",
+                  "#Hugo",
+                  "#Maduro"
+                ],
+                "tema_repetido": true,
+                "cluster_tema": "Elecciones y Pugna Institucional EE.UU.",
+                "coincidencias_count": 7
               }
             ],
             "estado": "OK",
@@ -1511,11 +1543,11 @@
             "perfil": "Público / Nacional",
             "noticias": [
               {
-                "titulo": "Chris Van Hollen dice que desafiará a Chuck Schumer como líder de la mayoría del Senado",
-                "url": "https://www.npr.org/2026/11/12/nx-s1-6039357/chris-van-hollen-chuck-schumer-senate-majority-leader",
-                "resumen": "Van Hollen, un progresista de Maryland, dijo que los votantes enviaron un mensaje claro en las elecciones de mitad de período: que quieren \"un cambio con respecto al status quo\".",
-                "fecha": "Thu, 12 Nov 2026 22:52:25 -0500",
-                "titulo_original": "Chris Van Hollen says he will challenge Chuck Schumer for Senate majority leader",
+                "titulo": "A medida que los demócratas ganan a lo grande, las trampas de la sed de los candidatos masculinos arrasan en las redes sociales",
+                "url": "https://www.npr.org/2026/11/14/nx-s1-6040507/democrats-male-candidates-masculinity-trump",
+                "resumen": "Está en todas partes en las redes sociales: los demócratas celebran a los hombres atractivos elegidos en las elecciones intermedias. Pero es más grande que un meme y dice mucho sobre la política de masculinidad en la era de Trump.",
+                "fecha": "Sat, 14 Nov 2026 05:00:00 -0500",
+                "titulo_original": "As Democrats win big, thirst traps of male candidates take social media by storm",
                 "tags": [
                   "#EEUU",
                   "#Elecciones",
@@ -1523,25 +1555,25 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Elecciones y Pugna Institucional EE.UU.",
-                "coincidencias_count": 5
+                "coincidencias_count": 7
               },
               {
-                "titulo": "¿Está Outlook caído? Una interrupción generalizada afecta el correo electrónico de Microsoft y otras aplicaciones",
-                "url": "https://www.npr.org/2026/11/12/nx-s1-6039343/is-outlook-down-widespread-outage-hits-microsoft-email-and-other-apps",
-                "resumen": "Una interrupción generalizada ha afectado a las plataformas de Microsoft, incluido Outlook, y muchos usuarios han tenido problemas para utilizar sus cuentas de correo electrónico.",
-                "fecha": "Thu, 12 Nov 2026 20:26:24 -0500",
-                "titulo_original": "Is Outlook down? Widespread outage hits Microsoft email and other apps",
+                "titulo": "Una controversia sobre trasplantes de órganos pone a prueba 'la regla del donante muerto'",
+                "url": "https://www.npr.org/2026/11/14/nx-s1-6032604/organ-transplant-donor-dead-ethics",
+                "resumen": "Se supone que las nuevas directrices protegerán a los donantes de órganos en un procedimiento de recuperación que mantiene el flujo de sangre a través del hígado, los riñones, los pulmones y el corazón. Pero los bioéticos tienen preguntas preocupantes.",
+                "fecha": "Sat, 14 Nov 2026 05:00:00 -0500",
+                "titulo_original": "An organ transplant controversy tests 'the dead donor rule'",
                 "tags": [],
                 "tema_repetido": false,
                 "cluster_tema": "",
                 "coincidencias_count": 0
               },
               {
-                "titulo": "Cindy Holscher gana en Kansas y ocupa el cargo de gobernadora para los demócratas",
-                "url": "https://www.npr.org/2026/11/12/g-s1-151239/kansas-governor-midterms-holscher-masterson",
-                "resumen": "Holscher, senador estatal, superó a un republicano más conocido que contaba con el respaldo de Trump en el estado y que ha ido al Partido Republicano en la mayoría de las otras contiendas estatales.",
-                "fecha": "Thu, 12 Nov 2026 18:36:19 -0500",
-                "titulo_original": "Cindy Holscher wins in Kansas, holding governor's office for Democrats",
+                "titulo": "El fallido juicio político de Hegseth fue una advertencia para los demócratas. ¿A dónde irán desde aquí?",
+                "url": "https://www.npr.org/2026/11/14/nx-s1-6040299/hegseth-impeachment-democrats-house-test",
+                "resumen": "A los demócratas se les ha brindado una gran oportunidad con mayorías tanto en la Cámara como en el Senado, pero el equilibrio de prioridades, tiempos, mensajes y disciplina serán pruebas importantes.",
+                "fecha": "Sat, 14 Nov 2026 05:00:00 -0500",
+                "titulo_original": "Hegseth's failed impeachment was a warning to Democrats. Where will they go from here?",
                 "tags": [
                   "#EEUU",
                   "#Elecciones",
@@ -1549,14 +1581,14 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Elecciones y Pugna Institucional EE.UU.",
-                "coincidencias_count": 5
+                "coincidencias_count": 7
               },
               {
-                "titulo": "Cindy Holscher gana en Kansas y ocupa el cargo de gobernadora para los demócratas",
-                "url": "https://www.npr.org/2026/11/12/g-s1-151187/holscher-kansas-masterson-governor-midterms",
-                "resumen": "Holscher, senador estatal, superó a un republicano más conocido que contaba con el respaldo de Trump en el estado y que ha ido al Partido Republicano en la mayoría de las otras contiendas estatales.",
-                "fecha": "Thu, 12 Nov 2026 17:52:49 -0500",
-                "titulo_original": "Cindy Holscher wins in Kansas, holding governor's office for Democrats",
+                "titulo": "El demócrata Jonathan Kreiss-Tomkins gana la carrera por gobernador de Alaska y reemplaza a un republicano",
+                "url": "https://www.npr.org/2026/11/14/g-s1-151719/midterms-alaska-governor-kreiss-tomkins",
+                "resumen": "Kreiss-Tomkins, exlegislador estatal, dirigió una campaña que enfatizaba el bipartidismo en el estado que normalmente vota a los republicanos. A sus 37 años, será el gobernador más joven en la historia del estado.",
+                "fecha": "Sat, 14 Nov 2026 00:12:43 -0500",
+                "titulo_original": "Democrat Jonathan Kreiss-Tomkins wins race for Alaska governor, replaces a Republican",
                 "tags": [
                   "#EEUU",
                   "#Elecciones",
@@ -1564,7 +1596,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Elecciones y Pugna Institucional EE.UU.",
-                "coincidencias_count": 5
+                "coincidencias_count": 7
               }
             ],
             "estado": "OK",
@@ -1588,7 +1620,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Conflicto Oriente Medio (Gaza / Líbano)",
-                "coincidencias_count": 5
+                "coincidencias_count": 4
               },
               {
                 "titulo": "El principal promotor inmobiliario de China informa enormes pérdidas, en señal de crecientes problemas inmobiliarios",
@@ -1601,9 +1633,9 @@
                   "#Vivienda",
                   "#Economía"
                 ],
-                "tema_repetido": true,
-                "cluster_tema": "Crisis de Vivienda e Inmobiliario",
-                "coincidencias_count": 2
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
               },
               {
                 "titulo": "Los rehenes israelíes liberados todavía tenían metralla en el cuerpo del ataque del 7 de octubre",
@@ -1632,7 +1664,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Guerra Ucrania / Rusia / Frente Oriental",
-                "coincidencias_count": 6
+                "coincidencias_count": 12
               }
             ],
             "estado": "OK",
@@ -1649,11 +1681,22 @@
             "perfil": "Cobertura continental / Análisis pan-regional",
             "noticias": [
               {
-                "titulo": "León XIV en Lima: “Las guerras reclaman una diplomacia que respete el derecho internacional” - EL PAÍS",
-                "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQT3BiMmhnZXJWUTV2R0ZvV2xzUTVQbm9lMDJZRmEwVzJIN3FNemZJZHV6T3hkMXlMeUhqSFVtbjVVRGpiMUNoVHFjd1lUTFM1Z1ZkU2ZaSnlYbzRNZnduYWlRUi1iQWFGampMVWNWM21RUTk4SUxVOEVCT2dKWkVzdjJMQlNmQnk0VkZkbFBoQ2N4S09wVk5lT0JPRTVuWHdYNlR6SmdDT2ZZbUpZWmZsM1lvNVNYZEE4eXllelpaYzhqUGM0Wk8wYllXZ0fSAeABQVVfeXFMTU03anEyWFYtc2VDM1FDT0Z5Q1dPcFdHZzZmTFpiUVRWa0NuTnlMc0ttMW44TjRqZ2tEXzBQQTF6d3B2Y2MyejhPRUdROFhCYXdMeWNta09FSG9vanNGTWxwRkhzemZTSkk1VWNyRU40clZuQVNNbEFpdzhBTWpabjRXakZWMy1YMTZvUUFxSVA3cDRkZzV3MHEwN1dQSUk1SmlWNVpzcDZ1Z3lfZWhlVEY3QUdZZ2VFMWxTM0k0LVpTcjZHZnd4c0tielZnX3JKd3IyZWtzLXhXckNPSFlwZWw?oc=5",
-                "resumen": "León XIV en Lima: “Las guerras reclaman una diplomacia que respete el derecho internacional” EL PAÍS",
-                "fecha": "Thu, 12 Nov 2026 03:20:39 GMT",
-                "titulo_original": "León XIV en Lima: “Las guerras reclaman una diplomacia que respete el derecho internacional” - EL PAÍS",
+                "titulo": "León XIV congrega a más de 50.000 jóvenes peruanos en un estadio de fútbol: “Apasiónense por todo lo que merece la pena” - EL PAÍS",
+                "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOYndmUmgzdlNfZFktV2poUjVMME1ZYXU0LWtrSlFpRVkyOVVmc1dKOE1hUlNDb3h4amZrNzY0NXZUcDdaYmE0S1JkeDFFaWxUVzdIZkNhMk5KcDBXUVRydXgyX3BFZUtRbVAwSUV4WGJYWlRoM19Ta2JpVV9INkFfdC1zeEYweVR4NF9HdUR3cTlmb0c4bjRfVmtSS2o2ZlQ0NC1Ub1NyNzJHbV9TWm13QTNnS09UeEUzVnlDcmRmc3l5MXJTZFZqMzNsTENCQWdfeHpLMTVQYzR5ZUlfMzJRVXJxSnJJQlRVYjlMalRkVFDSAYQCQVVfeXFMUHJXS25ZMVdfNGtJcS12SkxKbXlJZW11dGVsYzFMZk5yNk5wbUE4Tm5iUjRpUWRYOHVIOWUtRDVNeE9maGhBMDZYLWdkRUVwaGtjckVBMU0yRkJmWGI3YWp2VmZrYjAzSWtma0JHSVYxek9OZkw0eXZXbHktUjBiYmFrWElQaGR0NTM3cmNJVVhKUDV0eXFWYWJGVUxXVlVZdGJtdEtqdWpseHVMcUtfLUUyQ3VfTnVUVzNSZUt1Q2dPam1kclFXZUI1LWd2aEZ5RFFjblBWRXZDR0xjY3lJai1DMmswdXdVb3YtQkxHTG0tWXBvS0FlVG16ZHRUXzZNTDdvSGU?oc=5",
+                "resumen": "León XIV congrega a más de 50.000 jóvenes peruanos en un estadio de fútbol: “Apasiónense por todo lo que merece la pena” EL PAÍS",
+                "fecha": "Fri, 13 Nov 2026 02:13:22 GMT",
+                "titulo_original": "León XIV congrega a más de 50.000 jóvenes peruanos en un estadio de fútbol: “Apasiónense por todo lo que merece la pena” - EL PAÍS",
+                "tags": [],
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
+              },
+              {
+                "titulo": "De los espías del DAS a los de la DNI: Colombia recicla sus escándalos de inteligencia - EL PAÍS",
+                "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOLVo5aXVOS3BRZFZtcFVJa01IV2JEQ0lHZDZYMldGSUJ4ak11Z3FiczRLcWw5ZWVzTFl6NVNVWGtEd1JMUWxEM0dYanU4blZpR3MxM3JqR3RvWEJld2cwV1FJTWtBNmVDWDhKTGhkc1c2UW1PTFY0X1ozdldoTlJfOE1JUkQ4VUhJSDROVVFBLWFlYmJ1STczcl9MVFczVjVIa0JPTkFKQm5qR1JNaXZVdlFXUXpWdzFwTHJsd0VScmQyR2oyYmFfc083R3hBbmQwOVpz0gHnAUFVX3lxTE4waU9FMm1Tbl9hbUdjTHRadkpTbUxNTmFRMFdmaU0xeUlpV0pDa0FyblVzUW5PZGNlSHhWOVo2Wkdid2p2blRUekVqcW1Xcm9OYk5qTkg5RmFTYkxqdDVuNmRFa2s5cU4tM0hRbk1oRkNUSEVmZFpsWFgyWWFmT2ZrYWVzT1NWSF9RTnZVMTM0QTNwXzRNb0tyQnh2SkdDR1g2MGJpbnlROEhxSVVaOGJxR3p3MWRTSGJfazBDVG5YNlBFV2twZ2hhT2xISWx2REtROVh3NjVJeS1Wc1BwYy1NOEhSQWRFZw?oc=5",
+                "resumen": "De los espías del DAS a los de la DNI: Colombia recicla sus escándalos de inteligencia EL PAÍS",
+                "fecha": "Fri, 13 Nov 2026 09:30:00 GMT",
+                "titulo_original": "De los espías del DAS a los de la DNI: Colombia recicla sus escándalos de inteligencia - EL PAÍS",
                 "tags": [],
                 "tema_repetido": false,
                 "cluster_tema": "",
@@ -1672,18 +1715,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Elecciones y Pugna Institucional EE.UU.",
-                "coincidencias_count": 5
-              },
-              {
-                "titulo": "“El deseo erótico en Bolivia se educa con racismo”: Juan Pablo Vargas Rollano y la pedagogía antirracista en el mundo virtual - EL PAÍS",
-                "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOUTI5UkN5S21tNmRJM1F2QmVxQkc3SE03Sm9NUHhNdFBUSmVUUlh0UmlpT3Q4WjB3NWhOZGF6YjNiUjR4NjBFMFNXcG0xU3U2dWpqVllqbkh3bkNHWmxLUkg5VFF2WEVrenhYLTYxY09vM2pPTWZiR2E1S2w0UUVqZ0R2OHNIUDQ3OTEzbHBjQjNscTVNckRPZG84bTdWTnNpY1hzbHZCQ3E2QnRWaHNYdTFsNnRkSEJMYUhpenU1QTBPRnozUHRiUmlGaS1KUWRFOWxrTXd5Rlc4R1pyeWJSOWlBeW5YYXgwNTh6MVExQmVadWNOQ1FZVkR2Mll2NFNUTEHSAZYCQVVfeXFMTzhXQjllX0lRRlRHXy1kQXNSd2poampkMm1mQ1B1VVFQNFhpMEhDekRnLVVOTFB5MmxlLTBTOGdIWGNXcjlkeUxMSnhvWFpRaUtVTWI2c1YtREszaGozX0x0a0hnakVmOEtkTjdkZG9Na3JrdWZpUm84dVdPWEd4eXdEcFY5a0JzVURKUnROX3V4S0dmajZTbkRBbHg4R1JGWUswc3hleC1oUWNUc3RuUWVtT1BzVERiUDR4RzJXVlBvbEdGMUtqOVlqcTY2VmZic1hTM2tiZEJiQWd5VmNrOGRJNXRDbUdKd2h6Rm1BSXJndUhfLXp2dFZzYjhQcVByNmt4R0dJS1IzeC12c2JkRi1XWnh2U3c?oc=5",
-                "resumen": "“El deseo erótico en Bolivia se educa con racismo”: Juan Pablo Vargas Rollano y la pedagogía antirracista en el mundo virtual EL PAÍS",
-                "fecha": "Thu, 12 Nov 2026 09:30:00 GMT",
-                "titulo_original": "“El deseo erótico en Bolivia se educa con racismo”: Juan Pablo Vargas Rollano y la pedagogía antirracista en el mundo virtual - EL PAÍS",
-                "tags": [],
-                "tema_repetido": false,
-                "cluster_tema": "",
-                "coincidencias_count": 0
+                "coincidencias_count": 7
               },
               {
                 "titulo": "Un nuevo ataque con drones deja cuatro soldados muertos en el Catatumbo - EL PAÍS",
@@ -1698,7 +1730,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Guerra Ucrania / Rusia / Frente Oriental",
-                "coincidencias_count": 6
+                "coincidencias_count": 12
               }
             ],
             "estado": "OK",
@@ -1709,48 +1741,44 @@
             "perfil": "Cobertura continental / Noticias en directo",
             "noticias": [
               {
-                "titulo": "Campaña de las elecciones generales 29-N, en directo: PP y Vox lograrían una mayoría absoluta cómoda con entre 189 y 202 escaños, según los últimos sondeos",
-                "url": "https://www.infobae.com/espana/2026/11/13/campana-de-las-elecciones-generales-29-n-en-directo-las-entrevistas-de-jordi-wild-un-nuevo-sondeo-y-ultima-hora-politica/",
-                "resumen": "La campaña arranca oficialmente hoy, con actos de los partidos, las entrevistas a Feijóo, Sánchez y Colau, y el primer debate electoral. El CIS da al PSOE ventaja sobre el PP y descarta una mayoría absoluta con Vox, en contradicción con el resto de los sondeos electorales",
-                "fecha": "Fri, 13 Nov 2026 09:40:38 +0000",
-                "titulo_original": "Campaña de las elecciones generales 29-N, en directo: PP y Vox lograrían una mayoría absoluta cómoda con entre 189 y 202 escaños, según los últimos sondeos",
+                "titulo": "Campaña de las elecciones generales 29-N, en directo: Pedro Sánchez defiende la “buena política ante la mala educación” en el primer fin de semana de campaña",
+                "url": "https://www.infobae.com/espana/2026/11/14/campana-de-las-elecciones-generales-29-n-en-directo-primer-fin-de-semana-de-la-campana-electoral/",
+                "resumen": "Los principales líderes políticos ofrecen mítines y entrevistas en el arranque de la carrera para captar votos",
+                "fecha": "Sat, 14 Nov 2026 12:41:03 +0000",
+                "titulo_original": "Campaña de las elecciones generales 29-N, en directo: Pedro Sánchez defiende la “buena política ante la mala educación” en el primer fin de semana de campaña",
                 "tags": [],
                 "tema_repetido": false,
                 "cluster_tema": "",
                 "coincidencias_count": 0
               },
               {
-                "titulo": "Por qué la tos puede durar semanas después de un resfrío y cuándo consultar",
-                "url": "https://www.infobae.com/salud/2026/11/13/por-que-la-tos-puede-durar-semanas-despues-de-un-resfriado-y-cuando-consultar/",
-                "resumen": "El cuadro viral remite en pocos días, pero la molestia respiratoria continúa. Cómo se explica este desfase, cuánta eficacia tienen los medicamentos comunes y cuál es el momento indicado para acudir al médico.",
-                "fecha": "Fri, 13 Nov 2026 09:37:29 +0000",
-                "titulo_original": "Por qué la tos puede durar semanas después de un resfrío y cuándo consultar",
+                "titulo": "¿Cómo llegar al Santuario de Santo Toribio de Mogrovejo y qué debes saber antes de visitarlo?",
+                "url": "https://www.infobae.com/peru/2026/11/14/como-llegar-al-santuario-de-santo-toribio-de-mogrovejo-y-que-debes-saber-antes-de-visitarlo/",
+                "resumen": "El histórico santuario se encuentra en Zaña, provincia de Chiclayo, y será escenario del encuentro de oración que presidirá el papa León XIV por la clausura del Año Jubilar. Conoce su importancia religiosa, dónde está ubicado y qué debes considerar para organizar tu visita",
+                "fecha": "Sat, 14 Nov 2026 12:40:16 +0000",
+                "titulo_original": "¿Cómo llegar al Santuario de Santo Toribio de Mogrovejo y qué debes saber antes de visitarlo?",
                 "tags": [],
                 "tema_repetido": false,
                 "cluster_tema": "",
                 "coincidencias_count": 0
               },
               {
-                "titulo": "La inflación se mantiene en el 4,9% en octubre, su nivel más alto desde febrero de 2023, pese a la bajada de los combustibles",
-                "url": "https://www.infobae.com/espana/2026/11/13/la-inflacion-se-mantiene-en-el-49-en-octubre-su-nivel-mas-alto-desde-febrero-de-2023-pese-a-la-bajada-de-los-combustibles/",
-                "resumen": "El avance del gas y los paquetes turísticos compensó el freno de los combustibles, según los datos definitivos publicados este viernes por el Instituto Nacional de Estadística",
-                "fecha": "Fri, 13 Nov 2026 09:35:51 +0000",
-                "titulo_original": "La inflación se mantiene en el 4,9% en octubre, su nivel más alto desde febrero de 2023, pese a la bajada de los combustibles",
-                "tags": [
-                  "#Minería",
-                  "#Energía",
-                  "#Recursos"
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "Energía",
-                "coincidencias_count": 2
+                "titulo": "Suspensión de vuelos en Estados Unidos: las aerolíneas buscan reprogramar más de 3.300 viajes cancelados",
+                "url": "https://www.infobae.com/estados-unidos/2026/11/14/en-vivo-suspension-de-vuelos-en-eeuu/",
+                "resumen": "La prohibición nacional temporaria de despegues del viernes, que registró más de 15.000 viajes afectados según el rastreador FlightAware, fue la más prolongada de los últimos 25 años",
+                "fecha": "Sat, 14 Nov 2026 12:40:01 +0000",
+                "titulo_original": "Suspensión de vuelos en Estados Unidos: las aerolíneas buscan reprogramar más de 3.300 viajes cancelados",
+                "tags": [],
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
               },
               {
-                "titulo": "Jordi Wild entrevista a Feijóo: “Pensaba que serías el que me diría que no o el último que me diría que sí, y fuiste el primero”",
-                "url": "https://www.infobae.com/espana/2026/11/13/jordi-wild-entrevista-a-feijoo-pensaba-que-serias-el-que-me-diria-que-no-o-el-ultimo-que-me-diria-que-si-y-fuiste-el-primero/",
-                "resumen": "El presidente y candidato del PP se ha sometido durante cerca de dos horas a las preguntas del streamer",
-                "fecha": "Fri, 13 Nov 2026 09:33:17 +0000",
-                "titulo_original": "Jordi Wild entrevista a Feijóo: “Pensaba que serías el que me diría que no o el último que me diría que sí, y fuiste el primero”",
+                "titulo": "Lo que no se vio de la caída de Argentina ante Uruguay: el nuevo mimado por los hinchas, el recuerdo de Maradona y el público en la bombonera",
+                "url": "https://www.infobae.com/deportes/2026/11/14/lo-que-no-se-vio-de-la-derrota-de-argentina-frente-a-uruguay-el-nuevo-mimado-por-los-hinchas-el-recuerdo-de-maradona-y-publico-en-la-bombonera/",
+                "resumen": "La Albiceleste perdió 2-1 en la Bombonera, en lo que fue el primer partido de la era post Messi",
+                "fecha": "Sat, 14 Nov 2026 12:39:14 +0000",
+                "titulo_original": "Lo que no se vio de la caída de Argentina ante Uruguay: el nuevo mimado por los hinchas, el recuerdo de Maradona y el público en la bombonera",
                 "tags": [],
                 "tema_repetido": false,
                 "cluster_tema": "",
@@ -1765,44 +1793,49 @@
             "perfil": "Cobertura continental / Televisión Panamericana",
             "noticias": [
               {
-                "titulo": "Hegseth otorga medalla a un soldado que lo reprendió a él y a sus ayudantes en el Cementerio de Arlington - CNN en Español",
-                "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPMm9LWGpDOGN6aVNsOUV4cmQtY3djaUdWa2J3bGRGODN2RDI1a2RiUGZGamdoTUJvanFpaXZmZGk5SC1CaGRScHlmMUgzbFpFZldia0xyMTdHV3htTXgzYnFsbXEyTktFR25Vbk1zYVk0bXBfTS1wMGNCYWJMVTRwcVgtWHhieXMtSUxxTHZaT1dvQXQ3U2hWT0dJOHdwWHRxMjdEMw?oc=5",
-                "resumen": "Hegseth otorga medalla a un soldado que lo reprendió a él y a sus ayudantes en el Cementerio de Arlington CNN en Español",
-                "fecha": "Thu, 12 Nov 2026 16:42:00 GMT",
-                "titulo_original": "Hegseth otorga medalla a un soldado que lo reprendió a él y a sus ayudantes en el Cementerio de Arlington - CNN en Español",
+                "titulo": "Así está el aeropuerto de Miami tras la suspensión de vuelos en todo Estados Unidos - CNN en Español",
+                "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPS3p2eTZJLTdmaFBEQ3VjdUNoWU1lS3JsalA4Vng3a1FuNHBuZzdyVW0yUnVzaThRbUpIYnViTG9JZFVpa09YNmpBc28tcFVncWJnSE5Sdkt4aUM5cFR3bkpQTDh6NUVScTB3elVzdzNqQWJuQ21fajNFVDl2cEVWNlRkakZXbUNCWVRSQmE4Mm9QMDRvTW13ME5RVk8?oc=5",
+                "resumen": "Así está el aeropuerto de Miami tras la suspensión de vuelos en todo Estados Unidos CNN en Español",
+                "fecha": "Fri, 13 Nov 2026 22:41:13 GMT",
+                "titulo_original": "Así está el aeropuerto de Miami tras la suspensión de vuelos en todo Estados Unidos - CNN en Español",
                 "tags": [],
                 "tema_repetido": false,
                 "cluster_tema": "",
                 "coincidencias_count": 0
               },
               {
-                "titulo": "Al menos 8 muertos por derrumbe de edificio en Brooklyn; rescatistas trabajan contra reloj ante la llegada de tormenta - CNN en Español",
-                "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPWWZBbXRRTFFYOV95azRGV080TTMyRUJycmJwUmdLTUhXbGdINzlRdnZ5SmRJYkxtZXZWelRJNzZ6UTB3bTkzLW9makFLWFFnTjVleFBQU1JYX3dRbVdiYy00QjBfeXBQbVdDREFDMm1kODNzNmV4ejdqeXQyalFRazBn?oc=5",
-                "resumen": "Al menos 8 muertos por derrumbe de edificio en Brooklyn; rescatistas trabajan contra reloj ante la llegada de tormenta CNN en Español",
-                "fecha": "Thu, 12 Nov 2026 12:59:00 GMT",
-                "titulo_original": "Al menos 8 muertos por derrumbe de edificio en Brooklyn; rescatistas trabajan contra reloj ante la llegada de tormenta - CNN en Español",
+                "titulo": "Estados Unidos suspende todos los vuelos nacionales: esto es lo que sabemos - CNN en Español",
+                "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQbkVWQXU1dDJBNndnRDhFb2dQbEdEZWNaN3hyWEhoQVFVWUNHdTUyMFNheVRFdS14WEh5bTVqc3dFdTd1RFB2ZEpYWE9ic0ROLW1QMUVSY1FLeVlfWkp2VkNTU0IzZUEtWW5jY2ExRVF1MlhhdEUxbGVTNFlFN190UTQ1VkN5MUxYRHc?oc=5",
+                "resumen": "Estados Unidos suspende todos los vuelos nacionales: esto es lo que sabemos CNN en Español",
+                "fecha": "Fri, 13 Nov 2026 21:56:01 GMT",
+                "titulo_original": "Estados Unidos suspende todos los vuelos nacionales: esto es lo que sabemos - CNN en Español",
                 "tags": [],
                 "tema_repetido": false,
                 "cluster_tema": "",
                 "coincidencias_count": 0
               },
               {
-                "titulo": "Una interrupción masiva de Microsoft afecta a empresas, escuelas y gobiernos de todo el mundo - CNN en Español",
-                "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQQjNGYUNuX095ZzVwYlBrRTFlN2FXaVhYOHFDZkVma1ZmV0hrN3JRWWgwT0JTSGlKVzdlRUxrOTIyZ29lZXM0c0wzNTdiSmdsYUhHSFdXZWtGRVJTQklPcW1aV2FzQTVoZEx5ZG1IYVJVVDBRbVdpbTkwdWxRYjI3clJhVERkQVU?oc=5",
-                "resumen": "Una interrupción masiva de Microsoft afecta a empresas, escuelas y gobiernos de todo el mundo CNN en Español",
-                "fecha": "Fri, 13 Nov 2026 04:25:00 GMT",
-                "titulo_original": "Una interrupción masiva de Microsoft afecta a empresas, escuelas y gobiernos de todo el mundo - CNN en Español",
-                "tags": [],
-                "tema_repetido": false,
-                "cluster_tema": "",
-                "coincidencias_count": 0
+                "titulo": "Choque de un buque cisterna con un crucero fluvial deja al menos 32 heridos cerca del Puerto de Nueva Orleans - CNN en Español",
+                "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOLUR4WUZZVWtoMHdUVDdNZldoNGFSYldrZFJjcU5Cbng2aWhCQ1lzOVJ1NFd4TjFUa01PYk1OREYxbHNUcFdqTi1KQ1dvdVdGVXRWWThJMEl5UW1USEFJem14ckNVVWwySUJybDhhLXJsN3ZqY2R0YXMxOTBDWmpsbGx6alIxRGkzd1VtdnhKTDU5T1hqUnlMUUdhWTlfakk?oc=5",
+                "resumen": "Choque de un buque cisterna con un crucero fluvial deja al menos 32 heridos cerca del Puerto de Nueva Orleans CNN en Español",
+                "fecha": "Sat, 14 Nov 2026 00:37:00 GMT",
+                "titulo_original": "Choque de un buque cisterna con un crucero fluvial deja al menos 32 heridos cerca del Puerto de Nueva Orleans - CNN en Español",
+                "tags": [
+                  "#Transporte",
+                  "#Ferrocarril",
+                  "#Accidente",
+                  "#Infraestructuras"
+                ],
+                "tema_repetido": true,
+                "cluster_tema": "Accidente Ferroviario / Red de Transporte",
+                "coincidencias_count": 11
               },
               {
-                "titulo": "Un muerto y cuatro heridos en un tiroteo en Logan Circle, ciudad de Washington - CNN en Español",
-                "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxORGRuOUJUeGlkTGtNTGxpSENOM25xUExPaTdOZGVXVHZjSzd1S2w1OFI3aWhIVk9ra3NQOEpYN2VyX3FwRUk0VUhPWHB2alBZZ18wWjc5b2ZFR2hncWdMbDdMVks2QUhXc2ItV0lYZ3lZTk94Y0t6RTNJeFdaalhCWG5INXp6NHJjVHFaWjNoaw?oc=5",
-                "resumen": "Un muerto y cuatro heridos en un tiroteo en Logan Circle, ciudad de Washington CNN en Español",
-                "fecha": "Thu, 12 Nov 2026 16:22:00 GMT",
-                "titulo_original": "Un muerto y cuatro heridos en un tiroteo en Logan Circle, ciudad de Washington - CNN en Español",
+                "titulo": "¿Por qué suspendieron los despegues de aviones en EE.UU.? - CNN en Español",
+                "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNMU9ScVdiRlhNUl9icUtYN0lpRjRnRjJudnp0UUh6c2NkM2kyVDhoN0FwSHpJYlVjbHo5b2NTYzNldXRHR0NIN0c0TktTZ0dOV3ZqLUVYTUp6alk4OGJOQlNIaTNJNzR1emp5ekk4dzJPZDdob1AwazNCaEgyNG93QUZFNXJkZG15UFJkQi1sQk9JcUUwbW1UUTE3bTROeGxuTmFGVVpIUHVvTDdSMHBNYXZSNWUwNmUtRlB4UHQyelQ?oc=5",
+                "resumen": "¿Por qué suspendieron los despegues de aviones en EE.UU.? CNN en Español",
+                "fecha": "Sat, 14 Nov 2026 00:10:44 GMT",
+                "titulo_original": "¿Por qué suspendieron los despegues de aviones en EE.UU.? - CNN en Español",
                 "tags": [],
                 "tema_repetido": false,
                 "cluster_tema": "",
@@ -1823,53 +1856,37 @@
             "perfil": "Geopolítica / Economía Africana",
             "noticias": [
               {
-                "titulo": "¿Quién es Gadi Eisenkot? Rival de Netanyahu, comandante de la guerra de Gaza, hijo de Marruecos",
-                "url": "https://www.theafricareport.com/436262/who-is-gadi-eisenkot-netanyahus-rival-gaza-war-commander-son-of-morocco/",
-                "resumen": "El general que formó parte del gabinete de guerra de Israel ahora quiere el puesto de Netanyahu. Rabat observa de cerca, pero su historial y su programa ofrecen pocas esperanzas de un respiro para los palestinos.",
-                "fecha": "Fri, 13 Nov 2026 08:00:00 +0000",
-                "titulo_original": "Who is Gadi Eisenkot? Netanyahu’s rival, Gaza war commander, son of Morocco",
+                "titulo": "Charly Kodjo: el productor marfileño que lleva el cine africano de París a los pueblos",
+                "url": "https://www.theafricareport.com/436192/charly-kodjo-ivorian-producer-taking-african-cinema-from-paris-to-the-villages/",
+                "resumen": "Después de atraer a más de 2.500 espectadores a un estreno en París, el galardonado productor está desafiando el dominio extranjero del cine africano y construyendo un modelo de negocios para llevar películas financiadas localmente a audiencias de todo el continente, incluidas aldeas remotas.",
+                "fecha": "Sat, 14 Nov 2026 08:00:00 +0000",
+                "titulo_original": "Charly Kodjo: Ivorian producer taking African cinema from Paris to the villages",
                 "tags": [
-                  "#Política",
-                  "#OrienteMedio",
-                  "#Geopolítica",
-                  "#Seguridad"
+                  "#Sociedad"
                 ],
-                "tema_repetido": true,
-                "cluster_tema": "Conflicto Oriente Medio (Gaza / Líbano)",
-                "coincidencias_count": 5
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
               },
               {
-                "titulo": "Nigeria 2027: Entre Soludo y Obi, ¿quién tiene los oídos de los votantes de Anambra?",
-                "url": "https://www.theafricareport.com/436229/nigeria-2027-between-soludo-and-obi-who-has-anambra-voters-ears/",
-                "resumen": "El gobernador Charles Soludo ha prometido al presidente Bola Tinubu más de la mitad de los votos de Anambra, pero Peter Obi obtuvo más del 95% en su estado natal en 2023. ¿Pueden el gobierno en el poder y una alianza APC-APGA anular esa lealtad electoral?",
-                "fecha": "Fri, 13 Nov 2026 07:00:00 +0000",
-                "titulo_original": "Nigeria 2027: Between Soludo and Obi, who has Anambra voters’ ears?",
+                "titulo": "Nigeria: T1 Marine de Folawiyo lucha contra la autoridad fiscal por una demanda fiscal de 1,2 millones de dólares",
+                "url": "https://www.theafricareport.com/436327/nigeria-folawiyos-t1-marine-battles-revenue-authority-over-1-2m-tax-demand/",
+                "resumen": "T1 Marine Services del multimillonario Tunde Folawiyo está enfrascado en una batalla legal de ocho años con el Servicio de Ingresos de Nigeria por evaluaciones fiscales en disputa de 1.650 millones de libras esterlinas y 2.880 millones de libras esterlinas en gastos comerciales no permitidos.",
+                "fecha": "Fri, 13 Nov 2026 15:00:00 +0000",
+                "titulo_original": "Nigeria: Folawiyo’s T1 Marine battles revenue authority over $1.2m tax demand",
                 "tags": [
                   "#Política"
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Política",
-                "coincidencias_count": 6
+                "coincidencias_count": 4
               },
               {
-                "titulo": "Hemley Boum: “El Camerún de Paul Biya es un cuerpo en descomposición gobernado por una silla vacía”",
-                "url": "https://www.theafricareport.com/436199/hemley-boum-paul-biyas-cameroon-is-a-decaying-body-ruled-by-an-empty-chair/",
-                "resumen": "En su última novela, Hemley Boum ofrece un retrato inquebrantable de las décadas en el poder del presidente camerunés Biya. En una entrevista, el escritor examina el legado de un régimen que se acerca a su fin.",
-                "fecha": "Fri, 13 Nov 2026 06:00:00 +0000",
-                "titulo_original": "Hemley Boum: ‘Paul Biya’s Cameroon is a decaying body ruled by an empty chair’",
-                "tags": [
-                  "#Política"
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "Política",
-                "coincidencias_count": 6
-              },
-              {
-                "titulo": "Estados Unidos-Sudáfrica: Ramaphosa pone a prueba las sanciones de visas de Trump con una visita a Estados Unidos centrada en la inteligencia artificial",
-                "url": "https://www.theafricareport.com/436210/us-south-africa-ramaphosa-tests-trumps-visa-sanctions-with-ai-focused-us-visit/",
-                "resumen": "A pesar de las restricciones de visas y la hostilidad diplomática de Washington, el presidente sudafricano está llevando una delegación de alto poder a California para buscar inversiones en tecnología, con un posible encuentro con Elon Musk.",
-                "fecha": "Thu, 12 Nov 2026 16:00:00 +0000",
-                "titulo_original": "US-South Africa: Ramaphosa tests Trump’s visa sanctions with AI-focused US visit",
+                "titulo": "Estados Unidos-África: Trump elige a un pastor y uno de sus primeros patrocinadores como embajador de Estados Unidos en la República Democrática del Congo",
+                "url": "https://www.theafricareport.com/436340/us-africa-trump-picks-pastor-and-early-backer-as-us-ambassador-to-the-drc/",
+                "resumen": "John Mark Burns, un predicador de Carolina del Sur sin experiencia diplomática, ocuparía un puesto que quedó vacante durante casi un año mientras Washington refuerza su control sobre el cobalto y el cobre del Congo.",
+                "fecha": "Fri, 13 Nov 2026 13:00:00 +0000",
+                "titulo_original": "US-Africa: Trump picks pastor and early backer as US ambassador to the DRC",
                 "tags": [
                   "#Política",
                   "#EEUU",
@@ -1877,7 +1894,23 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Elecciones y Pugna Institucional EE.UU.",
-                "coincidencias_count": 5
+                "coincidencias_count": 7
+              },
+              {
+                "titulo": "Litio, oro, uranio… La silenciosa contraofensiva estadounidense contra China y Rusia en África Occidental",
+                "url": "https://www.theafricareport.com/436326/lithium-gold-uranium-the-quiet-us-counter-offensive-against-china-and-russia-in-west-africa/",
+                "resumen": "En busca de oro y litio en Mali, Estados Unidos está tratando de ganar terreno contra los jugadores chinos y rusos. En medio de acuerdos opacos y rivalidades geopolíticas, nos adentramos en la batalla por los recursos del Sahel.",
+                "fecha": "Fri, 13 Nov 2026 12:37:50 +0000",
+                "titulo_original": "Lithium, gold, uranium… The quiet US counter-offensive against China and Russia in West Africa",
+                "tags": [
+                  "#Negocio",
+                  "#Geopolítica",
+                  "#GuerraUcrania",
+                  "#Defensa"
+                ],
+                "tema_repetido": true,
+                "cluster_tema": "Guerra Ucrania / Rusia / Frente Oriental",
+                "coincidencias_count": 12
               }
             ],
             "estado": "OK",
@@ -1888,48 +1921,44 @@
             "perfil": "África Francófona / Magreb",
             "noticias": [
               {
-                "titulo": "En Camerún, las grandes maniobras de Motaze para financiar el presupuesto de 2027",
-                "url": "https://www.jeuneafrique.com/1860629/economie-entreprises/au-cameroun-les-grandes-manoeuvres-de-motaze-pour-financer-le-budget-2027/",
-                "resumen": "Como en enero pasado, el Ministro de Finanzas camerunés tiene previsto emitir un eurobono a principios de 2027. Encuestados durante semanas, los inversores parecen reservados. Entre bastidores.",
-                "fecha": "2026-11-13T08:28:49+00:00",
-                "titulo_original": "Au Cameroun, les grandes manœuvres de Motaze pour financer le budget 2027",
+                "titulo": "Final del Mundial 2030: nuevo brote de fiebre entre Marruecos y España",
+                "url": "https://www.jeuneafrique.com/1861391/politique/finale-de-la-coupe-du-monde-2030-nouvelle-poussee-de-fievre-entre-le-maroc-et-lespagne/",
+                "resumen": "Después de unas semanas de calma, se han reanudado las bromas entre Rabat y Madrid sobre la celebración de la final del Mundial de 2030. La FIFA, por su parte, probablemente no se pronunciará hasta dentro de al menos un año.",
+                "fecha": "2026-11-14T11:29:46+00:00",
+                "titulo_original": "Finale de la Coupe du monde 2030 : nouvelle poussée de fièvre entre le Maroc et l’Espagne",
                 "tags": [],
                 "tema_repetido": false,
                 "cluster_tema": "",
                 "coincidencias_count": 0
               },
               {
-                "titulo": "Estados Unidos: estos funcionarios electos nacidos en África, nuevas caras de la política estadounidense",
-                "url": "https://www.jeuneafrique.com/1860278/politique/etats-unis-ces-elus-nes-en-afrique-nouveaux-visages-de-la-politique-americaine/",
-                "resumen": "En las elecciones de mitad de mandato, una dura derrota para Donald Trump, también se incorporaron al Congreso muchos funcionarios electos nacidos en África. Descubra estos rostros de la primera generación de inmigrantes que se establecieron bajo la bandera demócrata.",
-                "fecha": "2026-11-13T07:59:40+00:00",
-                "titulo_original": "États-Unis : ces élus nés en Afrique, nouveaux visages de la politique américaine",
-                "tags": [
-                  "#EEUU",
-                  "#Elecciones",
-                  "#Política"
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "Elecciones y Pugna Institucional EE.UU.",
-                "coincidencias_count": 5
-              },
-              {
-                "titulo": "Un caso de tráfico de visados ​​Schengen avergüenza al consulado español en Argelia",
-                "url": "https://www.jeuneafrique.com/1860774/politique/une-affaire-de-trafic-de-visas-schengen-embarrasse-le-consulat-despagne-en-algerie/",
-                "resumen": "Se trata de un tráfico a gran escala que han descubierto las policías argelina y española. Se trata, en particular, de un diplomático y su esposa, quienes supuestamente utilizaron sus ganancias para adquirir numerosos activos inmobiliarios.",
-                "fecha": "2026-11-13T07:55:00+00:00",
-                "titulo_original": "Une affaire de trafic de visas Schengen embarrasse le consulat d’Espagne en Algérie",
+                "titulo": "Financiar el desarrollo: ¿logrará el BAfD reducir la dependencia de África?",
+                "url": "https://www.jeuneafrique.com/1861282/economie-entreprises/financement-du-developpement-la-bad-reussira-t-elle-a-reduire-la-dependance-de-lafrique/",
+                "resumen": "Para reducir la dependencia del financiamiento externo, el Banco Africano de Desarrollo (BAfD) apuesta por una red de instituciones regionales africanas. El capital híbrido y la titulización deberían permitir movilizar mejor los ahorros del continente.",
+                "fecha": "2026-11-14T10:25:45+00:00",
+                "titulo_original": "Financement du développement : la BAD réussira-t-elle à réduire la dépendance de l’Afrique ?",
                 "tags": [],
                 "tema_repetido": false,
                 "cluster_tema": "",
                 "coincidencias_count": 0
               },
               {
-                "titulo": "Elecciones en Camerún: Paul Biya moviliza al CPDM ante el “mayor entusiasmo” de la oposición",
-                "url": "https://www.jeuneafrique.com/1861169/politique/elections-au-cameroun-paul-biya-mobilise-le-rdpc-face-a-lengouement-accru-de-lopposition/",
-                "resumen": "Paul Biya quiere poner al RDPC en orden de batalla para las elecciones de febrero de 2027. En una circular escrita, mientras se cierne la sombra de su sucesión y la oposición quiere organizarse, el jefe de Estado exige energía y probidad.",
-                "fecha": "2026-11-13T06:59:00+00:00",
-                "titulo_original": "Élections au Cameroun : Paul Biya mobilise le RDPC face à « l’engouement accru » de l’opposition",
+                "titulo": "Paul Biya moviliza al CPDM, Dangote lanza un megaproyecto en Namibia, Gadi Eisenkot a las puertas del poder... Las 5 noticias que no debes perderte",
+                "url": "https://www.jeuneafrique.com/1861338/politique/paul-biya-mobilise-le-rdpc-dangote-lance-un-mega-projet-en-namibie-gadi-eizenkot-aux-portes-du-pouvoir-les-5-infos-quil-ne-fallait-pas-manquer/",
+                "resumen": "Esta semana, el Jeune Afrique Brief vuelve a la preparación del RDPC para la batalla antes de las elecciones camerunesas de febrero de 2027, se centra en el megaproyecto de combustible lanzado por Aliko Dangote en Namibia, descifra el ascenso de Gadi Eisenkot, hijo de marroquíes, en Is",
+                "fecha": "2026-11-14T08:30:00+00:00",
+                "titulo_original": "Paul Biya mobilise le RDPC, Dangote lance un méga projet en Namibie, Gadi Eizenkot aux portes du pouvoir… Les 5 infos qu’il ne fallait pas manquer",
+                "tags": [],
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
+              },
+              {
+                "titulo": "Masacre de Shakahola en Kenia: detrás de escena de la investigación de Jeune Afrique",
+                "url": "https://www.jeuneafrique.com/1860873/politique/massacre-de-shakahola-au-kenya-dans-les-coulisses-de-lenquete-de-jeune-afrique/",
+                "resumen": "El 6 de noviembre, el pastor keniano Paul Mackenzie fue condenado a 200 años de prisión por el asesinato de 191 personas. Con motivo de este veredicto, Jeune Afrique se adentra entre bastidores de su documental sobre la espiral mortal que condujo a esta masacre sin precedentes.",
+                "fecha": "2026-11-13T19:56:06+00:00",
+                "titulo_original": "Massacre de Shakahola au Kenya : dans les coulisses de l’enquête de Jeune Afrique",
                 "tags": [],
                 "tema_repetido": false,
                 "cluster_tema": "",
@@ -1944,68 +1973,68 @@
             "perfil": "Panafricano / Noticias directas",
             "noticias": [
               {
-                "titulo": "África: Toda África hoy - 13 de noviembre de 2026",
-                "url": "https://allafrica.com/stories/202611130101.html",
-                "resumen": "[toda África]",
-                "fecha": "Fri, 13 Nov 2026 07:01:07 GMT",
-                "titulo_original": "Africa: All of Africa Today - November 13, 2026",
+                "titulo": "África: Juegos Olímpicos de la Juventud Dakar 2026: tras el logro histórico, el desafío de un legado duradero para África",
+                "url": "https://allafrica.com/stories/202611130334.html",
+                "resumen": "[allAfrica] Los primeros Juegos Olímpicos de la Juventud celebrados en el continente africano, los JOJ Dakar 2026, concluyeron el 13 de noviembre con un récord elogiado por los líderes del movimiento olímpico. Más allá del éxito organizativo y el entusiasmo popular, Senegal y sus socios se enfrentan ahora a un gran desafío.",
+                "fecha": "Fri, 13 Nov 2026 13:33:35 GMT",
+                "titulo_original": "Africa: Dakar 2026 Youth Olympic Games - After The Historic Achievement, The Challenge of a Lasting Legacy for Africa",
                 "tags": [
                   "#África",
-                  "#AlimentaciónAgricultura",
-                  "#ÁfricaCentral",
-                  "#Conflicto"
+                  "#JuegosOlímpicos",
+                  "#Senegal",
+                  "#Deporte"
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "África",
-                "coincidencias_count": 3
-              },
-              {
-                "titulo": "Sudáfrica: Se reanuda el caso de las luces azules de Mkhwanazi - Noticias breves de Sudáfrica - 13 de noviembre de 2026",
-                "url": "https://allafrica.com/stories/202611130092.html",
-                "resumen": "[toda África]",
-                "fecha": "Fri, 13 Nov 2026 06:11:51 GMT",
-                "titulo_original": "South Africa: Mkhwanazi Blue Lights Case Resumes - South African News Briefs - November 13, 2026",
-                "tags": [
-                  "#Economía",
-                  "#NegociosFinanzas",
-                  "#Energía",
-                  "#Gobernancia"
-                ],
-                "tema_repetido": true,
-                "cluster_tema": "Economía",
                 "coincidencias_count": 2
               },
               {
-                "titulo": "África: África lo logró: convertir la riqueza algodonera de África en empleos, industria y poder económico",
-                "url": "https://allafrica.com/stories/202611120586.html",
-                "resumen": "[allAfrica] África produce algodón, inspira la moda mundial y cuenta con una vibrante industria creativa. Sin embargo, gran parte del valor económico generado a partir de estos recursos se captura más allá del continente. Lanzada durante CANEX WKND 2026 en Lagos, Nigeria, la campaña Africa Made It busca",
-                "fecha": "Thu, 12 Nov 2026 14:07:23 GMT",
-                "titulo_original": "Africa: Africa Made It: Turning Africa's Cotton Wealth into Jobs, Industry and Economic Power",
+                "titulo": "Nigeria: Caso Index Ébola: la esposa de un diplomático suizo se recupera y recibe el alta del hospital",
+                "url": "https://allafrica.com/stories/202611130516.html",
+                "resumen": "[Este día] Abuja - El Centro para el Control y la Prevención de Enfermedades de Nigeria (NCDC) ha dicho que el caso índice de Ébola de Nigeria: la esposa del diplomático suizo se recuperó y fue dada de alta del hospital en Suiza.",
+                "fecha": "Fri, 13 Nov 2026 17:06:33 GMT",
+                "titulo_original": "Nigeria: Index Ebola Case - Swiss Diplomat's Wife Recovers, Discharged From Hospital",
                 "tags": [
-                  "#África",
-                  "#Agronegocios",
-                  "#AlimentaciónAgricultura",
-                  "#Letras"
+                  "#Ébola",
+                  "#SaludMedicina",
+                  "#Nigeria",
+                  "#ÁfricaOccidental"
+                ],
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
+              },
+              {
+                "titulo": "Sudáfrica: Johannesburgo sube la temperatura mientras los residentes esperan ayuda",
+                "url": "https://allafrica.com/stories/202611130314.html",
+                "resumen": "[Desplazamiento] Los trabajadores al aire libre deben tomar descansos regulares y los residentes deben evitar la luz solar directa entre las 11 a. m. y las 3 p. m. Se esperan un clima más fresco y tormentas eléctricas durante el fin de semana, lo que ofrecerá algo de alivio al calor.",
+                "fecha": "Fri, 13 Nov 2026 13:15:07 GMT",
+                "titulo_original": "South Africa: Joburg Turns Up the Heat As Residents Wait for Relief",
+                "tags": [
+                  "#Clima",
+                  "#Ambiente",
+                  "#Sudáfrica",
+                  "#África"
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "África",
-                "coincidencias_count": 3
+                "coincidencias_count": 2
               },
               {
-                "titulo": "Níger: CDHNU pide millones en ayuda de emergencia para cubrir vacíos críticos",
-                "url": "https://allafrica.com/stories/202611120372.html",
-                "resumen": "[toda África] Ginebra – La Agencia de la ONU para los Refugiados, ACNUR, advirtió el martes sobre una crisis cada vez más profunda que ha provocado que decenas de miles de personas huyan de Nigeria a los vecinos Níger y Benin, donde están surgiendo problemas de desnutrición y enfermedades.",
-                "fecha": "Thu, 12 Nov 2026 11:27:17 GMT",
-                "titulo_original": "Niger: UNHRC Calls For Millions in Emergency Aid to Fill Critical Gaps",
+                "titulo": "Etiopía: Residentes de Mekelle piden esfuerzos sostenidos del gobierno federal para impulsar reformas en Tigray",
+                "url": "https://allafrica.com/stories/202611130514.html",
+                "resumen": "[ENA] Addis Abeba -- Los residentes de Mekelle han instado al gobierno federal a sostener y acelerar los esfuerzos de reforma, reconstrucción y desarrollo en la región de Tigray.",
+                "fecha": "Fri, 13 Nov 2026 17:05:32 GMT",
+                "titulo_original": "Ethiopia: Mekelle Residents Call for Sustained Federal Govt Efforts to Advance Reforms in Tigray",
                 "tags": [
-                  "#Benín",
                   "#Conflicto",
                   "#PazSeguridad",
-                  "#RelacionesExternas"
+                  "#ÁfricaOriental",
+                  "#Etiopía"
                 ],
-                "tema_repetido": true,
-                "cluster_tema": "Conflicto",
-                "coincidencias_count": 2
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
               }
             ],
             "estado": "OK",
@@ -2022,52 +2051,57 @@
             "perfil": "Regional / Negocios e Internacional",
             "noticias": [
               {
-                "titulo": "Se llama al organismo de control de la privacidad después de una propuesta inmobiliaria para utilizar el reconocimiento facial para la entrada",
-                "url": "https://www.scmp.com/news/hong-kong/society/article/3374354/privacy-watchdog-called-after-estate-proposal-use-facial-recognition-entry",
-                "resumen": "El organismo de control de la privacidad de Hong Kong ha iniciado una verificación de cumplimiento sobre el uso de un sistema de reconocimiento facial propuesto en una urbanización privada con 8.000 hogares, después de que la medida planteara preocupaciones sobre la privacidad entre algunos residentes. La Oficina del Comisionado de Privacidad para Personal D",
-                "fecha": "Fri, 13 Nov 2026 09:39:03 +0000",
-                "titulo_original": "Privacy watchdog called after estate proposal to use facial recognition for entry",
+                "titulo": "Turquía detiene a 6 personas por mortal explosión de acero que mató a 17",
+                "url": "https://www.scmp.com/news/world/europe/article/3374446/turkey-detains-6-over-deadly-steel-blast-killed-17",
+                "resumen": "Seis personas fueron arrestadas durante la noche después de que una gran explosión en una planta siderúrgica cerca de la ciudad occidental de Izmir matara a 17 trabajadores, y las familias afligidas esperaban el martes recibir los cuerpos de sus seres queridos para el entierro. Los espectadores dijeron que la explosión masiva del lunes se sintió como \"un terremoto\" w",
+                "fecha": "Sat, 14 Nov 2026 12:40:28 +0000",
+                "titulo_original": "Turkey detains 6 over deadly steel blast that killed 17",
                 "tags": [],
                 "tema_repetido": false,
                 "cluster_tema": "",
                 "coincidencias_count": 0
               },
               {
-                "titulo": "Hong Kong eximirá de la nueva regulación las importaciones de dispositivos médicos para uso personal",
-                "url": "https://www.scmp.com/news/hong-kong/health-environment/article/3374348/hong-kong-exempt-medical-device-imports-personal-use-new-regulation",
-                "resumen": "Los dispositivos médicos comprados en plataformas en línea ubicadas fuera de Hong Kong para uso propio o como obsequio personal no estarán sujetos a una ley propuesta que exige que los comerciantes de dispositivos médicos se registren ante el gobierno, dijo el ministro de salud de la ciudad. Secretario de Salud Lo Chung-mau o",
-                "fecha": "Fri, 13 Nov 2026 09:24:45 +0000",
-                "titulo_original": "Hong Kong to exempt medical device imports for personal use from new regulation",
-                "tags": [],
-                "tema_repetido": false,
-                "cluster_tema": "",
-                "coincidencias_count": 0
-              },
-              {
-                "titulo": "Cómo una mala impresión puso en riesgo una célebre inscripción en un acantilado Han de 2.000 años de antigüedad",
-                "url": "https://www.scmp.com/news/china/politics/article/3374339/how-bad-impression-put-celebrated-2000-year-old-han-cliff-inscription-risk",
-                "resumen": "Los informes de que dos ciudadanos chinos fueron condenados en Mongolia por hacer impresiones no autorizadas de una famosa inscripción en un acantilado de la dinastía Han de 2.000 años de antigüedad han encendido el debate entre los entusiastas del patrimonio cultural chino y la preocupación pública por la protección de los sitios históricos. Th",
-                "fecha": "Fri, 13 Nov 2026 09:14:30 +0000",
-                "titulo_original": "How a bad impression put a celebrated 2,000-year-old Han cliff inscription at risk",
-                "tags": [],
-                "tema_repetido": false,
-                "cluster_tema": "",
-                "coincidencias_count": 0
-              },
-              {
-                "titulo": "Hong Kong eleva el pronóstico de crecimiento para 2026 al 4,8% a medida que las exportaciones impulsadas por la IA impulsan la economía",
-                "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3374344/hong-kong-raises-growth-forecast-48-ai-driven-exports-power-economy",
-                "resumen": "Hong Kong ha mejorado su pronóstico de crecimiento económico para 2026 al 4,8 por ciento, impulsado por la reciente fortaleza de las exportaciones relacionadas con la inteligencia artificial, y se espera que el desempeño para todo el año sea el mejor en cinco años. Se elevó la última proyección del gobierno, publicada el viernes.",
-                "fecha": "Fri, 13 Nov 2026 09:09:06 +0000",
-                "titulo_original": "Hong Kong raises 2026 growth forecast to 4.8% as AI-driven exports power economy",
+                "titulo": "El gigante ferroviario de Hong Kong advierte sobre la escasez de efectivo a pesar de la concesión de tierras en Northern Metropolis",
+                "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3374441/hong-kong-rail-giant-warns-cash-crunch-despite-northern-metropolis-land-grant",
+                "resumen": "MTR Corp de Hong Kong ha advertido que enfrentará importantes presiones de flujo de caja en los próximos años, incluso con la concesión por parte del gobierno de ocho nuevos sitios para desarrollar el proyecto ferroviario Northern Link en la Metrópolis del Norte. La advertencia se produjo cuando la Comunidad de Investigación Liber",
+                "fecha": "Sat, 14 Nov 2026 12:12:49 +0000",
+                "titulo_original": "Hong Kong rail giant warns of cash crunch despite Northern Metropolis land grant",
                 "tags": [
-                  "#DeepTech",
-                  "#InteligenciaArtificial",
-                  "#Innovación"
+                  "#Transporte",
+                  "#Ferrocarril",
+                  "#Accidente",
+                  "#Infraestructuras"
                 ],
                 "tema_repetido": true,
-                "cluster_tema": "Tecnología Disruptiva, IA y Biotecnología",
-                "coincidencias_count": 4
+                "cluster_tema": "Accidente Ferroviario / Red de Transporte",
+                "coincidencias_count": 11
+              },
+              {
+                "titulo": "Mientras se avecina Apec, Shenzhen de China concluye los preparativos para su prueba de resistencia más dura de su historia",
+                "url": "https://www.scmp.com/news/china/politics/article/3374445/apec-looms-chinas-shenzhen-wraps-preparations-its-toughest-stress-test-ever",
+                "resumen": "Los drones están prohibidos, las cámaras de seguridad se erizan en las intersecciones y a algunos residentes se les ha pedido que abandonen sus hogares mientras la ciudad de Shenzhen, en el sur de China, hace la cuenta regresiva para las reuniones de Apec. Se esperan miles de funcionarios gubernamentales, periodistas, turistas y empresarios.",
+                "fecha": "Sat, 14 Nov 2026 12:01:55 +0000",
+                "titulo_original": "As Apec looms, China’s Shenzhen wraps up preparations for its toughest stress test ever",
+                "tags": [
+                  "#Geopolítica",
+                  "#GuerraUcrania",
+                  "#Defensa"
+                ],
+                "tema_repetido": true,
+                "cluster_tema": "Guerra Ucrania / Rusia / Frente Oriental",
+                "coincidencias_count": 12
+              },
+              {
+                "titulo": "Roban 17.000 códigos QR de entradas de Disneyland en Hong Kong y se suspenden las ventas online",
+                "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3374444/17000-hong-kong-disneyland-ticket-qr-codes-stolen-online-sales-suspended",
+                "resumen": "Hong Kong Disneyland Resort informó a la policía el robo de 17.000 códigos QR de boletos de su sistema de venta de boletos en línea y suspendió las ventas a través de su sitio web, según se enteró el South China Morning Post. Una fuente afirmó el sábado que un trabajador informático del parque de atracciones de Lantau I",
+                "fecha": "Sat, 14 Nov 2026 11:53:21 +0000",
+                "titulo_original": "17,000 Hong Kong Disneyland ticket QR codes stolen, online sales suspended",
+                "tags": [],
+                "tema_repetido": false,
+                "cluster_tema": "",
+                "coincidencias_count": 0
               }
             ],
             "estado": "OK",
@@ -2090,7 +2124,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Tecnología Disruptiva, IA y Biotecnología",
-                "coincidencias_count": 4
+                "coincidencias_count": 2
               },
               {
                 "titulo": "La reunión conmemorativa del Día de la Libertad de Sudáfrica revela su búsqueda de dignidad y gobernanza inclusiva en la era posterior al apartheid",
@@ -2117,7 +2151,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Accidente Ferroviario / Red de Transporte",
-                "coincidencias_count": 5
+                "coincidencias_count": 11
               },
               {
                 "titulo": "Experto chino critica la afirmación del canciller filipino de que la delimitación entre Japón y Filipinas \"no tiene nada que ver\" con China y advierte que la medida sirve para propósitos ulteriores más allá de las conversaciones bilaterales.",
@@ -2152,7 +2186,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Manifestaciones y Protestas Sociales",
-                "coincidencias_count": 4
+                "coincidencias_count": 6
               },
               {
                 "titulo": "El fracaso de Estados Unidos en nombrar embajador australiano es un \"insulto diplomático\": ex viceprimer ministro",
@@ -2194,7 +2228,7 @@
                 ],
                 "tema_repetido": true,
                 "cluster_tema": "Accidente Ferroviario / Red de Transporte",
-                "coincidencias_count": 5
+                "coincidencias_count": 11
               }
             ],
             "estado": "OK",
