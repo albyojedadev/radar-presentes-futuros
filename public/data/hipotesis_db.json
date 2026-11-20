@@ -10,6 +10,12 @@
     "totalSenales": 6,
     "senalesPro": [
       {
+        "titular": "Fuzzy logic, clear outcome: machine learning does not infringe driver-assistance patent, which Milan court also finds invalid",
+        "fuente": "Kluwer Copyright & IPKat (Legislación Europea y Mundial PI) (2026-11-19)",
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNdGtNMnpvT1VkRE5qZUNPcW83dTBVdExMc2UyQWJVN0I0LURDLWU3dUMxY3JGTHhxUm55NGJlZjlvZ1VhYV8wTDhWME9ScGRjOFo0cnZRWXJMRTNhTDZxaGhnOHpqZzdoXzlpb282Rm8yODBieFB4ZVRWUUtabjBMbG9B?oc=5",
+        "impacto": "Coincidencia temática directa (copyright) con la hipótesis HIP-01."
+      },
+      {
         "titular": "Los derechos de autor baten récord de ingresos bajo la amenaza de la IA",
         "fuente": "SafeCreative Noticias (Propiedad Intelectual e IA) (2026-11-18)",
         "url": "https://www.safecreative.org/tips/es/los-derechos-de-autor-baten-record-de-ingresos-bajo-la-amenaza-de-la-ia/",
@@ -32,12 +38,6 @@
         "fuente": "SafeCreative Noticias (Propiedad Intelectual e IA) (2026-11-12)",
         "url": "https://www.safecreative.org/tips/es/gemini-ante-el-tjue-puede-la-ia-utilizar-noticias-sin-permiso/",
         "impacto": "Evidencia empírica directa confirmada en el informe del 2026-11-12"
-      },
-      {
-        "titular": "Trazabilidad de entrenamiento ante el colapso probatorio: SafeCreative y entidades de gestión alertan de la imposibilidad de auditar LLMs sin registros de origen",
-        "fuente": "SafeCreative Noticias (Propiedad Intelectual e IA) (2026-11-12)",
-        "url": "https://www.safecreative.org/tips/es/ep-155-como-saber-si-la-ia-ha-usado-tus-obras-para-entrenarse/",
-        "impacto": "Evidencia empírica directa confirmada en el informe del 2026-11-15"
       }
     ],
     "senalesContra": [
@@ -60,6 +60,18 @@
     "totalSenales": 6,
     "senalesPro": [
       {
+        "titular": "Dude, Where Are My Billions? Ashton Kutcher Edging Closer to Super Rich Status After Anthropic IPO",
+        "fuente": "The Hollywood Reporter — AI (2026-11-20)",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPUnNPZHhaNjdjS0QxOHFJWXpzVy1lY2RZSThaYjZyTXFVc005UmpXdF9UR3JnazIzMGVPZnI4SmxqaWY5NlQydVkyMzhjdkZha3NKSWtzYk9rc0Fjc01NN0xFR2pHWjhwOWNWSTJZclp6TkNaNDhEdzgyZUtwdWZMTnB1T2VIeFJIVlJqU3paakxPcFNqM3ZzbDFKX1Y0TkRzN0E0UjU1MA?oc=5",
+        "impacto": "Coincidencia temática directa (studio, vfx) con la hipótesis HIP-02."
+      },
+      {
+        "titular": "Exclusive | Nestle Teams Up With Microsoft, Boston Dynamics on AI in Factories and Products",
+        "fuente": "The Wall Street Journal — Tech & AI (Investigaciones Frontier y Fallos de Modelos) (2026-11-20)",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQWUFvdy1NOXphTWxlN25CWVV2TlppczdLSERycm44cVJmNmF5Q1g5Y184Tmoyak96ekgyZDd4N1h2d3diVUktU1E5aGNtSm1hV2JyNUltOENIU3NLdW1OcEdKVUk0THhOWF94aVlhMUFrNTBULW5hckZ4eWppTG1uMmU1TW1zdmZzSC14QmZySElQbm53dWE1bnhoMVhYNEtCV3ViMGp1bTl3MzB3QnhnVjdGbVJmUQ?oc=5",
+        "impacto": "Coincidencia temática directa (studio, vfx) con la hipótesis HIP-02."
+      },
+      {
         "titular": "Disney and AWS Team Up to Create AI-Powered ‘Star Wars’ Robots",
         "fuente": "The Hollywood Reporter — AI (2026-11-19)",
         "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOQW5ZMFNzVEJGQUdqWnVtTTJYRHJaaWdnX1hWeHY2Mnk5MkdielQ4a0pOekV3ZjE4TndQZmRNbW9UUHhucGZ1bGNxbXFzdDRhaHh1R3RjQnl1MmRtU1lfOWlWc0M1ZFZLQjJuTF9aZXl5bkN1SjlvUDR3OF84RU5JVDFuRzhaUmFPbUkzcnhNeDVNWWpQZXR1S1ZRU0lTc1RXWTR0a3pmZkdxOUk2VG93?oc=5",
@@ -72,22 +84,10 @@
         "impacto": "Coincidencia temática directa (studio, vfx) con la hipótesis HIP-02."
       },
       {
-        "titular": "Aiarty Video Enhancer – Offline AI Denoising, 4K Upscaling and Black Friday Offer",
-        "fuente": "CineD (Cinematografía, Sensores y Herramientas IA) (2026-11-18)",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNX1Y3Wlc5clMyNnh3WDRfX0hFTU5wVy1LLUN1QnU3MDFDMVNvc1AtY2M0QUlQazN0YzZtR2habDdVMjdfYzBmYjV3bERQMlU3TTltckN2bk55Y1UzM3k5QllyTEFsdDJxTkU1NGxJRU9fR01xUUZjRVoyY0FkVlhsZE1taEdubkhodmFSYm9zMS16TWs2MkIwNE9lWGxSbmRxXzk0?oc=5",
+        "titular": "Topview T1 | An Honest AI Video Generator Review",
+        "fuente": "Curious Refuge (Cine con IA, Workflows & Festivales) (2026-11-19)",
+        "url": "https://curiousrefuge.com/blog/topview-t1-ai-video-generator-honest-review",
         "impacto": "Coincidencia temática directa (studio, vfx) con la hipótesis HIP-02."
-      },
-      {
-        "titular": "Skydance Animation Shakeup; The Death Of Etsy; Manchester’s AI Ban",
-        "fuente": "Cartoon Brew (Animación y VFX) (2026-11-18)",
-        "url": "https://www.cartoonbrew.com/newsletter/skydance-animation-shakeup-the-death-of-etsy-manchesters-ai-ban-269561.html",
-        "impacto": "Coincidencia temática directa (studio, vfx, animation) con la hipótesis HIP-02."
-      },
-      {
-        "titular": "Envato's 2nd Annual AI Report Finds Adoption Has Outrun the Rules",
-        "fuente": "Animation World Network — AWN (Animación e IA) (2026-11-18)",
-        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxObVQ0bmVpZ045VFRlMTZJVV9wZy1PcGl3SWF1R1ZBR0ZJVThzVmZ4WmhiMTdQaTNEQW94OHdBYlRmaHhLWWZwMURmS1NLYUNCZWloVHI4WWd1QXktZUJ5T0dfU2VfUlBCYVlMX1h6eFpxdWNjeEI4aFYzZE1BSFotX003MmRGVGZqUm4yS0ZB?oc=5",
-        "impacto": "Coincidencia temática directa (studio, vfx, animation) con la hipótesis HIP-02."
       }
     ],
     "senalesContra": [
@@ -110,6 +110,12 @@
     "totalSenales": 5,
     "senalesPro": [
       {
+        "titular": "Fujitsu expands Google Cloud partnership to target enterprise AI adoption",
+        "fuente": "Radar Adopción Empresarial Real, ROI y Métricas de Productividad (Google News) (2026-11-20)",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNZXpYdERoMUlGck8yanhQR0cxajJ1X05WU1F1a25VaUdSLWlMZXJ0SnluSGpMZ2lYVDdHeDRwbUZNdTR0c1hXZkFwQ0FISWl1V3VwT1RFd25udFVFZVN4UTVJNGdqNVE2YjB4TnFwdDl2VWNwOXdIaE5EMFBSckVyTnVoZ0hreVRIaDBqZ1pvUFFheG1iZjhVNjE2VFpzYXB5M2xhRG9WSjZZVlVCNkRTY1lHM09LdkE?oc=5",
+        "impacto": "Coincidencia temática directa (enterprise) con la hipótesis HIP-03."
+      },
+      {
         "titular": "Qwen vs ChatGPT (2026): Scores, Prices, Privacy, Verdict",
         "fuente": "Labs Frontera Orientales (DeepSeek, Qwen, Kling, Seedance/ByteDance, Hailuo/MiniMax, Hunyuan) (2026-11-19)",
         "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9OQ1VNZkRZQWd1enVtNjR4MFpfZlZpRUwxa3VCYjExSXBjN3ZTMHFKMDVJQTlOZk5XcHdQTEpENVJSaVo0SGx2TlUyckY?oc=5",
@@ -128,16 +134,10 @@
         "impacto": "Coincidencia temática directa (enterprise) con la hipótesis HIP-03."
       },
       {
-        "titular": "Microsoft and organizations across industries launch AI Transparency Initiative to strengthen enterprise trust in AI models and agents",
-        "fuente": "Federaciones Europeas de Creadores Audiovisuales (FERA Directores & FSE Guionistas) (2026-11-18)",
-        "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPaWozdTJGTnFGZXY1bDN6SW1jMERNVkZyMW1OQUlod0pHQVZZNDJjVFBjWjFXZy16UFNTNnlPNFVIazRFRTZCZjNfMkVVOWxUUEcwSEJacnJnYTByWHhPT2Z4SG9JS2pIdlNjcElpbG1aSDlneEY5U0VxUUZwTk12MXFUMFJiQ2kzRDc4THJOaGNURjd0M0cyN1JfclhCM01uam5VelZNbWNnUG5tdHRSd1VZTlpyd3lncDBuY2pCVzhyZjdhY2xUbjZ6bE94U0pRbmNpZDFzeU1ublBKazcwV1BOMnlQNkVpLTRBTU5wNHdHX3M?oc=5",
-        "impacto": "Coincidencia temática directa (enterprise) con la hipótesis HIP-03."
-      },
-      {
-        "titular": "At Ignite 2026, Microsoft reinvents Copilot as the autonomous engine of enterprise work",
-        "fuente": "Radar Agentes de Código, SWE-Bench y Personal Software (Google News) (2026-11-18)",
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOYmk1ckZmYUdxVXZDaS1LV1N5RWFQNEVLOWxER2VobUNtbEF6bFJ6X3Qzby1QV2tYaGp2bmM0WFpoOXRPY0lpTm0yNHlpZ2pTOTdaMXpuN0RvRHhkaWxlalF4N0M3dXliSEZiUlc4RUVGaFN6b01qZFZfY0gxeDAwNzZmVDk3UW9nUnQtOTVmdHBUeTc4UTZ5T2l5eWtiYXVzLWg1QllOSzVkUmx6VlQ4RFZjbUxSNmNrOHdjek4zQWo?oc=5",
-        "impacto": "Coincidencia temática directa (enterprise) con la hipótesis HIP-03."
+        "titular": "Arizona says it is investigating OpenAI, other firms over possible rogue agents",
+        "fuente": "Reuters Technology & AI (Agentes Autónomos, Mercados y Brechas de Seguridad) (2026-11-19)",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPeWlhZGtUbEFjczdrQzZ5YnM2MEJiSkdwYUx3YTB2SkhQUVV0WnBBNU51aHM4ZFFvaXBEMzRWY1hGVmZtbGVYVmV0ZGtLbWFHaWt4Yk1kWWx4blBVTjVNUC1Ld1JpVXdHcWlfek1ickphT3M5Q1FYRE1LV2NkZDRXYWRBcmlnOVQ0QjVtTm5CS3FYUFVSMXotdkdzX0JkVGNJQTYtenA3eHdqTE9PYjNPR1RuZk52dTR5anp0RkdTYm5rMHNpVk8zVTNFMGtWcG8?oc=5",
+        "impacto": "Refuerza la urgencia de capas locales de control, permisos y soberanía antes de exponer datos críticos."
       }
     ],
     "senalesContra": []
@@ -152,6 +152,18 @@
     "traccionScore": 98,
     "totalSenales": 6,
     "senalesPro": [
+      {
+        "titular": "Dude, Where Are My Billions? Ashton Kutcher Edging Closer to Super Rich Status After Anthropic IPO",
+        "fuente": "The Hollywood Reporter — AI (2026-11-20)",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPUnNPZHhaNjdjS0QxOHFJWXpzVy1lY2RZSThaYjZyTXFVc005UmpXdF9UR3JnazIzMGVPZnI4SmxqaWY5NlQydVkyMzhjdkZha3NKSWtzYk9rc0Fjc01NN0xFR2pHWjhwOWNWSTJZclp6TkNaNDhEdzgyZUtwdWZMTnB1T2VIeFJIVlJqU3paakxPcFNqM3ZzbDFKX1Y0TkRzN0E0UjU1MA?oc=5",
+        "impacto": "Coincidencia temática directa (doblaje) con la hipótesis HIP-04."
+      },
+      {
+        "titular": "Exclusive | Nestle Teams Up With Microsoft, Boston Dynamics on AI in Factories and Products",
+        "fuente": "The Wall Street Journal — Tech & AI (Investigaciones Frontier y Fallos de Modelos) (2026-11-20)",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQWUFvdy1NOXphTWxlN25CWVV2TlppczdLSERycm44cVJmNmF5Q1g5Y184Tmoyak96ekgyZDd4N1h2d3diVUktU1E5aGNtSm1hV2JyNUltOENIU3NLdW1OcEdKVUk0THhOWF94aVlhMUFrNTBULW5hckZ4eWppTG1uMmU1TW1zdmZzSC14QmZySElQbm53dWE1bnhoMVhYNEtCV3ViMGp1bTl3MzB3QnhnVjdGbVJmUQ?oc=5",
+        "impacto": "Coincidencia temática directa (doblaje) con la hipótesis HIP-04."
+      },
       {
         "titular": "Disney and AWS Team Up to Create AI-Powered ‘Star Wars’ Robots",
         "fuente": "The Hollywood Reporter — AI (2026-11-19)",
@@ -169,18 +181,6 @@
         "fuente": "Kinótico (Industria Audiovisual, Festivales y Análisis) (2026-11-19)",
         "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQelVTbG5WQzhuQ3JVd0hmWjRCTks4UVRZSExjekpMQnpEb085ZDBWaC1IeUNhcklRNk1wNUhTTXB5ZldDMlJOYzBQZHJWbktjbWR2UlpkTk1UZ05qNmxSNi1CY3VNMGNRbnZjZ2NjSENJaGRMcUtPYUtjQnMwNEt4UW01SjdzRGJLT2tpM3d2akhxeWFLSlRnVXZ0MWxvak01UnBxLVJZOVFRX2tHZmNIXzFjajhNd1k4OWl0R1VHaGI5VDd6VThGRHlfcndvbjFfd1N2VXcyTUZybHp6YVVGeEJXNlNDUmx1S3lNNXAwcHpUeHdYNTBxWW5NRUU3Y0hNaV9MLVUyMA?oc=5",
         "impacto": "Coincidencia temática directa (doblaje) con la hipótesis HIP-04."
-      },
-      {
-        "titular": "Aiarty Video Enhancer – Offline AI Denoising, 4K Upscaling and Black Friday Offer",
-        "fuente": "CineD (Cinematografía, Sensores y Herramientas IA) (2026-11-18)",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNX1Y3Wlc5clMyNnh3WDRfX0hFTU5wVy1LLUN1QnU3MDFDMVNvc1AtY2M0QUlQazN0YzZtR2habDdVMjdfYzBmYjV3bERQMlU3TTltckN2bk55Y1UzM3k5QllyTEFsdDJxTkU1NGxJRU9fR01xUUZjRVoyY0FkVlhsZE1taEdubkhodmFSYm9zMS16TWs2MkIwNE9lWGxSbmRxXzk0?oc=5",
-        "impacto": "Coincidencia temática directa (doblaje) con la hipótesis HIP-04."
-      },
-      {
-        "titular": "Skydance Animation Shakeup; The Death Of Etsy; Manchester’s AI Ban",
-        "fuente": "Cartoon Brew (Animación y VFX) (2026-11-18)",
-        "url": "https://www.cartoonbrew.com/newsletter/skydance-animation-shakeup-the-death-of-etsy-manchesters-ai-ban-269561.html",
-        "impacto": "Coincidencia temática directa (dama, doblaje) con la hipótesis HIP-04."
       }
     ],
     "senalesContra": [
@@ -215,22 +215,22 @@
         "impacto": "Coincidencia temática directa (data center) con la hipótesis HIP-05."
       },
       {
-        "titular": "Strong AI demand still makes data center, neocloud suppliers attractive: Portfolio Manager",
-        "fuente": "Radar Global Burbuja IA, Deuda de GPUs y Riesgo Neocloud (Google News Tech/Finance) (2026-11-16)",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOdkdfZHltRU8wRzZmQ2l4a0FfRlRCeERoVnllaW1hM19HMFA2dllfNTdKclRCWGtaakZpSGkzaVZRNmppMWxLMF9JNGpsSTg1QURJYVZPRFo0b3VqWUtjUlZTcWFDb3g0MktIVnNwTlZobnhiNlc2QlZkUEZLdnVTZWVPakRLclJjX2R6NVVpZFoxb1JPZHNrNGg5ZzlwTk9kV2pWeG84WDJlRDRnU1pNTg?oc=5",
-        "impacto": "Coincidencia temática directa (data center) con la hipótesis HIP-05."
+        "titular": "Energía para la IA en Sun&Tech Málaga by Alhambra Venture: el reto eléctrico de los centros de datos en Powering AI",
+        "fuente": "Radar Festivales y Mercados Audiovisuales España (San Sebastián, Málaga, Sitges, Iberseries) (2026-11-18)",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPb3N2T1NLRmRFM3J4dGpsN0RpVDM2ZTc5RkFFbEFGS0llVlpsZ0RBM0VzdmM1c1FNanc1dkZfeXI0ckc3UnctRjJ6bkpLcUVQcE5MbktqX1U0eVlIT3M2NloxamhaX2RLeGpBLVVrRllfUDJZeV9mQldUQ2hjaUdNbXRXamx3eFU5RUdYbTBTSUI0MnpmaDhseEZmVEFGR2tzZzFzUlQ4LVFnQdIBqgFBVV95cUxPb3N2T1NLRmRFM3J4dGpsN0RpVDM2ZTc5RkFFbEFGS0llVlpsZ0RBM0VzdmM1c1FNanc1dkZfeXI0ckc3UnctRjJ6bkpLcUVQcE5MbktqX1U0eVlIT3M2NloxamhaX2RLeGpBLVVrRllfUDJZeV9mQldUQ2hjaUdNbXRXamx3eFU5RUdYbTBTSUI0MnpmaDhseEZmVEFGR2tzZzFzUlQ4LVFnQQ?oc=5",
+        "impacto": "Confirma el cuello de botella físico en redes eléctricas para alimentar centros de datos de IA."
       },
       {
-        "titular": "Oakland City Council Extends AI Data Center Moratorium for 10 Months.",
-        "fuente": "Radar Semiconductores, Margen de GPUs y Moratorias de Red (Google News Tech/Markets) (2026-11-16)",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPeGVSdkNDMXUzWDMyV2N2Y0l4TThKQ2E5ZFZzaENEY3JhenhmRVBiTkVtTkZ3Z09DQUM4UWRtczFSTVM4eERXcFptb0I2VkZEbFBRR2ZLRkVVMm9PdWdNd2o0b3FTRkFmUzM1WDIxWDdyNEFlSTdCYjlieml6TDViRlhmVDlWMUVWZGpQUDlzc0lZZ1pCWTVFaEtfdw?oc=5",
-        "impacto": "Coincidencia temática directa (data center) con la hipótesis HIP-05."
+        "titular": "Los centros de datos de IA podrían llegar a consumir más agua de la que beben los estadounidenses en un año para 2030, según un CEO e que está trabajando en una solución",
+        "fuente": "Radar Centros de Datos España (Consumo Eléctrico, Agua y Plan IA360) (2026-11-18)",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxObHhLVnZMaVZVRzlFME9PdldxU0RXVmxHVkxrbFZYcFE2dHdULU9XUjZMX0lTRlZMaXpJTmU5MWVGM3hkSklEcThwX1N2WThQS3h2eS1MRlNBTVR6dE13ODh1RmhkdWZGS1g1S2tDMHBKdGtfNGh3dmlGV3VmYldNeWxIcVVqVWVkbzNYY2VtSWw0X1U?oc=5",
+        "impacto": "Confirma el choque físico hídrico de los centros de datos de IA y la necesidad de soluciones simbióticas."
       },
       {
-        "titular": "La Administración estadounidense designará a Nvidia y un consorcio de hyperscalers como 'Campeones Nacionales de IA' para blindar subsidios y primacía frente a China",
-        "fuente": "The Wall Street Journal — Tech & AI (2026-11-16)",
-        "url": "https://www.wsj.com/tech/ai/trump-administration-nvidia-national-champions-ai-infrastructure-2026/",
-        "impacto": "Guerra Fría de Silicio EEUU-China y Fragmentación Geopolítica"
+        "titular": "Los centros de datos de IA podrían consumir más agua de la que beben los estadounidenses cada año para 2030",
+        "fuente": "Radar Centros de Datos España (Consumo Eléctrico, Agua y Plan IA360) (2026-11-18)",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPWkJOUG45cGcwaTFuSWhEZHE4M0JEQjhfM1ByQ1AyNlNUZjNaSloweHMxdWU1R1VnUzBXbm1FOWVDRDFhZ1AzMjlib1ZFWXc4ak9JNDFzQ0p6OU14dnFsakh4amxpb2g1R1pFcjVwNnVjOEQ3WTZRT19GVGxhc3dJVENLYVA0WjNtb2Z2OQ?oc=5",
+        "impacto": "Reitera la tensión física sobre el agua dulce por la expansión de centros de datos."
       }
     ],
     "senalesContra": []
@@ -246,33 +246,33 @@
     "totalSenales": 5,
     "senalesPro": [
       {
+        "titular": "MiniMax Founder Falls From Billionaire Ranks After Losing $11.6 Billion In AI Rout",
+        "fuente": "Labs Frontera Orientales (DeepSeek, Qwen, Kling, Seedance/ByteDance, Hailuo/MiniMax, Hunyuan) (2026-11-20)",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxObGV4Y2t4X29ZMkFRTnYxOHh5TGYzajQ3NGVEcUdIeUNCaVpFZHhFZ1JuS0J5MGkyVThkdzh6cUwwRlJTVFZubVZ2RlNpblBITXVlY3JURmMwZV9xWHhSMmRfWUVtX0NaR2NUWEozbDA0UkZRXzB0NWVWcktzZmFKV0ZUX0VCMW9IYkVWNXJlLUFfejlyQk5xNEY2ZlNXblVqUm9FUGRfQjJUR0szeDRfWjRad2ZEaTdkem9lVFMtMGlXWDBoMnc?oc=5",
+        "impacto": "Coincidencia temática directa (deepseek, qwen, kling) con la hipótesis HIP-06."
+      },
+      {
+        "titular": "WeMM-Video-9B vs Hailuo 2.3: The Six-Second Silent Cap",
+        "fuente": "Labs Frontera Orientales (DeepSeek, Qwen, Kling, Seedance/ByteDance, Hailuo/MiniMax, Hunyuan) (2026-11-20)",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5kNWpsN0U2R1VENElmTlJhbzUzODU2MDBoeWJSZHVPcWVvZG9yVFloMlRFd3lZZThlY1pMeVZKVDAtNGtqZzJZSjI3RU9iMVdDSE0wX2VFRms2Y1JhcW5oU2J0bHhwdFRiYWc?oc=5",
+        "impacto": "Coincidencia temática directa (deepseek, qwen, kling) con la hipótesis HIP-06."
+      },
+      {
+        "titular": "Prime Intellect discloses unauthorized DeepSeek model swap that sharply reduced refusals",
+        "fuente": "Labs Frontera Orientales (DeepSeek, Qwen, Kling, Seedance/ByteDance, Hailuo/MiniMax, Hunyuan) (2026-11-20)",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOYzRuZUFqYnV4WTU2dkZPSnFJX3dXRldmdG14aEJvQkg4UXlHTHVQQks5X0Y0MXh0U1phVGtyMW0yOTZfS2plemFiZ2FDRVhSRXdRU0h6aVlqZV9XcnN6cGRtd2pkYVRvUktaSmR5MDhBMWV2dzJfbVVDb2FscDc0TkNNQTNJeEVhcHRjT2VYNnlBXzc0Q0hGcENleTMwMXV6QmZSMDNCbFFGOEExVjM1NWZEYV9iVlQ0TWpCMU9Ncw?oc=5",
+        "impacto": "Coincidencia temática directa (deepseek, qwen, kling) con la hipótesis HIP-06."
+      },
+      {
+        "titular": "Former DeepSeek Core Member Zhang Bo Open-Sources Personal Agent That Runs a 125B Model Locally on a 12GB GPU With No Token Fees",
+        "fuente": "Labs Frontera Orientales (DeepSeek, Qwen, Kling, Seedance/ByteDance, Hailuo/MiniMax, Hunyuan) (2026-11-20)",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1hWUhJZVduUzNpSkpLcFI4d0N6ZXRfQ0VOS085RzFXRlc4c2tOLXNqUUFUSE5hUmZCbFlLZDFYS2VfNExPUVNnbmM0RWs0Y2FISnoteEY5Z3hWUVpQM0RBd2s3SWJuYklJRlY1VjN3dE5WMmEzVUE?oc=5",
+        "impacto": "Coincidencia temática directa (deepseek, qwen, kling) con la hipótesis HIP-06."
+      },
+      {
         "titular": "India Startup Sells DeepSeek Access While Pursuing Sovereign AI",
         "fuente": "Labs Frontera Orientales (DeepSeek, Qwen, Kling, Seedance/ByteDance, Hailuo/MiniMax, Hunyuan) (2026-11-19)",
         "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPaXctc0ZCcnJ4X3Nqcm1qTGEzM0dHY29CX0dkYXNOcnBSdHdFR211RXh6SFR1LXhVMGNZbVJJZUVnX0Nyc0c4UjREa0I0SmZxOG5zc20yWFdJMy1FMTVma0VDakdtZkUwMVhUT1VjS0k4dmJGV0tWbFFkTnB0MHNFdEQtYzhnczQzczBFMld3Q1NRM0dVbmJKQUVWRTVmWEU0bnR6NWhEMFktOVBvSHFXbXBDRjI?oc=5",
-        "impacto": "Coincidencia temática directa (deepseek, qwen, kling) con la hipótesis HIP-06."
-      },
-      {
-        "titular": "DeepSeek drops separate fees for model-triggered web searches",
-        "fuente": "Labs Frontera Orientales (DeepSeek, Qwen, Kling, Seedance/ByteDance, Hailuo/MiniMax, Hunyuan) (2026-11-19)",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNTlFETFBSOGhRV3RWUUdjbGUzd1VMall4SDV1alRBMUhwU19KdmdacUNDbm5sUjhzOU9USDhUOTNUVWNzQVcwbWNSc1o1aE9YZEhrUWQ3R0xINGI1aGJTMlNjRnpiS3NIMUVTTVY0cktNQ0ZTaGNGODN1WGhFUUtjSk5LRU8xVlNua2tVc3J5alJaM3FNR1V5YXpn?oc=5",
-        "impacto": "Coincidencia temática directa (deepseek, qwen, kling) con la hipótesis HIP-06."
-      },
-      {
-        "titular": "Qwen vs ChatGPT (2026): Scores, Prices, Privacy, Verdict",
-        "fuente": "Labs Frontera Orientales (DeepSeek, Qwen, Kling, Seedance/ByteDance, Hailuo/MiniMax, Hunyuan) (2026-11-19)",
-        "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9OQ1VNZkRZQWd1enVtNjR4MFpfZlZpRUwxa3VCYjExSXBjN3ZTMHFKMDVJQTlOZk5XcHdQTEpENVJSaVo0SGx2TlUyckY?oc=5",
-        "impacto": "Coincidencia temática directa (deepseek, qwen, kling) con la hipótesis HIP-06."
-      },
-      {
-        "titular": "DeepSeek Removes Separate Fees for Model-Triggered Search and Web Fetch",
-        "fuente": "Labs Frontera Orientales (DeepSeek, Qwen, Kling, Seedance/ByteDance, Hailuo/MiniMax, Hunyuan) (2026-11-19)",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQakxYOFZROC1Xblc5S2hTUWdSb1ZOMVBNZmJ2YWt0TmRfY2tFc3hXUkIwZXAxNk5HUUZZNVRrMTlKR1FTMnBZd1F3X0ZRMTNnY3B2NmJSVW13QXJTMm5YeHlpNnY2a2JELS01WXFtU2szeXo4ZHVQcEh1YlJFUTlIZFY1b3FaSFNYekFZeFFpWkFpUQ?oc=5",
-        "impacto": "Coincidencia temática directa (deepseek, qwen, kling) con la hipótesis HIP-06."
-      },
-      {
-        "titular": "Lebrel Brings Uncensored DeepSeek V4.1 Flash From $0.13 per Million Input Tokens, Adds Alibaba's Qwen4-Max on Day One - Carroll County Mirror-Democrat",
-        "fuente": "Labs Frontera Orientales (DeepSeek, Qwen, Kling, Seedance/ByteDance, Hailuo/MiniMax, Hunyuan) (2026-11-18)",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOU3g3cG55S3FkUzdadl9CODI5V2ZMRkVPbWEtSHBMUTR5Z2dQcjk3RThjTmFLOFU1cDlWb2tWNDl5S1hKUVYxU1ZXMTE1WU1aN29QZEgzMkJoSm1jZG1zbWNTdlc3ZHBrT1lsV2hlUjBSYkhuMmc4S1ZTR3I0a0lGQld4cURSNEVnT0cxMWwweS1IWDA0azBSVVBDWFBhRGZvQS1JNkFaTDE4eXRSMWdfZHVHUlBxSVU?oc=5",
         "impacto": "Coincidencia temática directa (deepseek, qwen, kling) con la hipótesis HIP-06."
       }
     ],
@@ -295,28 +295,28 @@
         "impacto": "Coincidencia temática directa (transparencia) con la hipótesis HIP-07."
       },
       {
+        "titular": "Ep.156 Se queda sin editorial por usar IA en su novela: el caso de Thélyson Orélien",
+        "fuente": "SafeCreative Noticias (Propiedad Intelectual e IA) (2026-11-19)",
+        "url": "https://www.safecreative.org/tips/es/ep-156-se-queda-sin-editorial-por-usar-ia-en-su-novela-el-caso-de-thelyson-orelien/",
+        "impacto": "Coincidencia temática directa (transparencia) con la hipótesis HIP-07."
+      },
+      {
+        "titular": "Lucilla Sioli (Oficina Europea de IA), sobre los deepfakes y otras prácticas en campaña: \"Los políticos también están sujetos al reglamento europeo de IA\"",
+        "fuente": "Oficina Europea de IA / European AI Office (Comisión Europea — AI Act) (2026-11-19)",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPcV9yc1BOWDF0VmNZMnlySE5iQl9TWDFBOVJBSWJNM19kY0NaNU8xOFAyX2ZwZUE0ZE9MZ2tXQThrcy1IbUNiSEJ4YmcwQmd0T3BkbFpTSHA1bHAwOGhSVENuSGZtYkNtZ1N1MW9oOU9rcW13dVNBdHdXNzNMX2pBOHpiSmdFWDI2emNZSTBCLWhVbURsMnJrMmJR0gGfAUFVX3lxTE5XWjRsUHBvVUEwWFpKN0hUWW9INkl0bGc5TzlhX2FCUnBxWmZnYmdNU2xhRnhxNkRMTTZEVWZWMmVBZzVMa1dobUg0SlBmbkRGYWNkMUI0LUd4UWloVzlvWUQxTnhQQnN0SDdtbFkwTFFBNUM0eXFZZXdCQWVCSWVTVEpiRjcxaVlDWkd4TWdpUVNvdUxPTDZoNzY0Rklfbw?oc=5",
+        "impacto": "Coincidencia temática directa (deepfake, fake) con la hipótesis HIP-07."
+      },
+      {
+        "titular": "Behind the Curtain: Anthropic contradictions",
+        "fuente": "Axios AI & Tech (Primicias Geopolíticas, Seguridad y Filtraciones Washington) (2026-11-18)",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1zRm9ENm84U1FRN19NU2hIbmRBVjI0QTV5MlFKR2IwcjQwaWoweC1iVG9IQ29fU3VXS2JDWUhGS1ZiRDZ5UzBzenN1TkJ5YmZCd0JZRWdUckQwUW1lOGZabnpKNW1RTlFyVUluNHhJQ2NhempaLThr?oc=5",
+        "impacto": "Acentúa la crisis de credibilidad y la demanda de transparencia verificable en grandes firmas IA."
+      },
+      {
         "titular": "Developing Political Views with AI: What Election-Related Information Do Google’s AI Overviews Provide?",
         "fuente": "Radar Comercio Agéntico, Desintermediación y Protocolos de Compra (Google News) (2026-11-17)",
         "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE4yOUhod09IZnI1cTRybGswTmNhQlZaWG5INjI3Wk96bUx3NVhlSjNsOXRLMXBKWDlRQkIyRHBzMFk2WTM2YV9mUnZSdnl6cGJGRlFURTNzMmtsbHpzRmdqQUJKVjIxWnpUR19fTkoxbmFhVXgx?oc=5",
         "impacto": "Coincidencia temática directa (election) con la hipótesis HIP-07."
-      },
-      {
-        "titular": "Wall Street’s former top regulator says we’re in an AI bubble that could burst by 2028 election",
-        "fuente": "Radar Global Burbuja IA, Deuda de GPUs y Riesgo Neocloud (Google News Tech/Finance) (2026-11-16)",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPOS11RGszeTZoX1E1M0xzeFJ0R2ZEQV9EdFpVdklHV3ZYSnFKYkNOSVNaZTRJc2daR0Fpd0d0akVzY3lCUWtDc3pyZkIyMkxFdkRTUXAyMjBsRnBFRXJ0bHBXTHBuM0t5OWNhYUZVVkFyeXpXMGJibkxXZTdTZDlkczNJS1NVdFEwRVNiZA?oc=5",
-        "impacto": "Coincidencia temática directa (election) con la hipótesis HIP-07."
-      },
-      {
-        "titular": "El ex-regulador jefe de Wall Street advierte de que la burbuja de capital en IA estallará y provocará una recesión sistémica antes de las elecciones de 2028",
-        "fuente": "CNN Business / Radar Global Burbuja IA (Google News Tech/Finance) (2026-11-16)",
-        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1ISTFFbzctbFN5S3RraVZnbzBORlh6VHFWYS1rOTQxU2tiVDhkNDlGVS15R1UzMnVXUXQ1T1FKeWNYNmktNXozd3RnUXNGUjdNcDdqUUFxaTR0QU1PMGVCVHZkZWYyYlIwWjZUeXNUekNwVEE0cV9wcjVqWTE?oc=5",
-        "impacto": "Crisis de Honestidad tras Trauma Social por Desinformación"
-      },
-      {
-        "titular": "La trinchera ética de Hollywood se politiza: Pedro Pascal defiende el cine de presupuesto medio ante el auge de la IA y Tony Gilroy llama a 'reventar los centros de datos de IA en las urnas'",
-        "fuente": "Deadline — Artificial Intelligence & Guilds (2026-11-15)",
-        "url": "https://deadline.com/2026/11/behemoth-humanity-pedro-pascal-hope-amid-ai-boom-1237224503/",
-        "impacto": "Crisis de Honestidad tras Trauma Social por Desinformación"
       }
     ],
     "senalesContra": []
@@ -338,6 +338,18 @@
         "impacto": "Coincidencia temática directa (festival) con la hipótesis HIP-08."
       },
       {
+        "titular": "Inteligencia artificial en el trabajo: cómo está cambiando las empresas y las profesiones",
+        "fuente": "Radar Festivales y Mercados Audiovisuales España (San Sebastián, Málaga, Sitges, Iberseries) (2026-11-19)",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNRlVRa1dhb3gzclR1alV1VjJlcHVKQlhubnFfLUFTWm1IeWstNExmb28zcXpHVUtJTnhyUEdoekotU0t2T2Z3VVpDU1lIYUFQSk9vTjMwZXZvRVNrMnhhUFdVVU82ckdVQTlpYlhyVHlCN2Jid01OajdYM2xCZ2ZhTDRMZDEwMzFUcjZONjE0YzR5THYzM25jenZRUXRGR3NDc3NJckExcURmcEp5bGp4MXFUZlhsVzFzTTR0c1lYY2ZWXzjSAcMBQVVfeXFMTUZVUWtXYW94M3JUdWpVdVYyZXB1SkJYbm5xXy1BU1ptSHlrLTRMZm9vM3F6R1VLSU54clBHaHpKLVNLdk9md1VaQ1NZSGFBUEpPb04zMGV2b0VTazJ4YVBXVVVPNnJHVUE5aWJYclR5QjdiYndNTmo3WDNsQmdmYUw0TGQxMDMxVHI2TjYxNGM0eUx2MzNuY3p2UVF0RkdzQ3NzSXJBMXFEZnBKeWxqeDFxVGZYbFcxc000dHNZWGNmVl84?oc=5",
+        "impacto": "Coincidencia temática directa (festival) con la hipótesis HIP-08."
+      },
+      {
+        "titular": "Nextech3D.ai Reports Fiscal Q2 2027 Financial Results: AI Event Technology Doubles Revenue",
+        "fuente": "Federaciones Europeas de Creadores Audiovisuales (FERA Directores & FSE Guionistas) (2026-11-19)",
+        "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNUkJSLTdtRlZKTWFMM2Zmem10Ujgxc3k3S0g3cmQ2Z040eGlzRE8yYmlVUmtpQkdMZnd1WEpSN1lSNUFKWC1reUo1UjlhcjRIN3d4Z29EOVU4VWRleTNWR29kaEpSd0FHdXdiMVU1RnVpa2hzaXZ2STFCYVVwWVNwT2pEVHFwYWpDdlpPcUtKUldweXBoRXhHWXQydzdrTVMxR1J4TjZxbUtYV3JKRWpKQkFCZF80U2NUYzB3ZFdvd0dMNnBTRmRMb0N1UTljeDFtdnE0cWRzUmEwVVhPM0JkYlFoLTdmR1hGT2dyblFDZ3NSdmZJSFdwWFdUWUozdFlZdU1QbU95RVI1QUE?oc=5",
+        "impacto": "Coincidencia temática directa (directo) con la hipótesis HIP-08."
+      },
+      {
         "titular": "Los derechos de autor baten récord de ingresos bajo la amenaza de la IA",
         "fuente": "SafeCreative Noticias (Propiedad Intelectual e IA) (2026-11-18)",
         "url": "https://www.safecreative.org/tips/es/los-derechos-de-autor-baten-record-de-ingresos-bajo-la-amenaza-de-la-ia/",
@@ -348,18 +360,6 @@
         "fuente": "Federaciones Europeas de Creadores Audiovisuales (FERA Directores & FSE Guionistas) (2026-11-18)",
         "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPaWozdTJGTnFGZXY1bDN6SW1jMERNVkZyMW1OQUlod0pHQVZZNDJjVFBjWjFXZy16UFNTNnlPNFVIazRFRTZCZjNfMkVVOWxUUEcwSEJacnJnYTByWHhPT2Z4SG9JS2pIdlNjcElpbG1aSDlneEY5U0VxUUZwTk12MXFUMFJiQ2kzRDc4THJOaGNURjd0M0cyN1JfclhCM01uam5VelZNbWNnUG5tdHRSd1VZTlpyd3lncDBuY2pCVzhyZjdhY2xUbjZ6bE94U0pRbmNpZDFzeU1ublBKazcwV1BOMnlQNkVpLTRBTU5wNHdHX3M?oc=5",
         "impacto": "Coincidencia temática directa (directo) con la hipótesis HIP-08."
-      },
-      {
-        "titular": "Energía para la IA en Sun&Tech Málaga by Alhambra Venture: el reto eléctrico de los centros de datos en Powering AI",
-        "fuente": "Radar Festivales y Mercados Audiovisuales España (San Sebastián, Málaga, Sitges, Iberseries) (2026-11-18)",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPb3N2T1NLRmRFM3J4dGpsN0RpVDM2ZTc5RkFFbEFGS0llVlpsZ0RBM0VzdmM1c1FNanc1dkZfeXI0ckc3UnctRjJ6bkpLcUVQcE5MbktqX1U0eVlIT3M2NloxamhaX2RLeGpBLVVrRllfUDJZeV9mQldUQ2hjaUdNbXRXamx3eFU5RUdYbTBTSUI0MnpmaDhseEZmVEFGR2tzZzFzUlQ4LVFnQdIBqgFBVV95cUxPb3N2T1NLRmRFM3J4dGpsN0RpVDM2ZTc5RkFFbEFGS0llVlpsZ0RBM0VzdmM1c1FNanc1dkZfeXI0ckc3UnctRjJ6bkpLcUVQcE5MbktqX1U0eVlIT3M2NloxamhaX2RLeGpBLVVrRllfUDJZeV9mQldUQ2hjaUdNbXRXamx3eFU5RUdYbTBTSUI0MnpmaDhseEZmVEFGR2tzZzFzUlQ4LVFnQQ?oc=5",
-        "impacto": "Coincidencia temática directa (festival) con la hipótesis HIP-08."
-      },
-      {
-        "titular": "Computación Cuántica,IA y Datos en Pitches III de Sun&Tech Málaga by Alhambra Venture: las apuestas de ANAWI y AISPHERE",
-        "fuente": "Radar Festivales y Mercados Audiovisuales España (San Sebastián, Málaga, Sitges, Iberseries) (2026-11-18)",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOZTJmRjgyWm1QODczeTVXNF91ZEpJSy0tdW9tZ2Z6aUR1TlVlR1hNUGVkLW1zcElsRUJIUmx5S1JxQUdMa05lQy1RbzlQU0hXc1BscUlieW5pYTdiZmpvRDB3MkJJTVB4NXNubVZyUWVBeFlNakg3WjNtc3FSU0Utd3M4Rno1VDdEUHhXYWFkbnRhTTJScG5md3AzNVloS0ZtYTRHM1lrUkp2TVV4WDBQUk9rVkPSAbQBQVVfeXFMTmUyZkY4MlptUDg3M3k1VzRfdWRKSUstLXVvbWdmemlEdU5VZUdYTVBlZC1tc3BJbEVCSFJseUtScUFHTGtOZUMtUW85UFNIV3NQbHFJYnluaWE3YmZqb0QwdzJCSU1QeDVzbm1WclFlQXhZTWpIN1ozbXNxUlNFLXdzOEZ6NVQ3RFB4V2FhZG50YU0yUnBuZndwMzVZaEtGbWE0RzNZa1JKdk1VeFgwUFJPa1ZD?oc=5",
-        "impacto": "Coincidencia temática directa (festival) con la hipótesis HIP-08."
       }
     ],
     "senalesContra": [
@@ -400,16 +400,16 @@
         "impacto": "Coincidencia temática directa (salud mental) con la hipótesis HIP-09."
       },
       {
-        "titular": "Character.AI bankruptcy sale to have privacy ombudsman, US judge rules",
-        "fuente": "Radar Compañeros Virtuales, Apego Humano y Salud Mental (Google News) (2026-11-18)",
-        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBJSXpqV1VNOUh5UUlZaEFNelU4MnE1VW1xNGQ3MkFSMFpvQVdUU0RBTDgybkxRN094cGZxNW04VG5vYjFCS0FiWV96WlJVUHFkeUgxaGJQYUgyQdIBWkFVX3lxTFBJSXpqV1VNOUh5UUlZaEFNelU4MnE1VW1xNGQ3MkFSMFpvQVdUU0RBTDgybkxRN094cGZxNW04VG5vYjFCS0FiWV96WlJVUHFkeUgxaGJQYUgyQQ?oc=5",
+        "titular": "CITE26: New AI Companion Laws Complicate Use in Ed Tech",
+        "fuente": "Radar Compañeros Virtuales, Apego Humano y Salud Mental (Google News) (2026-11-19)",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQVDM5cEt0bkZqSTRCUTduZ2ZzOHhyN05VLXVicER5Qjh5ZUY1MDhYay01Q0liREZUajRxRUxSSzZ2WVpJQ0hjYWdFWGhkcUNwVmhwRWFoRkx0VzZvSFY4OG5JeXJRakVsczJkQ2xCQ2p2Q1hMOWNZSW1jX1dOcXNUcldDa0hZX1MzX2NMeW1BQ1VHWGtDa2hxYQ?oc=5",
         "impacto": "Coincidencia temática directa (salud mental) con la hipótesis HIP-09."
       },
       {
-        "titular": "What the therapist bot heard: Character.ai's chats are on the block",
-        "fuente": "Radar Compañeros Virtuales, Apego Humano y Salud Mental (Google News) (2026-11-17)",
-        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOYlBVX1RkTVpyTTFTV2lpbjdHb3FoSDUtbVlHbHlacGtxcEJ2TTAzTzBidkt2YnBna1hNaGNENFNxaklsYXpUV2k5VEFjSWdUZGFhdkVfbGVfWkJiaWNZSXJoN0NoaDhRT3JpY3Exc1FvTTF4V0lldWc5eVJQUVlpTGU1WV9HVFJ3cGR3?oc=5",
-        "impacto": "Coincidencia temática directa (salud mental) con la hipótesis HIP-09."
+        "titular": "Google Sued Over Character.AI Chatbots Based on Child Performer",
+        "fuente": "Radar Compañeros Virtuales, Apego Humano y Salud Mental (Google News) (2026-11-19)",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQN3BNanNzaGhNWmRKRHdsSnJOZl9qS29JV1FfMnJodlNfeVFOTXBfcDhRNEhCaG16Ry00VEw3akhnZFNQMVZxbkl4S2IyV0FpMFNubnVMOHFXWlUzRnN0SV8yQ0x3d2VFYlpBMko5UnlSLVZFSVhZeG1scW5qMTJkMmFLWFdSbElmd2VMQ2JUY0s2QXJlOGg2YzZMRVZMZ25uMGFLXzFBTQ?oc=5",
+        "impacto": "Coincidencia temática directa (salud mental, autor) con la hipótesis HIP-09."
       }
     ],
     "senalesContra": []
@@ -424,6 +424,18 @@
     "traccionScore": 98,
     "totalSenales": 5,
     "senalesPro": [
+      {
+        "titular": "Exclusive | Nestle Teams Up With Microsoft, Boston Dynamics on AI in Factories and Products",
+        "fuente": "The Wall Street Journal — Tech & AI (Investigaciones Frontier y Fallos de Modelos) (2026-11-20)",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQWUFvdy1NOXphTWxlN25CWVV2TlppczdLSERycm44cVJmNmF5Q1g5Y184Tmoyak96ekgyZDd4N1h2d3diVUktU1E5aGNtSm1hV2JyNUltOENIU3NLdW1OcEdKVUk0THhOWF94aVlhMUFrNTBULW5hckZ4eWppTG1uMmU1TW1zdmZzSC14QmZySElQbm53dWE1bnhoMVhYNEtCV3ViMGp1bTl3MzB3QnhnVjdGbVJmUQ?oc=5",
+        "impacto": "Coincidencia temática directa (boston dynamics) con la hipótesis HIP-10."
+      },
+      {
+        "titular": "Claude Code fueled Anthropic's IPO. Now the company needs to figure out what comes next.",
+        "fuente": "Radar Agentes de Código, SWE-Bench y Personal Software (Google News) (2026-11-20)",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOV2pRQUN2T29QcDU5Q2hOc0trRVFIWUt5MmlqMHdJb0dDX1JMbVdVaEFwWWt4bmhTWENCNWNrVVVGZ3VVb1dpMG9uN0NhZEZwNTVudEJYZ1Y4dlN0dV9YbEFkSjhlME5Oc1ZfNEdtMGVrYXhRVDFERFFzdWYycEZUZXc5TnFkajg4MlR3eFhSNFdnandxSWVQMzVqZXM0UzQzZFlz?oc=5",
+        "impacto": "Coincidencia temática directa (figure, trabajo) con la hipótesis HIP-10."
+      },
       {
         "titular": "Young people in Japan more inclined to have AI companion but skeptical of quality",
         "fuente": "Radar Compañeros Virtuales, Apego Humano y Salud Mental (Google News) (2026-11-19)",
@@ -441,18 +453,6 @@
         "fuente": "Radar Compañeros Virtuales, Apego Humano y Salud Mental (Google News) (2026-11-19)",
         "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQM29IUHZjaHoyck9pbHpWNXI3TGZoN3pMX0EtUDlBMTgzRlB3T09tdnFxMXd5Z1h6UnFxRWtRREZfYW5OYWhNNUNreXVITTlGaTU5WWoxdWNDOTVTOEtOTFRmd3p6TThJNXY2SjBKR04wYUZiR0dUUzIyZG5FdUZwRVJwUDV6enhhbGhkZm9TUQ?oc=5",
         "impacto": "Coincidencia temática directa (trabajo) con la hipótesis HIP-10."
-      },
-      {
-        "titular": "Fábricas de IP original, modelos híbridos con IA y salto a la televisión: las claves del boom de los microdramas en Latinoamérica",
-        "fuente": "PRODU (Líder B2B de Televisión, Series, OTT y Tecnología LatAm) (2026-11-18)",
-        "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOaGxJZ2ZJWmdyVnFaRVQzalJTTm5DT2lELXNxUTFxS19ObGlkZjJKUDd4UDVrUGZJV1lrM1REb2JGOUFzZElsaVVuRHQtMEdIMGZVVm15UHJXNXU4c2dMRm8wR3pIaVozcUN1REFTMHY3T2VNem9fRHpNM0pUNFRTeDMyaGdQSG5qVm9aVGNUQnNwaXdtX25CMFVHeGdjUDNlUnRjeVN2NEdDTHJBVy12a1VFTzk4cEVzTFNRVGJnX0VJZUEzNXVrbkR3WDhtR2JQSy1UWW9qNFVWRVpwM3E2V2VzVk9ESUw2NF9SeGdQVlNRbTd2TTR2T0sxeE80RFE?oc=5",
-        "impacto": "Coincidencia temática directa (trabajo) con la hipótesis HIP-10."
-      },
-      {
-        "titular": "Microsoft and organizations across industries launch AI Transparency Initiative to strengthen enterprise trust in AI models and agents",
-        "fuente": "Federaciones Europeas de Creadores Audiovisuales (FERA Directores & FSE Guionistas) (2026-11-18)",
-        "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPaWozdTJGTnFGZXY1bDN6SW1jMERNVkZyMW1OQUlod0pHQVZZNDJjVFBjWjFXZy16UFNTNnlPNFVIazRFRTZCZjNfMkVVOWxUUEcwSEJacnJnYTByWHhPT2Z4SG9JS2pIdlNjcElpbG1aSDlneEY5U0VxUUZwTk12MXFUMFJiQ2kzRDc4THJOaGNURjd0M0cyN1JfclhCM01uam5VelZNbWNnUG5tdHRSd1VZTlpyd3lncDBuY2pCVzhyZjdhY2xUbjZ6bE94U0pRbmNpZDFzeU1ublBKazcwV1BOMnlQNkVpLTRBTU5wNHdHX3M?oc=5",
-        "impacto": "Coincidencia temática directa (trabajo) con la hipótesis HIP-10."
       }
     ],
     "senalesContra": []
@@ -465,40 +465,58 @@
     "categoria": "Economia Laboral Y Agentes",
     "status": "ACTIVA",
     "traccionScore": 98,
-    "totalSenales": 6,
+    "totalSenales": 9,
     "senalesPro": [
       {
-        "titular": "Netquest: La IA transforma las decisiones de compra y redefine la visibilidad de las marcas en México",
-        "fuente": "PRODU (Líder B2B de Televisión, Series, OTT y Tecnología LatAm) (2026-11-19)",
-        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQN2loS29jLUlXeW1hVy1FeXFrSWlJYzRTN0hmZHRucmh5bEEwcktCY2ZTOGpCRjA4S3R4QW8xdG1RN0VvNHNYS0p6QkdwMHRQMUlBX3VGSTlGRU9mY3JYQnBwOW93UlY0Uy11aG9jS1YtdnJrLV9LSURibFBOck51QVZfQ20wUEEtY2hVRWc1TXlMNFd6MXFuV1ktTkpKM3MtUGhGZFdlclhNT2lmNWFxNG9pdmFiMUp4aExVOWhBbnRLM3Y1VjB5MmlWc1U2M1dDajVHbHVzM1c?oc=5",
+        "titular": "Fujitsu expands Google Cloud partnership to target enterprise AI adoption",
+        "fuente": "Radar Adopción Empresarial Real, ROI y Métricas de Productividad (Google News) (2026-11-20)",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNZXpYdERoMUlGck8yanhQR0cxajJ1X05WU1F1a25VaUdSLWlMZXJ0SnluSGpMZ2lYVDdHeDRwbUZNdTR0c1hXZkFwQ0FISWl1V3VwT1RFd25udFVFZVN4UTVJNGdqNVE2YjB4TnFwdDl2VWNwOXdIaE5EMFBSckVyTnVoZ0hreVRIaDBqZ1pvUFFheG1iZjhVNjE2VFpzYXB5M2xhRG9WSjZZVlVCNkRTY1lHM09LdkE?oc=5",
         "impacto": "Coincidencia temática directa (presupuesto) con la hipótesis HIP-11."
       },
       {
-        "titular": "Arizona says it is investigating OpenAI, other firms over possible rogue agents",
-        "fuente": "Reuters Technology & AI (Agentes Autónomos, Mercados y Brechas de Seguridad) (2026-11-19)",
-        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPeWlhZGtUbEFjczdrQzZ5YnM2MEJiSkdwYUx3YTB2SkhQUVV0WnBBNU51aHM4ZFFvaXBEMzRWY1hGVmZtbGVYVmV0ZGtLbWFHaWt4Yk1kWWx4blBVTjVNUC1Ld1JpVXdHcWlfek1ickphT3M5Q1FYRE1LV2NkZDRXYWRBcmlnOVQ0QjVtTm5CS3FYUFVSMXotdkdzX0JkVGNJQTYtenA3eHdqTE9PYjNPR1RuZk52dTR5anp0RkdTYm5rMHNpVk8zVTNFMGtWcG8?oc=5",
-        "impacto": "Coincidencia temática directa (agent, agente) con la hipótesis HIP-11."
+        "titular": "Adside: A team of specialized AI agents that manage paid ads for you",
+        "fuente": "Radar Publicidad y Agencias IA (Adweek / AdAge / Marcas) (2026-11-20)",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1kUTJLZjhYZVY5VWtCTk5XcElJWlg1QmhaV2k4RlJOZW1ySy1Yb1A2RktoTTNMaUJVWm9HaVdubzBpeEEydkNJUnJkVmt3Y0xxZ193Y1RB?oc=5",
+        "impacto": "Coincidencia temática directa (agent, presupuesto) con la hipótesis HIP-11."
       },
       {
-        "titular": "Estándares, interoperabilidad y transparencia: las claves de SMPTE para convivir con la IA - Panorama Audiovisual -",
-        "fuente": "Panorama Audiovisual (Broadcast, Cine y Producción Virtual España) (2026-11-19)",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNRU1UdHpNekpBbU85c3lTOGFBLURzRndyQ2JWUnctdGgyTW1sYnNPVG1RZnlYTi1XOXphTWdZOTMtczhROWRLQWpLOUxqMUk5dVd0RWZ3d1pxSFVzQ1VWUlZ1X1hVMUhxYjFZWUtVNFI4X21WM3RlckF3WW1GOEJQaU1rcUNhQ0RBSmk0TUVLdnVNei1LQ29j?oc=5",
+        "titular": "Nuevo Modelo en OpenRouter: Mistral: Pixtral Large 2502 (mistralai/pixtral-large-2502)",
+        "fuente": "OpenRouter Live Model Radar (Nuevos Modelos Occidentales y Chinos) (2026-11-20)",
+        "url": "https://openrouter.ai/mistralai/pixtral-large-2502",
         "impacto": "Coincidencia temática directa (presupuesto) con la hipótesis HIP-11."
       },
       {
-        "titular": "Anthropic Settlement Payments: What Authors Need to Know About Friday’s Deadline",
-        "fuente": "The Authors Guild & Creadores Literarios EE.UU. (Litigios y Derechos IA) (2026-11-19)",
-        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNdFJ6aF9BUmR0WS1WZ25qN1FJczhaNUZIQS01aWVDMnFVTDRSVWZtV204V01YS19tNTdLWS1IeFBxRlNTS1d1OUtTb093UU1DS1JPR1dYejJobVVGcWh3M19hQk00c3pCVkdFRzJiV2g4Z2o1b2xzM1ktQVlVUEd4d1p3?oc=5",
+        "titular": "LDM: seis claves para escribir en la era de la IA y lograr que tu contenido sea citado",
+        "fuente": "PRODU (Líder B2B de Televisión, Series, OTT y Tecnología LatAm) (2026-11-20)",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOd3hKT0k3OHVwV01yQzJsaVFwaTdocmZfcFZ3TzNnS2pab21MSHpQRVVVeXdscXNtQUQ3eERkMDNXLXdlNmlPY0VGNG9DZnY5QmZmVzhvNVhFVXhQalpCUTE0MWtiVVpxU3NOeGJha0hvOWlKM3Q2dWhwS2FxT0NxMkd2dTZyQm5remw0bDg4UUhvRUU?oc=5",
         "impacto": "Coincidencia temática directa (presupuesto) con la hipótesis HIP-11."
       },
       {
-        "titular": "llm-gemini 0.38",
-        "fuente": "Simon Willison's Weblog (Agentes, Seguridad y Herramientas Dev) (2026-11-19)",
-        "url": "https://simonwillison.net/2026/Nov/18/llm-gemini/",
-        "impacto": "Coincidencia temática directa (agent, agente) con la hipótesis HIP-11."
+        "titular": "Dollar Heads for Fourth Week of Gains Following Anthropic IPO",
+        "fuente": "Gran Prensa Financiera Global (FT, Bloomberg, WSJ, Reuters - AI Capital Risk) (2026-11-20)",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZk10QjN0ZjR3OXFGdVI1OENkTC1WNzZFM2k4Z2VQMFk4bjFwalJtT2RxVTNFS2luNWUyYTVJZlpMcXduQmRnMHBtQ05ZTUlvUnJ3VGhGMlBRcUczbzZ2WkxEcXRadnFSckh5WWdaSnRVRHlTTGVqN0ZWdXl2NGFJYVVwTXJYYzFOVDNIZ2duSGttYklEYVZxamtWOExoT19yLW9XLVdKc1cwNDdHOTRUVVF3?oc=5",
+        "impacto": "Coincidencia temática directa (presupuesto) con la hipótesis HIP-11."
       }
     ],
     "senalesContra": [
+      {
+        "titular": "Morning Bid: Anthropic's splashy IPO fails to lift AI boat",
+        "fuente": "Reuters Technology & AI (Agentes Autónomos, Mercados y Brechas de Seguridad) (2026-11-20)",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOQ2RGU3lYLUtMZ2FwZzBEU2hlcmRDbWV6c3dDRU9OYTVzU0pSa0xzeUpuVk9McG9lYTBKdEcxZEtRY0JXbmZ3dDJlZ2xiVG5Ba3pDdkotNXBIN3Z2a3hqcHdlUlNFekh6REp6bWo2bW1sS25mTUJWUDlqU3UtMU5DRlpERQ?oc=5",
+        "impacto": "Coincidencia temática directa (agent, agente) con la hipótesis HIP-11."
+      },
+      {
+        "titular": "Tech stocks fall as Anthropic IPO fails to reignite AI trade",
+        "fuente": "Gran Prensa Financiera Global (FT, Bloomberg, WSJ, Reuters - AI Capital Risk) (2026-11-20)",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOeFI2NEJCRHRJS3oxQnpSc2hUclVhRzQ4TGQxRVFYbEhRWS1tdGdHMlUtR1JtWDRtdERaTEo4M1F5c2kxOUZQODJMUHdUbVNIV2wxX0ZHR2ltVkVRcW83MVVzSXpoYV9wS3I2RkdUOGtITm9lNDBjRkJlakZ0ektISDNHZzY?oc=5",
+        "impacto": "Coincidencia temática directa (presupuesto) con la hipótesis HIP-11."
+      },
+      {
+        "titular": "Wall Street ends sharply lower as Anthropic's debut fails to revive AI fervor",
+        "fuente": "Reuters Technology & AI (Agentes Autónomos, Mercados y Brechas de Seguridad) (2026-11-19)",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxONFhTcEs0ZXJTOXhCWUVEQlBXR3BaeFdLVjdiNkNXdVFrNWtaVjFJRVc0cTcyRUJBRXBqV0JZUHUza3I0TndGYzZRX3N3eU4zR3plNl9wUkR5VU1FQ0phSjZEODlXYjJYQk5QaVRoTFotemhuTWFwSkhrYzFfNE1tM0JJNlBFY1BmNFNhS0FTeURyaGtHM2xJb3VoRE5LY0I1SVUxeko5dDJvRGlGam1ITllSRFU1OEV6T0tF?oc=5",
+        "impacto": "Coincidencia temática directa (agent, agente) con la hipótesis HIP-11."
+      },
       {
         "titular": "Un estudio desmiente que el uso de la IA sea un desencadenante directo del plagio - Campusa - EHU",
         "fuente": "Hemeroteca Propiedad Intelectual y Derechos de Autor (ES/UE) (2025-02-13)",
@@ -524,27 +542,27 @@
         "impacto": "Coincidencia temática directa (water, cooling) con la hipótesis HIP-12."
       },
       {
+        "titular": "¿Burbuja IA? Anthropic recauda 107.300 millones de dólares en su salida a bolsa y dispara su cotización más de un 20%",
+        "fuente": "Radar Burbuja IA y Sostenibilidad Financiera España/Latam (Google News ES) (2026-11-19)",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNSVpsQ19ta2ZQUGl5dmRMSU9sOFJJS2pHS3ZiX2VMT3ZkenFzLUN5T1NRYVNoNXRyR2I1UmFDMUhtZ25NU2lmUTduS2lCaWJla3ZUUmlxVnIwYTVUTFNrQzIzY1RhVVhPZHMyOVVweGVuVDQzQ3pObGd2TDdxSVRZOEJhenN3YjlNQ2xrdnI4N0dCV1J0UXJoNWtGQlNrUnpIYVpaZ1Z2MS1wTGpJU1BaRmFVak5rcFY0R1FN?oc=5",
+        "impacto": "Coincidencia temática directa (sostenibilidad) con la hipótesis HIP-12."
+      },
+      {
+        "titular": "La burbuja de la inteligencia artificial bajo presión: Anthropic sale a bolsa con pérdidas millonarias",
+        "fuente": "Radar Burbuja IA y Sostenibilidad Financiera España/Latam (Google News ES) (2026-11-19)",
+        "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxORWhMcENrbF9scnlNM3JBVmt6bGgzR3JGc3BqQ1phenFHbjlhZEtJOFJSWVpCeEkwRVdWcWlwRHV0YWVjaU5mTVdTWVJOUVN4a2F0WkNOcEtkUG5xRkNDOG9YYzhyV1FOX3V6d1MwU3JYTWliMUM0RjA2amREMXMyWUloY0g3TU5nSlJjLVpNeUhOUWV5R29sazdqdzF2dlhfR1VpWG10TV9EREtnVU13R0EtblE3UlM1U0E1Vl9HeXpZS3NGaW1raHdQTklrSUhVa1A1UHNzYlg3dTZuZmdYLXFpaTdOWlpUZ0FxNFlCNA?oc=5",
+        "impacto": "Coincidencia temática directa (sostenibilidad) con la hipótesis HIP-12."
+      },
+      {
+        "titular": "La burbuja de la inteligencia artificial: ¿por qué Wall Street teme que una inversión billonaria termine en crisis?",
+        "fuente": "Radar Burbuja IA y Sostenibilidad Financiera España/Latam (Google News ES) (2026-11-19)",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPckJlYndUWS1mWThjUTU4ZEVHdXdFQlFEOWZmem5vQjFmM2g3eVB3dmRJeG9pZWVWSnhfR2w2Sk1JN3AzM0w3dk9qNG9qQVh6dktHYURKckh5UmwzYmNBVlI0U1U2QTVWdi1QMkRNUFl1WlBQZXVrZFFuQnUwZ1FLUWNIWUtzRXlCSDd5Y2MwVlRUZFBKZDZwRVhtOWVXVzZoQk85TFFDSTNxVjNTcHVLSFdiMHZEMmtDd2lfU3ZOOFV0d1NMVnN3X0xYNWxFRjB2OHRYQUk2MnM?oc=5",
+        "impacto": "Coincidencia temática directa (sostenibilidad) con la hipótesis HIP-12."
+      },
+      {
         "titular": "Samsung Electronics resta importancia a la preocupación por las empresas de 'neocloud' y la burbuja de la inteligencia artificial",
         "fuente": "Radar Burbuja IA y Sostenibilidad Financiera España/Latam (Google News ES) (2026-11-18)",
         "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNVldlTHAxSGlNV0ZkRGNaeGdfbExjRThPNnhQcngzU18yd3VVR0YxNFBQNHhfSHpMODliQXFpajdNcXFaaDZvZld2OVdEQ1U1MDRzVHlrZjJVTTFzWXRQWmdxV1VRYzMyT3RTXy1faURvTmxRbkNJcEJ6Uk5ZTjZQRHZBX1FkNXhLMW8xYkd5MldRa0Y0NUFmV0k2MGc2ZENpeDhseEdIZHNqLUgzVGdWaUFxODVFaXNabGpnYXpxWG1Benl6aGxOb2Utc0EzX1BoUkRySTZMRnkwZ3dad3FpNTQ3dVRoZVhq?oc=5",
-        "impacto": "Coincidencia temática directa (sostenibilidad) con la hipótesis HIP-12."
-      },
-      {
-        "titular": "Arthur Hayes prevé alza de 4 criptomonedas antes de la burbuja IA",
-        "fuente": "Radar Burbuja IA y Sostenibilidad Financiera España/Latam (Google News ES) (2026-11-18)",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOZ3lnZC1uRGRHTlhZNEZtaS1WazkzTC1YOEJXMlRFTC1jeUltb2Rsblk1a1FaZUNRRHRpT3h1NFRhcVNleHNQZlNMb3l4U2N5cDFRWnIzS0VwaW5JRkI0WEdkTGMteEhqbThFdGxiMUgxdWo2QVB4LTlubThORXI5MzIycjA5VmZzUVhVQlYwaG1IMVE3aFp3SENWTkFuOWdhLUZDc0FZQ3FHM1Jld2c?oc=5",
-        "impacto": "Coincidencia temática directa (sostenibilidad) con la hipótesis HIP-12."
-      },
-      {
-        "titular": "Estabilidad financiera BCE en jaque: burbuja IA, déficit y geopolítica alertan a los mercados",
-        "fuente": "Radar Burbuja IA y Sostenibilidad Financiera España/Latam (Google News ES) (2026-11-18)",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOX1FBXzFFWGVfZTI3OUVyRFNJM3ZYeU1nVnY2Rm5fZjRpcWJHRl9OQS1ITlJOaVp0eGZKVGo0VXFuZE5PN2c3TTFuWVJteXNDUngwNml6QWlaaUZZQzJjRXdQU3dYdmpjejkwU3Awc1pYam1PMTBHX0tHdVdkY0h2QV80S0dTdkMtRTBKdg?oc=5",
-        "impacto": "Coincidencia temática directa (sostenibilidad) con la hipótesis HIP-12."
-      },
-      {
-        "titular": "BCE estabilidad financiera: la burbuja de IA y la deuda soberana amenazan la eurozona",
-        "fuente": "Radar Burbuja IA y Sostenibilidad Financiera España/Latam (Google News ES) (2026-11-18)",
-        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNekRlMndsQlhobUlnd0xmSGFNbExQdWxjdjd6ZW5TaEJwR3BGNzFoTE1rSXJWY1pXVU1WVGUxWFNQeDBOSHhzQ0thNlVWeFFMRldaajlqbkQxYjRqVmNBUExpeVZFVW9SdElHWS14VzZzZlFYc1N5NVJITkVzSUdTSmVKZU8xN2RO?oc=5",
         "impacto": "Coincidencia temática directa (sostenibilidad) con la hipótesis HIP-12."
       }
     ],
@@ -604,33 +622,33 @@
     "totalSenales": 6,
     "senalesPro": [
       {
-        "titular": "Fully Automated AI Cyberattack 2026: What Google Just Found",
-        "fuente": "Radar Ciberseguridad Ofensiva y Ataques Automatizados con IA (Google News) (2026-11-18)",
-        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9VWWx2NmtuWk1KeDRsT0FOeXVyenNXSHRCeFd3cUdFel9IRU9Yd2tQWkROV19aT2duaVgzcUtEVHdsUGVFTE41dTltQzNMeEpuYXN0WHQxUDNVb2xkemRodUNn?oc=5",
-        "impacto": "Coincidencia temática directa (cyberattack) con la hipótesis HIP-14."
+        "titular": "Arizona says it is investigating OpenAI, other firms over possible rogue agents",
+        "fuente": "Reuters Technology & AI (Agentes Autónomos, Mercados y Brechas de Seguridad) (2026-11-19)",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPeWlhZGtUbEFjczdrQzZ5YnM2MEJiSkdwYUx3YTB2SkhQUVV0WnBBNU51aHM4ZFFvaXBEMzRWY1hGVmZtbGVYVmV0ZGtLbWFHaWt4Yk1kWWx4blBVTjVNUC1Ld1JpVXdHcWlfek1ickphT3M5Q1FYRE1LV2NkZDRXYWRBcmlnOVQ0QjVtTm5CS3FYUFVSMXotdkdzX0JkVGNJQTYtenA3eHdqTE9PYjNPR1RuZk52dTR5anp0RkdTYm5rMHNpVk8zVTNFMGtWcG8?oc=5",
+        "impacto": "Señal precursora de fallo crítico por agentes autónomos actuando sin freno sobre infraestructura bancaria."
       },
       {
-        "titular": "Google uncovers first fully autonomous AI cyberattack | Business Standard - newspaper",
-        "fuente": "Radar Ciberseguridad Ofensiva y Ataques Automatizados con IA (Google News) (2026-11-18)",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNdTdqWUpia2FnYy1USXlEcEF0Zm1oVDItVFE4U0xCOHJueUJ5OWRHbl9xVkQzNks3TWJsVHBMM29McXdLUW5sdmdOa1VPTktBM0g2M0wtZUZ5MERSTU9Hc0EwWkliNzQzS09fbngtLU1RWlB1R0hOcmJ2eDg3S20tejhlcWoxY2FSQ3loZTNjSzktVDdSS3NBQm1rajZCQktwTHVZWnNrNjR5bEVvUnRyZ3VOOA?oc=5",
-        "impacto": "Coincidencia temática directa (cyberattack) con la hipótesis HIP-14."
-      },
-      {
-        "titular": "Google Says Hackers Ran First Fully Automated AI Cyberattack",
-        "fuente": "Radar Ciberseguridad Ofensiva y Ataques Automatizados con IA (Google News) (2026-11-18)",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQOXRFRlNkdk1RQXlBRHhVNFpSOGtET21IOWpzd3pwczNUM253QnREYXd0S1ZiU3NLY0JFNWVUbXNCUllfZElmZE9tT3VrZ3dWMHVuYlphVHlpU2VCencxb0hNMy1VaHdpbHNqem1fUTBmQXhENHJLQzJNV3VBc2J0SGxEckhHTzBPT24xemZwZmNtRjAyck83YkY0MA?oc=5",
-        "impacto": "Coincidencia temática directa (cyberattack) con la hipótesis HIP-14."
-      },
-      {
-        "titular": "Experts say the recent wave of US outages was caused by software fixes, not an AI cyberattack",
-        "fuente": "Radar Ciberseguridad Ofensiva y Ataques Automatizados con IA (Google News) (2026-11-18)",
-        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOcWtzV1NnOU1qUzdvQkpuaFpYX1F2UGFKczQ3QVN6Q1Jfc01CRkZvRmlBMGN1aEsxaml4cHp0M1FZSlN6VjBzZWtqOFljeElrdktSZ2Y3SlBFWTg0YWdpM092eVdrV3lwc2c4TWNvakVYem11cWN3dTRNRm9TMTh5QVJPT3kxcGxWd2tTWmVSQmVmMmpMdkM2Sm1ERHA3WHVIc1hfWDczWXg0RElqcV9VOEE3LU5yandfRnJCVXJwZTU2NE5Fak5XZEtERGJBckU5dk1YbjR2cjJnc1B6Mmtwa2JmYjVkMXlJMGfSAe8BQVVfeXFMUHlOcmdFY3M4OGl5eUk5dG8xNjNHVUdIWHgtcllRYUtRdGF0M1pMX3JnX3dPQm5Vc3laOU9RQm1jU3lZS25YZ3E2b1I1ZEpOeFBCTFliVHhHaWx2b2NYdWh6clFfc0N2aVg3TGxpVXZWbEJqd3VVdlRQQmgtSFFJUUt6LUJaWlRManBMNkpUTUNaaWpmVU9jUlFDbjZnYnRXX3MzcG9ISnB3bTAzM3BCOGNCUmJ6c3JyN0pMbHNOVXRFWlY0dk9pbTZGOFJ5Yzd3WTNuT08teGhFc05UaGdpV1pQRU9Ydnh0ZF9MY2ppZTg?oc=5",
+        "titular": "Exclusive: Tech outages a 'taste' of what AI cyberattacks could look like, Twenty CEO says",
+        "fuente": "Axios AI & Tech (Primicias Geopolíticas, Seguridad y Filtraciones Washington) (2026-11-19)",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPcnIxQmJta0tkMURFekJHVnF4SVJiUjNRZ3Z5b25jLTZuYzFjM1owWjdwcHRpSGZDd3NzMVl5UUdheWNSTkI2MkhmWlVjUEt6OTZQSDR3NEFLM0dXN2lrU3VoLVZZaGlkNkJ4aFI3SnVpZXVPWTQxZWxhU2ZnRnVDX3NoNWh6aXhBdmdtNVB3?oc=5",
         "impacto": "Coincidencia temática directa (outage, cyberattack) con la hipótesis HIP-14."
       },
       {
-        "titular": "Google warns of four AI cyberattack tools after FBI alert on ARTEX",
-        "fuente": "Radar Ciberseguridad Ofensiva y Ataques Automatizados con IA (Google News) (2026-11-18)",
-        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNdUFTRXhra3VxSUFINGx1QV8xTXRLMS13SGY5bXo0SWw2MmFMZnZodmI0VHBaUWYycTlCdEZna0ZTM0pmOXlKZnR1bWN1b3hjTk9qVU5xU3lVOXBGWXhZVUF5RkJ2bHNzakRNSXFoOXMzUktpUmVDVU5iWmJFRGJMVkRLTTYxUQ?oc=5",
+        "titular": "Satya Nadella says much critical infrastructure is ‘unpatchable’ amid AI cyberattack fears",
+        "fuente": "Radar Ciberseguridad Ofensiva y Ataques Automatizados con IA (Google News) (2026-11-19)",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQWDFCZVBXMk92SzRDeG9lNlhBeVVQSTdDQ1VoLW5YMi1Dd2FXMzUwQlA5ZVQ4TExxNG96cVhmN016M1g5czdYRmRrZkZZbThGN2g5ODZPSEtwaE5QVTBEb0NhbGhCMnRYMkRwMmg2Z3hfWDVwN3NlWHBTeU5TQ3NWemJHcw?oc=5",
+        "impacto": "Coincidencia temática directa (cyberattack, critical infrastructure) con la hipótesis HIP-14."
+      },
+      {
+        "titular": "Google reports first-ever autonomous AI cyberattack without human oversight",
+        "fuente": "Radar Ciberseguridad Ofensiva y Ataques Automatizados con IA (Google News) (2026-11-19)",
+        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5HOTZyUlhqZWcteGtxUTQycndmYy0zak9zeFRwaEcyYkluMjROSFV1YkdYTjlROE5iQm1iT2k2SGNYZEdFSlpYdS1VTVVyZE1QSkNZUFA1UXhXM3BBRlRfZ2MyUQ?oc=5",
+        "impacto": "Coincidencia temática directa (cyberattack) con la hipótesis HIP-14."
+      },
+      {
+        "titular": "EU targeted by AI cyberattack in October, official says",
+        "fuente": "Radar Ciberseguridad Ofensiva y Ataques Automatizados con IA (Google News) (2026-11-19)",
+        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAybGJqdFRieXdhV3pJaVhJZXQxUFo3T0pTUXoxQ3NMM0N2VnkzanlzLW1WamxDdExBNXI1cERyZ1pXRlVSVVlXNWJLWm1GWmRVNV9RQVdkeTVXWl9qeXFfVFVWV2Q?oc=5",
         "impacto": "Coincidencia temática directa (cyberattack) con la hipótesis HIP-14."
       }
     ],
@@ -654,37 +672,49 @@
     "totalSenales": 9,
     "senalesPro": [
       {
+        "titular": "Exclusive | Nestle Teams Up With Microsoft, Boston Dynamics on AI in Factories and Products",
+        "fuente": "The Wall Street Journal — Tech & AI (Investigaciones Frontier y Fallos de Modelos) (2026-11-20)",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQWUFvdy1NOXphTWxlN25CWVV2TlppczdLSERycm44cVJmNmF5Q1g5Y184Tmoyak96ekgyZDd4N1h2d3diVUktU1E5aGNtSm1hV2JyNUltOENIU3NLdW1OcEdKVUk0THhOWF94aVlhMUFrNTBULW5hckZ4eWppTG1uMmU1TW1zdmZzSC14QmZySElQbm53dWE1bnhoMVhYNEtCV3ViMGp1bTl3MzB3QnhnVjdGbVJmUQ?oc=5",
+        "impacto": "Coincidencia temática directa (wall street) con la hipótesis HIP-15."
+      },
+      {
+        "titular": "What’s Your AI-Literacy IQ?",
+        "fuente": "The Wall Street Journal — Tech & AI (Investigaciones Frontier y Fallos de Modelos) (2026-11-20)",
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5rYXU0QkVVYWROaHJXX0ozQXduV0hJbWxCUE01TmZ4ZmdBa3AyVmc2VWE5SERuRG1RM19TWUNzNlNUbHctZW9XUmRNaDVEa20wS3FuODhXS3ZuN2ctbFhOeGhEekNRYjg?oc=5",
+        "impacto": "Coincidencia temática directa (wall street) con la hipótesis HIP-15."
+      },
+      {
+        "titular": "The AI bubble is draining market liquidity, but gold’s fundamentals remain robust",
+        "fuente": "Radar Global Burbuja IA, Deuda de GPUs y Riesgo Neocloud (Google News Tech/Finance) (2026-11-20)",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPRmRxNno4S0RoazlteWFvbVJTLXZDTDRNUzlqMzQxZmxFZm55Y0dVRjlBU2I4b19SR19yVW1CQ2NHMUxLZ05KSlp6ZVkwVTJvWkRGSlhTOC1lZzRvendEQ3NoZElFY0lqVXA1Z2FWeFgwWHhlLW15eG5MaXlXQnlSWE1lM1NHMGN0dGdMeDlsRDdXQQ?oc=5",
+        "impacto": "Coincidencia temática directa (burbuja, bubble, neocloud) con la hipótesis HIP-15."
+      },
+      {
         "titular": "AI Bubble Monitor: Does the Collapse of the AI Bubble Lead to a Recession?",
         "fuente": "Radar Global Burbuja IA, Deuda de GPUs y Riesgo Neocloud (Google News Tech/Finance) (2026-11-19)",
         "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOT1JSNndqZWtoMTJVdjhjbGtnV0V3NGhkREVLdFpPb1A2RWNGaURZUFJicGI4bk14amNxdTBWUUl2RXZQcFF1cVpPVnpRWmNlNlZjeFg5R3JoRWpQRmVBVXhsVFF2T1pRUVlyM0Zob3hIRVNuOE1SV2dySUxYNExETFJ4aGoxSEFOLTRsMG9PdXozSDNKc0ZwU0RiV2x2U1prVld6NVBhcFpaRjZIWW12amc1WQ?oc=5",
         "impacto": "Coincidencia temática directa (burbuja, bubble, neocloud) con la hipótesis HIP-15."
       },
       {
-        "titular": "Samsung Electronics downplays concerns about neocloud firms and AI bubble By Reuters",
-        "fuente": "Radar Global Burbuja IA, Deuda de GPUs y Riesgo Neocloud (Google News Tech/Finance) (2026-11-18)",
-        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQcnlGMlRGZFBhM1BPckdmNEl1dWxyWllMejJTRUFfa2ZJUVJLVzkwbzR1cjQ4Q0xVS1ZEcFM1TkQ2aTVzWmxuNVBvWU9RLVJRYWZkUHhWQ3JPeXNZTjRsMkhYUUQyQng2RGRXaElieFB3elVtZDlvcktadmVjdXB1MWJ1ZUlaYTk3bXc3a19PWndTSExMYkNxUVA4bm5RX1J2Vm53VE4yZFpCM19MX3c3U21MUjRCM0lkM0QzMlVwN3dSTV8weVBkRTRR?oc=5",
-        "impacto": "Coincidencia temática directa (burbuja, bubble, neocloud) con la hipótesis HIP-15."
-      },
-      {
-        "titular": "CoreWeave Reports 2.7x Speedup with Vera Rubin Over GB200 on MLPerf DeepSeek-V3 Benchmark",
-        "fuente": "Radar Global Burbuja IA, Deuda de GPUs y Riesgo Neocloud (Google News Tech/Finance) (2026-11-18)",
-        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNUS1oa25kdERDNUVjb0tGck44SnNhZGM5eTlmOV9tbmRyRk4yLTZHQ1RlVk9raDJsS1ZsZkNRLVY0RXJGMDA4Ni1iVGRlVi1nN0xyZ3JmYjBJRTJFMmFkbHA0RzJIQVlPeGNMLWp6Rm02QkNGUjhoaG9ZV2hTXzhWTzVQSFN4NS1YTmxVOXdDNnNkdzItbnZQenFIZktBNHV0SEh6MFpOSWtfN1lmbVZoLW85Q2w4ZlBuSG8ydE0tbTFxcWVMOWtaMlZDT2o?oc=5",
-        "impacto": "Coincidencia temática directa (burbuja, neocloud, coreweave) con la hipótesis HIP-15."
-      },
-      {
-        "titular": "Samsung Electronics resta importancia a la preocupación por las empresas de 'neocloud' y la burbuja de la inteligencia artificial",
-        "fuente": "Radar Burbuja IA y Sostenibilidad Financiera España/Latam (Google News ES) (2026-11-18)",
-        "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNVldlTHAxSGlNV0ZkRGNaeGdfbExjRThPNnhQcngzU18yd3VVR0YxNFBQNHhfSHpMODliQXFpajdNcXFaaDZvZld2OVdEQ1U1MDRzVHlrZjJVTTFzWXRQWmdxV1VRYzMyT3RTXy1faURvTmxRbkNJcEJ6Uk5ZTjZQRHZBX1FkNXhLMW8xYkd5MldRa0Y0NUFmV0k2MGc2ZENpeDhseEdIZHNqLUgzVGdWaUFxODVFaXNabGpnYXpxWG1Benl6aGxOb2Utc0EzX1BoUkRySTZMRnkwZ3dad3FpNTQ3dVRoZVhq?oc=5",
-        "impacto": "Coincidencia temática directa (burbuja, neocloud) con la hipótesis HIP-15."
-      },
-      {
-        "titular": "Arthur Hayes prevé alza de 4 criptomonedas antes de la burbuja IA",
-        "fuente": "Radar Burbuja IA y Sostenibilidad Financiera España/Latam (Google News ES) (2026-11-18)",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOZ3lnZC1uRGRHTlhZNEZtaS1WazkzTC1YOEJXMlRFTC1jeUltb2Rsblk1a1FaZUNRRHRpT3h1NFRhcVNleHNQZlNMb3l4U2N5cDFRWnIzS0VwaW5JRkI0WEdkTGMteEhqbThFdGxiMUgxdWo2QVB4LTlubThORXI5MzIycjA5VmZzUVhVQlYwaG1IMVE3aFp3SENWTkFuOWdhLUZDc0FZQ3FHM1Jld2c?oc=5",
-        "impacto": "Coincidencia temática directa (burbuja) con la hipótesis HIP-15."
+        "titular": "Anthropic's blockbuster debut tests Wall Street's faith in AI boom",
+        "fuente": "Reuters Technology & AI (Agentes Autónomos, Mercados y Brechas de Seguridad) (2026-11-19)",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPVmU0cXVPRUhwcDZpRkRudEI3bjNfMllQVEN3M09VWFNmQUJTck1UUE9mVERRbmFicElZMWxKVnd3UWpTNGY3R1JiZ0NnRnNBRHhLMkxkVC1vUWVOVzQ3NzcwMkoycTR0MC1LUnBfdUIyWl9OZE5xYnlVVmQ5bzdVZmdnVHFjUjh6dHZrbVVQdEFPaDNCUC1KSkZEMUlhcU9OeWFiWi10SGwxNTBpNE16aTd1MA?oc=5",
+        "impacto": "Coincidencia temática directa (wall street) con la hipótesis HIP-15."
       }
     ],
     "senalesContra": [
+      {
+        "titular": "Fujitsu expands Google Cloud partnership to target enterprise AI adoption",
+        "fuente": "Radar Adopción Empresarial Real, ROI y Métricas de Productividad (Google News) (2026-11-20)",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNZXpYdERoMUlGck8yanhQR0cxajJ1X05WU1F1a25VaUdSLWlMZXJ0SnluSGpMZ2lYVDdHeDRwbUZNdTR0c1hXZkFwQ0FISWl1V3VwT1RFd25udFVFZVN4UTVJNGdqNVE2YjB4TnFwdDl2VWNwOXdIaE5EMFBSckVyTnVoZ0hreVRIaDBqZ1pvUFFheG1iZjhVNjE2VFpzYXB5M2xhRG9WSjZZVlVCNkRTY1lHM09LdkE?oc=5",
+        "impacto": "Evidencia de adopción económica real comprobada (productividad, adopción empresarial) que matiza la hipótesis de burbuja vacía de valor."
+      },
+      {
+        "titular": "Asia’s stock markets dive as Anthropic debut fails to allay AI bubble fears",
+        "fuente": "Radar Global Burbuja IA, Deuda de GPUs y Riesgo Neocloud (Google News Tech/Finance) (2026-11-20)",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQOTlLRHZDNTRIaV9TZFlkd3VqNHZUTHZ2OVI1N01jdlM1ZnF2RWdFT25RV2dKN0l5THVNQndQTzhrVlpRUmNrRjh4MloxWHo5OXRwTzBJQy1vLVRDUU5yMFpEblRycUYyZnI3MFJEaHBrU1Awa3JTdDlha2tYd0FlbU5FOVI2SW5Nb3hISDg2R0d5RTVXTHctZmhWcEdjU2ptVzdPMUVtLW8yR1l2YjV3UV9GcXBZdGxaR3FF0gHAAUFVX3lxTE9qaEdWMGtKak9xeE5PSTJIeklFdG11ZmIySmR4UHFMV3pENnRvSnp5LVozRThVaE52SDA2Q1VnXzBrYUFjXzFFZmJmLVBFTkxudDFXQ2MxVTNiRlNHTWxabEw3NXRLMlN0VWY5U3I3YXhRZ0tUU2FRdGR0MGxTSW4tMlY1QXVTX0xoYnFRVERZaUY4U0d5RWQyZW9ITlNDY0xOanllVFhpTEgtSmVQa3JHTDNpQWNidGVQUjVJcWxKVg?oc=5",
+        "impacto": "Coincidencia temática directa (burbuja, bubble, neocloud) con la hipótesis HIP-15."
+      },
       {
         "titular": "AI platforms bridge the gap in enterprise AI adoption",
         "fuente": "Radar Adopción Empresarial Real, ROI y Métricas de Productividad (Google News) (2026-11-19)",
@@ -692,22 +722,10 @@
         "impacto": "Evidencia de adopción económica real comprobada (productividad, adopción empresarial) que matiza la hipótesis de burbuja vacía de valor."
       },
       {
-        "titular": "Insight launches agent store, engineering program to accelerate enterprise AI adoption",
-        "fuente": "Radar Adopción Empresarial Real, ROI y Métricas de Productividad (Google News) (2026-11-18)",
-        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQTVZrTGJ1QlhYWUllZW84bDljamZvU1JoNDVmTWV3OGstU3FOc0hvam5meFNQWUNyZVNmZEtUOUtQb3k2ZURuWnZOVjU2a3hQQTdaRHhiTFBGNWFRcUg5MHduTU5pVkt4WVEwbUZLNG5HWGxpOVZmSjlWdl9rYjFsTjZSeGlCbHN0Y09aYjZQZzNNX2RacjFzX1J6TEJCT0tFRWdLc0ZOc2NmZHFNcUlpM2FNdmtxbkZuUko3QXJkRndoOUxuU3Q5YmpMUHM?oc=5",
-        "impacto": "Evidencia de adopción económica real comprobada (productividad, adopción empresarial) que matiza la hipótesis de burbuja vacía de valor."
-      },
-      {
-        "titular": "Microsoft and IBM Unite to Accelerate Enterprise AI Adoption",
-        "fuente": "Radar Adopción Empresarial Real, ROI y Métricas de Productividad (Google News) (2026-11-18)",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPRVMtcEZLZ2RJVWpZTFpLYl9PcVdBQ2h6S1VFdnVXSF83eFA1S0wyUGRGcjNuWnJoRmxBd3g4SWphR2VJX1B4UlhJemIwWktFcjNIWDZieFBJRWk1cURMR1lTZmZTZFV2b3hCS1ppVGcwc3JicVZfdU5tNHNWR2NqeXZqdDA0SGNRbEZ5TVFZXzN6M0V6M19nUTNnTk1mVEtQS0xn?oc=5",
-        "impacto": "Evidencia de adopción económica real comprobada (productividad, adopción empresarial) que matiza la hipótesis de burbuja vacía de valor."
-      },
-      {
-        "titular": "Workday Eyes Honeydew to Accelerate Enterprise AI Adoption",
-        "fuente": "Radar Adopción Empresarial Real, ROI y Métricas de Productividad (Google News) (2026-11-18)",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQTmUxY1dXSV9PLXJnUzhvY2hST0ttWVdpcHN2RkU1TWQ5THBrWnYwbzI2a3pUdlZ4REFfUE1ZTzRjUk9abm9taHdLaTJfaldZYkMzUjRvajJLQzAxVXNiblpzdnQ5TThXRWc4OS1QZmFuZkFCVGtETkxROUpwMGRyMFpVMzRiZzNVLXpvQlM1cjl1VG42bnZ6Nm5pd181Tmswa2pkcw?oc=5",
-        "impacto": "Evidencia de adopción económica real comprobada (productividad, adopción empresarial) que matiza la hipótesis de burbuja vacía de valor."
+        "titular": "Wall Street ends sharply lower as Anthropic's debut fails to revive AI fervor",
+        "fuente": "Reuters Technology & AI (Agentes Autónomos, Mercados y Brechas de Seguridad) (2026-11-19)",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxONFhTcEs0ZXJTOXhCWUVEQlBXR3BaeFdLVjdiNkNXdVFrNWtaVjFJRVc0cTcyRUJBRXBqV0JZUHUza3I0TndGYzZRX3N3eU4zR3plNl9wUkR5VU1FQ0phSjZEODlXYjJYQk5QaVRoTFotemhuTWFwSkhrYzFfNE1tM0JJNlBFY1BmNFNhS0FTeURyaGtHM2xJb3VoRE5LY0I1SVUxeko5dDJvRGlGam1ITllSRFU1OEV6T0tF?oc=5",
+        "impacto": "Coincidencia temática directa (wall street) con la hipótesis HIP-15."
       }
     ]
   },
@@ -721,6 +739,18 @@
     "traccionScore": 98,
     "totalSenales": 5,
     "senalesPro": [
+      {
+        "titular": "Claude Code fueled Anthropic's IPO. Now the company needs to figure out what comes next.",
+        "fuente": "Radar Agentes de Código, SWE-Bench y Personal Software (Google News) (2026-11-20)",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOV2pRQUN2T29QcDU5Q2hOc0trRVFIWUt5MmlqMHdJb0dDX1JMbVdVaEFwWWt4bmhTWENCNWNrVVVGZ3VVb1dpMG9uN0NhZEZwNTVudEJYZ1Y4dlN0dV9YbEFkSjhlME5Oc1ZfNEdtMGVrYXhRVDFERFFzdWYycEZUZXc5TnFkajg4MlR3eFhSNFdnandxSWVQMzVqZXM0UzQzZFlz?oc=5",
+        "impacto": "Coincidencia temática directa (claude code, personal software, saas) con la hipótesis HIP-16."
+      },
+      {
+        "titular": "CROO Launches CROO Skill, Opening Its AI Agent Network to Claude Code and Codex Users By Chainwire",
+        "fuente": "Radar Agentes de Código, SWE-Bench y Personal Software (Google News) (2026-11-20)",
+        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOd1JQanFUYUYtcjgwY1hpMXYxR2dveHlORlpWTU1yZXJjejlfWVA0MUdES2FwODJ2VGdFTl9oQTBla25teFBLLXF2QW5WR0NUV21Odk94QnExZ1J1cXVJUHAyYS11WGppTnRBMGNqWWNUeF9MME1JX1FBbUFYSkVWMTU2OVNidC1XYlVsUENDVTdtM0tZRUhjV1hEUGxyVTVCazl0eURCNmF5dFcxOHM4bWJOb3h4OTBwTnd3ZzhKNXBJblFneVZXZVFCQnVFcXZ0bFV5UzhoNm4wUjQ?oc=5",
+        "impacto": "Coincidencia temática directa (claude code, personal software, saas) con la hipótesis HIP-16."
+      },
       {
         "titular": "Microsoft extends Copilot freebies, bulks up channel benefits",
         "fuente": "Radar Agentes de Código, SWE-Bench y Personal Software (Google News) (2026-11-19)",
@@ -738,18 +768,6 @@
         "fuente": "Radar Agentes de Código, SWE-Bench y Personal Software (Google News) (2026-11-19)",
         "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOT1JiZF9DNEVkeVgxVFNXX0F3U1E2bm5QM1VVWVpXSVpjX0lXSlBtSm1fTXVTRGhCNl9qVG5PZXpDMTJXdlJvQV9SdUtjaWFYRWwxSVJtcUlYWGNKWGJtOW9jVU93QTVIODhVUExRdFBicGp6bVpxRy0xQzc5RzR3YVBGaGdjbWpabHQxYQ?oc=5",
         "impacto": "Coincidencia temática directa (copilot, personal software, salesforce) con la hipótesis HIP-16."
-      },
-      {
-        "titular": "At Ignite 2026, Microsoft reinvents Copilot as the autonomous engine of enterprise work",
-        "fuente": "Radar Agentes de Código, SWE-Bench y Personal Software (Google News) (2026-11-18)",
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOYmk1ckZmYUdxVXZDaS1LV1N5RWFQNEVLOWxER2VobUNtbEF6bFJ6X3Qzby1QV2tYaGp2bmM0WFpoOXRPY0lpTm0yNHlpZ2pTOTdaMXpuN0RvRHhkaWxlalF4N0M3dXliSEZiUlc4RUVGaFN6b01qZFZfY0gxeDAwNzZmVDk3UW9nUnQtOTVmdHBUeTc4UTZ5T2l5eWtiYXVzLWg1QllOSzVkUmx6VlQ4RFZjbUxSNmNrOHdjek4zQWo?oc=5",
-        "impacto": "Coincidencia temática directa (copilot, personal software, swe-bench) con la hipótesis HIP-16."
-      },
-      {
-        "titular": "I Was Drowning in Claude Code Sessions - Here’s How I Hacked My Way Out",
-        "fuente": "Radar Agentes de Código, SWE-Bench y Personal Software (Google News) (2026-11-18)",
-        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPdGs4N1VISURhUWJkVFJFcktTRTdJTUFva042aW5XU00wODlGMF90MUo3dDQ2SFhOMVoxNW1BdmZ5Q0YxOFRrWDZZOUxBMTB2TzZvQTVXMEpxc2JwSDhMWUtQcFhYSk1palRSVndqOEJnRDhQSWNFQ2ROMU4xbDNyR0RCM3QtVXVEWV9ILWFVNmNlOUtKUFE?oc=5",
-        "impacto": "Coincidencia temática directa (claude code, personal software, saas) con la hipótesis HIP-16."
       }
     ],
     "senalesContra": []
@@ -765,34 +783,34 @@
     "totalSenales": 5,
     "senalesPro": [
       {
+        "titular": "Randomized Experiment Finds Google AI Overviews Cut Outbound Link Clicks by 40%, as AI Summaries Now Appear in 61% of Search Results",
+        "fuente": "Radar Comercio Agéntico, Desintermediación y Protocolos de Compra (Google News) (2026-11-20)",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9OT3J3ZUoybHB5VWlxOVZzWF9KM0x1MG1PNkN1ckNZaUdMMUZBV3RNZ0VobU1WQ3lxNTgtNzE4MC1xM3BrOWlKMy1sQ3k4SS10akxXaVZTaThYRld6T0ZuNDFQQjBMdzZndXhpZXN2bUxSX1VfOHc?oc=5",
+        "impacto": "Coincidencia temática directa (comercio agéntico, ai overviews, desintermediación) con la hipótesis HIP-17."
+      },
+      {
+        "titular": "Netquest: La IA transforma las decisiones de compra y redefine la visibilidad de las marcas en México",
+        "fuente": "PRODU (Líder B2B de Televisión, Series, OTT y Tecnología LatAm) (2026-11-19)",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQN2loS29jLUlXeW1hVy1FeXFrSWlJYzRTN0hmZHRucmh5bEEwcktCY2ZTOGpCRjA4S3R4QW8xdG1RN0VvNHNYS0p6QkdwMHRQMUlBX3VGSTlGRU9mY3JYQnBwOW93UlY0Uy11aG9jS1YtdnJrLV9LSURibFBOck51QVZfQ20wUEEtY2hVRWc1TXlMNFd6MXFuV1ktTkpKM3MtUGhGZFdlclhNT2lmNWFxNG9pdmFiMUp4aExVOWhBbnRLM3Y1VjB5MmlWc1U2M1dDajVHbHVzM1c?oc=5",
+        "impacto": "Confirma el desplazamiento de la búsqueda web clásica hacia asistentes de IA como intermediarios de compra."
+      },
+      {
+        "titular": "Visa Is Building Agentic Commerce. But Will Amazon Let AI Agents Shop?",
+        "fuente": "Radar Comercio Agéntico, Desintermediación y Protocolos de Compra (Google News) (2026-11-19)",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNZ1NoVk5haG1jbkZQc0p5eklTTldTRnBaNno4NjdNTnpybWZEVTdMSGYwdzRpQjc0bDk0WEw5X3hIenNZV0tvX2Y5enhPTjdTNmJuVDZMQmktOFkybWRtRE4xamZjM2pma04zcEtBMHdFLTZJeUoySEtTOTNtdko2dFJfMF9CNXg1S00weU9DQXFBb2JoU0EwdnZRQzdLcVROc1BsWXJrNnR2VXVXakgwNDEtRFBGUng3ci15ck4wTQ?oc=5",
+        "impacto": "Coincidencia temática directa (agentic commerce, comercio agéntico, desintermediación) con la hipótesis HIP-17."
+      },
+      {
+        "titular": "Microsoft Confirms Ads Are In AI Overviews On Bing Search",
+        "fuente": "Radar Comercio Agéntico, Desintermediación y Protocolos de Compra (Google News) (2026-11-19)",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOOE1sbGw1VnB3ZUlJLW42M3phQTZWOER6alFkNW9QYml2cDNHMHdQVmNxcmx6eWNfZEMzQVZqUXFZYm1xS0MzYTJsOTBRcFZITUxlY2Rhcm5nbmJIbnVmMUxnNmRiMU5WanYtbmtjaVZhN09zYUM5TFo4bkZwdHpWWXN0dw?oc=5",
+        "impacto": "Coincidencia temática directa (comercio agéntico, ai overviews, desintermediación) con la hipótesis HIP-17."
+      },
+      {
         "titular": "Would You Let AI Spend Your Money? Inside Visa’s Plan For Agentic Commerce",
         "fuente": "Radar Comercio Agéntico, Desintermediación y Protocolos de Compra (Google News) (2026-11-18)",
         "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxONTd2SlhOdG5FZktoanQwblZQNVVIX3NlalFhT0VFeU9jUUZjU2s3X2VCcjF5aFI0V1VNUlFGbkg5T1ZGLWNLTFZuSE1SSWxkeTlpTmRYQVF6bnBXMUprcG9xRmV6NDBnX0ZLZFJFY2E5MlVtN3IwSEFkR3M5QWpCNmpIZ3JwNHB4VXdzak9rX0ExVDFnZmhfaEFyR3BleEk4aWQ0SlgyUmQ4R3AwZEtKZm5vcno3aURaNTVpZE5OU2FpalU?oc=5",
         "impacto": "Coincidencia temática directa (agentic commerce, comercio agéntico, desintermediación) con la hipótesis HIP-17."
-      },
-      {
-        "titular": "Google AI Overviews With Unfaded Citation Block",
-        "fuente": "Radar Comercio Agéntico, Desintermediación y Protocolos de Compra (Google News) (2026-11-18)",
-        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOOWh4cFhBNVByQlZHaUxFSVZrWm0xWWZjWGRKdlcxcWFPOThhVkdibWZqMGV2Rk52MHAzeUpVSVpTQlhjTjZtWFhqTWk2N29jWExHbHljU3paWXJrb2hwaEpGd0xwX0lSS2NQWmR2UXFrZEJVXzY0VWdsM2NfUlNXaWdtamFJOUtIUUE?oc=5",
-        "impacto": "Coincidencia temática directa (comercio agéntico, ai overviews, desintermediación) con la hipótesis HIP-17."
-      },
-      {
-        "titular": "IGNITE Study: In Japanese-Language Searches, Google AI Overviews Rarely Cite Overseas Brands' Own Websites",
-        "fuente": "Radar Comercio Agéntico, Desintermediación y Protocolos de Compra (Google News) (2026-11-18)",
-        "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNX0piU1VxY1gwZk1Ccno5TU1hby1LU2xoSjctWDM1Qmk1aW5sVmRnS3VYa3BxLU5vVEhuaW5rZFRsS25JUkFIazNVNXoxbEh0bl9zaHF5aVBwNV9RRlNQOG0zQ3AzM1VHN2xhUUl6X2ZrbjQxam41MzBGQ2p3b05rYXVad1dTSEIyMDAyZ3ktS2xkNGtzYlZJWDFwVUVLeTFnaGhSVVJfNWFpN2h3Sm1oc3N5cFVCTlpXVV9OQThLdkRNb29BVGd6S1d2S2dtODdLWDF4cUZZSk11RWFQOTk5R2JMcnltbkhiTG1CSW1CSmZSczdISnN6Vg?oc=5",
-        "impacto": "Coincidencia temática directa (comercio agéntico, ai overviews, desintermediación) con la hipótesis HIP-17."
-      },
-      {
-        "titular": "LAUSD disables Google AI Overviews, reviews Google Search",
-        "fuente": "Radar Comercio Agéntico, Desintermediación y Protocolos de Compra (Google News) (2026-11-18)",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQdV95TGR0bUZRZ1BNVUpoMDMyREtlOFJkWllwMU1UdERnMWNSVmlhTHFDLUNweGJUXzg2dEdJVFRsbnRYN1dhWXBJeDZaYzkzekM5cGxZRjVOenRlWGlOTXphTmc1Vlg3dkZ1Z1BGS2hsb190dWVXV1lGZmxnZFlpR09YaWk5RUdyS3NoV056d0lKNV8zMVdvVjJMZ3VYNHV2SnYzUWFCTWwxQdIBsgFBVV95cUxQTFZJeHRrUTFjQ2pndElYWFB5T0ZyaEQwS2E5SWNuNWg4bGpPd05keUZaallsdEFrWHphbWVjWVdUbGkxQXIyZmowZlBjSUdLa0ZHZlhsLWx6ek44WWlIbUdQZ1Z5UVdkVXVKaHZ2bzczMG9UMUtlcVUxMDFvcW1NenF4Sl9pOHRBcndmeTVzNHF4bXViSmxEel9FQUNTQlVZMzRXbHlnLVVxRjBYc2JhNndn?oc=5",
-        "impacto": "Coincidencia temática directa (comercio agéntico, ai overviews, desintermediación) con la hipótesis HIP-17."
-      },
-      {
-        "titular": "Klarna launches AI ‘concierge’",
-        "fuente": "Radar Comercio Agéntico, Desintermediación y Protocolos de Compra (Google News) (2026-11-18)",
-        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5JMDJQZk9GY1piSnhMa0c1b2V2UkhOSkdwdUdKcTVuUW1xUTlPS1RveTJvQVl4WXRIRVJ0TmRneVVXM3F1NEVaRlk1TV9VcDhJcmFiZXc5dGdYSW44MGFWcTZTZER4UWwxQkRWQnZDVVg5UFN5QU5Genl3?oc=5",
-        "impacto": "Coincidencia temática directa (comercio agéntico, desintermediación) con la hipótesis HIP-17."
       }
     ],
     "senalesContra": []
@@ -808,34 +826,34 @@
     "totalSenales": 5,
     "senalesPro": [
       {
+        "titular": "AI drug discovery platform Boltz raises US$100m",
+        "fuente": "Radar IA en Ciencia, Biología Molecular y Materiales (Google News) (2026-11-20)",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNUDBMdE84czdLYkVTOEN3V3QtcTV0WnBxUVFkMmFoS2xFWnV2YkxSZVF6YThVR3Eza1Q5UXdja0cwdjhMc1h4VHZLWXJyNEgwcjZQNmFhMExWMWowZ3pCU2pmTEUwY2NmVjBTRUR5Z0FXazJWbHZhVXRsSGE4Wk5jTEFVd0MzLTVRd2hIag?oc=5",
+        "impacto": "Coincidencia temática directa (drug discovery, materiales) con la hipótesis HIP-18."
+      },
+      {
+        "titular": "Isomorphic adds Merck to AI drug discovery roster days after $5B raise",
+        "fuente": "Radar IA en Ciencia, Biología Molecular y Materiales (Google News) (2026-11-19)",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPcFB5X0ZRYl81aGM0aGZxR3JnZmpHX1hRMjV2aVdOWlhucHNrVGRZYmF6UUhWUHozTmJuTWNDQkJnTC1HbUN5dFg5d3NDRFhRT2FFVWFTRnJHRXFjakZWem0zanJWVlZsODZKUTBFaE85Q3hFaXEzdjNFSzZ4ZU1rRXZzRHdhR3pQREpvTjhocTh3UnFCZldtbzEzb3d3bHJmV0tKX2NGQmlPdWRLTVE?oc=5",
+        "impacto": "Coincidencia temática directa (drug discovery, materiales) con la hipótesis HIP-18."
+      },
+      {
+        "titular": "Isomorphic Labs lands historic $5bn Series C for AI drug discovery",
+        "fuente": "Radar IA en Ciencia, Biología Molecular y Materiales (Google News) (2026-11-19)",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNbVZHWTJzaTFkLW1weXBYT19NMUctUXJMSW8tUmx0R1JEcHVXdUx4UHFPcXAtZjlqY1dQVmcySU1IQUM0djgyYUVQb1QwNjlidnVONFNhcllncFlpWXBIUm1GUzYxeC05aWtvbEdjVlJLVVlMdER5RTFqWkREVV9yaXV6VEpyOTEwOVQxSUE3MDR6RV84d3daRlVEdzJ2clFXU0lacjRn?oc=5",
+        "impacto": "Coincidencia temática directa (drug discovery, materiales) con la hipótesis HIP-18."
+      },
+      {
+        "titular": "Merck inks cancer research deal with AI drug discovery firm Isomorphic Labs",
+        "fuente": "Radar IA en Ciencia, Biología Molecular y Materiales (Google News) (2026-11-19)",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNWU9OSUVOSmRDQzlvN2N2Z2p0ekhJQzF3VFJiUk9Hb2poWnhSd2pWVF9aZUE2cGx3d2RMYVdGQ29OLWU2Snh3RWVZbUNfZlEtLUNzNHZnODhMeHVUODJTMnpGenpHV05aR2dyU1J2ZUJ1N3cxd19XVnU2V3NicC13M0VaVGg0RkVvd1FDNEx5SndsYzhuTWRNZFFmbDNvQzJRb1B0YjZjcFdUYXd4Vy1sOGNOTDBCQXJibmNBSnBGTEZoNmtOM3VndWhMd2hvWmp1a1dhSg?oc=5",
+        "impacto": "Coincidencia temática directa (drug discovery, materiales) con la hipótesis HIP-18."
+      },
+      {
         "titular": "Isomorphic Labs raises $5B for AI drug discovery",
         "fuente": "Radar IA en Ciencia, Biología Molecular y Materiales (Google News) (2026-11-18)",
         "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOeFRUVHFicnk4clZUcmtzNWUyeEU2Zmw5azNfWWtFRE5YU2ZhRDRCZG00MU1sU291cXdQVW5PTFBDQTBZR1Fuc2ZPcEJOQ0ZESGlfeUthNE1VdXdoRWNyeEhaU2FzbDJEaTFNSUx5NUFsdUEtTjVZNVVCaWw1RDVPdDBZS25TQQ?oc=5",
         "impacto": "Coincidencia temática directa (drug discovery, materiales) con la hipótesis HIP-18."
-      },
-      {
-        "titular": "Isomorphic raises record $5B series C to scale AI drug discovery",
-        "fuente": "Radar IA en Ciencia, Biología Molecular y Materiales (Google News) (2026-11-18)",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOTS1CZWI3akFvQUF5d0IzeDh6akxxOXJsSWliMXQ0aTdlazh5bXFIV1pFQ2RhR3RfaFYydTFRaUNHeGVVRDVIckVSV00zQnkyMXF0dGtpeGdDV2FXazgzOHlWRlROTThKUUZzSmNqRDhTX2g0bU1tamY4UldOT0lqcVZucDBiWGNFOWlJSFNiR2gzcFVwY3pmalRPbExZN1JlZ0ZodzZjZw?oc=5",
-        "impacto": "Coincidencia temática directa (drug discovery, materiales) con la hipótesis HIP-18."
-      },
-      {
-        "titular": "Alphabet (GOOGL) Spinout Raised $5 Billion For AI Drug Discovery",
-        "fuente": "Radar IA en Ciencia, Biología Molecular y Materiales (Google News) (2026-11-18)",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQb29qbDBNcml2RmpaTWJjSGsyRmVzX0ZteXU0a0ZJcEIxNHFNcUZYWk5zdzN5aFlpSWpzOFBzNzVGM1pvUURaSkM4N2RhZWlaaWM5MjZkcHJZcXhmUnhpNDE0VkljeE0xRDBpUldQZXNyb1dUV2VraDA4NWpkODBTbnprdHROQVk?oc=5",
-        "impacto": "Coincidencia temática directa (drug discovery, materiales) con la hipótesis HIP-18."
-      },
-      {
-        "titular": "Isomorphic Labs raises $5 billion to advance AI drug discovery",
-        "fuente": "Radar IA en Ciencia, Biología Molecular y Materiales (Google News) (2026-11-18)",
-        "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTFBJNy13SEtRblphSGZtTTZuVGNWQzN2Z1RsamdTc0czaDN6S19zQ09ONmd4NlpyZDJPcmI4WGJINA?oc=5",
-        "impacto": "Coincidencia temática directa (drug discovery, materiales) con la hipótesis HIP-18."
-      },
-      {
-        "titular": "Nvidia debuts AI model for chemistry, protein design",
-        "fuente": "Radar IA en Ciencia, Biología Molecular y Materiales (Google News) (2026-11-17)",
-        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQS3JmVm9ta09tcl9mbjliSmJFZENmeHltSk5zYThBLU1QeVJUOG12Q09vYzVWSEEwc3RtU0xYU0ZxaUpQYlFhMzNENlpvR1Z0d0l2OVU3SjY2TVVvTDJzOU9CMlRBS0hydWwxMjg1QTJmUWlDLWRPOFNUWVRFQmVIYy1tX1VFZw?oc=5",
-        "impacto": "Coincidencia temática directa (protein, materiales) con la hipótesis HIP-18."
       }
     ],
     "senalesContra": []
@@ -850,6 +868,18 @@
     "traccionScore": 98,
     "totalSenales": 5,
     "senalesPro": [
+      {
+        "titular": "Exclusive | Nestle Teams Up With Microsoft, Boston Dynamics on AI in Factories and Products",
+        "fuente": "The Wall Street Journal — Tech & AI (Investigaciones Frontier y Fallos de Modelos) (2026-11-20)",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQWUFvdy1NOXphTWxlN25CWVV2TlppczdLSERycm44cVJmNmF5Q1g5Y184Tmoyak96ekgyZDd4N1h2d3diVUktU1E5aGNtSm1hV2JyNUltOENIU3NLdW1OcEdKVUk0THhOWF94aVlhMUFrNTBULW5hckZ4eWppTG1uMmU1TW1zdmZzSC14QmZySElQbm53dWE1bnhoMVhYNEtCV3ViMGp1bTl3MzB3QnhnVjdGbVJmUQ?oc=5",
+        "impacto": "Coincidencia temática directa (boston dynamics) con la hipótesis HIP-19."
+      },
+      {
+        "titular": "Claude Code fueled Anthropic's IPO. Now the company needs to figure out what comes next.",
+        "fuente": "Radar Agentes de Código, SWE-Bench y Personal Software (Google News) (2026-11-20)",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOV2pRQUN2T29QcDU5Q2hOc0trRVFIWUt5MmlqMHdJb0dDX1JMbVdVaEFwWWt4bmhTWENCNWNrVVVGZ3VVb1dpMG9uN0NhZEZwNTVudEJYZ1Y4dlN0dV9YbEFkSjhlME5Oc1ZfNEdtMGVrYXhRVDFERFFzdWYycEZUZXc5TnFkajg4MlR3eFhSNFdnandxSWVQMzVqZXM0UzQzZFlz?oc=5",
+        "impacto": "Coincidencia temática directa (logística, fábrica) con la hipótesis HIP-19."
+      },
       {
         "titular": "Fábricas de IP original, modelos híbridos con IA y salto a la televisión: las claves del boom de los microdramas en Latinoamérica",
         "fuente": "PRODU (Líder B2B de Televisión, Series, OTT y Tecnología LatAm) (2026-11-18)",
@@ -867,18 +897,6 @@
         "fuente": "China Tech Media (36Kr / Pandaily / SCMP Tech) (2026-11-16)",
         "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOUHI5LVRmUDBvRDJaSzVxUllnd2daT1J6TmU0ZE9NdTZncnc0enBfcmNjalFPUGRpdVg2cXJ1dlNydWM5RjJrWmg0ZVg0WGlrY0NSbWxuMlI5dk9YYXg0TTBadXRONzVpc3JNOGVFUWJEM0Q4Sk92ckZrYWxfME5aVjI3U3VVR200b3c?oc=5",
         "impacto": "Coincidencia temática directa (logística, fábrica) con la hipótesis HIP-19."
-      },
-      {
-        "titular": "Nvidia se está planteando una decisión radical para dejar de depender de Samsung en la producción de memoria",
-        "fuente": "Xataka — Inteligencia Artificial y Tecnología (2026-11-15)",
-        "url": "https://www.xataka.com/componentes/produccion-memoria-siendo-drama-nvidia-planea-dar-salto-para-no-depender-samsung-se-habria-pedido-a-tsmc",
-        "impacto": "Coincidencia temática directa (fabrica) con la hipótesis HIP-19."
-      },
-      {
-        "titular": "Embodied AI desvela 'AIR': robot bípedo humanoide con visión espacial que aprende tareas de ensamblaje en factorías operando junto a humanos sin jaulas protectoras",
-        "fuente": "Radar Robótica Humanoide y Vehículos Autónomos (Google News) (2026-11-15)",
-        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPYUZMQnN3c3VmRml3bE0zbFkxRkZUVTd6bS1sZmJPQWZHTF82bEMwWDFTYkJySE1uRFk3a2NxSUJJM3d1TmlDT2E4TElBZlNnOGJobV9HdjNZakd5ZG43dS1ZcjIwU1JTVmw2akJiN2RvNFcwR3FCVXphekdSMG9XREVMazB5S09aWWVMTk1zUEh4dHRFN1hrTkpLeTFuMGExLWh0WldpUkU3OFhqOUE0N1d2UVI4dGVtTlkxS29QeGc4Mlh1clBnSVU3N0NLX0FrZVZlXw?oc=5",
-        "impacto": "Evidencia empírica directa confirmada en el informe del 2026-11-15"
       }
     ],
     "senalesContra": []
@@ -894,9 +912,21 @@
     "totalSenales": 6,
     "senalesPro": [
       {
+        "titular": "Fujitsu expands Google Cloud partnership to target enterprise AI adoption",
+        "fuente": "Radar Adopción Empresarial Real, ROI y Métricas de Productividad (Google News) (2026-11-20)",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNZXpYdERoMUlGck8yanhQR0cxajJ1X05WU1F1a25VaUdSLWlMZXJ0SnluSGpMZ2lYVDdHeDRwbUZNdTR0c1hXZkFwQ0FISWl1V3VwT1RFd25udFVFZVN4UTVJNGdqNVE2YjB4TnFwdDl2VWNwOXdIaE5EMFBSckVyTnVoZ0hreVRIaDBqZ1pvUFFheG1iZjhVNjE2VFpzYXB5M2xhRG9WSjZZVlVCNkRTY1lHM09LdkE?oc=5",
+        "impacto": "Coincidencia temática directa (productividad, adopción empresarial) con la hipótesis HIP-20."
+      },
+      {
         "titular": "AI platforms bridge the gap in enterprise AI adoption",
         "fuente": "Radar Adopción Empresarial Real, ROI y Métricas de Productividad (Google News) (2026-11-19)",
         "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE94bG5YUWJtbE1JcU5zM2lTNThmeWRZYVhlNnNadkN5RDJYQUo0cW9ST3pvczhJVUlXVWdWMHpPMUtmTjVDbzBSMjJqclJQZDcz?oc=5",
+        "impacto": "Coincidencia temática directa (productividad, adopción empresarial) con la hipótesis HIP-20."
+      },
+      {
+        "titular": "Fed’s Goolsbee wants proof AI productivity gains reach beyond tech",
+        "fuente": "Radar Adopción Empresarial Real, ROI y Métricas de Productividad (Google News) (2026-11-19)",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1sMFctMm9GT0hHM3hzaDNNVzEtNmJZdHBMNDg5Q01EZTJOWkZKV1VlQVdFNjlKdnR5T19nU1NtTmRYUFhhcnNIaXVabHR0eHRJRFg1dGlqaVpFSkFmVm1kMzZIV2dQSXVNVzlYM0Q3TFd6VVBFMWhr?oc=5",
         "impacto": "Coincidencia temática directa (productividad, adopción empresarial) con la hipótesis HIP-20."
       },
       {
@@ -909,18 +939,6 @@
         "titular": "Daily Research News Online no. 40620 - Funds for AI ROI Auditor Nebuly",
         "fuente": "Radar Adopción Empresarial Real, ROI y Métricas de Productividad (Google News) (2026-11-18)",
         "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5za0xpa2wxQTNWc0Z6b0VKV1JONW5wOTBPWUxZNmdHN0oxODFhc3EwclpTRXFaUkdLc2J6SlhoNGNPRVdNeklFV0dObDdacF9oUkE?oc=5",
-        "impacto": "Coincidencia temática directa (productividad, adopción empresarial) con la hipótesis HIP-20."
-      },
-      {
-        "titular": "Tencent Profit Flatlines Amid Surging AI Investments, Revenue Growth Slows",
-        "fuente": "The Wall Street Journal — Tech & AI (Investigaciones Frontier y Fallos de Modelos) (2026-11-18)",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNTEg1QUlnRmtFd2NoV01JWWc5OV95U3hMMW9EVkhoR2c2cHllUDNETER4ejJKbXdpdWlKYTJuelpQcFdCWjRBZmdNc09EOWNsMXY2dGZZVEQxM2lTOVdIeW14U3M3VzU3UEZhc2F1eHR4RHJNYlNSY1NkcElfck5MbzVTWHNrRl8yM21iV1htZ01Ra0RtX0xzanYxX1dBMENZMnhKUkdUaEFvaHJtUXNj?oc=5",
-        "impacto": "Coincidencia temática directa (revenue growth) con la hipótesis HIP-20."
-      },
-      {
-        "titular": "AI ROI: Move From Minutes Saved To Value Created",
-        "fuente": "Radar Adopción Empresarial Real, ROI y Métricas de Productividad (Google News) (2026-11-18)",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPb3JZT0dCWm9pd3J0ZDZrVmxkQkFlYTdwU1Q4NGdxWENUVzV5RzFfZXdVeU0xUmlMVmV3T25JYzlzN1JjeHJjUF81VS1RcjZuZERDNGxLbFlhZElRdlBWOUVnek5BLVMxR2dZN2FKZ2ZDdWVZaElxX3hvejVZNjVvMDg3WFdWMGc?oc=5",
         "impacto": "Coincidencia temática directa (productividad, adopción empresarial) con la hipótesis HIP-20."
       }
     ],
@@ -941,8 +959,20 @@
     "categoria": "Politica Y Sociedad Civil",
     "status": "ACTIVA",
     "traccionScore": 98,
-    "totalSenales": 5,
+    "totalSenales": 8,
     "senalesPro": [
+      {
+        "titular": "Dude, Where Are My Billions? Ashton Kutcher Edging Closer to Super Rich Status After Anthropic IPO",
+        "fuente": "The Hollywood Reporter — AI (2026-11-20)",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPUnNPZHhaNjdjS0QxOHFJWXpzVy1lY2RZSThaYjZyTXFVc005UmpXdF9UR3JnazIzMGVPZnI4SmxqaWY5NlQydVkyMzhjdkZha3NKSWtzYk9rc0Fjc01NN0xFR2pHWjhwOWNWSTJZclp6TkNaNDhEdzgyZUtwdWZMTnB1T2VIeFJIVlJqU3paakxPcFNqM3ZzbDFKX1Y0TkRzN0E0UjU1MA?oc=5",
+        "impacto": "Coincidencia temática directa (anthropic ipo) con la hipótesis HIP-21."
+      },
+      {
+        "titular": "Dollar Heads for Fourth Week of Gains Following Anthropic IPO",
+        "fuente": "Gran Prensa Financiera Global (FT, Bloomberg, WSJ, Reuters - AI Capital Risk) (2026-11-20)",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZk10QjN0ZjR3OXFGdVI1OENkTC1WNzZFM2k4Z2VQMFk4bjFwalJtT2RxVTNFS2luNWUyYTVJZlpMcXduQmRnMHBtQ05ZTUlvUnJ3VGhGMlBRcUczbzZ2WkxEcXRadnFSckh5WWdaSnRVRHlTTGVqN0ZWdXl2NGFJYVVwTXJYYzFOVDNIZ2duSGttYklEYVZxamtWOExoT19yLW9XLVdKc1cwNDdHOTRUVVF3?oc=5",
+        "impacto": "Coincidencia temática directa (anthropic ipo) con la hipótesis HIP-21."
+      },
       {
         "titular": "US Stock Futures Jump on Blockbuster Reception to Anthropic IPO",
         "fuente": "Gran Prensa Financiera Global (FT, Bloomberg, WSJ, Reuters - AI Capital Risk) (2026-11-19)",
@@ -956,25 +986,32 @@
         "impacto": "Coincidencia temática directa (anthropic ipo) con la hipótesis HIP-21."
       },
       {
-        "titular": "Low-profile VCs set for $100bn windfall from Anthropic IPO",
-        "fuente": "Gran Prensa Financiera Global (FT, Bloomberg, WSJ, Reuters - AI Capital Risk) (2026-11-18)",
-        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQNjRQOFIzcnNkZlVyM19oTEZ4eUVibDU0SVlZM1FEdmdyRkVjVDlnMHVRbEJvYlhXZV9Dd3JHOVoxN2xySzZHY3BfUHZQdXU2N3RMNzZHbWV0UDN2WmRhSTNHVjVYa2E3MVRGUEd4eG5ncWRkVmVkVEpXYzgxOUNPWXdxWW4?oc=5",
-        "impacto": "Coincidencia temática directa (anthropic ipo) con la hipótesis HIP-21."
-      },
-      {
-        "titular": "Anthropic IPO to mint thousands of millionaires",
-        "fuente": "Reuters Technology & AI (Agentes Autónomos, Mercados y Brechas de Seguridad) (2026-11-18)",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOdW1QU3VfRndFeVFEODFZbWVTcUVkcE1CelRpYmJWZ0FleXRVd3EwbjFXeHRmbUJQUDBsQXFQc21iVjdCRHFscy1qQjZWeWhIMnF6d0NBR3gxQmRERFdyLXBDNFFpZDQtY05mT3REaThpVWdVSVQzLUtmOUpweHZmc0dvWEFjbmpxWDdadjNzaFI4ajNmNUZsVVlhb05hWm5qRFdNTV9R?oc=5",
-        "impacto": "Coincidencia temática directa (anthropic ipo) con la hipótesis HIP-21."
-      },
-      {
-        "titular": "How the Anthropic IPO stacks up against SpaceX",
-        "fuente": "Reuters Technology & AI (Agentes Autónomos, Mercados y Brechas de Seguridad) (2026-11-18)",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOWkdlbW1ReWtyUXdHSHFPaWw0Q25WdThvUlFSTDY3cGI2THcyNUtSNzVhNVZUdFVkcVF1Rzh3SWl4dVRiTEk3Z3JyLWpGeEx2aGFCYWZ3bTA2SXBia1lXcVBFd2xrRFdNQTllNUV4RGxVOWZreFlLWENXNzF5Njdsa1ZLZ0NWcEVRbzRJdnNuSm0tLTVUY280clRCaXVzOGhSekhNMkhBdGF2Wmc?oc=5",
-        "impacto": "Coincidencia temática directa (anthropic ipo) con la hipótesis HIP-21."
+        "titular": "El negocio circular de Anthropic: Amazon y Google son accionistas, proveedores y canal de venta a la vez",
+        "fuente": "Xataka — Inteligencia Artificial y Tecnología (2026-11-19)",
+        "url": "https://www.xataka.com/empresas-y-economia/amazon-google-accionistas-proveedores-canal-venta-anthropic-todo-a-vez",
+        "impacto": "Coincidencia temática directa (salida a bolsa) con la hipótesis HIP-21."
       }
     ],
-    "senalesContra": []
+    "senalesContra": [
+      {
+        "titular": "Tech stocks fall as Anthropic IPO fails to reignite AI trade",
+        "fuente": "Gran Prensa Financiera Global (FT, Bloomberg, WSJ, Reuters - AI Capital Risk) (2026-11-20)",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOeFI2NEJCRHRJS3oxQnpSc2hUclVhRzQ4TGQxRVFYbEhRWS1tdGdHMlUtR1JtWDRtdERaTEo4M1F5c2kxOUZQODJMUHdUbVNIV2wxX0ZHR2ltVkVRcW83MVVzSXpoYV9wS3I2RkdUOGtITm9lNDBjRkJlakZ0ektISDNHZzY?oc=5",
+        "impacto": "Coincidencia temática directa (anthropic ipo) con la hipótesis HIP-21."
+      },
+      {
+        "titular": "\"The bare minimum\": Democrats demand transparency ahead of Anthropic's $1T debut.",
+        "fuente": "Axios AI & Tech (Primicias Geopolíticas, Seguridad y Filtraciones Washington) (2026-11-18)",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9wSERnVnI0c3Rkd05mTlhnT1dnSUVNNWtuUlBEb0JDVXdoNEJZYVFPNjdHMjlLMWZaTWRfUFpUOTAwOXZEZjVNWWlfbS11U3JZdl9hLWdyRm1FaS1SY2Jfc1VjeHhOaXJOMzdUaE9aY3NBenhxcWR4WThBSDBBRGc?oc=5",
+        "impacto": "Confirma la presión política sobre la OPV de Anthropic, aunque no bastó para bloquear su salida a bolsa."
+      },
+      {
+        "titular": "Anthropic raises record $81 billion in IPO at $1.5 trillion valuation",
+        "fuente": "Reuters Technology & AI (Agentes Autónomos, Mercados y Brechas de Seguridad) (2026-11-18)",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPR3NST2trRTZCZkdmblYtRm5pcldXRUJTVjZkZUJ6bHJYbjFUSUJ6ZGVJNW1SMVg0ZWthVnlfVVRhZnlld192c0pBaUZSUzRZS0xGdFlYRnViSU9RYVhHWXRpVDlULS0tREUzcDhfa0NGSVIzVkFTOXBzeW5JelpBVy1RV2FFWEpwdnFhZnlqUVN0bUxWSXJaTVFzTEQxTDlFVVpkRERxQmplM0V2X3c?oc=5",
+        "impacto": "Matiza el bloqueo absoluto de salidas a bolsa (IPO Wall): Anthropic logra debutar pese al escrutinio político."
+      }
+    ]
   },
   {
     "id": "HIP-22",
@@ -1017,6 +1054,18 @@
         "impacto": "Marc Lou clona Beehiiv con MailCheap en un fin de semana y Pieter Levels declara el fin del software tradicional expuesto."
       }
     ],
+    "senalesContra": []
+  },
+  {
+    "id": "HIP-23",
+    "titulo": "Empresas Autónomas de IA, Coordinación Multi-Agente (Nivel 5) y Personalidad Jurídica Algorítmica",
+    "horizonte": "H1 (2025 - 2027)",
+    "tesis": "Los primeros experimentos de empresas operadas sin dirección humana cotidiana (Andon Market, tiendas con robots humanoides como Galbot y propuestas societarias como Delaware AIC) muestran hoy fragilidad operativa y choques legales, pero apuntan a un umbral crítico a partir de 2027: cuando los agentes superen la fricción de coordinación (techo de Coase) y exista marco jurídico, surgirán micro-negocios y verticales estandarizados rentables en piloto automático antes de alcanzar organizaciones complejas de Nivel 5.",
+    "categoria": "Organizaciones Autonomas Y Nivel 5",
+    "status": "ACTIVA",
+    "traccionScore": 50,
+    "totalSenales": 0,
+    "senalesPro": [],
     "senalesContra": []
   }
 ]
